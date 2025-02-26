@@ -45,12 +45,11 @@ jobs:
 
           mkdir -p temp_patch temp_full updates/$CURRENT_COMMIT
 
+          # 生成 ZIP 包並記錄檔案名稱
+          declare -A ZIP_SIZES
           for LANG in "${LANGUAGES[@]}"; do
-            # 生成 PATCH 包（增量更新）
             echo "Generating PATCH package for $LANG..."
             git diff --name-only $PREVIOUS_TAG $CURRENT_COMMIT > changed_files.txt
-            
-            # 過濾僅包含目標語言子目錄和非子目錄檔案，排除其他語言子目錄
             {
               grep -E "^data/character_data/$LANG/[^/]+" changed_files.txt || true
               find data/character_data/ -type f -maxdepth 1 | grep -E "^data/character_data/[^/]+$" || true
@@ -66,8 +65,8 @@ jobs:
               echo "No changes to zip" > temp_patch/empty.txt
               zip -r "temp_patch/$CURRENT_COMMIT-$LANG-PATCH.zip" temp_patch/empty.txt
             fi
+            ZIP_SIZES["$LANG-PATCH"]=$(stat -c%s "temp_patch/$CURRENT_COMMIT-$LANG-PATCH.zip")
 
-            # 生成 FULL 包（完整版本）
             echo "Generating FULL package for $LANG..."
             {
               find data/character_data/$LANG/ -type f 2>/dev/null || true
@@ -87,13 +86,17 @@ jobs:
               echo "No files for full package" > temp_full/empty.txt
               zip -r "temp_full/$CURRENT_COMMIT-$LANG-FULL.zip" temp_full/empty.txt
             fi
+            ZIP_SIZES["$LANG-FULL"]=$(stat -c%s "temp_full/$CURRENT_COMMIT-$LANG-FULL.zip")
 
-            # 移動到 updates/<commit號> 資料夾
             mv "temp_patch/$CURRENT_COMMIT-$LANG-PATCH.zip" "updates/$CURRENT_COMMIT/"
             mv "temp_full/$CURRENT_COMMIT-$LANG-FULL.zip" "updates/$CURRENT_COMMIT/"
           done
 
-          # 清理臨時檔案
+          # 將 ZIP 大小寫入臨時檔案供後續使用
+          for key in "${!ZIP_SIZES[@]}"; do
+            echo "$key:${ZIP_SIZES[$key]}" >> zip_sizes.txt
+          done
+
           rm -rf temp_patch temp_full changed_files.txt patch_files.txt full_files.txt
 
       - name: Update info.json
@@ -101,18 +104,29 @@ jobs:
           CURRENT_TAG=${{ steps.get_info.outputs.current_tag }}
           CURRENT_COMMIT=${{ steps.get_info.outputs.current_commit }}
           CREATED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          CREATED_AT_UNIX=$(date -u +%s%3N)
 
           mkdir -p updates
           if [ ! -f updates/info.json ]; then
             echo '{"updates": []}' > updates/info.json
           fi
 
+          # 構建 size 物件的 JSON 片段
+          SIZE_JSON=$(awk -F: '{printf "\"%s\": %s,", $1, $2}' zip_sizes.txt | sed 's/,$//')
+          SIZE_JSON="{${SIZE_JSON}}"
+
+          # 更新 info.json，包含 created_at_unix 和 size
           jq --arg commit "$CURRENT_COMMIT" \
              --arg time "$CREATED_AT" \
+             --argjson unix "$CREATED_AT_UNIX" \
              --arg version "$CURRENT_TAG" \
-             '.updates += [{"commit": $commit, "created_at": $time, "version": $version}]' \
+             --argjson size "$SIZE_JSON" \
+             '.updates += [{"commit": $commit, "created_at": $time, "created_at_unix": $unix, "version": $version, "size": $size}]' \
              updates/info.json > temp_info.json
           mv temp_info.json updates/info.json
+
+          # 清理臨時檔案
+          rm -f zip_sizes.txt
 
       - name: Commit and Push to Repository
         run: |
