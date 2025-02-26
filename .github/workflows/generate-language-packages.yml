@@ -1,0 +1,124 @@
+name: Generate Language-Based ZIP Packages
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  generate-packages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.release.target_commitish }}
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Get Release Info
+        id: get_info
+        run: |
+          CURRENT_TAG=${{ github.event.release.tag_name }}
+          CURRENT_COMMIT=$(git rev-parse HEAD)
+          PREVIOUS_TAG=$(git tag --sort=-v:refname | grep -v "$CURRENT_TAG" | head -n 1)
+          if [ -z "$PREVIOUS_TAG" ]; then
+            echo "No previous tag found, using initial commit."
+            PREVIOUS_TAG=$(git rev-list --max-parents=0 HEAD)
+          fi
+          TARGET_BRANCH=${{ github.event.release.target_commitish }}
+          echo "current_tag=$CURRENT_TAG" >> $GITHUB_OUTPUT
+          echo "current_commit=$CURRENT_COMMIT" >> $GITHUB_OUTPUT
+          echo "previous_tag=$PREVIOUS_TAG" >> $GITHUB_OUTPUT
+          echo "target_branch=$TARGET_BRANCH" >> $GITHUB_OUTPUT
+
+      - name: Generate Language-Based Packages
+        run: |
+          CURRENT_TAG=${{ steps.get_info.outputs.current_tag }}
+          CURRENT_COMMIT=${{ steps.get_info.outputs.current_commit }}
+          PREVIOUS_TAG=${{ steps.get_info.outputs.previous_tag }}
+
+          LANGUAGES=("de" "en" "es" "fr" "id" "jp" "kr" "pt" "ru" "th" "vi" "zh_cn" "zh_hk")
+
+          mkdir -p temp_patch temp_full updates/$CURRENT_COMMIT
+
+          for LANG in "${LANGUAGES[@]}"; do
+            # 生成 PATCH 包（增量更新）
+            echo "Generating PATCH package for $LANG..."
+            git diff --name-only $PREVIOUS_TAG $CURRENT_COMMIT > changed_files.txt
+            
+            # 過濾僅包含目標語言子目錄和非子目錄檔案，排除其他語言子目錄
+            {
+              grep -E "^data/character_data/$LANG/[^/]+" changed_files.txt || true
+              find data/character_data/ -type f -maxdepth 1 | grep -E "^data/character_data/[^/]+$" || true
+              grep -E "^data/lightcone_data/$LANG/[^/]+" changed_files.txt || true
+              find data/lightcone_data/ -type f -maxdepth 1 | grep -E "^data/lightcone_data/[^/]+$" || true
+              grep -E "^data/relic_data/$LANG/[^/]+" changed_files.txt || true
+              find data/relic_data/ -type f -maxdepth 1 | grep -E "^data/relic_data/[^/]+$" || true
+              grep -E "^data/(memory_of_chao_data/|lottery_data/|pure_fiction_data/|material_list.json)" changed_files.txt || true
+            } > patch_files.txt
+            if [ -s patch_files.txt ]; then
+              zip -r "temp_patch/$CURRENT_COMMIT-$LANG-PATCH.zip" . -i@patch_files.txt -x "*/images/*"
+            else
+              echo "No changes to zip" > temp_patch/empty.txt
+              zip -r "temp_patch/$CURRENT_COMMIT-$LANG-PATCH.zip" temp_patch/empty.txt
+            fi
+
+            # 生成 FULL 包（完整版本）
+            echo "Generating FULL package for $LANG..."
+            {
+              find data/character_data/$LANG/ -type f 2>/dev/null || true
+              find data/character_data/ -type f -maxdepth 1 || true
+              find data/lightcone_data/$LANG/ -type f 2>/dev/null || true
+              find data/lightcone_data/ -type f -maxdepth 1 || true
+              find data/relic_data/$LANG/ -type f 2>/dev/null || true
+              find data/relic_data/ -type f -maxdepth 1 || true
+              find data/memory_of_chao_data/ -type f 2>/dev/null || true
+              find data/lottery_data/ -type f 2>/dev/null || true
+              find data/pure_fiction_data/ -type f 2>/dev/null || true
+              find data/ -maxdepth 1 -type f -name "material_list.json" || true
+            } > full_files.txt
+            if [ -s full_files.txt ]; then
+              zip -r "temp_full/$CURRENT_COMMIT-$LANG-FULL.zip" . -i@full_files.txt -x "*/images/*"
+            else
+              echo "No files for full package" > temp_full/empty.txt
+              zip -r "temp_full/$CURRENT_COMMIT-$LANG-FULL.zip" temp_full/empty.txt
+            fi
+
+            # 移動到 updates/<commit號> 資料夾
+            mv "temp_patch/$CURRENT_COMMIT-$LANG-PATCH.zip" "updates/$CURRENT_COMMIT/"
+            mv "temp_full/$CURRENT_COMMIT-$LANG-FULL.zip" "updates/$CURRENT_COMMIT/"
+          done
+
+          # 清理臨時檔案
+          rm -rf temp_patch temp_full changed_files.txt patch_files.txt full_files.txt
+
+      - name: Update info.json
+        run: |
+          CURRENT_TAG=${{ steps.get_info.outputs.current_tag }}
+          CURRENT_COMMIT=${{ steps.get_info.outputs.current_commit }}
+          CREATED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          mkdir -p updates
+          if [ ! -f updates/info.json ]; then
+            echo '{"updates": []}' > updates/info.json
+          fi
+
+          jq --arg commit "$CURRENT_COMMIT" \
+             --arg time "$CREATED_AT" \
+             --arg version "$CURRENT_TAG" \
+             '.updates += [{"commit": $commit, "created_at": $time, "version": $version}]' \
+             updates/info.json > temp_info.json
+          mv temp_info.json updates/info.json
+
+      - name: Commit and Push to Repository
+        run: |
+          TARGET_BRANCH=${{ steps.get_info.outputs.target_branch }}
+          git add updates/*
+          git commit -m "Add update packages and info for ${{ steps.get_info.outputs.current_tag }}"
+          git push origin $TARGET_BRANCH
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
