@@ -57,7 +57,7 @@ jobs:
               find data/lightcone_data/ -type f -maxdepth 1 | grep -E "^data/lightcone_data/[^/]+$" || true
               grep -E "^data/relic_data/$LANG/[^/]+" changed_files.txt || true
               find data/relic_data/ -type f -maxdepth 1 | grep -E "^data/relic_data/[^/]+$" || true
-              grep -E "^data/(memory_of_chao_data/|lottery_data/|pure_fiction_data/|apocalyptic_shadow_data/|material_list.json/|bgs.json/)" changed_files.txt || true
+              grep -E "^data/(memory_of_chao_data/|lottery_data/|pure_fiction_data/|apocalyptic_shadow_data/|iirc_data/|material_list.json|bgs.json)" changed_files.txt || true
             } > patch_files.txt
             if [ -s patch_files.txt ]; then
               zip -r "temp_patch/$CURRENT_COMMIT-$LANG-PATCH.zip" . -i@patch_files.txt -x "*/images/*"
@@ -79,7 +79,9 @@ jobs:
               find data/lottery_data/ -type f 2>/dev/null || true
               find data/pure_fiction_data/ -type f 2>/dev/null || true
               find data/apocalyptic_shadow_data/ -type f 2>/dev/null || true
+              find data/iirc_data/ -type f 2>/dev/null || true
               find data/ -maxdepth 1 -type f -name "material_list.json" || true
+              find data/ -maxdepth 1 -type f -name "bgs.json" || true
             } > full_files.txt
             if [ -s full_files.txt ]; then
               zip -r "temp_full/$CURRENT_COMMIT-$LANG-FULL.zip" . -i@full_files.txt -x "*/images/*"
