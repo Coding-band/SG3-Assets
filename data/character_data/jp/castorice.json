@@ -1,0 +1,4906 @@
+{
+ "spRequirement": 0,
+ "iconPath": "0755251be6e370916344ea61e5e0514c7a24d23e388e76c0d949e62436d22bcf",
+ "bgPath": "d05e5d6a52a89e83512e36128d618b04a2263abf7d52741dc13c4bc4ac55ede4",
+ "figPath": "3b8cdf2b1d118e92e3ff661c0f122cf5c000c697a836015568f6d2a82e86bf59",
+ "fgPath": "f0d26e7d0c8b4ab43d0f5af22450e8373ae9cc200a3c4c378637f0ae988cd506",
+ "splashIconPath": "5310780d610c5dfd43199c0d6a65c64d5a527fd6db0d932e3a61ff7e557b4003",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRpQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAsBAAABkGtr27E59/t9Y9vT2UbrmTjpnANgOes/hdi2rS6VXU8V26mM733vu3i/5BgiYgIQa8LQGPghYgP4ZX17z55cWQAYD0jKW7Zz3z1JujcrCwYoSMzb91qSaG2kr1eqEGBAkqLIOZJ0f5SAweRvWkeSIkWrmyFa71pSEiWRdFoFs/Sxoy9KEp3mI3nyi0hR/4y0G+mrf4qk4kmnW8nBFsbGUHR61lV4WZ58inR6N1p39Y8lSUkUvTejtWfe/3T6H+rdjOLEvc8RSYoUrbN6WBOOnXvzyyNp5Z8GBg+/lrORr+jB6y/HqxBUF0//oPipMZSWILbx0u+pA9vWb1iUAQDGAAhauxpSEBvAGAAAVlA4IGIBAABwCACdASoUABQAPm0ylEekIqIhKAgAgA2JZgCdMt1eDcBtpfEz/QD3irJDJU/4wfoj0Ut9V/YAMEXAOvQeFpgeW4zEx2nk7WO7GNYAAP7h0VJGJb2IvEafudORcytqy2ZuxLgjELJT1PuyYmVjcCBlKNxGw8oarwpSu4Ci0mb9hIqiXanSCRNH2GwifuOX11BG90mVGoH0sN+ox2gkLKHMdEDNdsRgXA7m7+GoQP/m90yS5NK1+yJk9eY/Yrc6h4ExhqmBOlfsxzwQQQxM33pIpGPC1PzvusVk06Eolybdz/PeRG43FBoCcMsXFT/hq3LisQ+ljb6CR3i1eAisBqtWSN7NIOH405xf1sKVx/xUl21sFJ6pWF8VTFRHiyhm+LFr56bGSRvAm4lXP94Xo2t9iyS5wslDud2EY8IYLEx1+w6ySjq1o9femOlFWNNNgqLhPXhPlwFOQIgojDO3EYQAAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用ポイント",
+   "desc": "スターピースカンパニーが顧客との決済に使用している貨幣。現在は宇宙旅行をする時の決済通貨となっている。",
+   "lore": "「人々は、端末に表示される数字のためだけに奔走し、戦い、取引をする。しかし、本当に大切なものは、カンパニーの数字で買えるものではない」",
+   "purpose": "星間通貨",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "疑似花萼「大鉱区」",
+    "疑似花萼「工造司」",
+    "疑似花萼「ホテル・『レバリー』-夢境」",
+    "疑似花萼「『囁きの密林』神悟の樹庭」",
+    "クエスト報酬",
+    "依頼報酬",
+    "エンバー交換"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "運命の足跡",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "幾度の敗北があなたに勝利をもたらし、一歩一歩の前進があなたを運命の転換点へと導いた。",
+   "purpose": "軌跡素材",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模擬宇宙」ポイント報酬",
+    "ナナシの勲功",
+    "エンバー交換",
+    "星芒交換",
+    "期間限定イベント報酬"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫遊指南",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>20000</nobr>獲得できる。",
+   "lore": "世界を渡り歩くためには欠かせない、冒険手引き集。閲覧キーを押すと、電子音声が理解可能な言語で、有名な冒険者たちが様々な世界で体験したことや、彼らが色々な星で得た貴重な知識を語り聞かせてくれる。<br /><br />「漫遊指南最新シリーズ『スペースグルメガイド』が現在発売中。ぜひお買い求めください」<br />「投稿の際は、博識学会共感覚ビーコンのオペレーター<nobr>23</nobr>θにお繋ぎください。原稿料はあなたが普段から利用している方法でお振込みいたします」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "「忘却の庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒険記録",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>5000</nobr>獲得できる。",
+   "lore": "綺麗に装丁された、一目でためになるとわかる冒険日誌。冒険に関する細かい描写、価値のある情報、サバイバル術が書かれている。<br /><br />「なんで数字化してデバイスに保存しないの？持ち歩きやすくなるでしょ」<br />「お前が思っているより、先進技術は恒星嵐や中性子噴出に弱いんだ。なにより、この本の制作者は、最も簡単な方法で人々に読んでもらいたかったんだろう」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "デイリー訓練",
+    "エンバー交換"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅の見聞",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>1000</nobr>獲得できる。",
+   "lore": "旅の出来事を記した日記。字はかすれており、不鮮明。思うままに内容が書かれてあるので、あまり助けにはならないだろう。<br /><br />「読み終わったら早くその紙切れを捨てるのよ、丹恒？」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "依頼報酬"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "吉光の羽",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "死ぬ直前の万物が動きを止める時のみ、人はこの神聖な羽が舞い落ちる様子を目にできる。威霊飛黄は、帝弓が顕現させた七相の中で最も素早い。<br /><br />「ソレを狩るために<nobr>12</nobr>もの昼夜を費やしてやっと、ソレが自分の身体の中にあると気づいた」",
+   "purpose": "軌跡素材",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "歴戦余韻「競鋒艦」"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "遠くから近づく悲鳴",
+   "desc": "暗黒の潮の造物の肉体を構成する部分。強化に必要な普通素材。",
+   "lore": "不気味な頭部が雄叫びをあげ、折れた刃はすべてを断ち切る。しかし、それでも災いの源は暗闇に埋もれ続け、死の陰影に覆われている。<br /><br />「なぜ墓前で1人涙を流しているのか？」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "均衡Lv.2に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "あるようでない予兆",
+   "desc": "暗黒の潮の造物の体から落ちた欠片。強化に必要な簡易素材。",
+   "lore": "不運の訪れは常に予兆がないものだ。気づいた時には、それはすでに世界を席巻する災いとなっている。<br /><br />「弔鐘は運命の終わりで鳴り響く」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "暗黒の潮の造物からドロップ",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "依頼報酬",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換",
+    "疑似花萼（金）"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "果てしなく続く悲嘆",
+   "desc": "暗黒の潮の造物の死後に凝縮した結晶体。強化に必要な高級素材。",
+   "lore": "無より生まれ、再び無へと帰る。侵蝕によって創られた歪んだ生命は、不毛の大地を彷徨い続ける宿命にあるのだ。<br /><br />「その生命は破滅と悲哀に満ちていた」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "均衡Lv.4に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6103825": {
+   "id": 6103825,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
+   "name": "夜の帳に輝く月華",
+   "desc": "ムーンライトペガサスが落とした異形の冠。量子属性キャラクターの昇格素材。",
+   "lore": "ある夜の伝説では、オロニクスが太陽の光を盗み、それを月に捧げたという。天馬たちは降り注ぐ月の光を運び、エーグルが目を閉じているときでも大地を明るく照らしたそうだ。<br /><br />「月の輝きが、太陽に匹敵するはずがあろうか？」",
+   "purpose": "キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/6103825",
+   "comeFrom": [
+    "凝結虚影「『囁きの密林』神悟の樹庭」",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "マナの苗",
+   "desc": "記憶の細胞は思惟を抽出し、銘を刻む者の心の奥深くに根付く。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を中アップできる。",
+   "lore": "種子は発芽すると枝芽が交錯してシナプスのように信号を伝達する。時の流れの中で枝葉の一部は枯れていき、一部は生命を育んで魂の器となる。<br /><br />「我々は肉体を捨てたのではない…より長く生きる何かになっただけである」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "「万能合成マシン」- 素材合成",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "アラヤの花",
+   "desc": "生命のもう1つの存在方法、宇宙が忘れえぬ物質。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を大アップできる。",
+   "lore": "成熟すると歴史を搦めとる網となり、過ぎ去りし時間の花となる。生命は種にとって畑であり花芯でもある。もしあなたが花芯なら、あなたは宇宙を記憶し、宇宙はあなたを記憶するだろう。あなたが記憶そのものなのだ。<br /><br />「記憶は万物の実体である。煩悩なき浄土に生も死もあらず」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "「万能合成マシン」- 素材合成",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "イの種",
+   "desc": "意識と物質が交わり、記憶の卵を生み出す。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を小アップできる。",
+   "lore": "あなたが何かを見聞きして何かを感じるまでは存在しないもの。感じ取ることで生まれたそれはやがて沈黙して思考の苗床に埋もれていく。いつか芽を出すかもしれないし、芽を出さないかもしれない。<br /><br />「それは私たちの身体を構成し、あなたが記憶するからこそ存在できる」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 71.28,
+   "attackAdd": 3.564,
+   "hpBase": 221.76,
+   "hpAdd": 11.088,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 99.792,
+   "attackAdd": 3.564,
+   "hpBase": 310.464,
+   "hpAdd": 11.088,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 128.304,
+   "attackAdd": 3.564,
+   "hpBase": 399.168,
+   "hpAdd": 11.088,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 156.816,
+   "attackAdd": 3.564,
+   "hpBase": 487.872,
+   "hpAdd": 11.088,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 3.564,
+   "hpBase": 576.576,
+   "hpAdd": 11.088,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 213.84,
+   "attackAdd": 3.564,
+   "hpBase": 665.28,
+   "hpAdd": 11.088,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 242.352,
+   "attackAdd": 3.564,
+   "hpBase": 753.984,
+   "hpAdd": 11.088,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "6a5c18ec9109a2f709bd15f24e877c76e8d0f1a31984168fca3c6ecbe53c1942",
+   "artPath": "19f587931e9ee2769b20bab19b749c19831b1ee3d57d7437c42078d5d8e65782",
+   "name": "雪地の聖女、<br />記憶を棺に閉じ込めて",
+   "descHash": "敵の残りHPが自身の最大HPの<nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>以下の時、その敵に対する「骸爪、冥竜の抱擁」、「冥茫裂く爪痕」、「晦冥焼き払う息吹」、「幽墟奪略の晦翼」の与ダメージは本来の<nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr>になる。",
+   "params": [
+    0.8,
+    0.5,
+    1.2,
+    1.4
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "58cd19c645bc9f26062fbf41e01a22a2de1421e475935c5e91203eea51d185eb",
+   "artPath": "b92a49e0c7a9f81e2f8411e19006d335c39ff8e61ec2f688ae7ed76fbb48baaa",
+   "name": "翼翅と花の冠を戴く",
+   "descHash": "記憶の精霊「死竜」を召喚した後、キャストリスは「熾意」を<nobr>#1[i]</nobr>層獲得する。「熾意」は最大で<nobr>#2[i]</nobr>層累積でき、死竜の精霊スキル「晦冥焼き払う息吹」が消費するHPの代わりとして消費できる。さらにキャストリスの<u>行動順が<nobr>100%</nobr>早まり</u>、次の強化戦闘スキル発動後、キャストリスは「新蕾」の上限<nobr>#3[i]%</nobr>分の「新蕾」を獲得する。",
+   "params": [
+    2,
+    2,
+    0.3
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "62139b57457b743de37c387c5dbbe87f3a36e8187aa7bc7e2056d3f79de4d6c2",
+   "artPath": "fc1089d44ed0ed93f2d6651f85d8f90b003db56da1c8b3ac3a6c7b0fbb04c5ec",
+   "name": "敬虔な旅人、<br />死境で軽やかに舞って",
+   "descHash": "必殺技のLv.+2、最大Lv.<nobr>15</nobr>まで。通常攻撃のLv.+1、最大Lv.<nobr>10</nobr>まで。精霊天賦のLv.+1、最大Lv.<nobr>10</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "1d2b97b152b80e2d6fa36313751acde00a1c5cd28a061ae31effaa7985d83bf9",
+   "artPath": "b0e60d52b49a5caadff3ff2ace9aca430af5be20b1dc3ab55f361b662a04e8ee",
+   "name": "哀歌を抱く安らかな眠り",
+   "descHash": "キャストリスがフィールドにいる時、味方全体が治癒を受けた場合、回復量+<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "artPath": "e6dac543e995312ea1add1d089f5f730eadb68f5924515db50ab4eed2f9a4061",
+   "name": "純白の新編、<br />預言で彩られて",
+   "descHash": "戦闘スキルのLv.+2、最大Lv.<nobr>15</nobr>まで。天賦のLv.+2、最大Lv.<nobr>15</nobr>まで。精霊スキルのLv.+1、最大Lv.<nobr>10</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3e42ac5a714b0240b24763ee6ca4c29b3f298ce86f4b74d5efcab15c455289e0",
+   "artPath": "a3d148d335af4aaa7ef8726d19975cbcf1e0ff67a82e3f21d51d8449deba5ee7",
+   "name": "流年を待ち繭を破る",
+   "descHash": "キャストリスと死竜がダメージを与えた時、量子属性<u>耐性貫通</u>+<nobr>#1[i]%</nobr>。死竜は攻撃時、弱点属性を無視して敵の靭性を削ることができる。敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。また、精霊天賦「幽墟奪略の晦翼」のバウンド回数+<nobr>#2[i]</nobr>。",
+   "params": [
+    0.2,
+    3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   12091651
+  ],
+  [
+   12285822,
+   12465910
+  ],
+  [
+   12526956
+  ],
+  [
+   12262238
+  ],
+  [
+   12554901
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "単体攻撃",
+   "descHash": "指定した敵単体にキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12091651,
+   "name": "哀悼、死海の小波",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "通常攻撃",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "拡散攻撃",
+   "descHash": "味方それぞれの残りHP<nobr>#1[i]%</nobr>分のHPを消費し、指定した敵単体にキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与え、さらに隣接する敵にキャストリスの最大HPの<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。<br />残りHPが足りない場合、残りHPが1になる。<br />死竜がフィールドにいる時、戦闘スキルは「骸爪、冥竜の抱擁」に切り替わる。",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12285822,
+   "name": "沈黙、幽蝶の慈しみ",
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "typeDescHash": "戦闘スキル",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.3,
+      0.25,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.275,
+      0.165
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.3,
+      0.18
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.325,
+      0.195
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.35,
+      0.21
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.375,
+      0.225
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.40625,
+      0.24375
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.4375,
+      0.2625
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.46875,
+      0.28125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.5,
+      0.3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.525,
+      0.315
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.55,
+      0.33
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.575,
+      0.345
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.6,
+      0.36
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.625,
+      0.375
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "召喚",
+   "descHash": "<u>記憶の精霊「死竜」を召喚</u>し、その<u>行動順を<nobr>100%</nobr>早める</u>。同時に、<u>境界</u>「遺世の冥域」を展開し、敵全体の全属性耐性を<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>ダウンさせる。キャストリスが天賦のダメージアップ効果を持っている場合、死竜にその効果を拡散する。死竜は<nobr>#1[i]</nobr>の初期速度と、「新蕾」の上限<nobr>#3[i]%</nobr>分の固定最大HPを持つ。<br />死竜は自身のターンが<nobr>#2[i]</nobr>回経過した後、またはHPが0になった時にフィールドから消え、同時に<u>境界</u>「遺世の冥域」を解除する。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12526956,
+   "name": "亡者の怒哮、蘇生の鐘",
+   "iconPath": "70cd5e879fb5addfffc0c7f2f9a5d91f931d0ba2179490181293155501e90225",
+   "typeDescHash": "必殺技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1,
+      0
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.11,
+      0
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.12,
+      0
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.13,
+      0
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.14,
+      0
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.15,
+      0
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1625,
+      0
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.175,
+      0
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1875,
+      0
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.2,
+      0
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.21,
+      0
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.22,
+      0
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.23,
+      0
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.24,
+      0
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.25,
+      0
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "強化",
+   "descHash": "「新蕾」の上限はフィールド上にいるすべてのキャラのレベルと関係している。味方全体がHPを1失うたびに、キャストリスは「新蕾」を1獲得する。「新蕾」が上限に達すると必殺技を発動できる。味方がHPを失った時、キャストリスと死竜の与ダメージ+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>、この効果は最大で<nobr>#3[i]</nobr>層累積できる。<nobr>#4[i]</nobr>ターン継続。<br />ただし、死竜がフィールドにいる時は、キャストリスは天賦を通じて「新蕾」を獲得することはできない。また、死竜以外の味方がHPを1失うたびに、失ったのと同等のHPが死竜のHPに変換される。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12262238,
+   "name": "手のひらを伝う衰亡",
+   "iconPath": "228e1a89a2978c60476f6309964e57a365441bfac1a443706e45d252ab91c04e",
+   "typeDescHash": "天賦",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0,
+      0.1,
+      3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.11,
+      3,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.12,
+      3,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.13,
+      3,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.14,
+      3,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.15,
+      3,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1625,
+      3,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.175,
+      3,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1875,
+      3,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.2,
+      3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.21,
+      3,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.22,
+      3,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.23,
+      3,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.24,
+      3,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.25,
+      3,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12303521,
+   "name": "攻撃",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "秘技を使用した後、<nobr>#3[i]</nobr>秒間継続する「冥茫」状態に入る。「冥茫」状態の敵はキャストリスに近づくことができない。<br />「冥茫」状態で攻撃を行うと、範囲内のすべての敵が戦闘に入る。同時に<u>記憶の精霊「死竜」を召喚</u>し、その<u>行動順を<nobr>100%</nobr>早め</u>、<u>境界</u>「遺世の冥域」を展開する。「死竜」の残りHPは「新蕾」の上限<nobr>#2[i]%</nobr>分となる。戦闘に入った後、死竜以外の味方全体の残りHPを<nobr>#1[i]%</nobr>消費する。<br />なお、戦闘に入った後、死竜を召喚しなかった場合、キャストリスは「新蕾」の上限<nobr>#4[i]%</nobr>分の「新蕾」を獲得する。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12554901,
+   "name": "慟哭、死の兆しを贈る",
+   "iconPath": "52a338de9ce8e043c60882c1407caca640c8b260e28f6cc5de1d68f2db942637",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.5,
+      20,
+      0.3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "全体攻撃",
+   "descHash": "死竜以外の味方の残りHP<nobr>#1[i]%</nobr>分のHPを消費し、キャストリスと死竜が<u>連携攻撃</u>を行い、敵全体にキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>分と<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。<br />残りHPが足りない場合、残りHPが1になる。",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12465910,
+   "name": "骸爪、冥竜の抱擁",
+   "iconPath": "9706a28240e969d9fe4d3575f73422344bb8066fb856bc841555bc087d19faed",
+   "typeDescHash": "戦闘スキル",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.15,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.165,
+      0.275
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.18,
+      0.3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.195,
+      0.325
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.21,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.225,
+      0.375
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.24375,
+      0.40625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.2625,
+      0.4375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.28125,
+      0.46875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.3,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.315,
+      0.525
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.33,
+      0.55
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.345,
+      0.575
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.36,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.375,
+      0.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1407101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1542891,
+      "name": "会心ダメージ強化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "会心ダメージ",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1300735,
+      "name": "会心率強化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "死竜以外の味方が治癒を受けた後、治癒量の<nobr>#1[i]%</nobr>を「新蕾」に変換する。ただし、死竜がフィールドにいる場合は、死竜のHPに変換される。味方それぞれが累積できる変換量のカウントは「新蕾」の上限の<nobr>#2[i]%</nobr>を超えない。任意のユニットが行動した後、累積できる変換量のカウントはリセットされる。",
+    "ultimateCost": 0,
+    "id": 885030,
+    "name": "瓶の中の暗流",
+    "iconPath": "2eb19a53b226e83162e67661a9edaa0bb35a68ad0e9932cd8474983103b4a812",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1322499,
+      "name": "ダメージ強化・量子",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">量子</span>属性ダメージ",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1080336,
+      "name": "会心率強化",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "キャストリスの残りHPが自身の最大HP<nobr>#1[i]%</nobr>以上の時、キャストリスの速度+<nobr>#2[i]%</nobr>。死竜が「晦冥焼き払う息吹」を発動し、フィールドにいるすべての敵にHPが0になるダメージを与えた時、または敵のHPがそれ以上削れない時、死竜の速度+<nobr>#3[i]%</nobr>、1ターン継続。",
+    "ultimateCost": 0,
+    "id": 636727,
+    "name": "反転した炬火",
+    "iconPath": "ce7293434a82dfaf3b4972f4f3977ed1f9b82326ee316f43cc99bea9def49f96",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       0.4,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1407209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1407210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 18145452,
+          "name": "会心率強化",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "会心率",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 3526997,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 1085508,
+        "name": "ダメージ強化・量子",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#7788ff;\">量子</span>属性ダメージ",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 1327658,
+      "name": "会心ダメージ強化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "会心ダメージ",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 3526997,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "死竜が「晦冥焼き払う息吹」を発動するたびに、与ダメージ+<nobr>#1[i]%</nobr>。この効果は最大<nobr>#2[i]</nobr>層まで累積できる。ターンが終了するまで継続。",
+    "ultimateCost": 0,
+    "id": 875201,
+    "name": "寸陰留まる西風",
+    "iconPath": "022fee3a2fb0aed2db5df8d55534cedb10f6792ae204eee68305a6eeeb0b0a5b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1407202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1529520,
+      "name": "ダメージ強化・量子",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">量子</span>属性ダメージ",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1287390,
+      "name": "会心率強化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 1245350,
+    "name": "会心率強化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "会心率",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初対面",
+   "text": "オクヘイマへようこそ、私はキャストリスと申します——あ…ごめんなさい、人と距離をとってしまうのは私の癖のようなものでして。もう少し傍に行くこともできないわけではないのです…その、あなたさえよければですが……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "挨拶",
+   "text": "寒いのですか？でしたら…陽光の下を一緒に散歩するのはどうでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "お別れ",
+   "text": "別れの時はあっという間に来てしまいますね——どうか歩みが止まることなく、それぞれの道を進み続けられますように。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "自分について・務め",
+   "text": "今の私の務めは、犠牲となった黄金裔とタイタンに哀悼の意を捧げること。この世を去る最期の瞬間…彼らの目に映るのが果てのない暗闇ではなく、安らぎに満ちた花畑であってほしいと願っています。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "自分について・過去1",
+   "text": "かつての私は、独りきりで彷徨っていました。まるで群れからはぐれて、行く先もわからない蝶のように…ですが今は違います——火を追う旅やオクヘイマで出会った仲間、そして道中で出会ってきた人々が、次に羽ばたいていくべき方向を教えてくれているからです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "自分について・過去2",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "開拓クエスト「魔女の鏡、廻天を見せよ」をクリアした後に解放",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "世間話",
+   "text": "本を読む時は自分を登場人物に見立てて、その世界に入り込むのが好きなのです。たとえば——私、料理が苦手なのですが、さまざまなレシピを眺めていると、まるで自分が上手に料理をしているような感覚になったりして…ふふ、不思議ですよね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "趣味",
+   "text": "可愛いものを見るたび、その可愛さを小さなぬいぐるみで表現したくなりまして…フェルトを使えば形を忠実に再現できますし、糸で編んで伸縮性のある綿を詰めれば柔らかい手触りに。小さな動物だけではなく、大きめのザグレウスのぬいぐるみに、いろんな表情をしたグル卵のぬいぐるみもありますよ。抱きしめて眠るといつも安眠できます。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "悩み事",
+   "text": "小さなキメラを2匹飼って、そのふかふかな毛に顔を埋めて、それから一緒に野原を駆け回ってみたいです——ですが、無理ですよね…やはりキメラのぬいぐるみを2つ作ることにしましょう……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "シェア",
+   "text": "エイジリアにいた頃、そこの人たちと一緒に青い「アンティリン花」で綺麗な花冠を編んで、犠牲となった戦士たちに被せて送り出していました…そして彼らがステュクスを下っていく姿を見送る——来る日も来る日も、それを繰り返していたのです……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "見聞",
+   "text": "故郷を偲ぶ戦士のうわ言、母親が我が子を慰める童謡、少女が恋人に遺した最後の手紙…葬儀を終えるたび、死者が遺してくれた記憶が1つずつ増えていく——これらはかつて、彼らが生きていた温もりそのものだった……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "開拓者について",
+   "text": "次に花が咲き誇る時、新しい世界で再び会えるのなら…どうか私たちの約束を忘れないでいてくださいね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "ボリュシアについて",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "開拓クエスト「魔女の鏡、廻天を見せよ」をクリアした後に解放",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "アグライアについて",
+   "text": "氷のように冷たい手でなければ、熱い火種を握ることなどできない…きっと、アグライア様はそれを早くから理解されていたのでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "トリビー・トリアン・トリノンについて",
+   "text": "きっと誰もが繭を破って蝶となり、広大な空へ飛び立ちたいと願うことでしょう——ですが、彼女たちだけは…この世界の新生のために、繭の中へ戻ることを選んだのです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "モーディスについて",
+   "text": "紛争がもたらす死というのは、常に苦痛と暗闇に満ちているものです。しかし、モーディス様が相手に与えたものは、栄光に満ちた犠牲でした。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "ファイノンについて",
+   "text": "人は失ったものが多ければ多いほど、すべてを取り戻したいという渇望が一層強くなるものです…おそらく、それが世界を最後まで導こうとする理由なのでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "アナイクスについて",
+   "text": "かつて、先生が教えてくださったのです。亡くなった人の前でも冷静に…心の悲しみを口にしてはいけないと。「死の練習」、それこそが彼にとって一生をかけた課題なのだと——後になってようやく理解できました。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "ヒアンシーについて",
+   "text": "たとえ数え切れないほどの死別を経験してきたとしても、不治の病に苦しむ人々のため、涙する…ですが、その涙は決して病室には持ち込まないのです。きっと、彼女が見せていたいのは、優しい陽光のような希望だからなのでしょうね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "サフェルについて",
+   "text": "あの方は早くに半神になったのです。彼女の考えは謎に包まれていて、行動も掴みどころがありません…いつも「火を追う旅なんて割に合わない」と愚痴をこぼしていますが、その背後には何か言葉にできない苦しみが隠れているように感じます……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "星魂覚醒",
+   "text": "どれほど凍えそうな向こう岸だとしても、花の香りはするものです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "キャラクター昇格",
+   "text": "見てください、光が差し込んできました。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "レベルMax",
+   "text": "万物は流転し、生死には秩序があります…終わりも、また始まりなのです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "軌跡覚醒",
+   "text": "人の世に残る痕跡は、死よりも遥かに長く残るのでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "パーティ編成・開拓者",
+   "text": "大丈夫ですよ。戦場では背負う呪いも祝福になるのですから。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "パーティ編成・アグライア",
+   "text": "ご安心ください、アグライア様。すぐに終わらせますから。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "パーティ編成・トリビー",
+   "text": "トリビー様、私についてきてくださいね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "パーティ編成・モーディス",
+   "text": "モーディス様、それぞれの役割を果たしましょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "パーティ編成・アナイクス",
+   "text": "先生、今回はどんな教えを授けていただけるのでしょうか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "戦闘開始・弱点撃破",
+   "text": "もうすぐ…あなたも冥界へ向かうことになるでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "戦闘開始・危険予知",
+   "text": "危機が迫っています。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "ターン・1",
+   "text": "命は蝶の羽のように脆いものではありません。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "ターン・2",
+   "text": "生ある時間…大切にしてください。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "戦闘中待機",
+   "text": "最後の瞬間が訪れるまで、ここで待っていましょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "通常攻撃",
+   "text": "眠りなさい。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "戦闘スキル・1",
+   "text": "朽ち果てなさい。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "戦闘スキル・2",
+   "text": "死を授けましょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "強化戦闘スキル・1",
+   "text": "魂よ、土へ還れ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "強化戦闘スキル・2",
+   "text": "死の幕よ、私と共に。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "攻撃を受ける",
+   "text": "大丈夫です。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "重撃を受ける",
+   "text": "痛みますね…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "必殺技・アクティブ",
+   "text": "「新生」を抱きしめて、ボリュクス。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "必殺技・発動",
+   "text": "私たちを守って、「死」よ！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "戦闘不能",
+   "text": "西風が…あたたかい…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "戦闘に戻る",
+   "text": "まだ別れではないのですね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "HP回復",
+   "text": "この温もりは忘れません。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "秘技",
+   "text": "繭より出でよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "戦闘勝利",
+   "text": "彷徨う魂が、行くべき道を見つけられることを願います。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "戦利品を開ける・1",
+   "text": "あっ…これは大切にしまっておかないといけませんね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "戦利品を開ける・2",
+   "text": "これで何を作りましょうか…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "貴重な戦利品を開ける",
+   "text": "すごいですね。こっそり記録しておきましょうか…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "謎解きに成功・1",
+   "text": "勉強になりました。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "謎解きに成功・2",
+   "text": "本で似たような問題を見た気がします…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "敵ターゲット発見",
+   "text": "気をつけてください、不穏な気配を感じます。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "町に戻る",
+   "text": "花の香りがしますね…もう少し、ここで休んでもいいでしょうか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "キャラクター詳細",
+   "text": "死を崇める都市国家、絶えず雪が舞うエイジリアは、すでに甘美で安らかな眠りに就いた。<br />ステュクスの娘キャストリス、「死」の火種を探し求める黄金裔。世の魂の慟哭を慰め、運命の孤独に抱擁を与える者である。<br />——旅立つといい。生も死も等しき旅路。蝶が枝にとまる時、凋落したものは新生するのだ。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "ストーリー・1",
+   "text": "彼女が物心ついた頃、エイジリアの雪はすでにそこにあった。この静かな白い大地では、時間すらも凍り付いているかのようだ。<br />幼い彼女は、アミュネッタに雪とは何かを聞いた。するとアミュネッタは、「雪は世の喜びや悲しみ、そして出会いや別れを表している」と答えた。<br /><br />彼女はいつもぼんやりと街の人々を見ていた。<br />小柄な勇士は毎日神殿の前で武芸を磨き、高塔の下にいる中年の司祭は時折居眠りをし、苦行に励む学者はアンティリンの花餅を子供たちに分け与えていた。<br />遠くで雪合戦をしている子供たちは押し合い、その笑い声は熟れた果実のように心の中に落ちてきた。<br />彼女は高塔の上から目を凝らしてみたが、彼らの顔ははっきり見えなかった。<br /><br />「聖女様」——人前に出ると彼女はいつもそう呼ばれたが、誰も彼女の目を真っすぐ見ようとはしなかった。<br />彼女が勇気を出して1歩近づけば、人々は1歩下がり、目を伏せてしまう。結局彼女は、誰の顔もはっきり見ることはできないままであった——<br /><br />——彼らに死が訪れるまでは。小柄な勇士は戦場で重傷を負い、中年の祭司は長年患っている病気に苦しみ、苦行に励む学者は負傷者を治療する際に自らも感染した——それらは、彼女が彼らのことを最も近くに感じる瞬間であった。<br />生命はもう苦しむことなく、彼女の指先で花弁となり、風に乗って舞う。<br />ようやく彼らの顔をはっきり見る機会が訪れたが、彼女は見るに堪えず、顔を背けた。<br /><br />「植物を植えるために生まれた手もあれば、統治するために生まれた手もある…あなたは別れを告げるという天職を果たしたにすぎないのです」<br />アミュネッタの言葉が彼女の耳元で響く。彼女はずっと、自分の両手が何を残せるのかを疑問に思っていた。<br />気づけば、彼女は未完成の氷像を見ていた——武器を振り回す若い戦士、戦場へ旅立つ子供を抱き締める母親、名残惜しそうに互いの頬に手を添えている恋人たち……<br />その人たちは、今はもういない。<br />だが、このようなことは何度でも繰り返される。この風雪の中で、あるいは外で……<br /><br />彼女はようやく理解する、エイジリアの雪もいずれ溶ける時が来るのだと。万物が「死」の抱擁へと向かうように。<br /><br />「よく笑うニコラオス、優しいハイレナ、<br />風のように寡黙なクリトン……<br />夜、私は拾い上げる<br />失われた名を、静かな記憶を<br />そして白昼の悲しみは<br />雪解けの水に浸る熱となる<br />……」<br /><align=\"right\">——少女が書いた「エイジリア」という詩</align>",
+   "unlockRequirement": "キャラLv.<nobr>20</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・2",
+   "text": "彼女はエイジリアを離れ、タナトスに謁見するための旅に出た——終わりの見えない旅に。<br /><br />彼女は暗黒の潮の造物を撃退し、衰退した村を救った。もうエイジリアの「督戦の聖女」ではないのにもかかわらず、未だに両手を隠し人から距離を取っている。しかし、それでも子供の輝く眼差しには敵わなかった彼女は初めて針と糸を手に取り、ぬいぐるみを抱きたいという子供の最後の願いを叶えた。<br />死と隣り合わせの戦場で、彼女は帰郷できなかった戦士のために、その家族に宛てて追悼の手紙を書いた。才を自負している詩人から詩を学び、その人に詩編で別れを告げた……<br />「死は避けられない必然である」、「死は戦士の栄誉である」、「死は時の流れから逃れることである」…長い道のりの中、彼女は死に対する考えをたくさん聞いた。その中には率直なものもあれば、詩的なものあったが、それらは水面を撫でるそよ風のように、彼女の心の奥底に響くことはなかった。<br /><br />「後に…誰かが言ったのです。黎明に照らされる聖都は希望に満ちていると。だから、ここでは私も…もしかしたら……」<br />少女はそこまで言って口を噤んだ。<br />「無理ちないで、言いたくないなら大丈夫だから。オクヘイマはあなたを歓迎するよ！」赤髪の少女は彼女に熱いお茶を淹れてくれた。<br />金髪の女性は興味深そうに少女の手袋を見つめた——<br />「デザイン性のあるファッションアクセサリーですね、これも旅の途中で学んだのですか？」<br />彼女は恥ずかしそうに指を組んだ。<br />「はい、私は…お別れを、もっと荘重なものにしたかったので」<br /><br />オクヘイマの太陽は燦然と輝き、黎明のミハニは絶えることなく終わりのない明日を約束していた。<br /><br />とある小屋で、彼女は慎重に第二の人生を歩み始めた。<br />がらんとしていた部屋は彼女の手によってだんだんと埋まっていった。羊毛フェルトのぬいぐるみ、キメラのクッション、分厚い詩集…それらはもう悲しみの象徴ではなく、贈り物や記念、祝福へと変わっていく——<br />亡き者のためにあった習慣は、オクヘイマの光の下で初めて命の温もりと力を手に入れたのだ。<br /><br />「窓から見える景色は<br />来た時と変わらずそこにある<br />陽光は依然として煌めき、水は穏やかに波打つ<br />私は手の中の雪を吹いた<br />寒くなりすぎないように、春に近づきすぎないように<br />……」<br /><align=\"right\">——少女が書いた、「春」という名の詩</align>",
+   "unlockRequirement": "キャラLv.<nobr>40</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・3",
+   "text": "彼女は自分の終点が、火追いの仲間たちとは異なることを理解しながらも、しだいに温かな瞬間を手放しがたくなっていた。<br />金糸に優しく導かれ、彼女は拙くも、初めて人と一緒に踊った。生命力に満ちた庭園で、彼女はヒアンシーと一緒にドライフラワーを作った。樹庭を卒業した日、彼女のドレスには陽光が降り注ぎ、蝶の翅のような影を落とした……<br /><br />他の人にとっては取るに足りない瞬間かもしれないが、彼女にとって、それらは寒さをしのぐための薪となっていた。<br />彼女は温もりを心から欲してはいるが、多くの期待を押さえつけている。それは、失うばかりの火を追う旅のためかもしれないし、残酷なまでの悲しみを二度と感じたくないからかもしれない…彼女が何度も繰り返し見る、あの悪夢のように——<br /><br />ケファレの手の中に夕日が沈み、血の色をした夕闇が聖都の黎明を包み込む。<br />暗黒の潮が押し寄せ、静寂に包まれたピュエロスで、黄金の織り手が彼女を初めて抱擁した。花海には織り手の弱々しい吐息が残る。<br />「私の『愛』は、たとえ死が訪れようと消えることはありません」<br />「キャスちゃん、また明日ね」ボロボロの使者が人形に変わり、彼女の腕の中で死を待っていた。<br />舞い散る花びらを掴もうとした時、俊敏な盗賊が彼女の手を握り、最後の報酬を差し出す。<br />「お願い。1回だけでいいから、『死』を騙してくんない？」<br />天空の司祭は彼女の肩にもたれかかると、目を伏せて姿を消した。血塗れの王子は目を閉じ、彼女が与える処刑を待っている。戦士は鎧が砕け、血の涙を流した。樹庭の哲学者は微笑み、彼女に最後を見届けてくれるよう頼んだ。<br />そして夢の終わりに、あの天外からの客人が星空の下で膝をつき、倒れるのが見えた。彼女が最も恐れていた仮説が証明されてしまったのだ……<br /><br />「キャスたん、もう少し休んでてください……」<br />目を開けると、昏光の庭の催眠治療室にいた。自分を見下ろす医師の目には、心配の色が浮かんでいる。<br />彼女は額の汗を拭うと、何かを決心したように見えた。<br />「いえ…悪夢を現実にするわけにはいきません……」<br /><br />「火追いの英雄たちが最初に歩んだのはそれぞれ違う道だった<br />微かな光であったからこそ互いに惹かれ合った<br />まるで燃える痛みに耐える蛾のように<br />私たちは希望を見るために飛ぶのではない<br />飛ぶために希望を見るのだ<br />……」<br /><align=\"right\">——少女が書いた、「火追い」という名の詩</align>",
+   "unlockRequirement": "キャラLv.<nobr>60</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・4",
+   "text": "「もしかしたら…今日がオクヘイマで過ごす最後の1日になるかもしれない……」<br />苦難の末、ようやく冥界の手がかりを掴んだ彼女は、もう戻れない場所へ向かう前に、もう一度この世界をよく見ておきたいと思った。<br /><br />黄金裔のピュエロス。<br />かつてアグライアが湯気の中で、丁寧に補修された手袋を渡してきたことを彼女は覚えていた。<br />「キャス、初めて会った時と比べて、ずいぶんと変わりましたね」<br />彼女は驚きながら手袋の美しい模様に触れる。すると普段は冷淡だと言われる指導者がウインクをして微笑んだ。<br />「今の私でも、寒さに包まれたあなたの熱い心が見えますよ……」<br /><br />建物の裏にある静かな花園は、今や夢の中で見た理想通りの形になった。<br />混沌とした夢の中で、彼女はもう一人の自分に出会った。そして荒れた土地が花の海に変わるまで、共に庭を耕し、花を育てた。<br />「これから先の未来でも…こうして希望の種を撒くことができますように……」<br /><br />指先によって亡くなった命のために建てた記念碑。<br />エイジリアの死者から、火を追う旅の黄金裔まで…彼女は<nobr>1000</nobr>年の間、一人ひとりの名前と過去を覚えようとしていた。<br />「誰かが覚えている限り、その人は本当に亡くなったわけではないのです」<br /><br />初めて開拓者と出会った場所。<br />出会いとは不思議なものだ——見慣れた街道でも、その人がいるだけで特別な意味を持つようになるのだから。<br />「開拓者さん…私は必ず、自分の手であなたに……」<br /><br />門の刻が近づくにつれ、約束した旅立ちの時も近づいてくる。<br />あの輝く陽光の下、長く冷たい生涯をかけて、彼女/彼と一緒に最初で最後の願いを込めて綴る——<br /><br />本当の「抱擁」を終わりの句点にした、「キャストリス」という名の詩篇を。",
+   "unlockRequirement": "キャラLv.<nobr>80</nobr>で解放"
+  }
+ ],
+ "archive": {
+  "cvCn": "阮从青",
+  "cvJp": "斎藤千和",
+  "cvKr": "이세레나",
+  "cvEn": "Melody Muze",
+  "camp": "オンパロス"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "12091651": 1,
+    "12526956": 2
+   },
+   "5": {
+    "12262238": 2,
+    "12285822": 2,
+    "12465910": 2
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "死竜・ボリュクス",
+  "iconPath": "e647263d94fb08b7935fd02f3ab6ef71f15d747e5827a2c481af8de3a429f93f",
+  "teamIconPath": "5ffa09779d729af285aeae657381347d29e06f19956d20caa5e112c735fa3b24",
+  "skills": [
+   {
+    "id": 21319318,
+    "name": "冥茫裂く爪痕",
+    "icon": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+    "tag": "全体攻撃",
+    "typeDesc": "精霊スキル",
+    "skillDesc": "敵全体にキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。",
+    "simpleSkillDesc": "敵全体に少量の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。",
+    "levelData": [
+     {
+      "params": [
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21085318,
+    "name": "晦冥焼き払う息吹",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "全体攻撃",
+    "typeDesc": "精霊スキル",
+    "skillDesc": "「晦冥焼き払う息吹」を発動すると、死竜の最大HP<nobr>#1[i]%</nobr>分のHPを消費し、敵全体にキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。<br />1回の攻撃で「晦冥焼き払う息吹」を重複して発動することができ、その際、ダメージ倍率はそれぞれ<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>/<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>までアップする。すでに<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>までアップした場合、それ以上は上がらない。また、この効果により上昇したダメージ倍率は死竜が消えるまで下がらない。<br />死竜の残りHPが自身の最大HPの<nobr>#5[i]%</nobr>以下の時にこのスキルを発動すると、HPが1になり、同時に精霊天賦「幽墟奪略の晦翼」と同じスキル効果が発動する。",
+    "simpleSkillDesc": "自身のHPを消費し、敵全体に<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       0.12,
+       0.14,
+       0.17,
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.144,
+       0.168,
+       0.204,
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.168,
+       0.196,
+       0.238,
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.192,
+       0.224,
+       0.272,
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.216,
+       0.252,
+       0.306,
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.24,
+       0.28,
+       0.34,
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.264,
+       0.308,
+       0.374,
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.288,
+       0.336,
+       0.408,
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.312,
+       0.364,
+       0.442,
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.336,
+       0.392,
+       0.476,
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21359282,
+    "name": "月の繭が覆う身躯",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "サポート",
+    "typeDesc": "精霊天賦",
+    "skillDesc": "死竜がフィールドにいる時、味方の<u>後陣</u>となる。味方がダメージを受けるまたはHPを消費する時、残りHPが1を下回ることはない。以降のダメージは死竜が負担するが、死竜が消えるまで、本来の数値の<nobr>#1[i]%</nobr>に相当するHPを消費する。",
+    "simpleSkillDesc": "死竜がフィールドにいる時、味方の<u>後陣</u>となる。味方の残りHPが1になった後、以降の受けたダメージと消費したHPは死竜が負担する。",
+    "levelData": [
+     {
+      "params": [
+       5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21235289,
+    "name": "静寂を揺るがす怒哮",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "サポート",
+    "typeDesc": "精霊天賦",
+    "skillDesc": "死竜が召喚された時、味方全体の与ダメージ+<nobr>#1[i]%</nobr>、<nobr>#2[i]</nobr>ターン継続。",
+    "simpleSkillDesc": "召喚された時、味方全体の与ダメージをアップする。",
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21001295,
+    "name": "幽墟奪略の晦翼",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "バウンド",
+    "typeDesc": "精霊天賦",
+    "skillDesc": "死竜が消える時、敵に<nobr>#2[i]</nobr>回ダメージを与える。1ヒットごとにランダムな敵単体にキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。同時に味方全体のHPをキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>回復する。",
+    "simpleSkillDesc": "消える時、敵単体に少量の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与え、<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>回バウンドする。同時に味方全体のHPを回復する。",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4665228,
+    "name": "晦冥焼き払う息吹",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "全体攻撃",
+    "typeDesc": "精霊スキル",
+    "skillDesc": "",
+    "simpleSkillDesc": "自身のHPを消費し、敵全体に<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4397470,
+    "name": "晦冥焼き払う息吹",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "全体攻撃",
+    "typeDesc": "精霊スキル",
+    "skillDesc": "",
+    "simpleSkillDesc": "自身のHPを消費し、敵全体に<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4672104,
+    "name": "幽墟奪略の晦翼",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "バウンド",
+    "typeDesc": "精霊スキル",
+    "skillDesc": "HPをすべて消費し、敵に<nobr>#2[i]</nobr>回ダメージを与える。1ヒットごとにランダムな敵単体にキャストリスの最大HPの<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>分の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与える。同時に味方全体のHPをキャストリスの最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>回復する。",
+    "simpleSkillDesc": "HPをすべて消費し、敵単体に少量の<span style=\"color:#7788ff;\">量子</span>属性ダメージを与え、<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>回バウンドする。同時に味方全体のHPを回復する。",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    21319318,
+    21085318,
+    4665228,
+    4397470
+   ],
+   [
+    21359282,
+    4672104,
+    21001295,
+    21235289
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 1260323,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1260323,
+     "name": "冥茫裂く爪痕",
+     "iconPath": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 1527261,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1527261,
+     "name": "晦冥焼き払う息吹",
+     "iconPath": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "name": "キャストリス",
+ "rarity": 5,
+ "descHash": "死を崇める都市国家、絶えず雪が舞うエイジリアは、すでに甘美で安らかな眠りに就いた。 ステュクスの娘キャストリス、「死」の火種を探し求める黄金裔。世の魂の慟哭を慰め、運命の孤独に抱擁を与える者である。 ——旅立つといい。生も死も等しき旅路。蝶が枝にとまる時、凋落したものは新生するのだ。",
+ "artPath": "7dda65214d1d900469b62f8d88bd878b25bad0e9891a31b2230c3aa54da98aee",
+ "miniIconPath": "c5672716925ad2ab406feeb1d8be27f7fb240060d9f1eb6ad328d76c0a903bc0",
+ "damageType": {
+  "id": 32,
+  "iconPath": "71252cc6ee0b921565dfacfac027c84cf13f45cb3dad750bd047708afd5e74af",
+  "color": "#1C29BA",
+  "name": "量子",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "記憶",
+  "rarity": 0
+ },
+ "pageId": "castorice"
+}

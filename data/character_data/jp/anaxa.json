@@ -1,0 +1,2792 @@
+{
+ "spRequirement": 140,
+ "iconPath": "a88fb401c70c1dd3d68810f1d4fc0d66c10b5eb8b2a60af1cf0cdd6c10088bcb",
+ "bgPath": "cf99c3ab946af6d69ac8154fffe624949dcb7d7cf47980f1f00b526329774deb",
+ "figPath": "7bf375bcc52976f6590b290c70715823ca0554b1bd499dbfec14dc76b70064f3",
+ "fgPath": "",
+ "splashIconPath": "45e6ec7f1cff6e9f13280e8b0deb55e16f29b73d791b3d1f63373d6431cd289c",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRqACAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSB4BAAABkKtt2yEx78zGtm3btp2UtlHZh2Annc0uVyrbttk5MzvvU8zmHCJiAiSp4YgqWp1RRgoUKPeYA53XsWrt87W1FSpnwTalOhY6x4+nwFhVkBRID9/f33CY5EcU8X3Pz1N5FfSa8gAgMZAFbgXSMs5cIcpi2yR/2a1QZa8RYRsbO+aoAnX5TGL+Q5YTCjTs7B/bxmCIOaBAnavOwLYx2DFHFKrJrpe2wdgQc1hS2Q8kkMskvF5eSbpOjAEDJoGpChe9IrFxGpvfnSRV/kCUtXESJ/EfFkrK6DDpOCH9s7Iktbh6dcuZ758+xfs33t85e3JpSfnm3JnReMnN89uudFevGlJG6Zrj+g/udXttg4nFpDyB0qHStSY0yx8GgSQBVlA4IFwBAADQBwCdASoUABQAPm0ukkakIqGhKA1QgA2JbACdMoR2daA2wHPt6YBvJREPfsB6KPVV8kAO4zLm+mjgslvwrlaqab9exOgzgAD+6P9+XUp2wcK2O5eK0mAg+ZUI9h4ua/X8XOQIpsLAndGt32ceojFa/9/m0NtDlmrRZbor7guaaez0dHe7SUXyazAIG8J5lXJhxcdhKQcFvYueVXIniCVVAjhzeWvSkWmGT13OZBwC3kHX6d9Y2xBs1GDDbwmiKi/2tb+hZK01ir0Dua6PbnTmnzx0JZuJFOs4QFnM7/9JhU12bw+8QJvC/ddvKta5v8FfXyFHGPIAT/b3LuFbvHq/3QN8e+6FpE34g2YIcy2yJoW+W6Pft2pP2Hp2JzjwiQNw72MmuHqxG4+35dm7KfNb5V+4sU43I1TjgxUYdMfeSwdOJFDuLFRJGOUBDwu0c8Cpe6DjhRhxs5oFkAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "633a6ca33d14c5abcb6de00aff6015572582260725229eb798d8b2dfde476c99",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用ポイント",
+   "desc": "スターピースカンパニーが顧客との決済に使用している貨幣。現在は宇宙旅行をする時の決済通貨となっている。",
+   "lore": "「人々は、端末に表示される数字のためだけに奔走し、戦い、取引をする。しかし、本当に大切なものは、カンパニーの数字で買えるものではない」",
+   "purpose": "星間通貨",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "疑似花萼「大鉱区」",
+    "疑似花萼「工造司」",
+    "疑似花萼「ホテル・『レバリー』-夢境」",
+    "疑似花萼「『囁きの密林』神悟の樹庭」",
+    "クエスト報酬",
+    "依頼報酬",
+    "エンバー交換"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "運命の足跡",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "幾度の敗北があなたに勝利をもたらし、一歩一歩の前進があなたを運命の転換点へと導いた。",
+   "purpose": "軌跡素材",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模擬宇宙」ポイント報酬",
+    "ナナシの勲功",
+    "エンバー交換",
+    "星芒交換",
+    "期間限定イベント報酬"
+   ]
+  },
+  "267807": {
+   "id": 267807,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "032755a1af1300a6ad09de6a86419ab7437b2bf8f2d307becaab3368eb8745f8",
+   "name": "酩酊する時代の一杯",
+   "desc": "劇団のソムリエが持つ美酒が入った金のゴブレット。風属性キャラクターの昇格素材。",
+   "lore": "ある信者たちは千の星を渡って美酒の記憶を探し求め、夢の中でその供物を醸造した。別の信者たちは自らを酵母とし、歴史に埋もれた信仰を発酵させ、夢の中でその理想を蒸留した。<br /><br />「この瞬間、甘露と毒酒が交じり合い、この時代を酔わせ、過去で未来を毒する」",
+   "purpose": "キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/267807",
+   "comeFrom": [
+    "凝結虚影「ピノコニー大劇場」",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "386840": {
+   "id": 386840,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "d008de2c5cf118a3ba604ee2a8f3f7896d624bcac9447bcc7a51b919b6c523bd",
+   "name": "同願の遺音",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "其は無上の旋律が彼らの合奏に溶け込むまで、それを独奏する。<br />だが、聴衆はそのために黙することを良しとはせず、愚かな夢追い人は同願の弦を奪った。幻想を抱く演奏者は塵にまみれた歌を再び演奏する。<br /><br />「星は指先を縁取り、衆生の法と権利を先導する…美しき夢はすべて真となり、数え切れぬほどの古き法はすべて消え去る」",
+   "purpose": "軌跡素材",
+   "rarity": 4,
+   "rewardPath": "/material/386840",
+   "comeFrom": [
+    "歴戦余韻「ピノコニー大劇場」"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫遊指南",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>20000</nobr>獲得できる。",
+   "lore": "世界を渡り歩くためには欠かせない、冒険手引き集。閲覧キーを押すと、電子音声が理解可能な言語で、有名な冒険者たちが様々な世界で体験したことや、彼らが色々な星で得た貴重な知識を語り聞かせてくれる。<br /><br />「漫遊指南最新シリーズ『スペースグルメガイド』が現在発売中。ぜひお買い求めください」<br />「投稿の際は、博識学会共感覚ビーコンのオペレーター<nobr>23</nobr>θにお繋ぎください。原稿料はあなたが普段から利用している方法でお振込みいたします」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "「忘却の庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒険記録",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>5000</nobr>獲得できる。",
+   "lore": "綺麗に装丁された、一目でためになるとわかる冒険日誌。冒険に関する細かい描写、価値のある情報、サバイバル術が書かれている。<br /><br />「なんで数字化してデバイスに保存しないの？持ち歩きやすくなるでしょ」<br />「お前が思っているより、先進技術は恒星嵐や中性子噴出に弱いんだ。なにより、この本の制作者は、最も簡単な方法で人々に読んでもらいたかったんだろう」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "デイリー訓練",
+    "エンバー交換"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅の見聞",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>1000</nobr>獲得できる。",
+   "lore": "旅の出来事を記した日記。字はかすれており、不鮮明。思うままに内容が書かれてあるので、あまり助けにはならないだろう。<br /><br />「読み終わったら早くその紙切れを捨てるのよ、丹恒？」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "依頼報酬"
+   ]
+  },
+  "589816": {
+   "id": 589816,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1df017fafdd96e781b3f4b339fa1716e7fb15664523ed687bc3ebebab93aa2d9",
+   "name": "躍動感のある線画",
+   "desc": "クロックボーイのキャラクター線画。夢の輪郭が生き生きと描かれている。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">知恵</span>の運命を歩むキャラクターの軌跡を中アップできる。",
+   "lore": "「クロックボーイ」は余分なタッチを消して、すっきりとシャープに仕上がった。アニメーターの知恵は1コマごとに、クロックボーイのステップの中に込められている。<br /><br />「チクタク、チクタク！早くついてきて、僕のトモダチ！」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/589816",
+   "comeFrom": [
+    "疑似花萼「ピノコニー大劇場」",
+    "「万能合成マシン」- 素材合成",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "673757": {
+   "id": 673757,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "140af93ab1c3d1f0877d71307a25e9588f936a26726bf855ed9928e682ec87bc",
+   "name": "見事なカラー原画",
+   "desc": "クロックボーイのキャラクター着彩原稿。夢が色彩を得て生気に満ちた。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">知恵</span>の運命を歩むキャラクターの軌跡を大アップできる。",
+   "lore": "「クロックボーイ」はカラフルに色を塗られ、誰もが知る姿となった。クロックボーイの物語には幾千万の夢追い人が励まされ、その光と影の冒険から教えを受けたのだ。<br /><br />「僕の名前はクロックボーイ。ドリームタウン、ピノコニーの大スターだよ！」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/673757",
+   "comeFrom": [
+    "疑似花萼「ピノコニー大劇場」",
+    "「万能合成マシン」- 素材合成",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "874343": {
+   "id": 874343,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8d5ed128eace4b134581b9fb3d3981753502d6e3972fe03ec12bcfbec89b0ecb",
+   "name": "ラフスケッチ",
+   "desc": "クロックボーイのキャラクター草稿。わずか数筆で夢に形を与える。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">知恵</span>の運命を歩むキャラクターの軌跡を小アップできる。",
+   "lore": "ピノコニーには「クロックボーイ」のキャラクター原稿が数多く出回っているが、あの閃きを捉えて画用紙に最初の「チクタク」を響かせたのは誰なのだろうか。<br /><br />「チクタク！——君…僕が見えるの？」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/874343",
+   "comeFrom": [
+    "疑似花萼「ピノコニー大劇場」",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "遠くから近づく悲鳴",
+   "desc": "暗黒の潮の造物の肉体を構成する部分。強化に必要な普通素材。",
+   "lore": "不気味な頭部が雄叫びをあげ、折れた刃はすべてを断ち切る。しかし、それでも災いの源は暗闇に埋もれ続け、死の陰影に覆われている。<br /><br />「なぜ墓前で1人涙を流しているのか？」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "均衡Lv.2に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "あるようでない予兆",
+   "desc": "暗黒の潮の造物の体から落ちた欠片。強化に必要な簡易素材。",
+   "lore": "不運の訪れは常に予兆がないものだ。気づいた時には、それはすでに世界を席巻する災いとなっている。<br /><br />「弔鐘は運命の終わりで鳴り響く」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "暗黒の潮の造物からドロップ",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "依頼報酬",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換",
+    "疑似花萼（金）"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "果てしなく続く悲嘆",
+   "desc": "暗黒の潮の造物の死後に凝縮した結晶体。強化に必要な高級素材。",
+   "lore": "無より生まれ、再び無へと帰る。侵蝕によって創られた歪んだ生命は、不毛の大地を彷徨い続ける宿命にあるのだ。<br /><br />「その生命は破滅と悲哀に満ちていた」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "均衡Lv.4に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 102.96,
+   "attackAdd": 5.148,
+   "hpBase": 132,
+   "hpAdd": 6.6,
+   "defenseBase": 75.9,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 144.144,
+   "attackAdd": 5.148,
+   "hpBase": 184.8,
+   "hpAdd": 6.6,
+   "defenseBase": 106.26,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 5.148,
+   "hpBase": 237.6,
+   "hpAdd": 6.6,
+   "defenseBase": 136.62,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 267807,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 226.512,
+   "attackAdd": 5.148,
+   "hpBase": 290.4,
+   "hpAdd": 6.6,
+   "defenseBase": 166.98,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 267807,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 267.696,
+   "attackAdd": 5.148,
+   "hpBase": 343.2,
+   "hpAdd": 6.6,
+   "defenseBase": 197.34,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 267807,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 308.88,
+   "attackAdd": 5.148,
+   "hpBase": 396,
+   "hpAdd": 6.6,
+   "defenseBase": 227.7,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 267807,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 350.064,
+   "attackAdd": 5.148,
+   "hpBase": 448.8,
+   "hpAdd": 6.6,
+   "defenseBase": 258.06,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "91211ed7ab7c38d731814d42d34fd84673744d54ee87b01825804af9ef4c1ffb",
+   "artPath": "701c80a34d57421cb4e321baf32fb8ccf8c23d99a30fd662ac6eb38b83ac8846",
+   "name": "掩蔽の魔術師",
+   "descHash": "戦闘スキルを初めて発動した後、SPを<nobr>#3[i]</nobr>回復する。戦闘スキルが敵に命中する時、敵の防御力-<nobr>#1[i]%</nobr>、<nobr>#2[i]</nobr>ターン継続。",
+   "params": [
+    0.16,
+    2,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "213c1d8cc606cab9e2a32867ce12801dc595ea7839dd10de745456ce3a1ac61d",
+   "artPath": "16919f1c58d49be646dacd70ca0eafde548080ff96d8f07263350e76b704a71f",
+   "name": "史実の自然人",
+   "descHash": "敵が戦闘に入る時、天賦の弱点付与効果を1回発動し、その敵の全属性耐性を<nobr>#1[i]%</nobr>ダウンさせる。",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "112f90f1a55d270936f0cab57250ba13d17c94428a76f31bc5e81e7af40da663",
+   "artPath": "b82a55e34acfd0884d01346dc69b20e3d3df27c399fb15e533a9a9ef1970c0bb",
+   "name": "深宇宙に刻まれた瞳",
+   "descHash": "必殺技のLv.+2、最大Lv.<nobr>15</nobr>まで。通常攻撃のLv.+1、最大Lv.<nobr>10</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "92b07b9870c660cca4bf68fb1c235c4bbf90722406f7245341eeda22659c10d4",
+   "artPath": "16b878531f2e05ad6cf74764467c6ef04d0b968ff0f76510369e3fb23167b2b9",
+   "name": "峡谷に落ちる灼熱",
+   "descHash": "戦闘スキルを発動する時、攻撃力+<nobr>#1[i]%</nobr>、<nobr>#2[i]</nobr>ターン継続。この効果は最大で<nobr>#3[i]</nobr>層累積できる。",
+   "params": [
+    0.3,
+    2,
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "d0e1d595b2a89cf55a55115ddee94c9608eeba244821af7d245f33d452e63f05",
+   "artPath": "319a23584b494b3050bd9dacd2b9d16d84c76a47c191b6e35f522c1d163dafdf",
+   "name": "渦状腕外の胚種",
+   "descHash": "戦闘スキルのLv.+2、最大Lv.<nobr>15</nobr>まで。天賦のLv.+2、最大Lv.<nobr>15</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "687fe164812599d05eb3b20928633ebfc4f776cb0360ab1d904dde605a92ae71",
+   "artPath": "778c19682e487eb56a556af05b72a9ee1961c52d05008247bc308d08cf338928",
+   "name": "万物は万物の中",
+   "descHash": "アナイクスの与ダメージは本来の<nobr>#1[i]%</nobr>になる。軌跡「必要な余白」の2つの効果は同時に直接発動するようになり、パーティ内の「知恵」の運命を歩むキャラクターの数に依存しなくなる。",
+   "params": [
+    1.3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   15408783
+  ],
+  [
+   15674531
+  ],
+  [
+   15430359
+  ],
+  [
+   11700084
+  ],
+  [
+   15338009
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "単体攻撃",
+   "descHash": "指定した敵単体にアナイクスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#00FF9C;\">風</span>属性ダメージを与える。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 15408783,
+   "name": "苦痛、認識の造成",
+   "iconPath": "4ea4282e98ec924e1a8c66866e7c186314e145769668e3a0f5993693f7fcc1b8",
+   "typeDescHash": "通常攻撃",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "バウンド",
+   "descHash": "指定した敵単体にアナイクスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#00FF9C;\">風</span>属性ダメージを与え、さらに<nobr>#2[i]</nobr>ヒットする。1ヒットごとに、ランダムな敵単体にアナイクスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#00FF9C;\">風</span>属性ダメージを与える。バウンドはその回の戦闘スキルの攻撃を受けていない敵が優先される。<br />発動時、フィールド上に攻撃可能な敵が1体いるごとに、その回の戦闘スキルによるダメージ+<nobr>#3[i]%</nobr>。",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "6/hit",
+   "id": 15674531,
+   "name": "分形、誤謬の駆逐",
+   "iconPath": "d0e1d595b2a89cf55a55115ddee94c9608eeba244821af7d245f33d452e63f05",
+   "typeDescHash": "戦闘スキル",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.35,
+      4,
+      0.2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.385,
+      4,
+      0.2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.42,
+      4,
+      0.2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.455,
+      4,
+      0.2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.49,
+      4,
+      0.2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.525,
+      4,
+      0.2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.56875,
+      4,
+      0.2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.6125,
+      4,
+      0.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65625,
+      4,
+      0.2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7,
+      4,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.735,
+      4,
+      0.2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.77,
+      4,
+      0.2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.805,
+      4,
+      0.2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.84,
+      4,
+      0.2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.875,
+      4,
+      0.2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "全体攻撃",
+   "descHash": "敵全体を「昇華」状態にした後、アナイクスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#00FF9C;\">風</span>属性ダメージを与える。<br />「昇華」状態の敵は、<span style=\"color:#FFFFFF;\">物理</span>、<span style=\"color:#F84F36;\">炎</span>、<span style=\"color:#47C7FD;\">氷</span>、<span style=\"color:#c75de2;\">雷</span>、<span style=\"color:#00FF9C;\">風</span>、<span style=\"color:#7788ff;\">量子</span>、<span style=\"color:#F4D258;\">虚数</span>属性を弱点として付与される。この効果はその敵のターンが回ってくるまで継続。敵が行動制限抵抗を持たない場合、「昇華」状態での行動はできない。",
+   "ultimateCost": 140,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 15430359,
+   "name": "化育、世界の創造",
+   "iconPath": "20a9d86c71a199b79a2dd3673146f055b1a959855a0cc963a3379f41138cf5e6",
+   "typeDescHash": "必殺技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.8
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.88
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.96
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.04
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.12
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.4
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.68
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.76
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.84
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.92
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "妨害",
+   "descHash": "アナイクスの攻撃が敵に1回命中するたびに、ターゲットに弱点属性をランダムで1つ付与する。<nobr>#2[i]</nobr>ターン継続。この時ターゲットが持っていない弱点属性を優先的に付与する。<br />アナイクスがフィールドにいる時、異なる弱点属性を<nobr>#3[i]</nobr>つ以上持つ敵は「本質暴露」状態になる。「本質暴露」状態の敵に対して、アナイクスの与ダメージ+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>。さらにアナイクスが「本質暴露」状態の敵に通常攻撃または戦闘スキルを発動した後、ターゲットに戦闘スキルを追加で1回発動する。なお、追加の戦闘スキルはSPが消費されず、この効果も再度発動されない。追加の戦闘スキルを発動する前にターゲットが倒された場合、ランダムな敵単体に対して発動する。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 11700084,
+   "name": "四智、三重の無上",
+   "iconPath": "0fb90eb839134abca928c8b19c8779192fd0458b46ba68b7241a566533c38914",
+   "typeDescHash": "天賦",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.18,
+      3,
+      5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.192,
+      3,
+      5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.204,
+      3,
+      5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.216,
+      3,
+      5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.228,
+      3,
+      5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      3,
+      5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.255,
+      3,
+      5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.27,
+      3,
+      5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.285,
+      3,
+      5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      3,
+      5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.312,
+      3,
+      5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.324,
+      3,
+      5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.336,
+      3,
+      5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.348,
+      3,
+      5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.36,
+      3,
+      5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 11723612,
+   "name": "攻撃",
+   "iconPath": "4ea4282e98ec924e1a8c66866e7c186314e145769668e3a0f5993693f7fcc1b8",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "妨害",
+   "descHash": "秘技を使用した後、一定範囲内の敵を恐怖状態にする。恐怖状態の敵はアナイクスから離れていく。<nobr>#1[i]</nobr>秒間継続。味方が恐怖状態の敵を攻撃した時、敵の弱点を攻撃して戦闘に入ったものと見なされる。戦闘に入った後、アナイクスは敵それぞれに攻撃者の属性を弱点属性として1つ付与する。<nobr>#2[i]</nobr>ターン継続。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15338009,
+   "name": "瞳の中の色彩",
+   "iconPath": "8c8c16cbee023e711988138e37bdcd2e44a08899798c00f61455f46ce1283c5c",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1405101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1405202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1405203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 27159586,
+        "name": "ダメージ強化・風",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#00FF9C;\">風</span>属性ダメージ",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 3276614,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1405204,
+       "anchor": 12,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 26893883,
+        "name": "HP強化",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 3276614,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 26884624,
+      "name": "会心率強化",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "通常攻撃を行う時、さらにEPを<nobr>#1[i]</nobr>回復する。<br />ターンが回ってきた時、フィールド上に「本質暴露」状態の敵が存在しない場合、EPを<nobr>#2[i]</nobr>回復する。",
+    "ultimateCost": 0,
+    "id": 27164842,
+    "name": "流浪の記号",
+    "iconPath": "362db92fda0833abc2fac4cf3fa9c638bfa3e56f3850fb4ad3fedeeaaf261956",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       10,
+       30
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1405205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1405206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 26993375,
+        "name": "会心率強化",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "会心率",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 3526997,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1405207,
+       "anchor": 15,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 27251955,
+        "name": "ダメージ強化・風",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#00FF9C;\">風</span>属性ダメージ",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 3526997,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 27242703,
+      "name": "ダメージ強化・風",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#00FF9C;\">風</span>属性ダメージ",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "パーティ内の「知恵」の運命を歩むキャラクターの数に応じて、今回の戦闘で以下どちらかの効果を発動する。<br />1名の場合、アナイクスの会心ダメージ+<nobr>#1[i]%</nobr><br />2名以上の場合、味方全体の与ダメージ+<nobr>#2[i]%</nobr>。",
+    "ultimateCost": 0,
+    "id": 26891607,
+    "name": "必要な空白",
+    "iconPath": "e6cca85a9104a416d905decb75b51757290d46ad72c0b71790de40e2acac00a5",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1.4,
+       0.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1405208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 26936970,
+      "name": "HP強化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 3526997,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1405209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 27228312,
+      "name": "会心率強化",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 3526997,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "敵が持つ異なる弱点属性1つにつき、アナイクスが与えるダメージはその敵の防御力を<nobr>#1[i]%</nobr>無視する。弱点属性は最大7つまでカウントされる。",
+    "ultimateCost": 0,
+    "id": 27141957,
+    "name": "定性の変遷",
+    "iconPath": "cd1c0f7aeb65ec075718f6ca98d848abb9e60ad7064d80dc9f450cb1e209707b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.04
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 27183110,
+    "name": "ダメージ強化・風",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#00FF9C;\">風</span>属性ダメージ",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 10266835,
+    "name": "ダメージ強化・風",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#00FF9C;\">風</span>属性ダメージ",
+      "value": 0.064
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 673757,
+      "count": 8
+     },
+     {
+      "id": 3526997,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初対面",
+   "text": "私はアナクサゴラス。神悟の樹庭の七賢人の1人にして、「知種学派」の創始者です。言うまでもありませんが…第一に、私をアナイクスと呼ばないでください。第二に、私の話を遮らないでください——沈黙は金なり、と言うでしょう？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "挨拶",
+   "text": "どうしました？問題？なんの問題ですか？聞いてあげましょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "お別れ",
+   "text": "もう用は済んだのですか？なら、私はこれで失礼します。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "自分について・ヒュポクリテス",
+   "text": "同僚が私を「ヒュポクリテス」と評していました——ふふ、言い得て妙ですね。典型的なオンパロスの思考から外れているのは珍しい。当然ですが、彼らの見解は私にとって、どうでもいい・必要がない・気にするほどではない…この3つです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "自分について・名前",
+   "text": "学生たちが陰で「アナ先生」や「イクス先生」、または「アノイクス先生」と呼んでいることは知っていますが…少なくとも「アナイクス」ではありません。ア、ナ、ク、サ、ゴ、ラ、ス、アナクサゴラス——この名が覚えにくいと？そんなはずないでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "世間話・指導",
+   "text": "学生の質問は大胆であればあるほど好ましい。もし私との論戦で5往復できたのなら…高評価をつけてあげましょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "世間話・武器",
+   "text": "武器？それは手本用の錬金道具であり、護身用の手品道具でもあります。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "趣味",
+   "text": "確かに、大地獣は愚かで無知ですが、それでも長所はそれなりにあるのです。落ち着きがあり、静かで穏やか、そして大食いという長所が……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "悩み事",
+   "text": "私には理解できませんね――「華やかな服の大地獣」、彼らはこれを攻撃的な呼び方だと思っているのですか？次からは樹庭の入口に「大地獣を知らざる者、入るべからず！」とでも掲げておいてあげましょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "シェア",
+   "text": "簡単な手品でも披露しましょう。「この言葉は嘘だ」、これは嘘か真か？——答えは「嘘であり、真でもある」。信じられないのですか？ならば反論してみてください。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "見聞",
+   "text": "誰かが私に言いました、神を研究することは神に対する冒涜だと。だから私はこう返しました、「それほど簡単に冒涜されてしまうのですね、その神とやらは」と。さて、もし私が「神になりたい」と言ったら、あなたはどう返しますか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "アグライアについて",
+   "text": "彼女にとって、すべての人間は火種を取り戻すための手段…ただの道具にすぎません。そう、すべての人間——彼女自身も含めて。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "アグライアについて・2",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "開拓クエスト「魔女の鏡、廻天を見せよ」をクリアした後に解放",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "トリビー・トリアン・トリノンについて",
+   "text": "彼女たちに神託における自己実現理論について説明しようとしたのですが、幼子と変わらないその身体を見ていると…これ以上語る必要はないのだと思わされますね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "ファイノンについて",
+   "text": "彼は私の教え子の中で、最も優秀な学生の1人ですが、それはつまり——彼が私…彼の師とは異なる道を歩むことを意味します。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "モーディスについて",
+   "text": "暗黒の潮に抗う戦いは、一部の者を神に、一部の者を人間に、そして一部の者を怪物にしました——モーディスは「紛争」を引き継いだ…すでに自分がなるべきものを選び取ったのでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "キャストリスについて",
+   "text": "書物の世界を旅することは、心を開くための手段の1つかもしれませんが…彼女が探している答えは、自分の手で触れることでしか得られません。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "キャストリスについて・2",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "開拓クエスト「魔女の鏡、廻天を見せよ」をクリアした後に解放",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "ヒアンシーについて",
+   "text": "神樹は太陽の「光」を頼りに、天に向かって成長します。「昏光の庭」が樹庭の学者たちを育む場所だと言うのなら、ヒアンシーこそが「昏光の庭」の「光」でしょうね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "サフェルについて",
+   "text": "自分より先に出発したカメに追いつけるのか？このパラドックスはサフェルにとって難しくありません——彼女ならきっとスタート地点で喜々としてそのカメを拾い上げ、すぐに自分の膨大なコレクションに加えようとするでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "星魂覚醒",
+   "text": "魂の構成は——理性が2割、渇望が3割、激情が5割…他には何もありません。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "キャラクター昇格",
+   "text": "この力を征服するのです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "レベルMax",
+   "text": "真理は、私の手の中にあります。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "軌跡覚醒",
+   "text": "探求とは孤独で長い道のりなのです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "パーティ編成・開拓者",
+   "text": "どうやら演じるにはいい機会のようですね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "パーティ編成・アグライア",
+   "text": "私たちは共に戦いはしましたが、目的は異なります。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "パーティ編成・キャストリス",
+   "text": "支障はありません。あなたは「死」を心配する必要などないのです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "パーティ編成・トリビー",
+   "text": "神託を信じるくらいなら、私を信じるほうがまだいいでしょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "パーティ編成・モーディス",
+   "text": "あなたの心にはすでに答えがあるのでしょう…私に教えられることはありません。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "戦闘開始・弱点撃破",
+   "text": "等価交換？いいえ、これは無からの創造ですよ！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "戦闘開始・危険予知",
+   "text": "二度も見る価値があるのはあなたくらいですね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "ターン・1",
+   "text": "なんですか？何か用ですか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "ターン・2",
+   "text": "見ての通り、私は文弱な一介の学者にすぎません。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "戦闘中待機",
+   "text": "疑問があるなら、遠慮なくどうぞ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "通常攻撃",
+   "text": "言うことなどない。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "戦闘スキル・1",
+   "text": "ははっ…狂うがいい！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "戦闘スキル・2",
+   "text": "ははっ…魂を狙い撃つ！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "攻撃を受ける",
+   "text": "想定内です…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "重撃を受ける",
+   "text": "疲れますね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "必殺技・アクティブ",
+   "text": "見よ、舞台の幕開けを…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "必殺技・発動",
+   "text": "この神業で、精錬を極め、万物を再構築してみせましょう！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "戦闘不能",
+   "text": "これしきの代価…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "戦闘に戻る",
+   "text": "ははは…残念ですね！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "HP回復",
+   "text": "いずれ返しましょう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "秘技",
+   "text": "開幕の時！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "戦闘勝利",
+   "text": "勝利は確実でした。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "戦利品を開ける・1",
+   "text": "見なかったことにしましょうか。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "戦利品を開ける・2",
+   "text": "ふむ、溶かしてしまいましょう、惜しい物でもありませんし。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "貴重な戦利品を開ける",
+   "text": "悪くない。材料にできそうです。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "謎解きに成功・1",
+   "text": "もしサーシスがこの問題を見たら、きっと大笑いするでしょうね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "謎解きに成功・2",
+   "text": "ただ答えを出すだけなら、なんら難しいことはありません。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "敵ターゲット発見",
+   "text": "私は体が弱いので、戦闘になったら前に出てください。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "町に戻る",
+   "text": "この喧騒に感謝してください——これは思考同士が衝突している音ですから。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "キャラクター詳細",
+   "text": "神悟の樹庭、それは知恵を培う学府であり、哲人を育む揺籃でもある。<br />神を冒涜するアナクサゴラス、「理性」の火種を問いただす黄金裔。汚名を甘受し預言に背き、懐疑の枝を知性の聖樹に突き刺す者である。<br />——「滑稽ですね。偽りに満ちているこの世界でただ1人、私だけが真実なのですよ」",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "ストーリー・1",
+   "text": "「其方は遠い都市国家の出身だった。両親は早くに亡くなり、姉と2人、動物を飼い慣らしながら生計を立てていた。<br />幼い頃から人と群れることを嫌い、他の子が草原で遊んでいる時も、木陰に隠れては落ち葉を拾っているような子供だった。<br /><br />『大地獣が飛べないのはなぜ？』<br />其方は成長を共にしてきた大地獣を見て、独り言を呟いた。<br />『この大地獣も前世じゃ本の虫だったからだろ！』<br />他の者から何度も聞いてきたことではあったが、なぜそれが侮辱として使われているのか、其方には理解できなかった。<br /><br />『神が全知全能であるなら、なぜ死を恐れるのです？』<br />聖訓を読む神殿で、其方は当たり前のことに疑問を抱く。<br />『出て行くんだ、アナクサゴラス！』<br />怒り狂った司祭は、たびたび其方を正殿から追い出した。<br /><br />姉は一度たりとも其方を責めたことがなかった。むしろ、わずかな収入の中から捻出して、其方が欲しがっていた本や道具を買ってくれた。<br />小さなネジや、重いペンチ、それから軽い天秤…幼き頃の其方は家で機材をいじりながら、創造の喜びに浸っていた。<br />そして5歳の頃には命に対して常に好奇心旺盛だった。自動で歌う機械の鳥、大地獣の孵化器、永遠に鮮やかな色を保つ人工花——其方は最も博識な人間になるのだと大口を叩いていた…いやはや、家族が子供の夢物語を真剣に聞き入れてくれるとは、なんとも珍しい。<br /><br />その後、姉は行き交う商人から神悟の樹庭という、知識の聖地と呼ばれる学び舎があることを聞いた。其方はその名を密かに覚え、いつか姉と一緒にそこへ行くことができれば、もう苦労せずとも暮らしていけると思った。<br />それから姉は費用を集め、商人の友人に其方を樹庭に連れて行ってくれるよう頼んだ。<br />ところが樹庭へ向かう道中、住んでいた地に暗黒の潮が襲来したと耳にし、其方は急いで引き返した——そこに広がっていたのは、侵蝕され廃墟となった街。慣れ親しんだ地は見るに耐えないものへと変貌を遂げていた…高慢な其方にも跪く日が来ようとは…もしかすると、神に祈っていたのかもしれんがな……」<br /><br />「私の脳を探るのはそこまでです、性根の悪いタイタンめ……」<br />男は記憶の光景から我に返り、その右目には怒りか悲しみかわからない感情が一瞬だけちらついた。",
+   "unlockRequirement": "キャラLv.<nobr>20</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・2",
+   "text": "<b>番号</b>：<nobr>13</nobr><br /><b>課題</b>：黄金裔の黄金の血による実験<br /><b>材料</b>：本人の血液<br /><b>記録</b>：精製された液体は黄金のように流れ、レンズの下に種の形の構造を確認。採血中に計3回気絶。<br />……<br /><b>番号</b>：<nobr>55</nobr><br /><b>課題</b>：タイタンの創造物の霊魂解剖<br /><b>材料</b>：瀕死の██タイタンの創造物3体、水銀の薬剤、アンティリン花の抽出物<br /><b>記録</b>：解剖がコアまで進んだ際、実験対象が突如発狂。幸い、本人の重傷だけで事は済んだため、他者に被害が及ぶことはなかった。錬金器具の改良が急務。██タイタンの霊魂系統図は完成間近。<br />……<br /><b>番号</b>：<nobr>144</nobr><br /><b>課題</b>：魂の融合の中期的な試み<br /><b>材料</b>：学者が寄付した魂の炎、タイタンの創造物<br /><b>記録</b>：████、尊敬すべき友よ、あなたの遺志に従おう。あなたの体は燃える刑柱の炎となり、魂は人類がタイタンを解析する柱となる！<br />……<br /><b>※最後のページの乱雑な注釈※</b>：<br />あれから数年が経った。死の冷たさは依然として左目に渦巻いているが、空虚さを埋めるのに十分なほどの人間の「魂」を見た。<br /><br />明日か、明年か、もしくは次の瞬間かもしれない——<br />私は告発され、捕まるのだろう。私に頭を下げさせ、黙らせたい者が常にいるのだから。<br /><br />しかし姉さん…私はここで最後に姉さんと会ったことをずっと覚えている。姉さんは何も言わなかったが……<br />ただ、それだけで十分だった。私は自分が正しいことをしたのだと、そう理解している。<br />何年もの間、ずっとそうだった——<br />「すべての『間違い』は、『正解』に近づくための足掛かりである」<br /><br /><align=\"right\">——アナイクスの魂に関する学説の実験日誌、<br />原本はすでに破棄されている</align>",
+   "unlockRequirement": "キャラLv.<nobr>40</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・3",
+   "text": "「<b>樹庭の賢人たちへ</b><br /><br />一部の学者たちが『学術的非難を行った』、『青少年を堕落させた』、『不信心者である』という3つの罪名で私を告発しました。私としてはこの稚拙な茶番に付き合うつもりはありませんし、自己弁護する気もありません。しかし、これは逆に皆さんが私の研究をより深く理解できる機会かもしれないと思い立ちました。ですので、この場を借り簡単に説明させてもらおうかと思います。<br /><br />『学術的非難を行った』に関しては、私が授業で古典的なタイタン学と魂に関する学説を貶し、『学術界の暗黒の潮』と称したことが該当したそうですが、果たしてこの評価は間違っているのでしょうか？タイタンが1本の針の上に立っていられるかを研究する学問や、魂の本質は水であると主張する学問は、未だに権威の堅持によって守られています。これらを精神的な暗黒の潮と称さないのなら、なんと呼ぶべきなのか教えていただけませんか？<br /><br />私は幼い頃から樹庭で学び、批評と疑念こそが思想の変革を起こすカギだということをよく知っています。ゆえに学生たちには『権威に挑戦せよ』と常に言い聞かせてきました。どういった経緯かはわかりませんが、これが彼らには『青少年を堕落させる』行為に見えたようです。ファイノンとキャストリスを例にしましょうか。2人が入学した当初は、論理的思考とはなんたるかを何一つ理解していませんでした。しかし今では、私を黙らせるほどの弁を述べることもたびたびあります。もしこれが『青少年を堕落させる』教育だと言うのなら、彼らの言う『正しい教育』とは一体何を指すのか、私には想像すらできませんね。<br /><br />そのため、一部の人は私が火追いの黄金裔と密接な関係にあると告発し、私の理論が火種を奪うにあたって彼らの役に立っていると主張している——ええ、その通りです。私はかつてトリスビアスに失われた歴史について教わったこともあります。また、私の最も優秀な2人の学生も黄金裔ですが…それの何が問題なのですか？<br /><br />そして、私も彼らの言う黄金裔ですが、神託を盲信したことは一度たりともありません。もし神が世を超越する至純かつ永遠の存在であるのと言うのなら、よく聞きなさい。この世にはたった一柱の神しかいません。それは不滅の真実です！<br />この道を歩み続けられるのは真実の信者だけであり、自らを智者だと称する権威たちは神が崩れ去るのを恐れているだけなのです。<br /><br />サーシスのもと、双方が一歩ずつ退くことで事態を緩和しようと提案されました…ですが残念ながら、私にそのような意志は微塵もありません。逆に、私を告発した皆さんに1つ忠告をしてあげます——<br /><br />未来の世界は私を理解してくれるでしょう。私にはわかります、判決を聞く私よりも、告発をするあなたたちのほうが恐怖に苛まれることになると！」<br /><br />——ある賢人会議でのアナイクスによる即興答弁",
+   "unlockRequirement": "キャラLv.<nobr>60</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・4",
+   "text": "「今でもあの怪しげな火を追う旅に納得しているわけではありません。ですが1つ…印象に残っている言葉があります——『火を追う旅路は失い続ける道』。<br /><br />黄金裔たちが同じ宿命を背負っていると信じたことはありませんが、私も失い続ける道を歩んでいたのは確かです。<br />ただ、私が失ったものだけではまだ足りない…追い求めているものと比較しても、等価交換の原則を十分に満たせるほど私は失っていないのです。<br /><br />タイタンと人の魂の本質は同じであり、魂は知性の種によって構成されているという理論を提唱して以降、私はそれを完全な形で証明する機会をずっと伺ってきました…<br />そして今が、まさにその機会なのです！予想外ではありましたが、ちょうど良かったと言えるでしょう。<br />今日、ようやく過去の災いによる無念を晴らすことができます。<br /><br />私は死からインスピレーションを得ました。ならば死をもって報いるべきでしょう<br />——私の肉体は神の火種を熔錬する器となり、私の魂は神に頭を垂れさせる枷となる。そしてそれは、私の理論における究極の証明となるのです！<br /><br />今の私はとても幸せだと言えます。<br />初めて空を飛べる機械鳥を作り出した時も、私はこうして笑った…初めて新しい命を孵化させた時も、こうして手が震えた……<br /><br />後世の学生たちへ。これが読まれているということは、私は功を成せず、黎明を前に倒れたということでしょう。<br />どうぞ私があげた成果を思う存分活用し、私を研究対象として扱ってください！私の身体を踏み越え、私の炬火を受け継ぎ、私を薪のように焼べて真実を照らしてください！<br />冒涜を恐れることはありません——<br />神を超越することが許されないのであれば、神になってしまえばいいのだから！」<br /><br />——樹庭陥落後のアナイクスの記憶の残響の1つ。誰にも見つからずに消えてしまった",
+   "unlockRequirement": "キャラLv.<nobr>80</nobr>で解放"
+  }
+ ],
+ "archive": {
+  "cvCn": "钱文青",
+  "cvJp": "内田雄馬",
+  "cvKr": "이상준",
+  "cvEn": "Stephen Fu",
+  "camp": "オンパロス"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "15408783": 1,
+    "15430359": 2
+   },
+   "5": {
+    "11700084": 2,
+    "15674531": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "name": "アナイクス",
+ "rarity": 5,
+ "descHash": "神悟の樹庭、それは知恵を培う学府であり、哲人を育む揺籃でもある。 神を冒涜するアナクサゴラス、「理性」の火種を問いただす黄金裔。汚名を甘受し預言に背き、懐疑の枝を知性の聖樹に突き刺す者である。 ——「滑稽ですね。偽りに満ちているこの世界でただ1人、私だけが真実なのですよ」",
+ "artPath": "a7c54308cb5a5d20b2cba337487c86a7aa705430887d615ec3b153661d8cbaff",
+ "miniIconPath": "994c6cd6d95f7112bc7b49f649017f61afa2cddc1bc5f7f7bdcf9399e24d18e9",
+ "damageType": {
+  "id": 16,
+  "iconPath": "fa458a2daed5d1115684a21730db9c38ea2afde00a9d52c5adbe8050044ce39a",
+  "color": "#00FF9C",
+  "name": "風",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "7134e661a4b98bb730cde90946f9683802b94ca4f17bfa2f2360e78700ca803f",
+  "altIconPath": "005fa14e04e2704b43c3b215129260d7abe1bc8f9ebc3918ecc85a27d0247fbb",
+  "color": "#FFFFFF",
+  "name": "知恵",
+  "rarity": 0
+ },
+ "pageId": "anaxa"
+}

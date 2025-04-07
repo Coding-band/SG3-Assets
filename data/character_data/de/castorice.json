@@ -1,0 +1,4906 @@
+{
+ "spRequirement": 0,
+ "iconPath": "0755251be6e370916344ea61e5e0514c7a24d23e388e76c0d949e62436d22bcf",
+ "bgPath": "d05e5d6a52a89e83512e36128d618b04a2263abf7d52741dc13c4bc4ac55ede4",
+ "figPath": "3b8cdf2b1d118e92e3ff661c0f122cf5c000c697a836015568f6d2a82e86bf59",
+ "fgPath": "f0d26e7d0c8b4ab43d0f5af22450e8373ae9cc200a3c4c378637f0ae988cd506",
+ "splashIconPath": "5310780d610c5dfd43199c0d6a65c64d5a527fd6db0d932e3a61ff7e557b4003",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRpQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAsBAAABkGtr27E59/t9Y9vT2UbrmTjpnANgOes/hdi2rS6VXU8V26mM733vu3i/5BgiYgIQa8LQGPghYgP4ZX17z55cWQAYD0jKW7Zz3z1JujcrCwYoSMzb91qSaG2kr1eqEGBAkqLIOZJ0f5SAweRvWkeSIkWrmyFa71pSEiWRdFoFs/Sxoy9KEp3mI3nyi0hR/4y0G+mrf4qk4kmnW8nBFsbGUHR61lV4WZ58inR6N1p39Y8lSUkUvTejtWfe/3T6H+rdjOLEvc8RSYoUrbN6WBOOnXvzyyNp5Z8GBg+/lrORr+jB6y/HqxBUF0//oPipMZSWILbx0u+pA9vWb1iUAQDGAAhauxpSEBvAGAAAVlA4IGIBAABwCACdASoUABQAPm0ylEekIqIhKAgAgA2JZgCdMt1eDcBtpfEz/QD3irJDJU/4wfoj0Ut9V/YAMEXAOvQeFpgeW4zEx2nk7WO7GNYAAP7h0VJGJb2IvEafudORcytqy2ZuxLgjELJT1PuyYmVjcCBlKNxGw8oarwpSu4Ci0mb9hIqiXanSCRNH2GwifuOX11BG90mVGoH0sN+ox2gkLKHMdEDNdsRgXA7m7+GoQP/m90yS5NK1+yJk9eY/Yrc6h4ExhqmBOlfsxzwQQQxM33pIpGPC1PzvusVk06Eolybdz/PeRG43FBoCcMsXFT/hq3LisQ+ljb6CR3i1eAisBqtWSN7NIOH405xf1sKVx/xUl21sFJ6pWF8VTFRHiyhm+LFr56bGSRvAm4lXP94Xo2t9iyS5wslDud2EY8IYLEx1+w6ySjq1o9femOlFWNNNgqLhPXhPlwFOQIgojDO3EYQAAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Credit",
+   "desc": "Diese Währung, die von der Interastralen Friedenskorporation für die Abrechnung mit ihren Kunden verwendet wird, ist heute als hartes Zahlungsmittel für Weltraumreisende akzeptiert.",
+   "lore": "„Die Leute laufen herum, streiten sich und handeln für Zahlen auf einem Bildschirm, aber was wirklich von Wert ist, kann man nicht kaufen.“",
+   "purpose": "Gemeinsame Währung",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Blütenkelch: Große Mine",
+    "Blütenkelch: Kunsthandwerkskommission",
+    "Blütenkelch: Hotel Reverie (Traumlandschaft)",
+    "Blütenkelch: „Murmelnder Wald“ Hain der Erleuchtung",
+    "Missionsbelohnungen",
+    "Auftragsbelohnungen",
+    "Glut-Tausch"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Spuren des Schicksals",
+   "desc": "Fortschrittliches Material zum Hochstufen von Spuren.",
+   "lore": "Unzählige Fehlschläge sicherten deinen Sieg und deine kleinen Schritte führten dich an den Wendepunkt des Schicksals.",
+   "purpose": "Spurenmaterial",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Punktebelohnungen in der Universum-Simulation",
+    "Namenlose Ehre",
+    "Glut-Tausch",
+    "Sternenlicht-Tausch",
+    "Belohnungen für zeitlich begrenzte Aktionen"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Reiseführer",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>20.000</nobr> Figuren-EP.",
+   "lore": "Pflichtlektüre für Weltreisende. Auf Knopfdruck beginnt eine angenehme Stimme in der Sprache des Lesers von den legendären Erlebnissen berühmter Abenteurer auf diversen Planeten zu erzählen und ihr gesammeltes Wissen zusammenzufassen.<br /><br />„Die brandneue Reiseführer-Reihe ‚Das Handbuch für die galaktische Küche‘ ist jetzt erhältlich.“<br />„Einsendungen bitte per Telepathie über Synästhesie-Leuchtfeuer ERD<nobr>-23</nobr>θ an das Team der Intelligenzia-Gilde. Flexible Zahlungsoptionen.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Blütenkelch: Äußere Schneewüste",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Blütenkelch: „Heiligtum der Prophezeiung“ Janusopolis",
+    "Vergessene Halle"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Abenteuer-Log",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>5.000</nobr> Figuren-EP.",
+   "lore": "Eine säuberlich organisierte Sammlung lehrreicher Notizen mit unzähligen Illustrationen und Texten, die diverse Abenteuer vom Anfang bis zum Ende beschreiben, sowie wertvollen Tipps und Überlebenstechniken.<br /><br />„Warum werden die Daten nicht in einer Foto-CD gespeichert? Wäre doch viel praktischer.“<br />„Moderne Technologie ist angesichts von Sternenstürmen und Neuronenfluss-Eruptionen viel empfindlicher, als man denkt. Außerdem hätte der Autor des Buchs sicher gewollt, dass man es auf die einfachste Art liest.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Blütenkelch: Äußere Schneewüste",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Blütenkelch: „Heiligtum der Prophezeiung“ Janusopolis",
+    "Tägliches Training",
+    "Glut-Tausch"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Reisebegegnungen",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>1.000</nobr> Figuren-EP.",
+   "lore": "Ein unleserlich von Hand geschriebenes Reisetagebuch mit wirren Inhalten. Es nützt dir wenig.<br /><br />„Dan Heng, lies das endlich fertig, damit es in den Müll kann.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Blütenkelch: Äußere Schneewüste",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Blütenkelch: „Heiligtum der Prophezeiung“ Janusopolis",
+    "Auftragsbelohnungen"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "Flügel des Glücks",
+   "desc": "Fortschrittliches Material zum Hochstufen von Spuren.",
+   "lore": "Nur in dem Augenblick kurz vor ihrem Tod, in dem sich das Universum um sie zu sammeln scheint, können die Augen der Menschen diese geisterhaften Federn wahrnehmen. Von den sieben Bildern, in denen sich der Herrscherbogen manifestiert, ist Fliegender Aureus der schnellste.<br /><br />„Ich habe zwölf Tage und Nächte damit vollbracht, es zu jagen, und erst dann habe ich gemerkt, dass es schon immer in mir war.“",
+   "purpose": "Spurenmaterial",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "Echo des Krieges: Himmelsspalter"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Wehklagen aus der Ferne",
+   "desc": "Ein zersplitterter Panzer von einer Schöpfung der Schwarzen Flut. Ein normales Material zur Verstärkung.",
+   "lore": "Groteske Köpfe stoßen Zischlaute aus, zerfetzte Klingen sind scharf genug, um alles zu zerschneiden, während der Ursprung des Unheils weiterhin im Dunkeln lauert, verborgen von den Schleiern des Todes.<br /><br />„Warum weinst du allein vor dem Grabstein?“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "Schöpfungen der Schwarzen Flut auf Balance-Stufe 2 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Gegner in Divergentes Universum",
+    "Gegner in Universum-Simulation",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Ätherisches Omen",
+   "desc": "Ein Fragment, das von Kreaturen der Schwarzen Flut fallen gelassen wurde. Ein Rohmaterial zur Verstärkung.",
+   "lore": "Das Unheil naht lautlos, und wenn du es wahrnimmst, hat es sich bereits zu einer Weltkatastrophe ausgeweitet.<br /><br />„Die Totenglocke läutet am Ende des Schicksals.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "Schöpfungen der Schwarzen Flut",
+    "Gegner in Divergentes Universum",
+    "Gegner in Universum-Simulation",
+    "Auftragsbelohnungen",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch",
+    "Blütenkelch (Golden)"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Endloser Kummer",
+   "desc": "Ein Kristall, der nach dem Tod einer Schöpfung der Schwarzen Flut geformt wird. Ein hochwertiges Material zur Verstärkung.",
+   "lore": "Aus der Leere geboren, zur Leere zurückkehrend. Eine durch Erosion geschaffene verzerrte Existenz, die dazu verdammt ist, ziellos über die öde Erde zu wandern.<br /><br />„Ihr Leben ist erfüllt von Zerstörung und Trauer.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "Schöpfungen der Schwarzen Flut auf Balance-Stufe 4 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Gegner in Divergentes Universum",
+    "Gegner in Universum-Simulation",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "6103825": {
+   "id": 6103825,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
+   "name": "Mondlicht im Dunkelschleier",
+   "desc": "Eine außerirdische Krone, hinterlassen von den Pegasus im Mondlicht. Material zum Aufstieg von Quantenfiguren.",
+   "lore": "In einer nächtlichen Legende stahl Oronyx die Strahlen der Sonne und schenkte sie dem Mond. Die Pegasus trugen das überfließende Mondlicht, damit die Erde während des Schlafs von Aquila weiterhin erleuchtet blieb.<br /><br />„Wie kann der fahle Glanz des Mondes mit der Pracht der Sonne konkurrieren?“",
+   "purpose": "Material zum Figurenaufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/6103825",
+   "comeFrom": [
+    "Ruhender Schatten: „Murmelnder Wald“ Hain der Erleuchtung",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "Mana-Spross",
+   "desc": "Die Gedächtniszellen extrahieren Gedanken, die im Herzen des Schreibers wachsen und sich verbreiten. Mit diesen können Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad des Gedenkens</span> mäßig hochgestuft werden.",
+   "lore": "Die Samen schlagen Wurzeln und sprießen. Zweige und Knospen verflechten sich und übertragen Signale wie ein lebendiges Netzwerk aus Synapsen. Im Laufe der Jahre verwelken und vergehen einige, während andere gedeihen und stark genug werden, um das Leben weiterzugeben und das Gefäß einer Seele zu bilden. <br /><br />„Wir haben das Fleisch nicht aufgegeben. Wir haben es lediglich in etwas ... Dauerhaftes verwandelt.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "Blütenkelch: Ruinen des Zwists – Castrum Kremnos",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "Alayawah",
+   "desc": "Eine andere Form der Existenz und eine dauerhafte Facette des Lebens, die das Universum selbst nicht vergessen kann. Mit dieser können Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad des Gedenkens</span> stark hochgestuft werden.",
+   "lore": "Es reift zu einem Netz der Geschichte heran – einer Blüte aus der Vergangenheit. Das Leben selbst kann sein Blumenbeet oder sein Herz sein. Als Herz der Blume wirst du dich an das Universum erinnern, so wie sich das Universum an dich erinnert. Du bist die Erinnerung. <br /><br />„Erinnerung ist die Einheit aller Dharmas. Daher gibt es in diesem reinen Land ohne Entkommen, weder Geburt noch Tod.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "Blütenkelch: Ruinen des Zwists – Castrum Kremnos",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "Saat der Gedanken",
+   "desc": "Wenn Bewusstsein auf Materie trifft, entsteht eine Erinnerung. Mit dieser können Spuren für Figuren auf dem <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Pfad des Gedenkens</span> gering hochgestuft werden.",
+   "lore": "Dieses Objekt existiert nicht wirklich, bis man es sieht, hört oder spürt. Diese aus Empfindungen geborene Existenz verstummt bald, begraben im Boden des Denkens. Vielleicht sprießt sie eines Tages, vielleicht auch nicht.<br /><br />„Das ist die Substanz, aus der unsere Körper bestehen und die existiert, weil du dich erinnerst.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "Blütenkelch: Ruinen des Zwists – Castrum Kremnos",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 71.28,
+   "attackAdd": 3.564,
+   "hpBase": 221.76,
+   "hpAdd": 11.088,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 99.792,
+   "attackAdd": 3.564,
+   "hpBase": 310.464,
+   "hpAdd": 11.088,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 128.304,
+   "attackAdd": 3.564,
+   "hpBase": 399.168,
+   "hpAdd": 11.088,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 156.816,
+   "attackAdd": 3.564,
+   "hpBase": 487.872,
+   "hpAdd": 11.088,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 3.564,
+   "hpBase": 576.576,
+   "hpAdd": 11.088,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 213.84,
+   "attackAdd": 3.564,
+   "hpBase": 665.28,
+   "hpAdd": 11.088,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 242.352,
+   "attackAdd": 3.564,
+   "hpBase": 753.984,
+   "hpAdd": 11.088,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "6a5c18ec9109a2f709bd15f24e877c76e8d0f1a31984168fca3c6ecbe53c1942",
+   "artPath": "19f587931e9ee2769b20bab19b749c19831b1ee3d57d7437c42078d5d8e65782",
+   "name": "Schneebedeckte Maid, Erinnerung im Grab",
+   "descHash": "Wenn die aktuellen LP des Gegners <nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr> oder niedriger ihrer max. LP betragen, fügen die folgenden Fähigkeiten ihm SCH in Höhe von <nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr> des ursprünglichen SCH zu: „Knochenklaue, Umarmung des Düsterdrachen“, „Klauenspuren im Schleier“, „Atem versengt den Schatten“ und „Flügel fegen über Ruinen hinweg“.",
+   "params": [
+    0.8,
+    0.5,
+    1.2,
+    1.4
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "58cd19c645bc9f26062fbf41e01a22a2de1421e475935c5e91203eea51d185eb",
+   "artPath": "b92a49e0c7a9f81e2f8411e19006d335c39ff8e61ec2f688ae7ed76fbb48baaa",
+   "name": "Krone auf Blütenflügeln",
+   "descHash": "Nachdem der Memogeist Netherschwinge beschworen wurde, erhält Castorice <nobr>#1[i]</nobr> Stapelungen „Feuriger Wille“. Sie kann höchstens <nobr>#2[i]</nobr> Stapelungen auf einmal besitzen. Mit Feuriger Wille kann der LP-Verbrauch von Netherschwinge ausgeglichen werden, wenn die Memogeist-Technik „Atem versengt den Schatten“ eingesetzt wird, und Castorices Aktion wird um <nobr>100</nobr> % <u>vorgezogen</u>. Beim nächsten Einsatz der verstärkten Fertigkeit erhält Castorice <nobr>#3[i]%</nobr> der Obergrenze von „Neuer Spross“.",
+   "params": [
+    2,
+    2,
+    0.3
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "62139b57457b743de37c387c5dbbe87f3a36e8187aa7bc7e2056d3f79de4d6c2",
+   "artPath": "fc1089d44ed0ed93f2d6651f85d8f90b003db56da1c8b3ac3a6c7b0fbb04c5ec",
+   "name": "Fromme Pilgerin im Tanz durch das Totenreich",
+   "descHash": "Ultimate-Stufe +2 bis max. St. <nobr>15</nobr>. Standardangriff-Stufe +1 bis max. St. <nobr>10</nobr>. Talentstufe des Memogeists +1 bis max. St. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "1d2b97b152b80e2d6fa36313751acde00a1c5cd28a061ae31effaa7985d83bf9",
+   "artPath": "b0e60d52b49a5caadff3ff2ace9aca430af5be20b1dc3ab55f361b662a04e8ee",
+   "name": "Ruhe in Liedern der Schwermut",
+   "descHash": "Während sich Castorice auf dem Kampffeld befindet, wird die LP-Wiederherstellung der erhaltenen Heilung bei allen Verbündeten um <nobr>#1[i]%</nobr> erhöht.",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "artPath": "e6dac543e995312ea1add1d089f5f730eadb68f5924515db50ab4eed2f9a4061",
+   "name": "Blütenweiße Seiten, geschmückt mit Prophezeiungen",
+   "descHash": "Fertigkeitsstufe +2 bis max. St. <nobr>15</nobr>. Talentstufe +2 bis max. St. <nobr>15</nobr>. Technikstufe des Memogeists +1 bis max. St. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3e42ac5a714b0240b24763ee6ca4c29b3f298ce86f4b74d5efcab15c455289e0",
+   "artPath": "a3d148d335af4aaa7ef8726d19975cbcf1e0ff67a82e3f21d51d8449deba5ee7",
+   "name": "Bis die Zeit unaufhaltsam dahinströmt",
+   "descHash": "Wenn Castorice und Netherschwinge SCH verursachen, wird die <u>WDS-DUR</u> aller Typen um <nobr>#1[i]%</nobr> erhöht. Die Angriffe von Netherschwinge können den WDS der Gegner unabhängig vom Schwächetyp reduzieren. Wenn Schwächebruch zugefügt wird, wird der Effekt „Schwächebruch: Quanten“ ausgelöst und die Anzahl der Abpralle für das Talent „Flügel fegen über Ruinen hinweg“ zusätzlich um <nobr>#2[i]</nobr>-mal erhöht.",
+   "params": [
+    0.2,
+    3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   12091651
+  ],
+  [
+   12285822,
+   12465910
+  ],
+  [
+   12526956
+  ],
+  [
+   12262238
+  ],
+  [
+   12554901
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Einzelangriff",
+   "descHash": "Fügt einem anvisierten Gegner <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> der max. LP von Castorice zu.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12091651,
+   "name": "Klage, Welle im Todesmeer",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "Standardangriff",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Ausdehnung",
+   "descHash": "Verbraucht <nobr>#1[i]%</nobr> der aktuellen LP aller Verbündeten. Fügt einem anvisierten Gegner <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> der max. LP von Castorice und angrenzenden Einheiten <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> der max. LP von Castorice zu.<br />Wenn die aktuellen LP nicht ausreichen, werden die LP auf ein Minimum von 1 reduziert.<br />Wenn sich Netherschwinge auf dem Kampffeld befindet, wird die Fertigkeit durch „Knochenklaue, Umarmung des Düsterdrachen“ ersetzt.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12285822,
+   "name": "Stille, Liebkosung des Phantomschmetterlings",
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "typeDescHash": "Fertigkeit",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.3,
+      0.25,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.275,
+      0.165
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.3,
+      0.18
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.325,
+      0.195
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.35,
+      0.21
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.375,
+      0.225
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.40625,
+      0.24375
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.4375,
+      0.2625
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.46875,
+      0.28125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.5,
+      0.3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.525,
+      0.315
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.55,
+      0.33
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.575,
+      0.345
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.6,
+      0.36
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.625,
+      0.375
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Beschwörung",
+   "descHash": "<u>Beschwört den Memogeist</u> Netherschwinge und <u>zieht seine Aktion um <nobr>100</nobr> % vor</u>. Erzeugt gleichzeitig den <u>Bereich</u> „Unentdeckte Unterwelt“, der den WDS aller Typen bei allen Gegnern um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> verringert. Wenn die SCH-Erhöhung von Castorices Talent aktiv ist, wird dieser Effekt auf Netherschwinge ausgedehnt. Netherschwinge hat anfänglich eine GES von <nobr>#1[i]</nobr> Pkt. und feste max. LP in Höhe von <nobr>#3[i]%</nobr> der Obergrenze von „Neuer Spross“.<br />Nach <nobr>#2[i]</nobr> Rd. oder wenn die LP von Netherschwinge auf 0 sinken, verschwindet er. Der <u>Bereich</u> Unentdeckte Unterwelt wird auch entfernt.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12526956,
+   "name": "Todesschrei, Glockenschlag des Erwachens",
+   "iconPath": "70cd5e879fb5addfffc0c7f2f9a5d91f931d0ba2179490181293155501e90225",
+   "typeDescHash": "Ultimate",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1,
+      0
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.11,
+      0
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.12,
+      0
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.13,
+      0
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.14,
+      0
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.15,
+      0
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1625,
+      0
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.175,
+      0
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1875,
+      0
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.2,
+      0
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.21,
+      0
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.22,
+      0
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.23,
+      0
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.24,
+      0
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.25,
+      0
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Verstärkung",
+   "descHash": "Die Obergrenze von „Neuer Spross“ basiert auf den Stufen aller Figuren auf dem Kampffeld. Für jeden LP, den die Verbündeten verlieren, erhält Castorice 1 Pkt. Neuer Spross. Wenn Neuer Spross seine Obergrenze erreicht, kann Castorices Ultimate aktiviert werden. Wenn Verbündete LP verlieren, wird der von Castorice und Netherschwinge verursachte SCH um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> erhöht. Dieser Effekt ist bis zu <nobr>#3[i]</nobr>-fach stapelbar und hält <nobr>#4[i]</nobr> Rd. an.<br />Während sich Netherschwinge auf dem Kampffeld befindet, kann Neuer Spross nicht durch Talent erhalten werden und wenn Verbündete (außer Netherschwinge selbst) LP verlieren, wird jeder Punkt der verlorenen LP in die gleiche Menge LP für Netherschwinge umgewandelt.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12262238,
+   "name": "Trostlosigkeit auf den Handflächen",
+   "iconPath": "228e1a89a2978c60476f6309964e57a365441bfac1a443706e45d252ab91c04e",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0,
+      0.1,
+      3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.11,
+      3,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.12,
+      3,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.13,
+      3,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.14,
+      3,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.15,
+      3,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1625,
+      3,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.175,
+      3,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1875,
+      3,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.2,
+      3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.21,
+      3,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.22,
+      3,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.23,
+      3,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.24,
+      3,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.25,
+      3,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Greift den Gegner an und reduziert nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12303521,
+   "name": "Angriff",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Tritt nach dem Einsatz der Technik für <nobr>#3[i]</nobr> Sek. in den Status „Schleier der Unterwelt“ ein. Während dieser Status aktiv ist, können Gegner sich Castorice nicht von sich aus nähern.<br />Beim Einsatz von aktiven Angriffen im Status Schleier der Unterwelt betreten alle Gegner in Reichweite den Kampf. <u>Beschwört den Memogeist</u> Netherschwinge, <u>zieht seine Aktion um <nobr>100</nobr> % vor</u> und erzeugt den <u>Bereich</u> „Unentdeckte Unterwelt“. Netherschwinge hat die aktuellen LP in Höhe von <nobr>#2[i]%</nobr> der Obergrenze von „Neuer Spross“. Nach Kampfeintritt werden <nobr>#1[i]%</nobr> der aktuellen LP aller Verbündeten (außer Netherschwinge) verbraucht.<br />Wenn Netherschwinge nach Kampfeintritt nicht beschworen wird, erhält Castorice Neuer Spross in Höhe von <nobr>#4[i]%</nobr> seiner Obergrenze.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12554901,
+   "name": "Klagegeschrei, Vorbote des Todes",
+   "iconPath": "52a338de9ce8e043c60882c1407caca640c8b260e28f6cc5de1d68f2db942637",
+   "typeDescHash": "Technik",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.5,
+      20,
+      0.3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Flächenangriff",
+   "descHash": "Verbraucht <nobr>#1[i]%</nobr> der aktuellen LP aller Verbündeten (außer Netherschwinge). Castorice und Netherschwinge führen einen <u>Kettenangriff</u> auf das Ziel aus und fügen allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> und <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> der max. LP von Castorice zu.<br />Wenn die aktuellen LP nicht ausreichen, werden die LP auf ein Minimum von 1 reduziert.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12465910,
+   "name": "Knochenklaue, Umarmung des Düsterdrachen",
+   "iconPath": "9706a28240e969d9fe4d3575f73422344bb8066fb856bc841555bc087d19faed",
+   "typeDescHash": "Fertigkeit",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.15,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.165,
+      0.275
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.18,
+      0.3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.195,
+      0.325
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.21,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.225,
+      0.375
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.24375,
+      0.40625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.2625,
+      0.4375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.28125,
+      0.46875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.3,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.315,
+      0.525
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.33,
+      0.55
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.345,
+      0.575
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.36,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.375,
+      0.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1407101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1542891,
+      "name": "KRIT-SCH-Verstärkung",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "KRIT-SCH",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1300735,
+      "name": "KRIT-Rate-Erhöhung",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "KRIT-Rate",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Nachdem Verbündete (außer Netherschwinge) Heilung erhalten, werden <nobr>#1[i]%</nobr> der erhaltenen Heilung in „Neuer Spross“ umgewandelt. Wenn sich Netherschwinge auf dem Kampffeld befindet, wird die erhaltene Heilung stattdessen in LP für ihn umgewandelt. Die gesamte umgewandelte Heilung eines Verbündeten kann <nobr>#2[i]%</nobr> der Obergrenze von Neuer Spross nicht überschreiten. Nach der Aktion einer beliebigen Einheit wird der angesammelte Umwandlungswert aller Einheiten zurückgesetzt.",
+    "ultimateCost": 0,
+    "id": 885030,
+    "name": "Unterbringung der Unterströmung",
+    "iconPath": "2eb19a53b226e83162e67661a9edaa0bb35a68ad0e9932cd8474983103b4a812",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1322499,
+      "name": "SCH-Verstärkung: Quanten",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">Quanten</span>-SCH-Erhöhung",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1080336,
+      "name": "KRIT-Rate-Erhöhung",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "KRIT-Rate",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Wenn Castorices aktuellen LP <nobr>#1[i]%</nobr> oder mehr ihrer max. LP betragen, wird ihre GES um <nobr>#2[i]%</nobr> erhöht. Wenn Netherschwinge durch den Einsatz von „Atem versengt den Schatten“ allen Gegnern auf dem Kampffeld Todesstoß zufügt oder wenn ihre LP nicht mehr verringert werden können, wird die GES von Netherschwinge für 1 Rd. um <nobr>#3[i]%</nobr> erhöht.",
+    "ultimateCost": 0,
+    "id": 636727,
+    "name": "Umgekehrte Fackel",
+    "iconPath": "ce7293434a82dfaf3b4972f4f3977ed1f9b82326ee316f43cc99bea9def49f96",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       0.4,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1407209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1407210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 18145452,
+          "name": "KRIT-Rate-Erhöhung",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "KRIT-Rate",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 3526997,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 1085508,
+        "name": "SCH-Verstärkung: Quanten",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#7788ff;\">Quanten</span>-SCH-Erhöhung",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 1327658,
+      "name": "KRIT-SCH-Verstärkung",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "KRIT-SCH",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 3526997,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Jedes Mal, wenn Netherschwinge „Atem versengt den Schatten“ einsetzt, wird der verursachte SCH um <nobr>#1[i]%</nobr> erhöht. Dieser Effekt ist bis zu <nobr>#2[i]</nobr>-fach stapelbar und hält bis zum Ende dieser Runde an.",
+    "ultimateCost": 0,
+    "id": 875201,
+    "name": "Wo der Westwind weilt",
+    "iconPath": "022fee3a2fb0aed2db5df8d55534cedb10f6792ae204eee68305a6eeeb0b0a5b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1407202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1529520,
+      "name": "SCH-Verstärkung: Quanten",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">Quanten</span>-SCH-Erhöhung",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1287390,
+      "name": "KRIT-Rate-Erhöhung",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "KRIT-Rate",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 1245350,
+    "name": "KRIT-Rate-Erhöhung",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "KRIT-Rate",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Erstes Treffen",
+   "text": "Willkommen in Okhema. Ich bin Castorice. Entschuldige, es ist meine Gewohnheit, Abstand zu anderen zu halten ... Doch wenn du es wünschst, kann ich dir näher kommen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Begrüßung",
+   "text": "Ist dir kalt? Sollen wir zusammen in die Sonne gehen?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Abschied",
+   "text": "Abschiede kommen immer so schnell ... Ich hoffe, dass keiner von uns aufhört, voranzuschreiten.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Über sich selbst: Pflicht",
+   "text": "Meine derzeitige Pflicht ist es, die opfernden Erben von Chrysos und Titanen zu trösten. Ich hoffe, dass sie den letzten Moment ihres Lebens damit verbringen, statt endloser Dunkelheit ein friedliches Blumenmeer zu sehen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Über sich selbst: Vergangenheit 1",
+   "text": "Ich bin einmal allein umhergeirrt wie ein einsamer Schmetterling, der nicht wusste, wohin er fliegen sollte ... Vielleicht war es der Flammenjagd und meinen Freunden in Okhema zu verdanken. Vielleicht waren es auch die Menschen, denen ich unterwegs begegnet bin und die mir geholfen haben, die Richtung für meinen nächsten Flug zu finden.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Über sich selbst: Vergangenheit 2",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Verfügbar nach Abschluss der Trailblaze-Mission „Das Spiegelbild der Hexe“",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Plaudern",
+   "text": "Ich liebe es, mich in die Bücher hineinzuversetzen. Ich bin zum Beispiel keine gute Köchin, aber wenn ich Kochbücher lese, kann ich mir vorstellen, wie ich Gerichte zubereite ... Ist das nicht wunderbar?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Hobbys",
+   "text": "Jedes Mal, wenn ich etwas Niedliches sehe, möchte ich es in Plüschtiere verwandeln ... Mit Filz kann man das Aussehen am genauesten nachbilden, und die Plüschtiere können noch weicher werden, wenn man sie mit Baumwollgarn füllt oder mit Wolle häkelt. Ich kann nicht nur Tiere machen, sondern auch Zagreus’ Silbermünzenpuppe und die Puppe eines gekochten Dollo-Eies mit verschiedenen Gesichtsausdrücken ... Ich schlafe besonders gut, wenn ich mit ihnen kuschele.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Ärgernisse",
+   "text": "Ich wünschte, ich hätte zwei kleine Chimären, damit ich mein Gesicht in ihr warmes, flauschiges Fell kuscheln und mit ihnen in den Ebenen herumtollen könnte ... Aber das geht nicht, also werde ich stattdessen einfach zwei weitere Chimären-Plüschtiere basteln.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Etwas Mitteilenswertes",
+   "text": "Während meiner Zeit in Aidonia habe ich zusammen mit allen anderen dunkelblaue Antila-Blumen zu wunderschönen Kränzen geflochten. Wir legten sie dann den toten Soldaten auf den Kopf und sahen zu, wie die Körper den Fluss der Seelen hinuntertrieben ... Und so ging es Tag für Tag ...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Wissen",
+   "text": "Das Flüstern eines Soldaten mit Heimweh, die Schlaflieder, mit denen eine Mutter ihr Kind beruhigt, der letzte Brief, den eine Maid ihrem Geliebten hinterlassen hat ... Bei jeder Beerdigung trage ich eine weitere Erinnerung mit mir, die von denen hinterlassen wurde – Erinnerungen, die noch immer die Wärme ihres Lebens in sich tragen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Über Trailblazer",
+   "text": "Wenn die Blumen wieder blühen und wir das Glück haben, uns in der neuen Welt zu treffen, dann erinnere dich an unser Versprechen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "Über Polyxia",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Verfügbar nach Abschluss der Trailblaze-Mission „Das Spiegelbild der Hexe“",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "Über Aglaea",
+   "text": "Nur eine ausreichend kalte Hand kann die brennende Kernflamme ergreifen ... Lady Aglaea muss sich schon lange damit abgefunden haben.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "Über Tribbie, Trianne und Trinnon",
+   "text": "Jeder möchte sich aus seinem Kokon befreien und als Schmetterling in den offenen Himmel fliegen, aber sie waren die Einzigen, die ... sich dafür entschieden haben, für die Wiedergeburt dieser Welt in den Kokon zurückzukehren.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "Über Mydei",
+   "text": "Der Tod, der durch Zwist verursacht wird, ist oft voller Schmerz und Dunkelheit, aber was Lord Mydei seinen Gegnern gewährt, ist ein ruhmreicher und strahlender Untergang.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "Über Phainon",
+   "text": "Je mehr man verloren hat, desto sehnsüchtiger will man alles zurückgewinnen ... Vielleicht wird er deshalb die Menschheit bis zum Ende anführen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "Über Anaxa",
+   "text": "Er hat mir einmal gesagt, dass ich ruhig bleiben sollte, selbst wenn ich Toten gegenüberstehe, und ihnen nicht von meinen inneren Sorgen erzählen sollte. Erst später verstand ich, dass „das Üben des Sterbens“ das Thema war, das sein ganzes Leben bestimmte.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "Über Hyacine",
+   "text": "Selbst nachdem sie so viel Leben und Tod miterlebt hat, vergießt sie immer noch Tränen für diejenigen, die an unheilbaren Krankheiten leiden ... Aber sie wird ihre Tränen den Patienten niemals zeigen. Sie will den Menschen eine immer strahlende Sonne ins Leben bringen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "Über Cipher",
+   "text": "Sie ist schon seit Langem eine Halbgöttin. Ihre Gedanken sind geheimnisvoll, ihr Aufenthaltsort schwer zu bestimmen ... Sie beklagt sich oft darüber, dass die Flammenjagd ein Geschäft ist, das sie irgendwann einmal völlig ausbeuten wird. Doch hinter ihren Worten scheint ein unausgesprochener Kummer verborgen zu sein.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "Eidolon aktiviert",
+   "text": "Egal, wie kalt die andere Seite ist, es wird immer noch nach Blumen duften.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "Figurenaufstieg",
+   "text": "Schau, das Licht kommt rein.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "Höchststufe erreicht",
+   "text": "Alles durchläuft einen Kreislauf von Leben und Tod ... Das Ende ist auch der Anfang.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "Spur aktiviert",
+   "text": "Die Spuren, die wir in dieser Welt hinterlassen, werden den Tod überdauern.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "Teammitglied: Trailblazer",
+   "text": "Keine Sorge. Mein Fluch ist ein Segen auf dem Schlachtfeld.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "Teammitglied: Aglaea",
+   "text": "Lady Aglaea, du kannst dich darauf verlassen, dass ich dem Ganzen bald ein Ende bereiten werde.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "Teammitglied: Tribbie",
+   "text": "Hohepriesterin Tribbie, bitte bleib in der Nähe.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "Teammitglied: Mydei",
+   "text": "Lord Mydei, lasst uns jeder seine Pflicht tun.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "Teammitglied: Anaxa",
+   "text": "Professor, was wirst du dieses Mal unterrichten?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "Kampf beginnt: Schwächebruch",
+   "text": "Auch du wirst bald in die Unterwelt aufbrechen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "Kampf beginnt: Gefahrenwarnung",
+   "text": "Die Gefahr naht.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "Runde beginnt 1",
+   "text": "Das Leben ist nicht so zerbrechlich wie Schmetterlingsflügel.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "Runde beginnt 2",
+   "text": "Schätze bitte die Zeit, bevor deine Seele verwelkt.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "Warten auf Runde",
+   "text": "Ich werde bis zum letzten Augenblick hier warten.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "Standardangriff",
+   "text": "Schlaf jetzt.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "Fertigkeit 1",
+   "text": "Bitte, verwelke hier.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "Fertigkeit 2",
+   "text": "Ich erfülle dir deinen Wunsch.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "Verstärkte Fertigkeit 1",
+   "text": "Tote Seelen ... Werdet wieder zu Staub.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "Verstärkte Fertigkeit 2",
+   "text": "Dunkelheit, folg mir.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "Leicht getroffen",
+   "text": "Es geht mir gut.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "Schwer getroffen",
+   "text": "Das tut ein bisschen weh.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "Ultimate: Aktivieren",
+   "text": "Stürze dich in dein neues Leben, Pollux.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "Ultimate: Einsetzen",
+   "text": "Ich wünschte nur, der Tod ... möge uns beschützen!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "Handlungsunfähig",
+   "text": "Der Westwind ...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "Zurück zum Kampf",
+   "text": "Gott sei Dank ... Es ist noch nicht an der Zeit, Lebewohl zu sagen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "LP wiederhergestellt",
+   "text": "Ich werde mich an diese Wärme erinnern.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "Technik",
+   "text": "Entschlüpfe aus deinem Kokon.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "Kampf gewonnen",
+   "text": "Mögen die umherirrenden Seelen ihren eigenen Weg hinausfinden.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "Schatz geöffnet 1",
+   "text": "Ah! Pass gut darauf auf.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "Schatz geöffnet 2",
+   "text": "Ich will etwas damit machen. Aber was ...?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "Kostbarer Schatz geöffnet",
+   "text": "Machen wir ein Foto.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "Rätsel gelöst 1",
+   "text": "Ich habe was gelernt.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "Rätsel gelöst 2",
+   "text": "Ich habe solche Rätsel in Büchern gesehen ...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "Gegner gefunden",
+   "text": "Sei vorsichtig. Da vorn ist etwas Unheimliches.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "Zurück zur Stadt",
+   "text": "Dieser Ort ist erfüllt vom süßen Duft der Blumen ... Können wir noch eine Weile hier bleiben?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Figurendetails",
+   "text": "Das Land, das den Tod verehrt, Aidonia, wo unablässig Schnee fällt, hat sich heute in einen süßen Schlummer versenkt.<br />Castorice, Tochter des Flusses der Seelen und Erbin von Chrysos, die auf der Suche nach der Kernflamme des Todes ist, mache dich auf den Weg. Behüte die Klage der Seelen und umarme die Einsamkeit des Schicksals.<br />Leben und Tod sind nur eine Reise. Wenn der Schmetterling auf dem Ast verweilt, wird das, was verwelkt, neu erblühen.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Geschichte (Teil 1)",
+   "text": "Seit sie sich erinnern konnte, war der Schnee in Aidonia immer da gewesen. Es war, als wäre die Zeit in diesem verlassenen weißen Boden eingefroren worden.<br />Als sie ein Kind war, fragte sie Amunet einmal, was Schnee sei. Amunet sagte, Schnee sei die Freude des Wiedersehens und die Trauer des Abschieds.<br /><br />Sie war immer in Trance, wenn sie die Menschen in der Stadt anstarrte.<br />Der kleine Ritter kam jeden Tag zum Training vor die Tempeltüren. Der Priester mittleren Alters döste gelegentlich unter ihrem hohen Turm ein. Der asketische Gelehrte verteilte Antila-Blumenkekse an die Kinder.<br />Die Kinder drängten und schubsten sich, während sie sich in der Ferne eine Schneeballschlacht lieferten, und ihr Lachen erfüllte ihr Herz mit Freude.<br />Vom Turm aus versuchte sie, ihre Gesichter zu unterscheiden, aber es gelang ihr nicht.<br /><br />Heilige Maid – so nannten sie sie nur, wenn sie vor den Menschen erschien, und niemand wagte es, ihr in die Augen zu sehen.<br />Sie nahm allen Mut zusammen und ging näher heran, aber sie wichen zurück und senkten den Blick noch tiefer. Sie konnte immer noch keines ihrer Gesichter sehen.<br /><br />Bis sie an der Schwelle des Todes standen. Der kleine Ritter erlitt in der Schlacht schwere Wunden, der Priester mittleren Alters litt unter jahrelanger Krankheit, und der asketische Gelehrte wurde von den Patienten, die er behandelte, angesteckt. In diesem Moment war sie ihnen am nächsten.<br />Das Leben war kein qualvoller Kampf mehr, sondern verwandelte sich unter ihren Fingerspitzen in Blütenblätter im Wind.<br />Als sie endlich die Gelegenheit hatte, in ihre Gesichter zu sehen, wandte sie sich stattdessen ab, denn sie konnte es nicht ertragen, hinzusehen.<br /><br />„Manche Hände sind zum Pflanzen geboren, manche zum Regieren ... Deine Hände erfüllen die schicksalhafte Pflicht des Abschieds.“<br />Amunets Worte hallten in ihren Ohren wider. Sie fragte sich einmal, was ihre Hände wohl hinterlassen könnten.<br />Als sie wieder zu sich kam, betrachtete sie eine unvollständige Eisskulptur in ihren Händen. Junge Krieger, die ihre Waffen schwangen, Mütter, die ihre Kinder umarmten, die in den Krieg ziehen würden, Paare, die einander sehnsüchtig die Gesichter liebkosten ...<br />Diese Menschen gab es nicht mehr.<br />Aber solche Dinge würden immer wieder geschehen ... innerhalb sowie außerhalb des Schneesturms.<br /><br />Schließlich verstand sie, dass auch der Schnee in Aidonia schmelzen würde, so wie alles in die Umarmung des Todes gehen musste.<br /><br />„Nikolaos, der das Lachen liebte, die gütige Helena<br />Und Crito, still wie der Wind ...<br />Nächtens erhebe ich<br />Diese verlorenen Namen und verstummten Erinnerungen<br />Und verwandle des Tages Kummer<br />In mit Schnee und Wasser durchtränkte Hitze<br />...“<br /><align=\"right\">– Gedicht eines Mädchens mit dem Titel „Aidonia“</align>",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>20</nobr>"
+  },
+  {
+   "title": "Geschichte (Teil 2)",
+   "text": "An dem Tag, an dem sie Aidonia verließ, begab sie sich auf eine Reise, um Thanatos zu treffen, eine Reise mit unbekanntem Ziel.<br /><br />Sie wehrte die Schöpfungen der Schwarzen Flut ab und rettete untergehende Dörfer. Sie war nicht mehr die Maid des Krieges von Aidonia, doch sie hielt sich noch immer bewusst von anderen fern und verbarg ihre eigenen Hände. Dennoch konnte sie den funkelnden Augen der Kinder nicht standhalten. Als sie zum ersten Mal zu Nadel und Faden griff, erfüllte sie den letzten Wunsch eines Kindes, ein Plüschtier anzufassen.<br />Auf dem Schlachtfeld, das vom Tod verschlungen wurde, schrieb sie Briefe an die trauernden Familien der Krieger, die nicht nach Hause zurückkehren konnten. Sie lernte sogar von einem stolzen Dichter und benutzte Gedichte, um sich von den Toten zu verabschieden ...<br />„Der Tod ist unvermeidlich“, „Der Tod ist die Ehre des Kriegers“, „Der Tod ist nur ein Schritt aus der Zeit hinaus“ ... Auf dieser beschwerlichen Reise hörte sie viele Gespräche, manche unverblümt, andere poetisch. Doch diese Antworten waren wie eine Brise, die über die Wasseroberfläche wehte und nie die Tiefe ihres Herzens erreichte.<br /><br />„Dann ... sagte jemand, dass die in Morgenröte gehüllte Heilige Stadt vor Hoffnung auf Leben nur so überströmt. Vielleicht kann auch ich dort ...“<br />Das Mädchen zögerte.<br />„Schon in Ordnung. Es ist kein Problem, wenn du jetzt nicht darüber sprechen möchtest. Okhema heißt dich willkommen!“Das rothaarige Mädchen servierte ihr eine Tasse heißen Tee.<br />Die goldhaarige Dame betrachtete die Handschuhe des Mädchens mit Interesse ...<br />„Ein sehr ästhetisch gestaltetes Accessoire. Hast du auch auf deinen Reisen gelernt, das herzustellen?“<br />Schüchtern verschränkte sie ihre Finger.<br />„Ja, ich wollte ... Verabschiedungen förmlicher machen.“<br /><br />Das Sonnenlicht in Okhema brannte strahlend herab und die nicht enden wollende Proklamation der Morgenrot-Maschine versprach ein endloses Morgen.<br /><br />In dieser kleinen Hütte begann sie mit großer Vorsicht ihr zweites Leben.<br />Der ursprünglich leere Raum wurde mit Kleinigkeiten aus ihrem täglichen Leben geschmückt, mit Plüschtieren aus Filz, Chimären-Kissen und dicken Gedichtsammlungen. Sie waren nicht länger Symbole für Tragödien, sondern Geschenke, Andenken und Segnungen ...<br />Die Gewohnheiten, die sie einst für die Toten gehegt hatte, konnten unter dem Sonnenlicht von Okhema zum ersten Mal Wärme und Kraft hervorbringen.<br /><br />„Der Ausblick aus diesem Fenster<br />Bleibt immer gleich,<br />Strahlende Sonne, sanft kräuselnde Wellen.<br />Ich puste den Schnee von meinen Händen,<br />Um die Kälte zu vertreiben, denn der Frühling ist zu nah<br />...“<br /><align=\"right\">– Gedicht eines Mädchens mit dem Titel „Frühling“</align>",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>40</nobr>"
+  },
+  {
+   "title": "Geschichte (Teil 3)",
+   "text": "Sie wusste, dass ihr Ziel nicht dasselbe war wie das ihrer Gefährten auf der Flammenjagd, aber sie begann allmählich, ihre eigenen flüchtigen Momente der Wärme zu finden.<br />Während der goldene Faden sie sanft leitete, tanzte sie zum ersten Mal unbeholfen mit anderen. In dem Garten, in dem es von Leben wimmelte, stellte sie zusammen mit Hyacine frische Trockenblumen her. Und an dem Tag, an dem sie den Hain verließ, fiel das Sonnenlicht auf ihr Kleid und warf Schatten, die Schmetterlingsflügeln glichen ...<br /><br />Diese Momente, die anderen womöglich unbedeutend erschienen, waren für sie Feuerholz, um ihre einsamen und kalten Jahre zu überstehen.<br />Sie sehnte sich nach Wärme, zügelte aber aus demselben Grund auch ihre Vorfreude. Vielleicht, weil die Reise der Flammenjagd mit ständigen Verlusten verbunden war, vielleicht, weil sie die Grausamkeit der Trauer nicht mehr erleben wollte ... Genau wie der Albtraum, der sie so lange verfolgt hatte und sich immer wiederholte ...<br /><br />Die Sonne ging in Kephales Handfläche unter und die blutrote Dämmerung verschlang das Morgengrauen der Heiligen Stadt.<br />Die Schwarze Flut brandete an, und in dem totenstillen Bad umarmte die Goldweberin sie zum ersten Mal, und nur ihr erschöpfter Seufzer blieb im Blumenmeer zurück.<br />„Meine Liebe wird nicht durch den Tod vergehen.“<br />„Wir sehen uns morgen, Cas!“ Die schäbige Botin verwandelte sich in ein Plüschtier und sackte in ihren Armen zusammen, kaum noch atmend.<br />Sie versuchte, die verstreuten Blütenblätter zu ergreifen, doch die flinke Diebin hielt ihre Hand fest und gab ihr die letzte Belohnung.<br />„Tu mir nur einen Gefallen. Was ist schon dabei, den Tod zu betrügen?“<br />Die Himmelspriesterin senkte den Blick und verschwand, während sie sich an ihre Schulter lehnte. Der blutgetränkte Kronprinz schloss seine Augen und wartete auf ihre Hinrichtung. Der Krieger mit zerbrochener Rüstung weinte Tränen aus Blut. Der Philosoph aus dem Hain lächelte und lud sie ein, die letzte Zeugin zu sein.<br />Am Ende des Traums sah sie, wie ein Gast von hinter dem Himmel unter den Sternen auf die Knie fiel. Ihre schrecklichste Vermutung war damit bestätigt ...<br /><br />„Cassi, ruh dich noch etwas aus.“<br />Im Hypnotherapie-Raum des Hofs der Dämmerung waren die Augen der Ärztin voller Sorge.<br />Sie wischte den Schweiß von ihrer Stirn, als ob sie einen festen Entschluss gefasst hätte.<br />„Nein, ich werde alles in meiner Macht Stehende tun, damit dieser Albtraum nie wahr wird ...“<br /><br />„Helden jagten die Flammen einst auf verschiedenen Pfaden.<br />Wir zogen einander an mit blass schimmerndem Licht,<br />Wie Motten, die den brennenden Schmerz ertragen.<br />Wir flogen nicht voran, weil wir Hoffnung sahen,<br />Sondern sahen Hoffnung, weil wir voranflogen.<br />...<br /><align=\"right\">– Gedicht eines Mädchens mit dem Titel „Flammenjagd“</align>",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>60</nobr>"
+  },
+  {
+   "title": "Geschichte (Teil 4)",
+   "text": "„Vielleicht ... wird dies mein letzter Tag in Okhema sein. ...“<br />Am Ende einer bitteren Reise hatte sie endlich die Hinweise auf die Unterwelt gefunden. Bevor sie sich an den Ort ohne Wiederkehr begab, wollte sie sich die Welt noch einmal genau ansehen.<br /><br />Dies war das Bad der Erben von Chrysos.<br />Sie erinnerte sich daran, wie Aglaea ihr einst im dichten Dampf ein Paar sorgfältig reparierter Handschuhe gegeben hatte.<br />„Cas, du hast dich sehr verändert, seit wir uns das erste Mal trafen.“<br />Überrascht berührte sie die schönen Muster auf den Handschuhen, und die sonst so gleichgültige Anführerin lächelte, als sie ihr zuzwinkerte.<br />„Selbst mein jetziges Ich kann dein glühendes Herz unter der eisigen Kälte sehen ...“<br /><br />Dies war der ruhige Garten hinter dem Haus, der so aussah wie in ihren Träumen.<br />In diesem Traum, in dem sich Zeit und Raum im Chaos befanden, traf sie oft auf ihr anderes Ich. Gemeinsam bearbeiteten und pflegten sie den Garten, bis sich der karge Boden in ein üppiges Blumenmeer verwandelte.<br />„Wenn ich doch auch in der Zukunft solche Hoffnungen säen könnte ...“<br /><br />Dies war das Denkmal, das sie für die Menschen errichtet hatte, die einst an ihren Fingerspitzen dahingeschieden waren.<br />Von den Verstorbenen in Aidonia bis zu den Erben von Chrysos auf der Flammenjagd ... Seit über eintausend Jahren versuchte sie, sich an die Namen und die Vergangenheit eines jeden zu erinnern.<br />„Wenn sich noch jemand erinnert, ist man nicht wirklich tot.“<br /><br />Dies ist der Ort, an dem sie Trailblazer zum ersten Mal getroffen hatte.<br />Begegnungen sind so wundersam, dachte sie. Die Straßen, die ihr durch die Vergangenheit so vertraut gewesen waren, hatten durch einen anderen Menschen eine besondere Bedeutung bekommen.<br />„Mit meinen eigenen Händen werde ich mit dir ...“<br /><br />Mit dem Herannahen der Stunde des Torwegs rückte auch die Zeit des versprochenen Aufbruchs näher.<br />Unter dem gleißenden Sonnenlicht äußerte sie ihren ersten und letzten Wunsch: Mit dem eisigen und mühsamen Leben als Anfang, wird sie mit ihr/ihm etwas schreiben ...<br /><br />Ein Gedicht mit dem Titel „Castorice“, das mit einer wahren Umarmung endet.",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "阮从青",
+  "cvJp": "斎藤千和",
+  "cvKr": "이세레나",
+  "cvEn": "Melody Muze",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "12091651": 1,
+    "12526956": 2
+   },
+   "5": {
+    "12262238": 2,
+    "12285822": 2,
+    "12465910": 2
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "Netherschwinge: Pollux",
+  "iconPath": "e647263d94fb08b7935fd02f3ab6ef71f15d747e5827a2c481af8de3a429f93f",
+  "teamIconPath": "5ffa09779d729af285aeae657381347d29e06f19956d20caa5e112c735fa3b24",
+  "skills": [
+   {
+    "id": 21319318,
+    "name": "Klauenspuren im Schleier",
+    "icon": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+    "tag": "Flächenangriff",
+    "typeDesc": "Technik von Memogeist",
+    "skillDesc": "Fügt allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> der max. LP von Castorice zu.",
+    "simpleSkillDesc": "Fügt allen Gegnern geringen <span style=\"color:#7788ff;\">Quanten</span>-SCH zu.",
+    "levelData": [
+     {
+      "params": [
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21085318,
+    "name": "Atem versengt den Schatten",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "Flächenangriff",
+    "typeDesc": "Technik von Memogeist",
+    "skillDesc": "Das Auslösen von „Atem versengt den Schatten“ verbraucht LP in Höhe von <nobr>#1[i]%</nobr> der max. LP von Netherschwinge und fügt allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> der max. LP von Castorice zu.<br />In einem einzelnen Angriff kann Atem versengt den Schatten wiederholt ausgelöst werden. Beim wiederholten Auslösen wird der SCH-Multiplikator nacheinander auf <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>/<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> erhöht, bis zu <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>. Die Erhöhung des SCH-Multiplikators hält an, bis Netherschwinge verschwindet.<br />Wenn die aktuellen LP von Netherschwinge <nobr>#5[i]%</nobr> seiner max. LP oder weniger betragen, reduziert das Auslösen dieser Fähigkeit LP auf 1 und der Effekt wird ausgelöst, der dem des Talents „Flügel fegen über Ruinen hinweg“ entspricht.",
+    "simpleSkillDesc": "Verbraucht eigene LP und fügt allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH zu. Diese Runde wird nicht beendet. Wenn die Fähigkeit wiederholt eingesetzt wird, wird sie bis zu 3-mal verstärkt. Wenn die LP <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> oder weniger betragen, löst der Einsatz dieser Fähigkeit aktiv den Effekt des Memogeist-Talents „Flügel fegen über Ruinen hinweg“ aus.",
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       0.12,
+       0.14,
+       0.17,
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.144,
+       0.168,
+       0.204,
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.168,
+       0.196,
+       0.238,
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.192,
+       0.224,
+       0.272,
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.216,
+       0.252,
+       0.306,
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.24,
+       0.28,
+       0.34,
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.264,
+       0.308,
+       0.374,
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.288,
+       0.336,
+       0.408,
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.312,
+       0.364,
+       0.442,
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.336,
+       0.392,
+       0.476,
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21359282,
+    "name": "Mondkokon verhüllt den Leib",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "Unterstützung",
+    "typeDesc": "Talent von Memogeist",
+    "skillDesc": "Wenn sich Netherschwinge auf dem Kampffeld befindet, dient er Verbündeten als <u>Verstärkung</u>. Wenn Verbündete SCH erleiden oder LP verbrauchen, werden ihre aktuelle LP auf ein Minimum von 1 reduziert und Netherschwinge nimmt anschließend den erlittenen SCH auf sich, wobei er allerdings LP <nobr>#1[i]%</nobr> des ursprünglichen Werts verbraucht. Dies hält an, bis Netherschwinge verschwindet.",
+    "simpleSkillDesc": "Wenn sich Netherschwinge auf dem Kampffeld befindet, dient er Verbündeten als <u>Verstärkung</u>. Die aktuellen LP der Verbündeten werden auf ein Minimum von 1 reduziert und Netherschwinge nimmt anschließend den erlittenen SCH oder die verbrauchten LP auf sich.",
+    "levelData": [
+     {
+      "params": [
+       5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21235289,
+    "name": "Erderschütterndes Brüllen",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "Unterstützung",
+    "typeDesc": "Talent von Memogeist",
+    "skillDesc": "Wenn Netherschwinge beschworen wird, wird der verursachte SCH aller Verbündeten für <nobr>#2[i]</nobr> Rd. um <nobr>#1[i]%</nobr> erhöht.",
+    "simpleSkillDesc": "Erhöht bei der Beschwörung den verursachten SCH aller Verbündeten.",
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21001295,
+    "name": "Flügel fegen über Ruinen hinweg",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "Abpraller",
+    "typeDesc": "Talent von Memogeist",
+    "skillDesc": "Wenn Netherschwinge verschwindet, verursacht er <nobr>#2[i]</nobr>-mal SCH. Jeder Treffer fügt einem zufälligen Gegner <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> der max. LP von Castorice zu. Stellt gleichzeitig bei allen Verbündeten LP in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> der max. LP von Castorice plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> Pkt. wieder her.",
+    "simpleSkillDesc": "Fügt beim Verschwinden einem Gegner geringen <span style=\"color:#7788ff;\">Quanten</span>-SCH zu, der insgesamt <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>-mal abprallt. Stellt gleichzeitig bei allen Verbündeten LP wieder her.",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4665228,
+    "name": "Atem versengt den Schatten",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "Flächenangriff",
+    "typeDesc": "Technik von Memogeist",
+    "skillDesc": "",
+    "simpleSkillDesc": "Verbraucht eigene LP und fügt allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH zu. Diese Runde wird nicht beendet. Wenn die Fähigkeit wiederholt eingesetzt wird, wird sie bis zu 3-mal verstärkt. Wenn die LP <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> oder weniger betragen, löst der Einsatz dieser Fähigkeit aktiv den Effekt des Memogeist-Talents „Flügel fegen über Ruinen hinweg“ aus.",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4397470,
+    "name": "Atem versengt den Schatten",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "Flächenangriff",
+    "typeDesc": "Technik von Memogeist",
+    "skillDesc": "",
+    "simpleSkillDesc": "Verbraucht eigene LP und fügt allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH zu. Diese Runde wird nicht beendet. Wenn die Fähigkeit wiederholt eingesetzt wird, wird sie bis zu 3-mal verstärkt. Wenn die LP <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> oder weniger betragen, löst der Einsatz dieser Fähigkeit aktiv den Effekt des Memogeist-Talents „Flügel fegen über Ruinen hinweg“ aus.",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4672104,
+    "name": "Flügel fegen über Ruinen hinweg",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "Abpraller",
+    "typeDesc": "Technik von Memogeist",
+    "skillDesc": "Verbraucht alle LP und verursacht <nobr>#2[i]</nobr>-mal SCH. Jeder Treffer fügt einem zufälligen Gegner <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> der max. LP von Castorice zu. Stellt gleichzeitig bei allen Verbündeten LP in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> der max. LP von Castorice plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> Pkt. wieder her.",
+    "simpleSkillDesc": "Verbraucht alle LP und fügt einem Gegner geringen <span style=\"color:#7788ff;\">Quanten</span>-SCH zu, der insgesamt <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>-mal abprallt. Stellt gleichzeitig bei allen Verbündeten LP wieder her.",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    21319318,
+    21085318,
+    4665228,
+    4397470
+   ],
+   [
+    21359282,
+    4672104,
+    21001295,
+    21235289
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 1260323,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1260323,
+     "name": "Klauenspuren im Schleier",
+     "iconPath": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 1527261,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1527261,
+     "name": "Atem versengt den Schatten",
+     "iconPath": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "name": "Castorice",
+ "rarity": 5,
+ "descHash": "Das Land, das den Tod verehrt, Aidonia, wo unablässig Schnee fällt, hat sich heute in einen süßen Schlummer versenkt. Castorice, Tochter des Flusses der Seelen und Erbin von Chrysos, die auf der Suche nach der Kernflamme des Todes ist, mache dich auf den Weg. Behüte die Klage der Seelen und umarme die Einsamkeit des Schicksals. Leben und Tod sind nur eine Reise. Wenn der Schmetterling auf dem Ast verweilt, wird das, was verwelkt, neu erblühen.",
+ "artPath": "7dda65214d1d900469b62f8d88bd878b25bad0e9891a31b2230c3aa54da98aee",
+ "miniIconPath": "c5672716925ad2ab406feeb1d8be27f7fb240060d9f1eb6ad328d76c0a903bc0",
+ "damageType": {
+  "id": 32,
+  "iconPath": "71252cc6ee0b921565dfacfac027c84cf13f45cb3dad750bd047708afd5e74af",
+  "color": "#1C29BA",
+  "name": "Quanten",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "Das Gedenken",
+  "rarity": 0
+ },
+ "pageId": "castorice"
+}

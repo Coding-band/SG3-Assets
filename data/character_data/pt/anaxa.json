@@ -1,0 +1,2792 @@
+{
+ "spRequirement": 140,
+ "iconPath": "a88fb401c70c1dd3d68810f1d4fc0d66c10b5eb8b2a60af1cf0cdd6c10088bcb",
+ "bgPath": "cf99c3ab946af6d69ac8154fffe624949dcb7d7cf47980f1f00b526329774deb",
+ "figPath": "7bf375bcc52976f6590b290c70715823ca0554b1bd499dbfec14dc76b70064f3",
+ "fgPath": "",
+ "splashIconPath": "45e6ec7f1cff6e9f13280e8b0deb55e16f29b73d791b3d1f63373d6431cd289c",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRqACAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSB4BAAABkKtt2yEx78zGtm3btp2UtlHZh2Annc0uVyrbttk5MzvvU8zmHCJiAiSp4YgqWp1RRgoUKPeYA53XsWrt87W1FSpnwTalOhY6x4+nwFhVkBRID9/f33CY5EcU8X3Pz1N5FfSa8gAgMZAFbgXSMs5cIcpi2yR/2a1QZa8RYRsbO+aoAnX5TGL+Q5YTCjTs7B/bxmCIOaBAnavOwLYx2DFHFKrJrpe2wdgQc1hS2Q8kkMskvF5eSbpOjAEDJoGpChe9IrFxGpvfnSRV/kCUtXESJ/EfFkrK6DDpOCH9s7Iktbh6dcuZ758+xfs33t85e3JpSfnm3JnReMnN89uudFevGlJG6Zrj+g/udXttg4nFpDyB0qHStSY0yx8GgSQBVlA4IFwBAADQBwCdASoUABQAPm0ukkakIqGhKA1QgA2JbACdMoR2daA2wHPt6YBvJREPfsB6KPVV8kAO4zLm+mjgslvwrlaqab9exOgzgAD+6P9+XUp2wcK2O5eK0mAg+ZUI9h4ua/X8XOQIpsLAndGt32ceojFa/9/m0NtDlmrRZbor7guaaez0dHe7SUXyazAIG8J5lXJhxcdhKQcFvYueVXIniCVVAjhzeWvSkWmGT13OZBwC3kHX6d9Y2xBs1GDDbwmiKi/2tb+hZK01ir0Dua6PbnTmnzx0JZuJFOs4QFnM7/9JhU12bw+8QJvC/ddvKta5v8FfXyFHGPIAT/b3LuFbvHq/3QN8e+6FpE34g2YIcy2yJoW+W6Pft2pP2Hp2JzjwiQNw72MmuHqxG4+35dm7KfNb5V+4sU43I1TjgxUYdMfeSwdOJFDuLFRJGOUBDwu0c8Cpe6DjhRhxs5oFkAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "633a6ca33d14c5abcb6de00aff6015572582260725229eb798d8b2dfde476c99",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Esta moeda, usada pela Corporação da Paz Interastral para acertar contas com seus clientes, agora é amplamente aceita como moeda para viagens espaciais.",
+   "lore": "\"As pessoas lutam e negociam tanto apenas por números em um terminal, mas o que é precioso de verdade não pode ser comprado.\"",
+   "purpose": "Moeda Comum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cálice: Grande Mina",
+    "Cálice: Comissão de Artesanato",
+    "Cálice: Devaneio (Mundonírico)",
+    "Cálice: \"Floresta dos Murmúrios\" do Bosque da Epifania",
+    "Recompensas de Missão",
+    "Recompensas de Atribuição",
+    "Troca de Brasas"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Rastros de Destino",
+   "desc": "Material avançado para subir o nível de Rastros.",
+   "lore": "Sua vitória é garantida por inúmeras falhas, e os pequenos passos que você deu levaram a uma reviravolta do destino.",
+   "purpose": "Materiais de Rastro",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Recompensas de Pontuação do Universo Simulado",
+    "Honra dos Inominados",
+    "Troca de Brasas",
+    "Troca de Luz Estelar",
+    "Recompensas de Evento por Tempo Limitado"
+   ]
+  },
+  "267807": {
+   "id": 267807,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "032755a1af1300a6ad09de6a86419ab7437b2bf8f2d307becaab3368eb8745f8",
+   "name": "Um Copo da Era da Inebriação",
+   "desc": "Um cálice dourado com um bom vinho, segurado pelo copeiro da trupe. Pode ser usado para a Ascensão de personagens de Dano de Vento.",
+   "lore": "Um grupo de fiéis atravessa incontáveis estrelas, buscando as memórias de diversos vinhos preciosos, preparando suas oferendas em sonhos. Outro grupo de fiéis se transforma em levedura, fermentando antigas fés seladas pelo pó do tempo, destilando seus ideais em sonhos.<br /><br />\"Neste instante, uma taça de néctar se mistura com um cálice de veneno, intoxicando esta era e envenenando o futuro com o passado.\"",
+   "purpose": "Materiais de Ascensão de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/267807",
+   "comeFrom": [
+    "Sombra Estagnada: Grande Teatro de Penacony",
+    "Sintetizador Omni - Troca de Material"
+   ]
+  },
+  "386840": {
+   "id": 386840,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "d008de2c5cf118a3ba604ee2a8f3f7896d624bcac9447bcc7a51b919b6c523bd",
+   "name": "Eco Perdido do Desejo Partilhado",
+   "desc": "Material avançado para subir o nível de Rastros.",
+   "lore": "Somente a Divindade tocou o ritmo supremo até que ele foi derrotado nos Seus refrões.<br />Ainda assim, Seus ouvintes se recusaram a ficar em silêncio. Enquanto o sonhador tolo pegava a corda do desejo partilhado, o tocador falso repetiu a música esquecida por todos.<br /><br />\"As estrelas são traçadas pelas pontas dos dedos e guiam as leis e direitos de todos os seres vivos... Hoje, todos os sonhos doces se manifestam, e as incontáveis leis antigas desapareceram na escuridão.\"",
+   "purpose": "Materiais de Rastro",
+   "rarity": 4,
+   "rewardPath": "/material/386840",
+   "comeFrom": [
+    "Eco da Guerra: Grande Teatro de Penacony"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Guia do Viajante",
+   "desc": "Material de experiência para personagens. É possível obter <nobr>20.000</nobr> de EXP de Personagem.",
+   "lore": "Leitura obrigatória para explorar o mundo. Pressione o botão \"Ler\" para reproduzir uma voz atraente num idioma que você entenda falando sobre os encontros lendários de aventureiros renomados em diferentes mundos, bem como a sabedoria e o conhecimento precioso que eles acumularam.<br /><br />\"A novíssima série do Guia do Viajante, 'Manual de Gastronomia Galáctica do Chefe', já está disponível para compra.\"<br />\"Para fazer pedidos, envie um sinal de sinestesia para ERD<nobr>-23</nobr>θ e entre em contato com um representante da Guilda de Intelectuais. Temos várias formas de pagamento.\"",
+   "purpose": "Material de EXP de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Cálice: Planícies Nevadas Distantes",
+    "Cálice: Vau-nuvem",
+    "Cálice: Margem do Sonho",
+    "Cálice: \"Santuário da Profecia\" de Janusópolis",
+    "Salão Esquecido"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Registro de Aventura",
+   "desc": "Material de experiência para personagens. É possível obter <nobr>5.000</nobr> de EXP de Personagem.",
+   "lore": "Coleção bem-organizada de notas de aventura educacional contendo incontáveis ilustrações e textos com histórias completas, bem como informações valiosas e técnicas de sobrevivência.<br /><br />\"Por que não digitalizamos isso e guardamos em um disco de fotolitografia? Seria muito mais prático.\"<br />\"Tecnologia avançada é muito mais frágil do que você imagina diante de tempestades estelares e erupções de fluxo de neurônios. Além disso, tenho certeza de que o autor deste livro gostaria que as pessoas o lessem da forma mais simples possível.\"",
+   "purpose": "Material de EXP de Personagem",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Cálice: Planícies Nevadas Distantes",
+    "Cálice: Vau-nuvem",
+    "Cálice: Margem do Sonho",
+    "Cálice: \"Santuário da Profecia\" de Janusópolis",
+    "Treinamento Diário",
+    "Troca de Brasas"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Encontros de Viagens",
+   "desc": "Material de experiência para personagens. É possível obter <nobr>1.000</nobr> de EXP de Personagem.",
+   "lore": "Diário de viagem com assuntos aleatórios escritos numa letra feia. Não tem muita utilidade.<br /><br />\"Dan Heng, termine logo de ler isso para jogarmos fora.\"",
+   "purpose": "Material de EXP de Personagem",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Cálice: Planícies Nevadas Distantes",
+    "Cálice: Vau-nuvem",
+    "Cálice: Margem do Sonho",
+    "Cálice: \"Santuário da Profecia\" de Janusópolis",
+    "Recompensas de Atribuição"
+   ]
+  },
+  "589816": {
+   "id": 589816,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1df017fafdd96e781b3f4b339fa1716e7fb15664523ed687bc3ebebab93aa2d9",
+   "name": "Contorno Dinâmico",
+   "desc": "Um contorno do Relogin que retrata claramente a silhueta de um sonho no papel. Usado para conceder um aumento moderado de nível de Rastros de personagens de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">A Erudição</span>.",
+   "lore": "O desenho do Relogin parece mais refinado após a remoção das pinceladas desnecessárias. A sabedoria dos animadores fica evidente em cada quadro da dança do Relogin.<br /><br />\"Tique-taque, tique-taque! Vê se me acompanha, minha amiga/meu amigo!\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/589816",
+   "comeFrom": [
+    "Cálice: Grande Teatro de Penacony",
+    "Sintetizador Omni — Síntese de Material",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "673757": {
+   "id": 673757,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "140af93ab1c3d1f0877d71307a25e9588f936a26726bf855ed9928e682ec87bc",
+   "name": "Esboço Colorido Primoroso",
+   "desc": "Um desenho colorido do Relogin que traz o sonho à tona com cores vibrantes. Usado para conceder um aumento significativo de nível de Rastros de personagens de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">A Erudição</span>.",
+   "lore": "O desenho do Relogin está muito colorido, assumindo a forma de um desenho animado famoso. A história do Relogin inspirou milhões de Caçadores de Sonhos, iluminando a vida de todos com suas aventuras fantásticas.<br /><br />\"Meu nome é Relogin, e eu sou um superastro de Sonhópolis em Penacony!\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/673757",
+   "comeFrom": [
+    "Cálice: Grande Teatro de Penacony",
+    "Sintetizador Omni — Síntese de Material",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "874343": {
+   "id": 874343,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8d5ed128eace4b134581b9fb3d3981753502d6e3972fe03ec12bcfbec89b0ecb",
+   "name": "Esboço",
+   "desc": "Um desenho do Relogin que delineia o contorno de um sonho com algumas pinceladas. Usado para conceder um aumento sutil de nível de Rastros de personagens de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">A Erudição</span>.",
+   "lore": "Vários rascunhos originais do Relogin são muito conhecidos em Penacony. Quem foi que capturou a centelha passageira de inspiração e tocou o primeiro som de \"tique-taque\" na tela?<br /><br />\"Tique-taque! Você... consegue me ver?\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/874343",
+   "comeFrom": [
+    "Cálice: Grande Teatro de Penacony",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Ecos Lamuriosos",
+   "desc": "Uma carapaça partida de criaturas da maré negra. Material normal usado para Aprimoramento.",
+   "lore": "Cabeças grotescas rugem, lâminas afiadas o suficiente para destruir tudo, enquanto a gênese do flagelo ainda se mantém à espreita, velada nas sombras e envolta pela névoa da morte.<br /><br />\"Por que você lamenta só no túmulo?\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "Criaturas da Maré Negra no Nível de Equilíbrio 2 ou maior",
+    "Sintetizador Omni - Síntese de Material",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Presságio Etéreo",
+   "desc": "Um fragmento concedido pelas criaturas da maré negra. Material bruto usado para aprimoramentos.",
+   "lore": "O infortúnio costuma se aproximar silenciosamente, e quando você o percebe, ele já cresceu em uma calamidade que engole o mundo.<br /><br />\"O toque da morte soa na cessação do destino.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "Criaturas da Maré Negra",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Recompensas de Atribuição",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material",
+    "Cálice (Dourado)"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Lamento Eterno",
+   "desc": "Um cristal nascido da perdição de uma criatura da maré negra. Material avançado usado para Aprimoramento.",
+   "lore": "Nascida do vazio e destinada a retornar ao vazio. Uma existência retorcida forjada pela decadência, destinada a vagar pela terra desolada sem propósito.<br /><br />\"Sua vida é de ruína e tristeza.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "Criatura da Maré Negra no Nível de Equilíbrio 4 ou maior",
+    "Sintetizador Omni - Síntese de Material",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 102.96,
+   "attackAdd": 5.148,
+   "hpBase": 132,
+   "hpAdd": 6.6,
+   "defenseBase": 75.9,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 144.144,
+   "attackAdd": 5.148,
+   "hpBase": 184.8,
+   "hpAdd": 6.6,
+   "defenseBase": 106.26,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 5.148,
+   "hpBase": 237.6,
+   "hpAdd": 6.6,
+   "defenseBase": 136.62,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 267807,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 226.512,
+   "attackAdd": 5.148,
+   "hpBase": 290.4,
+   "hpAdd": 6.6,
+   "defenseBase": 166.98,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 267807,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 267.696,
+   "attackAdd": 5.148,
+   "hpBase": 343.2,
+   "hpAdd": 6.6,
+   "defenseBase": 197.34,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 267807,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 308.88,
+   "attackAdd": 5.148,
+   "hpBase": 396,
+   "hpAdd": 6.6,
+   "defenseBase": 227.7,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 267807,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 350.064,
+   "attackAdd": 5.148,
+   "hpBase": 448.8,
+   "hpAdd": 6.6,
+   "defenseBase": 258.06,
+   "defenseAdd": 3.795,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 97,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "91211ed7ab7c38d731814d42d34fd84673744d54ee87b01825804af9ef4c1ffb",
+   "artPath": "701c80a34d57421cb4e321baf32fb8ccf8c23d99a30fd662ac6eb38b83ac8846",
+   "name": "Mago da Lua Oculta-Estrelas",
+   "descHash": "Após usar a Perícia pela primeira vez, recupera <nobr>#3[i]</nobr> Ponto(s) de Perícia. Ao usar a Perícia para atingir inimigos-alvo, reduz a DEF dos alvos em <nobr>#1[i]%</nobr>, com duração de <nobr>#2[i]</nobr> rodada(s).",
+   "params": [
+    0.16,
+    2,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "213c1d8cc606cab9e2a32867ce12801dc595ea7839dd10de745456ce3a1ac61d",
+   "artPath": "16919f1c58d49be646dacd70ca0eafde548080ff96d8f07263350e76b704a71f",
+   "name": "Humano da Verdadeira História",
+   "descHash": "Quando inimigos-alvo entram no campo de batalha, ativa 1 vez o efeito \"Implante de Fraqueza\" do Talento e reduz a RES de Todos os Tipos em <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "112f90f1a55d270936f0cab57250ba13d17c94428a76f31bc5e81e7af40da663",
+   "artPath": "b82a55e34acfd0884d01346dc69b20e3d3df27c399fb15e533a9a9ef1970c0bb",
+   "name": "Pupila Gravada no Cosmos",
+   "descHash": "Nv. da Perícia Suprema +2, até no máximo Nv. <nobr>15</nobr>.<br />Nv. do ATQ Básico +1, até no máximo Nv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "92b07b9870c660cca4bf68fb1c235c4bbf90722406f7245341eeda22659c10d4",
+   "artPath": "16b878531f2e05ad6cf74764467c6ef04d0b968ff0f76510369e3fb23167b2b9",
+   "name": "Chamas Arremessadas no Cânion",
+   "descHash": "Ao usar a Perícia, aumenta o ATQ em <nobr>#1[i]%</nobr> por <nobr>#2[i]</nobr> rodada(s). Este efeito pode ser acumulado até <nobr>#3[i]</nobr> vez(es).",
+   "params": [
+    0.3,
+    2,
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "d0e1d595b2a89cf55a55115ddee94c9608eeba244821af7d245f33d452e63f05",
+   "artPath": "319a23584b494b3050bd9dacd2b9d16d84c76a47c191b6e35f522c1d163dafdf",
+   "name": "Embrião Definido Além do Vórtex",
+   "descHash": "Nv. da Perícia +2, até no máximo Nv. <nobr>15</nobr>.<br />Nv. do Talento +2, até no máximo Nv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "687fe164812599d05eb3b20928633ebfc4f776cb0360ab1d904dde605a92ae71",
+   "artPath": "778c19682e487eb56a556af05b72a9ee1961c52d05008247bc308d08cf338928",
+   "name": "Tudo Pertence ao Todo",
+   "descHash": "O Dano causado por Anaxa é igual a <nobr>#1[i]%</nobr> do Dano original. Os 2 efeitos do Rastro \"Hiato Imperativo\" serão ativados diretamente e não dependerão mais do número de personagens da Erudição na equipe.",
+   "params": [
+    1.3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   15408783
+  ],
+  [
+   15674531
+  ],
+  [
+   15430359
+  ],
+  [
+   11700084
+  ],
+  [
+   15338009
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Alvo Único",
+   "descHash": "Causa Dano de <span style=\"color:#00FF9C;\">Vento</span> igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> do ATQ de Anaxa a um inimigo designado.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 15408783,
+   "name": "O Tormento Gera a Verdade",
+   "iconPath": "4ea4282e98ec924e1a8c66866e7c186314e145769668e3a0f5993693f7fcc1b8",
+   "typeDescHash": "ATQ Básico",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Rebote",
+   "descHash": "Causa Dano de <span style=\"color:#00FF9C;\">Vento</span> igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> do ATQ de Anaxa a um inimigo designado e causa adicionalmente <nobr>#2[i]</nobr> instância(s) de Dano. Cada instância causa Dano de <span style=\"color:#00FF9C;\">Vento</span> igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> da ATQ de Anaxa a um inimigo aleatório, priorizando Ricochetear para inimigos-alvo não atingidos por esta instância de Perícia.<br />Ao ser usada, para cada inimigo que pode ser atacado em Campo, esta Perícia tem seu Dano causado aumentado em <nobr>#3[i]%</nobr>.",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "6/hit",
+   "id": 15674531,
+   "name": "Fractais Exilam a Falácia",
+   "iconPath": "d0e1d595b2a89cf55a55115ddee94c9608eeba244821af7d245f33d452e63f05",
+   "typeDescHash": "Perícia",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.35,
+      4,
+      0.2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.385,
+      4,
+      0.2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.42,
+      4,
+      0.2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.455,
+      4,
+      0.2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.49,
+      4,
+      0.2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.525,
+      4,
+      0.2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.56875,
+      4,
+      0.2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.6125,
+      4,
+      0.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.65625,
+      4,
+      0.2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7,
+      4,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.735,
+      4,
+      0.2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.77,
+      4,
+      0.2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.805,
+      4,
+      0.2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.84,
+      4,
+      0.2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.875,
+      4,
+      0.2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Área",
+   "descHash": "Inflige o estado de \"Sublimação\" a todos os inimigos e, em seguida, causa Dano de <span style=\"color:#00FF9C;\">Vento</span> equivalente a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> do ATQ de Anaxa a todos os inimigos.<br />No estado de \"Sublimação\", os alvos serão simultaneamente infligidos com Fraqueza contra <span style=\"color:#FFFFFF;\">Físico</span>, <span style=\"color:#F84F36;\">Fogo</span>, <span style=\"color:#47C7FD;\">Gelo</span>, <span style=\"color:#c75de2;\">Raio</span>, <span style=\"color:#00FF9C;\">Vento</span>, <span style=\"color:#7788ff;\">Quântico</span> e <span style=\"color:#F4D258;\">Imaginário</span>, com duração até o início da rodada dos alvos. Se os alvos não tiverem RES a Controle, eles não poderão agir enquanto estiverem no estado de \"Sublimação\".",
+   "ultimateCost": 140,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 15430359,
+   "name": "O Surgimento da Vida Esculpe a Terra",
+   "iconPath": "20a9d86c71a199b79a2dd3673146f055b1a959855a0cc963a3379f41138cf5e6",
+   "typeDescHash": "Perícia Suprema",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.8
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.88
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.96
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.04
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.12
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.4
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.68
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.76
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.84
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.92
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Incapacitação",
+   "descHash": "Cada vez que Anaxa acerta 1 golpe em inimigos-alvo, inflige 1 Fraqueza de um Tipo aleatório aos alvos, com duração de <nobr>#2[i]</nobr> rodada(s), com prioridade para o Tipo de Fraqueza que o alvo ainda não possui.<br />Enquanto Anaxa estiver em campo, inflige o estado de \"Revelação da Essência\" aos inimigos-alvo que possuírem pelo menos <nobr>#3[i]</nobr> Tipos de Fraqueza diferentes. Anaxa causa <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> a mais de Dano contra alvos afetados pelo estado de  \"Revelação da Essência\". Além disso, após usar o ATQ Básico ou a Perícia nesses alvos, executa 1 instância adicional da Perícia contra eles. Essa Perícia adicional não consome Pontos de Perícia e não pode acionar esse efeito novamente. Se o alvo for derrotado antes da Perícia adicional ser usada, ela será lançada contra um inimigo aleatório.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 11700084,
+   "name": "A Sabedoria Tétrade Reina Três Vezes",
+   "iconPath": "0fb90eb839134abca928c8b19c8779192fd0458b46ba68b7241a566533c38914",
+   "typeDescHash": "Talento",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.18,
+      3,
+      5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.192,
+      3,
+      5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.204,
+      3,
+      5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874343,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.216,
+      3,
+      5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589816,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.228,
+      3,
+      5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589816,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      3,
+      5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589816,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.255,
+      3,
+      5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673757,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.27,
+      3,
+      5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673757,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.285,
+      3,
+      5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673757,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      3,
+      5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673757,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.312,
+      3,
+      5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.324,
+      3,
+      5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.336,
+      3,
+      5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.348,
+      3,
+      5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.36,
+      3,
+      5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Ataca um inimigo e, quando a batalha começa, reduz a Tenacidade do Tipo correspondente.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 11723612,
+   "name": "Ataque",
+   "iconPath": "4ea4282e98ec924e1a8c66866e7c186314e145769668e3a0f5993693f7fcc1b8",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Incapacitação",
+   "descHash": "Após usar a Técnica, inflige o estado \"Em Pânico\" aos inimigos em uma área determinada. Inimigos infligidos com \"Em Pânico\" fugirão em uma direção oposta à de Anaxa por <nobr>#1[i]</nobr> segundo(s). Quando aliados entrarem em batalha ao atacar ativamente um inimigo infligido com \"Em Pânico\", isso será sempre considerado como entrar em batalha por meio do ataque a uma Fraqueza. Após entrar em batalha, Anaxa aplica 1 Fraqueza do Tipo do atacante a cada inimigo-alvo, com duração de <nobr>#2[i]</nobr> rodada(s).",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15338009,
+   "name": "Pupila Prismática",
+   "iconPath": "8c8c16cbee023e711988138e37bdcd2e44a08899798c00f61455f46ce1283c5c",
+   "typeDescHash": "Técnica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1405101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1405202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1405203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 27159586,
+        "name": "Bônus de Dano: Vento",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+        "statusList": [
+         {
+          "key": "Bônus de Dano de <span style=\"color:#00FF9C;\">Vento</span>",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 3276614,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1405204,
+       "anchor": 12,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 26893883,
+        "name": "Bônus de PV",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "PV",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589816,
+          "count": 3
+         },
+         {
+          "id": 3276614,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 26884624,
+      "name": "Bônus de Chance de CRIT",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Chance de CRIT",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Ao usar o ATQ Básico, regenera adicionalmente <nobr>#1[i]</nobr> de Energia.<br />No início da rodada, se não houver inimigos-alvo no estado de \"Revelação da Essência\", regenera imediatamente <nobr>#2[i]</nobr> de Energia.",
+    "ultimateCost": 0,
+    "id": 27164842,
+    "name": "Significante Errante",
+    "iconPath": "362db92fda0833abc2fac4cf3fa9c638bfa3e56f3850fb4ad3fedeeaaf261956",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       10,
+       30
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874343,
+        "count": 3
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1405205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1405206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 26993375,
+        "name": "Bônus de Chance de CRIT",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "Chance de CRIT",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 3526997,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1405207,
+       "anchor": 15,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 27251955,
+        "name": "Bônus de Dano: Vento",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+        "statusList": [
+         {
+          "key": "Bônus de Dano de <span style=\"color:#00FF9C;\">Vento</span>",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673757,
+          "count": 3
+         },
+         {
+          "id": 3526997,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 27242703,
+      "name": "Bônus de Dano: Vento",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+      "statusList": [
+       {
+        "key": "Bônus de Dano de <span style=\"color:#00FF9C;\">Vento</span>",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Com base no número de personagens da \"Erudição\" na equipe, um dos seguintes efeitos será ativado na batalha atual:<br />1 personagem: aumenta o Dano CRIT de Anaxa em <nobr>#1[i]%</nobr>.<br />Pelo menos 2 personagens: aumenta o Dano causado por todos os aliados em <nobr>#2[i]%</nobr>.",
+    "ultimateCost": 0,
+    "id": 26891607,
+    "name": "Hiato Imperativo",
+    "iconPath": "e6cca85a9104a416d905decb75b51757290d46ad72c0b71790de40e2acac00a5",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1.4,
+       0.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589816,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1405208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 26936970,
+      "name": "Bônus de PV",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 3526997,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1405209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 27228312,
+      "name": "Bônus de Chance de CRIT",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Chance de CRIT",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 3526997,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Para cada Tipo de Fraqueza diferente que um inimigo-alvo possuir, o Dano que Anaxa causa a esse alvo ignora <nobr>#1[i]%</nobr> da DEF dele. No máximo, 7 Tipos de Fraqueza podem ser considerados para este efeito.",
+    "ultimateCost": 0,
+    "id": 27141957,
+    "name": "Transmutação da Essência",
+    "iconPath": "cd1c0f7aeb65ec075718f6ca98d848abb9e60ad7064d80dc9f450cb1e209707b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.04
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673757,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 27183110,
+    "name": "Bônus de Dano: Vento",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+    "statusList": [
+     {
+      "key": "Bônus de Dano de <span style=\"color:#00FF9C;\">Vento</span>",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1405210,
+   "anchor": 18,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 10266835,
+    "name": "Bônus de Dano: Vento",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "13f176b2c801b7bf67d76f1de4a996acd18bbf26ea89b3035877973d037337e4",
+    "statusList": [
+     {
+      "key": "Bônus de Dano de <span style=\"color:#00FF9C;\">Vento</span>",
+      "value": 0.064
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 673757,
+      "count": 8
+     },
+     {
+      "id": 3526997,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Primeiro Encontro",
+   "text": "Meu nome é Anaxágoras, um dos Sete Sábios do Bosque da Epifania e fundador dos Nousporistas. Agora, não me faça repetir mais uma vez. Regra número um: não me chame de Anaxa. Regra número dois: nunca me interrompa, o silêncio é ouro. É bom lembrar disso.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Cumprimento",
+   "text": "Ah, você tem perguntas? Que perguntas? Pergunte à vontade.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Despedida",
+   "text": "Sem mais perguntas? Então eu vou me retirar.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Sobre Si: O Grande Artista",
+   "text": "Meus colegas me consideram o \"o Grande Artista\". Haha, e eles estariam certos! Quão raro é vê-los pensar fora da lógica de Amphoreus. Quanto ao que eu acho sobre a opinião deles? Eu não me importo nem um pouco.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Sobre Si: Nome",
+   "text": "Eu sei que meus estudantes me chamariam de \"profe Nax\", \"profe Anax\" ou até mesmo \"profe A\" pelas minhas costas... Pelo menos não estão dizendo \"Anaxa\". É A-NA-XÁ-GO-RAS. Anaxágoras. É tão difícil assim de lembrar?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Bate-Papo: Docência",
+   "text": "Quanto mais ousada é a pergunta de um estudante, mais feliz eu fico. E se um estudante for capaz de debater um assunto comigo durante horas, então ele será aprovado com louvor!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Bate-Papo: Arma",
+   "text": "Essa arma? É uma ferramenta alquímica usada em minha apresentação, e também um adereço mágico para me proteger.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Hobbies",
+   "text": "Os dromas realmente são criaturas de pouca inteligência, mas eles ainda têm muitas vantagens. Eles são calmos, quietos, com bom temperamento... e comem bastante...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Irritações",
+   "text": "Eu não entendo... \"Um dromas vestido com elegância\". Eles realmente acham esse título ofensivo? Por que eu não coloco uma placa na porta da academia com a frase \"apenas aqueles que entendem os dromas podem entrar!\"?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Uma Curiosidade",
+   "text": "Vou \"apresentar\" um simples truque de mágica: por favor, me diga se \"essa frase é uma mentira\" é verdade ou mentira? A resposta é: ambos, é verdadeira e é falsa. Você não acredita em mim? Ótimo, então me refute!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Conhecimento",
+   "text": "Alguém me disse uma vez que estudar as deidades é blasfêmia e uma ofensa. Eu respondi: \"Você se ofende assim tão fácil? Então o que você faria se eu dissesse que desejo alcançar a apoteose?\"",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Sobre a Aglaea",
+   "text": "Para ela, todo o mundo é uma das maneiras de recuperar as Chamas Primordiais. É isso mesmo, \"todo mundo\", incluindo ela mesma.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "Sobre a Aglaea 2",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"Reversão Espelhada da Bruxa\".",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "Sobre a Tribbie, Trianne e Trinnon",
+   "text": "Eu continuo querendo os explicar a elas que sua profecia divina se cumpre sozinha. Mas agora, vendo que elas não aparentam ser apenas crianças, eu não preciso dizer mais nada.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "Sobre o Phainon",
+   "text": "Ele é um dos meus alunos mais excepcionais, mas isso implica que ele e eu... seu professor... seguiremos caminhos distintos.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "Sobre o Mydei",
+   "text": "A batalha contra a maré negra transformou algumas pessoas em deidades, outras em humanos e outras em monstros. O Mydei já fez sua escolha quando assumiu a autoridade do Conflito.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "Sobre a Castorice",
+   "text": "Ler livros pode ser uma das maneiras dela abrir o coração, mas a resposta que ela busca pode ser obtida apenas pelo contato físico.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "Sobre a Castorice 2",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"Reversão Espelhada da Bruxa\".",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "Sobre a Hyacine",
+   "text": "A árvore divina só pode crescer em direção ao céu quando é alimentada pela luz do sol. Se o Pátio do Crepúsculo é o que protege os estudiosos do Bosque, então a Hyacine é a \"luz\" do Pátio do Crepúsculo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "Sobre a Cipher",
+   "text": "Como você alcança uma tartaruga que partiu antes de você? Para a Cipher, esse paradoxo não é difícil de resolver: ela adoraria pegar a tartaruga bem na partida da corrida e jogá-la na sua enorme coleção.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "Ativação de Eidolon",
+   "text": "Uma parte de razão, duas partes de saudades, três partes de paixão... Uma alma não é nada mais que isso.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "Ascensão de Personagem",
+   "text": "Tente dominar esse tipo de poder!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "Nível Máximo Alcançado",
+   "text": "A verdade já está em minhas mãos.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "Ativação de Rastro",
+   "text": "A busca intelectual está condenada ao caminho longo e solitário.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "Entrou na Equipe com Desbravador/Desbravadora",
+   "text": "Parece que é um bom momento para uma performance.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "Entrou na Equipe com Aglaea",
+   "text": "Apesar de lutarmos lado a lado, nós não compartilhamos do mesmo objetivo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "Entrou na Equipe com Castorice",
+   "text": "Está tudo bem. Não precisa se preocupar sobre a Morte.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "Entrou na Equipe com Tribbie",
+   "text": "É melhor você acreditar em mim do que nas profecias.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "Entrou na Equipe com Mydei",
+   "text": "Príncipe Herdeiro, você já sabe a resposta... Não há mais nada que eu possa lhe ensinar.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "Início da Batalha: Quebra de Fraqueza",
+   "text": "Troca equivalente? Não. Algo sendo criado do nada!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "Início da Batalha: Alerta de Perigo",
+   "text": "Talvez você realmente mereça um pouco da minha atenção.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "Começo de Rodada - 1",
+   "text": "Qual é o problema?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "Começo de Rodada - 2",
+   "text": "Como você pode ver, eu sou apenas um frágil erudito.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "Rodada Ociosa",
+   "text": "Se você ainda tiver dúvidas, por favor, fale.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "ATQ Básico",
+   "text": "Eu não tenho mais nada a dizer.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "Perícia 1",
+   "text": "Mergulhe na loucura!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "Perícia 2",
+   "text": "Direto na alma!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "Ao Receber um Ataque Leve",
+   "text": "Eu tenho tudo sob controle.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "Ao Receber um Ataque Pesado",
+   "text": "Tão cansativo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "Perícia Suprema: Ativar",
+   "text": "Veja. O espetáculo começou...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "Perícia Suprema: Liberar",
+   "text": "Com esse poder divino, eu extraio a pureza do mundo para reforjar todas as coisas!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "Ao Ficar Fora de Combate",
+   "text": "Um preço pequeno a se pagar...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "Ao Voltar à Batalha",
+   "text": "Que pena!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "Ao Recuperar PV",
+   "text": "Agradeço, e eu darei a você o que você precisa.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "Técnica",
+   "text": "Observe esse truque de mágica!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "Ao Vencer uma Batalha",
+   "text": "Uma vitória inquestionável.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "Abrindo Tesouro - 1",
+   "text": "Acho que eu só posso ignorar isso.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "Abrindo Tesouro - 2",
+   "text": "Humm, vá derreter isso.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "Abrindo Tesouro Precioso",
+   "text": "Nada mal. Útil para alquimia.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "Enigma Solucionado - 1",
+   "text": "Se Cerces visse esse enigma, morreria de dar risadas.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "Enigma Solucionado - 2",
+   "text": "É só uma resposta. Nada tão difícil.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "Alvo Inimigo Encontrado",
+   "text": "Eu não estou preparado para isso. Vá na frente se deseja agir.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "Voltando à Cidade",
+   "text": "Seja grata/grato por todo esse alvoroço. Esse é o som de pensamentos se chocando.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Detalhes de Personagem",
+   "text": "O Bosque da Epifania, onde o conhecimento floresce e os filósofos nascem.<br />Mas aqui está Anaxágoras, o blasfemo, o Herdeiro de Chrysos que desafia a Chama Primordial da Razão. Ele é questionado: Você desafiaria a profecia mesmo se você tivesse que carregar o fardo da infâmia e insistir em cravar os espinhos da dúvida na Árvore Sagrada da sabedoria?<br />\"Ridículo. Em um mundo cheio de mentiras, somente eu sou a verdade.\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "História de Personagem: Parte I",
+   "text": "\"Ah, você nasceu em uma pólis remota. Seus pais partiram cedo, deixando apenas sua irmã mais velha ao seu lado, quase incapaz de sustentar a família com a renda escassa que ela ganhava domesticando animais.<br />Desde criança, você foi recluso e isolado. Enquanto seus camaradas brincavam nos campos, você se escondia sozinho nas sombras das árvores e pegava folhas caídas do chão.<br /><br />'Por que os dromas não voam para o céu?'<br />Você olha para o dromas que cresceu ao seu lado, murmurando para si mesmo.<br />'Talvez seja porque esse dromas também tenha sido um nerd em sua vida passada!'<br />Você ouviu essas palavras com frequência, mas nunca entendeu o motivo de serem usadas como uma forma de zombação.<br /><br />'Se as divindades são onipotentes, por que temem a morte?'<br />No templo, onde os ensinamentos sagrados são recitados, até mesmo aquilo que deveria ser inquestionável inevitavelmente levanta dúvidas.<br />'Saia, Anaxágoras!'<br />O sacerdote furioso muitas vezes o expulsa do templo.<br /><br />Sua irmã nunca o culpou. Em vez disso, separava parte de sua renda escassa para comprar livros e ferramentas que você desejava.<br />Parafusos, alicates, balanças delicadas... Em casa, você mexia com esses instrumentos, totalmente imerso na alegria da criação<br />Aos cinco anos, você tinha uma curiosidade infinita sobre a vida: um pássaro mecânico que cantava sozinho, uma incubadora de dromas, flores artificiais que nunca murchavam... Você declarou, com ousadia infantil, que se tornaria a pessoa mais sábia do mundo. Tsc, tsc. Como é raro as pretensões de uma criança serem levadas a sério por sua família.<br /><br />Mais tarde, ela ouviu de comerciantes que passavam que havia uma academia chamada Bosque da Epifania, um lugar sagrado dedicado à busca da sabedoria. Você memorizou secretamente esse nome, pensando que, se um dia pudesse ir para lá com sua irmã, a vida não seria tão difícil.<br />Mais tarde ainda, ela finalmente juntou dinheiro suficiente para a viagem e pediu a um amigo comerciante que lhe desse uma carona para que você pudesse ir estudar no Bosque.<br />No meio do caminho, ao ouvir que a maré negra havia chegado, você voltou correndo. A visão daquela ruína corroída era realmente insuportável de se ver... Orgulhoso como você é, até se ajoelhou no chão. Você não estava rezando para as divindades, você estava...\"<br /><br />\"Pare de revirar minha mente, seu Titã travesso.\"<br />O homem despertou de seu devaneio e uma emoção, indeterminável se era raiva ou tristeza, brilhou em seu olho direito.",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>20</nobr> de Personagem"
+  },
+  {
+   "title": "História de Personagem: Parte II",
+   "text": "<b>Número</b>: <nobr>13</nobr><br /><b>Assunto</b>: Experimento do Sangue Dourado dos Herdeiros de Chrysos<br /><b>Materiais</b>: meu sangue<br /><b>Registros</b>: após purificar o fluido, ele se assemelha a ouro líquido, e revela uma estrutura em forma de semente sob o microscópio. Desmaiei três vezes enquanto obtinha o sangue.<br />...<br /><b>Número</b>: <nobr>55</nobr><br /><b>Assunto</b>: dissecando a alma das criações dos Titãs<br /><b>Materiais</b>: três ██████ ███████, criações dos Titãs moribundas, poção de mercúrio, extrato de flor de Ântila<br /><b>Registros</b>: a cobaia experimental ficou descontrolada ao ser dissecada até o núcleo. Felizmente, só eu fui gravemente ferido, não prejudicou mais ninguém. Posteriormente, o equipamento de alquimia foi refinado. O gráfico genealógico das almas dos Titãs ██████ ███████ está quase concluído.<br />...<br /><b>Número</b>: <nobr>144</nobr><br /><b>Assunto</b>: tentativa de fusão da alma na metafase.<br /><b>Materiais</b>: uma chama da alma doada por um acadêmico, criações dos Titãs<br /><b>Registros</b>: ████████, meu querido amigo, de acordo com seus últimos desejos, seu corpo foi transformado em uma chama que incinera a punição, e sua alma se tornou o alicerce para a análise dos Titãs.<br />...<br /><b>*A última página de anotações rabiscadas*</b>:<br /> Já se passaram anos desde que isso aconteceu, o frio da morte ainda mexe com meu olho esquerdo, mas agora eu consigo ver as \"almas\" dos humanos. Esse calor fervente é suficiente para preencher o vazio.<br /><br />Talvez amanhã, talvez no próximo ano, ou talvez no próximo instante.<br />Serei acusado e preso. Sempre haverá pessoas que querem que eu abaixe a cabeça e me mantenha em silêncio.<br /><br />Mas irmã, eu sempre lembrarei que te encontrei pela última vez aqui. Você não disse nada.<br />Mas isso foi o suficiente, eu sei que fiz a coisa certa.<br />Ao longo da última década, sempre foi assim...<br />\"O fracasso é um degrau para o sucesso.\"<br /><br /><align=\"right\">— Registro do experimento de parapsicologia de Anaxa. A cópia original já foi destruída.</align>",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>40</nobr> de Personagem"
+  },
+  {
+   "title": "História de Personagem: Parte III",
+   "text": "\"<b>Sábios do Bosque</b>:<br /><br />Quanto ao fato de alguns eruditos me acusarem dos três grandes pecados, 'difamação acadêmica', 'corromper os jovens' e 'heresia religiosa', não pretendo entreter seus truques baratos, nem me preocuparei em me defender. No entanto, considerando que isso pode permitir que todos compreendam melhor minha pesquisa, vou explicá-la brevemente.<br /><br />Segundo eles, cometi o pecado da difamação acadêmica quando desprezei publicamente as pesquisas clássicas dos estudos sobre os Titãs e a parapsicologia, chamando-as de 'uma maré negra do mundo acadêmico'. Responda-me isso: minha avaliação estava incorreta? Um estudo sobre se os Titãs podem ficar em pé na cabeça de um alfinete, e um estudo que postula a natureza das almas como sendo água. Eles persistem até hoje por causa de certas autoridades. Como isso é diferente de uma maré negra mental?<br /><br />Estudei no Bosque desde criança e entendo perfeitamente que a revolução das ideias só pode ser alcançada através da crítica e da suspeita. Incentivo os alunos a desafiar minha autoridade, e é isso que eles chamam de 'corromper os jovens'. Tome Phainon e Castorice como exemplo, quando começaram seus estudos, não sabiam como pensar e o que é lógica. Olhe para eles agora, às vezes conseguem me deixar sem palavras! Se isso é o que significa 'corromper' os jovens, não consigo imaginar o que eles consideram como 'educação correta'.<br /><br />Assim sendo, alguns indivíduos me acusam de ter laços excessivamente próximos com os Herdeiros de Chrysos, que caçam as Chamas Primordiais, alegando que minhas teorias os ajudam a apreender as Chamas Primordiais. De fato, uma vez consultei Tribios sobre uma história perdida, e ambos os meus alunos mais brilhantes também são Herdeiros de Chrysos. E qual é o problema nisso?<br /><br />Eu também sou o que chamam de Herdeiro de Chrysos, mas nunca tive fé cega nas profecias. Se as divindades são realmente os seres mais puros e eternos que ascenderam acima do mundo mortal, então ouçam bem, o mundo tem apenas uma divindade, e essa é a verdade indestrutível!<br />Somente os discípulos da verdade podem continuar por este caminho, e as autoridades que se proclamam sábios temem a queda da divindade.<br /><br />Vocês sugeriram que ambas as partes dessem um passo atrás para desescalar a situação... Minhas desculpas, mas não tenho a intenção de fazer isso. Pelo contrário, gostaria de dar um conselho àqueles que desejam me acusar:<br /><br />O mundo futuro me entenderá, e todos vocês que levantam acusações contra mim deveriam ter mais medo do que eu enquanto espero meu veredito!\"<br /><br />— Um discurso improvisado de Anaxa, durante uma reunião dos sábios",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>60</nobr> de Personagem"
+  },
+  {
+   "title": "História de Personagem: Parte IV",
+   "text": "\"Mesmo até hoje, ainda discordo daquela bizarra Jornada de Perseguição às Chamas. No entanto, há uma afirmação que ficou profundamente gravada: perdas são uma constante na Jornada de Perseguição às Chamas.<br /><br />Nunca acreditei que os Herdeiros de Chrysos compartilhariam o mesmo destino, mas eu também estou no Caminho da perda.<br />Mas ainda não perdi o suficiente... Em comparação com o que busco, eu ainda não perdi o suficiente para cumprir a lei da troca equivalente.<br /><br />Após ter proposto a teoria de que a natureza das almas dos Titãs e dos humanos não é diferente, e que as almas são construídas a partir de sementes de sabedoria, venho esperando uma chance de provar isso de uma vez por todas...<br />Agora, a oportunidade surgiu! Veio de forma inesperada, mas também no momento certo.<br />Hoje, finalmente posso compensar o arrependimento, semelhante a uma calamidade, de muitos anos atrás.<br /><br />Obtive Inspiração pela morte, e devo retribuir dessa forma.<br />Meu corpo se tornará o recipiente para forjar as Chamas Primordiais das divindades, e minha alma se tornará as correntes que forçarão as divindades a se curvarem. Isso se tornará a evidência derradeira para minha teoria!<br /><br />Estou incrivelmente feliz agora.<br />Eu já sorri dessa forma uma vez, quando criei pela primeira vez um pássaro mecânico capaz de voar pelos céus. Minhas mãos tremeram assim, quando desenvolvi uma nova vida através da incubação.<br /><br />Meus futuros estudantes, se vocês lerem estas palavras, isso provará que meu esforço falhou no passo final, caindo bem antes do romper da aurora.<br />Usem meus resultados ao máximo e me transformem no assunto de sua pesquisa! Passem por cima do meu corpo e tomem a tocha das minhas mãos. Usem-me como lenha para acender as chamas que trarão a luz à verdade!<br />Não temam a blasfêmia.<br />Já é um pecado transcender as divindades, então, o que importa se vocês se tornarem uma divindade!\"<br /><br />— Um dos ecos nas memórias de Anaxa após a queda do Bosque, que desapareceu porque ninguém o descobriu.",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>80</nobr> de Personagem"
+  }
+ ],
+ "archive": {
+  "cvCn": "钱文青",
+  "cvJp": "内田雄馬",
+  "cvKr": "이상준",
+  "cvEn": "Stephen Fu",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "15408783": 1,
+    "15430359": 2
+   },
+   "5": {
+    "11700084": 2,
+    "15674531": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "name": "Anaxa",
+ "rarity": 5,
+ "descHash": "O Bosque da Epifania, onde o conhecimento floresce e filósofos nascem. Mas aqui está Anaxágoras, o blasfemo, o Herdeiro de Chrysos que desafia a Chama Primordial da Razão. E lhe é perguntado: Você desafiaria a profecia mesmo se você tivesse que carregar o fardo da infâmia e insistir em cravar os espinhos da dúvida na Árvore Sagrada da sabedoria? \"Ridículo. Em um mundo cheio de mentiras, somente eu sou a verdade.\"",
+ "artPath": "a7c54308cb5a5d20b2cba337487c86a7aa705430887d615ec3b153661d8cbaff",
+ "miniIconPath": "994c6cd6d95f7112bc7b49f649017f61afa2cddc1bc5f7f7bdcf9399e24d18e9",
+ "damageType": {
+  "id": 16,
+  "iconPath": "fa458a2daed5d1115684a21730db9c38ea2afde00a9d52c5adbe8050044ce39a",
+  "color": "#00FF9C",
+  "name": "Vento",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "7134e661a4b98bb730cde90946f9683802b94ca4f17bfa2f2360e78700ca803f",
+  "altIconPath": "005fa14e04e2704b43c3b215129260d7abe1bc8f9ebc3918ecc85a27d0247fbb",
+  "color": "#FFFFFF",
+  "name": "A Erudição",
+  "rarity": 0
+ },
+ "pageId": "anaxa"
+}

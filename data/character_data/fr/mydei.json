@@ -1,0 +1,3516 @@
+{
+ "spRequirement": 160,
+ "iconPath": "81cc5b3d84ed2b75eeaefda540bf3693ea97846711f06f12cd34ef222c0ce85c",
+ "bgPath": "79541b49694f373edafb264c38c929810044c57fae2ed865db1a801484468949",
+ "figPath": "3a9d37d9677265c5689e51b0c8f961e4228e3784744ede6291d9f063e95ab35b",
+ "fgPath": "dbe6b9b2511b9c204ca5ae163fe2031af2f39a2be273ca899de46120b4589163",
+ "splashIconPath": "7bc51f226201ea39bb98cff5da99a57dfd10511c98b9e989cc645618589dc84b",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRkQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSA8BAAABkGNb27E914vftkZgVrZt+4+tyskArDJl1l+m4hhss7KdPM91Fb9nEBETgJV0XddZSlQO5nrOQg68pt0dTQUxAODOB+z6bSU9OLujNAbzhxz4KWuNXh4+0z/VEAPAxyrRkLT6Z44ntReHAkhc/VUkKVL6fL43AHDQZERpjtXvfZUbc1wEbpdIinP//d2c2p0KpD+SnSOJ1IcRwEHqd1GiJJKcLUx0XTSKJEWR1ujpoXwg9KAMZQ1ljeZec5F2V4ZW0n/pzdV7kio6fujff+nGhY+6cqAfzlR9Z+rm+++kP++vXTh6fH15egLmBgRk94/Xbr/37/W547MHihzPczF/iJ8SH+hjka7nO5jfceYBAFZQOCAOAQAAUAUAnQEqFAAUAD5tMpVHpCKiISgIAIANiWgArAwUsiCtIrDSLvFdKq7jI9Je+Ue5sArgAP5xGmdloQNMLNCtBO3tYbEpLFKzMeO6+qDED5rH4j8UduiN6CQ/fIlMR82uyn7LVEX8QsN/xZHl+L0VI1aH9upRhS77uZHfLxOxM8Jzh/v9JhZD9yYHas63Ex1vRiQ+nOUFkUhlkCJcIiTiCEObytBwSJCg9JaAc71e1UTJVZ3X+/sjneIt97ot4B5p79GgYw5oF+coBcAOTcZwTgOyqgP9vV70Uf98yvwe34ZldCVWulv6fjOrR1HlfPzLlhBLAHZtxMrphUDukzs0DtnCjn+Df2iAJdUoQAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 1,
+  "iconPath": "030e601ad017d8aaf9c2e1b34f108db7a35a7385a6445d47094815c62f6c5e6f",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Calice du Bosquet de l'épiphanie, le Bois des murmures",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Échange de braises immortelles"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Voies de la destinée",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "La victoire s'acquiert au terme de nombreux échecs, et chaque pas conduit à l'instant décisif.",
+   "purpose": "Matériau de Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Récompenses de points de l'Univers simulé",
+    "Honneur des Sans Noms",
+    "Échange de braises immortelles",
+    "Lumières d'étoile",
+    "Récompense d'événement à durée limitée"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Guide du voyageur",
+   "desc": "Matériau d'EXP de personnage. Confère <nobr>20</nobr> <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Lecture indispensable à l'exploration des mondes. Appuyez sur le bouton de lecture pour activer une voix agréable, dans une langue de votre choix qui vous racontera les rencontres légendaires d'aventuriers de renom à travers différents mondes, ainsi que la sagesse précieuse et les connaissances qui en découlent.<br /><br />« La nouvelle série du Guide du voyageur, \"Le manuel du chef de la cuisine galactique\" est désormais disponible en magasin. »<br />« Pour toute question, connectez-vous à la balise de synesthésie ERD<nobr>-23</nobr>θ et contactez un représentant de la Guilde de l'intelligentsia. Facilités de paiement disponibles. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Salle oubliée"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Journal d'aventure",
+   "desc": "Matériau d'EXP de personnage. Confère 5 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un ensemble bien classé de notes d'aventure édifiantes, avec d'innombrables illustrations et commentaires exhaustifs, sans oublier de précieuses informations relatives à des techniques de survie.<br /><br />« Pourquoi ne pas les numériser et les sauvegarder sur un disque photolithique ? Ce serait tellement plus pratique. »<br />« La technologie de pointe est bien plus fragile qu'on ne le pense face aux tempêtes stellaires et aux éruptions de flux neuronaux. Et puis, l'auteur voulait sûrement que la lecture soit la plus simple possible. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Entraînement quotidien",
+    "Échange de braises immortelles"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Rencontres de voyage",
+   "desc": "Matériau d'EXP de personnage. Confère 1 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un carnet de voyage parsemé de commentaires et de contenus divers griffonnés. Il ne vous sera pas très utile.<br /><br />« Dan Heng, dépêche-toi de lire ça pour t'en débarrasser. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Récompense d'affectation"
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "Dent borissienne",
+   "desc": "Fragment de dent abandonné durant les conquêtes borissiennes. Permet d'améliorer légèrement les Traces des personnages de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruction</span>.",
+   "lore": "Les Borissiens considèrent leurs dents comme des armes guerrières.<br />Au sein de leurs tribus, où les plus forts gouvernent les plus faibles, les individus présentant des caries sont rejetés par le groupe.<br /><br />« Ô, Seigneur du terrier, accorde-nous des dents et des griffes acérées. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "Calice du Royaume de l'abysse écailleux",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "Plume de bon augure",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "Ce n'est qu'au moment précis avant que ne sonne la mort, lorsque le temps s'arrête, que l'œil humain peut apercevoir la silhouette éthérée de ces plumes de l'esprit. Spiritus ou la Chimère volante constitue l'entité la plus rapide des sept visages de l'Archer de la destinée.<br /><br />« Après avoir passé sept jours à la traquer, j'ai en fait compris qu'elle vivait en mon corps. »",
+   "purpose": "Matériau de Trace",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "Écho de la guerre du Fendeur des cieux"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "Crocs de la Folie lunaire",
+   "desc": "Des longues dents terrifiantes abandonnées durant les conquêtes borissiennes. Permet d'améliorer considérablement les Traces des personnages de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruction</span>.",
+   "lore": "Les Borissiens peuvent renforcer leur corps grâce à leur « Folie lunaire » innée.<br />Les guerriers frénétiques font preuve d'une capacité de guérison exceptionnelle, faisant couler le sang de leurs ennemis dans un brouillard sanguinaire, preuve de la croissance démesurée de leurs muscles et de leurs os.<br /><br />« Ô, Seigneur du terrier, accorde-nous ta force divine. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "Calice du Royaume de l'abysse écailleux",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "Dent pointue riche en lupitoxine",
+   "desc": "Croc acéré avide de sang abandonné durant les conquêtes borissiennes. Permet d'améliorer modérément les Traces des personnages de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruction</span>.",
+   "lore": "Les Borissiens considèrent leurs dents comme des armes guerrières.<br />Suivant les pulsions profondément sauvages qui coulent dans leurs veines, ils mettent leurs ennemis en pièces grâce à leurs dents pointues riches en lupitoxine et boivent leur sang.<br /><br />« Ô, Seigneur du terrier, accorde-nous une peau et des os en acier. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "Calice du Royaume de l'abysse écailleux",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "5837183": {
+   "id": 5837183,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "05655c5cf08869b1b1fe2195df173319b129bb24b7ada253cb5c77c47967b984",
+   "name": "Présage du Conflit",
+   "desc": "Disque doré porté par l'Avant-garde de la fureur divine. Permet l'élévation des personnages de type imaginaire.",
+   "lore": "Au sein de la hiérarchie des créatures titaniques du Conflit, les échelons se gravissent uniquement en fonction du mérite au combat. Cette lame symbolise un courage et un honneur exceptionnels, ainsi que des prouesses martiales inégalées.<br /><br />« Plongez dans la Rivière des âmes et honorez notre dieu par votre gloire éternelle. »",
+   "purpose": "Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/5837183",
+   "comeFrom": [
+    "Ombre stagnante de Janusopolis, l'Abîme du Destin",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "Poitrine lacérée par la bravoure",
+   "desc": "Fragment des créatures titaniques déchues. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "Les généraux paresseux commencèrent à s'entraîner et les sages reclus se mirent à réfléchir. Lorsque les hommes découvrirent qu'ils pouvaient détruire les créations des dieux, le massacre se transforma en guerre.<br /><br />« La peur est le burin de la bravoure. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "Créature titanique au niveau d'équilibre 2 ou supérieur",
+    "Bête crépusculaire au niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "Corps éclaboussé d'honneur",
+   "desc": "Le cœur d'une créature titanique du Conflit. Il regorge de pouvoir divin. Matériau avancé utilisé pour le renforcement.",
+   "lore": "Au commencement, l'humanité se battait pour survivre. Aujourd'hui, certains se battent pour semer la mort, aussi intrépides que les créatures titaniques du Conflit. Les Acrokopiens disent que les guerriers de chair et de pierre partageraient le même cœur...<br /><br />« La bravoure coule dans ce cœur qu'on nomme la gloire. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "Créature titanique au niveau d'équilibre 4 ou supérieur",
+    "Bête crépusculaire au niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "Chair pétrie de peur",
+   "desc": "Poussières composant les créatures titaniques du Conflit. Matériau commun utilisé pour le renforcement.",
+   "lore": "La marée funeste s'abattit sur le monde, et les géants de la haine et de la rancœur émergèrent de la Rivière des âmes. Tous prirent peur devant la légion taillée dans la pierre.<br /><br />« De la pierre du massacre naquit la peur. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "Créature titanique",
+    "Bêtes crépusculaires",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Récompenses d'affectation",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 58.08,
+   "attackAdd": 2.904,
+   "hpBase": 211.2,
+   "hpAdd": 10.56,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 81.312,
+   "attackAdd": 2.904,
+   "hpBase": 295.68,
+   "hpAdd": 10.56,
+   "defenseBase": 36.96,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 104.544,
+   "attackAdd": 2.904,
+   "hpBase": 380.16,
+   "hpAdd": 10.56,
+   "defenseBase": 47.52,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 5837183,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 127.776,
+   "attackAdd": 2.904,
+   "hpBase": 464.64,
+   "hpAdd": 10.56,
+   "defenseBase": 58.08,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 5837183,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 151.008,
+   "attackAdd": 2.904,
+   "hpBase": 549.12,
+   "hpAdd": 10.56,
+   "defenseBase": 68.64,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 5837183,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 174.24,
+   "attackAdd": 2.904,
+   "hpBase": 633.6,
+   "hpAdd": 10.56,
+   "defenseBase": 79.2,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 5837183,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 197.472,
+   "attackAdd": 2.904,
+   "hpBase": 718.08,
+   "hpAdd": 10.56,
+   "defenseBase": 89.76,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "3142931c0af37688395d9533d8a08f1111beb36c027c0b31ab8648a9c65aa16b",
+   "artPath": "0ed28045e55ef4939c3e3661a575d18a235b3b218a823bfed447a7c1be578f07",
+   "name": "Droiture née de l'adversité",
+   "descHash": "Augmente le multiplicateur de DGT de Dieu déicide sur la cible principale de <nobr>#1[i]%</nobr>. Cette capacité inflige désormais à tous les ennemis des DGT imaginaires équivalents au multiplicateur de DGT appliqué à la cible principale.",
+   "params": [
+    0.3
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "7afdaa91d6a6947d3d751f55cb0cb837c4335be467ed54669bb8721b9b8bdc7d",
+   "artPath": "945af934a45804cd48731848538b42873d4f1a67399b68b27fb1f62cb149bc6c",
+   "name": "Témoin du râle des morts",
+   "descHash": "Dans l'état Vendetta, les DGT que Mydei inflige ignorent <nobr>#1[i]%</nobr> de la DÉF des cibles ennemies. Après avoir reçu des soins, <nobr>#2[i]%</nobr> des soins prodigués sont convertis en charge jusqu'à un maximum cumulé de <nobr>#3[i]</nobr> points de charge. Le nombre de points de charge pouvant être convertis est réinitialisé après chaque action d'une unité.",
+   "params": [
+    0.15,
+    0.4,
+    40
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "artPath": "ba4e548b8f3c5844a6f4426d03617ceb4db3384df880c7876350add1c6d5fcc6",
+   "name": "Festin de gloire immuable",
+   "descHash": "Niv. de la compétence +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. de l'ATQ normale +1, jusqu'au Niv. <nobr>10</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "bbf8c8a8f888b41ef8d51301f82220e4f9e59b07fb588c12486d4118c7fc2698",
+   "artPath": "e71c89c0df5164bf0d2284df48f880ba1b9c48d6ad33a13c28534781e3f33226",
+   "name": "Éveil du lion silencieux",
+   "descHash": "Lorsque Mydei est dans l'état Vendetta, ses DGT critiques augmentent de <nobr>#2[i]%</nobr>, et il restaure des PV équivalents à <nobr>#1[i]%</nobr> de ses PV max après avoir subi une attaque de la part d'une cible ennemie.",
+   "params": [
+    0.1,
+    0.3
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "88a249e8ce52e06737d841ea4409d2593600c197a8bbaff166f61c639048b3b0",
+   "artPath": "cd51c9d2dd5fb529e2a71628c9376d37602defedd555e4ccbf2a9083d4128948",
+   "name": "Corps forgé par le combat",
+   "descHash": "Niv. de l'ultime +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. du talent +2, jusqu'au Niv. <nobr>15</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "94466068c90ed94dfbd392752d34d0d0bf925dcf9f2169bbe0207d18d5246532",
+   "artPath": "47fa61e360e67b19b381ebe034ae53c13d76b4473c9e8b4e1b529db60d0a929a",
+   "name": "Héritage de la montagne de sang",
+   "descHash": "Entre immédiatement dans l'état Vendetta en début de combat, et diminue la charge nécessaire à Dieu déicide de <nobr>#1[i]</nobr> points.",
+   "params": [
+    100
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   15652427
+  ],
+  [
+   15369342,
+   15681016,
+   32450730
+  ],
+  [
+   15645282
+  ],
+  [
+   15363990
+  ],
+  [
+   15720925
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Cible unique",
+   "descHash": "Inflige des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> des PV max de Mydei à un ennemi désigné.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 15652427,
+   "name": "Serment de conquête",
+   "iconPath": "c9c9562a7474341571d77ef0351b18dab0f0fc0399a1fcd43fe212944711cd54",
+   "typeDescHash": "ATQ normale",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Propagation",
+   "descHash": "Consomme <nobr>#3[i]%</nobr> des PV actuels de Mydei pour infliger des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de ses PV max à un ennemi désigné, et des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de ses PV max aux cibles adjacentes.<br />Si les PV actuels ne sont pas suffisants, utiliser la compétence réduit les PV actuels de Mydei à 1.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "30",
+   "id": 15369342,
+   "name": "Mille morts sans regrets",
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.45,
+      0.25,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.495,
+      0.275,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.54,
+      0.3,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.585,
+      0.325,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.63,
+      0.35,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.675,
+      0.375,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.73125,
+      0.40625,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7875,
+      0.4375,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84375,
+      0.46875,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.945,
+      0.525,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.99,
+      0.55,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.035,
+      0.575,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.08,
+      0.6,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.125,
+      0.625,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Propagation",
+   "descHash": "Restaure des PV à hauteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> des PV max de Mydei et accumule <nobr>#5[i]</nobr> points de charge pour le talent. Inflige des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> des PV max de Mydei à un ennemi désigné et des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> des PV max de Mydei aux cibles adjacentes. D'autre part, provoque la cible et les cibles adjacentes pendant <nobr>#4[i]</nobr> tours. La prochaine utilisation de Dieu déicide attaque en priorité un ennemi désigné (cet effet s'applique uniquement à la cible la plus récente).",
+   "ultimateCost": 160,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 15645282,
+   "name": "Trône d'annihilation",
+   "iconPath": "85574955bfef55f0647ddfa0325293c8ed2928af5a1f713d0853380fe1beb825",
+   "typeDescHash": "Ultime",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.96,
+      0.6,
+      0.15,
+      2,
+      20
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.024,
+      0.64,
+      0.155,
+      2,
+      20
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.088,
+      0.68,
+      0.16,
+      2,
+      20
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.152,
+      0.72,
+      0.165,
+      2,
+      20
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.216,
+      0.76,
+      0.17,
+      2,
+      20
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.28,
+      0.8,
+      0.175,
+      2,
+      20
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36,
+      0.85,
+      0.18125,
+      2,
+      20
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      0.9,
+      0.1875,
+      2,
+      20
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52,
+      0.95,
+      0.19375,
+      2,
+      20
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6,
+      1,
+      0.2,
+      2,
+      20
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.664,
+      1.04,
+      0.205,
+      2,
+      20
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.728,
+      1.08,
+      0.21,
+      2,
+      20
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.792,
+      1.12,
+      0.215,
+      2,
+      20
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.856,
+      1.16,
+      0.22,
+      2,
+      20
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.92,
+      1.2,
+      0.225,
+      2,
+      20
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Renforcement",
+   "descHash": "Mydei accumule 1 point de charge pour chaque 1 % de PV perdus (jusqu'à un maximum de <nobr>200</nobr> points). Lorsque la charge atteint <nobr>100</nobr>, il consomme <nobr>100</nobr> points de charge pour entrer dans l'état Vendetta, restaure un montant de PV équivalent à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de ses PV max et avance son action de <nobr>100</nobr> %. Lorsque Mydei est dans l'état Vendetta, ses PV max augmentent à hauteur de <nobr>#5[i]%</nobr> de ses PV max actuels, mais sa DÉF se maintient à 0. Mydei utilise automatiquement Roi régicide au début de son tour.<br />Lorsque la charge atteint <nobr>#3[i]</nobr> points dans l'état Vendetta, Mydei gagne immédiatement 1 <u>tour supplémentaire</u> et utilise automatiquement Roi régicide.<br />Lorsque Mydei subit un coup fatal dans l'état Vendetta, il ne tombe pas <u>à terre</u>, mais perd toute sa charge, quitte l'état Vendetta et récupère un montant de PV équivalent à <nobr>#4[i]%</nobr> de ses PV max.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15363990,
+   "name": "Sang pour sang",
+   "iconPath": "b7ecc9cd2b68ea3eaed5135fad9c02f0684ad31a101438926bd89b3a7d2147b4",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.16,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.17,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.19,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2125,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2375,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.25,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.26,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.27,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.28,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.29,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 15348655,
+   "name": "Attaque",
+   "iconPath": "c9c9562a7474341571d77ef0351b18dab0f0fc0399a1fcd43fe212944711cd54",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Incapacitation",
+   "descHash": "Après avoir utilisé la technique, attire les ennemis dans une zone définie et leur inflige l'état Hébété pendant <nobr>#1[i]</nobr> secondes. Les ennemis hébétés ne peuvent pas attaquer activement les cibles alliées.<br />Lorsque vous engagez le combat en attaquant activement des ennemis hébétés, vous infligez à tous les ennemis des DGT imaginaires équivalents à <nobr>#2[i]%</nobr> des PV max de Mydei, et appliquez Provocation aux cibles pendant <nobr>#4[i]</nobr> tour. D'autre part, cette unité accumule <nobr>#5[i]</nobr> points de charge pour son talent.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15720925,
+   "name": "Reddition des lances brisées",
+   "iconPath": "52f30a7b77af7dd15eab5e059e33bb93305cdea630d485652c7679afc3f9c401",
+   "typeDescHash": "Technique",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      0.8,
+      1,
+      1,
+      50
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Propagation",
+   "descHash": "Consomme <nobr>#3[i]%</nobr> des PV actuels de Mydei pour infliger des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de ses PV max à un ennemi unique, et des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de ses PV max aux cibles adjacentes.<br />Si les PV actuels ne sont pas suffisants, utiliser la compétence réduit les PV actuels de Mydei à 1.<br />Cette capacité se déclenche automatiquement.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "30",
+   "id": 15681016,
+   "name": "Roi régicide",
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.55,
+      0.33,
+      0.35
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.605,
+      0.363,
+      0.35
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.66,
+      0.396,
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.715,
+      0.429,
+      0.35
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.77,
+      0.462,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.825,
+      0.495,
+      0.35
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.89375,
+      0.53625,
+      0.35
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9625,
+      0.5775,
+      0.35
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.03125,
+      0.61875,
+      0.35
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1,
+      0.66,
+      0.35
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.155,
+      0.693,
+      0.35
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.21,
+      0.726,
+      0.35
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.265,
+      0.759,
+      0.35
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32,
+      0.792,
+      0.35
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.375,
+      0.825,
+      0.35
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Propagation",
+   "descHash": "Consomme <nobr>#3[i]</nobr> points de charge pour infliger des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> des PV max de Mydei à un ennemi unique, et des DGT imaginaires équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de ses PV max aux cibles adjacentes.<br />Cette capacité se déclenche automatiquement et il n'est pas possible d'accumuler de charge au cours de son activation.",
+   "ultimateCost": 0,
+   "break": "90/hit",
+   "energy": "10",
+   "id": 32450730,
+   "name": "Dieu déicide",
+   "iconPath": "34293babd46f0fdcff472b33fdbfa2356870c1c4cc02aa3813a3b14de18f5624",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.4,
+      0.84,
+      150
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.54,
+      0.924,
+      150
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.68,
+      1.008,
+      150
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.82,
+      1.092,
+      150
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.96,
+      1.176,
+      150
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.1,
+      1.26,
+      150
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2.275,
+      1.365,
+      150
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.45,
+      1.47,
+      150
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.625,
+      1.575,
+      150
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.8,
+      1.68,
+      150
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.94,
+      1.764,
+      150
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.08,
+      1.848,
+      150
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.22,
+      1.932,
+      150
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.36,
+      2.016,
+      150
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.5,
+      2.1,
+      150
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1404101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1404204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 7856718,
+          "name": "Augmentation de VIT",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+          "statusList": [
+           {
+            "key": "VIT",
+            "value": 2,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920207,
+            "count": 3
+           },
+           {
+            "id": 20170864,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 7549118,
+        "name": "Augmentation des DGT critiques",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "DGT CRIT",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920207,
+          "count": 3
+         },
+         {
+          "id": 20170864,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7816850,
+      "name": "Augmentation de PV",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Lorsque Mydei est dans l'état Vendetta, il ne quitte pas cet état lorsqu'il subit un coup fatal. Cet effet ne peut se déclencher que <nobr>#1[i]</nobr> fois par combat.",
+    "ultimateCost": 0,
+    "id": 7930452,
+    "name": "Terre et eau",
+    "iconPath": "df299901cf3074bebfe15cd708ef647deb78f07ac4ddae480deb1914677e5f06",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1404207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 7633013,
+          "name": "Augmentation des DGT critiques",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+          "statusList": [
+           {
+            "key": "DGT CRIT",
+            "value": 0.08
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836266,
+            "count": 3
+           },
+           {
+            "id": 20389475,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 7835235,
+        "name": "Augmentation de PV",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "PV",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836266,
+          "count": 3
+         },
+         {
+          "id": 20389475,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7593053,
+      "name": "Augmentation des DGT critiques",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "DGT CRIT",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Dans l'état Vendetta, Mydei est immunisé aux <u>malus de contrôle</u>.",
+    "ultimateCost": 0,
+    "id": 8204354,
+    "name": "Trente tyrans",
+    "iconPath": "59a25367fb0f2a31a5b8ee8717edf86d9be257142e4bfefde95afc24c6d6d679",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 7603236,
+        "name": "Augmentation de PV",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "PV",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1404210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 24179113,
+        "name": "Augmentation des DGT critiques",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "DGT CRIT",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7350792,
+      "name": "Augmentation de VIT",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "VIT",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "En début de combat, si les PV max de Mydei sont supérieurs à <nobr>#1[i]</nobr>, pour chaque tranche de <nobr>100</nobr> PV en excès, les chances de coup critique de Mydei augmentent de <nobr>#3[f1]%</nobr>, son pourcentage de charge de la part des DGT des cibles ennemies augmente de <nobr>#4[f1]%</nobr> et les soins reçus augmentent de <nobr>#5[f2]%</nobr>. Un maximum de <nobr>#2[i]</nobr> PV excédentaires peuvent être pris en compte.",
+    "ultimateCost": 0,
+    "id": 7956081,
+    "name": "Tunique funeste",
+    "iconPath": "1e9d1fe49c86f21a7bd55de6a88e4cac578c659e93c40d6e744790d9b5aec300",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       4000,
+       4000,
+       0.012,
+       0.025,
+       0.0075
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 7509123,
+    "name": "Augmentation des DGT critiques",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+    "statusList": [
+     {
+      "key": "DGT CRIT",
+      "value": 0.053
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Première rencontre",
+   "text": "Je suis Mydeimos, le prince héritier d'Acrokopis, mais aussi Mydei, guerrier d'Okhema. Si tu veux me connaître, tu n'as qu'à m'observer en combat, ou m'affronter toi-même.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Salutation",
+   "text": "Hmpf.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Au revoir",
+   "text": "Très bien, à la prochaine.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Anecdote personnelle : Passé",
+   "text": "Mon plus ancien souvenir est d'avoir combattu les ténèbres dans l'Abîme. Tout cela parce que le précédent roi d'Acrokopis, sous couvert de prophétie, m'a jeté dans la Rivière des âmes en guise de sacrifice aux Titans. Mais après neuf hivers, mon corps a émergé des eaux... Même la Déesse de la Mort m'a rejeté.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Anecdote personnelle : Ville sainte",
+   "text": "Jamais je n'aurais imaginé m'allier avec l'ennemi d'Acrokopis pour mener une guerre à travers le continent. Okhema est une cité-État prospère, mais... ce n'est pas une terre d'accueil pour tout le monde.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Anecdote personnelle : Avenir",
+   "text": "Il faut dire aux générations futures que je tiendrai ma promesse et que je défendrai Acrokopis jusqu'à ma dernière goutte de sang. Regarde bien. Ce n'est pas la Marée noire qui me dévorera, c'est moi qui l'écraserai.",
+   "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « Passage, redévoile le passé ».",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Bavardage",
+   "text": "Même les lances et les épées forgées dans les flammes finissent par s'émousser avec le poids des années. Sur le champ de bataille, la seule chose sur laquelle je peux compter est ce corps immortel.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Intérêt : Nutrition",
+   "text": "Un corps fort et un esprit sain dépendent tous deux d'une bonne alimentation. Apprendre à préparer les ingrédients et à les cuisiner correctement est une compétence essentielle pour tout guerrier qui se respecte.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Intérêt : Jus de grenade",
+   "text": "Chaque fois que je bois de l'hydromel avec mes semblables, je revois ma patrie et nos souvenirs éclatants. Mais si on y ajoute un peu de fromage... le corps devient plus fort.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Problèmes",
+   "text": "Cela fait longtemps qu'Acrokopis et Okhema sont à couteaux tirés. Une lance peut transpercer un roi ennemi, mais elle ne peut pas effacer les rancunes dans le cœur du peuple.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Fait notable",
+   "text": "Lors du Festival d'Acrokopis, quelle que soit son origine, le vainqueur du tournoi remporte le droit de défier le roi. Le roi précédent a utilisé cette règle pour tuer mon grand-père et s'emparer du pouvoir, mais il a fini par en être lui-même victime. C'est un cercle sans fin...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Connaissances",
+   "text": "Il y a une légende à Acrokopis qui raconte comment trois cents guerriers ont fait face seuls à la Marée noire. Aujourd'hui, ils sont peut-être tombés ou corrompus, mais tant qu'un seul subsistera, nous nous souviendrons que la véritable mort n'est pas la fin de la vie, mais d'abandonner son honneur.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "À propos d'Aglaé",
+   "text": "Nous nous sommes rassemblés sous la direction d'Aglaé non pas parce que cette femme est toute-puissante, mais parce que ses yeux glacials brûlent d'une flamme ardente destinée à s'embraser.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "À propos de Tribbie, Trianne et Trinnon",
+   "text": "La prophétie de Dame Tribios n'est pas une fatalité, mais plutôt source d'espoir. En cette époque troublée, il faut croire en ses propres choix et se battre de toutes ses forces.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "À propos de Phaénon",
+   "text": "Je l'ai combattu à plusieurs reprises, nos combats pouvant durer plusieurs dizaines de jours et de nuits sans qu'un vainqueur ne puisse être désigné. Je connais la force de cet homme. C'est pour cette raison qu'il est digne de couvrir mes arrières.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "À propos de Castorice",
+   "text": "La Servante de la mort d'Aidonia... Elle est destinée à porter la flamme divine de Thanatos. J'espère que de l'autre côté de la Marée noire, aux confins du vent d'ouest, se trouve également une mer de fleurs.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "À propos d'Anaxa",
+   "text": "J'ai entendu des dizaines de récits à propos de ses péchés, mais cet élève modèle du Bosquet ne cesse de vanter ses mérites... Quelqu'un capable de laisser une telle impression doit forcément être intéressant.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "Activation d'Eidolon",
+   "text": "Je me servirai de la colère des hommes pour priver les dieux de leur autorité.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "Élévation de personnage",
+   "text": "Cette quête est forgée dans le sang et les flammes.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "Niveau max atteint",
+   "text": "Le Conflit ne cessera pas avec la victoire.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "Activation de Trace",
+   "text": "Chaque cicatrice est une marque de sang du passé.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "Rejoint l'équipe avec Pionnier/Pionnière",
+   "text": "Tu peux te réjouir, car la victoire nous attend.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "Rejoint l'équipe avec Tribbie",
+   "text": "Reste en arrière. Je peux m'en occuper seul.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "Rejoint l'équipe avec Aglaé",
+   "text": "Vous allez voir ce que signifie d'avoir le pouvoir de rivaliser avec mille nations !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "Rejoint l'équipe avec Castorice",
+   "text": "Que la mort forge la gloire des guerriers.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "Rejoint l'équipe avec Anaxa",
+   "text": "Votre réputation vous précède. Un champ de bataille en perpétuelle évolution est également un terrain propice au savoir.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "Rupture de faiblesse en début de combat",
+   "text": "Fais voir de quoi tu es capable, misérable !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "Avertissement de danger en début de combat",
+   "text": "On verra bien qui restera à la fin.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "Début du tour 1",
+   "text": "Allez, montre-moi ton courage.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "Début du tour 2",
+   "text": "Allez, on y va, que cet endroit puisse être témoin de la gloire !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "Tour inactif",
+   "text": "Dépêche-toi ! Ne laisse pas notre ferveur s'éteindre.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "ATQ normale",
+   "text": "Quelle faiblesse !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "Compétence 1",
+   "text": "Destruction totale !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "Compétence 2",
+   "text": "Malédiction éternelle !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "Compétence renforcée 1",
+   "text": "Fureur implacable !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "Compétence renforcée 2",
+   "text": "À la conquête de toutes les terres !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "Attaque légère subie",
+   "text": "Pitoyable.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "Attaque lourde subie",
+   "text": "Quelle nuisance !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "Activation de l'ultime",
+   "text": "Âmes mourantes, affrontez-moi !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "Déclenchement de l'ultime",
+   "text": "Je vous autorise à accepter votre châtiment !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "Talent 1",
+   "text": "Coule à flots, sang d'Acrokopis !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "Talent 2",
+   "text": "Entendez mon rugissement. Car je suis le Conflit !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "À terre",
+   "text": "Tout est... fini...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "Retour au combat",
+   "text": "Hmpf, la mort ne veut pas de moi.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "Récupération de santé",
+   "text": "Je ne peux pas mourir, mais... merci.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "Technique",
+   "text": "Soumettez-vous, ou mourez !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "Combat gagné",
+   "text": "Les vents de la bataille ne cesseront jamais.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "Ouverture de coffre 1",
+   "text": "Tu peux le prendre. Ça sera ta récompense.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "Ouverture de coffre 2",
+   "text": "Prends-le, et achète une nouvelle armure pour ton clan.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "Ouverture de coffre précieux",
+   "text": "Humm... Pas mal, je l'accepte.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "Énigme réussie 1",
+   "text": "Le mot « abandonner » n'existe pas dans le vocabulaire acrokopien.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "Énigme réussie 2",
+   "text": "Il faut agir pour résoudre un problème, c'est un principe de base.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 77,
+   "title": "Cible ennemie trouvée",
+   "text": "Très bien, je vais t'accorder l'honneur de mourir au combat.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 78,
+   "title": "Retour en ville",
+   "text": "Je peux sentir l'odeur du fer rouillé portée par le vent...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Détails du personnage",
+   "text": "Acrokopis engloutie par la brume, cité du chaos et de la guerre ! Sa lignée royale est marquée par le sang du régicide, et sa divinité porte le nom de la calamité.<br />Mydeimos l'immortel, lion solitaire, Héritier chryséen en quête de la flamme divine du Conflit. Tu devras endurer mille morts et être couvert de sang avant de retourner dans ta terre natale, seul à porter le fardeau de ta folle destinée.<br />— Roi régicide, Dieu déicide. Les sabots d'acier de la guerre parcourent les terres désolées, mais finissent toujours tachés du sang de leur foyer.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Histoire du personnage : Partie I",
+   "text": "« Dans les anciennes légendes des cités côtières, on raconte que la Rivière des âmes a engendré des créatures pouvant égaler la puissance des dieux. Les marins parlent d'un \"Roi des mers\" qui apparaîtrait parfois parmi les vagues sous les traits d'un enfant au visage féroce, au teint rouge et aux lèvres bleuies. Il se baignerait dans les eaux corrosives de la Rivière des âmes, luttant contre les bêtes sanguinaires qui y rôdent, s'abreuvant de leur sang et dévorant leur chair encore palpitante.<br /><br />On raconte que chaque fois qu'il disparaît dans les flots, il ne tarde pas à renaître dans la Rivière des âmes. En l'espace de neuf ans, il aurait reforgé son corps plus de dix mille fois, jusqu'au jour où il aurait mis en pièces un gigantesque monstre marin, son sang teintant l'océan à perte de vue, sans qu'aucune bête carnassière n'ose s'approcher.<br /><br />La légende dit qu'un seul battement de sa queue suffisait à projeter une multitude de poissons et de crevettes sur la plage. On rapporte même qu'un groupe de pêcheurs en détresse, priant désespérément pour leur salut, aurait été sauvé par ce Roi des mers et ses guerriers aquatiques. Avec le temps, ces récits se sont embellis, au point que certains marins ont commencé à dessiner son effigie pour l'apposer sur leurs navires, espérant ainsi garantir leur sécurité en mer.<br /><br />Récemment, une nouvelle rumeur est apparue : ce soi-disant Roi des mers ne serait autre que l'âme en peine du prince héritier Mydeimos. Effrayé par une prophétie, l'ancien roi aurait jeté son fils dans la Rivière des âmes à sa naissance, et l'enfant, refusant de mourir de cette manière, aurait juré d'exterminer toutes les créatures marines. Cependant, je pense que tout ceci n'est qu'un stratagème mis en place par les Acrokopiens pour se glorifier. Voici mes trois arguments :<br /><br />Premièrement, bien que les Acrokopiens aient une tradition de conflit entre père et fils, il est absurde de croire qu'ils jetteraient un prince héritier à la mer dès sa naissance.<br />Deuxièmement, même si le roi Eurypon d'Acrokopis était devenu sénile au point de croire à de telles prophéties et de sacrifier son propre fils, comment un nourrisson pourrait-il posséder une force comparable à celle des dieux et combattre des monstres marins ?<br />Troisièmement, même si un tel enfant existait, il ne pourrait pas être Acrokopien. Ces gens sont égoïstes et brutaux, pourquoi viendraient-ils en aide à des pêcheurs naufragés ?<br />Chers lecteurs, voici la vérité : le Roi des mers<br />... n'est autre que l'incarnation même de l'Océan ! »<br /><br /><align=\"right\">— Extrait d'\"Étude sur la légende du Roi des mers\"<br />Archives de la bibliothèque de Gibranipar</align><br /><br />« Puissance. »<br /><align=\"right\">— Annotation manuscrite d'un homme</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>20</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie II",
+   "text": "« L'armée solitaire exhale une forte odeur de sang, comme un javelot trempé dans l'hémoglobine. Le guerrier à sa tête en est la pointe acérée, transperçant sans relâche ses ennemis, animé d'une colère et d'une haine insondables.<br /><br />De Ladon à Aidonia jusqu'à Aénionus, il ne cessait de revenir d'entre les morts, ne laissant derrière lui que les flammes de la guerre. Lors de la célèbre bataille d'Aénionus, l'invincible Cleitos brandit sa grande hache tandis que des milliers de flèches fusaient dans son sillage. Pourtant, lorsque la poussière se dissipa, le feu émergea du rideau de sang et le poing du guerrier frappa la gorge de Cleitos comme une lance.<br /><br />Après cette bataille légendaire, l'identité du guerrier devint encore plus énigmatique. Son armée portait sans l'ombre d'un doute la marque de l'entraînement acrokopien, mais jamais elle n'arborait sa bannière. Personne ne savait s'il s'agissait d'un groupe de fantômes venant d'Acrokopis et errant sur les champs de bataille, ou d'âmes perdues ayant abandonné leur patrie depuis trop longtemps.<br /><br />Les poètes itinérants ont fait de leur périple une chanson mélancolique, tandis que dans les vents chargés de rouille d'Amphoreus, un lion solitaire menait une horde de vieux soldats, de blessés et d'enfants dans un exode sans fin, en quête d'un foyer qui n'existait plus.<br /><br />Mais la réalité ne change jamais son visage pour atténuer sa cruauté. Les citoyens d'Acrokopis qui lui étaient restés fidèles, même s'ils avaient autrefois fait partie de l'élite, n'avaient pas comme lui un corps à l'immortalité divine. Les années passèrent, et même les divinités d'Acrokopis sombrèrent dans la folie. Alors, où les mortels pouvaient-ils espérer trouver refuge ?<br /><br />Cet homme solitaire finirait-il par porter le destin de son peuple seul sur ses épaules ? Allait-il endosser le fardeau de la royauté ? Ou bien tout ceci n'était que le fruit de son imagination... »<br /><br /><align=\"right\">— Extrait d'« Histoire des guerres d'Amphoreus »<br />Archives de la bibliothèque de Gibranipar</align><br /><br />« Héphestion, Perdiccas, Léonius, Ptolémée, Peucestas... Vos noms ne seront jamais oubliés par l'histoire. »<br /><align=\"right\">— Annotation manuscrite d'un homme</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>40</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie III",
+   "text": "« Mydeimos ! Espèce de traître ingrat, tu n'es qu'un lâche qui a renié l'esprit d'Acrokopis !<br /><br />Tu as assassiné le roi précédent et accompli ta vengeance, mais tu refuses d'assumer la responsabilité de restaurer la dynastie. Ton honneur aurait-il été englouti par les créatures de la Rivière des âmes ?<br />Tu erres parmi les Chasseurs de flammes, sous l'emprise des divagations d'une sorcière, te mêlant à des soldats de basse extraction. Tu préfères placer tes espoirs dans des prophéties rocambolesques plutôt que de faire confiance à la force de tes poings !<br />Les Acrokopiens aspirent à retourner sur leur terre natale, et pourtant, tu nous encourages à nous installer dans la cité même de nos ennemis jurés. Est-ce que tu aurais succombé au luxe d'Okhema ? Ou bien est-ce que ton esprit est déjà embrumé par les vapeurs des thermes dorés ?<br /><br />Mydeimos ! Toi qui es noble et immortel, comment peux-tu te soumettre à cette femme d'Okhema ? Tu es un lion, un messager du Conflit, est-ce que tu aurais oublié la différence entre le prédateur et sa proie ?<br /><br />J'ai entendu dire que tu avais sauvé des étrangers des griffes de Nikador en compagnie de soi-disant \"Héritiers chryséens\", n'hésitant pas à sacrifier ton corps et ton esprit dans la longue nuit éternelle.<br />Mydeimos ! Ton sang noble ne devrait pas être gaspillé de la sorte ! Tu devrais rassembler une armée et tout piller. Ce n'est que comme ça qu'Acrokopis aura une chance de survivre jusqu'à la fin des temps !<br /><br />Cette prétendue Chasse aux flammes t'a dénaturé, ô mon roi ! Un roi n'a pas besoin d'égal, d'allié, de doute ou de salut. S'il te reste ne serait-ce qu'une once de lucidité, alors prends la tête de ton peuple !<br />Que la gloire d'Acrokopis éclipse toutes les autres cités ! »<br /><br /><align=\"right\">— Extrait du \"Recueil des résolutions du Conseil des anciens d'Acrokopis\"<br />Archives de la bibliothèque de Gibranipar</align><br /><br />« Ne jamais s'arrêter. »<br /><align=\"right\">— Directive manuscrite d'un homme</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>60</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie IV",
+   "text": "« La ville sainte d'Okhema demeure l'un des derniers sanctuaires encore épargnés par la Marée noire, mais son encerclement est désormais indéniable.<br /><br />Pendant mille ans, la Marée noire a corrompu tout ce qu'elle a touché : les créatures vivantes se sont transformées en abominations, les cités prospères ont été réduites à des ruines désertes, et même une place forte comme Acrokopis a vu sa divinité corrompue et son héritage anéanti.<br /><br />Aujourd'hui, la plupart des flammes divines ont été récupérées. Pourtant, l'ombre de la Marée noire approche, et le temps presse. Si Okhema venait à tomber, alors tous les efforts consentis jusqu'ici pour atteindre la nouvelle ère seraient réduits à néant.<br /><br />C'est pourquoi je me permets de supposer qu'un affrontement décisif entre les héros qui chassent les flammes et la Marée noire est inévitable dans un avenir proche. D'après les archives, même les guerriers les plus courageux ne peuvent pas résister longtemps à la Marée noire. Parmi les Héritiers chryséens, s'il y a un espoir dans cette bataille, il repose soit sur le courage de Phaénon, soit sur Mydeimos.<br /><br />Ce n'est pas uniquement parce que Mydeimos, en tant que plus grand héros de cette ère, a un destin qui défie la mort ni parce que l'ancienne cité d'Acrokopis occupe une position clé pour contrer la Marée noire. Aussi loin que le lion errant d'Acrokopis ait voyagé, aussi nombreuses fussent ses migrations, il ne pourrait jamais s'incliner sous la bannière d'une autre nation. Une fois son peuple à l'abri, Mydeimos, dont le devoir est sa raison d'être, retournera forcément chez lui. Mais cette fois-ci, il ne portera pas seulement l'espoir des Acrokopiens, mais également l'avenir du monde entier.<br /><br />Les prêtres de Talanton ont prophétisé que l'histoire millénaire du Conflit qui a commencé à Acrokopis s'y terminerait également. Peut-être qu'un jour, cet être immortel franchira le seuil de la Marée noire, où la vie et la mort s'entrelaceront dans un destin incertain. Imaginez une telle scène, et sa grandeur tragique... ».<br /><br /><align=\"right\">— Extrait des \"Chroniques de la Chasse aux flammes : Dossier spécial à propos de la Marée noire\"<br />Archives de la bibliothèque de Gibranipar</align><br /><br />« Comme la Rivière des âmes, immuable à jamais. »<br /><align=\"right\">— Annotation récente d'un homme</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>80</nobr> de personnage"
+  }
+ ],
+ "archive": {
+  "cvCn": "赵成晨",
+  "cvJp": "阿座上洋平",
+  "cvKr": "안효민",
+  "cvEn": "Gabriel Warburton",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "15369342": 2,
+    "15652427": 1,
+    "15681016": 2,
+    "32450730": 2
+   },
+   "5": {
+    "15363990": 2,
+    "15645282": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "name": "Mydei",
+ "rarity": 5,
+ "descHash": "Acrokopis engloutie par la brume, cité du chaos et de la guerre ! Sa lignée royale est marquée par le sang du régicide, et sa divinité porte le nom de la calamité. Mydeimos l'immortel, lion solitaire, Héritier chryséen en quête de la flamme divine du Conflit. Tu devras endurer mille morts et être couvert de sang avant de retourner dans ta terre natale, seul à porter le fardeau de ta folle destinée. — Roi régicide, Dieu déicide. Les sabots d'acier de la guerre parcourent les terres désolées, mais finissent toujours tachés du sang de leur foyer.",
+ "artPath": "7d1c2afaad21e9530d0cdae4a45e5dac16fa3f0d3090b4db462ee34aa800937f",
+ "miniIconPath": "d65549800df726accd4553ad7380abec44f29ce4c7d40fb9f4fc49b7269a8c00",
+ "damageType": {
+  "id": 64,
+  "iconPath": "c94859ea8f2bb3f3ba61bd9d9aec35660e7f16ffa91705e51e1258c118bdaff2",
+  "color": "#F4D258",
+  "name": "Imaginaire",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "altIconPath": "64028c66965b78960c898ea3117321ca2503409c39e962e81aeb911a58b320cb",
+  "color": "#FFFFFF",
+  "name": "La Destruction",
+  "rarity": 0
+ },
+ "pageId": "mydei"
+}
