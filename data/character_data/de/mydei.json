@@ -1,0 +1,3516 @@
+{
+ "spRequirement": 160,
+ "iconPath": "81cc5b3d84ed2b75eeaefda540bf3693ea97846711f06f12cd34ef222c0ce85c",
+ "bgPath": "79541b49694f373edafb264c38c929810044c57fae2ed865db1a801484468949",
+ "figPath": "3a9d37d9677265c5689e51b0c8f961e4228e3784744ede6291d9f063e95ab35b",
+ "fgPath": "dbe6b9b2511b9c204ca5ae163fe2031af2f39a2be273ca899de46120b4589163",
+ "splashIconPath": "7bc51f226201ea39bb98cff5da99a57dfd10511c98b9e989cc645618589dc84b",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRkQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSA8BAAABkGNb27E914vftkZgVrZt+4+tyskArDJl1l+m4hhss7KdPM91Fb9nEBETgJV0XddZSlQO5nrOQg68pt0dTQUxAODOB+z6bSU9OLujNAbzhxz4KWuNXh4+0z/VEAPAxyrRkLT6Z44ntReHAkhc/VUkKVL6fL43AHDQZERpjtXvfZUbc1wEbpdIinP//d2c2p0KpD+SnSOJ1IcRwEHqd1GiJJKcLUx0XTSKJEWR1ujpoXwg9KAMZQ1ljeZec5F2V4ZW0n/pzdV7kio6fujff+nGhY+6cqAfzlR9Z+rm+++kP++vXTh6fH15egLmBgRk94/Xbr/37/W547MHihzPczF/iJ8SH+hjka7nO5jfceYBAFZQOCAOAQAAUAUAnQEqFAAUAD5tMpVHpCKiISgIAIANiWgArAwUsiCtIrDSLvFdKq7jI9Je+Ue5sArgAP5xGmdloQNMLNCtBO3tYbEpLFKzMeO6+qDED5rH4j8UduiN6CQ/fIlMR82uyn7LVEX8QsN/xZHl+L0VI1aH9upRhS77uZHfLxOxM8Jzh/v9JhZD9yYHas63Ex1vRiQ+nOUFkUhlkCJcIiTiCEObytBwSJCg9JaAc71e1UTJVZ3X+/sjneIt97ot4B5p79GgYw5oF+coBcAOTcZwTgOyqgP9vV70Uf98yvwe34ZldCVWulv6fjOrR1HlfPzLlhBLAHZtxMrphUDukzs0DtnCjn+Df2iAJdUoQAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 1,
+  "iconPath": "030e601ad017d8aaf9c2e1b34f108db7a35a7385a6445d47094815c62f6c5e6f",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Credit",
+   "desc": "Diese Währung, die von der Interastralen Friedenskorporation für die Abrechnung mit ihren Kunden verwendet wird, ist heute als hartes Zahlungsmittel für Weltraumreisende akzeptiert.",
+   "lore": "„Die Leute laufen herum, streiten sich und handeln für Zahlen auf einem Bildschirm, aber was wirklich von Wert ist, kann man nicht kaufen.“",
+   "purpose": "Gemeinsame Währung",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Blütenkelch: Große Mine",
+    "Blütenkelch: Kunsthandwerkskommission",
+    "Blütenkelch: Hotel Reverie (Traumlandschaft)",
+    "Blütenkelch: „Murmelnder Wald“ Hain der Erleuchtung",
+    "Missionsbelohnungen",
+    "Auftragsbelohnungen",
+    "Glut-Tausch"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Spuren des Schicksals",
+   "desc": "Fortschrittliches Material zum Hochstufen von Spuren.",
+   "lore": "Unzählige Fehlschläge sicherten deinen Sieg und deine kleinen Schritte führten dich an den Wendepunkt des Schicksals.",
+   "purpose": "Spurenmaterial",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Punktebelohnungen in der Universum-Simulation",
+    "Namenlose Ehre",
+    "Glut-Tausch",
+    "Sternenlicht-Tausch",
+    "Belohnungen für zeitlich begrenzte Aktionen"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Reiseführer",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>20.000</nobr> Figuren-EP.",
+   "lore": "Pflichtlektüre für Weltreisende. Auf Knopfdruck beginnt eine angenehme Stimme in der Sprache des Lesers von den legendären Erlebnissen berühmter Abenteurer auf diversen Planeten zu erzählen und ihr gesammeltes Wissen zusammenzufassen.<br /><br />„Die brandneue Reiseführer-Reihe ‚Das Handbuch für die galaktische Küche‘ ist jetzt erhältlich.“<br />„Einsendungen bitte per Telepathie über Synästhesie-Leuchtfeuer ERD<nobr>-23</nobr>θ an das Team der Intelligenzia-Gilde. Flexible Zahlungsoptionen.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Blütenkelch: Äußere Schneewüste",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Blütenkelch: „Heiligtum der Prophezeiung“ Janusopolis",
+    "Vergessene Halle"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Abenteuer-Log",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>5.000</nobr> Figuren-EP.",
+   "lore": "Eine säuberlich organisierte Sammlung lehrreicher Notizen mit unzähligen Illustrationen und Texten, die diverse Abenteuer vom Anfang bis zum Ende beschreiben, sowie wertvollen Tipps und Überlebenstechniken.<br /><br />„Warum werden die Daten nicht in einer Foto-CD gespeichert? Wäre doch viel praktischer.“<br />„Moderne Technologie ist angesichts von Sternenstürmen und Neuronenfluss-Eruptionen viel empfindlicher, als man denkt. Außerdem hätte der Autor des Buchs sicher gewollt, dass man es auf die einfachste Art liest.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Blütenkelch: Äußere Schneewüste",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Blütenkelch: „Heiligtum der Prophezeiung“ Janusopolis",
+    "Tägliches Training",
+    "Glut-Tausch"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Reisebegegnungen",
+   "desc": "Erfahrungsmaterial für Figuren, enthält <nobr>1.000</nobr> Figuren-EP.",
+   "lore": "Ein unleserlich von Hand geschriebenes Reisetagebuch mit wirren Inhalten. Es nützt dir wenig.<br /><br />„Dan Heng, lies das endlich fertig, damit es in den Müll kann.“",
+   "purpose": "Material zu Figuren-EP",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Blütenkelch: Äußere Schneewüste",
+    "Blütenkelch: Wolkenfurt",
+    "Blütenkelch: Traumgrenze",
+    "Blütenkelch: „Heiligtum der Prophezeiung“ Janusopolis",
+    "Auftragsbelohnungen"
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "Borisin-Zähne",
+   "desc": "Bei den Eroberungen der Borisin abgebrochene Zähne, mit denen Spuren für Figuren auf dem Pfad der <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Zerstörung</span> ein wenig hochgestuft werden können.",
+   "lore": "Die Borisin erachten ihre Zähne als mächtige Waffen.<br />In ihren Stämmen, in denen die Starken über die Schwachen herrschen, gelten diejenigen mit Karies als nicht lebensfähig.<br /><br />„Oh Nestlord, gib uns scharfe Zähne und Klauen.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "Blütenkelch (Schuppenklamm)",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "Flügel des Glücks",
+   "desc": "Fortschrittliches Material zum Hochstufen von Spuren.",
+   "lore": "Nur in dem Augenblick kurz vor ihrem Tod, in dem sich das Universum um sie zu sammeln scheint, können die Augen der Menschen diese geisterhaften Federn wahrnehmen. Von den sieben Bildern, in denen sich der Herrscherbogen manifestiert, ist Fliegender Aureus der schnellste.<br /><br />„Ich habe zwölf Tage und Nächte damit vollbracht, es zu jagen, und erst dann habe ich gemerkt, dass es schon immer in mir war.“",
+   "purpose": "Spurenmaterial",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "Echo des Krieges: Himmelsspalter"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "Reißzähne des Mondwahnsinns",
+   "desc": "Bei den Eroberungen der Borisin abgebrochene schreckliche Stoßzähne, mit denen Spuren für Figuren auf dem Pfad der <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Zerstörung</span> stark hochgestuft werden können.",
+   "lore": "Borisins werden durch ihren angeborenen „Mondwahnsinn“ noch stärker.<br />Im Zustand der Kampfeswut verfügen sie über unglaubliche Heilfähigkeiten und vergießen das Blut ihrer Feinde in einem blutigen Festmahl.<br /><br />„O Nestlord, gib uns deine göttliche Stärke.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "Blütenkelch (Schuppenklamm)",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "Sägezähne mit Lupitoxin",
+   "desc": "Bei den Eroberungen der Borisin abgebrochene scharfe Reißzähne, mit denen Spuren für Figuren auf dem Pfad der <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Zerstörung</span> hochgestuft werden können.",
+   "lore": "Die Borisin erachten ihre Zähne als mächtige Waffen.<br />Aufgeputscht durch einen wilden Trieb in ihrem Blut, zerfleischen sie ihre Feinde mit Lupitoxin-Sägezähnen und trinken ihr Blut.<br /><br />„O Nestlord, gib uns Haut und Knochen aus Stahl.“",
+   "purpose": "Spurenmaterial <br />Material zum Lichtkegel-Aufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "Blütenkelch (Schuppenklamm)",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "5837183": {
+   "id": 5837183,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "05655c5cf08869b1b1fe2195df173319b129bb24b7ada253cb5c77c47967b984",
+   "name": "Vorbote des Zwists",
+   "desc": "Die Goldrad-Klinge, getragen vom Furiae-Praetor. Material zum Aufstieg von imaginären Figuren.",
+   "lore": "Die Titanenwesen des Zwists steigen in ihren Rängen nur durch militärische Tapferkeit auf. Diese Klinge symbolisiert außergewöhnliche Tapferkeit, Ehre und unübertroffene Kampfkraft.<br /><br />„Stürzt euch in den Fluss der Seelen und krönt unseren Gott mit eurem ewigen Ruhm.“",
+   "purpose": "Material zum Figurenaufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/5837183",
+   "comeFrom": [
+    "Ruhender Schatten: „Abgrund des Schicksals“ Janusopolis",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "Von Tapferkeit zerrissene Brust",
+   "desc": "Fragmente der gefallenen Titanenwesen des Zwists. Normales Material zur Verstärkung.",
+   "lore": "Die faulen Generäle begannen zu üben, und die zurückgezogenen Weisen begannen zu grübeln. Als die Menschen entdeckten, dass sie die Schöpfungen der Götter zerstören konnten, wurde das Gemetzel zum Krieg.<br /><br />„Angst ist der Meißel der Tapferkeit.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "Titanenwesen auf Balance-Stufe 2 oder höher",
+    "Bestien der Dämmerung auf Balance-Stufe 2 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Gegner in Divergentes Universum",
+    "Gegner in Universum-Simulation",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "Von Ehre besprengter Leib",
+   "desc": "Das Herz eines Titanenwesens des Zwists voller göttlicher Macht. Fortschrittliches Material zur Verstärkung.",
+   "lore": "Am Anfang kämpften die Menschen um ihr Leben. Nun kämpfen einige für den Tod, furchtlos wie die Titanenwesen des Zwists. Die Kremnosianer sagen, dass Krieger aus Fleisch wie aus Stein womöglich das gleiche Herz in sich tragen ...<br /><br />„Der Mut fließt im Inneren, und dieses Herz nennt man Ehre.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "Titanenwesen auf Balance-Stufe 4 oder höher",
+    "Bestien der Dämmerung auf Balance-Stufe 4 oder höher",
+    "Omni-Synthesemaschine – Materialsynthese",
+    "Gegner in Divergentes Universum",
+    "Gegner in Universum-Simulation",
+    "Omni-Synthesemaschine – Materialtausch"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "Von Angst zertrampelter Körper",
+   "desc": "Staub, der die Titanenwesen des Zwists bildet. Rohmaterial zur Verstärkung.",
+   "lore": "Die Flut des Todes verschlingt die Welt, und der Riese des Hasses und des Grolls tritt aus dem Fluss der Seelen hervor.<br /><br />„Gemetzel ist der Stein, aus dem die Angst gemeißelt wird.“",
+   "purpose": "Spurenmaterial <br />Material zum Figurenaufstieg",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "Titanenwesen",
+    "Bestien der Dämmerung",
+    "Gegner in Divergentes Universum",
+    "Gegner in Universum-Simulation",
+    "Auftragsbelohnungen",
+    "Glut-Tausch",
+    "Omni-Synthesemaschine – Materialtausch",
+    "Blütenkelch (Golden)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 58.08,
+   "attackAdd": 2.904,
+   "hpBase": 211.2,
+   "hpAdd": 10.56,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 81.312,
+   "attackAdd": 2.904,
+   "hpBase": 295.68,
+   "hpAdd": 10.56,
+   "defenseBase": 36.96,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 104.544,
+   "attackAdd": 2.904,
+   "hpBase": 380.16,
+   "hpAdd": 10.56,
+   "defenseBase": 47.52,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 5837183,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 127.776,
+   "attackAdd": 2.904,
+   "hpBase": 464.64,
+   "hpAdd": 10.56,
+   "defenseBase": 58.08,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 5837183,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 151.008,
+   "attackAdd": 2.904,
+   "hpBase": 549.12,
+   "hpAdd": 10.56,
+   "defenseBase": 68.64,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 5837183,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 174.24,
+   "attackAdd": 2.904,
+   "hpBase": 633.6,
+   "hpAdd": 10.56,
+   "defenseBase": 79.2,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 5837183,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 197.472,
+   "attackAdd": 2.904,
+   "hpBase": 718.08,
+   "hpAdd": 10.56,
+   "defenseBase": 89.76,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "3142931c0af37688395d9533d8a08f1111beb36c027c0b31ab8648a9c65aa16b",
+   "artPath": "0ed28045e55ef4939c3e3661a575d18a235b3b218a823bfed447a7c1be578f07",
+   "name": "Unnachgiebiges Rückgrat im Eiswind",
+   "descHash": "Erhöht den SCH-Multiplikator gegen das Hauptziel von „Gottesmörder sei Gott“ um <nobr>#1[i]%</nobr>. Diese Fähigkeit fügt nun allen Gegnern imaginären SCH zu, der dem SCH-Multiplikator des Hauptziels entspricht.",
+   "params": [
+    0.3
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "7afdaa91d6a6947d3d751f55cb0cb837c4335be467ed54669bb8721b9b8bdc7d",
+   "artPath": "945af934a45804cd48731848538b42873d4f1a67399b68b27fb1f62cb149bc6c",
+   "name": "Todesgesang des Zwists",
+   "descHash": "Während der Dauer von „Blutrache“ ignoriert der von Mydei verursachte SCH <nobr>#1[i]%</nobr> der VTD des Ziels. Wenn er geheilt wird, werden <nobr>#2[i]%</nobr> der erhaltenen Heilung in Aufladung umgewandelt. Die gesamte umgewandelte Aufladung kann <nobr>#3[i]</nobr> Pkt. nicht überschreiten. Nachdem eine beliebige Einheit eine Aktion ausgeführt hat, wird die ansammelbare Aufladung zurückgesetzt.",
+   "params": [
+    0.15,
+    0.4,
+    40
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "artPath": "ba4e548b8f3c5844a6f4426d03617ceb4db3384df880c7876350add1c6d5fcc6",
+   "name": "Festmahl der unvergänglichen Ehre",
+   "descHash": "Fertigkeitsstufe +2 bis max. St. <nobr>15</nobr>. Standardangriff-Stufe +1 bis max. St. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "bbf8c8a8f888b41ef8d51301f82220e4f9e59b07fb588c12486d4118c7fc2698",
+   "artPath": "e71c89c0df5164bf0d2284df48f880ba1b9c48d6ad33a13c28534781e3f33226",
+   "name": "Erwecken der stillen Löwen",
+   "descHash": "Erhöht im Status „Blutrache“ den KRIT-SCH um <nobr>#2[i]%</nobr>. Stellt LP in Höhe von <nobr>#1[i]%</nobr> der max. LP wieder her, nachdem er von Gegnern angegriffen wurde.",
+   "params": [
+    0.1,
+    0.3
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "88a249e8ce52e06737d841ea4409d2593600c197a8bbaff166f61c639048b3b0",
+   "artPath": "cd51c9d2dd5fb529e2a71628c9376d37602defedd555e4ccbf2a9083d4128948",
+   "name": "Flamme der gemeißelten Narben",
+   "descHash": "Ultimate-Stufe +2 bis max. St. <nobr>15</nobr>. Talentstufe +2 bis max. St. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "94466068c90ed94dfbd392752d34d0d0bf925dcf9f2169bbe0207d18d5246532",
+   "artPath": "47fa61e360e67b19b381ebe034ae53c13d76b4473c9e8b4e1b529db60d0a929a",
+   "name": "Blutiger Hügel aus vergangenen Schlachten",
+   "descHash": "Tritt beim Kampfeintritt sofort in den Status „Blutrache“ ein und die für „Gottesmörder sei Gott“ benötigte Aufladung wird auf <nobr>#1[i]</nobr> Pkt. verringert.",
+   "params": [
+    100
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   15652427
+  ],
+  [
+   15369342,
+   15681016,
+   32450730
+  ],
+  [
+   15645282
+  ],
+  [
+   15363990
+  ],
+  [
+   15720925
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Einzelangriff",
+   "descHash": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Mydeis max. LP zu.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 15652427,
+   "name": "Schwur der resoluten Reise",
+   "iconPath": "c9c9562a7474341571d77ef0351b18dab0f0fc0399a1fcd43fe212944711cd54",
+   "typeDescHash": "Standardangriff",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Ausdehnung",
+   "descHash": "Verbraucht LP in Höhe von <nobr>#3[i]%</nobr> von Mydeis aktuellen LP und fügt einem anvisierten Gegner imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Mydeis max. LP zu. Fügt gleichzeitig angrenzenden Einheiten imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Mydeis max. LP zu.<br />Wenn die aktuellen LP nicht ausreichen, werden Mydeis LP beim Einsatz der Fertigkeit auf 1 reduziert.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "30",
+   "id": 15369342,
+   "name": "Tausend Tode ohne Bedauern",
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "typeDescHash": "Fertigkeit",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.45,
+      0.25,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.495,
+      0.275,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.54,
+      0.3,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.585,
+      0.325,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.63,
+      0.35,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.675,
+      0.375,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.73125,
+      0.40625,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7875,
+      0.4375,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84375,
+      0.46875,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.945,
+      0.525,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.99,
+      0.55,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.035,
+      0.575,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.08,
+      0.6,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.125,
+      0.625,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Ausdehnung",
+   "descHash": "Stellt LP in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> von Mydeis max. LP wieder her und erhält <nobr>#5[i]</nobr> Pkt. Aufladung für das Talent. Fügt einem anvisierten Gegner imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Mydeis max. LP und angrenzenden Einheiten imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Mydeis max. LP zu. Verursacht außerdem beim Ziel und angrenzenden Einheiten für <nobr>#4[i]</nobr> Rd. Verspotten. Das nächste Mal greift „Gottesmörder sei Gott“ vorrangig einen anvisierten Gegner an. Dieser Effekt wirkt nur auf das neueste Ziel.",
+   "ultimateCost": 160,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 15645282,
+   "name": "Thron der brennenden Knochen",
+   "iconPath": "85574955bfef55f0647ddfa0325293c8ed2928af5a1f713d0853380fe1beb825",
+   "typeDescHash": "Ultimate",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.96,
+      0.6,
+      0.15,
+      2,
+      20
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.024,
+      0.64,
+      0.155,
+      2,
+      20
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.088,
+      0.68,
+      0.16,
+      2,
+      20
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.152,
+      0.72,
+      0.165,
+      2,
+      20
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.216,
+      0.76,
+      0.17,
+      2,
+      20
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.28,
+      0.8,
+      0.175,
+      2,
+      20
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36,
+      0.85,
+      0.18125,
+      2,
+      20
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      0.9,
+      0.1875,
+      2,
+      20
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52,
+      0.95,
+      0.19375,
+      2,
+      20
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6,
+      1,
+      0.2,
+      2,
+      20
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.664,
+      1.04,
+      0.205,
+      2,
+      20
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.728,
+      1.08,
+      0.21,
+      2,
+      20
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.792,
+      1.12,
+      0.215,
+      2,
+      20
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.856,
+      1.16,
+      0.22,
+      2,
+      20
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.92,
+      1.2,
+      0.225,
+      2,
+      20
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Verstärkung",
+   "descHash": "Erhält 1 Pkt. Aufladung für je 1 % verlorener LP, bis max. <nobr>200</nobr> Pkt. Wenn die Aufladung <nobr>100</nobr> Pkt. erreicht, werden <nobr>100</nobr> Pkt. verbraucht, um in den Status „Blutrache“ einzutreten, LP in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> der max. LP von Mydei wiederherzustellen und gleichzeitig die Aktion um <nobr>100</nobr> % vorzuziehen. Im Status Blutrache werden die max. LP um <nobr>#5[i]%</nobr> der aktuellen max. LP erhöht und die VTD bleibt bei 0. Zu Beginn der eigenen Runde wird automatisch „Königsmörder sei König“ eingesetzt.<br />Wenn die Aufladung während der Dauer von Blutrache <nobr>#3[i]</nobr> Pkt. erreicht, erhält Mydei sofort 1 <u>zusätzliche Runde</u> und „Gottesmörder sei Gott“ wird automatisch eingesetzt.<br />Wenn Mydei im Status Blutrache einen Todesstoß erleidet, wird er zwar nicht <u>handlungsunfähig</u>, aber die gesamte Aufladung wird verbraucht und der Status Blutrache beendet. Es werden LP in Höhe von <nobr>#4[i]%</nobr> seiner max. LP wiederhergestellt.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15363990,
+   "name": "Blut für Blut",
+   "iconPath": "b7ecc9cd2b68ea3eaed5135fad9c02f0684ad31a101438926bd89b3a7d2147b4",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.16,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.17,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.19,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2125,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2375,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.25,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.26,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.27,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.28,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.29,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Greift den Gegner an und reduziert nach Kampfeintritt den WDS des Ziels gegen den entsprechenden Typ.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 15348655,
+   "name": "Angriff",
+   "iconPath": "c9c9562a7474341571d77ef0351b18dab0f0fc0399a1fcd43fe212944711cd54",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Beeinträchtigung",
+   "descHash": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Bereich mitgezogen und für <nobr>#1[i]</nobr> Sek. von Schwindel betroffen. Von Schwindel betroffene Gegner greifen Verbündete nicht aktiv an.<br />Beim Kampfeintritt mit einem aktiven Angriff auf von Schwindel betroffene Gegner wird allen Gegnern imaginärer SCH in Höhe von <nobr>#2[i]%</nobr> von Mydeis max. LP zugefügt und es wird für <nobr>#4[i]</nobr> Rd. Verspotten verursacht. Sammelt <nobr>#5[i]</nobr> Pkt. Aufladung für das Talent an.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15720925,
+   "name": "Gefängnis der unterwerfenden Lanze",
+   "iconPath": "52f30a7b77af7dd15eab5e059e33bb93305cdea630d485652c7679afc3f9c401",
+   "typeDescHash": "Technik",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      0.8,
+      1,
+      1,
+      50
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Ausdehnung",
+   "descHash": "Verbraucht LP in Höhe von <nobr>#3[i]%</nobr> von Mydeis aktuellen LP. Fügt einem Gegner imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Mydeis max. LP und angrenzenden Einheiten imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Mydeis max. LP zu.<br />Wenn die aktuellen LP nicht ausreichen, werden Mydeis LP beim Einsatz der Fertigkeit auf 1 reduziert.<br />Diese Fähigkeit wird automatisch eingesetzt.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "30",
+   "id": 15681016,
+   "name": "Königsmörder sei König",
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "typeDescHash": "Fertigkeit",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.55,
+      0.33,
+      0.35
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.605,
+      0.363,
+      0.35
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.66,
+      0.396,
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.715,
+      0.429,
+      0.35
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.77,
+      0.462,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.825,
+      0.495,
+      0.35
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.89375,
+      0.53625,
+      0.35
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9625,
+      0.5775,
+      0.35
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.03125,
+      0.61875,
+      0.35
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1,
+      0.66,
+      0.35
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.155,
+      0.693,
+      0.35
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.21,
+      0.726,
+      0.35
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.265,
+      0.759,
+      0.35
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32,
+      0.792,
+      0.35
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.375,
+      0.825,
+      0.35
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Ausdehnung",
+   "descHash": "Verbraucht <nobr>#3[i]</nobr> Pkt. Aufladung und fügt einem Gegner imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Mydeis max. LP zu. Fügt gleichzeitig angrenzenden Einheiten imaginären SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Mydeis max. LP zu.<br />Diese Fähigkeit wird automatisch eingesetzt. Während der Dauer der Fähigkeit kann keine Aufladung angesammelt werden.",
+   "ultimateCost": 0,
+   "break": "90/hit",
+   "energy": "10",
+   "id": 32450730,
+   "name": "Gottesmörder sei Gott",
+   "iconPath": "34293babd46f0fdcff472b33fdbfa2356870c1c4cc02aa3813a3b14de18f5624",
+   "typeDescHash": "Fertigkeit",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.4,
+      0.84,
+      150
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.54,
+      0.924,
+      150
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.68,
+      1.008,
+      150
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.82,
+      1.092,
+      150
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.96,
+      1.176,
+      150
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.1,
+      1.26,
+      150
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2.275,
+      1.365,
+      150
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.45,
+      1.47,
+      150
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.625,
+      1.575,
+      150
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.8,
+      1.68,
+      150
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.94,
+      1.764,
+      150
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.08,
+      1.848,
+      150
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.22,
+      1.932,
+      150
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.36,
+      2.016,
+      150
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.5,
+      2.1,
+      150
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1404101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1404204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 7856718,
+          "name": "GES-Erhöhung",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+          "statusList": [
+           {
+            "key": "GES",
+            "value": 2,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920207,
+            "count": 3
+           },
+           {
+            "id": 20170864,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 7549118,
+        "name": "KRIT-SCH-Verstärkung",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "KRIT-SCH",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920207,
+          "count": 3
+         },
+         {
+          "id": 20170864,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7816850,
+      "name": "LP-Erhöhung",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "LP",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Wenn Mydei im Status „Blutrache“ von einem Todesstoß getroffen wird, wird der Status Blutrache nicht beendet. Dieser Effekt kann <nobr>#1[i]</nobr>-mal pro Kampf ausgelöst werden.",
+    "ultimateCost": 0,
+    "id": 7930452,
+    "name": "Wasser und Lehm",
+    "iconPath": "df299901cf3074bebfe15cd708ef647deb78f07ac4ddae480deb1914677e5f06",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1404207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 7633013,
+          "name": "KRIT-SCH-Verstärkung",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+          "statusList": [
+           {
+            "key": "KRIT-SCH",
+            "value": 0.08
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836266,
+            "count": 3
+           },
+           {
+            "id": 20389475,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 7835235,
+        "name": "LP-Erhöhung",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "LP",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836266,
+          "count": 3
+         },
+         {
+          "id": 20389475,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7593053,
+      "name": "KRIT-SCH-Verstärkung",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "KRIT-SCH",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Im Status „Blutrache“ ist Mydei immun gegen <u>Mengenkontrolle-Debuffs</u>.",
+    "ultimateCost": 0,
+    "id": 8204354,
+    "name": "Dreißig Tyrannen",
+    "iconPath": "59a25367fb0f2a31a5b8ee8717edf86d9be257142e4bfefde95afc24c6d6d679",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 7603236,
+        "name": "LP-Erhöhung",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "LP",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1404210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 24179113,
+        "name": "KRIT-SCH-Verstärkung",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "KRIT-SCH",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7350792,
+      "name": "GES-Erhöhung",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "GES",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Wenn zu Beginn des Kampfes die max. LP von Mydei <nobr>#1[i]</nobr> Pkt. überschreiten, wird für je <nobr>100</nobr> überschüssigen LP seine KRIT-Rate um <nobr>#3[f1]%</nobr> erhöht. Wenn er von Gegnern SCH erleidet, wird Mydeis Aufladerate um <nobr>#4[f1]%</nobr> und die LP-Wiederherstellung bei erhaltener Heilung um <nobr>#5[f2]%</nobr> erhöht. Bis zu <nobr>#2[i]</nobr> Pkt. überschüssige LP können angerechnet werden.",
+    "ultimateCost": 0,
+    "id": 7956081,
+    "name": "Blutige Vorahnung",
+    "iconPath": "1e9d1fe49c86f21a7bd55de6a88e4cac578c659e93c40d6e744790d9b5aec300",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       4000,
+       4000,
+       0.012,
+       0.025,
+       0.0075
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 7509123,
+    "name": "KRIT-SCH-Verstärkung",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+    "statusList": [
+     {
+      "key": "KRIT-SCH",
+      "value": 0.053
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Erstes Treffen",
+   "text": "Ich bin der Kronprinz von Kremnos, Mydeimos, und auch ein Krieger aus Okhema, Mydei bekannt. Wenn du mehr über mich wissen willst, beobachte mich im Kampf – oder kämpfe selbst gegen mich.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Begrüßung",
+   "text": "Hm.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Abschied",
+   "text": "Okay, tschüss.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Über sich selbst: Vergangenheit",
+   "text": "Meine früheste Erinnerung ist der Kampf gegen die Dunkelheit im Abgrund. Der frühere König von Kremnos, machte sich die Prophezeiung zunutze und ließ mich als Opfer für die Titanen in das Meer der Seelen werfen. Aber nach neun Wintern kroch ich aus dem Meer der Seelen heraus ... Selbst der Todesgott hat es aufgegeben.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Über sich selbst: Heilige Stadt",
+   "text": "In der Vergangenheit hätte ich nie gedacht, dass ich mich mit unseren Erzfeinden von Kremnos verbünden und überall in der Welt kämpfen würde. Okhema war ein wohlhabender Stadtstaat, aber ... es kann nicht für alle eine Heimat sein.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Über sich selbst: Zukunft",
+   "text": "Sagt den zukünftigen Generationen, dass ich mein Versprechen erfüllen und meine Waffe bis zum letzten Tropfen Blut schwingen werde. Wartet nur ab – es ist nicht die Schwarze Flut, die mich verschluckt, sondern ich werde sie zerschmettern.",
+   "unlockRequirement": "Verfügbar nach Abschluss der Trailblaze-Mission „Tore, zeigt den Weg zurück zur Vergangenheit“",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Plaudern",
+   "text": "Selbst in den Flammen geschmiedete Stahlwaffen werden mit der Zeit verrosten. Das Einzige, worauf ich mich auf dem Schlachtfeld verlassen kann, ist mein unsterblicher Körper.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Hobbys: Ernährung",
+   "text": "Ein starker Körper und ein gesunder Geist brauchen eine angemessene Ernährung. Die Fähigkeit, Zutaten zu verarbeiten und zu kochen, ist für jeden Krieger eine notwendige Fähigkeit.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Hobbys: Granatapfelsaft",
+   "text": "Wenn ich mit meinen Leuten Honiggebräu trinke, trinke ich auf unsere Heimat, und unsere blutroten Erinnerungen. Aber wenn man dazu etwas Käse isst ... ist es gleich gesünder.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Ärgernisse",
+   "text": "Castrum Kremnos und Okhema sind schon lange verfeindet. Die Lanze kann den feindlichen König durchbohren, aber sie kann den Groll der Menschen nicht auslöschen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Etwas Mitteilenswertes",
+   "text": "Bei dem Kremnos-Festival kann jeder, unabhängig von seinem Status, den König herausfordern. Der frühere König nutzte diese Regel, um meinen Großvater zu töten und sich den Thron zu sichern. Aber am Ende wurde auch er durch diese Regel gestürzt. Was für ein tragischer Kreislauf ...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Wissen",
+   "text": "In der Geschichte von Kremnos existiert eine Legende von dreihundert Kriegern, die allein gegen die Schwarze Flut kämpften. Heute sind sie vielleicht gefallen und verdorben worden, aber solange auch nur einer von ihnen übrig ist, werden sie nicht vergessen, dass der wahre Tod nicht der „Tod“ selbst ist, sondern der Verlust von Ehre.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "Über Aglaea",
+   "text": "Wir haben uns unter Aglaeas Führung versammelt, nicht wegen ihrer Gerissenheit, sondern weil in ihren kalten Augen ein Feuer entbrennen wird.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "Über Tribbie, Trianne und Trinnon",
+   "text": "Anstatt Tribios’ Prophezeiung als Schicksal zu betrachten, sollte man sie als Hoffnung ansehen. In einer zerbrochenen Zeit ist es wichtig, sich auf sich selbst zu verlassen und alles zu geben.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "Über Phainon",
+   "text": "Ich bin schon mehrmals gegen ihn angetreten, und wir haben uns Tage und Nächte lang erbittert bekämpft, ohne dass ein Sieger hervorkam. Ich kenne die Stärke dieses Mannes. Und deshalb ist er würdig, mir den Rücken zu decken.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "Über Castorice",
+   "text": "Die Todesdienerin Aidonias ... Sie ist dazu bestimmt, die Kernflamme von Thanatos zu übernehmen. Ich hoffe, dass am Ende der Schwarzen Flut, auf der anderen Seite des warmen Westwinds, ein Meer von Blumen wartet.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "Über Anaxa",
+   "text": "Ich habe von mehr als einem Dutzend Sünden gehört, die ihm zugeschrieben werden, aber eines gewissen guten Schülers von der Akademie des Hains erzählt gerne, wie wunderbar dieser Gelehrte als Lehrer ist ... Jeder, der einen solchen Eindruck auf ihn hinterlassen kann, ist wahrscheinlich auch jemand, den ich schätzen würde.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "Eidolon aktiviert",
+   "text": "Ich werde menschlichen Zorn nutzen, um den Göttern ihre Macht zu entziehen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "Figurenaufstieg",
+   "text": "Diese Reise ist aus Blut und Feuer geschaffen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "Höchststufe erreicht",
+   "text": "Der Zwist wird mit dem Sieg nicht aufhören.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "Spur aktiviert",
+   "text": "Jedes Muster ist eine Markierung von Blut aus der Vergangenheit.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "Teammitglied: Trailblazer",
+   "text": "Schrei, denn der Sieg ist uns gewiss.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "Teammitglied: Tribbie",
+   "text": "Tritt zurück. Ich allein reiche aus.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "Teammitglied: Aglaea",
+   "text": "Werde Zeuge davon, was es bedeutet, „eine Macht über alles“ zu haben!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "Teammitglied: Castorice",
+   "text": "Möge der Tod den Kriegern Ruhm einbringen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "Teammitglied: Anaxa",
+   "text": "Dein Ruf eilt dir voraus. Das sich ständig verändernde Schlachtfeld ist auch ein Ort, an dem Wissen nützlich ist.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "Kampf beginnt: Schwächebruch",
+   "text": "Schwächling ... Zeig mir alles, was du kannst!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "Kampf beginnt: Gefahrenwarnung",
+   "text": "Wir werden sehen, wer am Ende zurückbleibt.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "Runde beginnt 1",
+   "text": "Komm schon, zeige mir deinen Mut.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "Runde beginnt 2",
+   "text": "Spare keine Mühen! Möge dieser Ort Zeuge der Ehre sein!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "Warten auf Runde",
+   "text": "Beweg dich! Halte deine Körperwärme aufrecht.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "Standardangriff",
+   "text": "Voller Schwachstellen!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "Fertigkeit 1",
+   "text": "Setze alles in Flammen!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "Fertigkeit 2",
+   "text": "Ewige Verdammnis!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "Verstärkte Fertigkeit 1",
+   "text": "Zorn über dich!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "Verstärkte Fertigkeit 2",
+   "text": "Unterwerfe die Welt!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "Leicht getroffen",
+   "text": "Erbärmlich.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "Schwer getroffen",
+   "text": "Was für ein Lärm!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "Ultimate: Aktivieren",
+   "text": "Stell dich mir, sterbende Seele!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "Ultimate: Einsetzen",
+   "text": "Ich erlaube euch, eure Bestrafung anzunehmen!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "Talent 1",
+   "text": "Fließe, Blut aus Kremnos!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "Talent 2",
+   "text": "Erhöre meinen Schrei. Ich bin der Zwist!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "Handlungsunfähig",
+   "text": "Es ist ... vorbei ...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "Zurück zum Kampf",
+   "text": "Hmpf, der Tod lehnt mich ab.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "LP wiederhergestellt",
+   "text": "Ich kann nicht sterben. Aber ... danke trotzdem.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "Technik",
+   "text": "Ergib dich oder stirb!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "Kampf gewonnen",
+   "text": "Der Wind auf dem Schlachtfeld wird nie aufhören zu wehen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "Schatz geöffnet 1",
+   "text": "Nimm es. Betrachte es als Belohnung.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "Schatz geöffnet 2",
+   "text": "Nimm es, um neue Rüstungen für deine Leute zu kaufen.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "Kostbarer Schatz geöffnet",
+   "text": "Hmm ... Nicht schlecht. Ich nehme es an.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "Rätsel gelöst 1",
+   "text": "Das Wort „nachgeben“ existiert in der Sprache der Kremnosianer nicht.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "Rätsel gelöst 2",
+   "text": "Probleme werden gelöst, indem man handelt. Das ist die einfachste Form der Logik.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 77,
+   "title": "Gegner gefunden",
+   "text": "Gut, ich gewähre dir die Ehre, im Kampf zu sterben.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 78,
+   "title": "Zurück zur Stadt",
+   "text": "Der wilde Wind trägt den Geruch von Rost mit sich ...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Figurendetails",
+   "text": "Die in Nebel versunkene Stadt, Castrum Kremnos, eine Stadt voller Chaos und Krieg! Ihre Königsfamilie hat das Blut des Vatermords in sich, und ihre Götter tragen den Namen des Unheils.<br />Der unsterbliche Mydeimos, der einsame Löwe, und der Erbe von Chrysos, der die Kernflamme des Zwists jagt. Du musst unzählige Tode ertragen, blutüberströmt in deine Heimat zurückkehren und allein das wahnsinnige Schicksal tragen.<br />– Einen König töten, um König zu werden. Einen Gott töten, um Gott zu werden. Die kriegerischen Eisenhufe durchziehen die Wildnis, aber am Ende wird das Blut deiner Heimat an ihnen kleben.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Geschichte (Teil 1)",
+   "text": "„In alten Legenden der Küstenstaaten heißt es, dass das Meer der Seelen einst ein Wesen hervorgebracht hat, das den Göttern ebenbürtig ist. Laut der Berichte der Fischer taucht ein solcher „Meeresherrscher“ mit dem Aussehen eines Kindes in den Wellen auf, mit einem grimmigen Gesicht, rotem Teint und blauen Lippen. Es badet im durchdringenden, knochenzermürbenden Wasser des Meeres der Seelen, kämpft mit den furchterregenden Bestien darin, trinkt gierig Blut und frisst rohes Fleisch und Knochen.<br /><br />Man sagt, jedes Mal, wenn es in die Tiefe des Meeres sinkt, wird es kurz darauf aus dem Meer der Seelen wiedergeboren. In ungefähr neun Jahren soll es sich über zehntausendmal neu geformt haben, bis es schließlich das Ungeheuer zerriss. Das Blut färbte das Meer auf tausend Meilen rot, doch keine fleischfressende Meeresbestie wagte es, sich zu nähern.<br /><br />Man sagt, dass ein Schlag mit seinem Schwanz viele Fische und Garnelen ans Ufer schleudern kann. Einmal betete ein in Seenot geratener Fischer verzweifelt um Hilfe, und der Meeresherrscher rettete ihn mit seiner Armee. Die Geschichten wurden immer unglaublicher, bis irgendwann Fischer anfingen, Bilder des Meeresherrschers zu malen und an ihre Boote zu hängen, um eine sichere Fahrt zu erbitten.<br /><br />In letzter Zeit kursieren Gerüchte, dass der sogenannte Meeresherrscher in Wahrheit der Geist von dem Thronfolger Mydeimos ist. Der alte König habe ihn aus Angst vor einer Prophezeiung direkt nach der Geburt ins Meer geworfen, und der verstorbene Junge finde keinen Frieden und schwöre, das gesamte Meer der Seelen zu beherrschen. Doch ich denke, das ist nur eine weitere Prahlerei der verschlagenen Kremnosianer, und ich habe drei Gründe dafür:<br /><br />Erstens, auch wenn es bei den Kremnosianern Tradition ist, dass Vater und Sohn um den Thron kämpfen, warum sollte ein neugeborener Kronprinz direkt ins Meer geworfen werden?<br />Zweitens, selbst wenn der alte König Eurypon senil war und die Prophezeiung glaubte, wie könnte ein Baby die Kraft eines Gottes haben, um gegen ein Meeresungeheuer zu kämpfen?<br />Drittens, selbst wenn es ein solches Kind gäbe, wäre es niemals ein Kremnosianer. Die Kremnosianer sind so egoistisch und grob, dass sie niemals in Not geratenen Fischern helfen würden.<br />Liebe Leser, ich werde euch nun die Wahrheit verraten: Der Meeresherrscher<br />– ist in Wirklichkeit die Verkörperung des Meeres selbst!“<br /><br /><align=\"right\">– Auszug aus dem Buch in der Bibliothek Garbaniphoro<br />„Studien über den mächtigen Meeresherrscher“</align><br /><br />„Stark.“<br /><align=\"right\">– Handschrift eines Mannes</align>",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>20</nobr>"
+  },
+  {
+   "title": "Geschichte (Teil 2)",
+   "text": "„Diese einsame Armee strömte einen intensiven Geruch von Blut aus, wie ein blutgetränkter Speer. Der Anführer dieser Armee war die Speerspitze, die immer mit endloser Wut und Hass auf den Gegner zustach.<br /><br />Von Ladon über Aidonia bis hin zu Aenionus kehrte er immer wieder aus dem Tod zurück und brachte überall, wo er entlangzog, verheerende Kriege mit sich. In der berühmten Schlacht von Aenionus hob der unbesiegbare Clythios seine große Axt, und zehntausend Pfeile flogen hinter ihm hervor. Doch als der Staub sich legte, tauchte das Feuer aus dem Blut auf, und die Faust des Kriegers war wie eine scharfe Spitze, die Clythios’ Kehle aufriss.<br /><br />Nach der epischen Schlacht wurde die wahre Identität des Kriegers immer mysteriöser. Diese Armee trug eindeutig die Spuren der Ausbildung der Kremnosianer, doch sie hisste nie die Fahne von Castrum Kremnos. Niemand wusste, ob sie die einsamen Geister von Kremnosianern auf dem Schlachtfeld waren oder verlorene Seelen, die nach ihrer Heimat suchten.<br /><br />Umherziehende Barden komponierten traurige Lieder über die Reise dieser einsamen Armee. Im wilden Wind von Amphoreus, der nach Rost roch, zog der hochmütige Löwe mit einer Schar alter und schwacher Krieger umher, auf der Suche nach einem Heimatland, das nicht existierte.<br /><br />Die Realität verändert sich nicht, nur weil sie grausam ist. Die treuen Anhänger aus Castrum Kremnos, die einst Elitekrieger waren, besaßen nicht die göttliche Unsterblichkeit des Anführers. Mit dem Vergehen der Jahre war sogar der Gott von Castrum Kremnos in Wahnsinn gefallen. Wohin sollten die Sterblichen nun gehen?<br /><br />Wird dieser hochmütige Mann das Schicksal seines Volkes auf sich nehmen und sich selbst die Fesseln eines Königs anlegen? Oder ist das alles nur ein vergeblicher, einseitiger Wunsch ...?“<br /><br /><align=\"right\">– Auszug aus dem Buch in der Bibliothek Garbaniphoro<br />„Kriegsgeschichte von Amphoreus“</align><br /><br />„Hephaistion, Perdikkas, Leonius, Ptolemäus, Peukesta ... Eure Namen werden nicht in der Geschichte verloren gehen.“<br /><align=\"right\">– Handschrift eines Mannes</align>",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>40</nobr>"
+  },
+  {
+   "title": "Geschichte (Teil 3)",
+   "text": "„Mydeimos, du undankbarer Verräter, Feigling, der den Kremnos-Geist zerschlagen hat!<br /><br />Du hast den alten König ermordet, hast Rache genommen, aber du hast die Verantwortung für die Wiederbelebung des Königreichs nicht übernommen. Wurde dein Ehrgefühl etwa von den Meeresbestien im Meer der Seelen verschlungen?<br />Du mischst dich mit den Flammenjägern, wirst von den wahnsinnigen Reden einer Zauberin betrogen und kämpfst mit Soldaten niederer Herkunft. Du vertraust lieber auf die vage Prophezeiung der Götter als auf deine eigenen Fäuste!<br />Die Kremnosianer sehnen sich danach, in ihre Heimat des Zwists zurückzukehren, doch du willst uns in den Staat unseres Erbfeindes führen. Begehrst du etwa den Luxus von Okhema? Oder bist du bereits von dem Dunst des goldenen Bades verwirrt worden?<br /><br />Mydeimos! Du hast den edlen Körper der Unsterblichkeit, wie kannst du von einer Frau aus Okhema geführt werden? Du bist der jagende Löwe, der Bote des Zwists. Hast du vergessen, was der Unterschied zwischen Jäger und Beute ist?<br /><br />Es wird erzählt, dass du vor kurzem mit jenen, die sich die Erben von Chrysos nennen, aus den Händen der Titanenwesen von Nikador ausländische Zivilisten gerettet hast. Du hast dich ohne Zögern in jener endlosen Nacht zerbrechen lassen, gebadet im Blut und im Wahnsinn.<br />Mydeimos, dein Blut sollte nicht für diese nutzlosen Menschen fließen! Du solltest eine Armee versammeln, Ressourcen plündern, nur so können Kremnosianer in der Apokalypse ein wenig Lebenshoffnung gewinnen!<br /><br />Die sogenannte Flammenjagd hat dich vollkommen verändert. Mein König, komm zurück! Ein König braucht keine Gleichgestellten, keine Gefährten, keinen Zweifel und keine Rettung – Wenn du noch einen Funken Klarheit hast, gib uns den Befehl!<br />Lass die Ehre von Castrum Kremnos über allen Staaten erstrahlen!“<br /><br /><align=\"right\">– Auszug aus dem Buch in der Bibliothek Garbaniphoro<br />„Sammlung der Beschlüsse des Ältestenrats von Castrum Kremnos“</align><br /><br />„Weiterziehen.“<br /><align=\"right\">– Notiz eines Mannes</align>",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>60</nobr>"
+  },
+  {
+   "title": "Geschichte (Teil 4)",
+   "text": "„Die heilige Stadt des Morgens, Okhema, ist ein unberührtes Paradies, das die Schwarze Flut bisher nicht erreichen konnte. Doch ihre Umzingelung durch die Flut ist bereits deutlich erkennbar.<br /><br />Tausend Jahre Geschichte, und überall, wo die Schwarze Flut wütet, werden Lebewesen in unmenschliche Monster verwandelt, und Staaten zerfallen zu verlassenen Ruinen. Selbst Castrum Kremnos, so mächtig es auch war, wurde von der Schwarzen Flut zerstört, seine Gottheit wurde entweiht.<br /><br />Seit Beginn der Flammenjagd sind die meisten Kernflammen wieder zurückgebracht worden. Doch die Schwarze Flut naht, und die Zeit wird knapp. Sollte Okhema vor der Wiedererschaffung der Welt fallen, wäre alles umsonst gewesen.<br /><br />Ich wage hier die Vermutung, dass die Flammenjäger in naher Zukunft der Schwarzen Flut entgegentreten werden. Aus früheren Berichten ist ersichtlich, dass selbst die tapfersten Krieger in der Schwarzen Flut nicht lange überleben können. Die Erben von Chrysos haben alle ihre Stärken. Wenn es Hoffnung für diese Schlacht gibt, dann liegt sie entweder bei dem tapferen Phainon oder bei Mydeimos.<br /><br />Natürlich liegt das nicht nur daran, dass Mydeimos als der Oberste der Helden dieser Welt die Gabe hat, den Tod zu verweigern, und auch nicht nur an der strategischen Lage der alten Stadt von Castrum Kremnos, die die Schwarze Flut aufhalten könnte. Auch wenn Mydeimos wie der Löwe von Castrum Kremnos in seinem Leben viele Male umherzog und schließlich weit entfernt von seinem Geburtsort verweilte, würde ein stolzer König niemals einem fremden Land untertan sein. Sobald er sein Volk in Sicherheit gebracht hat, wird Mydeimos, der seine Mission über alles stellt, sicher in seine Heimat zurückkehren. Doch dieses Mal trägt er nicht nur die Hoffnung der Kremnosianer auf seinen Schultern, sondern die Zukunft der ganzen Welt.<br /><br />Die Priester von Talanton prophezeiten einst, dass die tausendjährige Geschichte des Zwists in Castrum Kremnos begann und auch dort enden wird. Vielleicht wird dieser unsterbliche Körper eines Tages die Schwarze Flut betreten und darin immer wieder sterben und auferstehen. Was für ein Anblick das sein wird, was für eine tragische Szene ...“<br /><br /><align=\"right\">– Auszug aus dem Buch in der Bibliothek Garbaniphoro<br />„Studien über die Flammenjagd: Schwarze Flut“</align><br /><br />„Wie das Meer der Seelen, immer dasselbe.“<br /><align=\"right\">– Die neueste Anmerkung eines Mannes</align>",
+   "unlockRequirement": "Verfügbar auf Figurenstufe <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "赵成晨",
+  "cvJp": "阿座上洋平",
+  "cvKr": "안효민",
+  "cvEn": "Gabriel Warburton",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "15369342": 2,
+    "15652427": 1,
+    "15681016": 2,
+    "32450730": 2
+   },
+   "5": {
+    "15363990": 2,
+    "15645282": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "name": "Mydei",
+ "rarity": 5,
+ "descHash": "Die in Nebel versunkene Stadt, Castrum Kremnos, eine Stadt voller Chaos und Krieg! Ihre Königsfamilie hat das Blut des Vatermords in sich, und ihre Götter tragen den Namen des Unheils. Der unsterbliche Mydeimos, der einsame Löwe und der Erbe von Chrysos, der die Kernflamme des Zwists jagt, muss unzählige Tode ertragen, blutüberströmt in seine Heimat zurückkehren und allein den Wahnsinn des Schicksals tragen. – Einen König töten, um König zu werden. Einen Gott töten, um Gott zu werden. Die kriegerischen Eisenhufe durchziehen die Wildnis, aber am Ende wird auch das Blut der Heimat an ihnen kleben.",
+ "artPath": "7d1c2afaad21e9530d0cdae4a45e5dac16fa3f0d3090b4db462ee34aa800937f",
+ "miniIconPath": "d65549800df726accd4553ad7380abec44f29ce4c7d40fb9f4fc49b7269a8c00",
+ "damageType": {
+  "id": 64,
+  "iconPath": "c94859ea8f2bb3f3ba61bd9d9aec35660e7f16ffa91705e51e1258c118bdaff2",
+  "color": "#F4D258",
+  "name": "Imaginär",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "altIconPath": "64028c66965b78960c898ea3117321ca2503409c39e962e81aeb911a58b320cb",
+  "color": "#FFFFFF",
+  "name": "Die Zerstörung",
+  "rarity": 0
+ },
+ "pageId": "mydei"
+}

@@ -1,0 +1,2794 @@
+{
+ "spRequirement": 120,
+ "iconPath": "768ab29e8b6df338008fe5f5763f91eb9e296f0cafcb906f73529d3d090cd161",
+ "bgPath": "45f41a7cebc4a4b18e65903f41e847221155de58db6ac0b33c8cf114b15ad34f",
+ "figPath": "081585afaede15dc3bb0f3d5507e17232abffa181d1dcd3ee3e66700e7e226b6",
+ "fgPath": "20423c26bee02a1d1d8e85f65cc097d28d28d89e714fefe289ddd99456bca907",
+ "splashIconPath": "b3ea2c796ef47c2d944770414288e99920a87f30dab27b36f93b1d78a29f57ae",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRkQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSPYAAAABkGvb1rE9+3nf339s21VSubad3EBas02XkcpWb5udrda28b7PXsGHW4iICVDBICmozFR1K9ooLS1Vj6ucq1BSSlDX/i94sLCF0hLU4O7DT3xilaRQKFXdAzCRoz2ligKq104y7AgXWiuRlPRav/IqEeM8cnOoQlC/94Cxjf2LWw0kNe58nhwb/x9/npnRSNITYiGM4c2YqmGHsTEGY3JOtlkONgZsY/N2vAZCtLGxcYycq5PmfInGBfKMnLkKqjtHlkXbBs76oiRVNlkGRMg/XJg95VQfBf0/68KWXT8z9o9SpQqHICXjBwwf3l6SQgEpVeFEhQFWUDggKAEAANAGAJ0BKhQAFAA+bS6SRqQioaEoDVCADYlsAKkjXqQfleK1doLsv3kdfgVL3+ADinf/qhdO386MaUaOCtxfMAD+l6s8aQY05aVh3E46ExPSlm++5RI+meNvesfP/x/BuaU2ovGltmZskif+QdyL1fnZSA/cq/kXTPUexL4jjCNBKrmurpedYKIMMhOefuWbIMLA91P4fQ0gu+CxZnqQ98cfgC/f9idEydxcwL6LZh98Op/AkrjSdgINMH1zdOZJRlLZfz68AbA2rCbXJTk0tI8WoqjVcsAEXKRmxJI0aCXuUuX9w/4OTLIqKVi3uS+xKMwh5d47H38s2NUXZTljqu+MPXzPnBloXwVugSSD1thcuAPAtTSnM9w7yIIAs7+0172++31mwAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 4,
+  "iconPath": "c5867c65479a81bf991589bb75f86a9b2594e7ac28b70c4e87fb781882a2800f",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Divisa que utiliza la Corporación para la Paz Interastral para sus cuentas con los clientes y que se acepta en todas partes como moneda de los viajes espaciales.",
+   "lore": "\"La gente corre, se pelea y comercia por algo que no son más que números en una terminal, pero lo que es verdaderamente valioso no se puede comprar\".",
+   "purpose": "Moneda común",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cáliz de la mina principal",
+    "Cáliz de la Comisión de Artesanía",
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Cáliz del Soto de las Musas, Bosque Susurrante",
+    "Recompensa de misión",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Huellas del destino",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "Un fracaso tras otro garantiza la victoria final. Un paso tras otro acaba llevándote al punto de inflexión de tu destino.",
+   "purpose": "Material de Rastros",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Recompensa de puntos del Universo Simulado",
+    "Honor anónimo",
+    "Canjeo de Ascuas",
+    "Canjeo de Cosmiluz",
+    "Recompensa de evento de duración limitada"
+   ]
+  },
+  "386840": {
+   "id": 386840,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "d008de2c5cf118a3ba604ee2a8f3f7896d624bcac9447bcc7a51b919b6c523bd",
+   "name": "Eco perdido del deseo compartido",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "Solo seguía el ritmo supremo hasta que su coro se quedaba en silencio.<br />Sin embargo, sus oyentes no querían callar. Mientras el necio soñador agarraba la cuerda del deseo compartido, el falso intérprete repetía la partitura cubierta de polvo.<br /><br />\"Las yemas de los dedos trazan las estrellas y guían las leyes y los derechos de todos los seres... Hoy, todos los sueños se hacen realidad y las leyes de lo infinito retroceden a la oscuridad\".",
+   "purpose": "Material de Rastros",
+   "rarity": 4,
+   "rewardPath": "/material/386840",
+   "comeFrom": [
+    "Ecos de la guerra del Gran Teatro de Colonipenal"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Guía del espíritu viajero",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>20</nobr> <nobr>000</nobr> pts. de EXP.",
+   "lore": "Lectura indispensable para la exploración. Pulsa el botón Leer y una voz atractiva empezará a hablar en un idioma que entiendes y te contará las vivencias legendarias de aventureros famosos de distintos mundos, así como los valiosos conocimientos que adquirieron.<br /><br />\"El nuevo volumen de la serie Guía del espíritu viajero, titulado «Manual de gastronomía intergaláctica», saldrá a la venta muy pronto\".<br />\"Para enviar un artículo, conéctese a la baliza sinestésica ERD<nobr>-23</nobr>θ y contacte con un representante de la Sociedad del Conocimiento. Puede elegir la forma de pago más conveniente para usted\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Cáliz de Janópolis, Santuario del Oráculo",
+    "Salón olvidado"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Registro de aventuras",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>5000</nobr> pts. de EXP.",
+   "lore": "Colección de notas instructivas muy bien ordenadas. Contiene numerosas ilustraciones y textos que describen aventuras de principio a fin, así como información valiosa y técnicas de supervivencia.<br /><br />\"¿Por qué no lo digitalizan y lo guardan en un disco fotolítico? Sería mucho más práctico\".<br />\"La tecnología avanzada es mucho más frágil de lo que crees cuando tienes que enfrentarte a tormentas estelares o erupciones de neutrones. Además, seguro que quien escribió este libro quería que la gente lo leyera de la forma más sencilla posible\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Cáliz de Janópolis, Santuario del Oráculo",
+    "Entrenamiento diario",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Noticias del viaje",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>1000</nobr> pts. de EXP.",
+   "lore": "Diario de viaje con una caligrafía ilegible y un contenido completamente aleatorio, por lo que no te sirve de mucho.<br /><br />\"Dan Heng, acaba ya de leerlo y luego tíralo\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Cáliz de Janópolis, Santuario del Oráculo",
+    "Recompensa de encargo"
+   ]
+  },
+  "589819": {
+   "id": 589819,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "69bf4aa00e5ddbe021a76886ed32c9df4e3862e4d247698a30c5adc118b54bbd",
+   "name": "Compás celestial",
+   "desc": "Un melodioso compás que flota a la deriva en los cielos. Sirve para mejorar moderadamente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Armonía</span>.",
+   "lore": "Compás que surgió del orden. Cayó silenciosamente desde los confines del cielo y se incorporó a la cacofonía como un grano de arena en el desierto.<br /><br />\"Es imperceptible, hasta que provoca una chispa de inspiración\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/589819",
+   "comeFrom": [
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "673760": {
+   "id": 673760,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "f01e77293741da7aec911b1200d50580dab0b21b79b8f83880dc1a336c313a3d",
+   "name": "Movimiento celestial",
+   "desc": "Movimiento de la sinfonía del universo. Sirve para mejorar en gran medida los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Armonía</span>.",
+   "lore": "Movimiento musical que surgió del orden. Resuena suavemente más allá del cielo, inmerso en un silencio abrumador, como una estrella titilante en medio de la galaxia.<br /><br />\"Es intrascendente, hasta que desaparece en el olvido\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/673760",
+   "comeFrom": [
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "874346": {
+   "id": 874346,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "85a0321db47414204147c699efe14b3e37c9cbad9213179aa8d5c2ed1dcfe2d3",
+   "name": "Nota del firmamento",
+   "desc": "Fragmento de notas musicales que surgió en el firmamento. Sirve para mejorar ligeramente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Armonía</span>.",
+   "lore": "Nota musical que surgió del orden. Cayó silenciosamente desde los confines de las nubes y se incorporó a la sinfonía mundana como una lágrima que se disuelve en el mar.<br /><br />\"Es inaudible, hasta que muere en una canción\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/874346",
+   "comeFrom": [
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "6103825": {
+   "id": 6103825,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
+   "name": "Claro de luna velado",
+   "desc": "Una corona de forma extraña que pertenecía a un Pegaso de la Luna. Material de ascensión para los personajes de tipo Cuántico.",
+   "lore": "En una leyenda nocturna, Oronix robó el brillo del sol y se lo regaló a la luna. Los Pegasos cargaron con la luz de la luna para que la tierra permaneciera iluminada cuando Aquila cerrara los ojos.<br /><br />\"La pálida luz de la luna no puede competir con el brillo del sol\".",
+   "purpose": "Material de ascensión de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/6103825",
+   "comeFrom": [
+    "Sombra paralizada del Soto de las Musas, Bosque Susurrante",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "Pecho hendido del valor",
+   "desc": "Fragmento de un deudo del Conflicto tras caer en batalla. Material corriente que se usa en la potenciación.",
+   "lore": "Los generales indolentes comenzaron a entrenar, y los sabios recluidos comenzaron a discurrir. Cuando la gente descubrió que las creaciones de los dioses podían destruirse, la masacre se convirtió en guerra.<br /><br />\"El miedo es el cincel del valor\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "De titandeudos (nivel de Equilibrio 2 o superior)",
+    "De Bestias Crepusculares (nivel de Equilibrio 2 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "Torso bautizado de gloria",
+   "desc": "Corazón de un deudo del Conflicto, lleno de poder. Material avanzado que se usa en la potenciación.",
+   "lore": "Al principio, la gente luchaba para vivir. Ahora, algunos luchan para morir, intrépidos como los deudos del Conflicto. La gente de Kremnos suele decir que, quizá, los guerreros de piedra y los de carne y hueso tienen el mismo corazón.<br /><br />\"El valor fluye en su interior, y este corazón se llama gloria\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "De titandeudos (nivel de Equilibrio 4 o superior)",
+    "De Bestias Crepusculares (nivel de Equilibrio 4 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "Carne pisoteada del miedo",
+   "desc": "Pedazo que forma parte de un deudo del Conflicto. Material simple que se usa en la potenciación.",
+   "lore": "La marea de muerte inunda el mundo, y los gigantes del odio y el resentimiento salen del río Estigia. Ante ese ejército tallado en piedra, todos bajan la cabeza, presas del miedo.<br /><br />\"La masacre es la piedra con que se construye el miedo\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "De titandeudos",
+    "De Bestias Crepusculares",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material",
+    "Cáliz (oro)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 71.28,
+   "attackAdd": 3.564,
+   "hpBase": 142.56,
+   "hpAdd": 7.128,
+   "defenseBase": 99,
+   "defenseAdd": 4.95,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 99.792,
+   "attackAdd": 3.564,
+   "hpBase": 199.584,
+   "hpAdd": 7.128,
+   "defenseBase": 138.6,
+   "defenseAdd": 4.95,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 128.304,
+   "attackAdd": 3.564,
+   "hpBase": 256.608,
+   "hpAdd": 7.128,
+   "defenseBase": 178.2,
+   "defenseAdd": 4.95,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 156.816,
+   "attackAdd": 3.564,
+   "hpBase": 313.632,
+   "hpAdd": 7.128,
+   "defenseBase": 217.8,
+   "defenseAdd": 4.95,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 3.564,
+   "hpBase": 370.656,
+   "hpAdd": 7.128,
+   "defenseBase": 257.4,
+   "defenseAdd": 4.95,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 213.84,
+   "attackAdd": 3.564,
+   "hpBase": 427.68,
+   "hpAdd": 7.128,
+   "defenseBase": 297,
+   "defenseAdd": 4.95,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 242.352,
+   "attackAdd": 3.564,
+   "hpBase": 484.704,
+   "hpAdd": 7.128,
+   "defenseBase": 336.6,
+   "defenseAdd": 4.95,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 96,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "0deae2be67c57b102557cf070114ebbaa708957dbb9cbc2c8e864c8d64c06beb",
+   "artPath": "27d6d708185291d8f2893b241b0a88b1f5ef8914f8987d29adf07bee03ad9666",
+   "name": "Festival de recolecta de azúcar",
+   "descHash": "Después de que un aliado ataque al enemigo mientras el campo está activo, inflige adicionalmente al objetivo que recibe el <u>daño adicional</u> del campo un <u>Daño verdadero</u> equivalente al <nobr>#1[i]%</nobr> del daño total del ataque.",
+   "params": [
+    0.24
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "01f24d75c76ed114cd91093c873caa76662d2bad9b249aa23ac0bf216e26a1ee",
+   "artPath": "81890460ea15d82cc8ef5a2d68a8ad9889923b611c5a61f3b10c165fc581bb7e",
+   "name": "Guía para visitar sueños",
+   "descHash": "El <u>daño adicional</u> que inflige el campo aumenta al <nobr>#1[i]%</nobr> del daño original. Cuando el campo inflige <u>daño adicional</u>, inflige daño adicional <nobr>#2[i]</nobr> vez más.",
+   "params": [
+    1.2,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "ded9dc3a5901e8b7d6a40048949efe6162f68dccd63fe999cbdb3a235f1deaae",
+   "artPath": "6d9c2c28a9ef1420f15b2dd851c05a26c13be9e62d801051fccb9c076fb4a34c",
+   "name": "Tesoro repleto de auroras",
+   "descHash": "Niv. de habilidad definitiva +2 (máximo: nivel <nobr>15</nobr>). Niv. de ATQ básico +1 (máximo: nivel <nobr>10</nobr>).",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "bf1f819bf39a7f9bbcdfc5d3146c47bfecc0d8fefa14c4242f71103e17f95cb6",
+   "artPath": "2283be8f487e88d5605e35d4c153b044efb443d93c6764da5f477216b490866e",
+   "name": "Paz de corazones afines",
+   "descHash": "Mientras dura Numinosidad, el daño que infligen todos los aliados ignora un <nobr>#1[i]%</nobr> de la DEF del objetivo.",
+   "params": [
+    0.18
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "11a2594e5fcc1ffadacbff83c14f4beeb5828681222d53d6a217561e589f729b",
+   "artPath": "69ec2ab85b019938f36f8c454dd3be4dc7918c54031f41c1ad37e678a1544204",
+   "name": "Reloj de las maravillas",
+   "descHash": "Niv. de habilidad básica +2 (máximo: nivel <nobr>15</nobr>). Niv. de talento +2 (máximo: nivel <nobr>15</nobr>).",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "d4c298fb178610eb24a4e0e5efec367828656836eafa27c7048d571271418d5e",
+   "artPath": "030a8f33b13c0a6146aba955a241606bcfdde111e36a158f23c332fd87b8c60c",
+   "name": "Un mañana de luna y estrellas",
+   "descHash": "Cuando Tribbie usa su habilidad definitiva, lanza el <u>ataque adicional</u> del talento contra todos los enemigos. El daño que inflige el <u>ataque adicional</u> del talento aumenta en un <nobr>#1[i]%</nobr>.",
+   "params": [
+    7.29
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   14214208
+  ],
+  [
+   14457438
+  ],
+  [
+   14174313
+  ],
+  [
+   14450301
+  ],
+  [
+   14282806
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Ráfaga",
+   "descHash": "Tribbie inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de sus PV máx. como Daño <span style=\"color:#7788ff;\">Cuántico</span> a un enemigo y un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de sus PV máx. como Daño <span style=\"color:#7788ff;\">Cuántico</span> a los objetivos adyacentes.",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "20",
+   "id": 14214208,
+   "name": "Cohetito de cien pisos",
+   "iconPath": "3ea4fc170e1b4cd1f9e4133fb715e8b7b2cd2c7d4e7075f2f0498cd040adac04",
+   "typeDescHash": "ATQ básico",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      0.075
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.18,
+      0.09
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874346,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      0.105
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589819,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      0.12
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589819,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.27,
+      0.135
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673760,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673760,
+       "count": 8
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.33,
+      0.165
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.36,
+      0.18
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.39,
+      0.195
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.42,
+      0.21
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Apoyo",
+   "descHash": "Obtiene Numinosidad durante <nobr>#2[i]</nobr> turnos. La duración se reduce en 1 al comienzo de su turno. Cuando Tribbie tiene Numinosidad, la <u>PEN de la RES</u> a todos los tipos de todos los aliados aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 14457438,
+   "name": "¿Dónde están los regalos?",
+   "iconPath": "11a2594e5fcc1ffadacbff83c14f4beeb5828681222d53d6a217561e589f729b",
+   "typeDescHash": "Habilidad básica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.12,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.132,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.144,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874346,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.156,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589819,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.168,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589819,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589819,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.195,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673760,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673760,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673760,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673760,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.252,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.264,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.276,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.288,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "ATQ AdE",
+   "descHash": "Crea un campo e inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de los PV máx. de Tribbie como Daño <span style=\"color:#7788ff;\">Cuántico</span> a todos los enemigos.<br />Mientras el campo esté activo, el daño que reciben los enemigos aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>. Cuando un aliado ataca, inflige al objetivo con los PV más altos de entre los atacados un Daño <span style=\"color:#7788ff;\">Cuántico</span> <u>adicional</u> equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> de los PV máx. de Tribbie por cada objetivo golpeado.<br />El campo dura <nobr>#4[i]</nobr> turnos. Al comienzo de cada turno de Tribbie, los turnos del campo disminuyen en 1.",
+   "ultimateCost": 120,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 14174313,
+   "name": "Adivina quién vive aquí",
+   "iconPath": "33f61ff7297a54ffb445f5b39a15f4ca4859705293df9811728c89de80c56a47",
+   "typeDescHash": "Habilidad definitiva",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      0.15,
+      0.06,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.165,
+      0.165,
+      0.066,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      0.18,
+      0.072,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874346,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.195,
+      0.195,
+      0.078,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589819,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      0.21,
+      0.084,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589819,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      0.225,
+      0.09,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589819,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24375,
+      0.24375,
+      0.0975,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673760,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2625,
+      0.2625,
+      0.105,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673760,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.28125,
+      0.28125,
+      0.1125,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673760,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.3,
+      0.12,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673760,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.315,
+      0.315,
+      0.126,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.33,
+      0.33,
+      0.132,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.345,
+      0.345,
+      0.138,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.36,
+      0.36,
+      0.144,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.375,
+      0.375,
+      0.15,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "ATQ AdE",
+   "descHash": "Después de que otro personaje aliado lance la habilidad definitiva, Tribbie lanza un <u>ataque adicional</u> que inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> de sus PV máx. como Daño <span style=\"color:#7788ff;\">Cuántico</span> a todos los enemigos. Este efecto solo se puede activar 1 vez por personaje. El contador de activaciones de otros personajes se reinicia cuando Tribbie lanza su habilidad definitiva. Si el objetivo es eliminado antes de lanzar el <u>ataque adicional</u>, entonces lo lanza contra un nuevo enemigo que haya entrado en el campo de batalla.",
+   "ultimateCost": 0,
+   "break": "15/hit",
+   "energy": "5",
+   "id": 14450301,
+   "name": "La atareada Tribbie",
+   "iconPath": "638a76932cabc8f81685499fdef49f5d0a32cb1f210c214b58d18cdb225f30d4",
+   "typeDescHash": "Talento",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.09
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.099
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.108
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874346,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.117
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589819,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.126
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589819,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.135
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589819,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.14625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673760,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1575
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673760,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.16875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673760,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673760,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.189
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.198
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.207
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.216
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.225
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 14533156,
+   "name": "Ataque",
+   "iconPath": "3ea4fc170e1b4cd1f9e4133fb715e8b7b2cd2c7d4e7075f2f0498cd040adac04",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Potenciación",
+   "descHash": "Al entrar en combate tras usar la técnica, obtiene Numinosidad durante <nobr>#1[i]</nobr> turnos.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 14282806,
+   "name": "Toca las palmas si estás feliz",
+   "iconPath": "b4f916601e37499fe4141a3ebae8a87b0f9a9aa67d5b12a1244a82ef9160d119",
+   "typeDescHash": "Técnica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1403101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1403202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1403203,
+       "anchor": 11,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 9585560,
+        "name": "Bonificación de Daño CRIT",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "Daño CRIT",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589819,
+          "count": 3
+         },
+         {
+          "id": 20170864,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 9859470,
+      "name": "Bonificación de Prob. CRIT",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Prob. CRIT",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874346,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Después de lanzar el <u>ataque adicional</u> del talento, el daño que inflige Tribbie aumenta en un <nobr>#1[i]%</nobr>. Este efecto se puede acumular hasta <nobr>#2[i]</nobr> veces y dura <nobr>#3[i]</nobr> turnos.",
+    "ultimateCost": 0,
+    "id": 9591024,
+    "name": "Los corderitos afuera de las murallas...",
+    "iconPath": "4f82032a7cd5fd97ac9962b110854f4a583bb649e47ef8a8eaab58ecdb27ab6d",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       0.72,
+       3,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874346,
+        "count": 3
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1403102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1403205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1403206,
+       "anchor": 14,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 9554261,
+        "name": "Bonificación de Prob. CRIT",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "Prob. CRIT",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673760,
+          "count": 3
+         },
+         {
+          "id": 20389475,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 9824065,
+      "name": "Bonificación de Daño CRIT",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "Daño CRIT",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589819,
+        "count": 5
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Mientras el campo está activo, los PV máx. de Tribbie aumentan en un <nobr>#1[i]%</nobr> de la suma de los PV máx. de todos los personajes aliados.",
+    "ultimateCost": 0,
+    "id": 9841376,
+    "name": "¡Canica con alas!",
+    "iconPath": "77c591bf3c4f82732a97d9ba4a53312613f7a39d137e977e421428d6d30a75fb",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.09
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589819,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1403103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1403208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1403209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 9748226,
+        "name": "Bonificación de Prob. CRIT",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "Prob. CRIT",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 673760,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1403210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 26247257,
+        "name": "Bonificación de Daño CRIT",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "Daño CRIT",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 673760,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 9530676,
+      "name": "Bonificación de PV",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673760,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Tribbie recupera <nobr>#1[i]</nobr> pts. de energía al comenzar la batalla. Después de que otro aliado lance un ataque, Tribbie recupera <nobr>#2[f1]</nobr> pts. de energía por cada objetivo golpeado.",
+    "ultimateCost": 0,
+    "id": 9567439,
+    "name": "¿Y la piedra junto a la encrucijada?",
+    "iconPath": "d97ab41daa8796103ada23b8f765cbcfea4299d6f89755f64120cc0cd9a6f64c",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       30,
+       1.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673760,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1403201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1403204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 9540978,
+      "name": "Bonificación de PV",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 589819,
+        "count": 3
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1403207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 9771817,
+      "name": "Bonificación de Daño CRIT",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "Daño CRIT",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 673760,
+        "count": 3
+       },
+       {
+        "id": 20389475,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 9580479,
+    "name": "Bonificación de Daño CRIT",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+    "statusList": [
+     {
+      "key": "Daño CRIT",
+      "value": 0.053
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Primer encuentro",
+   "text": "Tribbie: <b>Somos</b> Tribbie, la mensajera de las profecías.<br />Trianne: <b>Somos</b> Trianne, la guardiana que viaja por cientos de mundos.<br />Trinnon: <b>Somos</b> Trinnon, la sacerdotisa que escucha el oráculo divino.<br />Tribbie, Trinnon y Trianne: <b>Somos</b> Trispios, la Doncella Sagrada de Janópolis. Acompáñanos en nuestro viaje hasta el final del céfiro, donde abundan las flores.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Saludo",
+   "text": "Tribbie: ¡Buenos días, buenas tardes y buenas noches!<br />Trinnon: ¡Buenos días soleados, lluviosos o nevados!<br />Trianne: ¡Buena cabeza, buenas piernas y buen cuerpo!<br />Tribbie, Trinnon y Trianne: ¡Todo está bien!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Despedida",
+   "text": "Tribbie: Trazacaminos, ¡hasta mañana!<br />Trinnon: Si no nos vemos mañana...<br />Trianne: ¡Hasta pasado mañana!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Acerca de sí misma: identidad",
+   "text": "Igual que los dientes de león se esparcen, la luna se refleja sobre un lago y el mar se convierte en gotas de lluvia, ¡cuando <b>atravesamos</b> la Puerta del Infinito, <b>podemos</b> visitar aún más polis durante un tiempo limitado!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Acerca de sí misma: telepatía",
+   "text": "Tribbie: Cada vez que jugamos a los acertijos, <b>yo</b> apenas he terminado de leer la pregunta cuando Trianne y Trinnon ya adivinaron la respuesta.<br />Trianne: Cada vez que sopla una ráfaga fuerte de viento, <b>yo</b> apenas he abierto los ojos cuando Tribbie y Trinnon ya están girando en círculos.<br />Trinnon: Cada vez que pruebo una manzana ácida, <b>yo</b> apenas he movido la lengua cuando Tribbie y Trianne ya están gritando que está demasiado ácida.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Conversación: cohete",
+   "text": "Tribbie: Para evitar que se arruine nuestro viaje...<br />Trinnon: Para mantener la paz en nuestro viaje...<br />Trianne: ¡Volamos en un cohete por todo Amphoreus!<br />Tribbie: ¡Yo doy un poco de calor!<br />Trianne: ¡Yo derroto a los malos!<br />Trinnon: Yo...<br />Tribbie: ¡Sí, así es!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Aficiones",
+   "text": "¡<b>Nos</b> encanta jugar a \"Adivina quiénes <b>somos</b>\"! <b>Yo</b> soy Trinnon, <b>yo</b> soy Trianne, y <b>yo</b> soy Tribbie. ¿Cuántas has acertado?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Molestias",
+   "text": "Antes <b>teníamos</b> el pelo largo, igual que nuestra madre. En aquel entonces, había muchas, muchas como <b>nosotras</b>. Algunas con dos largas trenzas, otras con una larga cola de caballo... Pero ahora nuestro pelo se está volviendo cada vez más corto, y pronto no podremos hacernos ni una trenza.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Algo que compartir",
+   "text": "Una vez <b>tuvimos</b> un sueño. En él, <b>tomábamos</b> prestada la luna a la gentil Dama de la Noche y el viento al bondadoso Señor de la Tierra, y <b>usábamos</b> estrellas multicolores como velas. Entonces flotamos y navegamos sobre el céfiro hacia una isla llena de flores.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Un dato",
+   "text": "El Viaje buscallamas comenzó hace mucho tiempo. Todavía recuerdo lo que dijo nuestra madre: <b>nosotras</b> solo somos las mensajeras del oráculo. Sin los esfuerzos de miles de héroes y ciudadanos, el oráculo no se cumplirá nunca.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Acerca de Aglaea",
+   "text": "Agli... no es tan fría como parece. Mira, ¡hizo <b>nuestras</b> ropas! Pero debe dedicar la mayor parte de su pasión y atención a los ideales de la creación. Para el resto de cosas... no le queda mucho tiempo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Acerca de Fainón",
+   "text": "Fai... siempre parece que lleva una carga demasiado pesada. No solo sus propias ambiciones, sino también el resentimiento y las expectativas de los demás... Todos tenemos nuestra propia misión, pero es preocupante que cargue con todo... No es bueno tener que soportar tanto peso.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "Acerca de Midei",
+   "text": "¡Quienes piensen que Dei solo sabe pelear están muy equivocados! ¡En términos de fuerza, es el más fuerte, y es el mejor en cuanto a historia y estrategias militares! ¡Se me da muy bien enseñar a los demás!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "Acerca de Castorice",
+   "text": "Cas siempre está sola, cuando está perdida o triste, e incluso cuando está feliz. <b>Nosotras</b> queremos abrazarla y decirle que todo está bien, pero no importa lo mucho que <b>nos</b> acerquemos, siempre se nota lejana...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "Acerca de Anaxa",
+   "text": "Naxi siempre dice un montón de cosas raras que hacen que me dé vueltas la cabeza... Pero si no habla así, se siente un poco extraño.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "Activación de Eidolon",
+   "text": "Los susurros de las almas se fragmentan en mil pedazos y salen volando.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "Ascensión de personaje",
+   "text": "¡Mira! ¡Qué lejos hemos llegado!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "Nivel máximo alcanzado",
+   "text": "¡Empuja la puerta, hay un nuevo mundo más allá!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "Activación de Rastro",
+   "text": "Con nosotras a tu lado, no tengas miedo de perderte.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "Miembro del equipo: Trazacaminos",
+   "text": "¡Yo, Tribbie, te prometo que todo saldrá bien!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "Miembro del equipo: Aglaea",
+   "text": "No queda mucho tiempo. ¡Agli, tenemos que acelerar el paso!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "Miembro del equipo: Midei",
+   "text": "Dei, ¿también quieres una victoria rápida esta vez? ¡Voy a esforzarme al máximo para apoyarte!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "Miembro del equipo: Castorice",
+   "text": "¡No te preocupes, Cas, la maestra Tribbie es increíble!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "Miembro del equipo: Anaxa",
+   "text": "¡Deja de decir cosas raras!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "Comienzo de la batalla: Ruptura de Debilidad",
+   "text": "¡Largo de aquí! ¡Aquí no se intimida a los demás!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "Comienzo de la batalla: alerta de peligro",
+   "text": "No temas... Yo no tengo miedo...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "Comienzo del turno 1",
+   "text": "No te atrevas a subestimarnos.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "Comienzo del turno 2",
+   "text": "Presta atención a mis movimientos.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "En espera",
+   "text": "¡Cho-co-la-te! ¡Cho-co, cho-co, la-la! ¡Cho-co, cho-co, te-te! ¡Cho-co-la, cho-co-te! ¡Cho-co-la-te! !¡Cho-co-la-te!! ¡¡Cho-co, cho-co, la-la!! ¡¡Cho-co, cho-co, te-te!! ¡¡Cho-co-la, cho-co-te!! ¡¡Cho-co-la-te!! ¿¡Cuándo va a acabar esto!?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "ATQ básico",
+   "text": "¡Tápate las orejas!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "Habilidad básica 1",
+   "text": "Tribbie: ¡Grandes noticias!<br />Trinnon: Je, je.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "Habilidad básica 2",
+   "text": "Tribbie: ¡Toma un poco de calor!<br />Trinnon: ¡Sí!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "Ataque adicional 1",
+   "text": "Trianne: ¡A la cargaaa!<br />Tribbie: ¡BAMM!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "Ataque adicional 2",
+   "text": "Trianne: ¡Vamos, a volar juntas!<br />Tribbie: ¡Bien!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "Al recibir un ataque ligero",
+   "text": "¡Qué malvado!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "Al recibir un ataque fuerte",
+   "text": "¡Serás malo malísimo!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "Habilidad definitiva: activación 1",
+   "text": "Tribbie: ¿Llega ya?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "Habilidad definitiva: activación 2",
+   "text": "Trianne: ¡Va a llegar!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "Habilidad definitiva: activación 3",
+   "text": "Trinnon: Aquí viene...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "Habilidad definitiva: lanzamiento",
+   "text": "Tribbie: A sus puestos, ¡adelante!<br />Tribbie, Trianne y Trinnon: ¡Sobre el céfiro, allá vamos!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "Fuera de combate",
+   "text": "Hasta... mañana...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "Retorno a la batalla",
+   "text": "¡Maravilloso! ¡Hola de nuevo!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "Regeneración de PV",
+   "text": "¡Te queremos!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "Técnica",
+   "text": "¡La unión hace la fuerza!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "Victoria",
+   "text": "¡Vamos, hacia el mañana!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "Al abrir un tesoro 1",
+   "text": "¡Brilla, brilla, mi estrellita!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "Al abrir un tesoro 2",
+   "text": "Uno, dos... ¡No es suficiente para compartir!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "Al abrir un tesoro valioso",
+   "text": "Esto para Tribbie, esto para Trianne, y esto para Trinnon.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "Al resolver un acertijo 1",
+   "text": "¡Un hurra para ti!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "Al resolver un acertijo 2",
+   "text": "¡Te mereces un fuerte aplauso! ¡Bravo!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 77,
+   "title": "Objetivo enemigo encontrado",
+   "text": "¿Quién podría ayudarnos con este grandote?...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 78,
+   "title": "Al regresar a la ciudad",
+   "text": "¡Comparte las buenas noticias con toda la polis!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Detalles del personaje",
+   "text": "De aquella tierra sagrada bendecida por el oráculo tripartito, la mensajera se separó en un millar de formas, que se embarcaron en largos viajes.<br />Oh, Trispios, Doncella Sagrada de Janópolis, Heredera de Crisos que robó la Yesca de la Senda y recorre el mundo proclamando la salvación a todos los seres.<br />Encuentra a los hijos de los hombres con sangre dorada de dioses en sus venas, atraviesa la oscuridad de este mundo y camina hacia un mañana en el que la luna y las estrellas brillen.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Historia del personaje I",
+   "text": "\"Día ▇▇ de ▇▇▇<br />Han pasado diez años desde que escapamos de Janópolis.<br />En estos diez años, <b>hemos</b> medido la tierra con nuestros pasos y, sin darnos cuenta, <b>hemos</b> recorrido todo Amphoreus.<br /><br />La marea oscura se ha extendido más de lo que imaginábamos: de este a oeste, de norte a sur... Ni siquiera las polis que flotan en el cielo se han salvado... <b>Hemos</b> visto cómo pequeños países fronterizos eran devorados por la marea oscura en cuestión de días, y sus habitantes se convertían en el alimento que le permitía avanzar con más ferocidad... Los días gloriosos de Amphoreus ya son cosa del pasado. Por todas partes hay una decadencia desgarradora, Titanes enloquecidos, héroes caídos y refugiados.<br /><br />Pero la gente absorta en el conflicto no lo ve.<br /><br />Hace poco, la marea oscura ha empezado a amenazar el interior. Las polis de allí son prósperas, están bien comunicadas entre sí y gozan de prosperidad comercial. Sin embargo, algunos toman <b>nuestras</b> profecías como bromas descabelladas y otros <b>nos</b> ven como sacerdotisas que solo pronuncian palabras de mal augurio. Nadie escucha, nadie se detiene... Si es necesario derramar sangre ardiente para unir a la gente, ¿por qué no empezar por <b>nosotras</b>?<br /><br />Oh, Tri▇▇, sé que volaste hasta el frente de la marea oscura y enviaste las últimas noticias antes de morir a manos de las flechas de sus criaturas.<br />Oh, Tri▇▇, sé que protegiste a los refugiados cuando huyeron, pero te ganaste el odio de los nobles y agonizaste bajo el puñal de un asesino.<br />Oh, Tri▇▇, sé que escoltabas a niños perdidos y estabas a un paso de llegar a un lugar seguro. Tus brillantes trenzas quedaron empapadas en sangre, y ya no <b>podremos</b> arreglártelas ni lavártelas nunca más.<br /><br />La caída de una polis tras otra por fin hizo que la gente levantara la cabeza de sus interminables guerras civiles y viera el rostro de un mundo al borde de la destrucción.<br /><br />La sangre de los corderos no se derramará en vano. Abrimos el primer sendero entre las espinas, con la esperanza de que quienes vinieran después llegaran más lejos que <b>nosotras</b>...\".<br /><br /><align=\"right\">Un diario muy antiguo.</align><br /><align=\"right\">El papel es fino como las alas de una cigarra y Trianne lo puso en el regazo de una muñeca.</align>",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>20</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje II",
+   "text": "\"Día ▇▇ de ▇▇▇<br />'Oh, Doncella Sagrada, queremos escucharte. Guíanos en el fin de los tiempos y reza por nuestra victoria en la guerra', dijeron los reyes.<br /><br />Gracias a los reyes, <b>recuperamos</b> el título de 'Doncella Sagrada de Jano'. <b>Nos </b>pusieron en un altar, <b>nos</b> vistieron con sedas y ocultaron <b>nuestro</b> rostro con rituales.<br />Sin embargo, no regresamos a la ciudad, sino que vivimos en la fortaleza, en lo alto. <b>Nosotras queríamos</b> rezar por los campesinos enfermos y los soldados desplazados, consolar a los afligidos, guiar a los perdidos, dar nuestras bendiciones a los recién casados y verlos cantar alrededor del fuego.<br /><br />Pero los reyes no querían que nos acercáramos al pueblo, igual que en Janópolis...<br /><br />Madre, ahora por fin <b>entendemos</b> la angustia y la desesperación que sentías en aquel entonces. <b>Creíamos</b> que el oráculo haría que los reyes dejaran de lado sus diferencias y se unieran para buscar a los Herederos de Crisos, pues solo así habría una esperanza de salvación. Pero temen que quienes llevan la sangre dorada les arrebaten su poder. Lo que quieren es una guerra tras otra en nombre del oráculo. Esa confianza tan difícil de conseguir, esas miradas esperanzadas del pueblo, se están desvaneciendo poco a poco.<br />La Yesca de Jano arde cada vez más y el oráculo dorado sigue <b>observándonos</b> y <b>apremiándonos</b>.<br /><br /><b>Hemos</b> decidido huir.<br /><br />Tri▇▇ y Trianne abrieron la Puerta del Siglo y acordaron reunirse en el frondoso bosque, pero nos encontramos con una lluvia de flechas envenenadas. Trianne escapó por poco, pero fue capturada por los soldados y se alejó cada vez más de <b>nosotras</b>.<br />Tri▇▇ eligió lanzarse contra la lanza del enemigo y se aferró al soldado que intentaba recuperar su arma, pero <b>subestimamos</b> la crueldad del rey. Ni siquiera muertas <b>podíamos</b> caer en manos de otras polis.<br />...<br />Un dolor diez veces más intenso de lo normal nos invadió. Esa primavera, la mayoría de <b>nosotras</b> nos quedamos para siempre en la tierra baldía donde las flores aún no habían florecido.<br /><br />Adiós, Tri▇▇.<br />Adiós, Tri▇▇.<br />Adiós, Tri▇▇.<br />...<br />Trianne, aún no <b>queremos</b> despedirnos de ti. Por favor, <b>encuéntranos</b>...<br /><br />Esta noche <b>podremos</b> atravesar estas tierras baldías\".<br /><br /><align=\"right\">Un diario conservado por Trinnon.</align><br /><align=\"right\">Tiene dibujada una estrella fugaz cruzando el cielo.</align>",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>40</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje III",
+   "text": "\"Día ▇▇ de ▇▇▇<br />Cuando conocimos a Agli, dijo que le gustaba el nombre de Trispios, que sonaba noble y hermoso, como la ropa que ella tejía. Le preguntamos si solo por eso nos había acogido, pero ella negó con la cabeza y dijo que principalmente quería escuchar los cuentos que su maestra contaba cada noche.<br /><br />En ese entonces, Agli también era una niña que tenía miedo de la oscuridad y los fantasmas. Cuando tenía hambre, nos arrastraba a la cocina para robar el pan que sobraba de la cena. No podemos evitar reírnos al recordarlo. El tiempo es un escultor y, al igual que Céridra y Hysilens, ¡qué hermosa se ha vuelto Agli!<br /><br />Tal como siempre le enseñamos, Agli no ha decepcionado nunca a nadie. Los hilos dorados de sus manos son como una red tupida de la que ningún enemigo puede escapar.<br /><br />Pero los purificadores que viven en las sombras atacaron a nuestro equipo durante el regreso. Los asesinos al servicio del Consejo de Ancianos jamás permitirían que creciera un Heredero de Crisos capaz de liderar la ciudad sagrada de Oqueima. Pero nosotras tampoco permitiríamos ver morir a una joven heroína, aunque eso significara sacrificarnos...<br /><br />Logramos escapar de ese peligro usando la Puerta del Siglo, pero nuestra consciencia se debilitó un poco... La última vez que usamos la Puerta, pensé que nunca más encontraría a Trinnon y Tribbie...<br /><br />No pasa nada, Agli. Todavía no es el momento, solo necesitamos descansar un poco...<br />Pero debemos acelerar el paso de nuestro viaje...\".<br /><br /><align=\"right\">Un diario escrito con letra cada vez más débil.</align><br /><align=\"right\">Trianne recuerda, Trinnon escribe y Tribbie añade.</align>",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>60</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje IV",
+   "text": "\"Día ▇▇ de ▇▇▇<br />Los sueños son cada vez más borrosos... Hyacine dice que es porque hay cada vez menos cosas que recordar.<br />Pero hoy, de repente <b>soñamos</b> con muchos, muchos caminos. Estaba muy oscuro, corríamos y corríamos hacia adelante, pero no podíamos salir...<br /><br />'¡No tengan miedo, llegó el valiente!', dijo Fai cuando cayó del cielo con fuerza y nos ayudó a ahuyentar a los monstruos.<br />'Maestra, ¡vuela hacia adelante!', la pequeña mariposa púrpura batió sus alas y se llevó volando las piedras del camino.<br />'¡Pam, pam!', ¡qué fuerte es el pequeño mapache gris!<br />'¡Hum!', ¡el león rojo se comió a los malos!<br /><br />¡Son nuevos compañeros en los que se puede confiar! Tomaron la antorcha de las manos de quienes iban delante, y una a una las luces ahuyentaron la oscuridad.<br />Pero nuestra antorcha se hace cada vez más pequeña, ¡debemos apresurarnos!<br /><br />Con este pensamiento, nuestros cuerpos comenzaron a crecer tanto que podíamos tocar el cielo sin alzar las manos. Nuestros pies se sumergían en el mar azul y de nuestros dedos brotaban hojas verdes. La voz de Trianne era como el viento que soplaba arena a lo lejos, mientras Trinnon descansaba sobre las suaves montañas nevadas, escuchando la nana del viento y la lluvia.<br /><br />Así seguimos caminando hasta que solo quedó un camino por delante.<br />A lo lejos, el cielo era de color rosa y la tierra, plateada. El céfiro soplaba y las flores cubrían la pradera. ¡Qué familiar! ¿Esto también es Amphoreus? El agua de los manantiales sabía dulce como la miel y deliciosa como la leche de cabra, ¡y los árboles daban frutos sin cesar! Más adelante, la luna y las estrellas se elevaron, ¡y allí estaba Tri██ avanzando sobre ellas! Y más allá Tri██, Tri██ y Tri██... ¡Todas nos esperaban en el destino!<br /><br />¡Mira, mamá está allí para recibirnos! ¡Está saludando y sonriendo!<br /><br />¿Vamos?<br />¡Sí, algún día iremos!<br />¡Pero nuestro camino aún no termina!<br />Entonces, ¿nos vemos mañana?<br />¡Nos veremos mañana!<br />Sí, hasta mañana\".<br /><align=\"right\">Un diario con letra torcida.</align>",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>80</nobr> de personaje."
+  }
+ ],
+ "archive": {
+  "cvCn": "蔡书瑾",
+  "cvJp": "遠野ひかる",
+  "cvKr": "방연지",
+  "cvEn": "Hayden Daviau",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "14174313": 2,
+    "14214208": 1
+   },
+   "5": {
+    "14450301": 2,
+    "14457438": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "name": "Tribbie",
+ "rarity": 5,
+ "descHash": "De aquella tierra sagrada bendecida por el oráculo tripartito, la mensajera se separó en un millar de formas, que se embarcaron en largos viajes. Oh, Trispios, Doncella Sagrada de Janópolis, Heredera de Crisos que robó la Yesca de la Senda y recorre el mundo proclamando la salvación a todos los seres. Encuentra a los hijos de los hombres con sangre dorada de dioses en sus venas, atraviesa la oscuridad de este mundo y camina hacia un mañana en el que la luna y las estrellas brillen.",
+ "artPath": "fabb8257367002189e1d16b45653fc53ba0cabee930938fd7abb2f831c0fac1c",
+ "miniIconPath": "c292b2fcbdd8f60bcd496daf14e646f22cc990b9b7bc9eab4e8dababa8db4265",
+ "damageType": {
+  "id": 32,
+  "iconPath": "71252cc6ee0b921565dfacfac027c84cf13f45cb3dad750bd047708afd5e74af",
+  "color": "#1C29BA",
+  "name": "Cuántico",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "759bef0a8809f95c4e5facbd82dc0acb1d80d016113f6a214b06b7f1c648bd11",
+  "altIconPath": "8b0071661cb7992d6010f02729fc318aceca620819ca6fad20b76f1126ba807c",
+  "color": "#FFFFFF",
+  "name": "Armonía",
+  "rarity": 0
+ },
+ "pageId": "tribbie"
+}

@@ -1,0 +1,532 @@
+{
+ "name": "Des adieux encore plus beaux",
+ "rarity": 5,
+ "descHash": "C'est une nouvelle cérémonie d'adieu.<br />La jeune fille, qui marche sur la lumière de la lune réfractée, tresse une couronne de fleurs au bord de la rivière.<br /><br />Un chant funèbre ancestral se cristallise dans l'air glacial, tandis que la rivière silencieuse s'écoule vers une terre lointaine pleine de fleurs.<br />Des parchemins tachés de sang, des épées rouillées, des mouchoirs brodés de poésie... Elle accepte les vestiges de leurs vies, ainsi que leurs histoires.<br /><br />« Mes yeux sont comme des lentilles, tournées à jamais vers les étoiles. »<br />— Une épitaphe dédiée à un érudit décédé prématurément.<br />« Face à la vie comme à la mort, le chevalier ne jette qu'un regard indifférent. »<br />— Maxime qu'un guerrier sans nom avait suivie toute sa vie.<br />« La vie n'est autre qu'une mort qui scintille. »<br />— Dernier vers d'un poète en quête d'éternité composé dans son dernier souffle.<br />...<br /><br />« Chaque fleur a jadis fleuri avec fierté... »<br />Accompagnée par les lamentations de la rivière, elle offre aux défunts des poèmes, des couronnes et des souvenirs.<br />« Si le flétrissement est inévitable, alors que nos adieux soient... un peu plus beaux. »",
+ "iconPath": "220ea6d5e8342336b6e419410f8697d37cc6fef51f66e313669efc8e68dd46e0",
+ "artPath": "654d58bc8324e3572c81e8f2b2b5afcd4dd294b8ca75543854edcc3308250ce3",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRsQBAABXRUJQVlA4ILgBAAAQCQCdASoUABwAPm0skkWkIqGYBABABsS2AE6ZQj+7QZyAMBtjueZ013eXkQApwQyPxm6gv6ub5WOvxJ8SQIZ5hAsyI13TJnLY37IcVxNGGAAA/vgLcH6htOC63tMipJB41tuJ4YZsfWePQ0E0vFmTBtnFVx7IXuFm+qA91Ws6SM6fSepPeSo9bIxJzfhLF/9e29Dq0M3KW3VcNeXCxwYFvcXZweuf/H1xuNNYBaCTmO5+8RTe5hpSY4tFNQBPlQ+pRiFDEwPeezV8pSuVwLW+e/F4WTeL35OSu6anvaa399yO51zcNVn+XyF97S7nMWY1mA1DxxhX6zgG0Lhphy+lhwrK7/+Pe8Hsot7bxHGsleb75t6haHm5maU8ZiemkZbV8SDsjKXUdX5qAXjOfdnHfax/fpReLMY0uSVfcewwQKKmR99PfQffQJIFsKXjUseA6ZgCvjYfzuKSr/V9NoO8Ip75AqZYfPYLFJySK+5Ae4KJgwDPlZe/p4kp1+AIX8VC+qw02qBQr+ilPUJaf4bZ7DOsmsC8X/mUwqyfV1U/EVS1EPQWcbKTfG76+BfUK6kK6XvAKgAAAA==",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "be4f81d827176b285222026332263c60fe671cc449ca995ebf3547e2cf950162",
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "color": "#FFFFFF",
+  "name": "Le Souvenir",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Calice du Bosquet de l'épiphanie, le Bois des murmures",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Échange de braises immortelles"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éther purifié",
+   "desc": "Matériau de renforcement de cône de lumière. Confère 6 <nobr>000</nobr> points d'EXP de cône de lumière.",
+   "lore": "Une bouteille d'éther raffiné par des procédés spéciaux.<br /><br />« Le Jardin se félicite de recréer une gloire passée, mais c'est une \"gloire passée\" qu'ils ont choisie. Tu comprends ? »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Calice d'Acrokopis, les Ruines du Conflit",
+    "Salle oubliée"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éther condensé",
+   "desc": "Matériau de renforcement de cône de lumière. Confère 2 <nobr>000</nobr> points d'EXP de cône de lumière.",
+   "lore": "Une bouteille d'éther raffiné par des procédés spéciaux.<br /><br />« À manier avec précaution, ne pas faire tomber, ne pas appliquer de pression. En cas de dommage ou de fuite, se référer au chapitre II du \"Manuel de prise en charge des désastres\" pour une solution d'urgence. »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Calice d'Acrokopis, les Ruines du Conflit",
+    "Échange de braises immortelles"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éther dilué",
+   "desc": "Matériau de renforcement de cône de lumière. Confère <nobr>500</nobr> points d'EXP de cône de lumière.",
+   "lore": "Substance imaginaire qui ne devrait pas exister dans le monde réel. Il s'agit du matériau de base pour fabriquer les cônes de lumière.<br />Les images des cônes de lumière sont plus nettes avec cette substance.<br /><br />« Je vois... Alors c'est ça la « mémorine » du Jardin de la mémoire. Pas étonnant que les protecteurs de la mémoire puissent embarquer pour des voyages galactiques avec des souvenirs. »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Calice d'Acrokopis, les Ruines du Conflit",
+    "Récompense d'affectation"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Gémissement retentissant",
+   "desc": "Carapace brisée des Créatures de la Marée noire. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "Des têtes étranges rugissent, des lames brisées continuent de couper, pendant que la source du chaos se dissimule toujours dans l'ombre, enveloppée dans les brumes de la mort.<br /><br />« Pourquoi pleures-tu seul devant la pierre tombale ? »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "Créatures de la Marée noire au niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Présage éthéré",
+   "desc": "Fragment de Créature de la Marée noire. Matériau commun utilisé pour le renforcement.",
+   "lore": "Les désastres arrivent sans crier gare, et quand vous vous en rendez compte, ils sont déjà devenus des désastres qui engloutissent le monde.<br /><br />« Les cloches sonnent pour la fin du destin. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "Créatures de la Marée noire",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Récompenses d'affectation",
+    "Échange de braises",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Lamentation éternelle",
+   "desc": "Cristal formé après la mort de Créatures de la Marée Noire. Matériau avancé utilisé pour le renforcement.",
+   "lore": "Née du néant et destinée à y retourner, cette vie distordue par l'érosion erre sans fin sur des terres désolées.<br /><br />« Son existence n'est que ruine et souffrance. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "Créature de la Marée noire au niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "Pousse de mana",
+   "desc": "Les cellules mémorielles extraient les pensées qui grandissent et se propagent dans le cœur de celui qui grave la mémoire. Permet d'améliorer modérément les Traces des personnages du <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Souvenir</span>.",
+   "lore": "Les graines s'enracinent et poussent. Les branches et les bourgeons s'entrelacent et transmettent des signaux comme un réseau neuronal. Au fil des années, certaines se fanent et disparaissent, tandis que d'autres prospèrent et deviennent suffisamment fortes pour transmettre la vie et former le réceptacle d'une âme.<br /><br />« Nous n'avons pas abandonné la chair. Nous avons simplement pris la forme de quelque chose de plus... pérenne. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "Calice d'« Acrokopis, les Ruines du Conflit »",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "Fleur d'Ālaya",
+   "desc": "C'est une autre forme d'existence de la vie et une substance que l'univers ne peut oublier. Permet d'améliorer considérablement les Traces des personnages du <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Souvenir</span>.",
+   "lore": "Elle mûrit. Elle devient une toile qui rassemble l'histoire, une fleur du passé. La vie est son parterre de fleurs ou son pistil. Si vous devenez le pistil, alors vous vous souvenez de l'univers et l'univers se souvient de vous. Vous êtes la mémoire. <br /><br />« La mémoire est la véritable forme de toute chose, il n'y a donc ni création ni annihilation dans la terre pure d'Anāśrava. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "Calice d'« Acrokopis, les Ruines du Conflit »",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "Bīja de la conscience",
+   "desc": "Née de la fusion entre matière et conscience pure, elle nourrit l'embryon de la mémoire. Permet d'améliorer légèrement les Traces des personnages du <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Souvenir</span>.",
+   "lore": "Cet objet n'existe pas vraiment tant qu'on ne l'a pas vu, entendu ou ressenti. Cette existence née de sensations se tait bientôt, enfouie dans le sol de la pensée ; peut-être qu'elle germera un jour, peut-être pas.<br /><br />« C'est la substance dont nos corps sont faits et dont l'existence est possible par tes souvenirs. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "Calice d'« Acrokopis, les Ruines du Conflit »",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 3517880,
+     "count": 8
+    }
+   ],
+   "attackBase": 24,
+   "attackAdd": 3.6,
+   "hpBase": 57.6,
+   "hpAdd": 8.64,
+   "defenseBase": 18,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 6744567,
+     "count": 4
+    },
+    {
+     "id": 3517880,
+     "count": 12
+    }
+   ],
+   "attackBase": 52.8,
+   "attackAdd": 3.6,
+   "hpBase": 126.72,
+   "hpAdd": 8.64,
+   "defenseBase": 39.6,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 6471577,
+     "count": 4
+    },
+    {
+     "id": 3276614,
+     "count": 8
+    }
+   ],
+   "attackBase": 91.2,
+   "attackAdd": 3.6,
+   "hpBase": 218.88,
+   "hpAdd": 8.64,
+   "defenseBase": 68.4,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 6471577,
+     "count": 8
+    },
+    {
+     "id": 3276614,
+     "count": 12
+    }
+   ],
+   "attackBase": 129.6,
+   "attackAdd": 3.6,
+   "hpBase": 311.04,
+   "hpAdd": 8.64,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 6720910,
+     "count": 5
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    }
+   ],
+   "attackBase": 168,
+   "attackAdd": 3.6,
+   "hpBase": 403.2,
+   "hpAdd": 8.64,
+   "defenseBase": 126,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 6720910,
+     "count": 10
+    },
+    {
+     "id": 3526997,
+     "count": 8
+    }
+   ],
+   "attackBase": 206.4,
+   "attackAdd": 3.6,
+   "hpBase": 495.36,
+   "hpAdd": 8.64,
+   "defenseBase": 154.8,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 244.8,
+   "attackAdd": 3.6,
+   "hpBase": 587.52,
+   "hpAdd": 8.64,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7
+  }
+ ],
+ "skill": {
+  "id": 23040,
+  "name": "Gravure",
+  "descHash": "Augmente les PV max du porteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Lorsque le porteur ou son mnémesprit perd des PV au cours de son tour, le porteur obtient Fleur du néant, ce qui permet au porteur et à son mnémesprit d'ignorer <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de la DÉF de la cible lorsqu'ils infligent des DGT, pendant <nobr>#3[i]</nobr> tours.<br />Lorsque le mnémesprit du porteur disparaît, avance l'action du porteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>. Cet effet ne peut se déclencher qu'1 fois maximum, et son nombre de déclenchements se réinitialise à chaque fois que le porteur utilise son ultime.",
+  "levelData": [
+   {
+    "params": [
+     0.3,
+     0.3,
+     2,
+     0.12
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.375,
+     0.35,
+     2,
+     0.15
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.45,
+     0.4,
+     2,
+     0.18
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.525,
+     0.45,
+     2,
+     0.21
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.6,
+     0.5,
+     2,
+     0.24
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23040"
+}

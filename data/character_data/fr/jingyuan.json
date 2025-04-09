@@ -34,6 +34,7 @@
     "Calice de la Grande mine",
     "Calice de la Commission de l'artisanat",
     "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Calice du Bosquet de l'épiphanie, le Bois des murmures",
     "Récompense de mission",
     "Récompense d'affectation",
     "Échange de braises immortelles"
@@ -89,6 +90,7 @@
     "Calice des Plaines des neiges périphériques",
     "Calice de Passenuage",
     "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
     "Salle oubliée"
    ]
   },
@@ -107,6 +109,7 @@
     "Calice des Plaines des neiges périphériques",
     "Calice de Passenuage",
     "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
     "Entraînement quotidien",
     "Échange de braises immortelles"
    ]
@@ -126,6 +129,7 @@
     "Calice des Plaines des neiges périphériques",
     "Calice de Passenuage",
     "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
     "Récompense d'affectation"
    ]
   },
@@ -673,6 +677,15 @@
       1.3
      ],
      "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4
+     ],
+     "level": 10,
      "levelReq": 0,
      "promotionReq": 0,
      "cost": []
@@ -1261,7 +1274,7 @@
   },
   {
    "tagHash": "Rebond",
-   "descHash": "Invoque le Seigneur de la foudre en début de combat. Le Seigneur de la foudre dispose d'une VIT de base de <nobr>#1[i]</nobr> et d'un nombre de frappes par action de base de <nobr>#4[i]</nobr>. Lorsque le Seigneur de la foudre agit, ses frappes sont considérées comme des <u>attaques de suivi</u>, chacune infligeant des DGT de foudre équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de l'ATQ de Jing Yuan à un ennemi unique aléatoire, et les ennemis adjacents subissent également des DGT de foudre équivalents à <nobr>#5[i]%</nobr> des DGT infligés à la cible ennemie principale.<br />Le nombre de frappes par action du Seigneur de la foudre peut atteindre un maximum de <nobr>#6[i]</nobr>. Chaque fois que le nombre de frappes par action du Seigneur de la foudre augmente de 1, sa VIT augmente de <nobr>#3[i]</nobr>. Une fois l'action du Seigneur de la foudre terminée, sa VIT et son nombre de frappes par action retrouvent leurs valeurs de base.<br />Lorsque Jing Yuan est <u>à terre</u>, le Seigneur de la foudre disparaît.<br />Lorsque Jing Yuan est affecté par un <u>malus de contrôle</u>, le Seigneur de la foudre ne peut plus agir.",
+   "descHash": "Invoque le Seigneur de la foudre en début de combat. Le Seigneur de la foudre dispose d'une VIT de base de <nobr>#1[i]</nobr> et d'un nombre de frappes par action de base de <nobr>#4[i]</nobr>. Lorsque le Seigneur de la foudre agit, ses frappes sont considérées comme des <u>ATQ de suivi</u>, chacune infligeant des DGT de foudre équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de l'ATQ de Jing Yuan à un ennemi unique aléatoire, et les ennemis adjacents subissent également des DGT de foudre équivalents à <nobr>#5[i]%</nobr> des DGT infligés à la cible ennemie principale.<br />Le nombre de frappes par action du Seigneur de la foudre peut atteindre un maximum de <nobr>#6[i]</nobr>. Chaque fois que le nombre de frappes par action du Seigneur de la foudre augmente de 1, sa VIT augmente de <nobr>#3[i]</nobr>. Une fois l'action du Seigneur de la foudre terminée, sa VIT et son nombre de frappes par action retrouvent leurs valeurs de base.<br />Lorsque Jing Yuan est <u>à terre</u>, le Seigneur de la foudre disparaît.<br />Lorsque Jing Yuan est affecté par un <u>malus de contrôle</u>, le Seigneur de la foudre ne peut plus agir.",
    "ultimateCost": 0,
    "break": "15/hit",
    "energy": "0/hit",
@@ -2127,610 +2140,610 @@
    "title": "Première rencontre",
    "text": "Je suis Jing Yuan, le général des Chevaliers des nuages du Luofu. Pas de formalités avec moi. « Général » n'est qu'un titre temporaire, tu peux simplement m'appeler Jing Yuan.",
    "unlockRequirement": "",
-   "cnUrl": "2c56ef3d5d98f42d08f819d9c5e5d84812bc0de5534581683068afabeb29c687",
-   "jpUrl": "d808bd75e22fb56fd9adb67fe8d36e2c1f8c704b7cf6d0ffca8495495b7d0303",
-   "enUrl": "e0137e0b6323dc15dc4d8dddca6dc11ea61b6dcb9b389c757f9ff88c1831ec22",
-   "krUrl": "2292a7acb5904a4d813865dfd9d251dea1ed26b351ac89232a37cf92f6b6f702"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 2,
    "title": "Salutation",
    "text": "Ah, te voilà. Si tu as des histoires intéressantes à me raconter à propos de tes voyages, je t'écoute.",
    "unlockRequirement": "",
-   "cnUrl": "8f90272c4914ff6a91ac715d4b00f6b9ef5a62db98d47ad6e9508da30c975184",
-   "jpUrl": "b04cf5c727617c4fa291b59a2ce82e3a4021dee3d0d0742956b2e203715a6feb",
-   "enUrl": "ece7adf6bd83cdb25f06b00c5ac802c3242383d8deb4a788633d0edbded99e00",
-   "krUrl": "b540939df245d2f72a6c0f9ab5df848562a0e68499e0d47df97b8a6ef1e5deb8"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 3,
    "title": "Au revoir",
    "text": "Hmm, repose-toi bien... Excuse-moi, mais j'ai encore du travail à faire, je ne peux pas discuter davantage avec toi.",
    "unlockRequirement": "",
-   "cnUrl": "8b62bdb013f0ac89c9ca13de900ee6c2d3c8ba514c7b12d5a8938b9bea7b7f31",
-   "jpUrl": "4d7a4fe1305cb5dbb494eae41e233fc87969772e77c3b1d9d9041cbf07484ff0",
-   "enUrl": "15a0fb8fb0d29ddcd18449aa55de110d174cbe411557deec37f53c66efd20d4e",
-   "krUrl": "5564546ff1e5a9d9fffb5f95d6abeb5a16eee1b76dde22498fb736e214aa883a"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 4,
    "title": "Anecdote personnelle",
    "text": "Mes vieux ennemis sont soit morts soit prisonniers, et mes vieux amis sont partis aux quatre vents. Quand j'y pense, je suis vraiment un vieil homme...",
    "unlockRequirement": "",
-   "cnUrl": "66f46380d359a7d900dcc399fa26f9fe2dc41457519334f38a11b1efd5652383",
-   "jpUrl": "a19e3ae5c4437e93063759f7d2df3374e77cdfde7317a7cc57f97b8b8e4b1005",
-   "enUrl": "cf6cf2732bc258dac22dcd0caac3e1a7185ccf71be778efb25dc52a72166b614",
-   "krUrl": "c29014cad1c90fe7bd8aacefb0c4b2da59049beabb9de57f15d5784df0ad1a95"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 5,
    "title": "Bavardage : Échecs",
    "text": "Un maître des échecs n'est pas forcément celui qui fait les coups les plus éblouissants. Les gens s'enthousiasment pour les coups qui renversent la situation, mais ne s'inquiètent pas de voir la partie entière compromise.",
    "unlockRequirement": "",
-   "cnUrl": "18911f3f959c47772837614596f72a78ea4e90ceb0781307f47257d9043e2d8a",
-   "jpUrl": "04c03fefb7f4d96a540cf6b14911457015cb25a75e28eccc2970ea9eb5b0925b",
-   "enUrl": "896345d75ecce696d17d4142993d0411ecafb7a21016ba79ba453cd76e916a82",
-   "krUrl": "dabbf18e04c3f4e7c012f899c105ed1b13782483f4dbda664bfb9f19dd050387"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 6,
    "title": "Bavardage : Le Luofu",
    "text": "Les gens aiment parfois désigner le Luofu de Xianzhou sous le nom de Xianzhou, mais... le Luofu n'est pas Xianzhou. Le Luofu est le Luofu, ni plus, ni moins.",
    "unlockRequirement": "",
-   "cnUrl": "421eebf3c727f4188382e5d9f07f96bb77910b934ab45891bc73ab678bebc2af",
-   "jpUrl": "4bd098abb48184be2d556c61dfef8962b5e8584cdc5841d70a038e347e6d7023",
-   "enUrl": "0879438e6b0b3beeeaf90a614c5ada6d4604e5b9fe1091a945c794694df71be4",
-   "krUrl": "499e11d8377ef14b14715e88246d1080e53be4ae2ca71f3ee078c6f5ca8f3f18"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 7,
    "title": "Passe-temps",
    "text": "Méditer les yeux fermés. Cela devient de plus en plus difficile avec le temps.",
    "unlockRequirement": "",
-   "cnUrl": "bef8e23cf9f02a619bc28fc488851df15199e9812dc14162c6b4f531897df2c3",
-   "jpUrl": "dd8ad7191c1107ff7cd83e0d3d85eb7d8b0be064e4f5c72f85b98a281db0f848",
-   "enUrl": "05c86ec5e7f39ee82510fc309b215e093c66ddf0afd8e414ec1c4f01e0471eed",
-   "krUrl": "d0f4b51c7c9a009c0a1f8bf689b25ecb5bab95c54aa2d99c5bcd6e69b3d50a2c"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 8,
    "title": "Problèmes",
    "text": "Toute ma vie, j'ai eu peur des ennuis. Il y a les ennuis graves, les petits ennuis, les ennuis lointains et les ennuis imminents. Cela demande de la réflexion, de la préparation, et beaucoup d'efforts...",
    "unlockRequirement": "",
-   "cnUrl": "1f27a5d0e8c47d63f413b70c04a686a8d2afe7698015e115de1ce4428d4e9450",
-   "jpUrl": "2db36f415ef139e5736000d55bfe5469ab99698477f100ef7d1ddcf5b49eba02",
-   "enUrl": "06357ef934fdd88a891f26ba03adcd33be7d0870b72b3e084727dd2fb71b4dfd",
-   "krUrl": "4407c37b945f6450328c80431119dbb6cccbb290a742feb9deef875b4ffdf613"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 9,
    "title": "Fait notable",
    "text": "Cet esprit s'appelle le Seigneur de la foudre, chasseur de tonnerre, briseur d'esprit. Ce nom vient d'un texte ancien, mais il est trop long pour être retenu facilement, alors j'abrège en Seigneur... de la foudre.",
    "unlockRequirement": "",
-   "cnUrl": "6c8aa6ff914d838b5968c04a3cea8c3b0accb7d5c3fe883bcf784fe91271eaa5",
-   "jpUrl": "461cc6f6cbfc19b7d364fe90d3860dfd1e8a43fb3e6219cf8178f1e30b38593e",
-   "enUrl": "59c8e40978aeeac782977d2df28ebf51153fc1814f1af15d5ae5d1e40f9bd5a1",
-   "krUrl": "e3e44990dc2963ee89b13a965f899f0e2102d8335ac28a4e0f87b499a3d674a7"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 10,
    "title": "Connaissances",
    "text": "Je croule sous les tâches assommantes depuis des années. Non seulement cela ne me procure aucune joie, mais je deviens également une personne ennuyeuse. Si je veux des discussions intéressantes, je dois parler à des voyageurs de l'espace, comme toi.",
    "unlockRequirement": "",
-   "cnUrl": "043a897be908d1ebe56fc6dbc090264a7d387d58f18356a9559a6de26644b586",
-   "jpUrl": "256c11523c3217a3ec047f73bc011c183c993a11ce1eb0cfc16c8c1509499560",
-   "enUrl": "c28679643ab0e2b318ad44f347429707cceecc560ce48f4286a38dc735e5f45e",
-   "krUrl": "ff46a0e94dd15fc449b5ed80ee3e7c872b31d1da5fbe75edacc3b51a60b502ae"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 11,
    "title": "À propos de Yanqing",
    "text": "Si tu le traites comme un enfant, il prend des airs de grand. Si tu le traites en adulte, il se montre puéril.",
    "unlockRequirement": "",
-   "cnUrl": "66148f7b42a88e3efe37b560895641fdbb4f343f2d80ce161c3416fb74a419d3",
-   "jpUrl": "ba96b3190920838d1b62a03679497d26c4af561a06983bb82d906ed68b148c99",
-   "enUrl": "5f7a383204d6405e7491028675a16013e9fdaefe4c611806eb7af4cb7557719c",
-   "krUrl": "31a6233c381b797819eef5689e733e227476a87b7ec15ea040101116acc91ccd"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 12,
    "title": "À propos de Fu Xuan",
    "text": "Je sais à quoi pense Fu Xuan, alors je dois la faire patienter. Si elle se montre assez patiente, alors le moment viendra.",
    "unlockRequirement": "",
-   "cnUrl": "305c8fbb44fa7395cb1471169bef5dfb282f51978d39b3555b7e6152b907e68d",
-   "jpUrl": "0a3af6727f86c37f1b88ed3d66661c88eae5f7d8d77f714b253ef2d555a54dbc",
-   "enUrl": "389e59be12401140121ef12b412d0793cc1d293a85949df8f62e0a40bee74e67",
-   "krUrl": "3214edc8ff1e6fcdfb0239c22ca8580a230adc62fa403f77461266df6bcc4c1d"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 13,
    "title": "À propos de Yukong",
    "text": "Tout le monde pense que la timonière en chef, Yukong, a pris sa retraite... Ils ignorent qu'elle a quitté son ciel bien-aimé pour une voie encore plus difficile.",
    "unlockRequirement": "",
-   "cnUrl": "2c366e553e9f379f343c26b50a5273134b19b1856cec5b22912e9c87274d3cf0",
-   "jpUrl": "9b304ba8e03dbb09e29afa774cd757f9d6c0de28b049b66e33cb9db73db5a20d",
-   "enUrl": "d54d535ba5e2852de8b013ade79ef3e2236bb8b9fd964e213ba885093f89537b",
-   "krUrl": "6478ec8111878fe4567ec4b2d4e1d697c53a74440610faa612d2d5491deba378"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 14,
    "title": "À propos de Tingyun",
    "text": "Les affaires prospèrent à Xianzhou grâce au travail d'amicassadeurs comme Tingyun et à leurs relations avec les étrangers.",
    "unlockRequirement": "",
-   "cnUrl": "abf862672d982ae54895fd176167d6b75e32d9c59caa33cd8efd84db73aa3a68",
-   "jpUrl": "6951722d41694f50ec8db9b6d3069f759d22175542f112119d4afc1a8c42380f",
-   "enUrl": "4382e973ac48a88d2f114dce57c95d3a46c7732b781ce157a2fa38d92a5c7130",
-   "krUrl": "1f8b2f77aedd5cb3504ffc7a2fca0d8f39fcecbcbe96af8dd36769eabbf580c6"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 15,
    "title": "À propos de Luocha",
    "text": "J'ai rencontré beaucoup de marchands au cours de ma vie, mais il y en a peu des comme lui, aussi peu pressés de faire des affaires.",
    "unlockRequirement": "",
-   "cnUrl": "6ae2872dc0b7d152273fb20ca377249bb20e4cbcdb4ba2723b0f3fc483fe6d4f",
-   "jpUrl": "d827f46886e9072ba842ac552d3f262ac9ed05010ab77d309e4b41ad8fc28f2c",
-   "enUrl": "fe5fd90565c9ef597fd33a0b0b5a89381c5a1f31bd227c10f0b864bf823f9735",
-   "krUrl": "380258f30b3445824e2c44d9d5ebd811d30949d9c6c7c08b6709f5359334b16d"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 16,
    "title": "À propos de Sushang",
    "text": "La nouvelle recrue insouciante des Chevaliers des nuages... J'étais comme ça moi aussi, il y a bien longtemps.",
    "unlockRequirement": "",
-   "cnUrl": "8c078fc401720b1b68c5de3b370d6a4e8538f70975e81171b1e1ad27ca04a553",
-   "jpUrl": "999d98860e38fe34a660b64358ae845999ddc63f849e11c9d1a25e3887ec0b34",
-   "enUrl": "c0e3a0cce525743dec27ea08ecc0155e2755edfad41c661e4e96415f873e8fc3",
-   "krUrl": "610660195ce47b75cc7c8f926c9a034b1ead71429aa8c524249f95b42435cc16"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 17,
    "title": "À propos de Bailu",
    "text": "Ce n'est pas facile d'être la Grande ancienne des Vidyadhariens... J'espère que cette vie lui sourira.",
    "unlockRequirement": "",
-   "cnUrl": "07ae536f1b9ebfc9651ad39056add861f9da99d84c88f73e6093c2fea8824462",
-   "jpUrl": "a4b5cc6e88ab0d41d2c262c8fa6f09c0f4b4056726f43e0e6b9881c800910e43",
-   "enUrl": "c565ba9a1ffa7cf4b7e343c58f61fbc40fb9a5f07fabe1ecf698d6b82f472236",
-   "krUrl": "8f1c262e68de671ed0b4096cf7ea865736f0db9bbc48531749cbedc01ddfdc95"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 18,
    "title": "À propos de Jingliu",
    "text": "Elle m'a appris à manier l'épée, mais nous n'avons jamais été proches... *soupir*... Au cœur de la nuit la plus sombre, votre meilleure amie est la lune étincelante qui brille dans le firmament.",
    "unlockRequirement": "",
-   "cnUrl": "14adeedc161e986c86eb312fe3eeecd7405d3a85070471b7bd044c838d73ef21",
-   "jpUrl": "eb4ef3ca06c8d9bcd0fb995ba55ea193149150fd1f7bc9c24bfdf65264eef82c",
-   "enUrl": "28741ac2b275b4edc9d207421d37f0a6c623cfd87f3e68462ed999fee7b5fc26",
-   "krUrl": "434b2a11b8cdf4afea8c9acd49aa66632ad5a263a515087cf56d271a2b526bb7"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 19,
    "title": "À propos de Blade",
    "text": "Si seulement il ne se souvenait de rien, j'aurais la vie beaucoup plus facile.",
    "unlockRequirement": "",
-   "cnUrl": "5c94013ad53226de68f08c7d3fc716669fc7cf263dac2771b618dfcb0655204b",
-   "jpUrl": "4b07884ed8f00582607377bb9d885b482ec429f8761a5b573fb7ed8862866467",
-   "enUrl": "5931e44814108b71704d24b967b0e6bd9a802e185a40aaa26a71074609c74a28",
-   "krUrl": "638e8055c8ef1151f36d6a58554617bf721591b49e41b1a3b6f872a40767b14a"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 20,
    "title": "À propos de Dan Heng",
    "text": "Je suis conscient que celui que je voulais retrouver... n'existe plus que dans mes souvenirs. Et c'est sans doute ce qu'il y a de mieux pour lui.",
    "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « Un dragon vaillant loin de son océan ».",
-   "cnUrl": "109e467e6e47567abf427f10f1306bbd2ebf3ab615033e6309a1c988def15663",
-   "jpUrl": "e275d7cd979e7c8165c4e790076800ee15122c777248e8c2b90d507eaaf6b57c",
-   "enUrl": "47a4176e530790714f79c36e34314c49b55ae13f0d238be1f52855daea309f2b",
-   "krUrl": "63987039b348fbd80fc98f824ee69e1c2a909bface91033fc3a1131f2303748a"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 21,
    "title": "À propos de l'équipage",
    "text": "L'échelon chromatique de l'Enjambeur de Nuages vient à nouveau de partir, et la reconnexion entre les mondes est imminente. C'est une bonne nouvelle pour l'Alliance... mais maintenant que le Star Rail est dégagé, que vont faire les ennemis et les démons qui étaient autrefois isolés dans de lointains tréfonds ? Hélas, c'est un problème auquel nous devrons faire face un jour...",
    "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « À l'heure où blanchit le Luofu ».",
-   "cnUrl": "16c3eea4e54656d3812b0ddb1db196d8aebd36813e4fbb4ac92689d500b1ccdd",
-   "jpUrl": "fd56b5f2f37c95fd363bdb3e541089b47eaa2dfa57279453bb0ce1f0d2aa67f4",
-   "enUrl": "0670cd1d47ba0f0b7e8efe6e5349e4cf1cea4b6df7468420dac63d10d4d85d37",
-   "krUrl": "ead9afd73dc05efc957d998c2b4294bf7c49cacd6b42366e14aee4de76c9bd0f"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 22,
    "title": "À propos de la Commission des dix seigneurs",
    "text": "Une épée sans fourreau n'est qu'un instrument de mort. La Commission des dix seigneurs est le fourreau qui protège notre longévité, le joug qui nous contraint, la loi à l'aune de laquelle nos mérites et nos péchés sont jugés.",
    "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « À l'heure où blanchit le Luofu ».",
-   "cnUrl": "a344fdfbaa296bb2d4e602a2780b5cc7b65440cc5ff678ad0e0d7f6f107e852d",
-   "jpUrl": "5726e906b4c087e9e2fe2241fed001b17058d81b3a555458e191091d3a358768",
-   "enUrl": "5c5439aa33cb7a74875f7f821ddc8c168e73c0ab087026f32e976e54c63b2117",
-   "krUrl": "37815784bec87b204faf584c53b11fc876c0f83d069c4d0bfa2353a2b373caba"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 32,
    "title": "À propos de Yunli",
    "text": "Je me souviens qu'elle est la petite-fille adoptive du général Huaiyan. Elle est très douée à l'épée et a le même âge que Yanqing. Si seulement ils pouvaient bien s'entendre et progresser ensemble...",
    "unlockRequirement": "",
-   "cnUrl": "1f89a433cabba1a1c13ccf2378d52ca110b56c877cb167cee379b905b581ca9b",
-   "jpUrl": "fe3bf38bbb14e97d7f5f5f105d22409bdd71ed6615cc6d38b41a9fb51a0293d0",
-   "enUrl": "529dcb03802d498e3969c1be9df6549bfe5f1c43507f07e4a604a22e3ccceef9",
-   "krUrl": "03c3a4875ac8013489b55385d0da2af7e7a8439ba1f0ffc2fa7a94d80aede3a6"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 33,
    "title": "À propos de Jiaoqiu",
    "text": "Je l'ai toujours considéré comme un guérisseur. C'est juste que les guérisseurs ordinaires se concentrent sur un patient à la fois, alors que lui veut guérir les maladies de tous les habitants de Xianzhou.",
    "unlockRequirement": "",
-   "cnUrl": "8be59567d4578030ec33abfc88a87b74e12cfc0f16cf059d004f1a46172fab9a",
-   "jpUrl": "2ef1234a29c06f1903e04b9b0c3f7c391de566b6e97a8759ee8ed787c7372809",
-   "enUrl": "1bd8639f865a6c1ce2b02943ac4e507ba58d50e6f4080e2f61475b4e1fe1ffa0",
-   "krUrl": "48446d4da6134d71ecad0d77306c0530d1b7ca9f9a8fa3154dcf8e38694ba619"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 35,
    "title": "À propos de Lingsha",
    "text": "J'ai une grande part de responsabilité dans la situation actuelle de la Commission d'alchimie. Je lui suis profondément reconnaissant d'avoir accepté de laisser le passé derrière elle, et d'être revenue à bord du Luofu pour empêcher la Commission de sombrer dans le chaos.",
    "unlockRequirement": "",
-   "cnUrl": "3f850dbd3796406614e861271f5d9b9cf50ced75cc4ab19df0faf8107af38ce7",
-   "jpUrl": "fbc6cbf329435f5cd59eed323ea8f006226feca65b5cf9e26da7d46add1bdbaf",
-   "enUrl": "d14bf8955d0bf1ad8700da39351eb26a2c26216146ad9b726117440122e440b5",
-   "krUrl": "478af62254c3f787572b7e52014cf4f519e1244bdf3253e1111b9a67ce43032b"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 36,
    "title": "À propos de Feixiao",
    "text": "La Serre du griffon et moi avons des approches et des tempéraments radicalement opposés. Pourtant, nous nous rejoignons sur de nombreux sujets... C'est intéressant quand on y pense.",
    "unlockRequirement": "",
-   "cnUrl": "56f9ab2d88b89efc1fff96f4ce45d99122c370d6893f66ee785c32802e56c9ab",
-   "jpUrl": "b5851f2118a718a5d5e70c446309c88445aa475be573602791aefe9772d3e7ea",
-   "enUrl": "aecaacf7ec3e12781d8aed69ea295a8f2e0823b79d6c23656760fe43163ddaf2",
-   "krUrl": "699ecf1a7df6b8cb5df4626a74566532d6f874cd23662f1523c2147c76013990"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 23,
    "title": "Activation d'Eidolon",
    "text": "Ces jours ont été balayés par le passage du temps.",
    "unlockRequirement": "",
-   "cnUrl": "e92ae2fe42163b3289972d0f7a7f9f3682bc55a47b318a023025889bb14da9f3",
-   "jpUrl": "8cda7de73e5541b64cee775c3e8d297f17abb1285d7afc48ebf467554586e018",
-   "enUrl": "3442c68b026006253e4ff5a794300f560bd394c15edfce6e1c38c2d625f67ddc",
-   "krUrl": "3e6601011c0d61077d2e68fdb61c62e2eaaf95acb4d2055c6386913756a02117"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 24,
    "title": "Élévation de personnage",
    "text": "Je garde toujours l'esprit vif, car j'ai la vie des Chevaliers des nuages entre les mains.",
    "unlockRequirement": "",
-   "cnUrl": "ad1f01ba5869cc871a48863e5d888eb3ddcbe82253e4a97b45a5fb8200bc34c8",
-   "jpUrl": "2c0d1c445792b2dd3509821f6e9c24862b005e261277239d5588bf212fe1d17e",
-   "enUrl": "f4e86cac189dce201f348f582f3a922b66d08574060d1885a05d3e8ae6faa970",
-   "krUrl": "784706756ebcb422183b56145030b998c9d1b5db16cec90fafcaf3b544dc9a5e"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 25,
    "title": "Niveau max atteint",
    "text": "Voyager seul pour aller vite, ou voyager ensemble pour aller loin.",
    "unlockRequirement": "",
-   "cnUrl": "ca8407825740b01184b823d95ecb35df4ff220262799b41415de4ee3f0822032",
-   "jpUrl": "25c1c5f8964c9ec04e9877b82c3ba388e690391e5337f555c61675ce02a512a4",
-   "enUrl": "685383da669f4be3e5ac77da4d84178899c4f6175e1c911de0c3539866d8e3b8",
-   "krUrl": "4882f5b6accd8395eaf26147d5fa71c83d6bf50c43dd45c51885a35aef0dd808"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 26,
    "title": "Activation de Trace",
    "text": "L'univers est un échiquier, sur lequel nos actions forgent notre destin.",
    "unlockRequirement": "",
-   "cnUrl": "082c6614c43c5c26ab6c5fcd792ee539796b021162e785980f3326dc5ee779cf",
-   "jpUrl": "be7e99ed874ea4226f45716583208856c582105ec84d1010b5800bf73931c6bb",
-   "enUrl": "5e7165f2bc41a8035b7e182ae8961ddcdb7dc4da56dd609cf60893832e04b028",
-   "krUrl": "84899792fc2701383a4f96f435e6a91c38d55d31b86f1207f7dc7d7980d0c326"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 27,
    "title": "Rejoint l'équipe avec Yanqing",
    "text": "N'oublie pas, Yanqing, réfléchis avant d'agir.",
    "unlockRequirement": "",
-   "cnUrl": "e917e687d75e4b543f8320e29e5e3b327c6bf1a3dd35738a856434f849ccc28e",
-   "jpUrl": "2c02ce1ed1195ac65590139cf8b1f6ad8d822c413e5a989b7a0075eb8c9b3f8c",
-   "enUrl": "ffd8f039a720133dae135145d47975f6b1bcce3119f53d9d96baedc3157c3af3",
-   "krUrl": "832dbccda079063e5ed1ea1d62b672725fb203a036fa022d8763ded6f3eeb061"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 28,
    "title": "Rejoint l'équipe avec Fu Xuan",
    "text": "Faites-nous part de votre analyse de la situation, Maîtresse de la divination.",
    "unlockRequirement": "",
-   "cnUrl": "468e756c530e946c510605c261a4e65de5ffef578e49c0a2dbf41edb845bdd1f",
-   "jpUrl": "e7a7f163cea36fa1fe2be097a7aec525117885778169ad2cd5a279737368b7d3",
-   "enUrl": "8561713fbfa9ab19fb940bfd776277c4bcd7e6cd8b5b5c3e209b1b5d814ec027",
-   "krUrl": "76c2760b211042c98d396899fe765be00d0a4c020d7d60baa6a868334c146d0b"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 29,
    "title": "Rejoint l'équipe avec Jingliu",
    "text": "Cela faisait longtemps... Maître.",
    "unlockRequirement": "",
-   "cnUrl": "b22e148afe00b7cada83d390f29bfb5b21686dfe96108c8d8820a2db1170fa95",
-   "jpUrl": "b3a3500c6836c7fe6833f10e977f4944a447a055670ffa80efa21567885071bd",
-   "enUrl": "83a7b6045c4f1beabf385f7cfa0ce3d687a7d408f5e125af91e090a2993638ff",
-   "krUrl": "ebcd430127be04e1f007ae3abc728bb5101f5dc0057b043514145755b5787095"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 30,
    "title": "Rejoint l'équipe avec Dan Heng • Imbibitor Lunae",
    "text": "Il faut laisser le passé où il est... Cependant, parfois j'aurais préféré que les choses se passent différemment.",
    "unlockRequirement": "",
-   "cnUrl": "0183fda95ace2d7fd32389fac2eb8476a3aa312ed8082ca38116449cdeb713ee",
-   "jpUrl": "0854fc05ec810c5c64f51e351b2bafaac936a15295d89c63fc5d484dc836536d",
-   "enUrl": "871d133b5730f518dc93d698e1d744341df3edce5f61f0e8e02f1c21586aae76",
-   "krUrl": "aab1071b91a31739241d4d1f1b960e15fb23869ebed7b4f095a19b7f60af87f8"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 31,
    "title": "Rejoint l'équipe avec Blade",
    "text": "Il n'est pas sage de déposer le marteau pour prendre l'épée.",
    "unlockRequirement": "",
-   "cnUrl": "b3429e467468907908fd2414a85618103153204304a0208b63611afaeb8e56e6",
-   "jpUrl": "a408764f208fae43f459a80b40a7e71d09217d233768028bba90bcda9c1c3cd3",
-   "enUrl": "770641c0f0bd5ec52aa4973c664d4b7ad616162b2a08b8f99370885c3a5dbbf3",
-   "krUrl": "dd0ef35d56a6e26fe49afa3796745e76b6b173a8523fa9abf9266c90ccca6428"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 34,
    "title": "Rejoint l'équipe avec Jiaoqiu",
    "text": "J'ai entendu dire que monsieur Jiaoqiu avait un regard fascinant. J'aurai peut-être la chance d'en être témoin aujourd'hui ?",
    "unlockRequirement": "",
-   "cnUrl": "0a88823cf1653c29c9127e36042b63fa20d1acf9c40dedc80b1aebf4a49725f0",
-   "jpUrl": "498a5647f663daaa7599eb23e2355bdf3235d9098b814b45c767bc9fdc45b364",
-   "enUrl": "aa666f98376406e5ebd8f2833fb024b31316ab65a2da04a543a1210b4cd6840b",
-   "krUrl": "8439c07d6f5e73c6e7e4111f05df7e3fdbff3741256a3324ab2a87626753d78e"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 37,
    "title": "Rejoint l'équipe avec Lingsha",
    "text": "Vous avez toute ma confiance, Maîtresse des creusets.",
    "unlockRequirement": "",
-   "cnUrl": "1a93cb96bf05229532adcde04384ec13104ba885a252fa93a7bd3f10e4ce21bc",
-   "jpUrl": "970c7511a01aed9326313fd32bc8211bf2263a0ae2da94d379881c518bf97342",
-   "enUrl": "07eee74d6585b1a920f308bf6f8fc5a2dadb22982b76196f8865096733b72c84",
-   "krUrl": "32b26674ce7d1dd4cf57a93ebec722d6522f5a77cf113d8aa9054240304a414a"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 38,
    "title": "Rejoint l'équipe avec Feixiao",
    "text": "Planifier avant d'agir, ce n'est pas vraiment votre genre, n'est-ce pas ?",
    "unlockRequirement": "",
-   "cnUrl": "129f256d01fe58abaffaf757a776530d9778f1c47e05f194bb37a1465cee1fcd",
-   "jpUrl": "29132220fc3e165870c52e894565753081774118c6f5eb5a3e9c34dbdd45bab2",
-   "enUrl": "a101e0d281766e5a4685a241d64852bd05ca9866ca2bf3ec8fbbfb3b046f0cb2",
-   "krUrl": "df7bc1f570d4548201b66d9788ad8dc8b7c8d1ba54c4908c5b6672edac9a2d41"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 51,
    "title": "Rupture de faiblesse en début de combat",
    "text": "La conclusion est connue d'avance.",
    "unlockRequirement": "",
-   "cnUrl": "ea184090f11db21423c93ba52aaf757f438d59e5149b8bcb6ef70ab635960fa9",
-   "jpUrl": "8b0f5155ce14f9236cf54ecd0952e7859b42e38089ab6aa33c31ee17f65139bd",
-   "enUrl": "dd8e17e352b894907fc532554b4e8fd6ce9a3ed52ee306003cb0292e6c7b9bea",
-   "krUrl": "9806bc48220945aa979320e2d6b59c5af43ad2cf38957933db3c694854d79289"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 52,
    "title": "Avertissement de danger en début de combat",
    "text": "Un adversaire de taille.",
    "unlockRequirement": "",
-   "cnUrl": "cdf8a55caeea1fea241fbee3bcb6f9b22eb4474d75f5dca8a10b19f20044b6e1",
-   "jpUrl": "1e54c7a6974874bfef4fcc2dd7f0dc2ad828de99c2fe78a8bc2e4dced1404b6c",
-   "enUrl": "bc506e4590b52e419e8dfa820298f81c8370b87559c3b347a7b1d43f58d96436",
-   "krUrl": "e88d8d6516c03df17a8284b93a5a03710f9eb0f787c5e52fc90a10f3df42aa11"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 53,
    "title": "Début du tour 1",
    "text": "Suivez-moi.",
    "unlockRequirement": "",
-   "cnUrl": "7a43c5c65907d287af708a17bff91e6a23d26d2dfe356b066e19e7f3f78542d1",
-   "jpUrl": "5b4b60a5ddbd2326e1049fb50b707bd0b1d755126119c9b0f973b301b12e9b57",
-   "enUrl": "b8122c73f612210a7b3aa09dfda9dc8542f19d949010412b278a734e3d0b6114",
-   "krUrl": "79945a0ec490d543e52c875faac91c8629a705e6568a547d29615523bc234bfd"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 54,
    "title": "Début du tour 2",
    "text": "Il n'y a pas de temps à perdre.",
    "unlockRequirement": "",
-   "cnUrl": "b1bfc277f8592053081da3fce78249ebf920ec1941638d15134a5b6d399fd6d2",
-   "jpUrl": "2a63fbc25a01da5efb43d2b94a2a78df0f5cc30870771c4a9130bdd44051ae50",
-   "enUrl": "727c5d8b3226c4218b4246328eb44746b6300f50e694399f90dd5a0b80b77874",
-   "krUrl": "0c3dc318485bfa6ff61475326b018100021adb6a3bdc485cb9be28a45da2840b"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 55,
    "title": "Tour inactif",
    "text": "Prends ton temps, mais ne le gaspille pas.",
    "unlockRequirement": "",
-   "cnUrl": "c56bae0831566b662855ac4dad2bad4d82bab2d3d6f5013cbf97289e361f30be",
-   "jpUrl": "5a8a15dab6dc1fbf422fb80b123acbc5dd7cfcb12e4c23107af8a579b09c9d4b",
-   "enUrl": "fbe046540a72b94d9f6a0a30b846fd58830333f6040f63585adc62cf6121f9c8",
-   "krUrl": "3aaee58db617283767ee2070c08f3547c305876539aaad14092a8d80a572f480"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 56,
    "title": "Compétence 1",
    "text": "Le combat est impitoyable !",
    "unlockRequirement": "",
-   "cnUrl": "00ea599441552fd76cf3ec250e6b48b5ec59a5e0a415f7094b41c349b47e8858",
-   "jpUrl": "52570bd34720bbfe3a70f14c31c4ec652c858ba32034a069531e08af2d5e8264",
-   "enUrl": "1f560a611260ad3425b6ab0a83c81789e8787a513a5805ccdc00349226b3daf9",
-   "krUrl": "22e3463635e5c008c48231e51162ee686522f07049eb1ddb796cd2a3d2d73b27"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 57,
    "title": "Compétence 2",
    "text": "Écoutez ce tonnerre !",
    "unlockRequirement": "",
-   "cnUrl": "8c6fd622f8cd00e0bcae0f54d08b89f6871a57a34840e4e799605f205fed3804",
-   "jpUrl": "0973a2dbc05b91cf197a3beec0da18556df4f0acfbcbba6b062615f074129f68",
-   "enUrl": "17ef6150eb8ef004a75d10e605c028a950de09a6a718535afb3d5511e4e0af6a",
-   "krUrl": "7b5e0c5e59d8ed201548b2a7b04a49fac2384b6a4e454253de0e900db710d6be"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 58,
    "title": "Attaque légère subie",
    "text": "C'est tout ?",
    "unlockRequirement": "",
-   "cnUrl": "a6395fed154f9f95f51336c1d2add872a8458754fd831188a8cf0ac1f22cce06",
-   "jpUrl": "d5058101aec4099e6105a738620b32113c17a03ed9104363d88c07b3b8b98267",
-   "enUrl": "96b71364f8c2739055706734f819ed4d07c12a53faa5daf1a57b44dacc1abc1b",
-   "krUrl": "e4c8f79df261e253ab0216b0af14857fb3d461cc0b51cc03df0a29cea2d0182e"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 59,
    "title": "Attaque lourde subie",
    "text": "Ce n'est rien.",
    "unlockRequirement": "",
-   "cnUrl": "7f0a84fb6310aa53982a3a28b80fcff91e94bfe5e5cffcaa2a5d35de1781dc15",
-   "jpUrl": "c9d5ea2e1e39a695ffb73e6d00e0d279dffe7aa51a3bafa8e7f6f791c859c395",
-   "enUrl": "f2be198c5d291fc3b361e1bef79f5bc16facdd431a66c6d7b0b2701e33f09086",
-   "krUrl": "41edbecfc267b6c28665f11f4bce4866644482700aec1d2f1b7e6672e12efc53"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 60,
    "title": "Activation de l'ultime",
    "text": "C'est le moment du coup de maître.",
    "unlockRequirement": "",
-   "cnUrl": "44cd227b470b1a9cf1a22d457cbacfcb337d3ab4fcc990c900e59a44a0369aeb",
-   "jpUrl": "78ec29b5f882962a1d9e1a573d757c234be9a4300790216964c858ea1411f4b2",
-   "enUrl": "42e3db27fdde9c4d7d96c9afd6203700b18fffc73426e3e7156ae07db1fb4a99",
-   "krUrl": "98a90b78733c515c2c20e80f1577fdd68637048bab38737a248ded2c0d7fd8ec"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 61,
    "title": "Déclenchement de l'ultime",
    "text": "Esprit puissant, entends mes paroles et sois sans pitié !",
    "unlockRequirement": "",
-   "cnUrl": "3c69d838f6e64c82eeff58d01fae3e0cc04523369d0e5e68269b8c17fda99fed",
-   "jpUrl": "4b29433c5dfe30feccbd85928174714108c6259a6e72611ac67edbca55fa1242",
-   "enUrl": "12018d947f2a56fdfc431648307f0e51fef349915a9ca2a93307d8459a6938d9",
-   "krUrl": "51e2eaca358c52f08bab357cb8785eecc2780c71fa4581e5260083df608e0b58"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 62,
    "title": "À terre",
    "text": "Je suis resté trop longtemps derrière les lignes...",
    "unlockRequirement": "",
-   "cnUrl": "203eb75464dbca440414c01da7f81a7fc6b031d35ad6916160b14b663bf80812",
-   "jpUrl": "625e2c4a4154f19dbbffafb40f64534c0bb2356bb311e66643c23ed37c179c05",
-   "enUrl": "2517b982fd51919b81cf960568d683c036de97eda7ee922ec4898e3b693c631e",
-   "krUrl": "eeee3455666131ef607114c71df02ac0fa4a8580b15775ba298ae4f28180cb71"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 63,
    "title": "Retour au combat",
    "text": "Quel plaisir d'être de retour sur le champ de bataille.",
    "unlockRequirement": "",
-   "cnUrl": "983a20009ec879feb93a163a5069ab160926db38635654811190e726c11aa690",
-   "jpUrl": "712387c99a251a771a9f9b15df5a2b79fb66844a3937cbb87cb5d019608ee96e",
-   "enUrl": "dccaf8f0db5900e9eeb4c34b94eaeda378df9563d5e12bdfcf76af782903ee04",
-   "krUrl": "ea384359bf3ad3e434eeb38ac6ac618b80dfb9308eb6e62117f16ef5f39d168a"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 64,
    "title": "Récupération de santé",
    "text": "Mille mercis.",
    "unlockRequirement": "",
-   "cnUrl": "b9f4bfdd7525e8a354361719fbd475dd32782333fd01098264077693c80f5ff0",
-   "jpUrl": "8350a22a6d79579450b1149de2c8cf2dff83e7d7455ff55470a5fad4c94a1768",
-   "enUrl": "0591758abfe5ecb734d69a27db9f785c80957e64c82674ed8e7d649fdd9c78e3",
-   "krUrl": "56cdf8ff319700a9302d8690f743545b0ea745c27a836902e72f1fe7573cedbc"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 65,
    "title": "Technique",
    "text": "C'est un ordre.",
    "unlockRequirement": "",
-   "cnUrl": "57ca5559eb9dcd38e833df37d18f84b5f4a471bd103b1a42f84efc59d6910d9a",
-   "jpUrl": "2654a3a3b77185fac421f98ce4cb2ddd38ab2a7b5593663eb1c100c0096dceee",
-   "enUrl": "9733198c91c747ea6b453a4a3f3c55778140b35082207bd4c8d4a5711c49275a",
-   "krUrl": "7fe6ea086ca07e36047869874a1f77130a51917871401a79cf20f3ce01c8fb32"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 66,
    "title": "Combat gagné",
    "text": "Les combats sont comme les parties d'échecs. Il n'y en a pas deux pareilles.",
    "unlockRequirement": "",
-   "cnUrl": "ae61fac0330deb81c53d5634c1798c33f380ffdc650ef4e573cd6ae5ed4902e1",
-   "jpUrl": "46af671920bee7bb8a5e78cb637f9b73d0eec75e5f0a1cd0b9584e8f3394e51b",
-   "enUrl": "9abba8de68ea10ad0bd400287e378f94bd52752d3f53399d261ef5717b3d4a51",
-   "krUrl": "a9bd9f402ba43be59c7e7dcb5bd36324b267e1f0a2b5a698165ebee93a18ffdb"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 67,
    "title": "Ouverture de coffre 1",
    "text": "Un diamant brut.",
    "unlockRequirement": "",
-   "cnUrl": "fc78978e44350e62c85e1ee3829234c1a33e8d2e3466dc4ee3c4f86eaa5a5d11",
-   "jpUrl": "3eee5850b046e0437e685cdf79e580eb090ceaf285e65a9f3fb15d12a97df7dd",
-   "enUrl": "aaa605a93342ef590144f37770030e2e51f375d951f6731ff3490b97df9f4763",
-   "krUrl": "a908048c8ac89a9a74932438d32683db5445b64a4095882cdf19e0879e436814"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 71,
    "title": "Ouverture de coffre 2",
    "text": "Oh ? Quelle plaisante surprise.",
    "unlockRequirement": "",
-   "cnUrl": "f2a3845d94afd4f5a9b291acdbd44f33539f7b9b676a631e9583dba4a0f179ea",
-   "jpUrl": "58e2e050291770a71d6294b088b920dbef1c6c7a57e4293873d264af648c232a",
-   "enUrl": "8667e1d6ea039c83fc66c402a319a4f8476ef19e48a6e13237a29c19276b26ea",
-   "krUrl": "4062ec1793943635c44ae5cccfc97b06306afc33104acfd55473f8fb13cdd5f1"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 72,
    "title": "Ouverture de coffre précieux",
    "text": "Tu ferais mieux de garder un objet aussi rare.",
    "unlockRequirement": "",
-   "cnUrl": "ca3cd7b149e8b7a127c5b64c4c66d8e98d969a0154e4909f30b9bde5b0a6d095",
-   "jpUrl": "4b42b845fa6afc4951f47bb51319178998e27006f95e8a3d1d41955c2b46a4d2",
-   "enUrl": "d4bffb7ae739aff0b08fe116ea9905a27678c86ed04dc1df7dcf5b45ef919ef9",
-   "krUrl": "66e8a4d71d161e16907e7c9ef2921effb6c43cdb465fa00cf5bc11a158cb53d2"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 68,
    "title": "Énigme réussie 1",
    "text": "C'était plus compliqué que prevu.",
    "unlockRequirement": "",
-   "cnUrl": "c59fe743d9e8f9d0a01add55b78ee21d3c15b59e6c7e5fbc728b677dcee0b860",
-   "jpUrl": "98715f7b5350981e935f0c3ec6bde2c660fc0d771a4c7de61429a9bd2884589e",
-   "enUrl": "f2da98109f9181b43f11c8468ab811b8c7287f0ddab86ea458954070da6b5b28",
-   "krUrl": "882e9f98022cae268f10fc2d8f7689491b5f6ba27b40288d2481cf43529a43e1"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 73,
    "title": "Énigme réussie 2",
    "text": "Ces mécanismes sont fascinants.",
    "unlockRequirement": "",
-   "cnUrl": "741994bbde5434b1d2b93a012de0da00e530132dce3a818e735469a3e7a4bb7f",
-   "jpUrl": "ec486442aa3902e7ad1495c2c24ab5079dc59b90fbd43a26c98ebbce06b61d79",
-   "enUrl": "b16fd495f7af2af1ea5189957141fc70498f22e9b5dc3175f4fb6ba99d24c470",
-   "krUrl": "1be3e3a2420acee1f0fdbcc33aea1ec12412d36ad11ed718ca05afc74a9fd454"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 69,
    "title": "Cible ennemie trouvée",
    "text": "Quand on doit faire face à une armée, il vaut mieux attendre le bon moment pour frapper et planifier son attaque.",
    "unlockRequirement": "",
-   "cnUrl": "0b1d8f78c9f523dc732ab2c99b7017e834c2d543c82207f5c68eafca7b78dfc8",
-   "jpUrl": "2391ce291807af9a89430a0e8bd09cd7b0ac0b0c27cd9b58173e8c3b1d47fd81",
-   "enUrl": "122b462e85b84300755c5412a88d3128a3161ce9c372fa3ae1aa8e47fb63df98",
-   "krUrl": "be6f85430d096216384c678e117a2f0f7b5fe92bc271beee6ab0946c8aedaa90"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   },
   {
    "id": 70,
    "title": "Retour en ville",
    "text": "Quelques parties d'échecs feront passer le temps.",
    "unlockRequirement": "",
-   "cnUrl": "92809690f167c682630059b220f762b2e71ca89393464cd91927f52388655284",
-   "jpUrl": "6b7ac1be3913a38add51e73594b110a5ea883defc641b6a10f99667f2c0b9101",
-   "enUrl": "1de9097e2c911f22e1c6c799af4eb6951b9caf36b4fef770ddfd8cefaaa574d7",
-   "krUrl": "2c299c9166d15827dcc2be363c15bf3795df58acbe880aa01519fe39847a960c"
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
   }
  ],
  "storyItems": [

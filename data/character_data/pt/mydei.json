@@ -1,0 +1,3516 @@
+{
+ "spRequirement": 160,
+ "iconPath": "81cc5b3d84ed2b75eeaefda540bf3693ea97846711f06f12cd34ef222c0ce85c",
+ "bgPath": "79541b49694f373edafb264c38c929810044c57fae2ed865db1a801484468949",
+ "figPath": "3a9d37d9677265c5689e51b0c8f961e4228e3784744ede6291d9f063e95ab35b",
+ "fgPath": "dbe6b9b2511b9c204ca5ae163fe2031af2f39a2be273ca899de46120b4589163",
+ "splashIconPath": "7bc51f226201ea39bb98cff5da99a57dfd10511c98b9e989cc645618589dc84b",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRkQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSA8BAAABkGNb27E914vftkZgVrZt+4+tyskArDJl1l+m4hhss7KdPM91Fb9nEBETgJV0XddZSlQO5nrOQg68pt0dTQUxAODOB+z6bSU9OLujNAbzhxz4KWuNXh4+0z/VEAPAxyrRkLT6Z44ntReHAkhc/VUkKVL6fL43AHDQZERpjtXvfZUbc1wEbpdIinP//d2c2p0KpD+SnSOJ1IcRwEHqd1GiJJKcLUx0XTSKJEWR1ujpoXwg9KAMZQ1ljeZec5F2V4ZW0n/pzdV7kio6fujff+nGhY+6cqAfzlR9Z+rm+++kP++vXTh6fH15egLmBgRk94/Xbr/37/W547MHihzPczF/iJ8SH+hjka7nO5jfceYBAFZQOCAOAQAAUAUAnQEqFAAUAD5tMpVHpCKiISgIAIANiWgArAwUsiCtIrDSLvFdKq7jI9Je+Ue5sArgAP5xGmdloQNMLNCtBO3tYbEpLFKzMeO6+qDED5rH4j8UduiN6CQ/fIlMR82uyn7LVEX8QsN/xZHl+L0VI1aH9upRhS77uZHfLxOxM8Jzh/v9JhZD9yYHas63Ex1vRiQ+nOUFkUhlkCJcIiTiCEObytBwSJCg9JaAc71e1UTJVZ3X+/sjneIt97ot4B5p79GgYw5oF+coBcAOTcZwTgOyqgP9vV70Uf98yvwe34ZldCVWulv6fjOrR1HlfPzLlhBLAHZtxMrphUDukzs0DtnCjn+Df2iAJdUoQAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 1,
+  "iconPath": "030e601ad017d8aaf9c2e1b34f108db7a35a7385a6445d47094815c62f6c5e6f",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Esta moeda, usada pela Corporação da Paz Interastral para acertar contas com seus clientes, agora é amplamente aceita como moeda para viagens espaciais.",
+   "lore": "\"As pessoas lutam e negociam tanto apenas por números em um terminal, mas o que é precioso de verdade não pode ser comprado.\"",
+   "purpose": "Moeda Comum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cálice: Grande Mina",
+    "Cálice: Comissão de Artesanato",
+    "Cálice: Devaneio (Mundonírico)",
+    "Cálice: \"Floresta dos Murmúrios\" do Bosque da Epifania",
+    "Recompensas de Missão",
+    "Recompensas de Atribuição",
+    "Troca de Brasas"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Rastros de Destino",
+   "desc": "Material avançado para subir o nível de Rastros.",
+   "lore": "Sua vitória é garantida por inúmeras falhas, e os pequenos passos que você deu levaram a uma reviravolta do destino.",
+   "purpose": "Materiais de Rastro",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Recompensas de Pontuação do Universo Simulado",
+    "Honra dos Inominados",
+    "Troca de Brasas",
+    "Troca de Luz Estelar",
+    "Recompensas de Evento por Tempo Limitado"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Guia do Viajante",
+   "desc": "Material de experiência para personagens. É possível obter <nobr>20.000</nobr> de EXP de Personagem.",
+   "lore": "Leitura obrigatória para explorar o mundo. Pressione o botão \"Ler\" para reproduzir uma voz atraente num idioma que você entenda falando sobre os encontros lendários de aventureiros renomados em diferentes mundos, bem como a sabedoria e o conhecimento precioso que eles acumularam.<br /><br />\"A novíssima série do Guia do Viajante, 'Manual de Gastronomia Galáctica do Chefe', já está disponível para compra.\"<br />\"Para fazer pedidos, envie um sinal de sinestesia para ERD<nobr>-23</nobr>θ e entre em contato com um representante da Guilda de Intelectuais. Temos várias formas de pagamento.\"",
+   "purpose": "Material de EXP de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Cálice: Planícies Nevadas Distantes",
+    "Cálice: Vau-nuvem",
+    "Cálice: Margem do Sonho",
+    "Cálice: \"Santuário da Profecia\" de Janusópolis",
+    "Salão Esquecido"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Registro de Aventura",
+   "desc": "Material de experiência para personagens. É possível obter <nobr>5.000</nobr> de EXP de Personagem.",
+   "lore": "Coleção bem-organizada de notas de aventura educacional contendo incontáveis ilustrações e textos com histórias completas, bem como informações valiosas e técnicas de sobrevivência.<br /><br />\"Por que não digitalizamos isso e guardamos em um disco de fotolitografia? Seria muito mais prático.\"<br />\"Tecnologia avançada é muito mais frágil do que você imagina diante de tempestades estelares e erupções de fluxo de neurônios. Além disso, tenho certeza de que o autor deste livro gostaria que as pessoas o lessem da forma mais simples possível.\"",
+   "purpose": "Material de EXP de Personagem",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Cálice: Planícies Nevadas Distantes",
+    "Cálice: Vau-nuvem",
+    "Cálice: Margem do Sonho",
+    "Cálice: \"Santuário da Profecia\" de Janusópolis",
+    "Treinamento Diário",
+    "Troca de Brasas"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Encontros de Viagens",
+   "desc": "Material de experiência para personagens. É possível obter <nobr>1.000</nobr> de EXP de Personagem.",
+   "lore": "Diário de viagem com assuntos aleatórios escritos numa letra feia. Não tem muita utilidade.<br /><br />\"Dan Heng, termine logo de ler isso para jogarmos fora.\"",
+   "purpose": "Material de EXP de Personagem",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Cálice: Planícies Nevadas Distantes",
+    "Cálice: Vau-nuvem",
+    "Cálice: Margem do Sonho",
+    "Cálice: \"Santuário da Profecia\" de Janusópolis",
+    "Recompensas de Atribuição"
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "Dentes de Borisin",
+   "desc": "Fragmentos de dentes quebrados deixados para trás durante as conquistas dos Borisins. Usados para aumentar levemente o nível dos Rastros para os personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruição</span>.",
+   "lore": "Os Borisins consideram seus dentes como as lâminas e armas de um guerreiro.<br />Os Borisins veneram os guerreiros que possuem poderes supremos. Em suas tribos, onde os mais fortes se sobressaem aos mais fracos, aqueles com cáries dentárias só serão descartados do grupo.<br /><br />\"Ó Senhor da Ninhada, nos conceda dentes e garras afiadas.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "Cálice (Desfiladeiro Escamado Aquático)",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "Farpa Auspiciosa",
+   "desc": "Material avançado para melhoria de Rastros.",
+   "lore": "Apenas no momento fugaz, pouco antes da morte, quando todas as coisas parecem congeladas no tempo, é que os olhos dos humanos mortais podem contemplar as formas em queda dessas penas espirituais. Aureus Voador, Spiritus, sua velocidade é a maior dentre as sete formas da manifestação da Flecha do Destino.<br /><br />\"Eu passei uma dúzia de dias e noites para caçá-lo, apenas para descobrir que ele sempre esteve dentro do meu corpo.\"",
+   "purpose": "Materiais de Rastro",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "Eco da Guerra: Cruzador Celeste"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "Canino de Loucura da Lua",
+   "desc": "Presas amedrontadoras deixadas para trás durante as conquistas dos Borisins. Usadas para aumentar significativamente o nível dos Rastros dos personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruição</span>.",
+   "lore": "Borisins podem aprimorar seus corpos por meio de sua inata \"Loucura da Lua\".<br />Em estado de frenesi da batalha, os guerreiros exibem habilidades de cura incríveis, derramando o sangue dos inimigos em um banquete.<br /><br />\"Ó Senhor da Ninhada, conceda-nos Sua força divina.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "Cálice (Desfiladeiro Escamado Aquático)",
+    "Sintetizador Omni — Síntese de Material",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "Dente de Serra com Lupitoxina",
+   "desc": "Caninos afiados para sugar sangue deixadas para trás durante as conquistas dos Borisins. Usadas para aumentar moderadamente o nível dos Rastros dos personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destruição</span>.",
+   "lore": "Os Borisins consideram seus dentes como as lâminas e armas de um guerreiro.<br />Um impulso enlouquecedor flui através do sangue dos Borisin. Movidos pela Lupitoxina, eles subjugam seus inimigos com seus dentes serrados, sugam seu sangue e se mantém imbatíveis.<br /><br />\"Ó Senhor da Ninhada, nos conceda pele e ossos de aço.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "Cálice (Desfiladeiro Escamado Aquático)",
+    "Sintetizador Omni — Síntese de Material",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "5837183": {
+   "id": 5837183,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "05655c5cf08869b1b1fe2195df173319b129bb24b7ada253cb5c77c47967b984",
+   "name": "Prenúncio do Conflito",
+   "desc": "A lâmina dourada com rodas carregada pelo Pretor Erínio. Pode ser usada para Ascensão de personagens de Dano Imaginário.",
+   "lore": "Titâneos do Conflito ascendem de hierarquia somente através das conquistas militares. Esta lâmina simboliza coragem excepcional, honra e proeza marcial.<br /><br />\"Mergulhe no Rio das Almas da morte e honre nossa divindade com sua fama eterna.\"",
+   "purpose": "Materiais de Ascensão de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/5837183",
+   "comeFrom": [
+    "Sombra Estagnada: \"Abismo do Destino\" de Janusópolis",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "Baú da Coragem Rasgada",
+   "desc": "Um fragmento dos Titâneos do Conflito após sua queda. Material normal usado para aprimoramentos.",
+   "lore": "Os generais indolentes começaram a treinar, e os sábios reclusos começaram a tramar. Então, a humanidade descobriu que poderia estilhaçar as criações dos deuses, e a carnificina se transformou em guerra.<br /><br />\"O medo é o cinzel da coragem.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "Titâneo em Nível de Equilíbrio 2 ou maior",
+    "Bestas Crepusculares no Nível de Equilíbrio 2 ou maior",
+    "Sintetizador Omni - Síntese de Material",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni - Troca de Material"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "Torso Batizado de Glória",
+   "desc": "O coração de um Titâneo do Conflito, repleto de poder divino. Material avançado utilizado para aprimoramentos.",
+   "lore": "No início, a humanidade lutava guerras para se manterem vivas, mas agora, alguns lutam tão destemidas como os Titâneos do Conflito para alcançar a morte. Os Kremnoanos dizem que talvez guerreiros de carne e pedra compartilhem o mesmo coração:<br /><br />\"E esse coração é chamado de glória, com a coragem fluindo em seu interior.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "Titâneo em Nível de Equilíbrio 4 ou maior",
+    "Bestas Crepusculares no Nível de Equilíbrio 4 ou maior",
+    "Sintetizador Omni - Síntese de Material",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni - Troca de Material"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "Carne Pisoteada de Medo",
+   "desc": "Pó que compõe os Titâneos do Conflito. Um material bruto utilizado para aprimoramentos.",
+   "lore": "A maré da morte varre o mundo, e gigantes do ódio e do rancor emergem do Rio das Almas. Todos temem e se encolhem diante dessa legião esculpida em pedra.<br /><br />\"A carnificina é a pedra da qual o medo é talhado.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "Titâneo",
+    "Bestas Crepusculares",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Recompensas de Atribuição",
+    "Troca de Brasas",
+    "Sintetizador Omni - Troca de Material",
+    "Cálice (Dourado)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 58.08,
+   "attackAdd": 2.904,
+   "hpBase": 211.2,
+   "hpAdd": 10.56,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 81.312,
+   "attackAdd": 2.904,
+   "hpBase": 295.68,
+   "hpAdd": 10.56,
+   "defenseBase": 36.96,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 104.544,
+   "attackAdd": 2.904,
+   "hpBase": 380.16,
+   "hpAdd": 10.56,
+   "defenseBase": 47.52,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 5837183,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 127.776,
+   "attackAdd": 2.904,
+   "hpBase": 464.64,
+   "hpAdd": 10.56,
+   "defenseBase": 58.08,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 5837183,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 151.008,
+   "attackAdd": 2.904,
+   "hpBase": 549.12,
+   "hpAdd": 10.56,
+   "defenseBase": 68.64,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 5837183,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 174.24,
+   "attackAdd": 2.904,
+   "hpBase": 633.6,
+   "hpAdd": 10.56,
+   "defenseBase": 79.2,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 5837183,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 197.472,
+   "attackAdd": 2.904,
+   "hpBase": 718.08,
+   "hpAdd": 10.56,
+   "defenseBase": 89.76,
+   "defenseAdd": 1.32,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "3142931c0af37688395d9533d8a08f1111beb36c027c0b31ab8648a9c65aa16b",
+   "artPath": "0ed28045e55ef4939c3e3661a575d18a235b3b218a823bfed447a7c1be578f07",
+   "name": "O Frio Afia a Espinha de Aço",
+   "descHash": "Aumenta o multiplicador de Dano causado por \"Deicida, Torne-se Uma Divindade\" ao alvo principal em <nobr>#1[i]%</nobr>. Esta habilidade agora causa a todos os inimigos Dano Imaginário igual ao multiplicador de Dano causado ao alvo principal.",
+   "params": [
+    0.3
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "7afdaa91d6a6947d3d751f55cb0cb837c4335be467ed54669bb8721b9b8bdc7d",
+   "artPath": "945af934a45804cd48731848538b42873d4f1a67399b68b27fb1f62cb149bc6c",
+   "name": "O Conflito Observa o Lamurio dos Mortos",
+   "descHash": "Durante \"Vingança\", o Dano causado por Mydei ignora <nobr>#1[i]%</nobr> da DEF dos inimigos-alvo. Depois de receber cura, converte <nobr>#2[i]%</nobr> do valor curado em Carga. O total de Carga convertida não pode exceder <nobr>#3[i]</nobr> ponto(s). A contagem total de Carga do efeito é reiniciada após qualquer unidade agir.",
+   "params": [
+    0.15,
+    0.4,
+    40
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "artPath": "ba4e548b8f3c5844a6f4426d03617ceb4db3384df880c7876350add1c6d5fcc6",
+   "name": "A Honra Exalta o Festejo da Fé",
+   "descHash": "Nv. da Perícia +2, até no máximo Nv. <nobr>15</nobr>.<br />Nv. do ATQ Básico +1, até no máximo Nv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "bbf8c8a8f888b41ef8d51301f82220e4f9e59b07fb588c12486d4118c7fc2698",
+   "artPath": "e71c89c0df5164bf0d2284df48f880ba1b9c48d6ad33a13c28534781e3f33226",
+   "name": "O Alarme Desperta o Leão Lacônico",
+   "descHash": "Enquanto estiver em \"Vingança\", aumenta o Dano CRIT em <nobr>#2[i]%</nobr> e restaura PV em <nobr>#1[i]%</nobr> dos PV máximos desta unidade após receber ataques de inimigos-alvo.",
+   "params": [
+    0.1,
+    0.3
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "88a249e8ce52e06737d841ea4409d2593600c197a8bbaff166f61c639048b3b0",
+   "artPath": "cd51c9d2dd5fb529e2a71628c9376d37602defedd555e4ccbf2a9083d4128948",
+   "name": "Os Cinzéis da Guerra Moldam a Carne Ardente",
+   "descHash": "Nv. da Perícia Suprema +2, até no máximo Nv. <nobr>15</nobr>.<br />Nv. do Talento +2, até no máximo Nv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "94466068c90ed94dfbd392752d34d0d0bf925dcf9f2169bbe0207d18d5246532",
+   "artPath": "47fa61e360e67b19b381ebe034ae53c13d76b4473c9e8b4e1b529db60d0a929a",
+   "name": "O Legado Escala a Montanha de Sangue",
+   "descHash": "Ao entrar na batalha, entra imediatamente no estado de \"Vingança\" e reduz a Carga necessária para \"Deicida, Torne-se Uma Divindade\" em <nobr>#1[i]</nobr> ponto(s).",
+   "params": [
+    100
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   15652427
+  ],
+  [
+   15369342,
+   15681016,
+   32450730
+  ],
+  [
+   15645282
+  ],
+  [
+   15363990
+  ],
+  [
+   15720925
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Alvo Único",
+   "descHash": "Causa Dano <span style=\"color:#F4D258;\">Imaginário</span> em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> dos PV máximos de Mydei a um inimigo-alvo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 15652427,
+   "name": "Promessa da Viagem",
+   "iconPath": "c9c9562a7474341571d77ef0351b18dab0f0fc0399a1fcd43fe212944711cd54",
+   "typeDescHash": "ATQ Básico",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Explosão",
+   "descHash": "Consome PV em um valor igual a <nobr>#3[i]%</nobr> dos PV atuais de Mydei. Causa Dano <span style=\"color:#F4D258;\">Imaginário</span> igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> dos PV máximos de Mydei a um inimigo designado e Dano <span style=\"color:#F4D258;\">Imaginário</span> igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> dos PV máximos de Mydei aos alvos adjacentes.<br />Se os PV atuais não forem suficientes, o uso da Perícia reduz os PV atuais de Mydei para 1.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "30",
+   "id": 15369342,
+   "name": "Morrer Mil Vezes Sem Arrependimentos",
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "typeDescHash": "Perícia",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.45,
+      0.25,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.495,
+      0.275,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.54,
+      0.3,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.585,
+      0.325,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.63,
+      0.35,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.675,
+      0.375,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.73125,
+      0.40625,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7875,
+      0.4375,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84375,
+      0.46875,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.945,
+      0.525,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.99,
+      0.55,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.035,
+      0.575,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.08,
+      0.6,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.125,
+      0.625,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Explosão",
+   "descHash": "Restaura PV em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> dos PV máximos de Mydei e acumula <nobr>#5[i]</nobr> ponto(s) de Carga do Talento. Causa Dano <span style=\"color:#F4D258;\">Imaginário</span> em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> dos PV máximos de Mydei a um inimigo designado e Dano <span style=\"color:#F4D258;\">Imaginário</span> em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> dos PV máximos de Mydei aos alvos adjacentes. Adicionalmente, aplica \"Provocação\" ao alvo e aos alvos adjacentes, durando por <nobr>#4[i]</nobr> rodada(s). O próximo uso de \"Deicida, Torne-se Uma Divindade\" prioriza atacar um inimigo designado, e esse efeito só funciona no alvo mais recente.",
+   "ultimateCost": 160,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 15645282,
+   "name": "Trono de Ossos",
+   "iconPath": "85574955bfef55f0647ddfa0325293c8ed2928af5a1f713d0853380fe1beb825",
+   "typeDescHash": "Perícia Suprema",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.96,
+      0.6,
+      0.15,
+      2,
+      20
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.024,
+      0.64,
+      0.155,
+      2,
+      20
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.088,
+      0.68,
+      0.16,
+      2,
+      20
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.152,
+      0.72,
+      0.165,
+      2,
+      20
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.216,
+      0.76,
+      0.17,
+      2,
+      20
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.28,
+      0.8,
+      0.175,
+      2,
+      20
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36,
+      0.85,
+      0.18125,
+      2,
+      20
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      0.9,
+      0.1875,
+      2,
+      20
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52,
+      0.95,
+      0.19375,
+      2,
+      20
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6,
+      1,
+      0.2,
+      2,
+      20
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.664,
+      1.04,
+      0.205,
+      2,
+      20
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.728,
+      1.08,
+      0.21,
+      2,
+      20
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.792,
+      1.12,
+      0.215,
+      2,
+      20
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.856,
+      1.16,
+      0.22,
+      2,
+      20
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.92,
+      1.2,
+      0.225,
+      2,
+      20
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Aprimoramento",
+   "descHash": "Para cada 1% de PV perdidos, acumula 1 ponto de Carga (até um máximo de <nobr>200</nobr> pontos). Quando a Carga chega a <nobr>100</nobr>, consome <nobr>100</nobr> pontos de Carga para entrar no estado de \"Vingança\", restaura PV em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> dos PV máximos de Mydei e Avança Adiante a ação em <nobr>100%</nobr>. Enquanto o estado de \"Vingança\" estiver ativo, os PV máximos aumentam em um valor igual a <nobr>#5[i]%</nobr> dos PV máximos atuais e a DEF se mantém em 0. No início da rodada desta unidade, usa automaticamente \"Regicida, Torne-se Rei\".<br />Quando a Carga atinge <nobr>#3[i]</nobr> pontos durante o estado de \"Vingança\", Mydei ganha imediatamente 1 rodada extra e usa automaticamente \"Deicida, Torne-se Uma Divindade\".<br />Ao receber um golpe fatal durante o estado de \"Vingança\", Mydei não será derrubado, mas sua Carga será zerada, saíra do estado de \"Vingança\" e seus PV serão restaurados em um valor igual a <nobr>#4[i]%</nobr> dos seus PV máximos.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15363990,
+   "name": "Sangue por Sangue",
+   "iconPath": "b7ecc9cd2b68ea3eaed5135fad9c02f0684ad31a101438926bd89b3a7d2147b4",
+   "typeDescHash": "Talento",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.16,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.17,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.19,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2125,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2375,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.25,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.26,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.27,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.28,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.29,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0,
+      150,
+      0.5,
+      0.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 15348655,
+   "name": "Ataque",
+   "iconPath": "c9c9562a7474341571d77ef0351b18dab0f0fc0399a1fcd43fe212944711cd54",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Incapacitação",
+   "descHash": "Após usar a Técnica, puxa os inimigos dentro de uma certa área e inflige \"Confusão\" neles por <nobr>#1[i]</nobr> segundo(s). Inimigos em estado de \"Confusão\" não atacarão ativamente os aliados-alvo.<br />Atacar ativamente inimigos em estado de \"Confusão\" para entrar em batalha, causa Dano <span style=\"color:#F4D258;\">Imaginário</span> igual a <nobr>#2[i]%</nobr> dos PV máximos de Mydei a todos os inimigos, e aplica \"Provocação\" aos alvos, durando por <nobr>#4[i]</nobr> rodada(s). Esta unidade acumula <nobr>#5[i]</nobr> ponto(s) de Carga do Talento.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 15720925,
+   "name": "Jaula da Lança Estilhaçada",
+   "iconPath": "52f30a7b77af7dd15eab5e059e33bb93305cdea630d485652c7679afc3f9c401",
+   "typeDescHash": "Técnica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      10,
+      0.8,
+      1,
+      1,
+      50
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Explosão",
+   "descHash": "Consome PV em um valor igual a <nobr>#3[i]%</nobr> dos PV atuais de Mydei. Causa Dano <span style=\"color:#F4D258;\">Imaginário</span> em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> dos PV máximos de Mydei a um inimigo e Dano <span style=\"color:#F4D258;\">Imaginário</span> em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> dos PV máximos de Mydei a alvos adjacentes.<br />Se os PV atuais não forem suficientes, usar a Perícia reduz os PV atuais de Mydei para 1.<br />Esta habilidade será usada automaticamente.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "30",
+   "id": 15681016,
+   "name": "Regicida, Torne-se Rei",
+   "iconPath": "0b152323e024121f47f517213b0c47b62994b627e5b7c1c31ba3ffb0c49e463f",
+   "typeDescHash": "Perícia",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.55,
+      0.33,
+      0.35
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.605,
+      0.363,
+      0.35
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.66,
+      0.396,
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.715,
+      0.429,
+      0.35
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.77,
+      0.462,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.825,
+      0.495,
+      0.35
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.89375,
+      0.53625,
+      0.35
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9625,
+      0.5775,
+      0.35
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.03125,
+      0.61875,
+      0.35
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1,
+      0.66,
+      0.35
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.155,
+      0.693,
+      0.35
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.21,
+      0.726,
+      0.35
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.265,
+      0.759,
+      0.35
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.32,
+      0.792,
+      0.35
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.375,
+      0.825,
+      0.35
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Explosão",
+   "descHash": "Consome <nobr>#3[i]</nobr> ponto(s) de Carga. Causa Dano <span style=\"color:#F4D258;\">Imaginário</span> em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> dos PV máximos de Mydei a um inimigo e Dano <span style=\"color:#F4D258;\">Imaginário</span> em um valor igual a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> dos PV máximos de Mydei a alvos adjacentes.<br />Esta habilidade será usada automaticamente. Enquanto esta habilidade estiver em uso, Carga não pode ser acumulada.",
+   "ultimateCost": 0,
+   "break": "90/hit",
+   "energy": "10",
+   "id": 32450730,
+   "name": "Deicida, Torne-se Uma Divindade",
+   "iconPath": "34293babd46f0fdcff472b33fdbfa2356870c1c4cc02aa3813a3b14de18f5624",
+   "typeDescHash": "Perícia",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.4,
+      0.84,
+      150
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.54,
+      0.924,
+      150
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.68,
+      1.008,
+      150
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.82,
+      1.092,
+      150
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.96,
+      1.176,
+      150
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.1,
+      1.26,
+      150
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2.275,
+      1.365,
+      150
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.45,
+      1.47,
+      150
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.625,
+      1.575,
+      150
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.8,
+      1.68,
+      150
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.94,
+      1.764,
+      150
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.08,
+      1.848,
+      150
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.22,
+      1.932,
+      150
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.36,
+      2.016,
+      150
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.5,
+      2.1,
+      150
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1404101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1404204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 7856718,
+          "name": "Bônus de VEL",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+          "statusList": [
+           {
+            "key": "VEL",
+            "value": 2,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920207,
+            "count": 3
+           },
+           {
+            "id": 20170864,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 7549118,
+        "name": "Bônus de Dano CRIT",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "Dano CRIT",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920207,
+          "count": 3
+         },
+         {
+          "id": 20170864,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7816850,
+      "name": "Bônus de PV",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Enquanto estiver no estado de \"Vingança\", Mydei não sairá do estado de \"Vingança\" ao receber um Golpe Fatal. Este efeito pode ser ativado <nobr>#1[i]</nobr> vez(es) por batalha.",
+    "ultimateCost": 0,
+    "id": 7930452,
+    "name": "Terra e Água",
+    "iconPath": "df299901cf3074bebfe15cd708ef647deb78f07ac4ddae480deb1914677e5f06",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1404207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 7633013,
+          "name": "Bônus de Dano CRIT",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+          "statusList": [
+           {
+            "key": "Dano CRIT",
+            "value": 0.08
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836266,
+            "count": 3
+           },
+           {
+            "id": 20389475,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 7835235,
+        "name": "Bônus de PV",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "PV",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836266,
+          "count": 3
+         },
+         {
+          "id": 20389475,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7593053,
+      "name": "Bônus de Dano CRIT",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "Dano CRIT",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Enquanto estiver no estado de \"Vingança\", Mydei é imune a Penalidades de Controle Negativo.",
+    "ultimateCost": 0,
+    "id": 8204354,
+    "name": "Trinta Tiranos",
+    "iconPath": "59a25367fb0f2a31a5b8ee8717edf86d9be257142e4bfefde95afc24c6d6d679",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1404208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1404209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 7603236,
+        "name": "Bônus de PV",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "PV",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1404210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 24179113,
+        "name": "Bônus de Dano CRIT",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "Dano CRIT",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 7350792,
+      "name": "Bônus de VEL",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "VEL",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "No início da batalha, se os PV máximos de Mydei excederem <nobr>#1[i]</nobr>, para cada <nobr>100</nobr> PV excedentes, sua Chance de CRIT aumenta em <nobr>#3[f1]%</nobr>, sua taxa de Carga gerada pelo Dano dos inimigos-alvo aumenta em <nobr>#4[f1]%</nobr> e sua Cura Recebida aumenta em <nobr>#5[f2]%</nobr>. Até <nobr>#2[i]</nobr> PV excedentes podem ser considerados para este efeito.",
+    "ultimateCost": 0,
+    "id": 7956081,
+    "name": "Quíton Ensanguentado",
+    "iconPath": "1e9d1fe49c86f21a7bd55de6a88e4cac578c659e93c40d6e744790d9b5aec300",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       4000,
+       4000,
+       0.012,
+       0.025,
+       0.0075
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1404201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 7509123,
+    "name": "Bônus de Dano CRIT",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+    "statusList": [
+     {
+      "key": "Dano CRIT",
+      "value": 0.053
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Primeiro Encontro",
+   "text": "Eu sou o príncipe herdeiro de Kremnos, \"Mydeimos\", e também o guerreiro de Okhema, \"Mydei\". Se quiser me conhecer melhor, me observe em combate ou lute comigo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Cumprimento",
+   "text": "Hm.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Despedida",
+   "text": "Tudo bem, tchau.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Sobre Si: Passado",
+   "text": "Minha memória mais antiga é de lutar contra a escuridão no Abismo. Isso aconteceu porque a antiga Majestade de Kremnos, sob o pretexto de uma profecia, me lançou no Mar das Almas como sacrifício aos Titãs. Porém, após nove invernos, este meu corpo emergiu do Mar... Até mesmo a própria Ceifa já o havia abandonado.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Sobre Si: Pólis Sagrada",
+   "text": "No passado, nunca imaginei que acabaria unindo forças com as nações inimigas de Kremnos e travando guerras por todo o mundo. Okhema é uma pólis próspera, mas... não pode ser o lar de todos.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Sobre Si: Futuro",
+   "text": "Diga às futuras gerações que cumprirei minha promessa: protegerei Kremnos até derramar minha última gota de sangue. Observem com atenção. Não será a maré negra que me devorará. Eu serei aquele que a esmagará.",
+   "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"Passagem, Revele o Passado Mais Uma Vez\".",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Bate-Papo",
+   "text": "Lanças e espadas forjadas em chamas também se desgastam com a corrosão do tempo. No campo de batalha, a única coisa em que posso confiar é neste corpo imortal.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Interesses: Nutrição",
+   "text": "Um corpo forte e uma mente sã precisam de uma boa nutrição. Aprender a manejar os ingredientes e cozinhar do jeito certo é uma lição indispensável para qualquer guerreiro.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Interesses: Suco de Romã",
+   "text": "Sempre que tomo hidromel com meu povo, é como se eu bebesse em nossa terra natal e nossas memórias marcadas em vermelho vivo. Mas, se você adicionar um pouco de queijo... seu corpo ficará mais saudável.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Irritações",
+   "text": "Castrum Kremnos e Okhema têm estado em conflito há muito tempo. Uma lança pode perfurar o rei inimigo, mas não pode resolver os rancores profundos do povo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Uma Curiosidade",
+   "text": "No Festival de Kremnos, não importa sua origem, o vencedor ganha o direito de desafiar o rei. O antigo rei se aproveitou dessa regra para tirar a vida do meu avô e tomar o trono, mas acabou caindo por causa dela. Um ciclo digno de pena...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Conhecimento",
+   "text": "Na história de Kremnos, há uma lenda sobre trezentos guerreiros que se mantiveram firmes diante da maré negra. Hoje, eles talvez tenham caído ou sido corrompidos, mas enquanto restar ao menos uma pessoa, eles não esquecerão que a verdadeira morte não é a \"morte\" em si, mas o abandono da honra.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "Sobre a Aglaea",
+   "text": "Nos reunimos sob a direção da Aglaea, não por sua astúcia, mas porque há um fogo ardente em seus olhos gelados que está destinado a se incendiar.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "Sobre a Tribbie, Trianne e Trinnon",
+   "text": "A profecia da senhora Tribios não é apenas sobre o que está destinado, mas sobre a força da esperança. Nesta era despedaçada, acredite em suas escolhas e lute com todo o seu ser.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "Sobre o Phainon",
+   "text": "Já o enfrentei várias vezes, lutando por dias e noites a fio, sem nenhum sair vencedor. Conheço a força desse homem e, por isso, ele é digno de me ajudar.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "Sobre a Castorice",
+   "text": "A Serva da Morte de Aidonia... ela tem o destino de carregar a Chama Primordial de Thanatos. Espero que, ao fim da maré negra, do outro lado do suave vento do oeste, haja também um mar de flores.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "Sobre o Anaxa",
+   "text": "Eu ouvi mais de uma dúzia de pecados atribuídos a ele, mas um certo bom aluno do Bosque adora falar sobre como esse erudito é um professor incrível... Qualquer um capaz de deixar uma impressão tão forte nele é provavelmente alguém que eu também gostaria.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "Ativação de Eidolon",
+   "text": "Eu usarei a ira da humanidade para despojar as divindades de sua autoridade.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "Ascensão de Personagem",
+   "text": "Esta jornada é forjada com sangue e chamas.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "Nível Máximo Alcançado",
+   "text": "O Conflito não cessará com a vitória.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "Ativação de Rastro",
+   "text": "Cada padrão carrega uma marca de sangue do passado.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "Entrou na Equipe com Desbravador/Desbravadora",
+   "text": "Clame, pois a vitória está a caminho.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "Entrou na Equipe com Tribbie",
+   "text": "Para trás, eu sozinho sou o bastante.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "Entrou na Equipe com Aglaea",
+   "text": "Veja com seus próprios olhos o que significa ter \"um poder capaz de rivalizar com todas as terras\"!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "Entrou na Equipe com Castorice",
+   "text": "Que a morte forje a glória dos guerreiros.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "Entrou na Equipe com Anaxa",
+   "text": "Sua reputação te precede. O campo de batalha, que está em contante mudança, é também um lugar onde o conhecimento faz a diferença.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "Início da Batalha: Quebra de Fraqueza",
+   "text": "Seu fracote... use toda a sua força!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "Início da Batalha: Alerta de Perigo",
+   "text": "Vamos ver quem restará no final.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "Começo de Rodada - 1",
+   "text": "Vamos, me mostre a sua coragem.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "Começo de Rodada - 2",
+   "text": "Não poupe esforços, deixe que este lugar seja palco da glória!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "Rodada Ociosa",
+   "text": "Anda, mexa-se! Não deixe nosso fervor morrer.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "ATQ Básico",
+   "text": "Coberto de falhas!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "Perícia - 1",
+   "text": "Queimem tudo!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "Perícia - 2",
+   "text": "Amaldiçoado para sempre!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "Perícia Aprimorada - 1",
+   "text": "A ira cairá sobre você!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "Perícia Aprimorada - 2",
+   "text": "Conquiste todas as terras!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "Ao Receber um Ataque Leve",
+   "text": "Tão insignificante.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "Ao Receber um Ataque Pesado",
+   "text": "Que barulhento!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "Perícia Suprema: Ativar",
+   "text": "Alma moribunda, venha me enfrentar!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "Perícia Suprema: Liberar",
+   "text": "Eu permito que você aceite sua punição!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "Talento 1",
+   "text": "Sangue de Kremnos, flua adiante!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "Talento 2",
+   "text": "Escutem meu rugido. Eu sou o Conflito!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "Ao Ficar Fora de Combate",
+   "text": "Acabou...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "Ao Voltar à Batalha",
+   "text": "Hunf, a morte me rejeita.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "Ao Recuperar PV",
+   "text": "Eu não posso morrer, mas... obrigado.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "Técnica",
+   "text": "Renda-se, ou morra!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "Ao Vencer uma Batalha",
+   "text": "Os ventos do combate nunca param de soprar.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "Abrindo Tesouro - 1",
+   "text": "Você pode ficar com isso. Considere como sua recompensa.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "Abrindo Tesouro - 2",
+   "text": "Pegue isso e compre armaduras novas para sua tribo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "Abrindo Tesouro Precioso",
+   "text": "Hmm... Nada mal, eu aceito.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "Enigma Solucionado - 1",
+   "text": "Na língua Kremnoana, não existe a palavra \"recuar\".",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "Enigma Solucionado - 2",
+   "text": "Problemas são resolvidos com ações, esse é o princípio mais básico.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 77,
+   "title": "Alvo Inimigo Encontrado",
+   "text": "Certo, te darei a honra de morrer em batalha.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 78,
+   "title": "Voltando à Cidade",
+   "text": "O vento selvagem traz consigo o cheiro de ferrugem...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Detalhes de Personagem",
+   "text": "Kremnos, a pólis do caos e da guerra envolta de névoa! Sua linhagem real está contaminada pelo patricídio, e sua divindade leva o nome da calamidade.<br />O imortal Mydeimos, o leão independente dos demais. O Herdeiro de Chrysos que busca a Chama Primordial do Conflito deve sofrer mil mortes, ser banhado em sangue no caminho para casa e suportar sozinho a loucura do destino.<br />- Regicida, torne-se rei, deicida, torne-se uma divindade. Cascos de ferro atravessam a natureza selvagem para a campanha e, eventualmente, devem absorver o sangue de sua terra natal.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "História de Personagem: Parte I",
+   "text": "\"Nas antigas lendas das pólis costeiras, diz-se que o Mar das Almas gerou seres tão poderosos quanto divindades. Os pescadores falam de um rei dos mares que aparece entre as ondas como uma criança, com um semblante feroz e lábios azulados, banhando-se nas águas geladas do Mar das Almas, lutando com suas feras selvagens, sedento por sangue, devorando carne e ossos.<br /><br />Diz-se que cada vez que ele afundam até as profundezas do mar, ele logo ressurge do Mar das Almas. Ao longo de aproximadamente nove anos, ele reforjou-se nada menos do que dez mil vezes, tornando-se capaz de despedaçar um monstro gigante, manchando o mar de vermelho por quilômetros, mas nenhuma criatura marinha carnívora ousava se aproximar.<br /><br />As lendas falam de como o rei dos mares poderia varrer inúmeros peixes e camarões para a praia com um simples movimento da cauda. Certa vez, os pescadores náufragos que rezavam por salvação foram resgatados pelo rei juntamente com a sua tripulação. À medida que as histórias se tornavam mais fantásticas, os pescadores começaram a pintar o rei nos seus barcos, na esperança de que isso lhes garantisse uma viagem segura.<br /><br />Rumores surgiram afirmando que esse suposto rei dos mares é o espírito vingativo do príncipe herdeiro Mydeimos. Em pânico com a profecia que carregava, seu pai, o antigo rei, o lançou no Mar das Almas ao nascer. Sua vida interrompida, a criança morreu com suas mágoas por resolver, jurando purgar o Mar das Almas. No entanto, o escritor acredita que isso seja apenas os astutos Kremnoanos tentando se glorificar, por três motivos:<br /><br />Primeiro, embora os Kremnoanos tradicionalmente se envolvam em lutas entre pai e filho, onde o vencedor se torna rei, por que eles jogariam um príncipe herdeiro recém-nascido no mar?<br />Segundo, mesmo que o Rei Euriponte de Kremnos, já velho e senil, tenha acreditado na profecia e sacrificado seu herdeiro ao mar, como poderia um bebê possuir força divina para batalhar contra monstros gigantes?<br />Terceiro, mesmo que tal criança existisse, ele dificilmente poderia ser Kremnoano. Por que um Kremnoano, que é um povo conhecido por sua natureza egoísta e brutal, ajudaria pescadores atingidos por desastres?<br />Queridos leitores, agora revelarei a verdade: o suposto rei dos mares<br />- naturalmente, ele é a personificação do próprio oceano!\"<br /><br /><align=\"right\">- Trecho de \"Investigação sobre a Lenda do Poderoso Rei dos Mares\"<br />arquivado na coleção da Biblioteca Gibranipar</align><br /><br />\"Forte.\"<br /><align=\"right\">- Caligrafia de um homem</align>",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>20</nobr> de Personagem"
+  },
+  {
+   "title": "História de Personagem: Parte II",
+   "text": "\"O exército solitário emite um forte cheiro de sangue, como uma lança ensanguentada. O guerreiro líder, a ponta da lança, está sempre envolto em uma raiva e um ódio incomensuráveis, avançando em direção ao inimigo.<br /><br />De Ladon, passando por Aidonia, até Aenionus, ele retornou da morte vez após vez, deixando infernos imponentes de guerra em seu rastro. Na infame Batalha de Aenionus, o invicto Klytius levantou seu machado massivo enquanto milhares de flechas escureciam o céu atrás dele. No entanto, quando a fumaça se dissipou e o fogo se ergueu do chão banhado em sangue, o punho do guerreiro avançou como uma lança, abrindo a garganta de Klytius.<br /><br />Após aquela batalha épica, a verdadeira identidade do guerreiro se tornou ainda mais elusiva. Aquele exército claramente exibia as marcas do treinamento Kremnoano, mas nunca havia empunhado a bandeira de Kremnos. Ninguém sabe se são espíritos Kremnoanos vagando pelo campo de batalha ou almas perdidas que há muito tempo se afastaram de sua pátria.<br /><br />Bardos errantes transformaram a jornada do exército solitário em canções lamuriantes, enquanto nos ventos com sabor de ferrugem de Amphoreus, o leão solitário liderava um grupo de soldados velhos e fracos enquanto vagavam, em busca de uma pátria inexistente.<br /><br />A realidade nunca alterará seu semblante devido à crueldade. Os outrora cidadãos de elite de Kremnos que o seguiam eram leais, mas mortais, faltando-lhes a imortalidade divina dele. Com o passar do tempo, e até mesmo as divindades de Kremnos sucumbindo à loucura, como poderia a humanidade esperar saber para onde deveria ir?<br /><br />Será que aquele homem orgulhoso e solitário carregará o peso do Destino de seu povo sozinho? Ele se prenderá às correntes da realeza? Ou tudo não passou de um desejo vazio de sua parte...\"<br /><br /><align=\"right\">— Trecho de \"Uma História das Guerras de Amphoreus\"<br />arquivado na coleção da Biblioteca Gibranipar</align><br /><br />\"Heféstio, Pérdicas, Leonius, Ptolomeu, Peucestas... seus nomes não serão esquecidos pela história.\"<br /><align=\"right\"> — Caligrafia de um homem</align>",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>40</nobr> de Personagem"
+  },
+  {
+   "title": "História de Personagem: Parte III",
+   "text": "\"Mydeimos! Seu traiçoeiro intrometido, seu covarde que abandonou o espírito de Kremnos!<br /><br />Você matou o antigo rei e teve sua vingança, mas negligenciou o dever de restaurar a dinastia. Sua honra foi completamente engolida pelos monstros do Mar das Almas?<br />Você vaga entre aqueles que perseguem as chamas, influenciado pelos contos selvagens de uma bruxa, fazendo amizade com soldados plebeus. Você escolhe confiar em oráculos evasivos em vez de confiar em sua força!<br />Os Kremnoanos anseiam por voltar à sua terra natal devastada pela guerra, mas você nos incita a nos estabelecer na pólis de nossos inimigos jurados. Você se apaixonou pela opulência de Okhema, ou já foi enfeitiçado pelas névoas que sobem de seus banhos dourados?<br /><br />Mydeimos! Você, com sua essência nobre e imortal, como pode se submeter àquela mulher de Okhema? Você é um predador, um mensageiro do Conflito. Você perdeu a noção da diferença entre predador e presa?<br /><br />Dizem os rumores que você salvou os estrangeiros dos Titâneos de Nikador ao lado de quem reivindica o manto dos Herdeiros de Chrysos. Naquela interminável Longa Noite, você deixou seu corpo se estilhaçar, ensanguentado e tomado pela loucura.<br />Mydeimos! Seu sangue nobre não deveria ser desperdiçado com tais indivíduos indignos! Você deveria estar reunindo suas tropas e saqueando recursos para abrir um caminho para a sobrevivência de Kremnos nestes tempos apocalípticos!<br /><br />Essa suposta Jornada de Perseguição às Chamas distorceu você e te tornou irreconhecível, meu rei! Um rei não precisa de iguais, aliados, dúvidas, nem salvação. Se você ainda possuir algum vestígio de clareza em sua mente, comande-nos!<br />Permita que a glória de Kremnos eclipse todas as outras pólis!\"<br /><br /><align=\"right\">— Trecho de \"Compilado de Decisões do Conselho dos Anciões de Kremnos\"<br />arquivado na coleção da Biblioteca Gibranipar</align><br /><br />\"Continue em frente.\"<br /><align=\"right\">— Caligrafia de um homem</align>",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>60</nobr> de Personagem"
+  },
+  {
+   "title": "História de Personagem: Parte IV",
+   "text": "\"A pólis sagrada de Okhema continua sendo uma das últimas terras puras intocadas pela maré negra. No entanto, o cerco da maré negra ao seu redor se tornou inconfundivelmente claro.<br /><br />Por mil anos, onde quer que a maré negra tenha se espalhado, a vida foi distorcida em monstruosidades desumanas, e as pólis foram corroídas pelo vento até se tornarem ruínas desoladas. Até mesmo uma fortaleza como Kremnos viu suas divindades corrompidas pela maré negra, deixando apenas terras devastadas em seu rastro.<br /><br />A maioria das Chamas Primordiais havia sido restaurada. No entanto, à medida que a maré negra se aproximava, nos vimos desesperadamente sem tempo. Tudo o que alcançamos terá sido em vão caso Okhema caia antes da Era Nova.<br /><br />O autor ousadamente especulou que, em breve, os heróis que perseguem as chamas inevitavelmente enfrentariam uma batalha decisiva contra a maré negra. Os registros históricos mostraram que nem mesmo os guerreiros mais valentes podiam suportar muito tempo dentro da maré negra. Entre os heróis dos Herdeiros de Chrysos, se houvesse alguma esperança para esta batalha, ela estaria sobre o destemido Phainon ou cairia nas mãos de Mydeimos.<br /><br />Isso não aconteceu apenas porque Mydeimos, considerado o mais corajoso deste mundo, carregava um destino que desafiava a morte, nem somente porque a antiga pólis de Kremnos ocupava um ponto estratégico contra a maré negra. Mesmo que Mydeimos, como o leão de Kremnos, tivesse migrado inúmeras vezes em sua vida e, por fim, se estabelecido longe de seu local de nascimento, o rei solitário nunca se submeteria a um governo estrangeiro. Depois de estabelecer seu povo, Mydeimos, que via sua missão como sua própria vida, sem dúvida retornaria para casa. No entanto, desta vez, ele carregava não apenas as esperanças dos Kremnoanos, mas também o futuro de todo o mundo.<br /><br />Os sacerdotes de Talanton uma vez profetizaram que o milênio do Conflito que começou em Kremnos também encontraria seu fim lá. Talvez, um dia, aquela figura eterna enfrente a maré negra, suspensa entre a vida e a morte. Imagine uma cena dessas, uma tragédia tão profunda...\"<br /><br /><align=\"right\">— Trecho de \"Observações da Perseguição às Chamas: Relatório Especial sobre a Maré Negra\"<br />arquivado na coleção da Biblioteca Gibranipar</align><br /><br />\"Assim como o Mar das Almas, como sempre foi.\"<br /><align=\"right\">— Caligrafia recente de um homem</align>",
+   "unlockRequirement": "Desbloqueia no Nível <nobr>80</nobr> de Personagem"
+  }
+ ],
+ "archive": {
+  "cvCn": "赵成晨",
+  "cvJp": "阿座上洋平",
+  "cvKr": "안효민",
+  "cvEn": "Gabriel Warburton",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "15369342": 2,
+    "15652427": 1,
+    "15681016": 2,
+    "32450730": 2
+   },
+   "5": {
+    "15363990": 2,
+    "15645282": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "name": "Mydei",
+ "rarity": 5,
+ "descHash": "Kremnos, a pólis do caos e da guerra envolta de névoa! Sua linhagem real está contaminada pelo patricídio, e sua divindade leva o nome da calamidade. O imortal Mydeimos, o leão independente dos demais. O Herdeiro de Chrysos que busca a Chama Primordial do Conflito deve sofrer mil mortes, ser banhado em sangue no caminho para casa e suportar sozinho a loucura do destino. - Regicida, torne-se rei, deicida, torne-se uma divindade. Cascos de ferro atravessam a natureza selvagem para a campanha e, eventualmente, devem absorver o sangue de sua terra natal.",
+ "artPath": "7d1c2afaad21e9530d0cdae4a45e5dac16fa3f0d3090b4db462ee34aa800937f",
+ "miniIconPath": "d65549800df726accd4553ad7380abec44f29ce4c7d40fb9f4fc49b7269a8c00",
+ "damageType": {
+  "id": 64,
+  "iconPath": "c94859ea8f2bb3f3ba61bd9d9aec35660e7f16ffa91705e51e1258c118bdaff2",
+  "color": "#F4D258",
+  "name": "Imaginário",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "altIconPath": "64028c66965b78960c898ea3117321ca2503409c39e962e81aeb911a58b320cb",
+  "color": "#FFFFFF",
+  "name": "A Destruição",
+  "rarity": 0
+ },
+ "pageId": "mydei"
+}

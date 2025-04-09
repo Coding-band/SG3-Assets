@@ -1,0 +1,4906 @@
+{
+ "spRequirement": 0,
+ "iconPath": "0755251be6e370916344ea61e5e0514c7a24d23e388e76c0d949e62436d22bcf",
+ "bgPath": "d05e5d6a52a89e83512e36128d618b04a2263abf7d52741dc13c4bc4ac55ede4",
+ "figPath": "3b8cdf2b1d118e92e3ff661c0f122cf5c000c697a836015568f6d2a82e86bf59",
+ "fgPath": "f0d26e7d0c8b4ab43d0f5af22450e8373ae9cc200a3c4c378637f0ae988cd506",
+ "splashIconPath": "5310780d610c5dfd43199c0d6a65c64d5a527fd6db0d932e3a61ff7e557b4003",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRpQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAsBAAABkGtr27E59/t9Y9vT2UbrmTjpnANgOes/hdi2rS6VXU8V26mM733vu3i/5BgiYgIQa8LQGPghYgP4ZX17z55cWQAYD0jKW7Zz3z1JujcrCwYoSMzb91qSaG2kr1eqEGBAkqLIOZJ0f5SAweRvWkeSIkWrmyFa71pSEiWRdFoFs/Sxoy9KEp3mI3nyi0hR/4y0G+mrf4qk4kmnW8nBFsbGUHR61lV4WZ58inR6N1p39Y8lSUkUvTejtWfe/3T6H+rdjOLEvc8RSYoUrbN6WBOOnXvzyyNp5Z8GBg+/lrORr+jB6y/HqxBUF0//oPipMZSWILbx0u+pA9vWb1iUAQDGAAhauxpSEBvAGAAAVlA4IGIBAABwCACdASoUABQAPm0ylEekIqIhKAgAgA2JZgCdMt1eDcBtpfEz/QD3irJDJU/4wfoj0Ut9V/YAMEXAOvQeFpgeW4zEx2nk7WO7GNYAAP7h0VJGJb2IvEafudORcytqy2ZuxLgjELJT1PuyYmVjcCBlKNxGw8oarwpSu4Ci0mb9hIqiXanSCRNH2GwifuOX11BG90mVGoH0sN+ox2gkLKHMdEDNdsRgXA7m7+GoQP/m90yS5NK1+yJk9eY/Yrc6h4ExhqmBOlfsxzwQQQxM33pIpGPC1PzvusVk06Eolybdz/PeRG43FBoCcMsXFT/hq3LisQ+ljb6CR3i1eAisBqtWSN7NIOH405xf1sKVx/xUl21sFJ6pWF8VTFRHiyhm+LFr56bGSRvAm4lXP94Xo2t9iyS5wslDud2EY8IYLEx1+w6ySjq1o9femOlFWNNNgqLhPXhPlwFOQIgojDO3EYQAAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Calice du Bosquet de l'épiphanie, le Bois des murmures",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Échange de braises immortelles"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Voies de la destinée",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "La victoire s'acquiert au terme de nombreux échecs, et chaque pas conduit à l'instant décisif.",
+   "purpose": "Matériau de Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Récompenses de points de l'Univers simulé",
+    "Honneur des Sans Noms",
+    "Échange de braises immortelles",
+    "Lumières d'étoile",
+    "Récompense d'événement à durée limitée"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Guide du voyageur",
+   "desc": "Matériau d'EXP de personnage. Confère <nobr>20</nobr> <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Lecture indispensable à l'exploration des mondes. Appuyez sur le bouton de lecture pour activer une voix agréable, dans une langue de votre choix qui vous racontera les rencontres légendaires d'aventuriers de renom à travers différents mondes, ainsi que la sagesse précieuse et les connaissances qui en découlent.<br /><br />« La nouvelle série du Guide du voyageur, \"Le manuel du chef de la cuisine galactique\" est désormais disponible en magasin. »<br />« Pour toute question, connectez-vous à la balise de synesthésie ERD<nobr>-23</nobr>θ et contactez un représentant de la Guilde de l'intelligentsia. Facilités de paiement disponibles. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Salle oubliée"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Journal d'aventure",
+   "desc": "Matériau d'EXP de personnage. Confère 5 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un ensemble bien classé de notes d'aventure édifiantes, avec d'innombrables illustrations et commentaires exhaustifs, sans oublier de précieuses informations relatives à des techniques de survie.<br /><br />« Pourquoi ne pas les numériser et les sauvegarder sur un disque photolithique ? Ce serait tellement plus pratique. »<br />« La technologie de pointe est bien plus fragile qu'on ne le pense face aux tempêtes stellaires et aux éruptions de flux neuronaux. Et puis, l'auteur voulait sûrement que la lecture soit la plus simple possible. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Entraînement quotidien",
+    "Échange de braises immortelles"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Rencontres de voyage",
+   "desc": "Matériau d'EXP de personnage. Confère 1 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un carnet de voyage parsemé de commentaires et de contenus divers griffonnés. Il ne vous sera pas très utile.<br /><br />« Dan Heng, dépêche-toi de lire ça pour t'en débarrasser. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Récompense d'affectation"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "Plume de bon augure",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "Ce n'est qu'au moment précis avant que ne sonne la mort, lorsque le temps s'arrête, que l'œil humain peut apercevoir la silhouette éthérée de ces plumes de l'esprit. Spiritus ou la Chimère volante constitue l'entité la plus rapide des sept visages de l'Archer de la destinée.<br /><br />« Après avoir passé sept jours à la traquer, j'ai en fait compris qu'elle vivait en mon corps. »",
+   "purpose": "Matériau de Trace",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "Écho de la guerre du Fendeur des cieux"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Gémissement retentissant",
+   "desc": "Carapace brisée des Créatures de la Marée noire. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "Des têtes étranges rugissent, des lames brisées continuent de couper, pendant que la source du chaos se dissimule toujours dans l'ombre, enveloppée dans les brumes de la mort.<br /><br />« Pourquoi pleures-tu seul devant la pierre tombale ? »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "Créatures de la Marée noire au niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Présage éthéré",
+   "desc": "Fragment de Créature de la Marée noire. Matériau commun utilisé pour le renforcement.",
+   "lore": "Les désastres arrivent sans crier gare, et quand vous vous en rendez compte, ils sont déjà devenus des désastres qui engloutissent le monde.<br /><br />« Les cloches sonnent pour la fin du destin. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "Créatures de la Marée noire",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Récompenses d'affectation",
+    "Échange de braises",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Lamentation éternelle",
+   "desc": "Cristal formé après la mort de Créatures de la Marée Noire. Matériau avancé utilisé pour le renforcement.",
+   "lore": "Née du néant et destinée à y retourner, cette vie distordue par l'érosion erre sans fin sur des terres désolées.<br /><br />« Son existence n'est que ruine et souffrance. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "Créature de la Marée noire au niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "6103825": {
+   "id": 6103825,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
+   "name": "Lumière de lune voilée",
+   "desc": "Une couronne étrange, laissée par le Pégase sélène. Permet l'élévation des personnages de type quantique.",
+   "lore": "Dans une légende nocturne, Oronyx aurait un jour dérobé l'éclat du soleil pour l'offrir à la lune, tandis que les Pégases transportaient la lumière de la lune pour s'assurer que la terre brille toujours pendant le sommeil d'Aquila.<br /><br />« Comment l'éclat pâle de la lune pourrait-il rivaliser avec celui du soleil ? »",
+   "purpose": "Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/6103825",
+   "comeFrom": [
+    "Ombre stagnante du Bosquet de l'épiphanie, le Bois des murmures",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "Pousse de mana",
+   "desc": "Les cellules mémorielles extraient les pensées qui grandissent et se propagent dans le cœur de celui qui grave la mémoire. Permet d'améliorer modérément les Traces des personnages du <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Souvenir</span>.",
+   "lore": "Les graines s'enracinent et poussent. Les branches et les bourgeons s'entrelacent et transmettent des signaux comme un réseau neuronal. Au fil des années, certaines se fanent et disparaissent, tandis que d'autres prospèrent et deviennent suffisamment fortes pour transmettre la vie et former le réceptacle d'une âme.<br /><br />« Nous n'avons pas abandonné la chair. Nous avons simplement pris la forme de quelque chose de plus... pérenne. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "Calice d'« Acrokopis, les Ruines du Conflit »",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "Fleur d'Ālaya",
+   "desc": "C'est une autre forme d'existence de la vie et une substance que l'univers ne peut oublier. Permet d'améliorer considérablement les Traces des personnages du <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Souvenir</span>.",
+   "lore": "Elle mûrit. Elle devient une toile qui rassemble l'histoire, une fleur du passé. La vie est son parterre de fleurs ou son pistil. Si vous devenez le pistil, alors vous vous souvenez de l'univers et l'univers se souvient de vous. Vous êtes la mémoire. <br /><br />« La mémoire est la véritable forme de toute chose, il n'y a donc ni création ni annihilation dans la terre pure d'Anāśrava. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "Calice d'« Acrokopis, les Ruines du Conflit »",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "Bīja de la conscience",
+   "desc": "Née de la fusion entre matière et conscience pure, elle nourrit l'embryon de la mémoire. Permet d'améliorer légèrement les Traces des personnages du <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Souvenir</span>.",
+   "lore": "Cet objet n'existe pas vraiment tant qu'on ne l'a pas vu, entendu ou ressenti. Cette existence née de sensations se tait bientôt, enfouie dans le sol de la pensée ; peut-être qu'elle germera un jour, peut-être pas.<br /><br />« C'est la substance dont nos corps sont faits et dont l'existence est possible par tes souvenirs. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "Calice d'« Acrokopis, les Ruines du Conflit »",
+    "Braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 71.28,
+   "attackAdd": 3.564,
+   "hpBase": 221.76,
+   "hpAdd": 11.088,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 99.792,
+   "attackAdd": 3.564,
+   "hpBase": 310.464,
+   "hpAdd": 11.088,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 128.304,
+   "attackAdd": 3.564,
+   "hpBase": 399.168,
+   "hpAdd": 11.088,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 156.816,
+   "attackAdd": 3.564,
+   "hpBase": 487.872,
+   "hpAdd": 11.088,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 3.564,
+   "hpBase": 576.576,
+   "hpAdd": 11.088,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 213.84,
+   "attackAdd": 3.564,
+   "hpBase": 665.28,
+   "hpAdd": 11.088,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 242.352,
+   "attackAdd": 3.564,
+   "hpBase": 753.984,
+   "hpAdd": 11.088,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "6a5c18ec9109a2f709bd15f24e877c76e8d0f1a31984168fca3c6ecbe53c1942",
+   "artPath": "19f587931e9ee2769b20bab19b749c19831b1ee3d57d7437c42078d5d8e65782",
+   "name": "Demoiselle des terres glacées",
+   "descHash": "Lorsque les PV actuels de la cible ennemie sont inférieurs ou égaux à <nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr> des PV max de cette unité, les DGT infligés par Étreinte du dragon funeste, Griffe lacérante de ténèbres, Souffle des ombres et Ailes ravageuses de ruines sont équivalents à <nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr> des DGT initiaux.",
+   "params": [
+    0.8,
+    0.5,
+    1.2,
+    1.4
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "58cd19c645bc9f26062fbf41e01a22a2de1421e475935c5e91203eea51d185eb",
+   "artPath": "b92a49e0c7a9f81e2f8411e19006d335c39ff8e61ec2f688ae7ed76fbb48baaa",
+   "name": "Couronne des ailes battantes",
+   "descHash": "Après avoir invoqué le mnémesprit Aile du néant, Castorice obtient <nobr>#1[i]</nobr> cumuls d'Ardeur des flammes. Castorice peut bénéficier d'un maximum de <nobr>#2[i]</nobr> cumuls d'Ardeur des flammes, et ces cumuls peuvent être utilisés pour compenser la consommation de PV d'Aile du néant lors de l'utilisation de la compétence du mnémesprit Souffle des ombres tout en <u>avançant l'action</u> de Castorice de <nobr>100</nobr> %. Lors de la prochaine utilisation de la compétence renforcée, Castorice obtient un nombre de points de Nouvelle pousse équivalent à <nobr>#3[i]%</nobr> des points de Nouvelle pousse maximum.",
+   "params": [
+    2,
+    2,
+    0.3
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "62139b57457b743de37c387c5dbbe87f3a36e8187aa7bc7e2056d3f79de4d6c2",
+   "artPath": "fc1089d44ed0ed93f2d6651f85d8f90b003db56da1c8b3ac3a6c7b0fbb04c5ec",
+   "name": "Pèlerinage au royaume des morts",
+   "descHash": "Niv. de l'ultime +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. de l'ATQ normale +1, jusqu'au Niv. <nobr>10</nobr> maximum.<br />Niv. de talent du mnémesprit +1, jusqu'au Niv. <nobr>10</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "1d2b97b152b80e2d6fa36313751acde00a1c5cd28a061ae31effaa7985d83bf9",
+   "artPath": "b0e60d52b49a5caadff3ff2ace9aca430af5be20b1dc3ab55f361b662a04e8ee",
+   "name": "Repos de l'élégie",
+   "descHash": "Lorsque Castorice est sur le champ de bataille, les soins reçus par tous les alliés augmentent de <nobr>#1[i]%</nobr> lors de la restauration de PV.",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "artPath": "e6dac543e995312ea1add1d089f5f730eadb68f5924515db50ab4eed2f9a4061",
+   "name": "Nouveau chapitre de la prophétie",
+   "descHash": "Niv. de la compétence +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. du talent +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. de compétence du mnémesprit +1, jusqu'au Niv. <nobr>10</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3e42ac5a714b0240b24763ee6ca4c29b3f298ce86f4b74d5efcab15c455289e0",
+   "artPath": "a3d148d335af4aaa7ef8726d19975cbcf1e0ff67a82e3f21d51d8449deba5ee7",
+   "name": "Déferlement du temps",
+   "descHash": "Lorsque Castorice ou Aile du néant infligent des DGT, la <u>PÉN de RÉS</u> quantique augmente de <nobr>#1[i]%</nobr>. Lorsqu'Aile du néant attaque, il peut ignorer le type de faiblesse et réduire la robustesse des ennemis. Lorsqu'il déclenche une Rupture de faiblesse, l'effet de Rupture de faiblesse quantique s'active, et le nombre de rebonds de son talent Ailes ravageuses de ruines augmente de <nobr>#2[i]</nobr>.",
+   "params": [
+    0.2,
+    3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   12091651
+  ],
+  [
+   12285822,
+   12465910
+  ],
+  [
+   12526956
+  ],
+  [
+   12262238
+  ],
+  [
+   12554901
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Cible unique",
+   "descHash": "Inflige des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> des PV max de Castorice à un ennemi désigné.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12091651,
+   "name": "Oscillations de la mer du néant",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "ATQ normale",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Propagation",
+   "descHash": "Consomme <nobr>#1[i]%</nobr> des PV actuels de tous les alliés pour infliger des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> des PV max de Castorice à un ennemi désigné et des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> de ses PV max aux cibles adjacentes.<br />Si les PV actuels sont insuffisants, réduit les PV actuels à 1.<br />Si Aile du néant est sur le champ de bataille, cette capacité est remplacée par Étreinte du dragon funeste.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12285822,
+   "name": "Caresse du papillon",
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.3,
+      0.25,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.275,
+      0.165
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.3,
+      0.18
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.325,
+      0.195
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.35,
+      0.21
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.375,
+      0.225
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.40625,
+      0.24375
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.4375,
+      0.2625
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.46875,
+      0.28125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.5,
+      0.3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.525,
+      0.315
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.55,
+      0.33
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.575,
+      0.345
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.6,
+      0.36
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.625,
+      0.375
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Invocation",
+   "descHash": "<u>Invoque le mnémesprit</u> Aile du néant, <u>avance son action</u> de <nobr>100</nobr> % et déploie le <u>territoire</u> Royaume du néant qui réduit toutes les RÉS de type de tous les ennemis de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>. Si Castorice bénéficie de l'effet d'augmentation de DGT de son talent, il s'applique également à Aile du néant. Aile du néant possède une VIT initiale de <nobr>#1[i]</nobr> et des PV max fixés à <nobr>#3[i]%</nobr> du maximum de points de Nouvelle pousse.<br />Aile du néant disparaît après <nobr>#2[i]</nobr> tours ou lorsque ses PV tombent à 0. Lorsqu'il disparaît, le <u>territoire</u> Royaume du néant se dissipe.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12526956,
+   "name": "Rugissement de l'apocalypse",
+   "iconPath": "70cd5e879fb5addfffc0c7f2f9a5d91f931d0ba2179490181293155501e90225",
+   "typeDescHash": "Ultime",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1,
+      0
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.11,
+      0
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.12,
+      0
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.13,
+      0
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.14,
+      0
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.15,
+      0
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1625,
+      0
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.175,
+      0
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1875,
+      0
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.2,
+      0
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.21,
+      0
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.22,
+      0
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.23,
+      0
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.24,
+      0
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.25,
+      0
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Renforcement",
+   "descHash": "Le maximum de points de Nouvelle pousse dépend des niveaux de tous les personnages présents sur le champ de bataille. Pour chaque PV perdu par un allié, Castorice obtient 1 point de Nouvelle pousse. Lorsque Nouvelle pousse atteint son nombre de points maximum, l'ultime de Castorice peut être déclenché. Lorsqu'un allié perd des PV, les DGT infligés par Castorice et Aile du néant augmentent de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. Cet effet peut être cumulé jusqu'à <nobr>#3[i]</nobr> fois et dure <nobr>#4[i]</nobr> tours.<br />Lorsqu'Aile du néant est sur le champ de bataille, Castorice ne peut plus obtenir de points de Nouvelle pousse via son talent et les PV perdus par tous les alliés (à l'exception d'Aile du néant) sont convertis en un montant équivalent de PV pour Aile du néant.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12262238,
+   "name": "Désolation des paumes",
+   "iconPath": "228e1a89a2978c60476f6309964e57a365441bfac1a443706e45d252ab91c04e",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0,
+      0.1,
+      3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.11,
+      3,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.12,
+      3,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.13,
+      3,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.14,
+      3,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.15,
+      3,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1625,
+      3,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.175,
+      3,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1875,
+      3,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.2,
+      3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.21,
+      3,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.22,
+      3,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.23,
+      3,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.24,
+      3,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.25,
+      3,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Attaque un ennemi et réduit sa robustesse au type correspondant en entrant en combat.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12303521,
+   "name": "Attaque",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Après avoir utilisé la technique, entre dans l'état Brouillard du néant pendant <nobr>#3[i]</nobr> secondes. Tant que le Brouillard du néant est actif, les ennemis ne peuvent pas s'approcher activement de Castorice.<br />Attaquer volontairement un ennemi dans l'état Brouillard du néant engage le combat contre tous les ennemis à portée, <u>invoque le mnémesprit</u> Aile du néant, avance son action de <nobr>100</nobr> % et crée le <u>territoire</u> Royaume du néant. Aile du néant commence avec un montant de PV équivalent à <nobr>#2[i]%</nobr> du maximum de points de Nouvelle pousse. D'autre part, consomme <nobr>#1[i]%</nobr> des PV actuels de tous les alliés en début de combat (à l'exception d'Aile du néant).<br />Si Aile du néant n'est pas invoqué après l'entrée en combat, Castorice obtient un montant de points de Nouvelle pousse équivalent à <nobr>#4[i]%</nobr> du maximum de points de Nouvelle pousse.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12554901,
+   "name": "Prélude à la mort",
+   "iconPath": "52a338de9ce8e043c60882c1407caca640c8b260e28f6cc5de1d68f2db942637",
+   "typeDescHash": "Technique",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.5,
+      20,
+      0.3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "ZdE",
+   "descHash": "Consomme <nobr>#1[i]%</nobr> des PV actuels de tous les alliés (à l'exception d'Aile du néant) pour que Castorice et Aile du néant lancent une <u>ATQ conjointe</u> sur les cibles, qui inflige des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> et <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> des PV max de Castorice à tous les ennemis.<br />Si les PV actuels sont insuffisants, réduit les PV actuels à 1.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12465910,
+   "name": "Étreinte du dragon funeste",
+   "iconPath": "9706a28240e969d9fe4d3575f73422344bb8066fb856bc841555bc087d19faed",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.15,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.165,
+      0.275
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.18,
+      0.3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.195,
+      0.325
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.21,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.225,
+      0.375
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.24375,
+      0.40625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.2625,
+      0.4375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.28125,
+      0.46875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.3,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.315,
+      0.525
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.33,
+      0.55
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.345,
+      0.575
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.36,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.375,
+      0.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1407101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1542891,
+      "name": "Augmentation des DGT critiques",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "DGT CRIT",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1300735,
+      "name": "Augmentation des chances de coup critique",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Chances de coup critique",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Après qu'un allié (à l'exception d'Aile du néant) a reçu des soins, <nobr>#1[i]%</nobr> de la valeur de ces soins sont convertis en points de Nouvelle pousse. Si Aile du néant est sur le champ de bataille, les soins sont convertis en PV d'Aile du néant à la place. La valeur convertie pour chaque cible alliée ne peut excéder <nobr>#2[i]%</nobr> de la limite maximum de Nouvelle pousse. La valeur de conversion cumulée par toutes les unités est réinitialisée après chaque action d'une unité alliée.",
+    "ultimateCost": 0,
+    "id": 885030,
+    "name": "Marée noire confinée",
+    "iconPath": "2eb19a53b226e83162e67661a9edaa0bb35a68ad0e9932cd8474983103b4a812",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1322499,
+      "name": "Augmentation des DGT quantiques",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "Augm. des DGT quantiques",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1080336,
+      "name": "Augmentation des chances de coup critique",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Chances de coup critique",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Lorsque les PV actuels de Castorice sont supérieurs ou égaux à <nobr>#1[i]%</nobr> de ses PV max, sa VIT augmente de <nobr>#2[i]%</nobr>. Lorsqu'Aile du néant utilise Souffle des ombres pour infliger un coup fatal à tous les ennemis sur le champ de bataille ou qu'il réduit au maximum leurs PV, la VIT d'Aile du néant augmente de <nobr>#3[i]%</nobr> pendant 1 tour.",
+    "ultimateCost": 0,
+    "id": 636727,
+    "name": "Torche inversée",
+    "iconPath": "ce7293434a82dfaf3b4972f4f3977ed1f9b82326ee316f43cc99bea9def49f96",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       0.4,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1407209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1407210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 18145452,
+          "name": "Augmentation des chances de coup critique",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "Chances de coup critique",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 3526997,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 1085508,
+        "name": "Augmentation des DGT quantiques",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+        "statusList": [
+         {
+          "key": "Augm. des DGT quantiques",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 1327658,
+      "name": "Augmentation des DGT critiques",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "DGT CRIT",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 3526997,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Chaque fois qu'Aile du néant utilise Souffle des ombres, les DGT qu'il inflige augmentent de <nobr>#1[i]%</nobr>. Cumulable jusqu'à <nobr>#2[i]</nobr> fois et dure jusqu'à la fin de ce tour.",
+    "ultimateCost": 0,
+    "id": 875201,
+    "name": "Aux confins du vent d'ouest",
+    "iconPath": "022fee3a2fb0aed2db5df8d55534cedb10f6792ae204eee68305a6eeeb0b0a5b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1407202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1529520,
+      "name": "Augmentation des DGT quantiques",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "Augm. des DGT quantiques",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1287390,
+      "name": "Augmentation des chances de coup critique",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Chances de coup critique",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 1245350,
+    "name": "Augmentation des chances de coup critique",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "Chances de coup critique",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Première rencontre",
+   "text": "Bienvenue à Okhema. Je suis Castorice. Pardon, j'ai l'habitude de garder mes distances avec les autres... Je peux me rapprocher si tu veux.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Salutation",
+   "text": "Tu as froid ? Que dirais-tu d'une promenade sous le soleil ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Au revoir",
+   "text": "Les adieux arrivent toujours si vite... Puissent nos chemins ne jamais s'arrêter...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Anecdote personnelle : Rôle",
+   "text": "Mon rôle est d'offrir un dernier hommage aux Héritiers chryséens et aux Titans disparus. J'espère qu'ils passeront les derniers instants de leur existence à contempler une mer de fleurs paisible plutôt qu'une obscurité sans fin.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Anecdote personnelle : Passé 1",
+   "text": "J'ai longtemps erré seule, comme un papillon solitaire ne sachant où voler... Peut-être que c'est grâce à la Chasse aux flammes et à mes amis d'Okhema, ou peut-être que ce sont les gens que j'ai rencontrés en chemin qui m'ont aidée à trouver la direction de mon prochain battement d'ailes.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Anecdote personnelle : Passé 2",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « Image miroir de la sorcière ».",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Bavardage",
+   "text": "J'aime bien me mettre dans la peau des personnages quand je lis. Par exemple, je ne suis pas douée pour la cuisine, mais quand je lis des recettes, je peux m'imaginer en train de cuisiner... C'est incroyable, non ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Passe-temps",
+   "text": "Chaque fois que je vois quelque chose de mignon, j'ai envie de le transformer en peluche... La laine feutrée est parfaite pour capturer les formes, tandis que la laine douce et le coton donnent un toucher plus agréable. Je ne sais pas que faire des animaux... Je peux faire la pièce d'argent de Zagreus ou des œufs de dollo frits avec différentes expressions... Je passe toujours une bonne nuit quand je les serre dans mes bras.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Problèmes",
+   "text": "J'aimerais adopter deux petites chimères, pour que je puisse plonger mon visage dans leur fourrure chaude, et courir avec elles dans les plaines... Mais... Ce n'est pas possible, alors je vais juste fabriquer deux autres chimères en peluche à la place.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Fait notable",
+   "text": "À Aidonia, on tissait de belles couronnes de fleurs avec les anthélines bleu nuit. On les plaçait sur la tête des soldats tombés au combat, avant de les regarder flotter sur la Rivière des âmes... Jour après jour, encore et encore...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Connaissances",
+   "text": "Les murmures d'un soldat nostalgique, les berceuses d'une mère pour apaiser son enfant, la dernière lettre d'une jeune fille à son bien-aimé... À chaque cérémonie funéraire, je reçois un nouveau souvenir laissé par ceux qui nous ont quittés. Ce sont des fragments de la chaleur qu'ils ont connue de leur vivant.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "À propos de Pionnier/Pionnière",
+   "text": "Lorsque les fleurs refleuriront, n'oublie pas notre promesse si nous avons la chance de nous revoir dans le nouveau monde.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "À propos de Polyxia",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « Image miroir de la sorcière ».",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "À propos d'Aglaé",
+   "text": "Seule une main suffisamment froide peut s'emparer de la flamme divine... Dame Aglaé l'a sûrement compris depuis longtemps.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "À propos de Tribbie, Trianne et Trinnon",
+   "text": "Tout le monde rêve de se libérer de sa chrysalide pour s'envoler vers l'immensité du ciel comme un papillon, mais elles ont été les seules à... choisir de retourner dans leur cocon, pour permettre la renaissance de ce monde.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "À propos de Mydei",
+   "text": "La mort engendrée par le Conflit est souvent marquée par la douleur et l'obscurité, mais le Seigneur Mydei accorde à ses ennemis une mort glorieuse et brillante.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "À propos de Phaénon",
+   "text": "Plus quelqu'un essuie de pertes, plus son désir de récupérer ce qui était sien devient inébranlable... C'est peut-être pour cette raison qu'il guidera l'humanité jusqu'à la fin.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "À propos d'Anaxa",
+   "text": "Il m'a dit un jour que je devais rester impassible, même face à la mort, et ne jamais laisser paraître mes peines. Ce n'est que plus tard que j'ai compris que « s'exercer à la mort » était le thème central de toute son existence.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "À propos de Hyacine",
+   "text": "Elle a beau avoir assisté à tant d'atrocités, les souffrances incurables la touchent toujours aux larmes... Mais elle les laisse toujours à la porte des patients, car elle veut être un soleil rayonnant dans la vie des gens.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "À propos de Cipher",
+   "text": "C'est une demi-déesse depuis longtemps. Ses pensées sont mystérieuses, et ses allées et venues encore plus insaisissables... Elle n'a de cesse de se plaindre que la Chasse aux flammes la laissera sans rien, mais on sent que ses paroles cachent un fardeau indicible.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "Activation d'Eidolon",
+   "text": "Même dans le froid mordant de l'autre rive, le parfum des fleurs sera toujours là.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "Élévation de personnage",
+   "text": "Regardez, la lumière arrive.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "Niveau max atteint",
+   "text": "Tout change et se transforme, la vie et la mort se suivent... La fin est également un commencement.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "Activation de Trace",
+   "text": "L'empreinte que nous laissons dans ce monde perdure bien plus longtemps que la mort.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "Rejoint l'équipe avec Pionnier/Pionnière",
+   "text": "Ne t'inquiète pas, sur le champ de bataille, ma malédiction est également une bénédiction.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "Rejoint l'équipe avec Aglaé",
+   "text": "Ne vous en faites pas, Dame Aglaé, je vais mettre un terme à tout ceci au plus vite.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "Rejoint l'équipe avec Tribbie",
+   "text": "Reste à mes côtés, Tribbie.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "Rejoint l'équipe avec Mydei",
+   "text": "Seigneur Mydei, nous avons chacun une tâche à accomplir.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "Rejoint l'équipe avec Anaxa",
+   "text": "Qu'est-ce que vous allez nous enseigner cette fois-ci, professeur ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "Rupture de faiblesse en début de combat",
+   "text": "Bientôt... toi aussi, tu rejoindras l'Au-delà.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "Avertissement de danger en début de combat",
+   "text": "Le danger approche.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "Début du tour 1",
+   "text": "La vie n'est pas aussi fragile qu'une aile de papillon.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "Début du tour 2",
+   "text": "Il faut chérir le temps qu'il nous reste avant la mort.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "Tour inactif",
+   "text": "J'attendrai ici jusqu'à mes derniers instants.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "ATQ normale",
+   "text": "Dors en paix.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "Compétence 1",
+   "text": "Flétris-toi, ici et maintenant.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "Compétence 2",
+   "text": "Que ta volonté soit faite.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "Compétence renforcée 1",
+   "text": "Âmes errantes... retournez à la poussière.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "Compétence renforcée 2",
+   "text": "Les ténèbres sont avec moi.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "Attaque légère subie",
+   "text": "Ça va.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "Attaque lourde subie",
+   "text": "Ça pique un peu...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "Activation de l'ultime",
+   "text": "Embrasse ta nouvelle vie, Pollux.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "Déclenchement de l'ultime",
+   "text": "Que seule la Mort... nous protège !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "À terre",
+   "text": "Le vent d'ouest...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "Retour au combat",
+   "text": "Tant mieux... Ce n'est pas encore l'heure des adieux.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "Récupération de santé",
+   "text": "Je me souviendrai de cette chaleur.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "Technique",
+   "text": "Sors de ta chrysalide.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "Combat gagné",
+   "text": "Que les âmes errantes puissent enfin trouver leur propre voie.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "Ouverture de coffre 1",
+   "text": "Ah ! Il faut en prendre soin.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "Ouverture de coffre 2",
+   "text": "J'ai envie d'en faire quelque chose. Mais quoi...?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "Ouverture de coffre précieux",
+   "text": "Si on prenait une photo.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "Énigme réussie 1",
+   "text": "J'ai appris quelque chose.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "Énigme réussie 2",
+   "text": "J'ai déjà vu une énigme similaire dans un livre...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "Cible ennemie trouvée",
+   "text": "Attention, il y a quelque chose d'inquiétant droit devant.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "Retour en ville",
+   "text": "Cet endroit est empli du doux parfum des fleurs... On peut rester ici un peu plus longtemps ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Détails du personnage",
+   "text": "Aidonia, terre de neige qui vénère et révère la mort, s'est déjà laissée glisser dans un doux sommeil.<br />Ô Castorice, fille de la Rivière des âmes, Héritière chryséenne en quête de la flamme divine de la « Mort », mets-toi en route ! Protège la lamentation des âmes en ce monde, et embrasse la solitude du destin.<br />— La vie comme la mort sont voyage. Quand un papillon se pose sur cette branche morte, ce qui était fané renaît.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Histoire du personnage : Partie I",
+   "text": "Du plus loin qu'elle se rappelle, la neige n'avait jamais quitté Aidonia. Le temps semblait figé sur cette terre blanche et silencieuse.<br />Lorsqu'elle était enfant, elle avait un jour demandé à Amunet ce qu'était la neige ? Amunet avait répondu que la neige était la joie des retrouvailles et la tristesse des séparations.<br /><br />Elle passait ses journées à observer les habitants de la cité, perdue dans ses pensées.<br />Un petit guerrier venait s'entraîner chaque jour devant les portes du temple, un prêtre d'âge mûr s'assoupissait parfois, la tête lourde de prières, sous la tour, et non loin, un ascète partageait des galettes d'anthéline avec les enfants.<br />Au loin, des enfants se bousculaient joyeusement dans une bataille de boules de neige, leurs rires résonnaient dans son cœur comme des fruits mûrs tombant au sol.<br />Du haut de la tour, elle n'arrivait pas à distinguer leurs visages...<br /><br />La Demoiselle... ils ne l'appelaient ainsi que lorsqu'elle paraissait devant eux, et nul n'osait la regarder dans les yeux.<br />Elle rassembla son courage pour s'approcher, mais ils reculaient, baissant les yeux davantage. Elle ne parvenait toujours pas à les différencier.<br /><br />Ce n'est que lorsqu'ils se retrouvaient face à la mort ; le petit chevalier grièvement blessé au combat, le prêtre d'âge mûr rongé par des années de maladie, l'érudit ascète contaminé en soignant ses patients, que venait le moment où elle était le plus proche d'eux.<br />La vie n'était plus une lutte douloureuse, et ses doigts se transformaient en pétales dans le vent.<br />Quand elle eut enfin la chance de voir leurs visages, elle détourna le regard, incapable de supporter cette vision.<br /><br />« Il y a des mains faites pour semer, d'autres pour gouverner... Tu ne fais qu'accomplir ton devoir prédestiné, celui de séparer. »<br />Les paroles d'Amunet résonnaient à ses oreilles. Elle se demandait ce que ses mains pourraient laisser derrière elles.<br />Lorsqu'elle revint à elle, elle regardait une sculpture de glace inachevée dans ses mains. Les armes levées de jeunes guerriers, l'étreinte d'une mère et de son enfant partant pour la guerre, la tendre caresse sur les joues d'amants nostalgiques...<br />Ces personnes n'étaient plus là.<br />Mais ces scènes se répétaient, encore et encore. À l'intérieur de la tempête de neige, et au-delà...<br /><br />Elle comprit enfin que même la neige d'Aidonia finirait par fondre, tout comme chacun doit un jour marcher dans l'étreinte de la mort.<br /><br />« Nikolaos au sourire facile, la douce Helena<br />Et Crito, silencieux comme le vent...<br />La nuit, je prends dans mes mains<br />Ces noms perdus, ces souvenirs silencieux,<br />Et transforme les chagrins du jour<br />En chaleur bouillante immergée dans la neige et l'eau.<br />... »<br /><align=\"right\">— Poème intitulé « Aidonia » rédigé par une jeune fille</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>20</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie II",
+   "text": "Le jour où elle quitta Aidonia, elle entreprit un voyage pour rencontrer Thanatos, un voyage dont la destination lui était inconnue.<br /><br />Elle repoussa les créatures de la Marée noire et sauva des villages sur le déclin. Elle n'était plus la Demoiselle de la guerre d'Aidonia, mais elle gardait délibérément ses distances avec les autres, dissimulant ses mains. Pourtant, elle ne put résister aux regards étincelants des enfants. Quand elle prit l'aiguille et le fil pour la première fois, ce fut pour exaucer le dernier souhait d'un enfant qui voulait toucher une peluche.<br />Sur les champs de bataille où la mort rôdait, elle écrivait des lettres aux familles endeuillées des guerriers qui ne rentreraient pas. Auprès d'un poète orgueilleux, elle apprit même à composer des vers pour accompagner les défunts...<br />« La mort est une inévitable fatalité », « La mort est l'honneur du guerrier », « La mort n'est qu'un pas hors du temps »... Au fil de ce long voyage, elle entendit maintes réflexions, certaines directes, d'autres poétiques. Mais ces réponses glissaient comme la brise sur l'eau, effleurant à peine la surface sans jamais toucher son cœur.<br /><br />« Plus tard... j'ai entendu parler de la ville sainte baignée par l'aube, où l'espoir de vivre déborde, et je me suis dit que peut-être là-bas, je pourrais... »<br />La jeune fille hésita.<br />« Ne t'en fais pas, ce n'est pas grave si tu ne veux pas en parler maintenant. Tu es toujours la bienvenue à Okhema ! » La fille aux cheveux roux lui servit une tasse de thé chaud.<br />La dame aux cheveux dorés examina les gants de la jeune fille avec intérêt.<br />« Quel accessoire élégant, as-tu aussi appris à le confectionner pendant tes voyages ? <br />Elle entrelaça timidement ses doigts.<br />« Oui, je voulais... que les adieux soient plus solennels. »<br /><br />La lumière du soleil à Okhema était brûlante et radieuse, l'annonce incessante de l'Instrument de l'aube promettait des lendemains sans fin.<br /><br />À partir de cette petite cabane, elle commença prudemment sa seconde vie.<br />Cette pièce, autrefois vide, se para peu à peu des fragments de son quotidien : peluches en feutrine, coussins en forme de chimères et épais recueils de poèmes. Il ne s'agissait plus des symboles de tragédie, mais de cadeaux, de souvenirs et de bénédictions.<br />Les habitudes qu'elle avait autrefois pour les morts purent enfin, sous le soleil d'Okhema, donner naissance à la chaleur et la force.<br /><br />« Le paysage derrière cette fenêtre<br />Reste toujours le même.<br />Une lumière éclatante, de douces ondulations.<br />J'ai soufflé la neige sur mes mains,<br />Pour qu'elles ne soient pas trop froides, car le printemps était bien trop proche.<br />...<br /><align=\"right\">— Un poème intitulé « Printemps » rédigé par une jeune fille</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>40</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie III",
+   "text": "Elle savait que sa destination n'était pas la même que celle de ses compagnons de la Chasse aux flammes, mais elle commençait peu à peu à trouver ses propres instants chaleureux éphémères.<br />Guidée par le fil d'or, elle dansa maladroitement avec les autres pour la première fois. Dans ce jardin débordant de vie, elle confectionna des fleurs séchées avec Hyacine. Et le jour de sa remise de diplôme au Bosquet, la lumière du soleil drapa sa robe, projetant des ombres éparses qui ressemblaient à des ailes de papillon...<br /><br />Ces moments, qui pourraient sembler insignifiants aux yeux des autres, étaient comme le petit bois du feu qui lui permettrait de traverser ses années de solitude et de froid.<br />Elle aspirait à la chaleur, mais contenait aussi son impatience pour la même raison. Peut-être parce que le voyage de la Chasse aux flammes était jonché de pertes incessantes, peut-être parce qu'elle redoutait de revivre la cruauté du malheur... Tout comme ce cauchemar qui la hantait depuis si longtemps, qui se répétait inlassablement...<br /><br />Le soleil se couchait dans la paume de Képhale tandis qu'un crépuscule aux couleurs sanguines dévorait l'aube dans la ville sainte.<br />La Marée noire déferla, et dans les thermes silencieux, la Tisseuse d'or l'étreignit pour la première fois. Seul le soupir épuisé de la tisseuse subsista dans la mer de fleurs.<br />« Mon \"amour\" ne s'éteindra pas face à la mort. »<br />« À demain, Cas. » Le messager en haillons se métamorphosa en peluche et s'effondra dans ses bras.<br />Elle tenta de saisir ces pétales qui s'éparpillaient, mais ce voleur agile lui attrapa la main, lui offrant sa dernière récompense.<br />« Rends-moi service, juste une fois. Qu'importe si nous défions la mort ! »<br />Le prêtre céleste baissa les yeux et disparut alors qu'il s'appuyait contre son épaule. Le prince héritier couvert de sang ferma les paupières, résigné face à son exécution. Le guerrier versa des larmes écarlates, son armure fracassée. Le philosophe du Bosquet sourit et l'invita à être l'ultime témoin.<br />À la fin du rêve, elle vit un voyageur interstellaire s'agenouiller et s'effondrer sous la voûte étoilée, confirmant sa plus terrible crainte...<br /><br />« Cassie, repose-toi un peu plus longtemps. »<br />Dans la salle d'hypnothérapie de la Cour du crépuscule, les yeux du docteur étaient remplis d'inquiétude.<br />Elle essuya la sueur sur son front, comme si elle avait pris une décision résolue.<br />« Non... je ferai tout ce qui est en mon pouvoir pour que ce cauchemar ne se réalise jamais... »<br /><br />« Au début, les héros de la Chasse aux flammes suivaient des chemins distincts.<br />C'est une faible lueur qui nous a attirés les uns vers les autres,<br />Tels des papillons capables d'endurer la brûlure la plus intense.<br />Ce n'est pas parce que nous avons vu l'espoir que nous avons pris notre envol,<br />Mais c'est en prenant notre envol que nous avons découvert l'espoir.<br />... »<br /><align=\"right\">— Poème intitulé « Chasse aux flammes » rédigé par une jeune fille</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>60</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie IV",
+   "text": "« Peut-être... que c'est mon dernier jour à Okhema. »<br />Au terme d'un périple douloureux, elle avait enfin trouvé la piste la menant vers l'Au-delà. Avant de s'aventurer vers ce point de non-retour, elle désirait contempler une dernière fois le monde autour d'elle.<br /><br />C'était les thermes des Héritiers chryséens.<br />Elle se rappelait comment Aglaé lui avait un jour offert, à travers l'épaisse brume de vapeur, une paire de gants qu'elle avait soigneusement réparés.<br />« Cas, tu as beaucoup changé par rapport à la première fois que nous nous sommes rencontrées. »<br />Elle effleura avec émerveillement les élégants motifs brodés sur les gants. Cette dirigeante, qui était d'habitude si détachée, lui sourit en lui faisant un clin d'œil.<br />« Même celle que je suis actuellement peut voir ton cœur brûlant sous le froid glacial... »<br /><br />C'était un jardin serein derrière une maison, façonné comme il apparaissait dans ses rêves.<br />Dans ce rêve chaotique, elle rencontrait souvent son autre moi. Elles labouraient et entretenaient le jardin ensemble, jusqu'à ce que le sol aride se transforme en un océan luxuriant de fleurs.<br />« J'aimerais pouvoir encore planter des graines d'espoir comme ça à l'avenir. »<br /><br />C'était le monument qu'elle avait érigé pour les vies autrefois perdues par sa faute.<br />Des défunts d'Aidonia aux Héritiers chryséens du périple de la Chasse aux flammes... Pendant plus d'un millénaire, elle tenta de se souvenir du nom et du passé de chacun d'eux.<br />« S'il y a quelqu'un qui s'en souvient encore, alors cette personne n'est pas vraiment morte. »<br /><br />C'était ici qu'elle avait rencontré Pionnier/Pionnière pour la première fois.<br />« Les rencontres sont des événements si miraculeux », pensait-elle. Les rues qui lui étaient si familières dans le passé avaient acquis une signification particulière grâce à quelqu'un d'autre.<br />« Madame, je vous promets de vous apporter de mes propres mains... »<br /><br />Alors que l'Heure du lever approchait, le moment du grand départ tant promis était imminent.<br />Sous le soleil brûlant, elle fit son premier et dernier vœu : avec cette vie glaciale et ardue comme point de départ, elle écrirait avec elle/lui—<br /><br />Un poème intitulé « Castorice » qui a pour point final une véritable étreinte.",
+   "unlockRequirement": "Disponible au niveau <nobr>80</nobr> de personnage"
+  }
+ ],
+ "archive": {
+  "cvCn": "阮从青",
+  "cvJp": "斎藤千和",
+  "cvKr": "이세레나",
+  "cvEn": "Melody Muze",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "12091651": 1,
+    "12526956": 2
+   },
+   "5": {
+    "12262238": 2,
+    "12285822": 2,
+    "12465910": 2
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "Pollux, Aile du néant",
+  "iconPath": "e647263d94fb08b7935fd02f3ab6ef71f15d747e5827a2c481af8de3a429f93f",
+  "teamIconPath": "5ffa09779d729af285aeae657381347d29e06f19956d20caa5e112c735fa3b24",
+  "skills": [
+   {
+    "id": 21319318,
+    "name": "Griffe lacérante de ténèbres",
+    "icon": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+    "tag": "ZdE",
+    "typeDesc": "Compétence du mnémesprit",
+    "skillDesc": "Inflige des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> des PV max de Castorice à tous les ennemis.",
+    "simpleSkillDesc": "Inflige des DGT quantiques mineurs à tous les ennemis.",
+    "levelData": [
+     {
+      "params": [
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21085318,
+    "name": "Souffle des ombres",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "ZdE",
+    "typeDesc": "Compétence du mnémesprit",
+    "skillDesc": "Utiliser Souffle des ombres consomme <nobr>#1[i]%</nobr> des PV max d'Aile du néant et inflige des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> des PV max de Castorice à tous les ennemis.<br />Souffle des ombres peut être utilisé plusieurs fois lors d'une même attaque, auquel cas le multiplicateur de DGT augmente progressivement jusqu'à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> / <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>. Une fois atteint <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>, il n'augmente plus. L'effet d'augmentation du multiplicateur de DGT ne diminue pas avant qu'Aile du néant disparaisse.<br />Lorsque les PV actuels d'Aile du néant sont inférieurs ou égaux à <nobr>#5[i]%</nobr> de ses PV max, utiliser cette capacité réduit automatiquement les PV à 1 puis déclenche des effets équivalents à ceux du talent Ailes ravageuses de ruines.",
+    "simpleSkillDesc": "Consomme les PV de cette unité pour infliger des DGT quantiques à tous les ennemis, sans mettre fin au tour. Lorsque cette capacité est utilisée de manière répétée, elle est renforcée jusqu'à 3 fois. Lorsque les PV sont inférieurs ou égaux à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>, utiliser cette capacité déclenche les effets du talent du mnémesprit Ailes ravageuses de ruines.",
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       0.12,
+       0.14,
+       0.17,
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.144,
+       0.168,
+       0.204,
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.168,
+       0.196,
+       0.238,
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.192,
+       0.224,
+       0.272,
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.216,
+       0.252,
+       0.306,
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.24,
+       0.28,
+       0.34,
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.264,
+       0.308,
+       0.374,
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.288,
+       0.336,
+       0.408,
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.312,
+       0.364,
+       0.442,
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.336,
+       0.392,
+       0.476,
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21359282,
+    "name": "Enveloppe du Cocon lunaire",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "Soutien",
+    "typeDesc": "Talent du mnémesprit",
+    "skillDesc": "Lorsqu'Aile du néant est sur le champ de bataille, il agit comme une <u>réserve de PV</u> pour les alliés. Lorsque les alliés subissent des DGT ou qu'ils consomment des PV, leurs PV ne peuvent pas descendre en dessous de 1, après quoi les PV consommés sont transférés à Aile du néant à hauteur de <nobr>#1[i]%</nobr> de la valeur initiale, et ce jusqu'à ce qu'Aile du néant disparaisse.",
+    "simpleSkillDesc": "Lorsqu'Aile du néant est sur le champ de bataille, il agit comme une <u>réserve de PV</u> pour les alliés. Les PV actuels des alliés ne peuvent pas descendre en dessous de 1, après quoi les DGT subis ou la consommation de PV sont transférés à Aile du néant.",
+    "levelData": [
+     {
+      "params": [
+       5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21235289,
+    "name": "Hurlement du royaume de la désolation",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "Soutien",
+    "typeDesc": "Talent du mnémesprit",
+    "skillDesc": "Augmente les DGT infligés par tous les alliés de <nobr>#1[i]%</nobr> pendant <nobr>#2[i]</nobr> tours lorsqu'Aile du néant est invoqué.",
+    "simpleSkillDesc": "Augmente les DGT infligés par tous les alliés lors de son invocation.",
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21001295,
+    "name": "Ailes ravageuses de ruines",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "Rebond",
+    "typeDesc": "Talent du mnémesprit",
+    "skillDesc": "À la disparition d'Aile du néant, inflige <nobr>#2[i]</nobr> instances de DGT, chaque instance infligeant des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> des PV max de Castorice à une unité ennemie aléatoire. D'autre part, restaure un montant de PV équivalent à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> des PV max de Castorice + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> à tous les alliés.",
+    "simpleSkillDesc": "Inflige <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span> instances de DGT quantiques mineurs à une unité ennemie unique en disparaissant, et restaure des PV à tous les alliés.",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4665228,
+    "name": "Souffle des ombres",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "ZdE",
+    "typeDesc": "Compétence du mnémesprit",
+    "skillDesc": "",
+    "simpleSkillDesc": "Consomme les PV de cette unité pour infliger des DGT quantiques à tous les ennemis, sans mettre fin au tour. Lorsque cette capacité est utilisée de manière répétée, elle est renforcée jusqu'à 3 fois. Lorsque les PV sont inférieurs ou égaux à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>, utiliser cette capacité déclenche les effets du talent du mnémesprit Ailes ravageuses de ruines.",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4397470,
+    "name": "Souffle des ombres",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "ZdE",
+    "typeDesc": "Compétence du mnémesprit",
+    "skillDesc": "",
+    "simpleSkillDesc": "Consomme les PV de cette unité pour infliger des DGT quantiques à tous les ennemis, sans mettre fin au tour. Lorsque cette capacité est utilisée de manière répétée, elle est renforcée jusqu'à 3 fois. Lorsque les PV sont inférieurs ou égaux à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>, utiliser cette capacité déclenche les effets du talent du mnémesprit Ailes ravageuses de ruines.",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4672104,
+    "name": "Ailes ravageuses de ruines",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "Rebond",
+    "typeDesc": "Compétence du mnémesprit",
+    "skillDesc": "Consomme tous les PV pour infliger <nobr>#2[i]</nobr> instances de DGT, chaque instance infligeant des DGT quantiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> des PV max de Castorice à une unité ennemie aléatoire. D'autre part, restaure un montant de PV équivalent à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> des PV max de Castorice + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> à tous les alliés.",
+    "simpleSkillDesc": "Consomme tous les PV pour infliger <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span> des DGT quantiques mineurs à une unité ennemie unique qui rebondissent <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span> fois, et restaure des PV à tous les alliés.",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    21319318,
+    21085318,
+    4665228,
+    4397470
+   ],
+   [
+    21359282,
+    4672104,
+    21001295,
+    21235289
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 1260323,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1260323,
+     "name": "Griffe lacérante de ténèbres",
+     "iconPath": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 1527261,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1527261,
+     "name": "Souffle des ombres",
+     "iconPath": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "name": "Castorice",
+ "rarity": 5,
+ "descHash": "Aidonia, terre de neige qui vénère et révère la mort, s'est déjà laissée glisser dans un doux sommeil. Ô Castorice, fille de la Rivière des âmes, Héritière chryséenne en quête de la flamme divine de la « Mort », mets-toi en route ! Protège la lamentation des âmes en ce monde, et embrasse la solitude du destin. — La vie comme la mort sont voyage. Quand un papillon se pose sur cette branche morte, ce qui était fané renaît.",
+ "artPath": "7dda65214d1d900469b62f8d88bd878b25bad0e9891a31b2230c3aa54da98aee",
+ "miniIconPath": "c5672716925ad2ab406feeb1d8be27f7fb240060d9f1eb6ad328d76c0a903bc0",
+ "damageType": {
+  "id": 32,
+  "iconPath": "71252cc6ee0b921565dfacfac027c84cf13f45cb3dad750bd047708afd5e74af",
+  "color": "#1C29BA",
+  "name": "Quantique",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "Le Souvenir",
+  "rarity": 0
+ },
+ "pageId": "castorice"
+}

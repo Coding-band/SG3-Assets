@@ -1,0 +1,4906 @@
+{
+ "spRequirement": 0,
+ "iconPath": "0755251be6e370916344ea61e5e0514c7a24d23e388e76c0d949e62436d22bcf",
+ "bgPath": "d05e5d6a52a89e83512e36128d618b04a2263abf7d52741dc13c4bc4ac55ede4",
+ "figPath": "3b8cdf2b1d118e92e3ff661c0f122cf5c000c697a836015568f6d2a82e86bf59",
+ "fgPath": "f0d26e7d0c8b4ab43d0f5af22450e8373ae9cc200a3c4c378637f0ae988cd506",
+ "splashIconPath": "5310780d610c5dfd43199c0d6a65c64d5a527fd6db0d932e3a61ff7e557b4003",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRpQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAsBAAABkGtr27E59/t9Y9vT2UbrmTjpnANgOes/hdi2rS6VXU8V26mM733vu3i/5BgiYgIQa8LQGPghYgP4ZX17z55cWQAYD0jKW7Zz3z1JujcrCwYoSMzb91qSaG2kr1eqEGBAkqLIOZJ0f5SAweRvWkeSIkWrmyFa71pSEiWRdFoFs/Sxoy9KEp3mI3nyi0hR/4y0G+mrf4qk4kmnW8nBFsbGUHR61lV4WZ58inR6N1p39Y8lSUkUvTejtWfe/3T6H+rdjOLEvc8RSYoUrbN6WBOOnXvzyyNp5Z8GBg+/lrORr+jB6y/HqxBUF0//oPipMZSWILbx0u+pA9vWb1iUAQDGAAhauxpSEBvAGAAAVlA4IGIBAABwCACdASoUABQAPm0ylEekIqIhKAgAgA2JZgCdMt1eDcBtpfEz/QD3irJDJU/4wfoj0Ut9V/YAMEXAOvQeFpgeW4zEx2nk7WO7GNYAAP7h0VJGJb2IvEafudORcytqy2ZuxLgjELJT1PuyYmVjcCBlKNxGw8oarwpSu4Ci0mb9hIqiXanSCRNH2GwifuOX11BG90mVGoH0sN+ox2gkLKHMdEDNdsRgXA7m7+GoQP/m90yS5NK1+yJk9eY/Yrc6h4ExhqmBOlfsxzwQQQxM33pIpGPC1PzvusVk06Eolybdz/PeRG43FBoCcMsXFT/hq3LisQ+ljb6CR3i1eAisBqtWSN7NIOH405xf1sKVx/xUl21sFJ6pWF8VTFRHiyhm+LFr56bGSRvAm4lXP94Xo2t9iyS5wslDud2EY8IYLEx1+w6ySjq1o9femOlFWNNNgqLhPXhPlwFOQIgojDO3EYQAAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用點",
+   "desc": "星際和平公司與客戶結算時使用的貨幣，如今已成爲太空旅行的硬通貨。",
+   "lore": "「人們奔波、爭鬥、貿易，爲的不過是個終端裏顯示的數字。但真正珍貴之物，公司的數字是買不到的。」",
+   "purpose": "通用貨幣",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "擬造花萼【大礦區】",
+    "擬造花萼【工造司】",
+    "擬造花萼【「白日夢」酒店-夢境】",
+    "擬造花萼【「囈語密林」神悟樹庭】",
+    "任務獎勵",
+    "委託獎勵",
+    "餘燼兌換"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "命運的足跡",
+   "desc": "行跡升級的高階素材。",
+   "lore": "一次又一次的敗北成就了你的勝利，一步又一步的前進讓你抵達了命運的拐點。",
+   "purpose": "行跡材料",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模擬宇宙」積分獎勵",
+    "無名勳禮",
+    "餘燼兌換",
+    "星芒兌換",
+    "限時活動獎勵"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫遊指南",
+   "desc": "角色的經驗材料，可以獲得<nobr>20000</nobr>點角色經驗。",
+   "lore": "跨越諸界必備的冒險叢書。按下閱讀鍵，充滿磁性的聲音將以你能聽懂的語言講述知名冒險家們在不同世界間的傳奇經歷，以及他們在各個星球上獲得的珍貴智慧。<br /><br />「漫遊指南全新書系《星際美食烹飪導覽》開售在即，敬請支持。」<br />「投稿請接入博識學會聯覺信標<nobr>23</nobr>θ聯絡員，稿酬可以以您接受的任何形式支付。」",
+   "purpose": "角色經驗材料",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "擬造花萼【「神諭聖地」雅努薩波利斯】",
+    "「忘卻之庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒險記錄",
+   "desc": "角色的經驗材料，可以獲得<nobr>5000</nobr>點角色經驗。",
+   "lore": "裝訂嚴整，一看就頗有教育意義的冒險札記。圖文並茂地描述了冒險行動的始末、有價值的信息和生存相關的技巧。<br /><br />「幹嘛不數據化放進光刻片裡？便攜多了。」<br />「面對恆星風暴和中子流噴發時，高科技比你想象的還要脆弱。何況，製作這本書的人一定希望人們用最簡單的方式閱讀它。」",
+   "purpose": "角色經驗材料",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "擬造花萼【「神諭聖地」雅努薩波利斯】",
+    "每日實訓",
+    "餘燼兌換"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅情見聞",
+   "desc": "角色的經驗材料，可以獲得<nobr>1000</nobr>點角色經驗。",
+   "lore": "記錄旅途見聞的日誌，字跡漫漶不清，內容隨心所欲，對你並沒有太大的幫助。<br /><br />「看完了就趕緊把這堆廢紙處理掉吧，丹恆？」",
+   "purpose": "角色經驗材料",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "擬造花萼【城郊雪原】",
+    "擬造花萼【流雲渡】",
+    "擬造花萼【築夢邊境】",
+    "擬造花萼【「神諭聖地」雅努薩波利斯】",
+    "委託獎勵"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "吉光片羽",
+   "desc": "行跡升級的高階素材。",
+   "lore": "唯有將死前萬物凝滯的剎那，人的眼眸才能捕捉這些靈羽飄落的樣子。威靈飛黃，於帝弓示現的七相中，它神速最勝。<br /><br />「我花去十二個晝夜捕獵它，才發現它一直就在我的身體裡。」",
+   "purpose": "行跡材料",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "歷戰餘響【競鋒艦】"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "悲鳴由遠及近",
+   "desc": "黑潮造物軀殼的組成部分，強化所需的普通材料。",
+   "lore": "怪異頭顱發出嘶吼，殘破利刃足以斬斷所有，而禍亂的源起依舊埋藏在晦暗之中，被死亡的雲翳遮蔽。<br /><br />「爲何在墓前獨自哀泣？」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "突破至均衡等級2後，黑潮造物掉落",
+    "「萬能合成機」- 材料合成",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "預兆似有若無",
+   "desc": "黑潮造物身體掉落的殘片，強化所需的簡單材料。",
+   "lore": "噩運的到來總是毫無徵兆，意識到時，它已成爲了席捲世界的災難。<br /><br />「喪鐘在命運的盡頭鳴響。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "黑潮造物掉落",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "委託獎勵",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換",
+    "擬造花萼（金）"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "哀嘆漫無止息",
+   "desc": "黑潮造物死亡後凝成的晶體，強化所需的高級材料。",
+   "lore": "從空無中誕生，亦將歸於空無。侵蝕造就的扭曲生命，註定無止境地在荒蕪大地上遊蕩。<br /><br />「它的生命充滿了毀滅和悲哀。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "突破至均衡等級4後，黑潮造物掉落",
+    "「萬能合成機」- 材料合成",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "6103825": {
+   "id": 6103825,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
+   "name": "暗帷月華",
+   "desc": "月夜天馬遺落的異型頭冠，量子屬性角色的晉升素材。",
+   "lore": "在某個夜幕下的傳說中，歐洛尼斯曾竊取太陽的光芒贈與月亮，天馬們載着流溢的月光，讓艾格勒閉眼時大地依舊明亮。<br /><br />「月光的清輝，怎可與太陽匹敵？」",
+   "purpose": "角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/6103825",
+   "comeFrom": [
+    "凝滯虛影【「囈語密林」神悟樹庭】",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "末那芽苗",
+   "desc": "記憶的細胞萃取着思緒，於銘刻者的心底滋蔓，可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>角色的命途行跡。",
+   "lore": "種子萌發，枝芽交錯，如突觸般傳遞信號。在歲月的流逝中，這些枝芽有的枯萎，有的生長，直到能承載生命，成爲某個靈魂的軀殼。<br /><br />「我們沒有拋棄肉體，只是讓它變成了一種…更長久的東西。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "「萬能合成機」- 材料合成",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "阿賴耶華",
+   "desc": "這是生命的另一種存在方式，也是宇宙無法忘卻的物質，可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>角色的命途行跡。",
+   "lore": "它成熟了，變作一張收攏歷史的網，一朵來自過去的花。生命是它的園圃，也可以是它的花心。若你成爲花心，你便記住了宇宙，宇宙便記住了你，你就是記憶。<br /><br />「記憶即爲諸法之實體，故而無漏淨土中，無有生滅。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "「萬能合成機」- 材料合成",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "思量的種",
+   "desc": "意識與物質交匯，孕育出了記憶的胚胎，可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>角色的命途行跡。",
+   "lore": "此物本不存在，直到你見到、聽到、感受到某物。這因感受誕生的存在很快便會沉寂，埋在思維的苗牀裏，或許會在某日發芽，或許不會。<br /><br />「那是構成我們身體的質料，因你的銘記而存在。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 71.28,
+   "attackAdd": 3.564,
+   "hpBase": 221.76,
+   "hpAdd": 11.088,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 99.792,
+   "attackAdd": 3.564,
+   "hpBase": 310.464,
+   "hpAdd": 11.088,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 128.304,
+   "attackAdd": 3.564,
+   "hpBase": 399.168,
+   "hpAdd": 11.088,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 156.816,
+   "attackAdd": 3.564,
+   "hpBase": 487.872,
+   "hpAdd": 11.088,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 3.564,
+   "hpBase": 576.576,
+   "hpAdd": 11.088,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 213.84,
+   "attackAdd": 3.564,
+   "hpBase": 665.28,
+   "hpAdd": 11.088,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 242.352,
+   "attackAdd": 3.564,
+   "hpBase": 753.984,
+   "hpAdd": 11.088,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "6a5c18ec9109a2f709bd15f24e877c76e8d0f1a31984168fca3c6ecbe53c1942",
+   "artPath": "19f587931e9ee2769b20bab19b749c19831b1ee3d57d7437c42078d5d8e65782",
+   "name": "雪地的聖女，付記憶入殮",
+   "descHash": "敵方目標當前生命值小於等於自身生命上限<nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>時，【骸爪，冥龍之環擁】、【擘裂冥茫的爪痕】、【燎盡黯澤的焰息】、【灼掠幽墟的晦翼】對其造成的傷害爲原傷害的<nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr>。",
+   "params": [
+    0.8,
+    0.5,
+    1.2,
+    1.4
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "58cd19c645bc9f26062fbf41e01a22a2de1421e475935c5e91203eea51d185eb",
+   "artPath": "b92a49e0c7a9f81e2f8411e19006d335c39ff8e61ec2f688ae7ed76fbb48baaa",
+   "name": "以撲翼繁花加冕",
+   "descHash": "召喚憶靈死龍後，遐蝶獲得<nobr>#1[i]</nobr>層【熾意】，【熾意】最多持有<nobr>#2[i]</nobr>層，可用來抵扣死龍憶靈技【燎盡黯澤的焰息】的生命值消耗，並使遐蝶<u>行動提前</u><nobr>100%</nobr>，下一次施放強化戰技遐蝶獲得等同於【新蕊】上限<nobr>#3[i]%</nobr>點數的【新蕊】。",
+   "params": [
+    2,
+    2,
+    0.3
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "62139b57457b743de37c387c5dbbe87f3a36e8187aa7bc7e2056d3f79de4d6c2",
+   "artPath": "fc1089d44ed0ed93f2d6651f85d8f90b003db56da1c8b3ac3a6c7b0fbb04c5ec",
+   "name": "虔敬的旅人，於死境翩躚",
+   "descHash": "終結技等級+2，最多不超過<nobr>15</nobr>級；普攻等級+1，最多不超過<nobr>10</nobr>級；憶靈天賦等級+1，最多不超過<nobr>10</nobr>級。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "1d2b97b152b80e2d6fa36313751acde00a1c5cd28a061ae31effaa7985d83bf9",
+   "artPath": "b0e60d52b49a5caadff3ff2ace9aca430af5be20b1dc3ab55f361b662a04e8ee",
+   "name": "擁悲憐哀歌安眠",
+   "descHash": "遐蝶在場時，我方全體受到治療時的回覆量提高<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "artPath": "e6dac543e995312ea1add1d089f5f730eadb68f5924515db50ab4eed2f9a4061",
+   "name": "素白的新篇，以預言裝點",
+   "descHash": "戰技等級+2，最多不超過<nobr>15</nobr>級；天賦等級+2，最多不超過<nobr>15</nobr>級；憶靈技等級+1，最多不超過<nobr>10</nobr>級。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3e42ac5a714b0240b24763ee6ca4c29b3f298ce86f4b74d5efcab15c455289e0",
+   "artPath": "a3d148d335af4aaa7ef8726d19975cbcf1e0ff67a82e3f21d51d8449deba5ee7",
+   "name": "待流年奔湧破繭",
+   "descHash": "遐蝶與死龍造成傷害時，量子屬性<u>抗性穿透</u>提高<nobr>#1[i]%</nobr>。死龍攻擊期間可以無視弱點屬性削減敵方韌性，擊破弱點時，觸發量子屬性的弱點擊破效果，觸發天賦【灼掠幽墟的晦翼】的彈射次數額外增加<nobr>#2[i]</nobr>次。",
+   "params": [
+    0.2,
+    3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   12091651
+  ],
+  [
+   12285822,
+   12465910
+  ],
+  [
+   12526956
+  ],
+  [
+   12262238
+  ],
+  [
+   12554901
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "單攻",
+   "descHash": "對指定敵方單體造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12091651,
+   "name": "哀悼，死海之漣漪",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "擴散",
+   "descHash": "消耗我方全體當前<nobr>#1[i]%</nobr>的生命值，對指定敵方單體造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害，並對其相鄰目標造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害。<br />若當前生命值不足，最多使當前生命值降至1點。<br />若死龍在場，戰技替換爲【骸爪，冥龍之環擁】。",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12285822,
+   "name": "緘默，幽蝶之輕撫",
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "typeDescHash": "戰技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.3,
+      0.25,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.275,
+      0.165
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.3,
+      0.18
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.325,
+      0.195
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.35,
+      0.21
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.375,
+      0.225
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.40625,
+      0.24375
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.4375,
+      0.2625
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.46875,
+      0.28125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.5,
+      0.3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.525,
+      0.315
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.55,
+      0.33
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.575,
+      0.345
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.6,
+      0.36
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.625,
+      0.375
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "召喚",
+   "descHash": "<u>召喚憶靈</u>死龍使其<u>行動提前</u><nobr>100%</nobr>，同時展開<u>境界</u>【遺世冥域】，使敵方全體全屬性抗性降低<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>，若遐蝶持有天賦的造成傷害提高效果，使該效果擴散至死龍。死龍初始擁有<nobr>#1[i]</nobr>點速度以及等同於【新蕊】上限<nobr>#3[i]%</nobr>的固定生命上限。<br />死龍<nobr>#2[i]</nobr>個回合後或生命值爲0時消失，同時解除<u>境界</u>【遺世冥域】。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12526956,
+   "name": "亡喉怒哮，蘇生之頌鈴",
+   "iconPath": "70cd5e879fb5addfffc0c7f2f9a5d91f931d0ba2179490181293155501e90225",
+   "typeDescHash": "終結技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1,
+      0
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.11,
+      0
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.12,
+      0
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.13,
+      0
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.14,
+      0
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.15,
+      0
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1625,
+      0
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.175,
+      0
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1875,
+      0
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.2,
+      0
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.21,
+      0
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.22,
+      0
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.23,
+      0
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.24,
+      0
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.25,
+      0
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "強化",
+   "descHash": "【新蕊】上限與場上全體角色等級有關，我方全體每損失1點生命值遐蝶獲得1點【新蕊】，當【新蕊】達到上限時可激活終結技。我方損失生命值時，遐蝶與死龍造成的傷害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，該效果最多疊加<nobr>#3[i]</nobr>層，持續<nobr>#4[i]</nobr>回合。<br />死龍在場時無法通過天賦獲得【新蕊】，除死龍以外我方全體每損失1點生命值會轉化爲死龍同等的生命值。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12262238,
+   "name": "掌心淌過的荒蕪",
+   "iconPath": "228e1a89a2978c60476f6309964e57a365441bfac1a443706e45d252ab91c04e",
+   "typeDescHash": "天賦",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0,
+      0.1,
+      3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.11,
+      3,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.12,
+      3,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.13,
+      3,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.14,
+      3,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.15,
+      3,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1625,
+      3,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.175,
+      3,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1875,
+      3,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.2,
+      3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.21,
+      3,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.22,
+      3,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.23,
+      3,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.24,
+      3,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.25,
+      3,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "攻擊敵人，進入戰鬥後削弱敵方目標對應屬性韌性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12303521,
+   "name": "攻擊",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "使用祕技後進入持續<nobr>#3[i]</nobr>秒的【冥茫】狀態。【冥茫】狀態下敵人無法主動靠近遐蝶。<br />【冥茫】狀態下主動攻擊會使所有範圍內的敵人進入戰鬥，同時<u>召喚憶靈</u>死龍使其<u>行動提前</u><nobr>100%</nobr>並展開<u>境界</u>【遺世冥域】，死龍擁有等同於【新蕊】上限<nobr>#2[i]%</nobr>的當前生命值。進入戰鬥後，消耗除死龍以外的我方全體<nobr>#1[i]%</nobr>當前生命值。<br />進入戰鬥後未召喚死龍則遐蝶獲得等同於【新蕊】上限<nobr>#4[i]%</nobr>點數的【新蕊】。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12554901,
+   "name": "悲鳴，賜死之先聲",
+   "iconPath": "52a338de9ce8e043c60882c1407caca640c8b260e28f6cc5de1d68f2db942637",
+   "typeDescHash": "祕技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.5,
+      20,
+      0.3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "羣攻",
+   "descHash": "消耗除死龍以外的我方全體當前<nobr>#1[i]%</nobr>的生命值，遐蝶與死龍向目標發起<u>連攜攻擊</u>，對敵方全體造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>和<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害。<br />若當前生命值不足，最多使當前生命值降至1點。",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12465910,
+   "name": "骸爪，冥龍之環擁",
+   "iconPath": "9706a28240e969d9fe4d3575f73422344bb8066fb856bc841555bc087d19faed",
+   "typeDescHash": "戰技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.15,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.165,
+      0.275
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.18,
+      0.3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.195,
+      0.325
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.21,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.225,
+      0.375
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.24375,
+      0.40625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.2625,
+      0.4375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.28125,
+      0.46875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.3,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.315,
+      0.525
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.33,
+      0.55
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.345,
+      0.575
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.36,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.375,
+      0.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1407101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1542891,
+      "name": "暴擊傷害強化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "暴擊傷害",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1300735,
+      "name": "暴擊率強化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴擊率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "除死龍以外的我方目標接受治療後會將<nobr>#1[i]%</nobr>的治療數值轉化爲【新蕊】，死龍在場時則轉化爲死龍生命值，我方每個目標累計轉化值不超過【新蕊】上限的<nobr>#2[i]%</nobr>。任意單位行動後重置所有單位累計的轉化值。",
+    "ultimateCost": 0,
+    "id": 885030,
+    "name": "收容的暗潮",
+    "iconPath": "2eb19a53b226e83162e67661a9edaa0bb35a68ad0e9932cd8474983103b4a812",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1322499,
+      "name": "傷害強化•量子",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">量子</span>屬性傷害提高",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1080336,
+      "name": "暴擊率強化",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴擊率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "遐蝶當前生命值大於等於自身生命上限的<nobr>#1[i]%</nobr>時，遐蝶速度提高<nobr>#2[i]%</nobr>。死龍施放【燎盡黯澤的焰息】對場上所有敵方造成致命傷害或敵方無法被繼續削減生命值時，死龍速度提高<nobr>#3[i]%</nobr>，持續1回合。",
+    "ultimateCost": 0,
+    "id": 636727,
+    "name": "倒置的火炬",
+    "iconPath": "ce7293434a82dfaf3b4972f4f3977ed1f9b82326ee316f43cc99bea9def49f96",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       0.4,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1407209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1407210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 18145452,
+          "name": "暴擊率強化",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "暴擊率",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 3526997,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 1085508,
+        "name": "傷害強化•量子",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#7788ff;\">量子</span>屬性傷害提高",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 1327658,
+      "name": "暴擊傷害強化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "暴擊傷害",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 3526997,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "死龍每次施放【燎盡黯澤的焰息】時，造成的傷害提高<nobr>#1[i]%</nobr>，該效果最多疊加<nobr>#2[i]</nobr>層，持續至本回合結束。",
+    "ultimateCost": 0,
+    "id": 875201,
+    "name": "西風的駐足",
+    "iconPath": "022fee3a2fb0aed2db5df8d55534cedb10f6792ae204eee68305a6eeeb0b0a5b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1407202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1529520,
+      "name": "傷害強化•量子",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">量子</span>屬性傷害提高",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1287390,
+      "name": "暴擊率強化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴擊率",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 1245350,
+    "name": "暴擊率強化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "暴擊率",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次見面",
+   "text": "歡迎來到奧赫瑪，我是遐蝶。抱歉，與他人保持一定距離是我的習慣…如果閣下願意，我自然可以站近些。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "問候",
+   "text": "冷麼？要不要一起去日光下走走？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "道別",
+   "text": "離別總是來得如此之快…願我們都不會停下各自的腳步。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "關於自己•職責",
+   "text": "爲犧牲的黃金裔和泰坦送上告慰，是我如今的職責。希望在人世的最後一刻，他們眼中所見並非無邊的黑暗，而是寧靜的花海。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "關於自己•過去•一",
+   "text": "我曾踽踽獨行，就像落單的蝴蝶不知該往哪兒飛去…或許是逐火之旅和奧赫瑪的夥伴，或許是一路上遇到的人們，讓我尋到了下一次振翅的方向。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "關於自己•過去•二",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "完成開拓任務「魔女的鏡中回天」後解鎖",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "閒談",
+   "text": "看書的時候，我喜歡把自己代入進去。比如，雖然我不善烹飪，但翻看各種食譜時，卻能看見自己製作菜品的畫面…很神奇吧？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "愛好",
+   "text": "每次看見可愛的事物，我總想把它們做成小玩偶…羊毛氈可以把造型做得最還原，用絨線鉤織和牛奶棉填充的話，摸着會更軟一些。不止是小動物，也可以製作扎格列斯的銀幣娃娃、不同表情的水煮嘟嚕蛋娃娃…抱着它們，睡眠總是格外安穩香甜。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "煩惱",
+   "text": "想養兩隻小奇美拉，把臉埋進它們像陽光一樣溫暖的毛髮裏，和它們一起在原野上奔跑…但是，不行…還是再做兩隻奇美拉娃娃吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "分享",
+   "text": "在哀地裏亞的日子，我和人們一起將幽藍的「安提靈花」編成美麗的花環，爲犧牲的戰士戴上，然後目送他們順着冥河而下…就這樣，日復一日……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "見聞",
+   "text": "戰士思鄉的囈語，母親安慰孩子的童謠，少女留給戀人的最後一封信…每完成一次葬儀，我便多了一份逝者留給我的記憶——這些都曾是他們活着的溫度。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "關於開拓者",
+   "text": "等到下一次鮮花綻放，如果還能在新世界再見，請別忘了我們的約定。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "關於玻呂茜亞",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "完成開拓任務「魔女的鏡中回天」後解鎖",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "關於阿格萊雅",
+   "text": "只有足夠冰冷的手，才能握住滾燙的火種…阿格萊雅大人，一定早就明白了這一點。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "關於緹寶•緹安•緹寧",
+   "text": "每個人都想破繭成蝶，飛向廣闊的天空，但只有她們…選擇了回到繭中，爲了這世界的重新誕生。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "關於萬敵",
+   "text": "紛爭帶來的死亡往往充滿痛苦與黑暗，但萬敵閣下賜予對手的，是榮譽與光明的犧牲。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "關於白厄",
+   "text": "失去越多的人，尋回一切的渴望便會越堅定…也許這便是他會帶領世人行至最後的原因。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "關於那刻夏",
+   "text": "老師曾告誡我，面對逝者也理應平靜，不要將心中的悲哀說出口。直到後來我才明白，對他而言，「練習死亡」便是貫穿一生的命題。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "關於風堇",
+   "text": "縱然經歷了這麼多生離死別，她依然會爲那些無法治癒的病痛落淚…但那眼淚絕不會帶入病房，她想讓人們看到的，是永遠明媚的陽光。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "關於賽飛兒",
+   "text": "那位大人很早便成了半神，她心思神祕，行蹤更是捉摸不定…她總抱怨逐火之旅一定會讓她賠得血本無歸，但總感覺背後還有什麼無法說出口的苦衷……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "星魂激活",
+   "text": "再寒冷的彼岸，也會有花香。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "角色晉階",
+   "text": "看，光照了進來。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "角色滿級",
+   "text": "萬物流轉，死生有序…終點，也是開始。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "行跡激活",
+   "text": "留於人世的痕跡，遠比死亡漫長。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "隊伍編成•開拓者",
+   "text": "不用擔心。在戰場上，我身負的詛咒亦是祝福。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "隊伍編成•阿格萊雅",
+   "text": "請放心，阿格萊雅大人。我會將這一切儘快了結。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "隊伍編成•緹寶",
+   "text": "緹寶大人，記得跟住我~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "隊伍編成•萬敵",
+   "text": "萬敵閣下，我們各司其職吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "隊伍編成•那刻夏",
+   "text": "老師，這次會帶來怎樣的教誨？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "戰鬥開始•弱點擊破",
+   "text": "很快，你也要向冥界去了。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "戰鬥開始•危險預警",
+   "text": "危險已然迫近。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "回合開始•一",
+   "text": "生命並非如蝶翼般易折。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "回合開始•二",
+   "text": "請珍惜靈魂還未枯萎的時光。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "回合待機",
+   "text": "我會於此靜候，直到最後的時刻來臨。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "普攻",
+   "text": "沉眠吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "戰技•一",
+   "text": "請就此凋零。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "戰技•二",
+   "text": "賜予你所求。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "強化戰技•一",
+   "text": "亡魂，返歸塵土。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "強化戰技•二",
+   "text": "暗幕，隨我同行。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "輕受擊",
+   "text": "我沒事。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "重受擊",
+   "text": "有點疼。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "終結技•激活",
+   "text": "擁抱「新生」吧，玻呂刻斯。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "終結技•施放",
+   "text": "惟願「死亡」…捍衛你我！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "無法戰鬥",
+   "text": "好溫暖啊…西風……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "重回戰鬥",
+   "text": "太好了…還未到告別之時。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "回復生命",
+   "text": "我會銘記此刻的溫度。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "祕技",
+   "text": "破繭而生。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "戰鬥勝利",
+   "text": "願徘徊的靈魂尋到各自的出路。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "開啓戰利品•一",
+   "text": "嗯！要好好保存。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "開啓戰利品•二",
+   "text": "想用它做個手工，但要做什麼好呢……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "開啓貴重戰利品",
+   "text": "悄悄留個影吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "解謎成功•一",
+   "text": "學到了。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "解謎成功•二",
+   "text": "在書上見過類似的謎題……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "發現敵方目標",
+   "text": "請小心。前方的氣息使人不安。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "返回城鎮",
+   "text": "這兒環繞着鮮花的芬芳…我們可不可以多歇息一會兒？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色詳情",
+   "text": "那敬愛死亡的國度，終日飄雪的哀地裏亞，今日已沉入甘甜的酣眠。<br />冥河的女兒遐蝶，尋索「死亡」火種的黃金裔，啓程吧。呵護世間魂靈的慟哭，擁抱命運的孤獨<br />——生死皆爲旅途，當蝴蝶停落枝頭，那凋零的又將新生。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": "自她有記憶的那天起，哀地裏亞的雪一直都在，時間仿佛凍結在這片寂靜的白色土地上。<br />年幼的她曾問阿蒙內特，雪是什麼？阿蒙內特說，雪是人世的悲歡離合。<br /><br />她總是出神地看着城中的人們。<br />小個子勇士每日都在神殿門前練武，高塔下的中年祭司偶爾喜歡打瞌睡，苦行學者將安提靈花餅分給孩子們。<br />遠處打雪仗的孩子們推搡着，笑聲就像成熟的果子落進她的心裡。<br />她在高塔之上努力分辨着，卻看不清他們的臉龐。<br /><br />聖女大人——只是當她出現在衆人面前，別人總是如此稱呼她，無人敢直視她的眼睛。<br />她鼓起勇氣靠近，他們卻後退一步，把眼睛垂得更低。她仍舊看不清任何人的模樣。<br /><br />直到他們站在死亡面前——小個子勇士在戰場上受了重傷，中年祭司爲經年累月的疾患所困，苦行學者在救治傷患時被感染——這是她距離他們最近的時刻。<br />生命不再痛苦掙扎，而是在她的指尖化作風中的花瓣。<br />當終於有機會端詳他們的臉龐，但她卻轉過頭去，不忍再看。<br /><br />「有些手是爲種植而生，有些是爲統治而生…你只不過是履行告別的天職而已。」<br />阿蒙內特的話在她耳旁想起，她曾疑惑自己的雙手，究竟可以留下什麼。<br />回過神來時，她看着手中未完成的冰雕——年輕的戰士揮舞武器，母親擁抱即將奔赴戰場的孩子，眷侶依依不捨地捧起對方的臉龐……<br />這些人都不在了。<br />但這樣的事還會發生，一次又一次，在風雪之中，在風雪之外。<br /><br />她終於明白，哀地裏亞的雪也會融化，就像萬物都要走向「死亡」的懷抱。<br /><br />「愛笑的尼古拉奧斯，慈祥的赫蓮納<br />還有如風一般寡言的克力同……<br />夜晚，我捧起那些<br />失落的名字，靜默的記憶<br />將白日的哀傷化作<br />沉浸在雪水中的滾燙<br />……」<br /><align=\"right\">——少女寫下的，名爲「哀地裏亞」的詩</align>",
+   "unlockRequirement": "角色等級<nobr>20</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "離開哀地裏亞的那一天，她踏上覲見塞納託斯的旅途，一場不知終點在何處的徵程。<br /><br />她斥退黑潮造物，挽救衰敗的村莊。她不再是哀地裏亞的「督戰聖女」，卻還是刻意與人保持距離，藏起自己的雙手。但她不忍孩童閃亮的目光，第一次拿起針線，滿足了孩子撫摸玩偶的最後願望。<br />在那遍布死亡的戰場，她爲無法歸鄉的戰士寫下寄託哀思的家書，她也曾跟隨驕傲的詩人學習，用詩篇爲後者送別……<br />「死亡是無法逃避的必然」，「死亡是屬於戰士的榮譽」，「死亡不過是走出時間」…在那漫長的一路，她聽過許多或直白或詩意的議論，然而這些答案猶如拂過水麵的微風，從未抵達她的內心深處。<br /><br />「後來…有人說，那黎明照拂的聖城滿溢生的希望，我或許能在這裡……」<br />少女欲言又止。<br />「沒事沒事，你現在不想說也沒事，奧赫瑪歡迎你！」紅髮女孩爲她端來一杯熱茶。<br />金髮女士頗有興趣地打量着少女的手套——<br />「很有設計感的飾品，也是旅途中學會的麼？」<br />她羞澀地交叉起手指。<br />「嗯，我想…至少能讓告別，更莊重一些。」<br /><br />奧赫瑪的陽光熱烈而燦爛，黎明機器永不落幕的宣告許諾了無盡的明天。<br /><br />從那小屋開始，她小心翼翼地開始第二次人生。<br />原本空曠的房間在她的裝扮下一日日豐盈起來，羊毛氈玩偶，奇美拉抱枕，厚厚的詩集，它們不再是悲傷的象徵，而成爲贈禮、紀念與祝福——<br />那些曾爲了逝者而存在的習慣，在奧赫瑪的陽光下第一次有了生的溫暖和力量。<br /><br />「從這扇窗中望出去的風景<br />依然同來時的一樣<br />陽光燦爛，水波溫柔<br />我吹散雙手的雪<br />不讓它們太過寒冷、太接近於春天<br />……」<br /><align=\"right\">——少女寫下的，名爲「春天」的詩</align>",
+   "unlockRequirement": "角色等級<nobr>40</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "她知曉自己的終點與逐火的同伴不同，卻也逐漸開始擁有屬於自己的一些小小的溫暖瞬間。<br />在金絲溫柔的牽引下，她第一次笨拙地與人共舞。在那生機勃勃的花園，她與風堇一同製作如生般鮮活的乾花。還有在樹庭畢業的那日，陽光灑落她的長裙，有如蝶翅的碎影……<br /><br />那些對他人而言或許無足輕重的瞬間，早已成爲她度過寒涼歲月的薪柴。<br />她是如此地渴望溫暖，卻也恰恰因此克制着更多的期待，也許是因爲那不斷失卻的逐火之旅，也許是因爲不想再經歷殘酷的傷悲…就像那個糾纏她已久的噩夢，一遍遍重複的那樣——<br /><br />刻法勒手中夕陽沉落，血色的遲暮籠罩黎明的聖城。<br />黑潮湧至，死寂的浴池中，黃金的織者第一次與她擁抱，花海中只餘織者疲憊的嘆息。<br />「我的『愛』，不會因死亡而逝去。」<br />「小蝶，明天見~」襤褸不堪的信使化作玩偶，倒在她的懷中奄奄一息。<br />她試圖抓住那些飛散的花瓣，而那捷足的盜賊握住她的手，爲她捎來最後的酬勞。<br />「就當幫我一次，騙騙死亡那又如何？」<br />天空的祭司低垂眼眸，靠在她的肩頭消散。浴血的王儲閉上雙眼，等待她的處刑。戰士流下血淚，鎧甲破碎。樹庭的哲人微笑，邀請她作最後的見證。<br />夢的末尾，她看見那天外來客跪倒在星空之下，她最恐懼的猜想就此印證……<br /><br />「蝶寶，再多休息一會吧。」<br />在昏光庭院的催眠治療室，醫師的眼中滿是擔憂。<br />她擦去額頭的汗水，仿佛下定某種決心。<br />「不，我會盡我所能，絕不讓噩夢成真……」<br /><br />「逐火的英雄們本行於不同的路<br />我們因微茫的光互相吸引<br />就如忍受灼燒之痛的飛蛾<br />並非因爲看見希望才向前飛去<br />而是因爲向前飛去而看見希望<br />……」<br /><align=\"right\">——少女寫下的，名爲「逐火」的詩</align>",
+   "unlockRequirement": "角色等級<nobr>60</nobr>解鎖"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "「也許…這就是在奧赫瑪度過的最後一天了……」<br />在苦旅的盡頭，她終於尋到冥界的線索，前往那或許有來無回的地方之前，她還想再好好看一眼世界。<br /><br />那是黃金裔的浴池。<br />她記得阿格萊雅曾在氤氳的水汽中，將精心修補的手套送給她。<br />「蝶，和第一次見面相比，你變了許多呢。」<br />她驚喜地觸摸着手套上美麗的花紋，那平日淡漠的領袖微笑着向她眨了眨眼。<br />「即使是如今的我，也能看到你那被寒冷包裹着的、熾熱的心……」<br /><br />那是屋後靜謐的花園，它已被塑造成了她夢中的模樣。<br />在那時空錯亂的夢中，她常常遇到另一個自己，她們一同在花園中耕作，培育，直到荒蕪的土地變爲盛大的花海。<br />「但願在未來，我也能如此播種希望……」<br /><br />那是她爲曾在指尖逝去的生命立下的紀念碑。<br />從哀地裏亞的逝者，到逐火之旅的黃金裔…千年以來，她嘗試記住每一個人的名字和過去。<br />「有人記着，就不算真正的逝去。」<br /><br />那是她初見開拓者的地方。<br />相遇是一件多麼神奇的事，她想，往日見慣的街道，因爲人而有了特別的意義。<br />「閣下，我一定會用我的雙手，爲你帶來……」<br /><br />門扉時將近，約定啓程的時刻也將到來。<br />在那熱烈的陽光下，她許下最初的、也是最後的心願：以那寒冷而漫長的一生作爲開端，她將與她/他一同寫下——<br /><br />一首以真正的擁抱作爲句點的、名爲「遐蝶」的詩篇。",
+   "unlockRequirement": "角色等級<nobr>80</nobr>解鎖"
+  }
+ ],
+ "archive": {
+  "cvCn": "阮從青",
+  "cvJp": "斎藤千和",
+  "cvKr": "이세레나",
+  "cvEn": "Melody Muze",
+  "camp": "翁法羅斯"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "12091651": 1,
+    "12526956": 2
+   },
+   "5": {
+    "12262238": 2,
+    "12285822": 2,
+    "12465910": 2
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "死龍•玻呂刻斯",
+  "iconPath": "e647263d94fb08b7935fd02f3ab6ef71f15d747e5827a2c481af8de3a429f93f",
+  "teamIconPath": "5ffa09779d729af285aeae657381347d29e06f19956d20caa5e112c735fa3b24",
+  "skills": [
+   {
+    "id": 21319318,
+    "name": "擘裂冥茫的爪痕",
+    "icon": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+    "tag": "羣攻",
+    "typeDesc": "憶靈技",
+    "skillDesc": "對敵方全體造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害。",
+    "simpleSkillDesc": "對敵方全體造成少量<span style=\"color:#7788ff;\">量子</span>屬性傷害。",
+    "levelData": [
+     {
+      "params": [
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21085318,
+    "name": "燎盡黯澤的焰息",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "羣攻",
+    "typeDesc": "憶靈技",
+    "skillDesc": "發動【燎盡黯澤的焰息】會消耗等同於死龍生命上限<nobr>#1[i]%</nobr>的生命值，對敵方全體造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害。<br />一次攻擊中可重複發動【燎盡黯澤的焰息】，重複發動時，傷害倍率依次提高至<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>/<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>，達到<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>後不再提高，傷害倍率提高效果在死龍消失前不會降低。<br />死龍當前生命值小於等於自身生命上限<nobr>#5[i]%</nobr>時，發動該技能會主動將生命值降至1點後觸發等同於天賦【灼掠幽墟的晦翼】的技能效果。",
+    "simpleSkillDesc": "消耗自身生命值，對敵方全體造成<span style=\"color:#7788ff;\">量子</span>屬性傷害，且本回合不會結束。重複施放技能時，技能最多獲得3次強化。生命值小於等於<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>時，施放該技能會主動觸發憶靈天賦【灼掠幽墟的晦翼】的技能效果。",
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       0.12,
+       0.14,
+       0.17,
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.144,
+       0.168,
+       0.204,
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.168,
+       0.196,
+       0.238,
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.192,
+       0.224,
+       0.272,
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.216,
+       0.252,
+       0.306,
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.24,
+       0.28,
+       0.34,
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.264,
+       0.308,
+       0.374,
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.288,
+       0.336,
+       0.408,
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.312,
+       0.364,
+       0.442,
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.336,
+       0.392,
+       0.476,
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21359282,
+    "name": "月繭蔭蔽的身軀",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "輔助",
+    "typeDesc": "憶靈天賦",
+    "skillDesc": "死龍在場時爲我方<u>後援</u>，我方受到傷害或消耗生命值時，當前生命值最多降至1點，此後由死龍承擔，但死龍會消耗等同於原數值<nobr>#1[i]%</nobr>的生命值，持續至死龍消失。",
+    "simpleSkillDesc": "死龍在場時爲我方<u>後援</u>，我方當前生命值最多降至1點，此後受到傷害或消耗生命值由死龍承擔。",
+    "levelData": [
+     {
+      "params": [
+       5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21235289,
+    "name": "震徹寂壤的怒嘯",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "輔助",
+    "typeDesc": "憶靈天賦",
+    "skillDesc": "死龍被召喚時，我方全體造成的傷害提高<nobr>#1[i]%</nobr>，持續<nobr>#2[i]</nobr>回合。",
+    "simpleSkillDesc": "被召喚時，使我方全體造成的傷害提高。",
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21001295,
+    "name": "灼掠幽墟的晦翼",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "彈射",
+    "typeDesc": "憶靈天賦",
+    "skillDesc": "死龍消失時，造成<nobr>#2[i]</nobr>次傷害，每次傷害對敵方隨機單體造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害，同時爲我方全體回復等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>生命上限+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>點的生命值。",
+    "simpleSkillDesc": "消失時，對敵方單體造成少量<span style=\"color:#7788ff;\">量子</span>屬性傷害，共彈射<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>次，同時爲我方全體回復生命值。",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4665228,
+    "name": "燎盡黯澤的焰息",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "羣攻",
+    "typeDesc": "憶靈技",
+    "skillDesc": "",
+    "simpleSkillDesc": "消耗自身生命值，對敵方全體造成<span style=\"color:#7788ff;\">量子</span>屬性傷害，且本回合不會結束。重複施放技能時，技能最多獲得3次強化。生命值小於等於<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>時，施放該技能會主動觸發憶靈天賦【灼掠幽墟的晦翼】的技能效果。",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4397470,
+    "name": "燎盡黯澤的焰息",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "羣攻",
+    "typeDesc": "憶靈技",
+    "skillDesc": "",
+    "simpleSkillDesc": "消耗自身生命值，對敵方全體造成<span style=\"color:#7788ff;\">量子</span>屬性傷害，且本回合不會結束。重複施放技能時，技能最多獲得3次強化。生命值小於等於<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>時，施放該技能會主動觸發憶靈天賦【灼掠幽墟的晦翼】的技能效果。",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4672104,
+    "name": "灼掠幽墟的晦翼",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "彈射",
+    "typeDesc": "憶靈技",
+    "skillDesc": "消耗全部生命，造成<nobr>#2[i]</nobr>次傷害，每次傷害對敵方隨機單體造成等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>屬性傷害，同時爲我方全體回復等同於遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>生命上限+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>點的生命值。",
+    "simpleSkillDesc": "消耗全部生命值，對敵方單體造成少量<span style=\"color:#7788ff;\">量子</span>屬性傷害，共彈射<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>次，同時爲我方全體回復生命值。",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    21319318,
+    21085318,
+    4665228,
+    4397470
+   ],
+   [
+    21359282,
+    4672104,
+    21001295,
+    21235289
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 1260323,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1260323,
+     "name": "擘裂冥茫的爪痕",
+     "iconPath": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 1527261,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1527261,
+     "name": "燎盡黯澤的焰息",
+     "iconPath": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "name": "遐蝶",
+ "rarity": 5,
+ "descHash": "那敬愛死亡的國度，終日飄雪的哀地裏亞，今日已沉入甘甜的酣眠。 冥河的女兒遐蝶，尋索「死亡」火種的黃金裔，啓程吧。呵護世間魂靈的慟哭，擁抱命運的孤獨 ——生死皆爲旅途，當蝴蝶停落枝頭，那凋零的又將新生。",
+ "artPath": "7dda65214d1d900469b62f8d88bd878b25bad0e9891a31b2230c3aa54da98aee",
+ "miniIconPath": "c5672716925ad2ab406feeb1d8be27f7fb240060d9f1eb6ad328d76c0a903bc0",
+ "damageType": {
+  "id": 32,
+  "iconPath": "71252cc6ee0b921565dfacfac027c84cf13f45cb3dad750bd047708afd5e74af",
+  "color": "#1C29BA",
+  "name": "量子",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "記憶",
+  "rarity": 0
+ },
+ "pageId": "castorice"
+}

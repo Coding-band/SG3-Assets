@@ -1,0 +1,4906 @@
+{
+ "spRequirement": 0,
+ "iconPath": "0755251be6e370916344ea61e5e0514c7a24d23e388e76c0d949e62436d22bcf",
+ "bgPath": "d05e5d6a52a89e83512e36128d618b04a2263abf7d52741dc13c4bc4ac55ede4",
+ "figPath": "3b8cdf2b1d118e92e3ff661c0f122cf5c000c697a836015568f6d2a82e86bf59",
+ "fgPath": "f0d26e7d0c8b4ab43d0f5af22450e8373ae9cc200a3c4c378637f0ae988cd506",
+ "splashIconPath": "5310780d610c5dfd43199c0d6a65c64d5a527fd6db0d932e3a61ff7e557b4003",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRpQCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSAsBAAABkGtr27E59/t9Y9vT2UbrmTjpnANgOes/hdi2rS6VXU8V26mM733vu3i/5BgiYgIQa8LQGPghYgP4ZX17z55cWQAYD0jKW7Zz3z1JujcrCwYoSMzb91qSaG2kr1eqEGBAkqLIOZJ0f5SAweRvWkeSIkWrmyFa71pSEiWRdFoFs/Sxoy9KEp3mI3nyi0hR/4y0G+mrf4qk4kmnW8nBFsbGUHR61lV4WZ58inR6N1p39Y8lSUkUvTejtWfe/3T6H+rdjOLEvc8RSYoUrbN6WBOOnXvzyyNp5Z8GBg+/lrORr+jB6y/HqxBUF0//oPipMZSWILbx0u+pA9vWb1iUAQDGAAhauxpSEBvAGAAAVlA4IGIBAABwCACdASoUABQAPm0ylEekIqIhKAgAgA2JZgCdMt1eDcBtpfEz/QD3irJDJU/4wfoj0Ut9V/YAMEXAOvQeFpgeW4zEx2nk7WO7GNYAAP7h0VJGJb2IvEafudORcytqy2ZuxLgjELJT1PuyYmVjcCBlKNxGw8oarwpSu4Ci0mb9hIqiXanSCRNH2GwifuOX11BG90mVGoH0sN+ox2gkLKHMdEDNdsRgXA7m7+GoQP/m90yS5NK1+yJk9eY/Yrc6h4ExhqmBOlfsxzwQQQxM33pIpGPC1PzvusVk06Eolybdz/PeRG43FBoCcMsXFT/hq3LisQ+ljb6CR3i1eAisBqtWSN7NIOH405xf1sKVx/xUl21sFJ6pWF8VTFRHiyhm+LFr56bGSRvAm4lXP94Xo2t9iyS5wslDud2EY8IYLEx1+w6ySjq1o9femOlFWNNNgqLhPXhPlwFOQIgojDO3EYQAAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用点",
+   "desc": "星际和平公司与客户结算时使用的货币，如今已成为太空旅行的硬通货。",
+   "lore": "「人们奔波、争斗、贸易，为的不过是个终端里显示的数字。但真正珍贵之物，公司的数字是买不到的。」",
+   "purpose": "通用货币",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "拟造花萼【大矿区】",
+    "拟造花萼【工造司】",
+    "拟造花萼【「白日梦」酒店-梦境】",
+    "拟造花萼【「呓语密林」神悟树庭】",
+    "任务奖励",
+    "委托奖励",
+    "余烬兑换"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "命运的足迹",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "一次又一次的败北成就了你的胜利，一步又一步的前进让你抵达了命运的拐点。",
+   "purpose": "行迹材料",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模拟宇宙」积分奖励",
+    "无名勋礼",
+    "余烬兑换",
+    "星芒兑换",
+    "限时活动奖励"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫游指南",
+   "desc": "角色的经验材料，可以获得<nobr>20000</nobr>点角色经验。",
+   "lore": "跨越诸界必备的冒险丛书。按下阅读键，充满磁性的声音将以你能听懂的语言讲述知名冒险家们在不同世界间的传奇经历，以及他们在各个星球上获得的珍贵智慧。<br /><br />「漫游指南全新书系《星际美食烹饪导览》开售在即，敬请支持。」<br />「投稿请接入博识学会联觉信标<nobr>23</nobr>θ联络员，稿酬可以以您接受的任何形式支付。」",
+   "purpose": "角色经验材料",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "「忘却之庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒险记录",
+   "desc": "角色的经验材料，可以获得<nobr>5000</nobr>点角色经验。",
+   "lore": "装订严整，一看就颇有教育意义的冒险札记。图文并茂地描述了冒险行动的始末、有价值的信息和生存相关的技巧。<br /><br />「干嘛不数据化放进光刻片里？便携多了。」<br />「面对恒星风暴和中子流喷发时，高科技比你想象的还要脆弱。何况，制作这本书的人一定希望人们用最简单的方式阅读它。」",
+   "purpose": "角色经验材料",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "每日实训",
+    "余烬兑换"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅情见闻",
+   "desc": "角色的经验材料，可以获得<nobr>1000</nobr>点角色经验。",
+   "lore": "记录旅途见闻的日志，字迹漫漶不清，内容随心所欲，对你并没有太大的帮助。<br /><br />「看完了就赶紧把这堆废纸处理掉吧，丹恒？」",
+   "purpose": "角色经验材料",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "委托奖励"
+   ]
+  },
+  "671367": {
+   "id": 671367,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "cb4cb780aca6635fa5decfd6a1e50daa4c20cf400aae302d650b41a1f9cb7ec0",
+   "name": "吉光片羽",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "唯有将死前万物凝滞的刹那，人的眼眸才能捕捉这些灵羽飘落的样子。威灵飞黄，于帝弓示现的七相中，它神速最胜。<br /><br />「我花去十二个昼夜捕猎它，才发现它一直就在我的身体里。」",
+   "purpose": "行迹材料",
+   "rarity": 4,
+   "rewardPath": "/material/671367",
+   "comeFrom": [
+    "历战余响【竞锋舰】"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "悲鸣由远及近",
+   "desc": "黑潮造物躯壳的组成部分，强化所需的普通材料。",
+   "lore": "怪异头颅发出嘶吼，残破利刃足以斩断所有，而祸乱的源起依旧埋藏在晦暗之中，被死亡的云翳遮蔽。<br /><br />「为何在墓前独自哀泣？」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "突破至均衡等级2后，黑潮造物掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "预兆似有若无",
+   "desc": "黑潮造物身体掉落的残片，强化所需的简单材料。",
+   "lore": "噩运的到来总是毫无征兆，意识到时，它已成为了席卷世界的灾难。<br /><br />「丧钟在命运的尽头鸣响。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "黑潮造物掉落",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "委托奖励",
+    "余烬兑换",
+    "「万能合成机」- 材料置换",
+    "拟造花萼（金）"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "哀叹漫无止息",
+   "desc": "黑潮造物死亡后凝成的晶体，强化所需的高级材料。",
+   "lore": "从空无中诞生，亦将归于空无。侵蚀造就的扭曲生命，注定无止境地在荒芜大地上游荡。<br /><br />「它的生命充满了毁灭和悲哀。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "突破至均衡等级4后，黑潮造物掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "6103825": {
+   "id": 6103825,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
+   "name": "暗帷月华",
+   "desc": "月夜天马遗落的异型头冠，量子属性角色的晋升素材。",
+   "lore": "在某个夜幕下的传说中，欧洛尼斯曾窃取太阳的光芒赠与月亮，天马们载着流溢的月光，让艾格勒闭眼时大地依旧明亮。<br /><br />「月光的清辉，怎可与太阳匹敌？」",
+   "purpose": "角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/6103825",
+   "comeFrom": [
+    "凝滞虚影【「呓语密林」神悟树庭】",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "末那芽苗",
+   "desc": "记忆的细胞萃取着思绪，于铭刻者的心底滋蔓，可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">记忆</span>角色的命途行迹。",
+   "lore": "种子萌发，枝芽交错，如突触般传递信号。在岁月的流逝中，这些枝芽有的枯萎，有的生长，直到能承载生命，成为某个灵魂的躯壳。<br /><br />「我们没有抛弃肉体，只是让它变成了一种…更长久的东西。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "拟造花萼【「纷争荒墟」悬锋城】",
+    "「万能合成机」- 材料合成",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "阿赖耶华",
+   "desc": "这是生命的另一种存在方式，也是宇宙无法忘却的物质，可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">记忆</span>角色的命途行迹。",
+   "lore": "它成熟了，变作一张收拢历史的网，一朵来自过去的花。生命是它的园圃，也可以是它的花心。若你成为花心，你便记住了宇宙，宇宙便记住了你，你就是记忆。<br /><br />「记忆即为诸法之实体，故而无漏净土中，无有生灭。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "拟造花萼【「纷争荒墟」悬锋城】",
+    "「万能合成机」- 材料合成",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "思量的种",
+   "desc": "意识与物质交汇，孕育出了记忆的胚胎，可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">记忆</span>角色的命途行迹。",
+   "lore": "此物本不存在，直到你见到、听到、感受到某物。这因感受诞生的存在很快便会沉寂，埋在思维的苗床里，或许会在某日发芽，或许不会。<br /><br />「那是构成我们身体的质料，因你的铭记而存在。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "拟造花萼【「纷争荒墟」悬锋城】",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 71.28,
+   "attackAdd": 3.564,
+   "hpBase": 221.76,
+   "hpAdd": 11.088,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 99.792,
+   "attackAdd": 3.564,
+   "hpBase": 310.464,
+   "hpAdd": 11.088,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 128.304,
+   "attackAdd": 3.564,
+   "hpBase": 399.168,
+   "hpAdd": 11.088,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 156.816,
+   "attackAdd": 3.564,
+   "hpBase": 487.872,
+   "hpAdd": 11.088,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 185.328,
+   "attackAdd": 3.564,
+   "hpBase": 576.576,
+   "hpAdd": 11.088,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 6103825,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 213.84,
+   "attackAdd": 3.564,
+   "hpBase": 665.28,
+   "hpAdd": 11.088,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 6103825,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 242.352,
+   "attackAdd": 3.564,
+   "hpBase": 753.984,
+   "hpAdd": 11.088,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 95,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "6a5c18ec9109a2f709bd15f24e877c76e8d0f1a31984168fca3c6ecbe53c1942",
+   "artPath": "19f587931e9ee2769b20bab19b749c19831b1ee3d57d7437c42078d5d8e65782",
+   "name": "雪地的圣女，付记忆入殓",
+   "descHash": "敌方目标当前生命值小于等于自身生命上限<nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>时，【骸爪，冥龙之环拥】、【擘裂冥茫的爪痕】、【燎尽黯泽的焰息】、【灼掠幽墟的晦翼】对其造成的伤害为原伤害的<nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr>。",
+   "params": [
+    0.8,
+    0.5,
+    1.2,
+    1.4
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "58cd19c645bc9f26062fbf41e01a22a2de1421e475935c5e91203eea51d185eb",
+   "artPath": "b92a49e0c7a9f81e2f8411e19006d335c39ff8e61ec2f688ae7ed76fbb48baaa",
+   "name": "以扑翼繁花加冕",
+   "descHash": "召唤忆灵死龙后，遐蝶获得<nobr>#1[i]</nobr>层【炽意】，【炽意】最多持有<nobr>#2[i]</nobr>层，可用来抵扣死龙忆灵技【燎尽黯泽的焰息】的生命值消耗，并使遐蝶<u>行动提前</u><nobr>100%</nobr>，下一次施放强化战技遐蝶获得等同于【新蕊】上限<nobr>#3[i]%</nobr>点数的【新蕊】。",
+   "params": [
+    2,
+    2,
+    0.3
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "62139b57457b743de37c387c5dbbe87f3a36e8187aa7bc7e2056d3f79de4d6c2",
+   "artPath": "fc1089d44ed0ed93f2d6651f85d8f90b003db56da1c8b3ac3a6c7b0fbb04c5ec",
+   "name": "虔敬的旅人，于死境翩跹",
+   "descHash": "终结技等级+2，最多不超过<nobr>15</nobr>级；普攻等级+1，最多不超过<nobr>10</nobr>级；忆灵天赋等级+1，最多不超过<nobr>10</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "1d2b97b152b80e2d6fa36313751acde00a1c5cd28a061ae31effaa7985d83bf9",
+   "artPath": "b0e60d52b49a5caadff3ff2ace9aca430af5be20b1dc3ab55f361b662a04e8ee",
+   "name": "拥悲怜哀歌安眠",
+   "descHash": "遐蝶在场时，我方全体受到治疗时的回复量提高<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "artPath": "e6dac543e995312ea1add1d089f5f730eadb68f5924515db50ab4eed2f9a4061",
+   "name": "素白的新篇，以预言装点",
+   "descHash": "战技等级+2，最多不超过<nobr>15</nobr>级；天赋等级+2，最多不超过<nobr>15</nobr>级；忆灵技等级+1，最多不超过<nobr>10</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3e42ac5a714b0240b24763ee6ca4c29b3f298ce86f4b74d5efcab15c455289e0",
+   "artPath": "a3d148d335af4aaa7ef8726d19975cbcf1e0ff67a82e3f21d51d8449deba5ee7",
+   "name": "待流年奔涌破茧",
+   "descHash": "遐蝶与死龙造成伤害时，量子属性<u>抗性穿透</u>提高<nobr>#1[i]%</nobr>。死龙攻击期间可以无视弱点属性削减敌方韧性，击破弱点时，触发量子属性的弱点击破效果，触发天赋【灼掠幽墟的晦翼】的弹射次数额外增加<nobr>#2[i]</nobr>次。",
+   "params": [
+    0.2,
+    3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   12091651
+  ],
+  [
+   12285822,
+   12465910
+  ],
+  [
+   12526956
+  ],
+  [
+   12262238
+  ],
+  [
+   12554901
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "单攻",
+   "descHash": "对指定敌方单体造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12091651,
+   "name": "哀悼，死海之涟漪",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "扩散",
+   "descHash": "消耗我方全体当前<nobr>#1[i]%</nobr>的生命值，对指定敌方单体造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害，并对其相邻目标造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害。<br />若当前生命值不足，最多使当前生命值降至1点。<br />若死龙在场，战技替换为【骸爪，冥龙之环拥】。",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12285822,
+   "name": "缄默，幽蝶之轻抚",
+   "iconPath": "0f0953bb835efa6280ed282335aabdbff6d1f7f3d9da8b586fbd791f70bdc945",
+   "typeDescHash": "战技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.3,
+      0.25,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.275,
+      0.165
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.3,
+      0.18
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.325,
+      0.195
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.35,
+      0.21
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.375,
+      0.225
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.40625,
+      0.24375
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.4375,
+      0.2625
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.46875,
+      0.28125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.5,
+      0.3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.525,
+      0.315
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.55,
+      0.33
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.575,
+      0.345
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.6,
+      0.36
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.625,
+      0.375
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "召唤",
+   "descHash": "<u>召唤忆灵</u>死龙使其<u>行动提前</u><nobr>100%</nobr>，同时展开<u>境界</u>【遗世冥域】，使敌方全体全属性抗性降低<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>，若遐蝶持有天赋的造成伤害提高效果，使该效果扩散至死龙。死龙初始拥有<nobr>#1[i]</nobr>点速度以及等同于【新蕊】上限<nobr>#3[i]%</nobr>的固定生命上限。<br />死龙<nobr>#2[i]</nobr>个回合后或生命值为0时消失，同时解除<u>境界</u>【遗世冥域】。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12526956,
+   "name": "亡喉怒哮，苏生之颂铃",
+   "iconPath": "70cd5e879fb5addfffc0c7f2f9a5d91f931d0ba2179490181293155501e90225",
+   "typeDescHash": "终结技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1,
+      0
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.11,
+      0
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.12,
+      0
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.13,
+      0
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.14,
+      0
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.15,
+      0
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1625,
+      0
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.175,
+      0
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.1875,
+      0
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.2,
+      0
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.21,
+      0
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.22,
+      0
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.23,
+      0
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.24,
+      0
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      165,
+      3,
+      1,
+      0.25,
+      0
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "强化",
+   "descHash": "【新蕊】上限与场上全体角色等级有关，我方全体每损失1点生命值遐蝶获得1点【新蕊】，当【新蕊】达到上限时可激活终结技。我方损失生命值时，遐蝶与死龙造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，该效果最多叠加<nobr>#3[i]</nobr>层，持续<nobr>#4[i]</nobr>回合。<br />死龙在场时无法通过天赋获得【新蕊】，除死龙以外我方全体每损失1点生命值会转化为死龙同等的生命值。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12262238,
+   "name": "掌心淌过的荒芜",
+   "iconPath": "228e1a89a2978c60476f6309964e57a365441bfac1a443706e45d252ab91c04e",
+   "typeDescHash": "天赋",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0,
+      0.1,
+      3,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.11,
+      3,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.12,
+      3,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.13,
+      3,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.14,
+      3,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.15,
+      3,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1625,
+      3,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.175,
+      3,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.1875,
+      3,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.2,
+      3,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0,
+      0.21,
+      3,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.22,
+      3,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.23,
+      3,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.24,
+      3,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0,
+      0.25,
+      3,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 12303521,
+   "name": "攻击",
+   "iconPath": "10de15a323155f4eac81cc138aa77ba008765c6630e75f4d5d02d2fe3d18ec26",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "使用秘技后进入持续<nobr>#3[i]</nobr>秒的【冥茫】状态。【冥茫】状态下敌人无法主动靠近遐蝶。<br />【冥茫】状态下主动攻击会使所有范围内的敌人进入战斗，同时<u>召唤忆灵</u>死龙使其<u>行动提前</u><nobr>100%</nobr>并展开<u>境界</u>【遗世冥域】，死龙拥有等同于【新蕊】上限<nobr>#2[i]%</nobr>的当前生命值。进入战斗后，消耗除死龙以外的我方全体<nobr>#1[i]%</nobr>当前生命值。<br />进入战斗后未召唤死龙则遐蝶获得等同于【新蕊】上限<nobr>#4[i]%</nobr>点数的【新蕊】。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 12554901,
+   "name": "悲鸣，赐死之先声",
+   "iconPath": "52a338de9ce8e043c60882c1407caca640c8b260e28f6cc5de1d68f2db942637",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.5,
+      20,
+      0.3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "群攻",
+   "descHash": "消耗除死龙以外的我方全体当前<nobr>#1[i]%</nobr>的生命值，遐蝶与死龙向目标发起<u>连携攻击</u>，对敌方全体造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>和<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害。<br />若当前生命值不足，最多使当前生命值降至1点。",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 12465910,
+   "name": "骸爪，冥龙之环拥",
+   "iconPath": "9706a28240e969d9fe4d3575f73422344bb8066fb856bc841555bc087d19faed",
+   "typeDescHash": "战技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.4,
+      0.15,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.165,
+      0.275
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.18,
+      0.3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.195,
+      0.325
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.21,
+      0.35
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.225,
+      0.375
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.24375,
+      0.40625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.2625,
+      0.4375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 671367,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.28125,
+      0.46875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.3,
+      0.5
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 671367,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.315,
+      0.525
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.33,
+      0.55
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.345,
+      0.575
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.36,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.4,
+      0.375,
+      0.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1407101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1542891,
+      "name": "暴击伤害强化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "暴击伤害",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1300735,
+      "name": "暴击率强化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴击率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "除死龙以外的我方目标接受治疗后会将<nobr>#1[i]%</nobr>的治疗数值转化为【新蕊】，死龙在场时则转化为死龙生命值，我方每个目标累计转化值不超过【新蕊】上限的<nobr>#2[i]%</nobr>。任意单位行动后重置所有单位累计的转化值。",
+    "ultimateCost": 0,
+    "id": 885030,
+    "name": "收容的暗潮",
+    "iconPath": "2eb19a53b226e83162e67661a9edaa0bb35a68ad0e9932cd8474983103b4a812",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1322499,
+      "name": "伤害强化•量子",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">量子</span>属性伤害提高",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1080336,
+      "name": "暴击率强化",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴击率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "遐蝶当前生命值大于等于自身生命上限的<nobr>#1[i]%</nobr>时，遐蝶速度提高<nobr>#2[i]%</nobr>。死龙施放【燎尽黯泽的焰息】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，死龙速度提高<nobr>#3[i]%</nobr>，持续1回合。",
+    "ultimateCost": 0,
+    "id": 636727,
+    "name": "倒置的火炬",
+    "iconPath": "ce7293434a82dfaf3b4972f4f3977ed1f9b82326ee316f43cc99bea9def49f96",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       0.4,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1407208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1407209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1407210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 18145452,
+          "name": "暴击率强化",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "暴击率",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 3526997,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 1085508,
+        "name": "伤害强化•量子",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#7788ff;\">量子</span>属性伤害提高",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 1327658,
+      "name": "暴击伤害强化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "暴击伤害",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 3526997,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "死龙每次施放【燎尽黯泽的焰息】时，造成的伤害提高<nobr>#1[i]%</nobr>，该效果最多叠加<nobr>#2[i]</nobr>层，持续至本回合结束。",
+    "ultimateCost": 0,
+    "id": 875201,
+    "name": "西风的驻足",
+    "iconPath": "022fee3a2fb0aed2db5df8d55534cedb10f6792ae204eee68305a6eeeb0b0a5b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 671367,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1407201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1407202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1529520,
+      "name": "伤害强化•量子",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "d80c1a4fb5085eb81b10136cf5078d87066fb0c6471e0ad6fbaae0e8a7343c10",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">量子</span>属性伤害提高",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1407203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 1287390,
+      "name": "暴击率强化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴击率",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 1245350,
+    "name": "暴击率强化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "暴击率",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次见面",
+   "text": "欢迎来到奥赫玛，我是遐蝶。抱歉，与他人保持一定距离是我的习惯…如果阁下愿意，我自然可以站近些。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "问候",
+   "text": "冷么？要不要一起去日光下走走？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "道别",
+   "text": "离别总是来得如此之快…愿我们都不会停下各自的脚步。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "关于自己•职责",
+   "text": "为牺牲的黄金裔和泰坦送上告慰，是我如今的职责。希望在人世的最后一刻，他们眼中所见并非无边的黑暗，而是宁静的花海。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "关于自己•过去•一",
+   "text": "我曾踽踽独行，就像落单的蝴蝶不知该往哪儿飞去…或许是逐火之旅和奥赫玛的伙伴，或许是一路上遇到的人们，让我寻到了下一次振翅的方向。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "关于自己•过去•二",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "完成开拓任务「魔女的镜中回天」后解锁",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "闲谈",
+   "text": "看书的时候，我喜欢把自己代入进去。比如，虽然我不善烹饪，但翻看各种食谱时，却能看见自己制作菜品的画面…很神奇吧？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "爱好",
+   "text": "每次看见可爱的事物，我总想把它们做成小玩偶…羊毛毡可以把造型做得最还原，用绒线钩织和牛奶棉填充的话，摸着会更软一些。不止是小动物，也可以制作扎格列斯的银币娃娃、不同表情的水煮嘟噜蛋娃娃…抱着它们，睡眠总是格外安稳香甜。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "烦恼",
+   "text": "想养两只小奇美拉，把脸埋进它们像阳光一样温暖的毛发里，和它们一起在原野上奔跑…但是，不行…还是再做两只奇美拉娃娃吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "分享",
+   "text": "在哀地里亚的日子，我和人们一起将幽蓝的「安提灵花」编成美丽的花环，为牺牲的战士戴上，然后目送他们顺着冥河而下…就这样，日复一日……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "见闻",
+   "text": "战士思乡的呓语，母亲安慰孩子的童谣，少女留给恋人的最后一封信…每完成一次葬仪，我便多了一份逝者留给我的记忆——这些都曾是他们活着的温度。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "关于开拓者",
+   "text": "等到下一次鲜花绽放，如果还能在新世界再见，请别忘了我们的约定。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "关于玻吕茜亚",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "完成开拓任务「魔女的镜中回天」后解锁",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "关于阿格莱雅",
+   "text": "只有足够冰冷的手，才能握住滚烫的火种…阿格莱雅大人，一定早就明白了这一点。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "关于缇宝•缇安•缇宁",
+   "text": "每个人都想破茧成蝶，飞向广阔的天空，但只有她们…选择了回到茧中，为了这世界的重新诞生。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "关于万敌",
+   "text": "纷争带来的死亡往往充满痛苦与黑暗，但万敌阁下赐予对手的，是荣誉与光明的牺牲。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "关于白厄",
+   "text": "失去越多的人，寻回一切的渴望便会越坚定…也许这便是他会带领世人行至最后的原因。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "关于那刻夏",
+   "text": "老师曾告诫我，面对逝者也理应平静，不要将心中的悲哀说出口。直到后来我才明白，对他而言，「练习死亡」便是贯穿一生的命题。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "关于风堇",
+   "text": "纵然经历了这么多生离死别，她依然会为那些无法治愈的病痛落泪…但那眼泪绝不会带入病房，她想让人们看到的，是永远明媚的阳光。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "关于赛飞儿",
+   "text": "那位大人很早便成了半神，她心思神秘，行踪更是捉摸不定…她总抱怨逐火之旅一定会让她赔得血本无归，但总感觉背后还有什么无法说出口的苦衷……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "星魂激活",
+   "text": "再寒冷的彼岸，也会有花香。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "角色晋阶",
+   "text": "看，光照了进来。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "角色满级",
+   "text": "万物流转，死生有序…终点，也是开始。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "行迹激活",
+   "text": "留于人世的痕迹，远比死亡漫长。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "队伍编成•开拓者",
+   "text": "不用担心。在战场上，我身负的诅咒亦是祝福。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "队伍编成•阿格莱雅",
+   "text": "请放心，阿格莱雅大人。我会将这一切尽快了结。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "队伍编成•缇宝",
+   "text": "缇宝大人，记得跟住我~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "队伍编成•万敌",
+   "text": "万敌阁下，我们各司其职吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "队伍编成•那刻夏",
+   "text": "老师，这次会带来怎样的教诲？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "战斗开始•弱点击破",
+   "text": "很快，你也要向冥界去了。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "战斗开始•危险预警",
+   "text": "危险已然迫近。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "回合开始•一",
+   "text": "生命并非如蝶翼般易折。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "回合开始•二",
+   "text": "请珍惜灵魂还未枯萎的时光。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "回合待机",
+   "text": "我会于此静候，直到最后的时刻来临。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "普攻",
+   "text": "沉眠吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "战技•一",
+   "text": "请就此凋零。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "战技•二",
+   "text": "赐予你所求。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "强化战技•一",
+   "text": "亡魂，返归尘土。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "强化战技•二",
+   "text": "暗幕，随我同行。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "轻受击",
+   "text": "我没事。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "重受击",
+   "text": "有点疼。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "终结技•激活",
+   "text": "拥抱「新生」吧，玻吕刻斯。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "终结技•施放",
+   "text": "惟愿「死亡」…捍卫你我！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "无法战斗",
+   "text": "好温暖啊…西风……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "重回战斗",
+   "text": "太好了…还未到告别之时。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "回复生命",
+   "text": "我会铭记此刻的温度。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "秘技",
+   "text": "破茧而生。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "战斗胜利",
+   "text": "愿徘徊的灵魂寻到各自的出路。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "开启战利品•一",
+   "text": "嗯！要好好保存。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "开启战利品•二",
+   "text": "想用它做个手工，但要做什么好呢……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "开启贵重战利品",
+   "text": "悄悄留个影吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "解谜成功•一",
+   "text": "学到了。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "解谜成功•二",
+   "text": "在书上见过类似的谜题……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 75,
+   "title": "发现敌方目标",
+   "text": "请小心。前方的气息使人不安。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 76,
+   "title": "返回城镇",
+   "text": "这儿环绕着鲜花的芬芳…我们可不可以多歇息一会儿？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色详情",
+   "text": "那敬爱死亡的国度，终日飘雪的哀地里亚，今日已沉入甘甜的酣眠。<br />冥河的女儿遐蝶，寻索「死亡」火种的黄金裔，启程吧。呵护世间魂灵的恸哭，拥抱命运的孤独<br />——生死皆为旅途，当蝴蝶停落枝头，那凋零的又将新生。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": "自她有记忆的那天起，哀地里亚的雪一直都在，时间仿佛冻结在这片寂静的白色土地上。<br />年幼的她曾问阿蒙内特，雪是什么？阿蒙内特说，雪是人世的悲欢离合。<br /><br />她总是出神地看着城中的人们。<br />小个子勇士每日都在神殿门前练武，高塔下的中年祭司偶尔喜欢打瞌睡，苦行学者将安提灵花饼分给孩子们。<br />远处打雪仗的孩子们推搡着，笑声就像成熟的果子落进她的心里。<br />她在高塔之上努力分辨着，却看不清他们的脸庞。<br /><br />圣女大人——只是当她出现在众人面前，别人总是如此称呼她，无人敢直视她的眼睛。<br />她鼓起勇气靠近，他们却后退一步，把眼睛垂得更低。她仍旧看不清任何人的模样。<br /><br />直到他们站在死亡面前——小个子勇士在战场上受了重伤，中年祭司为经年累月的疾患所困，苦行学者在救治伤患时被感染——这是她距离他们最近的时刻。<br />生命不再痛苦挣扎，而是在她的指尖化作风中的花瓣。<br />当终于有机会端详他们的脸庞，但她却转过头去，不忍再看。<br /><br />「有些手是为种植而生，有些是为统治而生…你只不过是履行告别的天职而已。」<br />阿蒙内特的话在她耳旁想起，她曾疑惑自己的双手，究竟可以留下什么。<br />回过神来时，她看着手中未完成的冰雕——年轻的战士挥舞武器，母亲拥抱即将奔赴战场的孩子，眷侣依依不舍地捧起对方的脸庞……<br />这些人都不在了。<br />但这样的事还会发生，一次又一次，在风雪之中，在风雪之外。<br /><br />她终于明白，哀地里亚的雪也会融化，就像万物都要走向「死亡」的怀抱。<br /><br />「爱笑的尼古拉奥斯，慈祥的赫莲纳<br />还有如风一般寡言的克力同……<br />夜晚，我捧起那些<br />失落的名字，静默的记忆<br />将白日的哀伤化作<br />沉浸在雪水中的滚烫<br />……」<br /><align=\"right\">——少女写下的，名为「哀地里亚」的诗</align>",
+   "unlockRequirement": "角色等级<nobr>20</nobr>解锁"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "离开哀地里亚的那一天，她踏上觐见塞纳托斯的旅途，一场不知终点在何处的征程。<br /><br />她斥退黑潮造物，挽救衰败的村庄。她不再是哀地里亚的「督战圣女」，却还是刻意与人保持距离，藏起自己的双手。但她不忍孩童闪亮的目光，第一次拿起针线，满足了孩子抚摸玩偶的最后愿望。<br />在那遍布死亡的战场，她为无法归乡的战士写下寄托哀思的家书，她也曾跟随骄傲的诗人学习，用诗篇为后者送别……<br />「死亡是无法逃避的必然」，「死亡是属于战士的荣誉」，「死亡不过是走出时间」…在那漫长的一路，她听过许多或直白或诗意的议论，然而这些答案犹如拂过水面的微风，从未抵达她的内心深处。<br /><br />「后来…有人说，那黎明照拂的圣城满溢生的希望，我或许能在这里……」<br />少女欲言又止。<br />「没事没事，你现在不想说也没事，奥赫玛欢迎你！」红发女孩为她端来一杯热茶。<br />金发女士颇有兴趣地打量着少女的手套——<br />「很有设计感的饰品，也是旅途中学会的么？」<br />她羞涩地交叉起手指。<br />「嗯，我想…至少能让告别，更庄重一些。」<br /><br />奥赫玛的阳光热烈而灿烂，黎明机器永不落幕的宣告许诺了无尽的明天。<br /><br />从那小屋开始，她小心翼翼地开始第二次人生。<br />原本空旷的房间在她的装扮下一日日丰盈起来，羊毛毡玩偶，奇美拉抱枕，厚厚的诗集，它们不再是悲伤的象征，而成为赠礼、纪念与祝福——<br />那些曾为了逝者而存在的习惯，在奥赫玛的阳光下第一次有了生的温暖和力量。<br /><br />「从这扇窗中望出去的风景<br />依然同来时的一样<br />阳光灿烂，水波温柔<br />我吹散双手的雪<br />不让它们太过寒冷、太接近于春天<br />……」<br /><align=\"right\">——少女写下的，名为「春天」的诗</align>",
+   "unlockRequirement": "角色等级<nobr>40</nobr>解锁"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "她知晓自己的终点与逐火的同伴不同，却也逐渐开始拥有属于自己的一些小小的温暖瞬间。<br />在金丝温柔的牵引下，她第一次笨拙地与人共舞。在那生机勃勃的花园，她与风堇一同制作如生般鲜活的干花。还有在树庭毕业的那日，阳光洒落她的长裙，有如蝶翅的碎影……<br /><br />那些对他人而言或许无足轻重的瞬间，早已成为她度过寒凉岁月的薪柴。<br />她是如此地渴望温暖，却也恰恰因此克制着更多的期待，也许是因为那不断失却的逐火之旅，也许是因为不想再经历残酷的伤悲…就像那个纠缠她已久的噩梦，一遍遍重复的那样——<br /><br />刻法勒手中夕阳沉落，血色的迟暮笼罩黎明的圣城。<br />黑潮涌至，死寂的浴池中，黄金的织者第一次与她拥抱，花海中只余织者疲惫的叹息。<br />「我的『爱』，不会因死亡而逝去。」<br />「小蝶，明天见~」褴褛不堪的信使化作玩偶，倒在她的怀中奄奄一息。<br />她试图抓住那些飞散的花瓣，而那捷足的盗贼握住她的手，为她捎来最后的酬劳。<br />「就当帮我一次，骗骗死亡那又如何？」<br />天空的祭司低垂眼眸，靠在她的肩头消散。浴血的王储闭上双眼，等待她的处刑。战士流下血泪，铠甲破碎。树庭的哲人微笑，邀请她作最后的见证。<br />梦的末尾，她看见那天外来客跪倒在星空之下，她最恐惧的猜想就此印证……<br /><br />「蝶宝，再多休息一会吧。」<br />在昏光庭院的催眠治疗室，医师的眼中满是担忧。<br />她擦去额头的汗水，仿佛下定某种决心。<br />「不，我会尽我所能，绝不让噩梦成真……」<br /><br />「逐火的英雄们本行于不同的路<br />我们因微茫的光互相吸引<br />就如忍受灼烧之痛的飞蛾<br />并非因为看见希望才向前飞去<br />而是因为向前飞去而看见希望<br />……」<br /><align=\"right\">——少女写下的，名为「逐火」的诗</align>",
+   "unlockRequirement": "角色等级<nobr>60</nobr>解锁"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "「也许…这就是在奥赫玛度过的最后一天了……」<br />在苦旅的尽头，她终于寻到冥界的线索，前往那或许有来无回的地方之前，她还想再好好看一眼世界。<br /><br />那是黄金裔的浴池。<br />她记得阿格莱雅曾在氤氲的水汽中，将精心修补的手套送给她。<br />「蝶，和第一次见面相比，你变了许多呢。」<br />她惊喜地触摸着手套上美丽的花纹，那平日淡漠的领袖微笑着向她眨了眨眼。<br />「即使是如今的我，也能看到你那被寒冷包裹着的、炽热的心……」<br /><br />那是屋后静谧的花园，它已被塑造成了她梦中的模样。<br />在那时空错乱的梦中，她常常遇到另一个自己，她们一同在花园中耕作，培育，直到荒芜的土地变为盛大的花海。<br />「但愿在未来，我也能如此播种希望……」<br /><br />那是她为曾在指尖逝去的生命立下的纪念碑。<br />从哀地里亚的逝者，到逐火之旅的黄金裔…千年以来，她尝试记住每一个人的名字和过去。<br />「有人记着，就不算真正的逝去。」<br /><br />那是她初见开拓者的地方。<br />相遇是一件多么神奇的事，她想，往日见惯的街道，因为人而有了特别的意义。<br />「阁下，我一定会用我的双手，为你带来……」<br /><br />门扉时将近，约定启程的时刻也将到来。<br />在那热烈的阳光下，她许下最初的、也是最后的心愿：以那寒冷而漫长的一生作为开端，她将与她/他一同写下——<br /><br />一首以真正的拥抱作为句点的、名为「遐蝶」的诗篇。",
+   "unlockRequirement": "角色等级<nobr>80</nobr>解锁"
+  }
+ ],
+ "archive": {
+  "cvCn": "阮从青",
+  "cvJp": "斎藤千和",
+  "cvKr": "이세레나",
+  "cvEn": "Melody Muze",
+  "camp": "翁法罗斯"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "12091651": 1,
+    "12526956": 2
+   },
+   "5": {
+    "12262238": 2,
+    "12285822": 2,
+    "12465910": 2
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "死龙•玻吕刻斯",
+  "iconPath": "e647263d94fb08b7935fd02f3ab6ef71f15d747e5827a2c481af8de3a429f93f",
+  "teamIconPath": "5ffa09779d729af285aeae657381347d29e06f19956d20caa5e112c735fa3b24",
+  "skills": [
+   {
+    "id": 21319318,
+    "name": "擘裂冥茫的爪痕",
+    "icon": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+    "tag": "群攻",
+    "typeDesc": "忆灵技",
+    "skillDesc": "对敌方全体造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害。",
+    "simpleSkillDesc": "对敌方全体造成少量<span style=\"color:#7788ff;\">量子</span>属性伤害。",
+    "levelData": [
+     {
+      "params": [
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21085318,
+    "name": "燎尽黯泽的焰息",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "群攻",
+    "typeDesc": "忆灵技",
+    "skillDesc": "发动【燎尽黯泽的焰息】会消耗等同于死龙生命上限<nobr>#1[i]%</nobr>的生命值，对敌方全体造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害。<br />一次攻击中可重复发动【燎尽黯泽的焰息】，重复发动时，伤害倍率依次提高至<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>/<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>，达到<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>后不再提高，伤害倍率提高效果在死龙消失前不会降低。<br />死龙当前生命值小于等于自身生命上限<nobr>#5[i]%</nobr>时，发动该技能会主动将生命值降至1点后触发等同于天赋【灼掠幽墟的晦翼】的技能效果。",
+    "simpleSkillDesc": "消耗自身生命值，对敌方全体造成<span style=\"color:#7788ff;\">量子</span>属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       0.12,
+       0.14,
+       0.17,
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.144,
+       0.168,
+       0.204,
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.168,
+       0.196,
+       0.238,
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.192,
+       0.224,
+       0.272,
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.216,
+       0.252,
+       0.306,
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.24,
+       0.28,
+       0.34,
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25,
+       0.264,
+       0.308,
+       0.374,
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.288,
+       0.336,
+       0.408,
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.312,
+       0.364,
+       0.442,
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25,
+       0.336,
+       0.392,
+       0.476,
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21359282,
+    "name": "月茧荫蔽的身躯",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "辅助",
+    "typeDesc": "忆灵天赋",
+    "skillDesc": "死龙在场时为我方<u>后援</u>，我方受到伤害或消耗生命值时，当前生命值最多降至1点，此后由死龙承担，但死龙会消耗等同于原数值<nobr>#1[i]%</nobr>的生命值，持续至死龙消失。",
+    "simpleSkillDesc": "死龙在场时为我方<u>后援</u>，我方当前生命值最多降至1点，此后受到伤害或消耗生命值由死龙承担。",
+    "levelData": [
+     {
+      "params": [
+       5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       5
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21235289,
+    "name": "震彻寂壤的怒啸",
+    "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+    "tag": "辅助",
+    "typeDesc": "忆灵天赋",
+    "skillDesc": "死龙被召唤时，我方全体造成的伤害提高<nobr>#1[i]%</nobr>，持续<nobr>#2[i]</nobr>回合。",
+    "simpleSkillDesc": "被召唤时，使我方全体造成的伤害提高。",
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 21001295,
+    "name": "灼掠幽墟的晦翼",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "弹射",
+    "typeDesc": "忆灵天赋",
+    "skillDesc": "死龙消失时，造成<nobr>#2[i]</nobr>次伤害，每次伤害对敌方随机单体造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害，同时为我方全体回复等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>生命上限+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>点的生命值。",
+    "simpleSkillDesc": "消失时，对敌方单体造成少量<span style=\"color:#7788ff;\">量子</span>属性伤害，共弹射<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>次，同时为我方全体回复生命值。",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4665228,
+    "name": "燎尽黯泽的焰息",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "群攻",
+    "typeDesc": "忆灵技",
+    "skillDesc": "",
+    "simpleSkillDesc": "消耗自身生命值，对敌方全体造成<span style=\"color:#7788ff;\">量子</span>属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4397470,
+    "name": "燎尽黯泽的焰息",
+    "icon": "ff22e594fcdc1e3ecc34bde9085a7d0f8b7c5b6306be872a6b4916db3e21f655",
+    "tag": "群攻",
+    "typeDesc": "忆灵技",
+    "skillDesc": "",
+    "simpleSkillDesc": "消耗自身生命值，对敌方全体造成<span style=\"color:#7788ff;\">量子</span>属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.25
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 4672104,
+    "name": "灼掠幽墟的晦翼",
+    "icon": "bdb2aa19d12c3e319a48ba4a0762632ecae83dabcb932944245f09d7d50246ac",
+    "tag": "弹射",
+    "typeDesc": "忆灵技",
+    "skillDesc": "消耗全部生命，造成<nobr>#2[i]</nobr>次伤害，每次伤害对敌方随机单体造成等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>生命上限的<span style=\"color:#7788ff;\">量子</span>属性伤害，同时为我方全体回复等同于遐蝶<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>生命上限+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>点的生命值。",
+    "simpleSkillDesc": "消耗全部生命值，对敌方单体造成少量<span style=\"color:#7788ff;\">量子</span>属性伤害，共弹射<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>次，同时为我方全体回复生命值。",
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       6,
+       0.03,
+       400
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       6,
+       0.036,
+       480
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.28,
+       6,
+       0.042,
+       560
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.32,
+       6,
+       0.048,
+       640
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       6,
+       0.054,
+       720
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       6,
+       0.06,
+       800
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.44,
+       6,
+       0.066,
+       880
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.48,
+       6,
+       0.072,
+       960
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.52,
+       6,
+       0.078,
+       1040
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.56,
+       6,
+       0.084,
+       1120
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    21319318,
+    21085318,
+    4665228,
+    4397470
+   ],
+   [
+    21359282,
+    4672104,
+    21001295,
+    21235289
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 1260323,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1260323,
+     "name": "擘裂冥茫的爪痕",
+     "iconPath": "9834fc3e48f490a84277abf6c118ced2d7cfb60cf911cd8ee74c34f1494968fb",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 1527261,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 1527261,
+     "name": "燎尽黯泽的焰息",
+     "iconPath": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "name": "遐蝶",
+ "rarity": 5,
+ "descHash": "那敬爱死亡的国度，终日飘雪的哀地里亚，今日已沉入甘甜的酣眠。 冥河的女儿遐蝶，寻索「死亡」火种的黄金裔，启程吧。呵护世间魂灵的恸哭，拥抱命运的孤独 ——生死皆为旅途，当蝴蝶停落枝头，那凋零的又将新生。",
+ "artPath": "7dda65214d1d900469b62f8d88bd878b25bad0e9891a31b2230c3aa54da98aee",
+ "miniIconPath": "c5672716925ad2ab406feeb1d8be27f7fb240060d9f1eb6ad328d76c0a903bc0",
+ "damageType": {
+  "id": 32,
+  "iconPath": "71252cc6ee0b921565dfacfac027c84cf13f45cb3dad750bd047708afd5e74af",
+  "color": "#1C29BA",
+  "name": "量子",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "记忆",
+  "rarity": 0
+ },
+ "pageId": "castorice"
+}
