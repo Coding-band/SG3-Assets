@@ -1,0 +1,3964 @@
+{
+ "spRequirement": 140,
+ "iconPath": "338d53e6f05a8901187f52fb66624b5dfc10b2398aabd0451ef76a18014b0ba6",
+ "bgPath": "30b05b2b6bbd5bd64ea076c823edcf11694c02038518efd9e55dc867c2fac5ef",
+ "figPath": "2f8bceb7d26f60975b9d51ec88d64bcc857530995a23acd3e1568508705cc766",
+ "fgPath": "",
+ "splashIconPath": "2ab9a8b3f5852430543824a81fe43023cdf6597ad5916d16816825952830dea2",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRuYCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSCcBAAABkHPbtrG90vd9ns+2bduObXS2bTuVbdtJ57Qfuti2ree5Z8cRMQH4uyMAOCj8p4HU+ele3gAUlIPxFyDh2Y07n09MToIBQEHBfwCKPvDIikOs80HeinwAChO7j7nMc86r7MduGMvzCDG8e7bcc6n7l1pzGQ+6db4nvdF+Q/2rbw+4eumF6vb9yiJfk+2AHve+kzzchGRD7bzD5GJg+PCT5OVn7yiapK3ZBTG8tGzhpa+kiGjbpsW5MLdyF0bZ1BQRithsAPz3fZ24mVqEQlKE35rCfTD5XSgkKSLyg9MUsOjhd4oIKUL5QRZBAV2/a1uEovUP0poMQCH3OknLIkk9Kw5/KqSeum6R+t3Fvc0B448/nbJGn1idZgKmwt8V/mkY+G/DVPg3AFZQOCCYAQAAsAgAnQEqFAAUAD5tMpRHpCKiISgIAIANiWwAnTKEcDCB81IwG2Y8Sv0dNQz9B39YPTI9iklTvjETJf2ADuc7RAag1LqpkxZ1ZonRYL8gAP738O0Icp980hz43qzhdh37MsgTi8qPejVQvUga1n0Sr2IJfCz+cLrcvqHVPvl8NMsjM2UjYyyvIpohflBTyi31DgH+w+kbEcfvRraW01xwGn07tK5Ixsfx4/xGL9xe9Ff4p5AElPvmfLkTXPcWua3QQ31Ppq0K8l39v7dqrsf5fuRjfP7BB/Rdh99ADtNcMZ182jfbVlU7hZ1kKiY8jFJ63DqaqynlC02gs79eh2A2smjH0Nf51qJMQtH+DEjEn/mWgr1ws0KeJzIfiNpPJ50Z2WeTPjnBAFy4HGL/idUNSP/x6roSzdgsbWBEtB7zyn+GJIdakQpADRxf3/AmE0aecLr2a8/0ZfvaV63+wypPxD1cebegK4EcvA6RawfUIJ/KXMQIaqRTmGLaYy/Zh0Xul3dDFoPvuoSg7YvVrB2rks1pPkBggAAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Divisa que utiliza la Corporación para la Paz Interastral para sus cuentas con los clientes y que se acepta en todas partes como moneda de los viajes espaciales.",
+   "lore": "\"La gente corre, se pelea y comercia por algo que no son más que números en una terminal, pero lo que es verdaderamente valioso no se puede comprar\".",
+   "purpose": "Moneda común",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cáliz de la mina principal",
+    "Cáliz de la Comisión de Artesanía",
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Cáliz del Soto de las Musas, Bosque Susurrante",
+    "Recompensa de misión",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Huellas del destino",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "Un fracaso tras otro garantiza la victoria final. Un paso tras otro acaba llevándote al punto de inflexión de tu destino.",
+   "purpose": "Material de Rastros",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Recompensa de puntos del Universo Simulado",
+    "Honor anónimo",
+    "Canjeo de Ascuas",
+    "Canjeo de Cosmiluz",
+    "Recompensa de evento de duración limitada"
+   ]
+  },
+  "267807": {
+   "id": 267807,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "032755a1af1300a6ad09de6a86419ab7437b2bf8f2d307becaab3368eb8745f8",
+   "name": "Copa de la era embriagada",
+   "desc": "Cáliz dorado con vino de calidad que sostiene el copero de la Compañía. Material de ascensión para personajes de tipo Viento.",
+   "lore": "Un grupo de fieles viajó a través de las estrellas, buscando innumerables recuerdos de un vino de calidad y creando sus ofrendas en sueños. Otro grupo de fieles se convirtió en levadura, fermentando el antiguo polvo de la fe, destilando sus ideales en sueños.<br /><br />\"En este instante, el néctar se funde con el veneno, embriagando esta era y envenenando el futuro con el pasado\".",
+   "purpose": "Material de ascensión de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/267807",
+   "comeFrom": [
+    "Sombra paralizada del Gran Teatro de Colonipenal",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "386840": {
+   "id": 386840,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "d008de2c5cf118a3ba604ee2a8f3f7896d624bcac9447bcc7a51b919b6c523bd",
+   "name": "Eco perdido del deseo compartido",
+   "desc": "Material avanzado de mejora para los Rastros.",
+   "lore": "Solo seguía el ritmo supremo hasta que su coro se quedaba en silencio.<br />Sin embargo, sus oyentes no querían callar. Mientras el necio soñador agarraba la cuerda del deseo compartido, el falso intérprete repetía la partitura cubierta de polvo.<br /><br />\"Las yemas de los dedos trazan las estrellas y guían las leyes y los derechos de todos los seres... Hoy, todos los sueños se hacen realidad y las leyes de lo infinito retroceden a la oscuridad\".",
+   "purpose": "Material de Rastros",
+   "rarity": 4,
+   "rewardPath": "/material/386840",
+   "comeFrom": [
+    "Ecos de la guerra del Gran Teatro de Colonipenal"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Guía del espíritu viajero",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>20</nobr> <nobr>000</nobr> pts. de EXP.",
+   "lore": "Lectura indispensable para la exploración. Pulsa el botón Leer y una voz atractiva empezará a hablar en un idioma que entiendes y te contará las vivencias legendarias de aventureros famosos de distintos mundos, así como los valiosos conocimientos que adquirieron.<br /><br />\"El nuevo volumen de la serie Guía del espíritu viajero, titulado «Manual de gastronomía intergaláctica», saldrá a la venta muy pronto\".<br />\"Para enviar un artículo, conéctese a la baliza sinestésica ERD<nobr>-23</nobr>θ y contacte con un representante de la Sociedad del Conocimiento. Puede elegir la forma de pago más conveniente para usted\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Cáliz de Janópolis, Santuario del Oráculo",
+    "Salón olvidado"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Registro de aventuras",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>5000</nobr> pts. de EXP.",
+   "lore": "Colección de notas instructivas muy bien ordenadas. Contiene numerosas ilustraciones y textos que describen aventuras de principio a fin, así como información valiosa y técnicas de supervivencia.<br /><br />\"¿Por qué no lo digitalizan y lo guardan en un disco fotolítico? Sería mucho más práctico\".<br />\"La tecnología avanzada es mucho más frágil de lo que crees cuando tienes que enfrentarte a tormentas estelares o erupciones de neutrones. Además, seguro que quien escribió este libro quería que la gente lo leyera de la forma más sencilla posible\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Cáliz de Janópolis, Santuario del Oráculo",
+    "Entrenamiento diario",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Noticias del viaje",
+   "desc": "Material de experiencia para personajes. Otorga <nobr>1000</nobr> pts. de EXP.",
+   "lore": "Diario de viaje con una caligrafía ilegible y un contenido completamente aleatorio, por lo que no te sirve de mucho.<br /><br />\"Dan Heng, acaba ya de leerlo y luego tíralo\".",
+   "purpose": "Material de EXP de personaje",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Cáliz de las llanuras nevadas de las afueras",
+    "Cáliz del Vado de las Nubes",
+    "Cáliz de la Frontera de los Sueños",
+    "Cáliz de Janópolis, Santuario del Oráculo",
+    "Recompensa de encargo"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "Brote de manas",
+   "desc": "Las células de memoria extraen pensamientos que crecen y se propagan en el corazón de quien inscribe. Sirve para mejorar de forma moderada los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Reminiscencia</span>.",
+   "lore": "Las semillas echan raíces y brotan. Las raíces se entrelazan, transmitiendo señales como una red viva de sinapsis. Con el paso de los años, algunas se marchitan y mueren, mientras que otras florecen y se fortalecen lo suficiente como para dar vida y convertirse en el recipiente de un alma.<br /><br />\"No abandonamos el cuerpo. Lo transformamos en algo... más duradero\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "Alayawah",
+   "desc": "Otra forma de existencia. Una faceta permanente de la vida que el propio universo no puede olvidar. Sirve para mejorar en gran medida los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Reminiscencia</span>.",
+   "lore": "Al madurar, se convierte en una red que reúne historias, una flor del pasado. La vida misma puede ser su lecho de flores o su corazón. Si te conviertes en el corazón de la flor, recordarás el universo, y el universo se acordará de ti. Tú eres la memoria.<br /><br />\"La memoria es la manifestación de todos los dharmas. Por lo tanto, en esta tierra pura sin escapatoria, no existe el nacimiento ni la muerte\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "Semilla de la reflexión",
+   "desc": "Cuando la consciencia se cruza con la materia, brota un embrión de recuerdos. Sirve para mejorar ligeramente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Reminiscencia</span>.",
+   "lore": "Este objeto no existe realmente hasta que ves, oyes o sientes algo. Nacido de las sensaciones, su presencia se desvanece rápidamente y se entierra en la tierra de la mente, de la que puede brotar algún día, o puede que no.<br /><br />\"Es la sustancia que compone nuestros cuerpos y que existe gracias a tus recuerdos\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "Pecho hendido del valor",
+   "desc": "Fragmento de un deudo del Conflicto tras caer en batalla. Material corriente que se usa en la potenciación.",
+   "lore": "Los generales indolentes comenzaron a entrenar, y los sabios recluidos comenzaron a discurrir. Cuando la gente descubrió que las creaciones de los dioses podían destruirse, la masacre se convirtió en guerra.<br /><br />\"El miedo es el cincel del valor\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "De titandeudos (nivel de Equilibrio 2 o superior)",
+    "De Bestias Crepusculares (nivel de Equilibrio 2 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "Torso bautizado de gloria",
+   "desc": "Corazón de un deudo del Conflicto, lleno de poder. Material avanzado que se usa en la potenciación.",
+   "lore": "Al principio, la gente luchaba para vivir. Ahora, algunos luchan para morir, intrépidos como los deudos del Conflicto. La gente de Kremnos suele decir que, quizá, los guerreros de piedra y los de carne y hueso tienen el mismo corazón.<br /><br />\"El valor fluye en su interior, y este corazón se llama gloria\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "De titandeudos (nivel de Equilibrio 4 o superior)",
+    "De Bestias Crepusculares (nivel de Equilibrio 4 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "Carne pisoteada del miedo",
+   "desc": "Pedazo que forma parte de un deudo del Conflicto. Material simple que se usa en la potenciación.",
+   "lore": "La marea de muerte inunda el mundo, y los gigantes del odio y el resentimiento salen del río Estigia. Ante ese ejército tallado en piedra, todos bajan la cabeza, presas del miedo.<br /><br />\"La masacre es la piedra con que se construye el miedo\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "De titandeudos",
+    "De Bestias Crepusculares",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material",
+    "Cáliz (oro)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 52.8,
+   "attackAdd": 2.64,
+   "hpBase": 147.84,
+   "hpAdd": 7.392,
+   "defenseBase": 85.8,
+   "defenseAdd": 4.29,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 73.92,
+   "attackAdd": 2.64,
+   "hpBase": 206.976,
+   "hpAdd": 7.392,
+   "defenseBase": 120.12,
+   "defenseAdd": 4.29,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 95.04,
+   "attackAdd": 2.64,
+   "hpBase": 266.112,
+   "hpAdd": 7.392,
+   "defenseBase": 154.44,
+   "defenseAdd": 4.29,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 267807,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 116.16,
+   "attackAdd": 2.64,
+   "hpBase": 325.248,
+   "hpAdd": 7.392,
+   "defenseBase": 188.76,
+   "defenseAdd": 4.29,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 267807,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 137.28,
+   "attackAdd": 2.64,
+   "hpBase": 384.384,
+   "hpAdd": 7.392,
+   "defenseBase": 223.08,
+   "defenseAdd": 4.29,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 267807,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 158.4,
+   "attackAdd": 2.64,
+   "hpBase": 443.52,
+   "hpAdd": 7.392,
+   "defenseBase": 257.4,
+   "defenseAdd": 4.29,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 267807,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 179.52,
+   "attackAdd": 2.64,
+   "hpBase": 502.656,
+   "hpAdd": 7.392,
+   "defenseBase": 291.72,
+   "defenseAdd": 4.29,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 110,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "2d85c55c7eec64b71feda2033a3fc25a89752eef16dddf2f60199b96127a1d1f",
+   "artPath": "96f19709066700bb4951b7298c2b9ac45393aff1b771346a8a37f0f28808325c",
+   "name": "Protectora de la llama nocturna",
+   "descHash": "Cuando Hyacine está en el estado de Cielo lavado, todos los aliados aumentan sus PV máx. en un <nobr>#1[i]%</nobr> adicional y, tras atacar, regeneran inmediatamente una cantidad de PV equivalente al <nobr>#2[i]%</nobr> de los PV máx. de Hyacine.",
+   "params": [
+    0.5,
+    0.08
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "bab78772f3ceb38c1e02fa1ad5d4edf01dca7e5c8ffa7eea59583e552abf61c2",
+   "artPath": "244bdc0adb3ab6ac6f5567cea5fdf3378b52ea57e432ab277d3e0c638e5fbfc6",
+   "name": "Ven a sentarte en mi jardín",
+   "descHash": "Cuando los PV de un aliado se reducen, la VEL aumenta en un <nobr>#1[i]%</nobr> durante <nobr>#2[i]</nobr> turnos.",
+   "params": [
+    0.3,
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "09f4501b219c1cc29e2269292d2f06b834f2a6dd36fba7b641f720f7e510067c",
+   "artPath": "7dd1021fd7867db737073ef8750e97855c9d0d87dd32b2df46b2af66796a14c2",
+   "name": "¡Aventurémonos hacia el sol!",
+   "descHash": "Niv. de habilidad definitiva +2 (máximo: nivel <nobr>15</nobr>). Niv. de ATQ básico +1 (máximo: nivel <nobr>10</nobr>). Niv. de habilidad del mnemoduende +1 (máximo: nivel <nobr>10</nobr>).",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "cd6a6d74c9c33255ced07f4ac5643e1fea625c6774e31fee44d5e7c4e2a5c926",
+   "artPath": "63f5e0960d0d1f15e2adfe61f1b593d8a25aaa855e23d582edc368ecb4e82f1f",
+   "name": "Te regalo este ámbar brillante",
+   "descHash": "El Rastro \"Respiro en el vendaval\" se potencia. Por cada <nobr>#1[i]</nobr> pt. de VEL de exceso, el Daño CRIT de Hyacine e Ica aumenta en un <nobr>#2[i]%</nobr> adicional.",
+   "params": [
+    1,
+    0.02
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "75e62d77a5fd7fec603f8e5db1e47ab93b60d750a35c4bea2f9f779c95a6eb6b",
+   "artPath": "a8297808d21745dd8a3563ec5a953bc7190d4eae4d184a42974f7c69ea11d984",
+   "name": "Reverso de arrebol marino",
+   "descHash": "Niv. de habilidad básica +2 (máximo: nivel <nobr>15</nobr>). Niv. de talento +2 (máximo: nivel <nobr>15</nobr>). Niv. de talento del mnemoduende +1 (máximo: nivel <nobr>10</nobr>).",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3b03c14471bd55e2ac5a9dbd31a8e1d0a80670210e5996e7715b54279d0db37f",
+   "artPath": "761b51123180ba8d04bc1698f4df8845515dd8a200a585207349a9b6adeaacac",
+   "name": "Cielos, escuchen mi ruego",
+   "descHash": "El porcentaje de curación acumulada que se borra cuando Ica lanza la habilidad del mnemoduende pasa a ser el <nobr>#1[i]%</nobr>. Cuando Ica está en el campo de batalla, la <u>PEN de la RES</u> a todos los tipos de todos los aliados aumenta en un <nobr>#2[i]%</nobr>.",
+   "params": [
+    0.12,
+    0.2
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   13891606
+  ],
+  [
+   14143032
+  ],
+  [
+   13900842
+  ],
+  [
+   13656795
+  ],
+  [
+   13948128
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "ATQ individual",
+   "descHash": "Inflige un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de los PV máx. de Hyacine como Daño de <span style=\"color:#00FF9C;\">Viento</span> a un enemigo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 13891606,
+   "name": "Cuando la brisa acaricia las nubes",
+   "iconPath": "c0c669d446de93f350cfb427444aae5e7801347c9b70731101129fb8fdee8001",
+   "typeDescHash": "ATQ básico",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Regeneración",
+   "descHash": "<u>Invoca al mnemoduende</u> Ica. Regenera una cantidad de PV equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> de los PV máx. de Hyacine + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span> a todos los aliados (excepto Ica). Regenera una cantidad de PV equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> de los PV máx. de Hyacine + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> a Ica.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 14143032,
+   "name": "Arcoíris rociado de amor",
+   "iconPath": "75e62d77a5fd7fec603f8e5db1e47ab93b60d750a35c4bea2f9f779c95a6eb6b",
+   "typeDescHash": "Habilidad básica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.04,
+      40,
+      0.05,
+      50
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.044999998,
+      64,
+      0.05625,
+      80
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.05,
+      82,
+      0.0625,
+      102.5
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.055,
+      100,
+      0.06875,
+      125
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.06,
+      112,
+      0.075,
+      140
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.064,
+      124,
+      0.08,
+      155
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.067999996,
+      133,
+      0.085,
+      166.25
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.072,
+      142,
+      0.09,
+      177.5
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.076,
+      151,
+      0.095,
+      188.75
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.08,
+      160,
+      0.1,
+      200
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.084,
+      169,
+      0.105,
+      211.25
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.088,
+      178,
+      0.11,
+      222.5
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.092,
+      187,
+      0.115,
+      233.75
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.096,
+      196,
+      0.12,
+      245
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1,
+      205,
+      0.125,
+      256.25
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Apoyo",
+   "descHash": "<u>Invoca al mnemoduende</u> Ica. Regenera una cantidad de PV equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> de los PV máx. de Hyacine + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span> a todos los aliados (excepto Ica), y regenera una cantidad de PV equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[f1]%</nobr></span> de los PV máx. de Hyacine + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#7[i]</nobr></span> a Ica. Hyacine entra en el estado de Cielo lavado durante <nobr>#5[i]</nobr> turnos. La duración se reduce en 1 cada vez que Hyacine comienza su turno. En el estado Cielo lavado, los PV máx. de todos los aliados aumentan en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>.",
+   "ultimateCost": 140,
+   "break": "0",
+   "energy": "5",
+   "id": 13900842,
+   "name": "Quienes volamos a la penumbra",
+   "iconPath": "bf77e9302635913821927f1cd57680c362327f8b2b58a9dc5d6406311a0fa874",
+   "typeDescHash": "Habilidad definitiva",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.05,
+      50,
+      0.15,
+      150,
+      3,
+      0.06,
+      60
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.05625,
+      80,
+      0.165,
+      240,
+      3,
+      0.0675,
+      96
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.0625,
+      102.5,
+      0.18,
+      307.5,
+      3,
+      0.075,
+      123
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.06875,
+      125,
+      0.195,
+      375,
+      3,
+      0.0825,
+      150
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.075,
+      140,
+      0.21,
+      420,
+      3,
+      0.09,
+      168
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.08,
+      155,
+      0.225,
+      465,
+      3,
+      0.096,
+      186
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.085,
+      166.25,
+      0.24375,
+      498.75,
+      3,
+      0.102,
+      199.5
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.09,
+      177.5,
+      0.2625,
+      532.5,
+      3,
+      0.108,
+      213
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.095,
+      188.75,
+      0.28125,
+      566.25,
+      3,
+      0.114,
+      226.5
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1,
+      200,
+      0.3,
+      600,
+      3,
+      0.12,
+      240
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.105,
+      211.25,
+      0.315,
+      633.75,
+      3,
+      0.126,
+      253.5
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.11,
+      222.5,
+      0.33,
+      667.5,
+      3,
+      0.132,
+      267
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.115,
+      233.75,
+      0.345,
+      701.25,
+      3,
+      0.138,
+      280.5
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.12,
+      245,
+      0.36,
+      735,
+      3,
+      0.144,
+      294
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.125,
+      256.25,
+      0.375,
+      768.75,
+      3,
+      0.15,
+      307.5
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Potenciación",
+   "descHash": "El mnemoduende Ica tiene inicialmente unos PV máx. equivalentes al <nobr>#1[i]%</nobr> de los PV máx. de Hyacine. Cuando Hyacine o Ica realizan una curación, el daño que inflige Ica aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> durante <nobr>#4[i]</nobr> turnos. Se puede acumular hasta <nobr>#5[i]</nobr> veces.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 13656795,
+   "name": "Alborada que cura al mundo",
+   "iconPath": "7fbb6f1cf8d4dcad96302f518b4c5a7747e336b45dae9c998f496ff7d6fb07e8",
+   "typeDescHash": "Talento",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      1,
+      0.4,
+      2,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.44,
+      2,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.48,
+      2,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.52,
+      2,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.56,
+      2,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.6,
+      2,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.65,
+      2,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.7,
+      2,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 386840,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.75,
+      2,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.8,
+      2,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 386840,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.84,
+      2,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.88,
+      2,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.92,
+      2,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      0.96,
+      2,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      1,
+      1,
+      2,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Ataca a un enemigo y, tras entrar en combate, consume la Firmeza del tipo correspondiente del enemigo.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 13666039,
+   "name": "Ataque",
+   "iconPath": "c0c669d446de93f350cfb427444aae5e7801347c9b70731101129fb8fdee8001",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Regeneración",
+   "descHash": "Al comenzar la siguiente batalla, todos los aliados regeneran una cantidad de PV equivalente al <nobr>#1[i]%</nobr> de los PV máx. de Hyacine + <nobr>#2[i]</nobr>, y sus PV máx. aumentan en un <nobr>#3[i]%</nobr> durante <nobr>#4[i]</nobr> turnos.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 13948128,
+   "name": "¡A buen tiempo, corazón contento!",
+   "iconPath": "f7565de785dd69e1a8a4e516effc01f3c646bfeb5c630ee70458c6ae3ccc554e",
+   "typeDescHash": "Técnica",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.3,
+      600,
+      0.2,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1409101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1409204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 17811211,
+      "name": "Bonificación de PV",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1409205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 17559847,
+      "name": "Bonificación de VEL",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "VEL",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "La Prob. CRIT de Hyacine e Ica aumenta en un <nobr>#1[i]%</nobr>. Al curar a un aliado cuyos PV actuales sean iguales o inferiores al <nobr>#2[i]%</nobr> de sus PV máx., la curación realizada por Hyacine o Ica aumenta en un <nobr>#3[i]%</nobr>.",
+    "ultimateCost": 0,
+    "id": 17316017,
+    "name": "Sonrisa nublada",
+    "iconPath": "d20c98b25f74c6861afc8ed06fa8ee8290ccb88522491c5242f1ae2907fecb6d",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.5,
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1409102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1409206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 17802038,
+      "name": "Bonificación de RES a efecto",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "53050ffa2be01a99b930263f8c1b883e021e236827d23c7f2fafbd5d59f4a98d",
+      "statusList": [
+       {
+        "key": "RES a efecto",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 20389475,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1409207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 17456576,
+      "name": "Bonificación de VEL",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "VEL",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 20389475,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "La RES a efecto de Hyacine aumenta en un <nobr>#1[i]%</nobr>. Al lanzar la habilidad básica o la habilidad definitiva, se disipa <nobr>#2[i]</nobr> <u>estado negativo</u> de todos los aliados.",
+    "ultimateCost": 0,
+    "id": 17590951,
+    "name": "Caricia tormentosa",
+    "iconPath": "77c074827f982d52fac7aa90cbe63f530359f66f0d9ecdd43c749cc1f88a4048",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1409103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1409208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1409209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1409210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 977288,
+          "name": "Bonificación de VEL",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+          "statusList": [
+           {
+            "key": "VEL",
+            "value": 4,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 20389475,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 17447393,
+        "name": "Bonificación de RES a efecto",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "53050ffa2be01a99b930263f8c1b883e021e236827d23c7f2fafbd5d59f4a98d",
+        "statusList": [
+         {
+          "key": "RES a efecto",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 17698770,
+      "name": "Bonificación de PV",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "PV",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 20389475,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "descHash": "Cuando la VEL de Hyacine es superior a <nobr>#1[i]</nobr>, sus PV máx. y los de Ica aumentan en un <nobr>#2[i]%</nobr>. Entonces, la curación realizada por Hyacine e Ica aumenta en un <nobr>#4[i]%</nobr> por cada <nobr>#3[i]</nobr> pt. de VEL de exceso. Se cuentan como máximo <nobr>#5[i]</nobr> pts. de VEL de exceso.",
+    "ultimateCost": 0,
+    "id": 17319061,
+    "name": "Respiro en el vendaval",
+    "iconPath": "5ad7ea6bbd8cb501858495369828f4b08097e7292a99657b4b8604070d09b2ae",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       200,
+       0.2,
+       1,
+       0.01,
+       200
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 386840,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1409201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1409202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 17791848,
+      "name": "Bonificación de RES a efecto",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "53050ffa2be01a99b930263f8c1b883e021e236827d23c7f2fafbd5d59f4a98d",
+      "statusList": [
+       {
+        "key": "RES a efecto",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1409203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 17503611,
+      "name": "Bonificación de VEL",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "VEL",
+        "value": 2,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 17516886,
+    "name": "Bonificación de VEL",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+    "statusList": [
+     {
+      "key": "VEL",
+      "value": 2,
+      "int": true
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Primer encuentro",
+   "text": "Como descendiente del Cielo, yo, Hyacinta, llevaré a cabo la misión buscallamas junto a todos ustedes. Al mismo tiempo, como Hyacine, sanadora del Patio Claroscuro, me esforzaré por brindarles todo mi apoyo. Este es mi fiel asistente y buen compañero, el pequeño pegaso Ica. ¿Te gustaría acariciarlo? Adelante, acércate con confianza, ¡a él le encanta!",
+   "unlockRequirement": "",
+   "cnUrl": "c83e9f65f02febec0a2e339675ed74824e909d775c222998dff65109f3488ac9",
+   "jpUrl": "e00ed52f905226d7e06a7ea4b6a4e42d2a87cc4e8a271424e2c84c40b444c2ac",
+   "enUrl": "7f85e5e70059003dcfb744a8d970b4997779d63d711674114f5a7ec589f3859b",
+   "krUrl": "0bdf50e7a4cb08a73d505627acf81cc8cf6fb8c9cfa2125c0a02c8d0f753898c"
+  },
+  {
+   "id": 2,
+   "title": "Saludo",
+   "text": "Tu lenguaje corporal y tus expresiones me dicen que tienes algo en mente. ¿Te gustaría venir a pasar un momento en mi patio? Hay sofás, libros, aperitivos, sol y... bueno, ¡estoy yo para hacerte compañía!",
+   "unlockRequirement": "",
+   "cnUrl": "d14196f9d5f51acc3fda4b9cae02df0badddd574d306f1f563a30aada9b7f895",
+   "jpUrl": "b2106cf296f0629487c9a762f86ca926e87918e5d273d0e88f6e4f9f3954b446",
+   "enUrl": "4500711a7fbd403c61a4671b8bf7468b7114ce788af564a77eefb9288bff72f3",
+   "krUrl": "8d94212660adfbbb20bc33ad4abcdcd59986374981dd0f44cd36e50b48a5f49a"
+  },
+  {
+   "id": 3,
+   "title": "Despedida",
+   "text": "Las noches son frías, así que recuerda comer bien y no quedarte despierta/o hasta tan tarde. Date un baño caliente y bebe una infusión floral de leche de cabra antes de acostarte, ¡te aseguro que tendrás dulces sueños!",
+   "unlockRequirement": "",
+   "cnUrl": "20edb05ca2ccd79819a3ee7dca99294b5ca909b54407e031ab5a3dfb32e214e1",
+   "jpUrl": "1547366c5bc801f0345b72a5e79f253a7bf040f3d0f2316143999c9f82ea15ba",
+   "enUrl": "e95bc6bddcf1846a278a05c0297caf6ff05bec1464caaff1a26ca1d2485841f0",
+   "krUrl": "a7566c424a464e88318edc596c606191dc5b4bfd2ebfe52c11f50a65f3b1afe2"
+  },
+  {
+   "id": 4,
+   "title": "Acerca de sí misma: identidad",
+   "text": "Antes de que el sol se silenciara, mis ancestros regulaban el clima y las estaciones por encima de las nubes. Ahora que la noche eterna ha descendido, quiero ser un rayo de luz que cure las heridas de este mundo, en la medida de lo posible. Esperaré el día en que vuelva a florecer el alba, y todos nos bañemos una vez más en su luz.",
+   "unlockRequirement": "",
+   "cnUrl": "e0fc45b62c3da3385cd41581da06b9453bc80485fd2d4c7038d3e89da3d900de",
+   "jpUrl": "180cdce648292a9734260f17b35580fa8eaad6a6a897b7b2f702650ad84fc84f",
+   "enUrl": "86b02b6fca756e51f09f04670f66955883ef65b653cee8368311cdd1deff0482",
+   "krUrl": "eaa226612e021cd1b186695800c1dc9ed2702743611bb9b719b6893de0988db7"
+  },
+  {
+   "id": 5,
+   "title": "Acerca de sí misma: bestias aladas",
+   "text": "Todos los habitantes del cielo reciben la bendición de las bestias aladas. Aunque Ica parezca pequeño y somnoliento, una vez salvó a toda una polis con su radiante luz de tonos arcoíris. Sin embargo, desde aquel fatídico día, no ha pronunciado ni una sola palabra...",
+   "unlockRequirement": "",
+   "cnUrl": "865e20c75debe2401937bce5cae034de7e1727ba43a3cfd22501555419616275",
+   "jpUrl": "15a155d416d5f645fa2e2b1d302b608590f22a7ec686ab99ab4b918a5ac5df71",
+   "enUrl": "02a1cb4befd73f71a3060c2e66349b0f1ee36d7b6979035279efb51c3a8caac1",
+   "krUrl": "bdc3b8b086964d1add1cf04d80e6c41d8ab1aea6e9764d6136fcd73a76b199fd"
+  },
+  {
+   "id": 6,
+   "title": "Conversación: terapia",
+   "text": "La gente suele ponerse nerviosa cuando le ponen vendajes, inyecciones o cuando le hacen un chequeo médico, ¡es entonces cuando se ponen a prueba las habilidades de comunicación de un sanador! Es solo que a veces la gente se queda dormida cuando hablo... ¿Eh? ¿Acabas de bostezar?",
+   "unlockRequirement": "",
+   "cnUrl": "7e13c01af0554fd06e1a5d81e7aa7a283173f77ccc91300cbc096eb9f2b8d17d",
+   "jpUrl": "152be7b57d33c343b857ae5580175544b84ec855a6980ce8d90aece34562e77b",
+   "enUrl": "519dca63d5a17cf6d2e028e4c60525e6e334bc0ee6934da823a4e3ad1fb8d522",
+   "krUrl": "dd8970f584a0f748114b0e60f120404188a719eafb306a0b4fa9ef56d91f6994"
+  },
+  {
+   "id": 7,
+   "title": "Conversación: atracción",
+   "text": "Cada vez que me detengo en algún lugar, las mariposas, los dromas y las quimeras se reúnen alrededor de Ica. Comprendo esa sensación. ¿A quién no le gustaría Ica?",
+   "unlockRequirement": "",
+   "cnUrl": "6bda12bfbb98f570d33250614a0c519279703501647ca40a705a9a2ccd979ac7",
+   "jpUrl": "bb0e268abcdda579427224814530a948c3e2beaae2258e453caa9bc5df4cf53d",
+   "enUrl": "0504650531098478b41bfabe246d5725e54baeca97f7c5bbd88608f4617c2256",
+   "krUrl": "2f0d33f4906b1f35ffab5fd1bb878ffcd48b9dae7ea2a074fd4e7abf5cceb634"
+  },
+  {
+   "id": 8,
+   "title": "Aficiones: observar aves",
+   "text": "Me gusta tomar imágenes de las aves de Amphoreus con mi piedra fotográfica. ¡Ya tengo todo un álbum lleno! En una ocasión tuve una discusión con los eruditos del Soto sobre por qué Aquila y Fagusa no se llevan bien, ¡y creo que es porque Aquila siempre envía a sus mensajeros a la orilla para robar el hidromiel de Fagusa!",
+   "unlockRequirement": "",
+   "cnUrl": "de30b13b0e38522d5d0dd0d3b47feec2b698c582650585c47cd2da46f78671ca",
+   "jpUrl": "49356492f2bf32ec1f92a32f55ea60e7625065878255733b70eca9e32650cb82",
+   "enUrl": "651994fd79e4257f6bb14825d92d332330297c17c5be3f97f6009d86ea859e58",
+   "krUrl": "1347873afef8c84255c9200a806b4ac1d6635fbf7b7056d83fc57173ca86038b"
+  },
+  {
+   "id": 9,
+   "title": "Aficiones: cosas de segunda mano",
+   "text": "Si vienes a mi patio, encontrarás fundas de asientos hechas con ropa vieja y campanas de viento hechas con latas viejas... Solo dame lo que no necesites, ¡te garantizo que lo convertiré en algo completamente nuevo!",
+   "unlockRequirement": "",
+   "cnUrl": "c7bc4780b81c8a10c825ead476e120ff692655f9974d7221aa1c94e73bcf740e",
+   "jpUrl": "0f6f1066550afec916df85ecc6eea97e597236357f58b41084038e6b527ca917",
+   "enUrl": "c682d4c886400a228312c78a05feba5a1e7f55e030c1bccd01f4e9b16d18d0b3",
+   "krUrl": "55e0d36fc50e3f215fb089be2e40e67233454a0a295f547c9dbc4ea394cbd9a3"
+  },
+  {
+   "id": 10,
+   "title": "Molestias",
+   "text": "Siempre que alguien se entera de que soy descendiente de los hijos del Cielo, me pregunta dos veces para asegurarse. Sé que mi aspecto es muy diferente al de mis antepasados de las leyendas, y mentiría si dijera que no me importa... pero ¿no debería todo el mundo ser único?",
+   "unlockRequirement": "",
+   "cnUrl": "baef857fb11efbd14f057c5a47a982693c73c80bb56eb34d119a9fbf972b000b",
+   "jpUrl": "d296a5d087f575c4382833801d0b5a355c9be41a40591f3b35d248d51070b3e4",
+   "enUrl": "961c108245b3109221a5ec71178f9f5edc0b39280cb5e98c8021ba5e2cac5c04",
+   "krUrl": "be7c8ae46a4f56936c0f26ef4724a4c5c1289f4dd8adb263ddf126984ad5604f"
+  },
+  {
+   "id": 11,
+   "title": "Algo que compartir",
+   "text": "La medicina tiene sus límites. Aunque los sanadores hagamos todo lo posible, no podemos curarlo todo. Por eso también estudié enfermería y terapia psicológica, porque curar un corazón es tan importante como curar un cuerpo en este mundo condenado.",
+   "unlockRequirement": "",
+   "cnUrl": "e345887a8b866a0258fc613c6650b8709b82604091dc08563e1b3e8b13b28418",
+   "jpUrl": "92bfed97f9ea8c4d8d16ca563c9cecd017f30f53fed867ccad79cebeea92263f",
+   "enUrl": "ae6f2337e2fd032549597e3f1a4f3c79c47d0f6b00a46ac2cc563a68e460ed7a",
+   "krUrl": "36c94f574a4204d04fbe7ba15ef10a91b08826caf3d500950ab9f901f3ae1072"
+  },
+  {
+   "id": 12,
+   "title": "Un dato",
+   "text": "Rojo para la justicia, naranja para el coraje, amarillo para la paz... Mis antepasados dejaron diferentes colores para este mundo, igual que la luz del sol se convierte en siete tonos diferentes cuando pasa a través de las gotas de lluvia.",
+   "unlockRequirement": "",
+   "cnUrl": "32b4847e58b2fb98d5b4a053506dd7dc082d374061e204bbd3c6bcb4a384454d",
+   "jpUrl": "ae6f2d8e045775a41ae05d68a07cc532418d6daaff0a541a52c5945b575b0ebe",
+   "enUrl": "53cd0386282be8f34153850ecaac56ee9886e8410bd2d49159782a30d07981f6",
+   "krUrl": "a9aa3bdfad8f7af06ab82487228597c20dc2188b260a35575219e9998ece5e53"
+  },
+  {
+   "id": 13,
+   "title": "Acerca de Trazacaminos",
+   "text": "Al parecer, Cenici ha vivido grandes aventuras en tierras más allá del cielo. Si pudiera, me encantaría ir con ella/él a los mundos del más allá. Después de todo, ¡soy una habitante del cielo!",
+   "unlockRequirement": "",
+   "cnUrl": "c415c4489d903f605670aeae86f897c3d630bbb623b323a7dd7ad708b2df03b0",
+   "jpUrl": "0242512410d4a5137ecd9686888917a68bdd63a9dc59c91bd945303c02ee7074",
+   "enUrl": "c56fdbec624bea1bf6f7228cc55654639441fe57eb549a5280f90d121c8fc8a2",
+   "krUrl": "3cb9b5ec013269585b5c5289ad18e36c3ec63153500f2213011642c707ad5182"
+  },
+  {
+   "id": 14,
+   "title": "Acerca de Dan Heng",
+   "text": "Es raro ver a alguien tan emocionalmente estable como Dani. Es como si no reaccionara incluso ante la calamidad más oscura. Sería un buen sanador.",
+   "unlockRequirement": "",
+   "cnUrl": "5cc03f5ef2d817c3217bc07540f5c1eb6179af4078e8dd28833019e9cf5448b7",
+   "jpUrl": "c7b7e30aec63c9c636e215a4fa312ddd32986c1719f6e66b70d19a73fca4fea9",
+   "enUrl": "e82992da583db12a01ba0053ed9d8de5dfd922dac748a51818f6de01df9f9275",
+   "krUrl": "e638582fd1e61a7bfd370a7e1d2f423786ff05795548d0912b8c982216ebd1fe"
+  },
+  {
+   "id": 15,
+   "title": "Acerca de Aglaea",
+   "text": "Alguien se quejó una vez de que la dama Aglaea es siempre impredecible y poco fiable... pero sentí un leve calor bajo su piel helada cuando le cogí las manos. Creo que simplemente utiliza sus palabras para ocultar sus verdaderas intenciones.",
+   "unlockRequirement": "",
+   "cnUrl": "ef7437183ef2e349fa5d85e7501da9cad255dfd2550f54fe506bc13c6ed9a700",
+   "jpUrl": "9e5fb4411167eecf32b5f5b109ca4b107093ff5b7c5249e0e27307996260ad4b",
+   "enUrl": "4753cb247d0857b8e8416d875511de865e41bd83bf1c371acc397af571153e4a",
+   "krUrl": "0ff6e215629d3b0368ed5efcc5b5989c2bb4991654b3ff5d60c30eb592b7f9d8"
+  },
+  {
+   "id": 16,
+   "title": "Acerca de Tribbie, Trianne y Trinnon",
+   "text": "Tribbie me invitó una vez a subir a su cohete. No fue un viaje largo, pero fue muy emocionante volar a través del Palacio de Mármol... Me dijeron que no tendría miedo siempre y cuando siguiera mirando hacia adelante.",
+   "unlockRequirement": "",
+   "cnUrl": "0a9bf3d702da79f3692ef478d507862307d06367302ef3b679bbc58e6df51387",
+   "jpUrl": "1c9b74db29c276bf25d10b4e711baf24676110224a23f44f3db72ec410089bd1",
+   "enUrl": "79f4f1c8993e983742cb2366e1a9cd2c16f4de0eae74e1ab71e0be7406466b97",
+   "krUrl": "78cd9afb9b40b771200f09b6ed1dd9ae42354cee0985ae2d12abbbc3abf05a7b"
+  },
+  {
+   "id": 17,
+   "title": "Acerca de Castorice",
+   "text": "A Castori le gusta mucho mi jardincito. Lo rodea constantemente desde lejos, dando vueltas y vueltas, e incluso se olvida de pestañear. Hace falta algo aún más adorable para que salga de ese estado... ¿Tal vez una quimera?",
+   "unlockRequirement": "",
+   "cnUrl": "e82a546de7fdc019e653fa123e219187786a859ccc2e3e900a01aabf737e151d",
+   "jpUrl": "b295b2ac658e2b1a287c279900752535d26c0cbe64ef8ad4384c4225306f022d",
+   "enUrl": "b7f21f76575ec76e936deba74088ec696ab21605a7511615e7955cde54c25896",
+   "krUrl": "5978eebfcfdec1ff5ff8916d7cf88304b5b0e2354a0a22a8dd7823d6a1e6c751"
+  },
+  {
+   "id": 18,
+   "title": "Acerca de Anaxa",
+   "text": "El profesor Anaxa se niega a explicar los puntos clave de los exámenes, ¡e insiste en tomar pruebas orales individuales! Los estudiantes siempre acaban acudiendo a mí durante cada temporada de exámenes debido al agotamiento mental...",
+   "unlockRequirement": "",
+   "cnUrl": "900e010a9a3912f462517940969bf5211a3471636ed77ad82afa42e7462eb5e2",
+   "jpUrl": "54c4cbd231165aa5a6486c48e1055955c5d970a7e8fcccd17a5518297601abc3",
+   "enUrl": "b191bc1da04a9c30cfabfdebbac7bd21737d638ac9da512b043728d7a39a16fe",
+   "krUrl": "bfed191d275be6a2f5eb809e303b189e44a01989bbdca6c450b448c0920479bc"
+  },
+  {
+   "id": 19,
+   "title": "Acerca de Fainón",
+   "text": "Fainón es bueno y amistoso con todos sus compañeros, pero siempre hay una pizca de dolor en su sonrisa... Debe haber perdido algo muy querido para él.",
+   "unlockRequirement": "",
+   "cnUrl": "210f0e430fae1d307d56487dc4d74ad59163f0e0f38e3c6f0957ef0a9138f46c",
+   "jpUrl": "d4fc57f8468b22b3c38cf6cf6238f8bca47a2a00adeec8c9afb0a785480007cc",
+   "enUrl": "2e81bcb436504d9c1d840a993458f97bc6ce21757d82f91cafa33963cbd05585",
+   "krUrl": "96484b19b59daeb6bf25c5ceb88de08e352ba24151531360df2118fb390f1d5e"
+  },
+  {
+   "id": 20,
+   "title": "Acerca de Midei",
+   "text": "La velocidad de recuperación de Midei es mucho más rápida que la de un ser humano común. Incluso cuando está herido y necesita mi ayuda, habla y bromea como si no pasara nada... Es extraño... Ahora que lo pienso, parece más hablador de lo normal en esos momentos.",
+   "unlockRequirement": "",
+   "cnUrl": "9f1649d3caf5079a64a2729f8137479a58bf8e009bd8e02f6fce846b1ee34582",
+   "jpUrl": "2cb477ff63fa8017a9ab18e53930e2a65166b32180ebdfa688214b252e33b763",
+   "enUrl": "03b8155d0eef0e4c0b70d2ea41ddc77a254332505ac9fe39d41c8250bbbd6f54",
+   "krUrl": "2f85f836f1262c47fba010cf21063ee512f6e6de7268912baa0c8c722ee13c53"
+  },
+  {
+   "id": 21,
+   "title": "Acerca de Cífer",
+   "text": "Puedes saber cómo se siente Cífer solo con mirar su cola. Si la cola está erguida, significa que está feliz. Si solo se mueve la punta, quiere decir que no quiere hablar con nadie y que es mejor guardar silencio. ¿Que cómo lo sé? ¡Solo estoy suponiendo que funciona de la misma forma que una quimera!",
+   "unlockRequirement": "",
+   "cnUrl": "bee50cf6213d8de54d8a720c7af20887b6e608b82d29df9f4936d708ef280f53",
+   "jpUrl": "d8013c6a56eb63f76147dc03977bcf39847073a82045191c5a575d0ba1c8f112",
+   "enUrl": "f9579f4dc11b36fa703ed101babc16751ad59acef42bd15d2b8f40a2e436f83a",
+   "krUrl": "4189a73e6b2bb6e68a3343ccb2403d56f439dc4b0d435d0c20cb50b72320752b"
+  },
+  {
+   "id": 22,
+   "title": "Activación de Eidolon",
+   "text": "El cielo está vacío, pero da consuelo a la humanidad.",
+   "unlockRequirement": "",
+   "cnUrl": "28da8b1cea7d705226928e2bc05c6a33ff888ba7002e265b29c59b57b39fef0f",
+   "jpUrl": "b4155718c540bd9deb1ab399aa1d656b7e932c7c88778e800e45c378bcdd09b8",
+   "enUrl": "4fe7040200c19bbb457eb1e8bffed7b436b562d73b426504c70ffa79f8842a7c",
+   "krUrl": "e34e51b6efab446ffc1a128010f68b55d094074b9565ed814916d4371d2b2110"
+  },
+  {
+   "id": 23,
+   "title": "Ascensión de personaje",
+   "text": "Necesito colores más vívidos para sanar este mundo.",
+   "unlockRequirement": "",
+   "cnUrl": "a734b5b4bcb94fd2982ee05b8e5c574d4fdf1db13a698dd5e48747876f2a522b",
+   "jpUrl": "114f9ec0b859bc830dbb55bb1b07f9aae929d6bddc6c7910076bbd009956a281",
+   "enUrl": "d118cbb35fa699d6ad993a623ea64d99ca36435458990cdf9a3aaa8c1fa2baf0",
+   "krUrl": "a16d95ee9768851b416bd0486c55276fbecf0ac5a24096c92c3e5392af954eea"
+  },
+  {
+   "id": 24,
+   "title": "Nivel máximo alcanzado",
+   "text": "Que el final de nuestro viaje no incluya oscuridad.",
+   "unlockRequirement": "",
+   "cnUrl": "b722dce20e5eda0ae0fa9d12ceabc806d8d44e5530fe1e5b516fcc1ecb06506a",
+   "jpUrl": "b2e27d86069ca5fcb63936e265c5fa814428d24e71159bf7cbb302b80a82ec3b",
+   "enUrl": "1b01c520cb7cc6d806291c5883783dd4921f3764b7308c6af448c8bc9e794bec",
+   "krUrl": "57364df42398276c757dd1402c9e551a97e81f2d32437ddf650618cf8d957a41"
+  },
+  {
+   "id": 25,
+   "title": "Activación de Rastro",
+   "text": "El camino que se extiende ante nosotros está iluminado por una tenue luz.",
+   "unlockRequirement": "",
+   "cnUrl": "dad8c0d44ab73836c13dbe493438c3005cdbde15dfdc3c48369fdbf4954ce723",
+   "jpUrl": "e9e2b2d672cbd734828e273668700595a43762b6465bf35bb7a4692d6df9c96c",
+   "enUrl": "25ae06198cc7b540ad6bbf542171ac0930e8990723405a95bcd29146107ab6ba",
+   "krUrl": "33496f556c93c71d7be8ba416cfe4eb16127fa6d89a392ba5210f413b29d0c52"
+  },
+  {
+   "id": 26,
+   "title": "Miembro del equipo: Trazacaminos",
+   "text": "Cenici, ¿alguna vez has visto un cielo de color arcoíris?",
+   "unlockRequirement": "",
+   "cnUrl": "c50408fd92f2c06212142e1499afa69b71239222245e29c026dc79cb956e425f",
+   "jpUrl": "57891cbf8235d119e27ccf28fe82f0bd7f2e0d48cbbc9cd23d39bd967f103109",
+   "enUrl": "46155c6471766336959baa26fa2650401727f894f9419428825db26660a41467",
+   "krUrl": "44996a780c5add547a0c10528fd8bfc98bdac5a23d5075d18a1022f07f94b42f"
+  },
+  {
+   "id": 27,
+   "title": "Miembro del equipo: Aglaea",
+   "text": "Dama Aglaea, la luz volverá a brillar sobre Amphoreus.",
+   "unlockRequirement": "",
+   "cnUrl": "27242cae8792da4c8b44387dc1d4e6f6aacb507f1c87a9fd698c04e6c2d4c6dd",
+   "jpUrl": "f87be97224252b56bcf49a92527e6dd5b7a1d2715d6336442faf4c82b8970d3e",
+   "enUrl": "aed356f0dad1634c0e81829e57abcb3f7c8896a60820060f3c7c6374b1fe4e6b",
+   "krUrl": "647d7e0cf770c474704019e5641ba556fc328b71776b4eacd1fa36dd5bc1663c"
+  },
+  {
+   "id": 28,
+   "title": "Miembro del equipo: Castorice",
+   "text": "¡Gracias al cielo! ¡Es Castori! ¡Estamos salvados! ¡Ica, despierta! ¡Mira! ¡Un dragón! ¿Prr? ¡Prr!",
+   "unlockRequirement": "",
+   "cnUrl": "0ed3cc1cdb3889fad9e023e441d414bae30a07fa8d9c7813c39b95a2c1fb1783",
+   "jpUrl": "ab145046107ce6aea85a7d058ac42cc25015e42f61cec5ac89728e909eed3960",
+   "enUrl": "8c08bd856633468d4b76cda129836daae2c59d5578f1e576c98389a6799e3539",
+   "krUrl": "054ad66d42562c202cdfa14404579ba1cbee04593891ae298394569e9fb73eb7"
+  },
+  {
+   "id": 29,
+   "title": "Miembro del equipo: Tribbie",
+   "text": "Maestra Tribbie, ¡asegúrate de volar con cuidado!",
+   "unlockRequirement": "",
+   "cnUrl": "dc2b05aadf5dfb49317ee691b1eaa24f7f48f14733eb1660bef42ce3ebf946f3",
+   "jpUrl": "c9af1748d630d37f631d430d45398e0c9b972559aaf11eb35e30276861d613aa",
+   "enUrl": "1be1d7afb194295e7995adf5b4c7d8910ab1f67b91d7309816adb805975ad8a3",
+   "krUrl": "57246b0cfd29ad8fdfeaf4d3be94c8baa830615825d9725cd037fbeaef0ee8bf"
+  },
+  {
+   "id": 30,
+   "title": "Miembro del equipo: Anaxa",
+   "text": "Profesor Anaxa, es hora de poner en práctica tu teoría.",
+   "unlockRequirement": "",
+   "cnUrl": "acf43e461b10fe42056cc8debd74fbb8af311e2a52c64d16df26a4845d78343b",
+   "jpUrl": "4610b29559c380756e42514ca9c11ce4a5852088a65c8653d5825ebff9f99d8a",
+   "enUrl": "8bfab77d5230fcfe0edbbf0eed6cfe7f3dc02d90682568cc6adbd3a9a103a23e",
+   "krUrl": "c3e5a9c0c12b5d9a7e2ceb0a87cd73a9784e7f5afc70fb11ebb19d29533badd3"
+  },
+  {
+   "id": 31,
+   "title": "Miembro del equipo: Midei",
+   "text": "Midei, los sanadores del Patio Claroscuro creemos en los beneficios de \"tener cuidado\"...",
+   "unlockRequirement": "",
+   "cnUrl": "ead145f275b3b428cbb3ac1c1832b55904bda6b12d0921db51e809f46322efb9",
+   "jpUrl": "14c5e32b1bb6cf520a0e666614fa124275f21c01888d8b8fc5b6a7275d01b23c",
+   "enUrl": "609e376e45e216d5a6214e04ecf3348bb551c0a45aa9f693539cfc45e059fac0",
+   "krUrl": "c2a4363d5f745f4f373d33454cdd46de0ea7d8727cbe62c7cd916913c03e0ff4"
+  },
+  {
+   "id": 32,
+   "title": "Miembro del equipo: Cífer",
+   "text": "¡Cífer! Si corres tan rápido, ¡no podré seguirte el paso!",
+   "unlockRequirement": "",
+   "cnUrl": "530f618688f0278ced4e8a79c7fb0bbbdb7821d547b312b4b0c0b4a2e848063a",
+   "jpUrl": "59704b420810f0ad4a2355af4e3c916e2f1ab129534479d1304bba79647f1b83",
+   "enUrl": "b9e45be59b6440bf97098d76da0a8e442cbbc01072c9da5e69296fd1d5983780",
+   "krUrl": "b6d2d96ffe1a97486bee91a8858f8aa1871ef6fcc4e8850bf0883b229d1034b0"
+  },
+  {
+   "id": 51,
+   "title": "Comienzo de la batalla: Ruptura de Debilidad",
+   "text": "Por favor, ábreme tu corazón.",
+   "unlockRequirement": "",
+   "cnUrl": "92da9fe0fef1b0dd5331a4ae91f86d771b184189a59397a7f591bd5e4bc679d5",
+   "jpUrl": "8c566d3c53d37d82dcc801720470d17bffe3666b8f5a3f3a1bd729a9a53208fe",
+   "enUrl": "a02f8a07a5502f2778e1c8e73cabf2a7c540db48ed9034d6403622f2072b7742",
+   "krUrl": "c1f863b59dda04ff922d0acf6c6021276af8839d835c8c07dbfa886974523d9b"
+  },
+  {
+   "id": 52,
+   "title": "Comienzo de la batalla: alerta de peligro",
+   "text": "Se han perdido por completo...",
+   "unlockRequirement": "",
+   "cnUrl": "2d80b7238d95897537f2dfcc2d877733ddbeff9323137af00155758c6206c826",
+   "jpUrl": "7410106f2c37f174d6a1e0ea863bf3c5fbf51543467e5375eb4e3adecc53762c",
+   "enUrl": "8dc7ee849ff26d38044ff7beaab07ae0d9804e2d3175857a5bfdac194aad189b",
+   "krUrl": "fb39488ee081b592866d0ee176d1a43e46415c9e8b78aec3a9c7b22a0d0ac38d"
+  },
+  {
+   "id": 53,
+   "title": "Comienzo del turno 1",
+   "text": "El futuro será brillante.",
+   "unlockRequirement": "",
+   "cnUrl": "5ce548cab416d772a53ba0b8983c7cd65d874927898ff14bc14f39536db5ebdd",
+   "jpUrl": "9b1387c9adcdb209a75b510cb5cbaf729e0a76bd166b5a519491b35827f54231",
+   "enUrl": "9430b01b7cf7b185fc524fc80502869480d72a4c798a6160096358949c3bb695",
+   "krUrl": "c21482582715bb55aaae29506cc56fb1e38390e2fadb32f716cea02632ed63e8"
+  },
+  {
+   "id": 54,
+   "title": "Comienzo del turno 2",
+   "text": "Usaré el puente arcoíris como guía.",
+   "unlockRequirement": "",
+   "cnUrl": "5c8f197442f7022541006f7951ef8ae6425a72a4e2c009ab88a4869922c3da31",
+   "jpUrl": "8e7e7cd46138e0948ad68e20f7d9d9581e60648dfa7ff7b035af914ceed3e838",
+   "enUrl": "fa81ba9b39d44b969c52576866c893e23b887cbaa51a65c6717edbf3b58beabd",
+   "krUrl": "62c108828de3d23ac164b1f779458d02913b2609f0711b38124b29bb5a1e3868"
+  },
+  {
+   "id": 55,
+   "title": "En espera",
+   "text": "No hay prisa. Despejar la mente también es una buena forma de relajarse.",
+   "unlockRequirement": "",
+   "cnUrl": "f3097a800272365925ed6c21a6c96d04a9941834d96a98f7eedbd63d22d61f84",
+   "jpUrl": "b06133fc9061f9393b99acb1fcd384d1132afdf3cd52baa8c1ce2b95e8220d4c",
+   "enUrl": "7d5fe36993062fdea4b245a42c2f714e76dfc0b623c432f8f2970464d38b633c",
+   "krUrl": "a83d5b73ec0b6a7f8d270e6b3ff60220dc6446c49123583e0f886430f4cd7904"
+  },
+  {
+   "id": 56,
+   "title": "ATQ básico",
+   "text": "Cálmate, por favor.",
+   "unlockRequirement": "",
+   "cnUrl": "00cfec2eca4dbb091ff71d868ca8ec49e0905db77bc00cc224dd0ed1dc66c137",
+   "jpUrl": "9e37d530be991de5d307af56a74ddb306ee784e87c237ada5978b8de912b05d6",
+   "enUrl": "fc411d4e43fb3a5db42916d7007a65f1d909c009636831f2ad7afe1f9844664d",
+   "krUrl": "d9e9db974f7bcf2f9e4b11711e2486da35cd82e49b92241e55831a2b969092c9"
+  },
+  {
+   "id": 57,
+   "title": "Habilidad básica 1",
+   "text": "Necesitamos un poco de luz solar.",
+   "unlockRequirement": "",
+   "cnUrl": "3952d2d73a3e9f320eeb09a8f5460e8fe2ef72c3d48812e8f99583fd405bb154",
+   "jpUrl": "f9d1050373fb61c3976bf929959a502861438c293e323f64fcc1529951969417",
+   "enUrl": "aeefc13c9e603b4a7416f2f55e7033e22a34f2f8d335e9ac1bc8ea9e782a112e",
+   "krUrl": "9b64fa60ed7b3480429f85091da9d2a2f1012e2a5a9f8b8add96032f7c22c2b4"
+  },
+  {
+   "id": 58,
+   "title": "Habilidad básica 2",
+   "text": "¡Todo el mundo nos está esperando!",
+   "unlockRequirement": "",
+   "cnUrl": "f825c7893f0022aa75ade4f08c5606a29bba85a8fc87dacdd5508b1aa036d592",
+   "jpUrl": "e7347378e3f3d31b74b20dc3a222c1c19fd0dbee3e65070b3d3df86381a54b3c",
+   "enUrl": "a6a1b562b2962f68dbd2dc22d6bce4402b6d8ca1bb379dd0266f704710bd0d2c",
+   "krUrl": "260fe48588b4d173881da2bf3f7fdb6c5b95ae444d3f45581d17a8170533554d"
+  },
+  {
+   "id": 59,
+   "title": "Al recibir un ataque ligero",
+   "text": "No te precipites...",
+   "unlockRequirement": "",
+   "cnUrl": "f6417b73a7ca1fb06636a252c584ef20c93e17672f04aaee7aab9d62565e0c09",
+   "jpUrl": "468f4f4ef962afada428e886413ea832965cc388d50667e11822ce687af1c812",
+   "enUrl": "a6496f17d17fde1547d86f3aab474676c39a0b1b9324f5acd07164d2dd0ce401",
+   "krUrl": "7728a6d54015b2f1f33dea1a1f449be0dbe334e8311ca5ee6a4133618abd81ec"
+  },
+  {
+   "id": 60,
+   "title": "Al recibir un ataque fuerte",
+   "text": "Debo detenerlos aquí...",
+   "unlockRequirement": "",
+   "cnUrl": "19fa22ddf0fd92eb10090fdfc676d68c88f28d4f3f4184d3f24809a16c1b13d1",
+   "jpUrl": "e9970d8526aec0af3ffdc927b8aa6c129b03b40abbae44e4721f53dfb463f5f8",
+   "enUrl": "cef860f8da133c0e1d529c72a47472d0b9e9a3790cbace9fc47f5a8e76cea565",
+   "krUrl": "3a1a294458325b08fc5e45107b3869d623c2fb088cd019c8a59eb8bda4c25e34"
+  },
+  {
+   "id": 61,
+   "title": "Habilidad definitiva: activación",
+   "text": "Que esta tenue luz...",
+   "unlockRequirement": "",
+   "cnUrl": "6a475dcb256a86a342cdc982e0cc3aa4cc00a81df1bd1245dba0dba6ec0987de",
+   "jpUrl": "2c485c0b2aab32c41acde36706f1da8aeeab0a2c6962cbcfb1891b3559733573",
+   "enUrl": "d5aef88f6b2e01424e154c75c57c48e10a3ac495f194f346c32a54055af88a76",
+   "krUrl": "c3e6182b5b628821bf30c70b6dd7f8c4447abea3cfa8152a7d77913f28d36921"
+  },
+  {
+   "id": 62,
+   "title": "Habilidad definitiva: lanzamiento",
+   "text": "¡Disipe la oscuridad y despeje los cielos otra vez!",
+   "unlockRequirement": "",
+   "cnUrl": "df5ffee14f533a5d45ef9165cfc73b0f4db7338a589f2a59bd34f7c8961c6030",
+   "jpUrl": "e847ec0c04e83d3e92632ab69f52395826622d1662abfccfe82c0ad8bf63e5e2",
+   "enUrl": "bea4f9ed39bf93190d290148817e08d80ba5661262e8838627b0849b7fe33756",
+   "krUrl": "9ff82cc289d578a26b7b7b500aa18d250b03d26b0a0fa813811f70eb0b9b6ee9"
+  },
+  {
+   "id": 63,
+   "title": "Fuera de combate",
+   "text": "Ancestros... Aún no he...",
+   "unlockRequirement": "",
+   "cnUrl": "398f271115b2abb0a7cf6fa0e6f5ae3db5b9ab09c60008814081c8029965e40b",
+   "jpUrl": "8cfea1892b98a50eef9fa0259b868ac412607b6f5891a69a8bca9a2b65a92135",
+   "enUrl": "5c2c7628eda8b66954f982fe707081cbbf6074f0868f6ec406d8e41071aa39fd",
+   "krUrl": "12240f8a8ef621589e3f486c5d6f23249c73e5733dd22d26b2a47d96369e8eb0"
+  },
+  {
+   "id": 64,
+   "title": "Retorno a la batalla",
+   "text": "Solo fue suerte... ¿Están todos bien?",
+   "unlockRequirement": "",
+   "cnUrl": "c46bc735e05746722db27fbeefc6352023b6e12cfe5b8c0795a0ed4c1b47c3e0",
+   "jpUrl": "2af083ba12b00a93cbb3b8ab1ddaadb3c37ae9be6b8b70a312fa00798eba17b8",
+   "enUrl": "92dfd9ca80a75562eb2bfc65450e623f508f7e732cc27d95e0546a062650d27c",
+   "krUrl": "95305c3c283125fa5600920fcd0e11e75f1cc3f82b063e538bc021140703b6fc"
+  },
+  {
+   "id": 65,
+   "title": "Regeneración de PV",
+   "text": "¿Una nueva técnica de curación? ¡Quiero aprenderla!",
+   "unlockRequirement": "",
+   "cnUrl": "93ac2db38bd6eb50b30a4604855dab5f4e9d1b36fca1a2f1d803a88c4fbdd7cb",
+   "jpUrl": "3c2729913140d508e415c46e7dc2fee9f0de2671a85eb4d10af3b221b4edc7bc",
+   "enUrl": "3565f4c849ab69873d40380f6eca30fe8827c429e8d31becea1a3abaabb0f341",
+   "krUrl": "4bebfa4893d01930d9843ff6495148061e4e21d9056b39cddc5c21bfc179031d"
+  },
+  {
+   "id": 66,
+   "title": "Técnica",
+   "text": "Por favor, ilumina nuestro camino.",
+   "unlockRequirement": "",
+   "cnUrl": "f4e1b7559443a242203b4c8c5abaa0c58a763954ff6157cb29e016dc84b7995e",
+   "jpUrl": "f74176d4b794e9261c8e2c0ac56f755306d50a978a40277df816870aee426a6b",
+   "enUrl": "bdd0f47e8711ab0b3475c1d1e7eebeefc6bcd6a0be0a790cdabec13678312dcb",
+   "krUrl": "7d788763c459d979ea93608ca303b5ab42bd32ec245cb81a94d7f426b3e8ebae"
+  },
+  {
+   "id": 67,
+   "title": "Victoria",
+   "text": "Incluso las llamas más tenues pueden unirse para formar un brillante río de estrellas.",
+   "unlockRequirement": "",
+   "cnUrl": "1a9bffc42502c4ec63652d71b69fed9aa723f77c3eeffc4387fe8c4b6e2bde5f",
+   "jpUrl": "c9fdc9d084bf4c403e8c313bfe94a6ec5c8d0d2a5810d0ead0bdbc2803ca18f7",
+   "enUrl": "8ea1e2fd8b370e785a798f211e3dfbb549a62d4738667040e3387587528dd73d",
+   "krUrl": "3869d443460ac033d23a9e53ef3eae868354b1f246c5820d970721c80d4d671b"
+  },
+  {
+   "id": 68,
+   "title": "Al abrir un tesoro 1",
+   "text": "No creíste que lo encontraría, ¿verdad?",
+   "unlockRequirement": "",
+   "cnUrl": "a4252128b7cd2970f2ad768f97143ba4293b9cbdf95f57b1fd933d6968228978",
+   "jpUrl": "3ed5b28f9397f0d9fddab9ff0cc401495931c152fc6cf9bcab7a3c1ee497ac68",
+   "enUrl": "48262ac3debe62ccca39430f4548147f8fd967711bcd00a2f27386b8c32ccf3c",
+   "krUrl": "c7a61e0ce8d48682f9c106883b6c2ce757b8ce0804383df3ab8ae4204be8e068"
+  },
+  {
+   "id": 69,
+   "title": "Al abrir un tesoro 2",
+   "text": "Si lo pones al sol, el color se volverá aún más hermoso.",
+   "unlockRequirement": "",
+   "cnUrl": "8d296c5eececefe04b32ee9b5839c19980da2618d1eb2e9d054fc0cfef504497",
+   "jpUrl": "921007a5d0b56c6a7ac28960fbb94fc05ac0e7893f17d3076c36c2e4e609ec0c",
+   "enUrl": "858e44a2e879249a67ead5c8fd9872f4c7e79876782ad7c0982f336889ae3dd6",
+   "krUrl": "dda100274c901319bda583bc18d3507fcc36555b27d9cd0a44c7f1f7f5899823"
+  },
+  {
+   "id": 70,
+   "title": "Al abrir un tesoro valioso",
+   "text": "¡E-es un tesoro registrado en los textos antiguos!",
+   "unlockRequirement": "",
+   "cnUrl": "e7c450dfdc3ca6694912a5b5be4626b6fde58ddf940398ece32b35d265562a07",
+   "jpUrl": "41429bdbe45fd201d9ff2db718a1aa9a43cc6e07a7713916ef92fc04ac1ad494",
+   "enUrl": "cc4b2b55167af54d071d349f02df70f16b73a7b52a2442947cf33e12b458a81b",
+   "krUrl": "c0563148c0df27c59764de7ff9e12d11a6a40311b4dbb3ce69a8050036f67a25"
+  },
+  {
+   "id": 71,
+   "title": "Al resolver un acertijo 1",
+   "text": "¿Ves? Todo lo que estudié en el Soto no fue en vano.",
+   "unlockRequirement": "",
+   "cnUrl": "b2ee9eb34f32e4e57b9a2b5e08efab28a5e2425d52be2e9cba86aad76f10f9fd",
+   "jpUrl": "fe922ddaf11835ead86bf74d5dda681312d0fae399211796b4eb955848eda718",
+   "enUrl": "71f99e0921521a9e5fe8a71c29f171bbae42f67259f7fd59c17c11d84c95f23a",
+   "krUrl": "29f8d3e5e79438fe046ca25f19e0f55bfc6b455d3277a92ad162dd9b27a6eead"
+  },
+  {
+   "id": 72,
+   "title": "Al resolver un acertijo 2",
+   "text": "¿Habrá otra solución?...",
+   "unlockRequirement": "",
+   "cnUrl": "db474797145852a5d8e17614fa40e4dd6122a8285b7176c50b151bb219997480",
+   "jpUrl": "9f5103db296360a278d0f40ef0296a65b1317c97a74bdb8ce79c6f389c11fe61",
+   "enUrl": "bffaf863f8d164230230b7e023eaff5aff769e9e00f13efe23325fd9dfe0c6d3",
+   "krUrl": "6d04b5b46e46569e7c9384371f7da237e87f8fc2c6863ebfd9dcf39880d923ab"
+  },
+  {
+   "id": 73,
+   "title": "Objetivo enemigo encontrado",
+   "text": "Es difícil de persuadir... Primero observemos.",
+   "unlockRequirement": "",
+   "cnUrl": "e409b3f088887ea0a68cf07aa0ee62b394de0a5149092d86453e12838c786a26",
+   "jpUrl": "4e75941c90b54ab0dfaac36a690d6443562cdc8bcc72508d74dc57dac12e9cdc",
+   "enUrl": "cee422b558c18ae4b06fcb1edff9e41df0ef13dcc426a20aad45c1973a961c69",
+   "krUrl": "4be34e20609399c935afd42bc979e35da66d72b58103fde70f06b8d4572138c3"
+  },
+  {
+   "id": 74,
+   "title": "Al regresar a la ciudad",
+   "text": "¡Qué día tan intenso! ¡Esta noche dormiré como un tronco!",
+   "unlockRequirement": "",
+   "cnUrl": "410b048525f15d4d83bf5c123cf3a4ff97ccfd87e700c3e51dc670dd561ca022",
+   "jpUrl": "69e4f4d8fc88229faf5cf292923c2bebbaddcf52d2bc0862156b7b22f4150b28",
+   "enUrl": "daaae8c9ea9fa12805c47dbf8b1c1753d549a87be2fb101fb34d6795ea96ba5e",
+   "krUrl": "41ae9861fbdbbca529341e6397d980fcdfef1e115cea5bab08e24ce2efc196b3"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Detalles del personaje",
+   "text": "La polis entre las nubes se desvanece con el paso del tiempo, y el Patio Claroscuro abre nuevamente sus puertas para traer un destello de luz a la noche eterna.<br />Sanadora Hyacinta, Heredera de Crisos que custodia la Yesca del Cielo, deberás heredar la voluntad de tus ancestros y zurcir el tejido roto del crepúsculo.<br />Que la luz del arcoíris caiga, que el rencor se disuelva, y que el amanecer regrese a la tierra.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Historia del personaje I",
+   "text": "\"Extiende lentamente tus alas... Sí, como hicimos la última vez. Respira profundamente conmigo, ¿de acuerdo?\".<br />\"Relájate, todo está bien... Sí, las alas se están expandiendo. Estás comiendo mucho, ¿verdad?\".<br />La luz de las velas proyectaba un cálido resplandor sobre la suave cabecita mientras la joven levantaba al caballito y lo colocaba con cuidado en la balanza.<br /><br />\"No te preocupes. Pronto serás tan grande y fuerte como las demás bestias aladas, ¿sí?\".<br />La joven se colocó los auriculares del estetoscopio y comenzó a realizar un examen completo. Al palpar un lado del caballito, sintió una nueva \"herida\" debajo de sus costillas.<br />\"¿Te lastimaste?\".<br /><br />Acarició con suavidad sus alas y, llenó el agujero con algodón antes de sacar una aguja e hilo.<br />\"Esto va a doler un poco, pero no te preocupes, mis puntos son firmes\".<br />\"Has vuelto a entrenar demasiado, ¿verdad? ¿Es porque todos te dicen que tu madre, tu abuela y todos tus antepasados son increíbles? ¿Cómo podían elevarse hacia el cielo con un solo salto, y destrozar rocas con un solo golpe?\".<br />\"Todos esperan que te conviertas en un héroe, pero por mucho que entrenes, parece que solo logras decepcionarlos\".<br />\"Como si fueras completamente diferente a ellos...\".<br /><br />El caballito permaneció quieto, mirando por la ventana con sus ojos oscuros y brillantes.<br />El trueno que había rasgado el cielo aún resonaba en la distancia, una tormenta desencadenada por los héroes de la polis del Cielo y sus bestias aladas.<br />\"Déjame contarte un secreto... Yo soy igual que tú...\".<br /><br />En esa solitaria y sombría habitación del hospital, la niña, que llevaba mucho tiempo en cama, se aferraba a su muñeco mientras sujetaba la aguja y el hilo, y practicaba por enésima vez las técnicas médicas que le había enseñado su padre.<br /><br />\"Pero tal vez... un tipo diferente de luz también tiene su propio significado...\".",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>20</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje II",
+   "text": "Al igual que los demás sanadores, la joven prometió curar a todos.<br />Quería aliviar el sufrimiento de los mortales mientras el mundo se derrumbaba, pero cuando la marea oscura engulló las polis y la plaga se abalanzó sobre los heridos, lo único que pudo hacer fue ahuyentar la enfermedad. No logró impedir que la desesperación se extendiera.<br />\"Quizá un buen sanador necesita mucho más que solo hierbas medicinales\".<br /><br />\"Las cortinas de color blanco lechoso deben dejar pasar la luz, la cama debe ser firme pero suave, y hay que colocar flores frescas junto a la cama... así, incluso dentro de la habitación, podrán ver los mismos \"colores\" que en el exterior...\".<br />Ella quería llevar esperanza a quienes vivían sus últimos días, un rayo de luz que iluminara el futuro.<br /><br />Acompañada por un aroma relajante, una joven que se encontraba a punto de morir murmuraba en la calidez y la comodidad de la habitación, mientras sus recuerdos, atrapados durante mucho tiempo, resurgían lentamente.<br />\"El día en que mi padre me regaló una caja musical, afuera estaba lloviendo. Escuché las melodías que sonaban y disfruté de un hermoso cumpleaños en medio de la llovizna...\".<br />\"Recuerdo que las calles estaban llenas de rosas blancas, y cuando el viento soplaba, se sentía una ventisca de fragancias...\".<br />\"Y ese cielo... Un azul profundo que se teñía con un toque de rojo y naranja\", recordaba la joven.<br />\"De pronto, esas burbujas transparentes me rodearon, al igual que ahora...\".<br /><br />Tic-tac, tic-tac...<br />Las manecillas del reloj se mueven en la memoria, y la voz que cuenta la historia se apaga.<br />En medio de la lluvia incesante, solo queda un suspiro de satisfacción.<br /><br />\"Prr, prr...\". Ica agachó la cabeza y se acurrucó al lado del caballito de felpa.<br />\"Ica, ¿oíste eso? Ha visto el cielo que creamos...\".<br />En el techo de la habitación, el sol se puso sobre el mar.<br /><br />Mientras tomaba la mano de la joven, que se iba enfriando poco a poco, lágrimas cristalinas resbalaron por su cara.<br />\"Un día, haremos que sea más grande y más cálido\".<br />\"¡Prr!\".",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>40</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje III",
+   "text": "Oqueima, el lugar donde se reúnen los héroes, donde se encuentra la última esperanza del fin de los tiempos.<br />\"El Viaje buscallamas\", \"la Yesca\", \"los Titanes\"... Aunque ya estaba familiarizada con esos nombres feroces, cada vez que alguien la llamaba heroína, ella simplemente lo ignoraba.<br />\"Solo soy una sanadora\".<br />Eso le decía a todas las personas que llegaban al patio.<br /><br />La triste joven acudió en busca de respuestas sobre la \"enfermedad incurable\" que le infligió el Titán de la Muerte.<br />\"Castori, ¡eso no es una enfermedad! ¡Todavía te queda mucho por vivir!\".<br />A menudo acompañaba a la joven a contemplar aves y estrellas, y fabricaba especímenes y juguetes de quimeras. Se sentía conmovida al ver la sonrisa en el rostro de la chica.<br /><br />Ella conocía muy bien la discordia entre la fría tejedora y el orgulloso erudito.<br />En la nueva sala de mediación, preparó la avena favorita de la tejedora, y el vinagre de rábano picante del erudito, esencial para calificar trabajos, e invitó a la semidiosa de más edad.<br />\"Si no vienen, haré que Ica haga '¡Prr, prr!' todos los días en sus oídos\".<br /><br />Sembró semillas de granadas en el Patio Claroscuro, semillas de trigo en el campo, y creó un mar de flores donde los forasteros que llegaban a Oqueima podían olvidar sus problemas y hablar libremente.<br />\"Espero que estos pequeños actos de bondad puedan disolver las antiguas heridas entre nuestros pueblos\".<br /><br />Siempre se preocupaba por esa semidiosa que no dejaba de corroerse.<br />\"Ciny... Desde el primer día en que <b>emprendimos</b> el Viaje buscallamas, <b>sabíamos</b> que este momento llegaría\".<br />Eso era lo que siempre decían.<br />\"Así sea para aliviar solo un poco de su dolor... iré a la biblioteca del Soto a buscar información\".<br />Y eso era lo que siempre hacía.<br />...<br /><br />Los descendientes del cielo, los habitantes de Kremnos, los aristócratas originales de Oqueima, la Doncella Sagrada de Aidonia, el guerrero de Elisios, la Doncella Sagrada de Janópolis... En ese pequeño patio, todos sus colores se fundieron en un radiante arcoíris.<br />Sin embargo, en sus momentos de ocio, también reflexionaba sobre el final de su viaje.<br />\"¿Qué más puedo hacer cuando llegue ese momento?\".",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>60</nobr> de personaje."
+  },
+  {
+   "title": "Historia del personaje IV",
+   "text": "\"'Calendario de la Luz, año ████, Mes de la Fortuna'. Para la doctora Hyacine:<br />Espero que te encuentres bien. Aunque mi hermana no logró sobrevivir en aquel entonces, los últimos días que pasó en el patio y la sonrisa en su rostro antes de partir... siempre han arrullado mis sueños. Quería decirte que hoy he completado oficialmente mi formación en medicina. Quiero ser como tú y ayudar a los que sufren en sus últimos días. Espero poder ser una pequeña luz que sirva de guía en esta larga noche...\".<br /><br />\"'Calendario de la Luz, año ████, Mes de la Puerta'. Para la pequeña Ciny:<br />Agradezco mucho tu compañía durante este tiempo. Cuando estuve en la enfermería del Patio Claroscuro, dejaste que mi pena se elevara como nubes de tormenta y luego se evaporara. Cuando dije que \"hacía mal tiempo\", me aceptaste por completo... Quizá yo también debería intentar ser un poco más valiente...\".<br /><br />\"'Calendario de la Luz, año ████, Mes de la Libertad'. Para Hyacine:<br />Todos se han recuperado muy bien, en especial ese joven guerrero de Oqueima que quería beber jugo de granada la última vez. Las rencillas entre polis no son fáciles de olvidar, pero ahora no tengo dudas de que los colores, por más de que sean diferentes, también pueden coexistir\".<br /><br />\"'Calendario de la Luz, año ████, Mes de las Noches Largas'. Para la asistente Hyacine:<br />Gracias por tus persistentes recordatorios. Consideraré enmendar mi relación con ella. Claro, solo lo hago por ti...\".<br /><br />\"'Calendario de la Luz, año ████, Mes del Luto'. Para Hyacine:<br />No es necesario que te molestes en enviarme nuevas medicinas. Soy consciente de que la pérdida de mi humanidad es irrecuperable. Y no te preocupes. Nuestra relación con el Soto no está en un punto crítico\".<br /><br />\"'Calendario de la Luz, año ████, Mes de la Alegría'. Para Hyacine:<br />Nunca pensé que las semillas de trigo de mi tierra natal volverían a brotar algún día. Cuando me tumbo en el jardín del Patio Claroscuro, siento como si estuviera de vuelta en Elisios. Cada vez que estoy triste, ¡el aroma del trigo me da fuerzas para seguir adelante!\".<br /><br />\"'Calendario de la Luz, año ████, Mes de los Días Largos'. Para Ciny:<br />La gente siempre alaba el cielo del pasado por acoger tanto soles abrasadores como truenos rugientes, pero <b>nosotras</b> pensamos que eres incluso más amable que ese cielo. No importa a dónde <b>vayamos</b>, ¡siempre te <b>recordaremos</b>!\".<br /><br />Unas cuantas cartas que desbordaban una caja se conservaban cuidadosamente junto a los historiales médicos.<br />Al principio de su viaje, la tenue luz de la niña parecía que iba a ser tragada por la oscuridad en cualquier momento. Sin embargo, antes de partir para convertirse en el cielo del mañana...<br /><br />En los lugares por los que pasó, sin darse cuenta, el cielo despejado ya se había iluminado con su primera sonrisa.",
+   "unlockRequirement": "Se desbloquea en el nivel <nobr>80</nobr> de personaje."
+  }
+ ],
+ "archive": {
+  "cvCn": "静宸",
+  "cvJp": "羊宮妃那",
+  "cvKr": "김연우",
+  "cvEn": "Holly Earl",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "13891606": 1,
+    "13900842": 2,
+    "20758544": 1
+   },
+   "5": {
+    "13656795": 2,
+    "14143032": 2,
+    "20555770": 1,
+    "20724791": 1,
+    "20814318": 1
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "Ica",
+  "iconPath": "405ac2a3e86a4b0fdcf0cb58a83bf0e8ba09920856eaedb32059b34ffaa49e29",
+  "teamIconPath": "ab4472049862f7d641575dcb4f228817a431aa7db8e60b59a522e160c6c2e6a5",
+  "skills": [
+   {
+    "id": 20758544,
+    "name": "¡Apártense, nubarrones!",
+    "icon": "cdba69c39d0b6316e7357b4335de3f64a7edea183d1737577c5f7b92d829fe80",
+    "tag": "ATQ AdE",
+    "typeDesc": "Habilidad del mnemoduende",
+    "skillDesc": "Inflige a todos los enemigos un Daño de <span style=\"color:#00FF9C;\">Viento</span> equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de la curación de Hyacine e Ica acumulada durante esta batalla y borra un <nobr>#2[i]%</nobr> del valor de curación acumulada.",
+    "simpleSkillDesc": "Inflige Daño de <span style=\"color:#00FF9C;\">Viento</span> a todos los enemigos.",
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       0.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.12,
+       0.5
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.14,
+       0.5
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.16,
+       0.5
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.18,
+       0.5
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.2,
+       0.5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.22,
+       0.5
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.24,
+       0.5
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.26,
+       0.5
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.28,
+       0.5
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 20724791,
+    "name": "Tomar la mano del cielo",
+    "icon": "421e2c943eeb53d76cd2114945201467d1a63c0367e2706bf6ecd6fae3ba4307",
+    "tag": "Regeneración",
+    "typeDesc": "Talento del mnemoduende",
+    "skillDesc": "Ica mantiene su VEL en 0, es inmune a los <u>estados negativos</u> y no aparece en el orden de acción.<br />Si los PV de los aliados (exceptuando a Ica) se reducen, al comienzo del turno de cualquier aliado o tras la acción de cualquier aliado, Ica consume un <nobr>#1[i]%</nobr> de sus propios PV máx. y regenera una cantidad de PV equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> de los PV máx. de Hyacine + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]</nobr></span> a los aliados cuyos PV se hayan reducido.<br />Después de que Hyacine lance una habilidad mientras está en el estado de Cielo lavado, Ica obtiene inmediatamente un <u>turno adicional</u> y lanza automáticamente ¡Apártense, nubarrones! Además, cuando Ica activa el efecto de curación del talento, regenera adicionalmente a todos los aliados una cantidad de PV equivalente al <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> de los PV máx. de Hyacine + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]</nobr></span>. Tras lanzar una habilidad, la duración de todos los <u>efectos continuos</u> que tenga Ica se reduce en 1 turno.",
+    "simpleSkillDesc": "Cuando <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">se reducen los PV</span> de los aliados (que no sean Ica), Ica consume sus propios PV y <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">regenera PV</span> a esos aliados. Después de que Hyacine lance una habilidad mientras tiene Cielo lavado, Ica obtiene inmediatamente un <u>turno adicional</u> y lanza automáticamente la habilidad del mnemoduende. Después de que Ica lance la habilidad, la duración de los <u>efectos continuos</u> que tenga Ica se reduce en 1 turno.",
+    "levelData": [
+     {
+      "params": [
+       0.04,
+       0.01,
+       10,
+       0.01,
+       10
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.04,
+       0.012,
+       12,
+       0.012,
+       12
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.04,
+       0.0139999995,
+       14,
+       0.0139999995,
+       14
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.04,
+       0.015999999,
+       16,
+       0.015999999,
+       16
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.04,
+       0.018,
+       18,
+       0.018,
+       18
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.04,
+       0.02,
+       20,
+       0.02,
+       20
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.04,
+       0.022,
+       22,
+       0.022,
+       22
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.04,
+       0.024,
+       24,
+       0.024,
+       24
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.04,
+       0.026,
+       26,
+       0.026,
+       26
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.04,
+       0.027999999,
+       28,
+       0.027999999,
+       28
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 20814318,
+    "name": "Alas extendidas hacia el sol",
+    "icon": "421e2c943eeb53d76cd2114945201467d1a63c0367e2706bf6ecd6fae3ba4307",
+    "tag": "Potenciación",
+    "typeDesc": "Talento del mnemoduende",
+    "skillDesc": "Al invocar a Ica, Hyacine recupera <nobr>#1[i]</nobr> pts. de energía. Cuando es invocado por primera vez, Hyacine recupera <nobr>#2[i]</nobr> pts. de energía adicionales.",
+    "simpleSkillDesc": "Al ser invocado, recupera energía para Hyacine.",
+    "levelData": [
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       15,
+       30
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 20555770,
+    "name": "Caer, para luego volar",
+    "icon": "421e2c943eeb53d76cd2114945201467d1a63c0367e2706bf6ecd6fae3ba4307",
+    "tag": "Potenciación",
+    "typeDesc": "Talento del mnemoduende",
+    "skillDesc": "Cuando Ica desaparece, la acción de Hyacine se adelanta un <nobr>#1[i]%</nobr>.",
+    "simpleSkillDesc": "Al desaparecer, la acción de Hyacine se adelanta.",
+    "levelData": [
+     {
+      "params": [
+       0.3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    20758544
+   ],
+   [
+    20724791,
+    20814318,
+    20555770
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 17362987,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 17362987,
+     "name": "¡Apártense, nubarrones!",
+     "iconPath": "cdba69c39d0b6316e7357b4335de3f64a7edea183d1737577c5f7b92d829fe80",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 20445700,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 20170864,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 20170864,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 17769018,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "embedServantSkill": {
+     "id": 17769018,
+     "name": "Tomar la mano del cielo",
+     "iconPath": "421e2c943eeb53d76cd2114945201467d1a63c0367e2706bf6ecd6fae3ba4307",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 20445700,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 20170864,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 20170864,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "name": "Hyacine",
+ "rarity": 5,
+ "descHash": "La polis entre las nubes se desvanece con el paso del tiempo, y el Patio Claroscuro abre nuevamente sus puertas para traer un destello de luz a la noche eterna. Sanadora Hyacinta, Heredera de Crisos que custodia la Yesca del Cielo, deberás heredar la voluntad de tus ancestros y zurcir el tejido roto del crepúsculo. Que la luz del arcoíris caiga, que el rencor se disuelva, y que el amanecer regrese a la tierra.",
+ "artPath": "f4e9b6d4041e74b9dec856074752ec99aa7ad33eef40e96dd8da2d1b1493f08d",
+ "miniIconPath": "44dd4e9fefd25de2dd7d985f98eafa1cd5b1a6b15c7f973f854640d2938d34b4",
+ "damageType": {
+  "id": 16,
+  "iconPath": "fa458a2daed5d1115684a21730db9c38ea2afde00a9d52c5adbe8050044ce39a",
+  "color": "#00FF9C",
+  "name": "Viento",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "Reminiscencia",
+  "rarity": 0
+ },
+ "pageId": "hyacine"
+}
