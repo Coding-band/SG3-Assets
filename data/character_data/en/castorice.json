@@ -463,7 +463,7 @@
    "iconPath": "58cd19c645bc9f26062fbf41e01a22a2de1421e475935c5e91203eea51d185eb",
    "artPath": "b92a49e0c7a9f81e2f8411e19006d335c39ff8e61ec2f688ae7ed76fbb48baaa",
    "name": "Crown on Wings of Bloom",
-   "descHash": "After summoning the memosprite Netherwing, Castorice gains <nobr>#1[i]</nobr> stack(s) of \"Ardent Will.\" \"Ardent Will\" can stack up to <nobr>#2[i]</nobr> time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, \"Breath Scorches the Shadow\" and <u>advance Castorice's action</u> by <nobr>100%</nobr>. When using the next Enhanced Skill, Castorice gains \"Newbud\" by an amount equal to<nobr>#3[i]%</nobr> of max \"Newbud.\"",
+   "descHash": "After summoning the memosprite Netherwing, Castorice gains <nobr>#1[i]</nobr> stack(s) of \"Ardent Will.\" \"Ardent Will\" can stack up to <nobr>#2[i]</nobr> time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, \"Breath Scorches the Shadow\" and <u>advance Castorice's action</u> by <nobr>100%</nobr>. When using the next Enhanced Skill, Castorice gains \"Newbud\" by an amount equal to <nobr>#3[i]%</nobr> of max \"Newbud.\"",
    "params": [
     2,
     2,
@@ -483,7 +483,7 @@
    "iconPath": "1d2b97b152b80e2d6fa36313751acde00a1c5cd28a061ae31effaa7985d83bf9",
    "artPath": "b0e60d52b49a5caadff3ff2ace9aca430af5be20b1dc3ab55f361b662a04e8ee",
    "name": "Rest in Songs of Gloom",
-   "descHash": "While Castorice is on the field, all allies' Incoming Healing during HP restoration increases by <nobr>#1[i]%</nobr>.",
+   "descHash": "While Castorice is on the field, all allies' HP restored when receiving healing increases by <nobr>#1[i]%</nobr>.",
    "params": [
     0.2
    ]
@@ -1339,7 +1339,7 @@
   },
   {
    "tagHash": "Enhance",
-   "descHash": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. This effect can stack up to <nobr>#3[i]</nobr> time(s), lasting for <nobr>#4[i]</nobr> turn(s).<br />When Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+   "descHash": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. This effect can stack up to <nobr>#3[i]</nobr> time(s), lasting for <nobr>#4[i]</nobr> turn(s).<br />When Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
    "ultimateCost": 0,
    "break": "0",
    "energy": "0",
@@ -1655,7 +1655,15 @@
      "promotionReq": 0,
      "cost": []
     }
-   ]
+   ],
+   "globalBuff": {
+    "name": "Sanctuary of Mooncocoon",
+    "tag": "Support",
+    "desc": "After obtaining Castorice or when Castorice is in the current team, receive the following effect: In battle, when an ally character receives a killing blow, all ally characters that received a killing blow in this action enter the \"Mooncocoon\" state. Characters in \"Mooncocoon\" temporarily delay becoming <u>downed</u> and can take actions normally. After the action and before the start of the next turn, if their current HP increases or they gain a Shield, \"Mooncocoon\" is removed. Otherwise, they will be <u>downed</u> immediately. This effect can only trigger once per battle.",
+    "params": [
+     0.1
+    ]
+   }
   },
   {
    "tagHash": "",
@@ -2086,7 +2094,7 @@
     }
    ],
    "embedBonusSkill": {
-    "descHash": "After ally targets (excluding Netherwing) receive healing, converts <nobr>#1[i]%</nobr> of the healed amount into \"Newbud.\" If Netherwing is on the field, this is converted to Netherwing's HP instead. Each ally target can accumulate a conversion amount up to <nobr>#2[i]%</nobr> of the max \"Newbud\". After any unit takes action, all units reset their accumulated conversion amount.",
+    "descHash": "After ally targets (excluding Netherwing) receive healing, converts <nobr>#1[i]%</nobr> of the healed amount into \"Newbud.\" If Netherwing is on the field, this is converted to Netherwing's HP instead. Each ally target can accumulate a conversion amount up to <nobr>#2[i]%</nobr> of the max \"Newbud.\" After any unit takes action, all units reset their accumulated conversion amount.",
     "ultimateCost": 0,
     "id": 885030,
     "name": "Contained Dark Tide",
@@ -2486,50 +2494,50 @@
    "title": "First Meeting",
    "text": "Welcome to Okhema. I am Castorice. Apologies, it is my habit to keep my distance from others... I can get closer if you wish, however.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "f08ec8c6f6909c6015edc0f205161ab00194906d078a425a6ffb59cf90b01d2f",
+   "jpUrl": "9696286c4b7ca350821e056fda6dccf929ab2c46cdef9fec10f5c6b277ad37e3",
+   "enUrl": "ee4c1b856fc8af6f8de9fd77b6b5eab9c4ade8c98cb7fa721a051be7696fc3f0",
+   "krUrl": "3024faf77989e94ad64ee2ee847c54fbfdc6bca83450fe684f95006b1e35878e"
   },
   {
    "id": 2,
    "title": "Greeting",
    "text": "Are you cold? Should we walk under the sun together?",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "2942c2a1a179e3fa4440bea7b0ff395832bf6395d5aff36bafd833de5e81641f",
+   "jpUrl": "9ea61faeacbeb411ebf8e02f6f731f89cfc91066857a954b22a452db9a1770e9",
+   "enUrl": "388a6e9e13d35783d98abfc599d113ba2fe75e0f44db6a256bbc8b6616ce0a68",
+   "krUrl": "06aad8f609f433c96ab0b7a9774a8b60adf559823e7d0d76169fd127d704719d"
   },
   {
    "id": 3,
    "title": "Parting",
    "text": "Farewells always arrive so quickly... I hope neither of us will stop moving forward.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "41d9438bc7fd9755e265c273aa4168671049bdf256b38740a8f45e789dd5a203",
+   "jpUrl": "3267d214b0e021c9e9570278db1ca55a3691fe4d1db0676fb9f8e4437b0de72c",
+   "enUrl": "7373f6ac931fa743745e07599c637d26bd67f036c1047c266201c0b6806ae923",
+   "krUrl": "e49ea210a1973e3920b295e1401a9a880eef68344bb22a69527b30d308a8f843"
   },
   {
    "id": 4,
    "title": "About Self: Duty",
    "text": "My current duty is to soothe the martyred Chrysos Heirs and Titans. I hope they spend the last moment of their lives seeing a peaceful sea of flowers, rather than an endless darkness.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "b8517697ce9fa4d76fbeacda6b5fe717b19081b7e05025bd0bd65c7ae955151d",
+   "jpUrl": "d75bc5877817904a2bed7674d1bd48b4f204da12d2f65e18f3b6252de960bbcd",
+   "enUrl": "782cd46b0c36f9d46b8005ed9c3a4d00f34ed6c06a49a9d95a3e2464b02e3d20",
+   "krUrl": "cdc3951d6c67937681e00dda5691570131ed271c169bd4919ca1f347b98b41a5"
   },
   {
    "id": 5,
    "title": "About Self: Past 1",
    "text": "I once stumbled alone like a solitary butterfly that did not know where to go... Perhaps it was thanks to the Flame-Chase Journey and my friends in Okhema, or perhaps it was the people I encountered along the way that helped me find the direction for my next flight.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "760cef1478b21b4d57fec443074e3472dcfd755eaaef83f6b3d2cd9bd7332b54",
+   "jpUrl": "b79d3b7b1295928b4fb54abebe53615602d8a89fd1c6462924fe360866346b93",
+   "enUrl": "14d1213d772cccee7bf34b93bf65535cd8ee078c15ee627798196fb0734e4d52",
+   "krUrl": "2f63627d04d6bc23ef244cc037573eeba123d0f05b7e4e34fc4fd92c1a7679c6"
   },
   {
    "id": 6,
@@ -2546,60 +2554,60 @@
    "title": "Chat",
    "text": "I like to self-insert when I read books. For example, I'm not a good cook, but I can see images of myself cooking dishes when I read cookbooks... Isn't that amazing?",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "ab1d3a3e747d6af55d2dba87e6fcf46beb68409816c88f7ac2855b32a533574e",
+   "jpUrl": "e49ea9e2c9378c9d9e69a155a70d5f52a5c4f3f5f8e64311a3083fc7e9a8b822",
+   "enUrl": "a9cccdac11debdaef0a28bf3151048557da486d1e054e371dcab943b3ae668b9",
+   "krUrl": "bc035a6537c237d6ad7bcc4bde1749f352c5dfee0292dd5f31d713502cfbff9b"
   },
   {
    "id": 8,
    "title": "Hobbies",
    "text": "I want to make cute things into plushies whenever I see them... Felts can recreate appearances most accurately, and the plushies can be softer if filled with milk cotton thread or crocheted with wool. I can do more than just animals, too... I can make Zagreus' silver coin doll, and boiled Dollo egg dolls with different expressions... I sleep particularly well when hugging them.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "610db0ac3b295c297b070ad05679c9aca8108468f7a375dff5f6209e450e9b1c",
+   "jpUrl": "00afe44b4d6ba6d1265b8055e959b7e188243daeef676cbc72f0ac92f28b4b21",
+   "enUrl": "a5fd6f2ff81e9a59ecc96174d0286ce30beba3fff896e70b959c76688a32b038",
+   "krUrl": "5c780201e837987c3f58e398ede7fc92ff0172ee71babf5dacfa1858d57a2507"
   },
   {
    "id": 9,
    "title": "Annoyances",
    "text": "I wish I could have two little chimeras, so I could snuggle my face into their warm, fluffy fur and run around with them in the plains... But... I can't, so I'll just make two more chimera plushies instead.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "f38e37aab3b5d75f4c031cf1cccad26a490c0e84f73e3523dd84937bb9440092",
+   "jpUrl": "2c644aa3f7d37e7bee8f8867ce30caf7fbbd1e5208c2881c345852e3def0a6cd",
+   "enUrl": "4b8aa35495f862fa03f850cd5594576bf5f5ccaf7a3ecffa23e3d2352ea9ef51",
+   "krUrl": "a93c71e4eb340fa763f23968edd3fb550b833dd029c2416c387531a3d3d53903"
   },
   {
    "id": 10,
    "title": "Something to Share",
    "text": "During my days in Aidonia, I wove dark blue Antila flowers into beautiful wreaths with everyone else. We then placed them onto the dead soldiers' heads, and watched as the bodies floated down the River of Souls... And so it went, day after day...",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "6cb5a081d561116ab931cdae9648047c6de32b1e248101d4e68c70c37cb63257",
+   "jpUrl": "246660c3a2875ab9b89454136c5b46e30d76a3ed44d28dfb6df60cb636236484",
+   "enUrl": "2b91194cbed8811d8494039ca2ac599e218c1f4ee01158162cdcc132ed894d34",
+   "krUrl": "31cde809e11696162af9810b0de3b1f32e30fbe20d2142c4d6ae9f2d647d39ff"
   },
   {
    "id": 11,
    "title": "Knowledge",
    "text": "The whispers of a homesick soldier, the lullabies a mother uses to soothe her child, the last letter left by a maiden to her lover... With each funeral, I carry another memory left by those who have passed — memories that still hold the warmth of their lives.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "c88faa99a6e62fecc4a590ad284317cfad2dc6e415f780b3f5aaccb4c9a3a1d7",
+   "jpUrl": "f3039c981a20cf13e5b4bf86a935cb7c85db054e8ca75061f3ce5114783e8253",
+   "enUrl": "7bd7a3c0295734dd11297feed08ae5327fc8b1474fcb198d8dd745ede866ccfb",
+   "krUrl": "b1f5f0ca9eb8b286ac7e06dc15cba24b0d2b8d5f53a749ecd7055aaa162d1228"
   },
   {
    "id": 12,
    "title": "About Trailblazer",
    "text": "When flowers bloom again, if we're lucky enough to meet in the new world, remember our promise.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "ea6b08ad361648a1364389a7d37ade21183f6a94851eac7bd0a55c813f9e9c40",
+   "jpUrl": "70b8dd73311f16c3e1c7de06b4fdb7455269d8748350f2b761688d05e68aa01e",
+   "enUrl": "60370ec3d07ab6f5eecd44dabdf53689303c946a2a85aaba099406ba8743770a",
+   "krUrl": "feabfd7ee703cf83212c06464c9584eba18ae1352a9c9b66a46a2096c312a113"
   },
   {
    "id": 13,
@@ -2616,420 +2624,440 @@
    "title": "About Aglaea",
    "text": "Only a sufficiently cold hand can grasp the burning Coreflame... Lady Aglaea must have come to terms with this long ago.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "bdb45d98c4574a84c89f46cc8fd34b4f16ea1e433251a2ffb03f28cfc6142f2d",
+   "jpUrl": "41834c4c71bee316230ba40e2e7ec3b3de7b94f40eaea402a4604dd89706544c",
+   "enUrl": "b3de4fa452bb6ab04e3508f32cde3810db82791690758f135ce11108278dcfb8",
+   "krUrl": "a46e50347cc4643d56c848fa3c71f95cb1605458d3d33b067c38db5dfe07c155"
   },
   {
    "id": 15,
    "title": "About Tribbie, Trianne, and Trinnon",
    "text": "Everyone wishes to break free of their cocoon and fly toward the open sky as a butterfly, but they were the only ones who... chose to return to the cocoon, all for the sake of this world's rebirth.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "dc6090a2e1fe60e76c8c0792fe9206e4ad262ec915e7605010c6c890174bd3c8",
+   "jpUrl": "a64d24b0cf641cc9d0602d26a69439b6fb40926d7bc9cea59be45d4fcd149a56",
+   "enUrl": "daeffab1501ddc2844ecdffa32b146bb4592e2e3a63693d2a1727f2d28b3f87a",
+   "krUrl": "a9852ca516714af5a6d015c1dfd781e51b6944b39570b1fef6c19165b69ef486"
   },
   {
    "id": 16,
    "title": "About Mydei",
    "text": "Death brought by Strife is often full of pain and darkness, but what Lord Mydei grants to his enemies is a glorious and brilliant demise.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "97546e42441adf1d49f1b1b1d1b71eb73b22ae37552d2ec1fdf46494e87065ec",
+   "jpUrl": "eb6ff9758348f993a46c4922e3b0a01a67c6b256fe1388399b3692e41185f7e8",
+   "enUrl": "36e30d2e7abea7e79d328ebe7a4bbda93d7762f8c20c3b28264e075f27eabd73",
+   "krUrl": "30e88f4f57c74335a39e8e322eb59eaa0f275d92a268f9627219b3d259f11f0d"
   },
   {
    "id": 17,
    "title": "About Phainon",
    "text": "The more one has lost, the more adamant they are to regain everything... Perhaps that is why he will lead humanity till the very end.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "5a4a1e7c5082df2cc655c663a4381d773237e510c8af66459753ce51ec52f94a",
+   "jpUrl": "f6bf08d6e678f664d624d3da0e36a5690375971e213aabe58360cb2a7990c108",
+   "enUrl": "68d587133cf0fd967a80a6db1beed7ba6514c21a4888596c710a5508fcba0d0f",
+   "krUrl": "6cee2e59ebd9e270e4ba39db32e6ec22e69778dd3636fb099824e3a9197d134a"
   },
   {
    "id": 18,
    "title": "About Anaxa",
    "text": "He had once told me that I should stay calm even when facing the dead, and not tell them of my inner sorrows. It was only later that I understood \"practicing how to die\" was the theme that defined his entire life.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "13bd26adc7c409600be6b6be51157da5db3a7dc8d9de549a40865cca1605ee6d",
+   "jpUrl": "048b642b30c4eedacac5882dc3862525a7acd65d91e9f12adf53f167fbcf4e07",
+   "enUrl": "9d00983f13695c6e22ad81d61812b4a11cd8f1119980b9a869884ad4a8f8a856",
+   "krUrl": "75fc435b63efd7cc788453b7a0d62a9f3bddd2eb37b7388740d611f99d48f719"
   },
   {
    "id": 19,
    "title": "About Hyacine",
    "text": "Even after witnessing so much life and death, she still sheds tears for those suffering from incurable ills... But she'll never let those tears into the patient's room. She wants to bring an ever-radiant sun to people's lives.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "228ff81154fad63f969099a03eb0b368dc0b5e151d919fb16d00cc9c6653e35d",
+   "jpUrl": "fd7417a58d072de7ca7a8333ab4bf871059f0330b3b8d57fb28cf8c9ad3033d6",
+   "enUrl": "f044f88ff2aa7cec17652da9bb194b57465b0090d31803bcdfa38b9af0963041",
+   "krUrl": "db27b86106f257d86e09aaae9b0432c9004ecdb52b1d9b60f3026fb0e7506464"
   },
   {
    "id": 20,
    "title": "About Cipher",
    "text": "She has been a demigod for a long time. Her thoughts are mysterious, her whereabouts elusive... She often laments that the Flame-Chase Journey is a business that will eventually leave her with nothing. Yet there seems to be an unspoken sorrow hidden behind her words.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "60f9dac6e6a2bc4588e09ca6559016553c29fa981ea49424698129eb69b18c4c",
+   "jpUrl": "c269aa10349cab71403827d33b4bec2d54b44d28127b73785efcc2623b953efa",
+   "enUrl": "61fdab2c0f08dbbc91fe0fac925074cde0e91bb769017ee280d87a73360be1d0",
+   "krUrl": "46713ce63dfb75f4e13a412c5622667a7298f6aba9728b9c0e3444dcd0ed31b1"
   },
   {
    "id": 21,
    "title": "Eidolon Activation",
    "text": "No matter how cold the other side is, there will still be the scent of flowers.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "87fa885c7b69124f904349387cfe062a605e765e7692dfb70c13f09466cd2eb4",
+   "jpUrl": "3b3a47a84cca6022ee8537dc9baaa69cffd8440c48fa09f701aa07c11d12f7c8",
+   "enUrl": "38c34b63706f95c91b8ef281c66ef595c02cabfa55113ac7b3a3bf4d875b0944",
+   "krUrl": "8401e552b3cfe95774651edff74182ee0bf3861f12bd62a8eff2fde9836f68ee"
   },
   {
    "id": 22,
    "title": "Character Ascension",
    "text": "Look, light is coming in.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "5c7053e0347ed8766ff7669502716a2918abf1053dad2ecc5701e340d61de504",
+   "jpUrl": "5c5d6550bbc9b4f3d2caa2bb667993f1401b91d61ca017e39b4df1821122187c",
+   "enUrl": "9003c5ef273657a80dc2a3ac757a49ae969019aa11c5855e36cef6fb9af722a8",
+   "krUrl": "738ea47b0040be65d64aa51b2b88697f38282a4674646acc0d3e1be2365e2e9e"
   },
   {
    "id": 23,
    "title": "Max Level Reached",
    "text": "All things cycle through life and death... The end is also the beginning.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "c1855212dc91b7b3ee8e0f5ba8e126c9d06d712a0756fcce3e47b97cb0de956f",
+   "jpUrl": "5243b9d4d285213f942c2924f7b5907d1f34c3d43772b459f12073fb790d64cb",
+   "enUrl": "a3166debbe796ebd4cfcd7f261bd0b58ad15982e31d0b69f36d71279735c1be4",
+   "krUrl": "fee5e9db796289d2363001907e4f9ec7754d2cda6b661f545b0c3f704cc1938c"
   },
   {
    "id": 24,
    "title": "Trace Activation",
    "text": "The traces we leave in this world will last much longer than death.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "8e556b159a05bbff8d22c26d51f1aeb87a93575dfbb414fbfc90d46eaddf807a",
+   "jpUrl": "7da9b0cb52d4e8e389d2b171333e0a98eedd957239c33ea2763da61339fb9d62",
+   "enUrl": "8c8f51e1ce3967b08725f2303f42d904bd6d8c35876ff72e798c06e236dec43d",
+   "krUrl": "2fc49d57aea8f14c714f64ae43f551873cb01ced5db9657ee0bee6fe3d9f8091"
   },
   {
    "id": 25,
    "title": "Added to Team With Trailblazer",
    "text": "Do not worry. My curse is a blessing on the battlefield.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "5d0340ece5a1c2f22f543e18556fced7f38dce72a6844ed761d5c39f209d3b0e",
+   "jpUrl": "99b74f1c45c0f135a9d50a869089d8cd0ad6ca9ce1bfacc76bd54609535b3de5",
+   "enUrl": "e2719e21b8ac56f8918ca835b8c8538ce51045751d1c1a8448efb40daa2b167e",
+   "krUrl": "7568471db0f1292a76eb86b13a21a1ed2ed8f0f973569d61f3f52542d66dd222"
   },
   {
    "id": 26,
    "title": "Added to Team With Aglaea",
    "text": "Please rest assured, Lady Aglaea, I will bring an end to all this soon.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "67e11bda0d5d91dc3976f803173a5ea1fb429d755c7a9b38fb94ed4653388761",
+   "jpUrl": "79033d4313caf36e783db71d0bea41964f593c1bd788de573650be77fe5538f5",
+   "enUrl": "19220c1366404b7a60e37ac5699a58b9eb5c7ffb23f4226cc57cdade967f4283",
+   "krUrl": "4e6a97c40dd455553546b7a2e8ee956558b3c604fddc7e68b11034e9111ffe49"
   },
   {
    "id": 27,
    "title": "Added to Team With Tribbie",
    "text": "Lady Tribbie, please stay close~",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "11a4331205640c91d229b1f70a11107320b9271f345b7315d60e40f21d21bba8",
+   "jpUrl": "e9769bf59cf40765be26ecb72c8a4e01dd4336fd559aa73367cd98fbb45667e4",
+   "enUrl": "44b0902085cd83ba11f071668548b1e48bbaab33f86cfe8d916c558be03068cb",
+   "krUrl": "b4dfcbd73db280f28c49520341bbb1e176410dff10d09771f3316e5e626a1e48"
   },
   {
    "id": 28,
    "title": "Added to Team With Mydei",
    "text": "Lord Mydei, let's each do our duty.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "b962273da5db66f1ebcd4d42fd1bc621ff2f67a715bb8e5e820ea8c1d3a5aeba",
+   "jpUrl": "596d96e834d6ce2c41c41112a414c8f17647bcf54868e7a5c1c0e4ada806d25e",
+   "enUrl": "d24f8224e4add2b7a264ede2ab6937da6dad0c9f629a39d1aaace6462b5983cc",
+   "krUrl": "daea51a4c3dcf704f0fd9f88240cbf00b6cbbc56a2f0c8b1d7fcc6ce77b88448"
   },
   {
    "id": 29,
    "title": "Added to Team With Anaxa",
    "text": "Professor, what will you be teaching this time?",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "8356d9cc82736d84cb555978515b880ac4e2b95d642e32cf5f93a1e331c5ff15",
+   "jpUrl": "bbb0a87e9113eb1607f950a7cc26a19d518f1ce8b52e146c95a7065066827fc2",
+   "enUrl": "b176dc3e52530fab3e50264c7e3c70a81da03e83b40717d16a67eb949f727a07",
+   "krUrl": "a7b09723181b797d54e84fa24757b27ce645207f97906ec2dc2332ba882bffc1"
+  },
+  {
+   "id": 30,
+   "title": "Added to Team With Hyacine",
+   "text": "Hyacine, let us both give life a dignified farewell.",
+   "unlockRequirement": "",
+   "cnUrl": "7e63887d01a6a2cbaff0b7be1d7566b67f79410cec19ac24da16cd1d0ae16ee0",
+   "jpUrl": "d19eff891d8068aa8eac41c83451bd24f6ec101b60cfecfd21433ddcedfcce76",
+   "enUrl": "1c9b59b85b5308af37eca4b79c12edbd2343f475ffb67868cbc1cd00cc66892b",
+   "krUrl": "4bf210deed130efe7e1e06daf0db379d07c34c2eb8cce1705b068efa7f48f63f"
+  },
+  {
+   "id": 31,
+   "title": "Added to Team With Cipher",
+   "text": "Lady Cipher, please help us if we get into a dire situation. I can pay...!",
+   "unlockRequirement": "",
+   "cnUrl": "bcf8c198cafa480d783068f6dc997078da12551998b73593e9890ff5e925e69b",
+   "jpUrl": "113efab916e98243b50bed35939e91ad8b21a3eca5174c665513d251f3cf2346",
+   "enUrl": "22fc6cb771f010451f4bd4174a86a546f6500f834c57591627c030e7f3ecfebb",
+   "krUrl": "c2a31d29ddd7819f6a69a2dfbab9350b175100920279bb750c4d2b5053eb1ae3"
   },
   {
    "id": 51,
    "title": "Battle Begins: Weakness Break",
    "text": "You, too, will soon head to the nether realm.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "572c2bbb48aeaee1078aff1d8a9b4d83be67e464afd77b9d7a3547883b398fe2",
+   "jpUrl": "1be1df4642b17a789d7fdf47af24578853dd23def1bc6bb6e3f6a62a516d7ca1",
+   "enUrl": "6020cc783c7b0de3268a96c48a6dd561d2be8025adc70501051aa8db5068507e",
+   "krUrl": "d55f2390e8dac6e2cd6577b8fff5d69d61549d638715b75164c54d8edc6838af"
   },
   {
    "id": 52,
    "title": "Battle Begins: Danger Alert",
    "text": "Danger approaches.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "70fc65f5b6363c928fb052a026b13b26a397957679f37a09fbf9f1af49769679",
+   "jpUrl": "2b7a24e1037fedbf65f35be79947efd36afaff658f281208970859a50f379789",
+   "enUrl": "4754de9e74a7d182326815b55d8abe6910c0fca783a897584b5ec78db5d4a8e4",
+   "krUrl": "865f5084d26a587a64df27bce68c89c7096aa83409e2c282377430ecf7228999"
   },
   {
    "id": 53,
    "title": "Turn Begins 1",
    "text": "Life is not as fragile as butterfly wings.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "2ab8d32d32089d39860f247ee1dba5c70336a4385f4407ef2778d0becb316f18",
+   "jpUrl": "d55355495b97747ddc6a1c9035a6dbbe1b0851caf2e5e63ea6403c56794efdab",
+   "enUrl": "6bc40175c3af811a94744f5e51b695c545fea91816ddd93b31c30efb2d61b7ea",
+   "krUrl": "d671b944a8163186300048de38bb245626536abdc2d46109643464ac0f688d6d"
   },
   {
    "id": 54,
    "title": "Turn Begins 2",
    "text": "Please cherish the time before your soul withers.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "fdbcdf0a620781614b9ad402a0c1da4466be1b5a04b02e84e230bfefcb1ab9e5",
+   "jpUrl": "09ffe9f8e9a0075c9541955cc8ae3a00da53d167959abda1a28745c6e911ee79",
+   "enUrl": "b0fbfa24a419dac885acaef666cae844a7cc04d854c1ce62ea02c4007367d479",
+   "krUrl": "5ffcc5c32e21ee4f336f30b0074430806611405840ae0c987cae9ba97c8359c0"
   },
   {
    "id": 55,
    "title": "Turn Idling",
    "text": "I will wait here until the final instant arrives.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "976d0fa5d2d3a9652cbbd576e0cb5b235b5fb3ac32e538fea2faeb3f8f01f55c",
+   "jpUrl": "7bfd89dd6f35a23da5c8c24c1d7b2e92a2032355b30849ce4dacbbeee1dde4da",
+   "enUrl": "478a501c12dd66a4c87d47a72e67b1b13645063efe6502ec2fc89289264edd4b",
+   "krUrl": "d2b99c4d96fe3b45d3128e9f1b6ea729dcc568bd345c471ae9cf984f22ec9bd4"
   },
   {
    "id": 56,
    "title": "Basic ATK",
    "text": "Sleep now.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "7be41e0401d4798418ddc0572d03c08b6b2222ea2d8dbcf7f92ddcf99f570286",
+   "jpUrl": "fce1a4247038688079b7a38ff0f5a85bb8fd3401639fc784e5d7b98d3c1bfbde",
+   "enUrl": "f1c8ab3bace4ac30584ed01710ede580d45eefd1cc89b1e57eb98a9dddf0a300",
+   "krUrl": "f30f56467b4fe6fc9b7022db1700694e2d41aa9420c67438fcad63c735146035"
   },
   {
    "id": 57,
    "title": "Skill 1",
    "text": "Please, wilt here.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "a00a893137dfe2e57a25c1d116be2976eee63141074c74736b2491af91596c54",
+   "jpUrl": "4574530ff060ddeda3d9c2dd7c8bbef2bef069119dcd1439b04662bf7a472738",
+   "enUrl": "633b4d983428a2bafbb16e41eec27a447d0d0b5375a4151c18b01f7e73b64c94",
+   "krUrl": "058d59dd5707e4d9cdc3d1954f40c88d6b7903ab29cf397ff0640be3b1d725ba"
   },
   {
    "id": 58,
    "title": "Skill 2",
    "text": "I grant you this, as you wish.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "b3b7eb1598f75f7b5d8a9d084f327506a68ce360c8060817a0a9712871773b23",
+   "jpUrl": "f10efc1e4c44e0c030320ddc746abc369a7a09e34ab74a91fbb146a32f10b5e1",
+   "enUrl": "0dc28052f06e6095c69b29d01d01d5a807b1d190f50eb1863c41822ec78b4c6c",
+   "krUrl": "60ba0389649fd399e4efe2c4d5b4178aafa034236752e7c87e7340e3982aefe4"
   },
   {
    "id": 59,
    "title": "Enhanced Skill 1",
    "text": "Dead souls... Return to dust.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "6a38756154c7112b77b81825da08940b8b637d4a5721d08fd833a379d8f3ab3e",
+   "jpUrl": "d78fe6e00940ef66d23f7215a49224c0763ed93cbac95adfdee4e16a90ca4a7d",
+   "enUrl": "56018fcd03c561bd3b661995c92ff81b91258a98b5158ce0f082135e41c71c83",
+   "krUrl": "2783dad877f45803bbcd3550e8f01923e0990ff0266c8dcea2a97ee3e66a50af"
   },
   {
    "id": 60,
    "title": "Enhanced Skill 2",
    "text": "Darkness follows me.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "76f1530c78765e186178e40d0f4c51ddfca21d66d47b098fc5201a71e8bd9669",
+   "jpUrl": "bad8bbef401bf62415519b0eeb5e332b936b9c803231792a0c5cf6c1a7754ac2",
+   "enUrl": "54ef3e5f8192ccb49112326e3e6dbec0eefa847232230789a16e23e679154d53",
+   "krUrl": "bfd9e3c01783c5641a774c4e78ecf052606bab8bf27faeb2709466fee11cf676"
   },
   {
    "id": 61,
    "title": "Hit by Light Attack",
    "text": "I'm okay.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "8ab8bc8784019e3c11eda56a1c5b927a2362af08c13779c57c79b0b298c75066",
+   "jpUrl": "c29cc5f6835de1c91c17ce8ea8409b74e404fec5a108bbe5d98eea3176beca4d",
+   "enUrl": "385bf2467711fad21fbc73e1d537fd36c8bbe514ee916b924bdaf1ee4a9381dc",
+   "krUrl": "dc8a727fcaced812efea9a9ba63f742b1e7e93de92b490a6e426d1ac557ad1b1"
   },
   {
    "id": 62,
    "title": "Hit by Heavy Attack",
    "text": "That hurts a bit.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "af138104de2ba7a9bce049bc34087dd20b169321b70543155f610ed3895b09ed",
+   "jpUrl": "04a3f0917c4e350de211ae1372a1bab91ac404add3d62eafb6dac510c22d8697",
+   "enUrl": "3777b98fb4b5da38e2cb1e2d1e2c2efd49422f3c8b4efc08a33e790e22eadda4",
+   "krUrl": "5724af93cb9c6c580b20211332941a30a979753b0ec46705a17b63186deb3643"
   },
   {
    "id": 63,
    "title": "Ultimate: Activate",
    "text": "Embrace \"new life,\" Pollux.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "f26f3a679d95a5af16fb76f8b41ea4ddf05b9cb51594668b099fa7dff95d2507",
+   "jpUrl": "baabc3d45db28a28b2aa93c242a927f4039df77c0324a90227d4ef5470394de0",
+   "enUrl": "f606acd65df9a9f2127d7f571b4d84b90f6a8a09024bd0313e0a569f219a8728",
+   "krUrl": "cd423315167fda0cc285e4c3770e5f97a0a8fb44f149926a5e5f75e3f8026ca0"
   },
   {
    "id": 64,
    "title": "Ultimate: Unleash",
    "text": "I only wish that Death... may protect us!",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "7fb884c49a002395deb05b897faadc091455ab8250c83db282a9dc1e5b2c3d7e",
+   "jpUrl": "19c9b8cff5591bf83d9574b85a92c1d9f009b040542769cc1537736b686b1688",
+   "enUrl": "4059490faf34620c195ab690210704d7d68e08d33103da78bf7b92061c20bd4b",
+   "krUrl": "68433c938d131c999f34e8801a2757cd39ecf9edac53e7e49075fcc1223c42c4"
   },
   {
    "id": 65,
    "title": "Downed",
    "text": "The west wind...",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "63fe21e017e7e54119f7431b457752b81de855432ac5f884df7fdb0a983fd2f3",
+   "jpUrl": "26a6a30f1350ecbe97bdad0fe33e1e3979dd294a9f88769a1b14f9ba6c9ca055",
+   "enUrl": "b0246cebc24540071b26341c573d835e4069b8222c8f8bb851fa2ee674d3ea6f",
+   "krUrl": "af5ee11b565a497733fb8eaf96306d34a25e75ac703e70b959d61a082ef8bb8d"
   },
   {
    "id": 66,
    "title": "Return to Battle",
    "text": "Thank goodness... It's not time to say goodbye yet.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "83acf509e63e13485629550217dfcbac87dc30ef97d1cd3728752ef66208e995",
+   "jpUrl": "8f4f30e1ee6db86498ae0d91f00cc7ec21bdacab850b5888abaefba19d47578f",
+   "enUrl": "35ef53627ff283cb25623d708fc06f57e2a16e9466512fa48990f425744f3cba",
+   "krUrl": "c122f8d5cd16adc9b3a4620376c1f7d0057ce2aaa00b95449647243a8ff48bda"
   },
   {
    "id": 67,
    "title": "Health Recovery",
    "text": "I shall remember this warmth.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "627609236d2d19b0e698865b9d0e6d19ed42bed1894fb62f4aff00fe75b19dfa",
+   "jpUrl": "47ce211be84846a478b74be10c9ddff97b90caca4ccdcc2cab9baac8757810b5",
+   "enUrl": "9e331be0298e6ca7a9aaf6e15de24b50c09bafcbdc9ce56267810c63afe7cd76",
+   "krUrl": "2878cda4d4697dd1bbea0b235ba9604475dfd8aec820e1349784395124d1897d"
   },
   {
    "id": 68,
    "title": "Technique",
    "text": "Emerge from your cocoon.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "23997f12a2822242cf0331aa40d3e5294e562fb713d56af4116d21b4cc48ef59",
+   "jpUrl": "29dfa80c6d2c109150a0fd8e3e9edfb69d86343acfd452dea60c2733dd4198b5",
+   "enUrl": "f5149834b64ce01dea4cb3f800ccf660acf5df9eac52810c8681a5d237cef50f",
+   "krUrl": "c2ddb986428776109f76ca53d7f33f610c0259ed9b4c7ee22f6dbb4d5e5f7ed7"
   },
   {
    "id": 69,
    "title": "Battle Won",
    "text": "May wandering souls find their own way out.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "ba6e4b7fdbf998aa3c9a7ffffd79a7485f8658049516b369b205161e7536b211",
+   "jpUrl": "c3574c4fdd68dcc637685c33752e4495992c41266929a35ae3cfaa4f18cd59a2",
+   "enUrl": "95ba0870bb5bb5a5b787e636ca737711c3d4dc2e98d149a54f734c2ff35c34b9",
+   "krUrl": "3227e77e7c850f2b4ca96af001dd38055b92b9eaeea3079b4a9019da8c7c6e77"
   },
   {
    "id": 70,
    "title": "Treasure Opening 1",
    "text": "Ah! Make sure you keep it safe.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "64ad93c8290e89ec4cd6b54f424f2f0d464c223c5707a27a6194916661e192c2",
+   "jpUrl": "ac738d7291a15afd4b14d9bdd0b6b6732db7c93b5590d931cca4f8a84ed34ab9",
+   "enUrl": "d78ca7870f87016a1b49d1873c9fb07f2c0215f6d0487cc9a3a2d339c9aefcd3",
+   "krUrl": "61a22931973bf8774f87ec0a092b9a1ff95c6234f3839613b5548024b08892a8"
   },
   {
    "id": 71,
    "title": "Treasure Opening 2",
    "text": "I want to make something with it. But what to make...?",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "f2e10b593bded1df00cf1083d1df59ea0475aa94c678900e5c89a415639a1e0c",
+   "jpUrl": "2f4971081bf808fdf91c27d855a503256b95dbc115a29faa201d10b879a0415a",
+   "enUrl": "e990121a38998639fbae063694aee03db79d0f1f97086d99ab9083c6b538fe2a",
+   "krUrl": "641f3eee9557d2889bde8938720256227c83fcb55565e448ffd9614fe1a953ce"
   },
   {
    "id": 72,
    "title": "Precious Treasure Opening",
    "text": "Let's take a picture.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "0c8d47ad550a5163d387ea52da2d044831a4a1af6b1f679a20a32032804636b0",
+   "jpUrl": "daedc22f0c7d5f5a3429908a2159ad77eca98741058e4b3f2aa9c12740bd6a6a",
+   "enUrl": "59babb9fdef778e8e69dcc9870e378a941ccc4c894830ec37d8ac8435915cb83",
+   "krUrl": "6e152386c32079fcb2b3e6ac1bbbcdefbdb06902aeaa180eb0292b166fe2e49f"
   },
   {
    "id": 73,
    "title": "Successful Puzzle-Solving 1",
    "text": "I've learned something.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "0da43f32a61aab810ae3391b601f664dcb105c84856a493a7cd4ac668d7868ed",
+   "jpUrl": "31ab0dd93b752a18cd10032f695b5b04876eb5f42565e90a4446fe9517c3b447",
+   "enUrl": "f6e5950aac621e5dba5ee87c5380ba77c1989d78f04e09ab2177389bcda0b957",
+   "krUrl": "b64f4a218070e9b4d1dae051ca5e1d3ae232ef98da98b9439350a956f5620e4e"
   },
   {
    "id": 74,
    "title": "Successful Puzzle-Solving 2",
    "text": "I've seen puzzles like this in books...",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "8c9da2bb577cfde8a4256f7024787385a3b3e37b3015f33305272e4c2b29923b",
+   "jpUrl": "00fcf3236d3c8d31ea14f15e6e283746505509fd3ac57c6b16ea64871d5610a5",
+   "enUrl": "0a4cff7717b7bc50ad2c3e3c189e109ae652e13eda4c33128cd45c0bfb7d9a6f",
+   "krUrl": "ae931dcb8000b04456791effb39280e79cdc9efb45e62ebb6de29c5737a2c9ba"
   },
   {
    "id": 75,
    "title": "Enemy Target Found",
    "text": "Be careful. There's something unsettling ahead.",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "8739c445c2683dc26e225c07ee513e295da5fabad8dbea486af75bed89f40e05",
+   "jpUrl": "886bce54e32d677285225e96c56fa217388b88175ba911ee0ee86882e4c15667",
+   "enUrl": "35e2039c78d15f8fefe4ddb801108ff0af368f43eefaeae640a785defac55680",
+   "krUrl": "32507b30b87df466a42fbcafb7a74277ec67da62a934834ac33351464cc0fe54"
   },
   {
    "id": 76,
    "title": "Returning to Town",
    "text": "This place is rich with the sweet scent of flowers... Can we stay here for a while longer?",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "55ac38bf53c701d73eafd5b1129677ed3dc0e43cd6c208e7264bd567814b5265",
+   "jpUrl": "4f55f79d9ad9dd685a8e1eb9cf8b3dd762b145d8ff18a3157821301e7a8cc179",
+   "enUrl": "4898b5cd2d31f6736a7b080661a7d115a1d83e24ecb517fa6730f898a9f2effa",
+   "krUrl": "ee6f6b9d60024fc238a01fe26030d3ed68a85bfad94915918b9e97e4089e5e18"
   }
  ],
  "storyItems": [
@@ -3040,7 +3068,7 @@
   },
   {
    "title": "Character Story: Part I",
-   "text": "From the day she gained memory, Aidonia's snow had always been there. It was as if time had been frozen in this forlorn white ground.<br />When she was a child, she once asked Amunet what is snow. Amunet said snow is the joy of reunion and sorrow of parting.<br /><br />She was always in a trance as she stared at the people in the city.<br />The short knight came for training in front of the temple doors every day. The middle-aged priest occasionally dozed off under her high tower. The ascetic scholars distributed Antila flower biscuits to the children.<br />The children pushed and shoved as they engaged in a snowball fight in the distance, their laughter falling to her heart like ripe fruits.<br />From the tower, she tried but failed to differentiate their faces.<br /><br />Holy Maiden — They only called her that when she appeared before the people, and nobody dared to look her in the eye.<br />She mustered the courage to move closer, but they stepped back, lowering their eyes even more. She still couldn't see any of their faces.<br /><br />Until they were standing at death's door — the short knight suffered grievous wounds in battle, the middle-aged priest suffered from years of illness, and the ascetic scholar was infected by the patients they treated. At that moment, she was the closest to them.<br />Life was no longer an agonizing struggle, but turning at her fingertips into flower petals in the wind.<br />When she finally had the chance to look at their faces, she turned away instead, for she could not bear to look.<br /><br />\"Some hands were born to sow plants, some were born to govern... Yours carrying out the fated duty of parting.\"<br />Amunet's words echoed in her ears. She once wondered what her hands could possibly leave behind.<br />When she came to her senses, she was looking at an incomplete ice sculpture in her hands — Young warriors wielding their weapons, mothers embracing their children who were going to war, couples that cradled each other's faces with longing...<br />Those people are no longer around.<br />But this sort of thing will still happen again and again in the land covered by the snowstorm... and lands beyond the snowstorm.<br /><br />She finally understood that even the snow in Aidonia will melt, just as everything must walk into Death's embrace.<br /><br />\"Nikolaos who loved to smile, the kind Ilana<br />And Crito, who was as silent as the wind...<br />At night, I held up those<br />Forgotten names and forlorn memories,<br />And turned the sorrows of the day<br />into the boiling heat immersed in snow.<br />...\"<br /><align=\"right\">— A poem titled \"Aidonia\" written by the girl</align>",
+   "text": "Aidonia's snow had always been there for as long as she could remember. It was as if time had been frozen in this forlorn white ground.<br />When she was a child, she once asked Amunet what snow was. Amunet said snow is all the emotions of the mortal world.<br /><br />She was always in a trance as she stared at the people in the city.<br />The short knight came for training in front of the temple doors every day. The middle-aged priest occasionally dozed off under her high tower. The ascetic scholars distributed Antila flower biscuits to the children.<br />The children pushed and shoved as they engaged in a snowball fight in the distance, their laughter falling to her heart like ripe fruits.<br />From the tower, she tried but failed to differentiate their faces.<br /><br />Holy Maiden — Yet everyone called her that when she appeared before the people, and nobody dared to look her in the eye.<br />She mustered the courage to move closer, but they stepped back, lowering their eyes even more. She still couldn't see any of their faces.<br /><br />Until they were standing at death's door — the short knight suffered grievous wounds in battle, the middle-aged priest suffered from years of illness, and the ascetic scholar was infected by the patients they treated. At that moment, she was the closest to them.<br />Life was no longer an agonizing struggle, but turning at her fingertips into flower petals in the wind.<br />When she finally had the chance to look at their faces, she turned away instead, for she could not bear to look.<br /><br />\"Some hands were born to sow plants, some were born to govern... Yours carrying out the fated duty of parting.\"<br />Amunet's words echoed in her ears. She once wondered what her hands could possibly leave behind.<br />When she came to her senses, she was looking at an incomplete ice sculpture in her hands — Young warriors wielding their weapons, mothers embracing their children who were going to war, couples cradling each other's faces with longing...<br />Those people are no longer around.<br />But this sort of thing will still happen again and again in the land covered by the snowstorm... and lands beyond the snowstorm.<br /><br />She finally understood that even the snow in Aidonia will melt, just as everything must walk into Death's embrace.<br /><br />\"Nikolaos who loved to smile, the kind Ilana<br />And Crito, who was as silent as the wind...<br />At night, I held up those<br />Forgotten names and forlorn memories,<br />And turned the sorrows of the day<br />into the boiling heat immersed in snow.<br />...\"<br /><align=\"right\">— A poem titled \"Aidonia\" written by the girl</align>",
    "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
   },
   {
@@ -3055,7 +3083,7 @@
   },
   {
    "title": "Character Story: Part IV",
-   "text": "\"Maybe... this will be my last day in Okhema.\"<br />At the end of a bitter journey, she finally found the clues about the nether realm. Before she headed to the place of no return, she wanted to look carefully at the world again.<br /><br />That was the Chrysos Heir's bath.<br />She remembered how Aglaea once, in the thick steam, gave her a pair of gloves that she had carefully fixed.<br />\"Cas, you've changed quite a lot, compared to the first time we met.\"<br />She touched the beautiful patterns on the gloves in surprise, and the usually indifferent leader smiled as she winked at her.<br />\"Even the present me can see your scorching heart beneath the frigid cold...\"<br /><br />That was the serene garden behind the house, shaped like how it looked in her dreams.<br />In that chaotic dream, she often met her other self. They tilled and nurtured the garden together, until the barren soil transformed into a lush ocean of flowers.<br />\"I wish that I can still sow seeds of hope like this in the future.\"<br /><br />That was the monument she erected for the lives once lost at her fingertips.<br />From the deceased in Aidonia, to the Chrysos Heirs in the Flame-Chase Journey... Over a thousand years, she tried to remember everyone's name and past.<br />\"If someone still remembers, they are not truly dead.\"<br /><br />That was where she first met Trailblazer.<br />Encounters are such miraculous things, she thought. The streets that she was so familiar with in the past had gained a special meaning because of someone else.<br />\"My lady, with my own hands, I will definitely bring you...\"<br /><br />As the Entry Hour draws near, the time for the promised departure is also nigh.<br />Under the blazing sunlight, she made her first and last wish: With the freezing and arduous life as a beginning, she will write with her/him—<br /><br />A poem titled \"Castorice,\" which ends with a true embrace.",
+   "text": "\"Maybe... this will be my last day in Okhema.\"<br />At the end of a bitter journey, she finally found the clues about the nether realm. Before she headed to the place of no return, she wanted to look carefully at the world again.<br /><br />That was the Chrysos Heir's bath.<br />She remembered how Aglaea once, in the thick steam, gave her a pair of gloves that she had carefully fixed.<br />\"Cas, you've changed quite a lot, compared to the first time we met.\"<br />She touched the beautiful patterns on the gloves in surprise, and the usually indifferent leader smiled as she winked at her.<br />\"Even the present me can see your scorching heart beneath the frigid cold...\"<br /><br />That was the serene garden behind the house, shaped like how it looked in her dreams.<br />In that chaotic dream, she often met her other self. They tilled and nurtured the garden together, until the barren soil transformed into a lush ocean of flowers.<br />\"I wish that I can still sow seeds of hope like this in the future.\"<br /><br />That was the monument she erected for the lives once lost at her fingertips.<br />From the deceased in Aidonia, to the Chrysos Heirs in the Flame-Chase Journey... Over a thousand years, she tried to remember everyone's name and past.<br />\"If someone still remembers, they are not truly dead.\"<br /><br />That was where she first met Trailblazer.<br />Encounters are such miraculous things, she thought. The streets that she was so familiar with in the past had gained a special meaning because of someone else.<br />\"Miss/Mister, with my own hands, I will definitely bring you...\"<br /><br />As the Entry Hour draws near, the time for the promised departure is also nigh.<br />Under the blazing sunlight, she made her first and last wish: With the freezing and arduous life as a beginning, she will write with her/him—<br /><br />A poem titled \"Castorice,\" which ends with a true embrace.",
    "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
   }
  ],
@@ -3166,13 +3194,19 @@
   "sCoinId": 29328,
   "rankConfig": {
    "3": {
+    "4672104": 1,
     "12091651": 1,
-    "12526956": 2
+    "12526956": 2,
+    "21001295": 1,
+    "21235289": 1,
+    "21359282": 1
    },
    "5": {
     "12262238": 2,
     "12285822": 2,
-    "12465910": 2
+    "12465910": 2,
+    "21085318": 1,
+    "21319318": 1
    }
   }
  },
@@ -3560,7 +3594,7 @@
     "icon": "19b9aef2892ce980eb7823efdf3043daa598e81001b550d0fe352788da9d3baf",
     "tag": "Support",
     "typeDesc": "Memosprite Talent",
-    "skillDesc": "When Netherwing is on the field, it acts as <u>backup</u> for allies. When allies take DMG or consume HP, their current HP can be reduced down to a minimum of 1, after which Netherwing will consume HP at <nobr>#1[i]%</nobr> of the original value until Netherwing disappears.",
+    "skillDesc": "When Netherwing is on the field, it acts as <u>backup</u> for allies. When allies take DMG or consume HP, their current HP can be reduced down to a minimum of 1, after which Netherwing will bear the HP loss. But Netherwing consumes HP equal to <nobr>#1[i]%</nobr> of the original value. This lasts until Netherwing disappears.",
     "simpleSkillDesc": "When Netherwing is on the field, it acts as <u>backup</u> for allies. Allies' current HP can be reduced down to a minimum of 1, after which Netherwing will bear the DMG received or the HP consumed.",
     "levelData": [
      {
