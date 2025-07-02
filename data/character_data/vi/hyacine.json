@@ -502,7 +502,7 @@
    "iconPath": "3b03c14471bd55e2ac5a9dbd31a8e1d0a80670210e5996e7715b54279d0db37f",
    "artPath": "761b51123180ba8d04bc1698f4df8845515dd8a200a585207349a9b6adeaacac",
    "name": "Bầu Trời... Đáp Lời Nguyện Cầu",
-   "descHash": "Nhóc Ica thi triển Kỹ Năng Linh Hồn Ký Ức xóa điểm trị liệu tích lũy sửa thành <nobr>#1[i]%</nobr>. Khi Nhóc Ica ở trong trận, <u>Xuyên Kháng</u> Toàn Thuộc Tính của toàn bộ mục tiêu phe ta tăng <nobr>#2[i]%</nobr>.",
+   "descHash": "Khi Nhóc Ica thi triển Kỹ Năng Linh Hồn Ký Ức, lượng điểm trị liệu tích lũy xóa bỏ sẽ sửa thành <nobr>#1[i]%</nobr>. Khi Nhóc Ica ở trong trận, <u>Xuyên Kháng</u> Toàn Thuộc Tính của toàn bộ mục tiêu phe ta tăng <nobr>#2[i]%</nobr>.",
    "params": [
     0.12,
     0.2
@@ -1019,7 +1019,7 @@
   },
   {
    "tagHash": "Hỗ Trợ",
-   "descHash": "<u>Triệu hồi Linh Hồn Ký Ức</u> Nhóc Ica, hồi phục cho toàn bộ mục tiêu phe ta ngoại trừ Nhóc Ica lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>, hồi phục cho Nhóc Ica lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[f1]%</nobr></span> Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#7[i]</nobr></span>. Hyacine vào trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", duy trì <nobr>#5[i]</nobr> hiệp, khi hiệp của Hyacine bắt đầu, số hiệp duy trì sẽ trừ 1. Khi trong trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", Giới Hạn HP của toàn bộ mục tiêu phe ta tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> điểm.",
+   "descHash": "<u>Triệu hồi Linh Hồn Ký Ức</u> Nhóc Ica, hồi phục cho toàn bộ mục tiêu phe ta ngoại trừ Nhóc Ica lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>, hồi phục cho Nhóc Ica lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[f1]%</nobr></span> Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#7[i]</nobr></span>. Hyacine vào trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", duy trì <nobr>#5[i]</nobr> hiệp, khi hiệp của Hyacine bắt đầu, số hiệp duy trì sẽ trừ 1. Khi trong trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", Giới Hạn HP của toàn bộ mục tiêu phe ta tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> điểm.",
    "ultimateCost": 140,
    "break": "0",
    "energy": "5",
@@ -1778,6 +1778,7 @@
      "anchor": 12,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 17811211,
       "name": "Cường Hóa HP",
@@ -1811,6 +1812,7 @@
      "anchor": 13,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 17559847,
       "name": "Cường Hóa Tốc Độ",
@@ -1841,6 +1843,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Tỷ Lệ Bạo Kích của Hyacine và Nhóc Ica tăng <nobr>#1[i]%</nobr>, khi trị liệu cho mục tiêu phe ta có HP hiện tại nhỏ hơn hoặc bằng <nobr>#2[i]%</nobr> Giới Hạn HP của bản thân, lượng trị liệu của Hyacine và Nhóc Ica tăng <nobr>#3[i]%</nobr>.",
     "ultimateCost": 0,
@@ -1887,6 +1890,7 @@
      "anchor": 14,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 17802038,
       "name": "Cường Hóa Kháng Hiệu Ứng",
@@ -1920,6 +1924,7 @@
      "anchor": 15,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 17456576,
       "name": "Cường Hóa Tốc Độ",
@@ -1950,6 +1955,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Kháng Hiệu Ứng của Hyacine tăng <nobr>#1[i]%</nobr>. Khi thi triển Chiến Kỹ và Tuyệt Kỹ sẽ giải trừ <nobr>#2[i]</nobr> <u>Hiệu Ứng Xấu</u> của toàn bộ mục tiêu phe ta.",
     "ultimateCost": 0,
@@ -2009,6 +2015,7 @@
          "anchor": 18,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 977288,
           "name": "Cường Hóa Tốc Độ",
@@ -2039,6 +2046,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 17447393,
         "name": "Cường Hóa Kháng Hiệu Ứng",
@@ -2068,6 +2076,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 17698770,
       "name": "Cường Hóa HP",
@@ -2097,6 +2106,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Khi Tốc Độ của Hyacine lớn hơn <nobr>#1[i]</nobr>, Giới Hạn HP của Hyacine và Nhóc Ica sẽ tăng <nobr>#2[i]%</nobr>, sau đó cứ mỗi <nobr>#3[i]</nobr> điểm Tốc Độ vượt quá, Lượng Trị Liệu Hyacine và Nhóc Ica cung cấp sẽ tăng <nobr>#4[i]%</nobr>, tối đa tính <nobr>#5[i]</nobr> điểm Tốc Độ vượt quá.",
     "ultimateCost": 0,
@@ -2149,6 +2159,7 @@
      "anchor": 10,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 17791848,
       "name": "Cường Hóa Kháng Hiệu Ứng",
@@ -2182,6 +2193,7 @@
      "anchor": 11,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 17503611,
       "name": "Cường Hóa Tốc Độ",
@@ -2212,6 +2224,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBuff": {
     "id": 17516886,
     "name": "Cường Hóa Tốc Độ",
@@ -2249,560 +2262,570 @@
    "title": "Lần Đầu Gặp Mặt",
    "text": "Là hậu duệ của bầu trời, Hyacinthia sẽ cùng mọi người hoàn thành sứ mệnh Săn Đuổi Lửa. Đồng thời, là Thầy Thuốc Hyacine của Đình Viện Hoàng Hôn, tôi cũng sẽ cố gắng hết sức để hỗ trợ mọi người. Đây là cộng sự đắc lực, cũng là đồng đội tốt của tôi - Thiên Mã Nhóc Ica, cô/anh có muốn vuốt ve nó không? Mạnh dạn lên, nó rất thích đấy~",
    "unlockRequirement": "",
-   "cnUrl": "c83e9f65f02febec0a2e339675ed74824e909d775c222998dff65109f3488ac9",
-   "jpUrl": "e00ed52f905226d7e06a7ea4b6a4e42d2a87cc4e8a271424e2c84c40b444c2ac",
-   "enUrl": "7f85e5e70059003dcfb744a8d970b4997779d63d711674114f5a7ec589f3859b",
-   "krUrl": "0bdf50e7a4cb08a73d505627acf81cc8cf6fb8c9cfa2125c0a02c8d0f753898c"
+   "cnUrl": "52961aab657e263a018e41f0e77d8cf9a6ffdc4e6069d8373dc993df9872004b",
+   "jpUrl": "c72daa8c57250c7a82e30024feee98d9c19b7a7d9ddb9563cef8b3871c60b420",
+   "enUrl": "fc60fc47ac8a0482833a3d33334edc47b34d0044949ba307967144e8aba396ba",
+   "krUrl": "3c6c033e2356f485d7f21a9b4d36ab673faa28ffdc83008228c2b11ca72ec522"
   },
   {
    "id": 2,
    "title": "Thăm Hỏi",
    "text": "Động tác nhỏ và biểu cảm của cô/anh cho tôi biết, cô/anh có tâm sự! Có muốn đến đình viện của tôi ngồi một lát không? Ở đó có ghế mềm, sách vở, trà bánh, ánh nắng và cả... tôi, người sẽ trò chuyện với cô/anh~",
    "unlockRequirement": "",
-   "cnUrl": "d14196f9d5f51acc3fda4b9cae02df0badddd574d306f1f563a30aada9b7f895",
-   "jpUrl": "b2106cf296f0629487c9a762f86ca926e87918e5d273d0e88f6e4f9f3954b446",
-   "enUrl": "4500711a7fbd403c61a4671b8bf7468b7114ce788af564a77eefb9288bff72f3",
-   "krUrl": "8d94212660adfbbb20bc33ad4abcdcd59986374981dd0f44cd36e50b48a5f49a"
+   "cnUrl": "be39407b5c7549400ec3131ee6ee3d525ada33e5db0cfc50ded186aa60a90f53",
+   "jpUrl": "43978ece78d3049f9da07a55d22a8feb582f21ee6b0b94f0a6fa840ca54bf140",
+   "enUrl": "bf4f2317d20c36f646f1a224838a7d267069e1badee00016757227691c96347d",
+   "krUrl": "01a1f1d7fd2b37604d773d004e9622dea08940f0386cdb83a7af7bd23937cf1b"
   },
   {
    "id": 3,
    "title": "Tạm Biệt",
    "text": "Buổi tối trời lạnh, nhớ bổ sung dinh dưỡng, đừng thức khuya. Trước khi ngủ, hãy ngâm mình trong nước ấm, uống chút trà hoa sữa dê an thần, sẽ có giấc mơ đẹp đó~",
    "unlockRequirement": "",
-   "cnUrl": "20edb05ca2ccd79819a3ee7dca99294b5ca909b54407e031ab5a3dfb32e214e1",
-   "jpUrl": "1547366c5bc801f0345b72a5e79f253a7bf040f3d0f2316143999c9f82ea15ba",
-   "enUrl": "e95bc6bddcf1846a278a05c0297caf6ff05bec1464caaff1a26ca1d2485841f0",
-   "krUrl": "a7566c424a464e88318edc596c606191dc5b4bfd2ebfe52c11f50a65f3b1afe2"
+   "cnUrl": "294743ccd681632ff2679ca967b81a093c62f820815ec363e36cc1bfb4dec4e2",
+   "jpUrl": "0c09f1c2f8df4c8d946f890794faac63dca4859354d22c3688f77df9c4c5646e",
+   "enUrl": "4fcd9288fb7d2fcb1bcca3febc476d76b4e5bf0a48b02207c64868d72d222255",
+   "krUrl": "8791b486190f37db5756d4295726763271dcd9b018f4f3fe08a69371998939f8"
   },
   {
    "id": 4,
    "title": "Về Bản Thân-Thân Phận",
    "text": "Khi mặt trời vẫn chưa lặng im, tổ tiên tôi sẽ điều tiết gió mưa, trời râm trời nắng, mùa hè nóng bức hay đông về giá lạnh giữa những đám mây. Bây giờ khi màn đêm vĩnh hằng đã buông xuống, tôi cũng muốn trở thành một tia sáng chữa lành vết thương của thế gian này hết mức có thể - Lặng lẽ chờ đợi ngày bình minh lại nở rộ, và chúng ta lại một lần nữa cùng tắm mình trong ánh sáng.",
    "unlockRequirement": "",
-   "cnUrl": "e0fc45b62c3da3385cd41581da06b9453bc80485fd2d4c7038d3e89da3d900de",
-   "jpUrl": "180cdce648292a9734260f17b35580fa8eaad6a6a897b7b2f702650ad84fc84f",
-   "enUrl": "86b02b6fca756e51f09f04670f66955883ef65b653cee8368311cdd1deff0482",
-   "krUrl": "eaa226612e021cd1b186695800c1dc9ed2702743611bb9b719b6893de0988db7"
+   "cnUrl": "60cf89bdda86da06168b5f331cf937097fce7e9ece24aba4f9fe206333408df7",
+   "jpUrl": "95f51ded99e9f6f45f29b0aad669cb471140c972c5c6a08176de120a19aeaff0",
+   "enUrl": "44cb94261c58524e1aca97a4b82eb56b87219e7197d63317b958739f99aab398",
+   "krUrl": "914a5098b866a8f4fafa79cb477f8704e3001f762b19863f382e1a3b8df2f5bd"
   },
   {
    "id": 5,
    "title": "Về Bản Thân-Thú Cánh",
-   "text": "Mỗi con dân của bầu trời đều có được sự ban phúc của Thú Cánh, đừng thấy Nhóc Ica nhỏ xíu, lại còn như chưa tỉnh ngủ, ánh sáng cầu vồng của nó cũng đã từng cứu sống người của cả một thành bang, nhưng kể từ đó, nó không còn nói chuyện nữa...",
+   "text": "Mỗi Con Dân Bầu Trời đều có được sự ban phúc của Thú Cánh, đừng thấy Nhóc Ica nhỏ xíu, lại còn mang dáng vẻ như chưa tỉnh ngủ mà xem thường nhé, ánh sáng cầu vồng của nó cũng đã từng cứu sống người của cả một thành bang đó, nhưng kể từ dạo ấy về sau, nó không còn nói chuyện nữa...",
    "unlockRequirement": "",
-   "cnUrl": "865e20c75debe2401937bce5cae034de7e1727ba43a3cfd22501555419616275",
-   "jpUrl": "15a155d416d5f645fa2e2b1d302b608590f22a7ec686ab99ab4b918a5ac5df71",
-   "enUrl": "02a1cb4befd73f71a3060c2e66349b0f1ee36d7b6979035279efb51c3a8caac1",
-   "krUrl": "bdc3b8b086964d1add1cf04d80e6c41d8ab1aea6e9764d6136fcd73a76b199fd"
+   "cnUrl": "589852ef5c3fe12364e931490b69c89ccf555990aaf0ab1908250c6b413844e0",
+   "jpUrl": "43d98ae0c069bf597ce19ff26415c2f3a607e064a6773832a6485cb70df6cd60",
+   "enUrl": "0c043f7964518254fadea676d7f0b8b4373538f5ca41203fd097a09f204c41c3",
+   "krUrl": "67c036cff5bbdc70bc7913beab036219108d3f75381f3946db7101f44f13c6c3"
   },
   {
    "id": 6,
    "title": "Tán Gẫu-Liệu Pháp \"Trò Chuyện\"",
-   "text": "Khi băng bó, tiêm, kiểm tra cho bệnh nhân, họ khó tránh khỏi cảm giác căng thẳng, lúc này chính là lúc thử thách khả năng trò chuyện của y tá! Chỉ có điều, đôi khi cứ nói cứ nói xong mọi người đều buồn ngủ luôn... Ơ, cô/anh cũng ngáp rồi à?",
+   "text": "Khi băng bó, tiêm, kiểm tra cho bệnh nhân, họ khó tránh khỏi cảm giác căng thẳng, lúc này chính là lúc thử thách khả năng trò chuyện của người hành nghề y! Chỉ có điều, đôi khi cứ nói cứ nói xong mọi người đều buồn ngủ luôn... Ơ, cô/anh cũng ngáp rồi à?",
    "unlockRequirement": "",
-   "cnUrl": "7e13c01af0554fd06e1a5d81e7aa7a283173f77ccc91300cbc096eb9f2b8d17d",
-   "jpUrl": "152be7b57d33c343b857ae5580175544b84ec855a6980ce8d90aece34562e77b",
-   "enUrl": "519dca63d5a17cf6d2e028e4c60525e6e334bc0ee6934da823a4e3ad1fb8d522",
-   "krUrl": "dd8970f584a0f748114b0e60f120404188a719eafb306a0b4fa9ef56d91f6994"
+   "cnUrl": "b0f2df5e94cbf27730b6c9bd636090fa168b5d901d626afb2bf5cc2c2dcdd20b",
+   "jpUrl": "9995267ec1dbe6fe3fcc3bdb23f47565438c87cff91409d8c41c44162e8e90e5",
+   "enUrl": "7a374616aad06ab34b50696188f46220b4b5b2d233c8f8f09efcff000880275b",
+   "krUrl": "2c68261165bdd47ddd70e32ea9147d6a91dff504967c1d668e9dda31a71488ed"
   },
   {
    "id": 7,
    "title": "Tán Gẫu-Thu Hút",
-   "text": "Mỗi lần dừng bước, bướm, Thú Đại Địa và cả Chimera cũng sẽ vây quanh Nhóc Ica. Tất nhiên, tôi rất hiểu, ai mà không thích Nhóc Ica chứ?",
+   "text": "Mỗi lần dừng bước, bướm, Thú Đại Địa và cả Chimera cũng đều sẽ vây quanh Nhóc Ica. Tất nhiên, tôi rất hiểu, ai mà không thích Nhóc Ica chứ?",
    "unlockRequirement": "",
-   "cnUrl": "6bda12bfbb98f570d33250614a0c519279703501647ca40a705a9a2ccd979ac7",
-   "jpUrl": "bb0e268abcdda579427224814530a948c3e2beaae2258e453caa9bc5df4cf53d",
-   "enUrl": "0504650531098478b41bfabe246d5725e54baeca97f7c5bbd88608f4617c2256",
-   "krUrl": "2f0d33f4906b1f35ffab5fd1bb878ffcd48b9dae7ea2a074fd4e7abf5cceb634"
+   "cnUrl": "75f3b09132d202f169765e2e3a6cb6d461ee6984668f3442af4b7a57495cfe87",
+   "jpUrl": "a64e12c23fda44c466a9c9c1940dae5d8a9d90baf3c2c1698e20964e9182ef15",
+   "enUrl": "9f20bbb9d3f16a20c395aa1ae1812888e3871b4551e81e1c6d7a7713c5cb18b6",
+   "krUrl": "f95a680788595c5e656621d9f7f4d21cd73974ecaffe4a91c5e480ef82c29936"
   },
   {
    "id": 8,
    "title": "Sở Thích-Ngắm Chim",
    "text": "Dùng Máy Đá Chụp Ảnh để ghi lại những chú chim của Amphoreus, đã tích lũy được một cuốn ảnh dày cộm rồi! Tôi từng thảo luận với các học giả ở Điện Cây rằng tại sao Aquila và Phagousa lại không hòa hợp? Tôi nghĩ, là vì ngài luôn sai sứ giả đến bờ biển để trộm rượu mật của Phagousa!",
    "unlockRequirement": "",
-   "cnUrl": "de30b13b0e38522d5d0dd0d3b47feec2b698c582650585c47cd2da46f78671ca",
-   "jpUrl": "49356492f2bf32ec1f92a32f55ea60e7625065878255733b70eca9e32650cb82",
-   "enUrl": "651994fd79e4257f6bb14825d92d332330297c17c5be3f97f6009d86ea859e58",
-   "krUrl": "1347873afef8c84255c9200a806b4ac1d6635fbf7b7056d83fc57173ca86038b"
+   "cnUrl": "b3aa026dec5124cbb16865c5965a95ce7771773e72b45abb7f73e6b043f7500a",
+   "jpUrl": "bf251002226dd5c8f8f38006a51cd36339199dcc23221324913d672e83b7c15d",
+   "enUrl": "cca0c01e5f509ef01ad8001de1acece7ab35aee60448c9c50aa1a010d89c95a6",
+   "krUrl": "7f8e763c2dde00e58aa3c9d461c2a7121af4054c242c4c3d7e81a60837a2d1ef"
   },
   {
    "id": 9,
    "title": "Sở Thích-Thu Hồi Đồ Cũ",
-   "text": "Ghế mềm được cải tạo từ quần áo cũ, chuông gió được cải tạo từ bình, đều có thể nhìn thấy trong đình viện của tôi... Đồ cũ không muốn dùng nữa có thể cho tôi, tôi sẽ trả lại một dáng vẻ mới mà cô/anh chưa từng thấy qua~",
+   "text": "Ghế mềm được cải tạo từ quần áo cũ, chuông gió được cải tạo từ bình, tất cả đều có thể nhìn thấy trong đình viện của tôi... Đồ cũ không muốn dùng nữa có thể cho tôi, tôi sẽ trả lại một dáng vẻ mới mà cô/anh chưa từng thấy qua~",
    "unlockRequirement": "",
-   "cnUrl": "c7bc4780b81c8a10c825ead476e120ff692655f9974d7221aa1c94e73bcf740e",
-   "jpUrl": "0f6f1066550afec916df85ecc6eea97e597236357f58b41084038e6b527ca917",
-   "enUrl": "c682d4c886400a228312c78a05feba5a1e7f55e030c1bccd01f4e9b16d18d0b3",
-   "krUrl": "55e0d36fc50e3f215fb089be2e40e67233454a0a295f547c9dbc4ea394cbd9a3"
+   "cnUrl": "bb9269a4920c8675e7852f1418452af3eff27cc8990084967f26eb8c94c3364d",
+   "jpUrl": "4c269eccebb122369d3e5dfc014857d2439a1ff0a9361d79d2b86d5f23b4d06d",
+   "enUrl": "dcd253d9c49b92de4806a47378c16cb1c8946c4d9d867961124d47064432e071",
+   "krUrl": "fc65b57caa4f816ce18a1c0a49c07545493fcbab00e126a242f203affbca36fc"
   },
   {
    "id": 10,
    "title": "Phiền Não",
    "text": "Mỗi khi mọi người biết tôi có huyết mạch của Người Con Bầu Trời, họ đều sẽ xác nhận lại nhiều lần. Tôi biết mình khác xa với tổ tiên trong truyền thuyết, nếu nói tôi không quan tâm chút nào thì cũng không đúng, nhưng mỗi người đều khác nhau mà, đúng không?",
    "unlockRequirement": "",
-   "cnUrl": "baef857fb11efbd14f057c5a47a982693c73c80bb56eb34d119a9fbf972b000b",
-   "jpUrl": "d296a5d087f575c4382833801d0b5a355c9be41a40591f3b35d248d51070b3e4",
-   "enUrl": "961c108245b3109221a5ec71178f9f5edc0b39280cb5e98c8021ba5e2cac5c04",
-   "krUrl": "be7c8ae46a4f56936c0f26ef4724a4c5c1289f4dd8adb263ddf126984ad5604f"
+   "cnUrl": "c5746d682951a1cb93556e7b4d9b9e478b398f4c4657eae5f39e22229c5a08c6",
+   "jpUrl": "dfc76bb6089b9d105c612b200869fb9736fec38346ca0c7b52353f91240cf1c1",
+   "enUrl": "037b6bc4970ed8d57f0536e265dd143a77bb15d1973afc4e6ba9ad106aa26db8",
+   "krUrl": "9be18566e1331f9ac7b40f65af44a7121fd1314ae0cef41e8d813263800a1f30"
   },
   {
    "id": 11,
    "title": "Chia Sẻ",
    "text": "Y thuật là điều hữu hạn, ngay cả khi cố hết sức thì vẫn có lúc không thể tránh khỏi nỗi nuối tiếc. Cho nên, tôi cũng đã học cách chăm sóc và tư vấn tâm lý, trong thế giới sắp sụp đổ này, bảo vệ niềm hy vọng cũng quan trọng như việc chữa trị cho cơ thể người bệnh vậy.",
    "unlockRequirement": "",
-   "cnUrl": "e345887a8b866a0258fc613c6650b8709b82604091dc08563e1b3e8b13b28418",
-   "jpUrl": "92bfed97f9ea8c4d8d16ca563c9cecd017f30f53fed867ccad79cebeea92263f",
-   "enUrl": "ae6f2337e2fd032549597e3f1a4f3c79c47d0f6b00a46ac2cc563a68e460ed7a",
-   "krUrl": "36c94f574a4204d04fbe7ba15ef10a91b08826caf3d500950ab9f901f3ae1072"
+   "cnUrl": "ffdad4ba9ccca6a1c1efe15eb1a9b71952c9f472c18940b44478e002bf1a36dc",
+   "jpUrl": "bf51e86b4e01299a884255a4918a40e7a137a7976ef1617f7bfa9ad9eaf91fe9",
+   "enUrl": "a459dda6dddfbf8b358b7315afe493fc40e2efc72589ee886d2a411040c9d378",
+   "krUrl": "b0f63b34d609b6e6195da4bdd87a08dfeec7eb522f7628257f82521eb13a696e"
   },
   {
    "id": 12,
    "title": "Hiểu Biết",
    "text": "Màu đỏ tượng trưng cho chính nghĩa, màu cam tượng trưng cho anh dũng, màu vàng tượng trưng cho hòa bình... Tổ tiên đã để lại những màu sắc khác nhau cho thế giới này, giống như ánh mặt trời xuyên qua những hạt mưa, sẽ phản chiếu thành bảy loại ánh sáng.",
    "unlockRequirement": "",
-   "cnUrl": "32b4847e58b2fb98d5b4a053506dd7dc082d374061e204bbd3c6bcb4a384454d",
-   "jpUrl": "ae6f2d8e045775a41ae05d68a07cc532418d6daaff0a541a52c5945b575b0ebe",
-   "enUrl": "53cd0386282be8f34153850ecaac56ee9886e8410bd2d49159782a30d07981f6",
-   "krUrl": "a9aa3bdfad8f7af06ab82487228597c20dc2188b260a35575219e9998ece5e53"
+   "cnUrl": "020b2222c2769a5081cfdf9520ec09400710e6fe644623e7695cf5fe844b765a",
+   "jpUrl": "a83b54b7273343f81afe1eeb9ca5cc69aa9c8e48ab489b0f3bc1598ae366f901",
+   "enUrl": "d10ffa58f7b659196043d8b7504679e0023017ac6fd709afb73179280f48a8f9",
+   "krUrl": "c8fccf8b81c2d29c416fcca0c68ee72c8a399d232daf20c59ae9cca9ff2ae778"
   },
   {
    "id": 13,
    "title": "Về Nhà Khai Phá",
-   "text": "Nghe nói Xám Cưng đã trải qua rất nhiều câu chuyện tuyệt vời ở ngoài bầu trời, nếu có cơ hội, tôi cũng muốn cùng đi đến nơi bầu trời rộng lớn hơn để ngắm nhìn đấy, dù sao thì tôi cũng là con dân của bầu trời mà!",
+   "text": "Nghe nói Xám Cưng đã trải qua rất nhiều câu chuyện tuyệt vời ở ngoài bầu trời, nếu có cơ hội, tôi cũng muốn cùng đi đến nơi bầu trời rộng lớn hơn để ngắm nhìn đấy, dù sao thì tôi cũng là Con Dân Bầu Trời mà!",
    "unlockRequirement": "",
-   "cnUrl": "c415c4489d903f605670aeae86f897c3d630bbb623b323a7dd7ad708b2df03b0",
-   "jpUrl": "0242512410d4a5137ecd9686888917a68bdd63a9dc59c91bd945303c02ee7074",
-   "enUrl": "c56fdbec624bea1bf6f7228cc55654639441fe57eb549a5280f90d121c8fc8a2",
-   "krUrl": "3cb9b5ec013269585b5c5289ad18e36c3ec63153500f2213011642c707ad5182"
+   "cnUrl": "7615a06aa87b662edf9c061535755be0447689d3f9aefaec272b6639a873be4f",
+   "jpUrl": "e019ee26409331656d9749c4a2955f279150b160f4f277ef465b0259f76ad710",
+   "enUrl": "daa4538814569bdfc52389b8231e276144a0c5b70dae70ac382635e1d8b10c5c",
+   "krUrl": "c9d36ea6c3459eaab6c64753bbee38293e7af5909542942979f3aadbe44ab159"
   },
   {
    "id": 14,
    "title": "Về Dan Heng",
    "text": "Thật hiếm khi thấy một người ổn định về mặt cảm xúc như Dan Cưng, cứ như thể, nếu có chuyện gì xảy ra thì anh ấy cũng sẽ không chớp mắt nhiều hơn dù chỉ một cái, chắc anh ấy cũng rất thích hợp làm thầy thuốc nhỉ?",
    "unlockRequirement": "",
-   "cnUrl": "5cc03f5ef2d817c3217bc07540f5c1eb6179af4078e8dd28833019e9cf5448b7",
-   "jpUrl": "c7b7e30aec63c9c636e215a4fa312ddd32986c1719f6e66b70d19a73fca4fea9",
-   "enUrl": "e82992da583db12a01ba0053ed9d8de5dfd922dac748a51818f6de01df9f9275",
-   "krUrl": "e638582fd1e61a7bfd370a7e1d2f423786ff05795548d0912b8c982216ebd1fe"
+   "cnUrl": "847347d9c0b5f538d67d421a7d234805915595f6c3f0dad0a69769f9288b424b",
+   "jpUrl": "d776e62fc979e7dda9100fd9f51c24a220fa5aa85f0629bb76c7135c8957cab8",
+   "enUrl": "f47104d7385f0aec3e1eb80b59a22ca47e3833bd16ba494e3bd3db433d6382ea",
+   "krUrl": "0f569f31202773fd8f02bab6c0e8d3b39081bf23089dbcf2e51badd4781c4db8"
   },
   {
    "id": 15,
    "title": "Về Aglaea",
    "text": "Có người từng phàn nàn với tôi, cô Aglaea luôn không thể nắm bắt được, khó mà tin tưởng... Nhưng khi tôi nắm lấy tay cô ấy, trên những đầu ngón tay lạnh lẽo đó vẫn mang hơi ấm của nhịp đập trái tim, tôi nghĩ, cô ấy chỉ là dùng lời nói để che đậy âm thanh trong lòng mình.",
    "unlockRequirement": "",
-   "cnUrl": "ef7437183ef2e349fa5d85e7501da9cad255dfd2550f54fe506bc13c6ed9a700",
-   "jpUrl": "9e5fb4411167eecf32b5f5b109ca4b107093ff5b7c5249e0e27307996260ad4b",
-   "enUrl": "4753cb247d0857b8e8416d875511de865e41bd83bf1c371acc397af571153e4a",
-   "krUrl": "0ff6e215629d3b0368ed5efcc5b5989c2bb4991654b3ff5d60c30eb592b7f9d8"
+   "cnUrl": "ccb11852d94363e761bf79bcb8440e7f283d56f0094dc1c455ad9dfb65945db3",
+   "jpUrl": "0352ca43b613f384d559d1fedd157d49c1311429a46abd8f2ecc8821eb8023ee",
+   "enUrl": "c70ee36380dbe31084ef7f051889a6adce83dc5b800adece841720adfc327899",
+   "krUrl": "d68cb039ed7692f4875f194de9405deb840819dca32b6f4f70890ed49b3abcd5"
   },
   {
    "id": 16,
    "title": "Về Tribbie-Trianne-Trinnon",
    "text": "Tribbie cũng mời tôi ngồi lên hỏa tiễn của họ, tuy chỉ một lúc, nhưng được bay vút trong Thiên Cung Vân Thạch thật sự rất kích thích... Họ nói với tôi rằng, chỉ cần luôn nhìn về phía trước, thì sẽ không sợ hãi.",
    "unlockRequirement": "",
-   "cnUrl": "0a9bf3d702da79f3692ef478d507862307d06367302ef3b679bbc58e6df51387",
-   "jpUrl": "1c9b74db29c276bf25d10b4e711baf24676110224a23f44f3db72ec410089bd1",
-   "enUrl": "79f4f1c8993e983742cb2366e1a9cd2c16f4de0eae74e1ab71e0be7406466b97",
-   "krUrl": "78cd9afb9b40b771200f09b6ed1dd9ae42354cee0985ae2d12abbbc3abf05a7b"
+   "cnUrl": "a6a7c0da33cb928dd34d520ea4aa8444cd2faa9683b7a5179a971951e3caef4c",
+   "jpUrl": "18ae621f8c6593fd2f164becde3da06ae12a7613ac6651bf7bc1129fd67349d6",
+   "enUrl": "7e0ddae167d6876cfe641c243d7dd0381352751f67d7fe91dcecdb9008872200",
+   "krUrl": "9125866e69ca127dbfe6b69015fdd8b98387e7d3802fd09ce6e46f777b703566"
   },
   {
    "id": 17,
    "title": "Về Castorice",
    "text": "Cas Cưng rất thích vườn hoa của tôi, cô ấy luôn đi vòng quanh vườn, đi từ chỗ này tới chỗ kia, đi hết vòng này đến vòng khác, ngay cả chớp mắt cũng không chớp... Muốn cô ấy tỉnh táo lại, trừ phi có thứ gì đó đáng yêu hơn xuất hiện, ví dụ như... Chimera?",
    "unlockRequirement": "",
-   "cnUrl": "e82a546de7fdc019e653fa123e219187786a859ccc2e3e900a01aabf737e151d",
-   "jpUrl": "b295b2ac658e2b1a287c279900752535d26c0cbe64ef8ad4384c4225306f022d",
-   "enUrl": "b7f21f76575ec76e936deba74088ec696ab21605a7511615e7955cde54c25896",
-   "krUrl": "5978eebfcfdec1ff5ff8916d7cf88304b5b0e2354a0a22a8dd7823d6a1e6c751"
+   "cnUrl": "094d208b0b0397cb4a54ccbdd02b8e92082bc840c3b5161cd881e5d9e4546042",
+   "jpUrl": "53698f8df71975609a7f0f104d0f2a37166817de273013e3b0ae93585974812e",
+   "enUrl": "5a04dff17b2e7aa0232484af47cf3fbd4d560cd35fc85c861b52056e1bf48cd8",
+   "krUrl": "b8277ba915cd885e568b000344e2f6455d119ffacb7ab53b39ebbcad99b7dd22"
   },
   {
    "id": 18,
    "title": "Về Anaxa",
    "text": "Thầy Anaxa lần nào thi cũng không nói trọng điểm, hơn nữa còn phải thi nói một-một! Mỗi khi đến kỳ thi lớn, lúc nào cũng có vài học sinh được đưa đến chỗ tôi để cấp cứu vì kiệt sức khi suy nghĩ quá nhiều...",
    "unlockRequirement": "",
-   "cnUrl": "900e010a9a3912f462517940969bf5211a3471636ed77ad82afa42e7462eb5e2",
-   "jpUrl": "54c4cbd231165aa5a6486c48e1055955c5d970a7e8fcccd17a5518297601abc3",
-   "enUrl": "b191bc1da04a9c30cfabfdebbac7bd21737d638ac9da512b043728d7a39a16fe",
-   "krUrl": "bfed191d275be6a2f5eb809e303b189e44a01989bbdca6c450b448c0920479bc"
+   "cnUrl": "51b515dee0a10ae2505fba0ff99bd2afaac2e240b711ff142c143fafe15ab692",
+   "jpUrl": "006196512e36aba0a40b26e14eb08a6441e81b1a5d790c27502f088e04ee0755",
+   "enUrl": "849eb6b4b0c9b355b8ae83d3a5deba13f1541e14f33172e2bb1951930dacb76c",
+   "krUrl": "29196ed3bf38e881bb2733d44fc1c962590bdd1dd4540882c919e9ed707c0520"
   },
   {
    "id": 19,
    "title": "Về Phainon",
    "text": "Phainon lúc nào cũng dịu dàng và thân thiện với tất cả đồng đội của mình, nhưng trong nụ cười của anh ấy luôn chứa đựng một chút đau khổ... Những thứ mà anh ấy từng mất đi, chắc chắn là vô cùng nặng nề nhỉ?",
    "unlockRequirement": "",
-   "cnUrl": "210f0e430fae1d307d56487dc4d74ad59163f0e0f38e3c6f0957ef0a9138f46c",
-   "jpUrl": "d4fc57f8468b22b3c38cf6cf6238f8bca47a2a00adeec8c9afb0a785480007cc",
-   "enUrl": "2e81bcb436504d9c1d840a993458f97bc6ce21757d82f91cafa33963cbd05585",
-   "krUrl": "96484b19b59daeb6bf25c5ceb88de08e352ba24151531360df2118fb390f1d5e"
+   "cnUrl": "9b9bbb05c193760c0564c3cd821f48a1929eed18aafbc166b8f53173bf2a8480",
+   "jpUrl": "5ec2d8241f1bb943fe7a3fa57b9d8cb70476465f5724ea199b0dcde23daa26d0",
+   "enUrl": "fe66fe1fd5001e78b78b66c7f26507a3c5bd2ff4abb2d1aecddc7df138f64b9a",
+   "krUrl": "92ca5e57ace03e19114fa7f967a9b05b10bf7120f22e301e1e84e80b54942ca7"
   },
   {
    "id": 20,
    "title": "Về Mydei",
    "text": "Tốc độ hồi phục của ngài Mydei khác với người thường, ngay cả khi bị thương nặng cần tôi chữa trị, anh ấy vẫn nói chuyện và đùa giỡn như thể không có chuyện gì xảy ra... Ừm... kể ra thì, anh ấy có vẻ nói nhiều hơn bình thường trong những khoảnh khắc đó.",
    "unlockRequirement": "",
-   "cnUrl": "9f1649d3caf5079a64a2729f8137479a58bf8e009bd8e02f6fce846b1ee34582",
-   "jpUrl": "2cb477ff63fa8017a9ab18e53930e2a65166b32180ebdfa688214b252e33b763",
-   "enUrl": "03b8155d0eef0e4c0b70d2ea41ddc77a254332505ac9fe39d41c8250bbbd6f54",
-   "krUrl": "2f85f836f1262c47fba010cf21063ee512f6e6de7268912baa0c8c722ee13c53"
+   "cnUrl": "738c189fbe6722608d3be9d428b69935fefbfaf7b41737a7e50cf61e0207494f",
+   "jpUrl": "d50341df007d2655258b8b3d636fb56c62c28d85d9ebf54d86cc490597593d27",
+   "enUrl": "f3c27caee25e76aa2c20bfa1ed8b3b82be461511ac63b51b43509893ad5e75c8",
+   "krUrl": "b7a6fe889f300e62e5ceb806fc853bef6690a44fbe37d1da6bc1278ad7bb5775"
   },
   {
    "id": 21,
    "title": "Về Cipher",
    "text": "Muốn biết tâm trạng của ngài Cipher, có lẽ nhìn đuôi của cô ấy sẽ hiểu được~ Nếu dựng đứng, nghĩa là tâm trạng khá tốt; Nếu chỉ có phần chóp đuôi đung đưa, chứng tỏ cô ấy không muốn để ý đến bất kỳ ai, lúc này nên nói ít vài câu thì hơn. Còn về việc làm sao tôi biết điều này... Thì tôi chỉ đoán đại thôi, có lẽ cũng gần giống với Chimera đó!",
    "unlockRequirement": "",
-   "cnUrl": "bee50cf6213d8de54d8a720c7af20887b6e608b82d29df9f4936d708ef280f53",
-   "jpUrl": "d8013c6a56eb63f76147dc03977bcf39847073a82045191c5a575d0ba1c8f112",
-   "enUrl": "f9579f4dc11b36fa703ed101babc16751ad59acef42bd15d2b8f40a2e436f83a",
-   "krUrl": "4189a73e6b2bb6e68a3343ccb2403d56f439dc4b0d435d0c20cb50b72320752b"
+   "cnUrl": "14ed34c2a843688c5547b4035362aa3957f8cf352651dc8713e53ce909af8086",
+   "jpUrl": "57bffa0a1f169552638ec01ca5e0404ee8a178bcdda20c29102305fe41795d09",
+   "enUrl": "c835990fcb23c21b55c47fef097bac731f85e8279434ff3922e89f3e3338dd0c",
+   "krUrl": "c91326c8bec96c5f11d00a84a1ae0e490bd6fd90d004e8760bedc18d9d470009"
   },
   {
    "id": 22,
    "title": "Kích Hoạt Tinh Hồn",
    "text": "Bầu trời trống rỗng, nhưng lại đem đến sự an ủi cho con người.",
    "unlockRequirement": "",
-   "cnUrl": "28da8b1cea7d705226928e2bc05c6a33ff888ba7002e265b29c59b57b39fef0f",
-   "jpUrl": "b4155718c540bd9deb1ab399aa1d656b7e932c7c88778e800e45c378bcdd09b8",
-   "enUrl": "4fe7040200c19bbb457eb1e8bffed7b436b562d73b426504c70ffa79f8842a7c",
-   "krUrl": "e34e51b6efab446ffc1a128010f68b55d094074b9565ed814916d4371d2b2110"
+   "cnUrl": "032890e92a96bd113e54e009f4285fd74db5c4b0da15e8e54e51432c17e38f05",
+   "jpUrl": "2bebe2bb36c73877dc224648142d577b34dba12361a13d9cf33dc880ad3208a5",
+   "enUrl": "a7e24293601f31d815f04037b66bc2d16e89044f0bef83e2397fb455a435aa1d",
+   "krUrl": "10c33a1dfb90670dc7c3fefdd149284bb37117d095361b234a5459c4ee543590"
   },
   {
    "id": 23,
    "title": "Nâng Bậc Nhân Vật",
    "text": "Để chữa lành thế gian, vẫn cần những màu sắc rực rỡ hơn.",
    "unlockRequirement": "",
-   "cnUrl": "a734b5b4bcb94fd2982ee05b8e5c574d4fdf1db13a698dd5e48747876f2a522b",
-   "jpUrl": "114f9ec0b859bc830dbb55bb1b07f9aae929d6bddc6c7910076bbd009956a281",
-   "enUrl": "d118cbb35fa699d6ad993a623ea64d99ca36435458990cdf9a3aaa8c1fa2baf0",
-   "krUrl": "a16d95ee9768851b416bd0486c55276fbecf0ac5a24096c92c3e5392af954eea"
+   "cnUrl": "19557db9de2ce52c842607a077df4d44beb97002fb20a44d4245a651f1358b78",
+   "jpUrl": "84210c381986362feedf92fa90620ed143f5a2f749cf623ffdb0f66e7c728754",
+   "enUrl": "abde3745165fc59184bfaf763f60ecf2752c9c13e5b6276570d41645623b3ddf",
+   "krUrl": "0368043eb549e7f66ab41b5827f7c639e0d2982d41bf9d26a6d7e3520c939788"
   },
   {
    "id": 24,
    "title": "Nhân Vật Đầy Cấp",
    "text": "Mong nơi cuối hành trình của chúng ta sẽ không còn sự u ám.",
    "unlockRequirement": "",
-   "cnUrl": "b722dce20e5eda0ae0fa9d12ceabc806d8d44e5530fe1e5b516fcc1ecb06506a",
-   "jpUrl": "b2e27d86069ca5fcb63936e265c5fa814428d24e71159bf7cbb302b80a82ec3b",
-   "enUrl": "1b01c520cb7cc6d806291c5883783dd4921f3764b7308c6af448c8bc9e794bec",
-   "krUrl": "57364df42398276c757dd1402c9e551a97e81f2d32437ddf650618cf8d957a41"
+   "cnUrl": "46403273e840c0487199f69a72a54acab6ac077eef571658735a722c45823e27",
+   "jpUrl": "5688c7699672bca3a8e99375afaeed258809b2d2691f9766bd87e18ea1663090",
+   "enUrl": "dd0ea487d189b6ec1115357ed5216ca49dccc0cea6c1968a6bc97b2dd8412faa",
+   "krUrl": "d91f0ee2f09e7059257f82ccee5432bf24da5c45b9cc7a555bd73a7f115d6427"
   },
   {
    "id": 25,
    "title": "Kích Hoạt Vết Tích",
    "text": "Con đường phía trước đã được chiếu sáng.",
    "unlockRequirement": "",
-   "cnUrl": "dad8c0d44ab73836c13dbe493438c3005cdbde15dfdc3c48369fdbf4954ce723",
-   "jpUrl": "e9e2b2d672cbd734828e273668700595a43762b6465bf35bb7a4692d6df9c96c",
-   "enUrl": "25ae06198cc7b540ad6bbf542171ac0930e8990723405a95bcd29146107ab6ba",
-   "krUrl": "33496f556c93c71d7be8ba416cfe4eb16127fa6d89a392ba5210f413b29d0c52"
+   "cnUrl": "a3057bcc18b2bf3522539eb8cd0ed49983cb4e1ef1af61440bb90674851f8bbd",
+   "jpUrl": "05a7a7b25961691a072010ad685b61a63b1c3ae7b3af8b70bb17c33451ef13eb",
+   "enUrl": "186890fd5dfdfdfcaca60b543cfe615b124a1cfac25c9784edf7e2f8543d6f67",
+   "krUrl": "3bf719d3b2fed1b2e7248df46055250966044da508536e95c0b3e868559a2a11"
   },
   {
    "id": 26,
    "title": "Điều Chỉnh Đội-Nhà Khai Phá",
    "text": "Xám Cưng, cô/anh đã bao giờ thấy bầu trời màu cầu vồng chưa?",
    "unlockRequirement": "",
-   "cnUrl": "c50408fd92f2c06212142e1499afa69b71239222245e29c026dc79cb956e425f",
-   "jpUrl": "57891cbf8235d119e27ccf28fe82f0bd7f2e0d48cbbc9cd23d39bd967f103109",
-   "enUrl": "46155c6471766336959baa26fa2650401727f894f9419428825db26660a41467",
-   "krUrl": "44996a780c5add547a0c10528fd8bfc98bdac5a23d5075d18a1022f07f94b42f"
+   "cnUrl": "f30244f2bb5d09c3c63c189e839f6ae4e788295c5d64c1d60be823fa2362b57c",
+   "jpUrl": "85b5c4274e7afff85beda254a27596cf1d2e0105a979de95215cb445e4338981",
+   "enUrl": "247c672782d6b3ce93c67c814efaf2dd0e7c8ab7a926d36682356926a5bc75cc",
+   "krUrl": "6bf85d90ae21a2d554441e13bff6a97b794921fb17b1785fecda09bbb497a51a"
   },
   {
    "id": 27,
    "title": "Điều Chỉnh Đội-Aglaea",
    "text": "Quý cô Aglaea, ánh sáng nhất định sẽ chiếu rọi cho Amphoreus một lần nữa.",
    "unlockRequirement": "",
-   "cnUrl": "27242cae8792da4c8b44387dc1d4e6f6aacb507f1c87a9fd698c04e6c2d4c6dd",
-   "jpUrl": "f87be97224252b56bcf49a92527e6dd5b7a1d2715d6336442faf4c82b8970d3e",
-   "enUrl": "aed356f0dad1634c0e81829e57abcb3f7c8896a60820060f3c7c6374b1fe4e6b",
-   "krUrl": "647d7e0cf770c474704019e5641ba556fc328b71776b4eacd1fa36dd5bc1663c"
+   "cnUrl": "bdc8504a7bfdb4493fd956cab9597e4ca5845b228cfb6ccaa600188bd93d60c9",
+   "jpUrl": "58a17303aa8a4c613dfa575c05838748097f85ce85027f7390f7bf4644e9acd8",
+   "enUrl": "dfdf9106b01223e2dc52089e4874e4cefd746b80fc8190fdb4964049271e09c3",
+   "krUrl": "0777662eb6aa494862ea173b9ceb05f38ae1cd805e7d4bee5a05e896f653114f"
   },
   {
    "id": 28,
    "title": "Điều Chỉnh Đội-Castorice",
    "text": "Tuyệt quá, Cas Cưng kìa, chúng ta được cứu rồi! Nhóc Ica, đừng ngủ gật nữa, mau dậy xem rồng đi! Doot? Doot!",
    "unlockRequirement": "",
-   "cnUrl": "0ed3cc1cdb3889fad9e023e441d414bae30a07fa8d9c7813c39b95a2c1fb1783",
-   "jpUrl": "ab145046107ce6aea85a7d058ac42cc25015e42f61cec5ac89728e909eed3960",
-   "enUrl": "8c08bd856633468d4b76cda129836daae2c59d5578f1e576c98389a6799e3539",
-   "krUrl": "054ad66d42562c202cdfa14404579ba1cbee04593891ae298394569e9fb73eb7"
+   "cnUrl": "d591ab1cacc9f837e8944336e0c0242f9b21ff805e5b48e7c5e33b12d18a759b",
+   "jpUrl": "13d40caaf236d48ae45b5a7197fef058e8868bbe8f8373019238579ddcbce349",
+   "enUrl": "184507e29f92524d9002f78db710e8f0dd7b97148d975b0ba36782102783d8b8",
+   "krUrl": "2f254e5a4a41831b7e4b1a004a9e0d4b7eb77f754328061529caacb4b9f1f777"
   },
   {
    "id": 29,
    "title": "Điều Chỉnh Đội-Tribbie",
    "text": "Cô giáo Tribbie, chú ý an toàn khi bay nhé~",
    "unlockRequirement": "",
-   "cnUrl": "dc2b05aadf5dfb49317ee691b1eaa24f7f48f14733eb1660bef42ce3ebf946f3",
-   "jpUrl": "c9af1748d630d37f631d430d45398e0c9b972559aaf11eb35e30276861d613aa",
-   "enUrl": "1be1d7afb194295e7995adf5b4c7d8910ab1f67b91d7309816adb805975ad8a3",
-   "krUrl": "57246b0cfd29ad8fdfeaf4d3be94c8baa830615825d9725cd037fbeaef0ee8bf"
+   "cnUrl": "3ef6bb470b91bdfb42948b0039c72ee83c8f0a5ed0b75db128accdf1ffa48986",
+   "jpUrl": "7e934d00f5e1194551c46ffc9a7e74c3a21554b05d4debd2ba5a75d61297e8ae",
+   "enUrl": "521597104d736e6a0d097421f39a076878d8c7933daf0675510e420a16d2fa60",
+   "krUrl": "5effa66fae3183fcb5c624fb8f201bb2785ef9b5e11bda278f25b228ae68f2a4"
   },
   {
    "id": 30,
    "title": "Điều Chỉnh Đội-Anaxa",
    "text": "Thầy Anaxa, đã đến lúc áp dụng lý luận của thầy vào thực tiễn.",
    "unlockRequirement": "",
-   "cnUrl": "acf43e461b10fe42056cc8debd74fbb8af311e2a52c64d16df26a4845d78343b",
-   "jpUrl": "4610b29559c380756e42514ca9c11ce4a5852088a65c8653d5825ebff9f99d8a",
-   "enUrl": "8bfab77d5230fcfe0edbbf0eed6cfe7f3dc02d90682568cc6adbd3a9a103a23e",
-   "krUrl": "c3e5a9c0c12b5d9a7e2ceb0a87cd73a9784e7f5afc70fb11ebb19d29533badd3"
+   "cnUrl": "0b9f7aa1502908e6e92191129f9af713d306d32a67007b5ad1ce156f97e16753",
+   "jpUrl": "48bfb1023b0811fe99625e915814c75921f8d8e63feb591931e1d7e02f3b243e",
+   "enUrl": "a4c513f90dae42cca6ed03eb110d39b23f0087f0fdae75ea2a828ea8a2ced2dc",
+   "krUrl": "86fa955a3c238fdd88aa53d59f01ddee72edb8629d966b924eb374c3aa5f7fad"
   },
   {
    "id": 31,
    "title": "Điều Chỉnh Đội-Mydei",
    "text": "Mydei, trong sách y của Đình Viện Hoàng Hôn có viết \"chuyện gì cũng nên thong thả\"~",
    "unlockRequirement": "",
-   "cnUrl": "ead145f275b3b428cbb3ac1c1832b55904bda6b12d0921db51e809f46322efb9",
-   "jpUrl": "14c5e32b1bb6cf520a0e666614fa124275f21c01888d8b8fc5b6a7275d01b23c",
-   "enUrl": "609e376e45e216d5a6214e04ecf3348bb551c0a45aa9f693539cfc45e059fac0",
-   "krUrl": "c2a4363d5f745f4f373d33454cdd46de0ea7d8727cbe62c7cd916913c03e0ff4"
+   "cnUrl": "d9e832bbe552ce96ed4c43b8ddc0975bbf76d6a1e9f9d7c69afe0d435360af55",
+   "jpUrl": "940105469a085a5789ce5073fb89984141e04451c51b2c2d0bb0fb988e5f9cc4",
+   "enUrl": "41d5c277f14877f50da1938b1b246f531f37e62860d0a715f61dec457ae5c4b5",
+   "krUrl": "da36e0c8efcfd01049ce02561f3b4e39b56784208de0821414f1a31d92c0b42c"
   },
   {
    "id": 32,
    "title": "Điều Chỉnh Đội-Cipher",
    "text": "Ngài Cipher chạy nhanh quá, tôi không đuổi kịp rồi!",
    "unlockRequirement": "",
-   "cnUrl": "530f618688f0278ced4e8a79c7fb0bbbdb7821d547b312b4b0c0b4a2e848063a",
-   "jpUrl": "59704b420810f0ad4a2355af4e3c916e2f1ab129534479d1304bba79647f1b83",
-   "enUrl": "b9e45be59b6440bf97098d76da0a8e442cbbc01072c9da5e69296fd1d5983780",
-   "krUrl": "b6d2d96ffe1a97486bee91a8858f8aa1871ef6fcc4e8850bf0883b229d1034b0"
+   "cnUrl": "d2d04f4a2ae1c442ea8a4c16fa07d942ac7f148158db94fd7733edf30db6311b",
+   "jpUrl": "ce89e78ef7b69315be47acedc6e79d2d8cfe0e43e89324f02875992e1b975443",
+   "enUrl": "20dbdc7ff4ee386ce3ad6a32bd146503837a878533818d89111650b6b8b168e4",
+   "krUrl": "383732af6de83b30f6e9c152173990c00d77c26356f9894fe7d7b601c11c8cec"
+  },
+  {
+   "id": 33,
+   "title": "Điều Chỉnh Đội-Phainon",
+   "text": "Phainon, nếu bị thương thì hãy nói cho tôi biết ngay nhé.",
+   "unlockRequirement": "",
+   "cnUrl": "57337be78aa0c2bb9e8f0c95fe50dc7aa72a7ae78f5060a8f4f17b3e2338b645",
+   "jpUrl": "92db37591a881304b52afa18bd90e0d317c4a4d86e7b1858fece04c376c3277d",
+   "enUrl": "e85d61db123741add5a899dfee3147e8be402077ea127f896ef8fd6a8da2fd23",
+   "krUrl": "bbe0a73a614c5bea4956939de9bcbffe44e5696cdb9667956a3b6bbd2202a99d"
   },
   {
    "id": 51,
    "title": "Bắt Đầu Chiến Đấu-Phá Vỡ Điểm Yếu",
    "text": "Xin hãy mở lòng!",
    "unlockRequirement": "",
-   "cnUrl": "92da9fe0fef1b0dd5331a4ae91f86d771b184189a59397a7f591bd5e4bc679d5",
-   "jpUrl": "8c566d3c53d37d82dcc801720470d17bffe3666b8f5a3f3a1bd729a9a53208fe",
-   "enUrl": "a02f8a07a5502f2778e1c8e73cabf2a7c540db48ed9034d6403622f2072b7742",
-   "krUrl": "c1f863b59dda04ff922d0acf6c6021276af8839d835c8c07dbfa886974523d9b"
+   "cnUrl": "684e59754a5a9398a6f4c3b94869f1ae4a128784c3ba78ef0de40cbe797350a1",
+   "jpUrl": "af02a0d0de9254c256ec524033ba30ea59a438c2b64ae989b1eacf2c0dd86a45",
+   "enUrl": "0b260fad2b816a4ef18b067c3d3bcdf3f1ffd9c95fa990ad91109fac2e4d32ad",
+   "krUrl": "cc8ee7180da46bcdb0bfe3914357f3e3fcc1026d0018734fb33faf2c02221575"
   },
   {
    "id": 52,
    "title": "Chiến Đấu Bắt Đầu-Cảnh Báo Nguy Hiểm",
    "text": "Hoàn toàn mất đi lý trí rồi sao...",
    "unlockRequirement": "",
-   "cnUrl": "2d80b7238d95897537f2dfcc2d877733ddbeff9323137af00155758c6206c826",
-   "jpUrl": "7410106f2c37f174d6a1e0ea863bf3c5fbf51543467e5375eb4e3adecc53762c",
-   "enUrl": "8dc7ee849ff26d38044ff7beaab07ae0d9804e2d3175857a5bfdac194aad189b",
-   "krUrl": "fb39488ee081b592866d0ee176d1a43e46415c9e8b78aec3a9c7b22a0d0ac38d"
+   "cnUrl": "cb8d380027a2c72d1d487a8db4c3463d3f359006a655e88b3cbd452f2781c83f",
+   "jpUrl": "dc3a1de18f713bf87453fd2f7b47806c027c4331e280dbe49489f30f3cf45bcc",
+   "enUrl": "a116d95c8fff08692b988adac79c6a049f8dcee70cf25f4d334eab79adb6c904",
+   "krUrl": "bf09b494a0596f639b77c37d28ea338a0c08602b581bfb81e39a8675a8297884"
   },
   {
    "id": 53,
    "title": "Bắt Đầu Hiệp 1",
    "text": "Tương lai, nhất định sẽ tươi sáng.",
    "unlockRequirement": "",
-   "cnUrl": "5ce548cab416d772a53ba0b8983c7cd65d874927898ff14bc14f39536db5ebdd",
-   "jpUrl": "9b1387c9adcdb209a75b510cb5cbaf729e0a76bd166b5a519491b35827f54231",
-   "enUrl": "9430b01b7cf7b185fc524fc80502869480d72a4c798a6160096358949c3bb695",
-   "krUrl": "c21482582715bb55aaae29506cc56fb1e38390e2fadb32f716cea02632ed63e8"
+   "cnUrl": "046778080e3b6ecbebe20d1280ced1c28c94090883dffd24b33aad871060bc36",
+   "jpUrl": "4fbe60ab94cdcc6a36f28913321ae87e3a5cb9c5f91f3f1bd3bcdcc9ae6035d3",
+   "enUrl": "304804256e4e9118060f4e6a90fd77ad95bb102ee7d0a9e64b38a0cc1bacb0c4",
+   "krUrl": "f76cf1bc616230f0ff156cce029c48abfbc03b96a0a1a03ea976d4e4896f494f"
   },
   {
    "id": 54,
    "title": "Bắt Đầu Hiệp 2",
    "text": "Tôi sẽ lấy cầu vồng làm chỉ dẫn.",
    "unlockRequirement": "",
-   "cnUrl": "5c8f197442f7022541006f7951ef8ae6425a72a4e2c009ab88a4869922c3da31",
-   "jpUrl": "8e7e7cd46138e0948ad68e20f7d9d9581e60648dfa7ff7b035af914ceed3e838",
-   "enUrl": "fa81ba9b39d44b969c52576866c893e23b887cbaa51a65c6717edbf3b58beabd",
-   "krUrl": "62c108828de3d23ac164b1f779458d02913b2609f0711b38124b29bb5a1e3868"
+   "cnUrl": "24bce507f4c4ee5e697bc03ae29f12ffa7516110638f8495c7a6ff91d0eeb6e9",
+   "jpUrl": "ef3749615b6386801a68d9ab8098070c5292443db4d54d49bb18b0fe86a875ef",
+   "enUrl": "296a044753d7b93fc9d13c9147cb2b5884893825bae752bd0c0eb5a31d845b49",
+   "krUrl": "be59449472d31177a8da6b0c1d66e85fedeabe092fd55bdc51415058bc11ece9"
   },
   {
    "id": 55,
    "title": "Chờ Lượt",
    "text": "Không vội. Thỉnh thoảng để tâm trí thư giãn cũng là phương thuốc tốt để giải tỏa mệt mỏi~",
    "unlockRequirement": "",
-   "cnUrl": "f3097a800272365925ed6c21a6c96d04a9941834d96a98f7eedbd63d22d61f84",
-   "jpUrl": "b06133fc9061f9393b99acb1fcd384d1132afdf3cd52baa8c1ce2b95e8220d4c",
-   "enUrl": "7d5fe36993062fdea4b245a42c2f714e76dfc0b623c432f8f2970464d38b633c",
-   "krUrl": "a83d5b73ec0b6a7f8d270e6b3ff60220dc6446c49123583e0f886430f4cd7904"
+   "cnUrl": "e52ac58ee8939aaefb1d5a4407ec6edfc5a75f036ec7f9bb29e2ff09ed4a2193",
+   "jpUrl": "fe4654ab90f2322eddfe81f061bb0294c40c8310e96fb5d610c2682d3e872971",
+   "enUrl": "491c67c7e0085e025ac6d49c681995158fb6c205f43a9eee22a07480a5887e44",
+   "krUrl": "649c3b792acf14e928c702dfa76e8a04563454328de7320c74205efd13672b50"
   },
   {
    "id": 56,
    "title": "Tấn Công Thường",
    "text": "Bình tĩnh nào.",
    "unlockRequirement": "",
-   "cnUrl": "00cfec2eca4dbb091ff71d868ca8ec49e0905db77bc00cc224dd0ed1dc66c137",
-   "jpUrl": "9e37d530be991de5d307af56a74ddb306ee784e87c237ada5978b8de912b05d6",
-   "enUrl": "fc411d4e43fb3a5db42916d7007a65f1d909c009636831f2ad7afe1f9844664d",
-   "krUrl": "d9e9db974f7bcf2f9e4b11711e2486da35cd82e49b92241e55831a2b969092c9"
+   "cnUrl": "a44e76d87fe7be63b9476739ddd9f3d515008bc6ab870bf3fa110d2e5aa2dc39",
+   "jpUrl": "4d58904c991fd9086143d73859d752a3cd89394f8ad376da6f117a2a8bedbcb6",
+   "enUrl": "0ed436b44feb7fd11417076c39a2d425131351e60631d9321500b2abfd05439a",
+   "krUrl": "d577866751e1d6da9fa5b5d6d55cfe253b90e89a3d47d3787a723804a715453c"
   },
   {
    "id": 57,
    "title": "Chiến Kỹ 1",
    "text": "Phải tắm nắng thôi~",
    "unlockRequirement": "",
-   "cnUrl": "3952d2d73a3e9f320eeb09a8f5460e8fe2ef72c3d48812e8f99583fd405bb154",
-   "jpUrl": "f9d1050373fb61c3976bf929959a502861438c293e323f64fcc1529951969417",
-   "enUrl": "aeefc13c9e603b4a7416f2f55e7033e22a34f2f8d335e9ac1bc8ea9e782a112e",
-   "krUrl": "9b64fa60ed7b3480429f85091da9d2a2f1012e2a5a9f8b8add96032f7c22c2b4"
+   "cnUrl": "eca80389e44c25bf6762982d913999154ada70d2c1107306d17f983352e83e81",
+   "jpUrl": "68b0b3702abbf3d83cef5fbe217db78c64d3872a9210cfcef3a4501574f128e4",
+   "enUrl": "e088aa9e54a805f7112c05c0cf605b7de797bf6a4da33502cd014cea66c3c839",
+   "krUrl": "d0809507d355dea4845b96f873bf42de908af465c100059d9c0810955d7e7050"
   },
   {
    "id": 58,
    "title": "Chiến Kỹ 2",
    "text": "Mọi người đợi chúng ta lâu lắm rồi~",
    "unlockRequirement": "",
-   "cnUrl": "f825c7893f0022aa75ade4f08c5606a29bba85a8fc87dacdd5508b1aa036d592",
-   "jpUrl": "e7347378e3f3d31b74b20dc3a222c1c19fd0dbee3e65070b3d3df86381a54b3c",
-   "enUrl": "a6a1b562b2962f68dbd2dc22d6bce4402b6d8ca1bb379dd0266f704710bd0d2c",
-   "krUrl": "260fe48588b4d173881da2bf3f7fdb6c5b95ae444d3f45581d17a8170533554d"
+   "cnUrl": "a9d7cabfe3119a922bc9200990bfd1e7a636fa02fb4490f242dd5aea2cff6e23",
+   "jpUrl": "239cf70cfd95e5ae9939ab409fb5acdcf3084fad44404677a36c0564f5c52939",
+   "enUrl": "de2ebfc94787fbf959ed95eae3f04747148ce1bfb5c99ae101461f85fd4dcf4b",
+   "krUrl": "be567053eca9b4bfcd8da234e07998e3e4ab02011991fe272c7a60c577594d20"
   },
   {
    "id": 59,
    "title": "Bị Tấn Công Nhẹ",
    "text": "Đừng kích động...",
    "unlockRequirement": "",
-   "cnUrl": "f6417b73a7ca1fb06636a252c584ef20c93e17672f04aaee7aab9d62565e0c09",
-   "jpUrl": "468f4f4ef962afada428e886413ea832965cc388d50667e11822ce687af1c812",
-   "enUrl": "a6496f17d17fde1547d86f3aab474676c39a0b1b9324f5acd07164d2dd0ce401",
-   "krUrl": "7728a6d54015b2f1f33dea1a1f449be0dbe334e8311ca5ee6a4133618abd81ec"
+   "cnUrl": "e206f92ae025e441d46c3ef2e9885bd398964038e641aebe78d2f94dd52360ee",
+   "jpUrl": "cb92593c1727c929c7c4f459c78404787b793b59a2c14a4191f5ccf5a0b6696d",
+   "enUrl": "50b014aa2a4db613ae5f1f375fdb3f945b5492a0824502f5252f45249a5ecaae",
+   "krUrl": "33535fa1e595a6addbaa9ab54723126b469b7bf177638c931a53793e7ee52107"
   },
   {
    "id": 60,
    "title": "Bị Tấn Công Nặng",
    "text": "Phải ngăn họ lại...",
    "unlockRequirement": "",
-   "cnUrl": "19fa22ddf0fd92eb10090fdfc676d68c88f28d4f3f4184d3f24809a16c1b13d1",
-   "jpUrl": "e9970d8526aec0af3ffdc927b8aa6c129b03b40abbae44e4721f53dfb463f5f8",
-   "enUrl": "cef860f8da133c0e1d529c72a47472d0b9e9a3790cbace9fc47f5a8e76cea565",
-   "krUrl": "3a1a294458325b08fc5e45107b3869d623c2fb088cd019c8a59eb8bda4c25e34"
+   "cnUrl": "6855c3e70a0831a5393ddfaa85b3d53155ec6182918c6ae6c2e63c5cf4d7fed4",
+   "jpUrl": "cee6ca39669673e0a0cbcd3ee469b4f05d0e08ae8ee84966f1dc2f5b14d1c331",
+   "enUrl": "6bf8c9e96f95fcb4da06c7438c2da51a70805da5c9821649d1ace7aac2a14d04",
+   "krUrl": "47ae1158181b53516742a80d1e8059652594cc03c49f967dc097c5e24f9737d8"
   },
   {
    "id": 61,
    "title": "Kích Hoạt Tuyệt Kỹ",
    "text": "Mong cho tia sáng này...",
    "unlockRequirement": "",
-   "cnUrl": "6a475dcb256a86a342cdc982e0cc3aa4cc00a81df1bd1245dba0dba6ec0987de",
-   "jpUrl": "2c485c0b2aab32c41acde36706f1da8aeeab0a2c6962cbcfb1891b3559733573",
-   "enUrl": "d5aef88f6b2e01424e154c75c57c48e10a3ac495f194f346c32a54055af88a76",
-   "krUrl": "c3e6182b5b628821bf30c70b6dd7f8c4447abea3cfa8152a7d77913f28d36921"
+   "cnUrl": "2a9bc1cd76310e7b550a1977844b9884e587118eb16fad3ec96752978d255cdd",
+   "jpUrl": "99eb15c44baecfca78871d55dda2244ca05a7465b47954d33934a69288acbeec",
+   "enUrl": "41255d7c33f0c167e73d155367dbdb9ef00e704e7ef2cfbde93b7b9c20cbbf9f",
+   "krUrl": "38ac5b8236a438add292fd500e23314f8184c3af0fff5c5ec27eae1242adaaf0"
   },
   {
    "id": 62,
    "title": "Thi Triển Tuyệt Kỹ",
-   "text": "Gạt đi bóng tối và sương mù, lại nhìn thấy bầu trời trong veo!",
+   "text": "Gạt đi bóng tối và sương mù, trả lại bầu trời trong veo!",
    "unlockRequirement": "",
-   "cnUrl": "df5ffee14f533a5d45ef9165cfc73b0f4db7338a589f2a59bd34f7c8961c6030",
-   "jpUrl": "e847ec0c04e83d3e92632ab69f52395826622d1662abfccfe82c0ad8bf63e5e2",
-   "enUrl": "bea4f9ed39bf93190d290148817e08d80ba5661262e8838627b0849b7fe33756",
-   "krUrl": "9ff82cc289d578a26b7b7b500aa18d250b03d26b0a0fa813811f70eb0b9b6ee9"
+   "cnUrl": "14df9a9982a73cfd811cf2592b635e9c46e0e222aa3c9246a3d08684ce8f2545",
+   "jpUrl": "7def9f7fa8371d81d1399074aac07ad974a0a7c470e6e62444e91992f10a7faa",
+   "enUrl": "cdbd8f135a2cecf4e93bc79376b923ba23a11e04db9a8e5b6fad7a192c1d33d3",
+   "krUrl": "a4219470af0edb8929491d5a77913644cef53e8a4cbf7551c737414971e69534"
   },
   {
    "id": 63,
    "title": "Không Thể Chiến Đấu",
    "text": "Tổ tiên, tôi còn chưa...",
    "unlockRequirement": "",
-   "cnUrl": "398f271115b2abb0a7cf6fa0e6f5ae3db5b9ab09c60008814081c8029965e40b",
-   "jpUrl": "8cfea1892b98a50eef9fa0259b868ac412607b6f5891a69a8bca9a2b65a92135",
-   "enUrl": "5c2c7628eda8b66954f982fe707081cbbf6074f0868f6ec406d8e41071aa39fd",
-   "krUrl": "12240f8a8ef621589e3f486c5d6f23249c73e5733dd22d26b2a47d96369e8eb0"
+   "cnUrl": "716e36f2026a73fbe252d39917660f12b1e5824c824e811fadb54aec2d10e542",
+   "jpUrl": "889ca3e53fa80ee39858ba6b745fef5760781793f03c0f21e91aad389b768af5",
+   "enUrl": "b8cffb141dc3aee8f7bf6b4556b4f0ae74fca82d1b2164777ed6a46b0d176109",
+   "krUrl": "b27ea79dfce618184d5720d33f9a7edeb73b8fae0cf57c40e6578f1d8724f0be"
   },
   {
    "id": 64,
    "title": "Trở Lại Chiến Đấu",
    "text": "Lần này thật là may mắn... Các vị vẫn ổn chứ?",
    "unlockRequirement": "",
-   "cnUrl": "c46bc735e05746722db27fbeefc6352023b6e12cfe5b8c0795a0ed4c1b47c3e0",
-   "jpUrl": "2af083ba12b00a93cbb3b8ab1ddaadb3c37ae9be6b8b70a312fa00798eba17b8",
-   "enUrl": "92dfd9ca80a75562eb2bfc65450e623f508f7e732cc27d95e0546a062650d27c",
-   "krUrl": "95305c3c283125fa5600920fcd0e11e75f1cc3f82b063e538bc021140703b6fc"
+   "cnUrl": "d29e2d362a67450aec86e1fdbda301fef20541646f1012355007c524bac4af4a",
+   "jpUrl": "2af0abc9db1c6e97b2bd8fa1db3239be7e04e77f57e30e4701efca27779b8302",
+   "enUrl": "2abe11528f7fe947b82a7080512ab2cde55e635e02ad13a115dd6a86d704b49f",
+   "krUrl": "e7e48a5a0d7329c835e89b5c738e898992a1c5c3149d0f32256ad53fc09d534a"
   },
   {
    "id": 65,
    "title": "Hồi HP",
    "text": "Phương pháp chữa trị khác? Tôi cũng muốn học.",
    "unlockRequirement": "",
-   "cnUrl": "93ac2db38bd6eb50b30a4604855dab5f4e9d1b36fca1a2f1d803a88c4fbdd7cb",
-   "jpUrl": "3c2729913140d508e415c46e7dc2fee9f0de2671a85eb4d10af3b221b4edc7bc",
-   "enUrl": "3565f4c849ab69873d40380f6eca30fe8827c429e8d31becea1a3abaabb0f341",
-   "krUrl": "4bebfa4893d01930d9843ff6495148061e4e21d9056b39cddc5c21bfc179031d"
+   "cnUrl": "90467afa712bc30461f423ec26b5b64f95995dfca84f7e13b372da42e9e7eba1",
+   "jpUrl": "8379068e3ff70b1b5fde871be7a5e7cac7a063f86608e71d82d59020486ad91e",
+   "enUrl": "3ceb644b92304a2e86c2f2f569f093aec362cfb75440fdb497a9cf046bae364f",
+   "krUrl": "d0d28097f67a222d823f7f59896b9fe755e65863fdb739cc045284824e993f45"
   },
   {
    "id": 66,
    "title": "Bí Kỹ",
    "text": "Hãy soi sáng con đường phía trước cho chúng ta.",
    "unlockRequirement": "",
-   "cnUrl": "f4e1b7559443a242203b4c8c5abaa0c58a763954ff6157cb29e016dc84b7995e",
-   "jpUrl": "f74176d4b794e9261c8e2c0ac56f755306d50a978a40277df816870aee426a6b",
-   "enUrl": "bdd0f47e8711ab0b3475c1d1e7eebeefc6bcd6a0be0a790cdabec13678312dcb",
-   "krUrl": "7d788763c459d979ea93608ca303b5ab42bd32ec245cb81a94d7f426b3e8ebae"
+   "cnUrl": "487cafdf7b60f8fffc8cc8173346b12ba5e191077c83a9d286360b265c82e27d",
+   "jpUrl": "cf4005dca82e4a8b187a26a489e0b74b5f910611ba1337a09bebc4e98ee3bfaf",
+   "enUrl": "f6a719452b4271e6385cf8de456609fa125bb9521fe61cc15e6ac435e7dc2ca4",
+   "krUrl": "ffee8ec94879285a723e0d12c08d35c28bd0dfaf3e85b6e24f840d5b45e3546b"
   },
   {
    "id": 67,
    "title": "Chiến Thắng",
    "text": "Ánh sáng le lói, cũng sẽ hội tụ thành dải ngân hà rực rỡ.",
    "unlockRequirement": "",
-   "cnUrl": "1a9bffc42502c4ec63652d71b69fed9aa723f77c3eeffc4387fe8c4b6e2bde5f",
-   "jpUrl": "c9fdc9d084bf4c403e8c313bfe94a6ec5c8d0d2a5810d0ead0bdbc2803ca18f7",
-   "enUrl": "8ea1e2fd8b370e785a798f211e3dfbb549a62d4738667040e3387587528dd73d",
-   "krUrl": "3869d443460ac033d23a9e53ef3eae868354b1f246c5820d970721c80d4d671b"
+   "cnUrl": "7c5fdf543273efe398f0a81f1d370c91739a14b1ebfe4d64c9aa1d9c1d229fd6",
+   "jpUrl": "ef5e0f44eee1dd292979a974214542fa42dd6111c052a9e3f1fcfa1a466220eb",
+   "enUrl": "097d364ce3b1b5080a02fb30824bcec1fc76d929767898e78a648b4a45688d68",
+   "krUrl": "e447437d24a298f070c3c27eb82d73959a1e66960382f4e0cdb6d9281d3ef2f7"
   },
   {
    "id": 68,
    "title": "Mở Chiến Lợi Phẩm 1",
    "text": "Không ngờ chứ gì? Cái này cũng bị tôi phát hiện rồi.",
    "unlockRequirement": "",
-   "cnUrl": "a4252128b7cd2970f2ad768f97143ba4293b9cbdf95f57b1fd933d6968228978",
-   "jpUrl": "3ed5b28f9397f0d9fddab9ff0cc401495931c152fc6cf9bcab7a3c1ee497ac68",
-   "enUrl": "48262ac3debe62ccca39430f4548147f8fd967711bcd00a2f27386b8c32ccf3c",
-   "krUrl": "c7a61e0ce8d48682f9c106883b6c2ce757b8ce0804383df3ab8ae4204be8e068"
+   "cnUrl": "6474da2790c91628e135a25b488c2f3a00912f1b157b0fb5e499f37ddff98584",
+   "jpUrl": "b4fe5d923be3b67ea4e980ef11aed573582190fe535ae02e3d657e6734752a42",
+   "enUrl": "0a96ae7a3059828a749fd536fec46372f469c5e4c25ffd85ee0073ce89aa9654",
+   "krUrl": "1cd58f2a926bc78ae2ac8a76064785c11f649ad4908727187fa4894928434e89"
   },
   {
    "id": 69,
    "title": "Mở Chiến Lợi Phẩm 2",
    "text": "Để phơi nắng một chút, màu sắc chắc chắn sẽ đẹp hơn~",
    "unlockRequirement": "",
-   "cnUrl": "8d296c5eececefe04b32ee9b5839c19980da2618d1eb2e9d054fc0cfef504497",
-   "jpUrl": "921007a5d0b56c6a7ac28960fbb94fc05ac0e7893f17d3076c36c2e4e609ec0c",
-   "enUrl": "858e44a2e879249a67ead5c8fd9872f4c7e79876782ad7c0982f336889ae3dd6",
-   "krUrl": "dda100274c901319bda583bc18d3507fcc36555b27d9cd0a44c7f1f7f5899823"
+   "cnUrl": "c4511b22ed33cc40274af14ecb5d89cf4bbf17e0482264214c4cc3595cd44517",
+   "jpUrl": "28232f77e53be4a0bb1c1bcd627fc8982b8d286ca10ef1c5db71634e621ac64d",
+   "enUrl": "7fd5824ebe426b0e7a2582ef020a176269a9902e129f9888a1140cbd417740b8",
+   "krUrl": "9be1a349555b840ebf0efee0cc467b5866d6241a1fce7a4dc4acf59831f3c73d"
   },
   {
    "id": 70,
    "title": "Mở Chiến Lợi Phẩm Quý",
    "text": "Không nhìn nhầm... đó là thứ được ghi lại trong sách cổ!",
    "unlockRequirement": "",
-   "cnUrl": "e7c450dfdc3ca6694912a5b5be4626b6fde58ddf940398ece32b35d265562a07",
-   "jpUrl": "41429bdbe45fd201d9ff2db718a1aa9a43cc6e07a7713916ef92fc04ac1ad494",
-   "enUrl": "cc4b2b55167af54d071d349f02df70f16b73a7b52a2442947cf33e12b458a81b",
-   "krUrl": "c0563148c0df27c59764de7ff9e12d11a6a40311b4dbb3ce69a8050036f67a25"
+   "cnUrl": "de2c4190595299c32cf636ec7d4355c1a623a398942a6a34085689816d864913",
+   "jpUrl": "f621fc50f8d013a9628b99634d3fd7216ffcb5b4e5e8e1286b4bd2c8023a8d1e",
+   "enUrl": "d8270b1c6e442757b0e7e1e5152a0952cb068d3171469ab965668d2b12e749a7",
+   "krUrl": "9f6c7918b43ab75cb3b2c1ac8bfbae7d5f6bcbb4c483384129a8730518153fd1"
   },
   {
    "id": 71,
    "title": "Giải Đố Thành Công 1",
    "text": "Việc nghiên cứu ở Điện Cây đúng là không uổng phí!",
    "unlockRequirement": "",
-   "cnUrl": "b2ee9eb34f32e4e57b9a2b5e08efab28a5e2425d52be2e9cba86aad76f10f9fd",
-   "jpUrl": "fe922ddaf11835ead86bf74d5dda681312d0fae399211796b4eb955848eda718",
-   "enUrl": "71f99e0921521a9e5fe8a71c29f171bbae42f67259f7fd59c17c11d84c95f23a",
-   "krUrl": "29f8d3e5e79438fe046ca25f19e0f55bfc6b455d3277a92ad162dd9b27a6eead"
+   "cnUrl": "95ff25cf8a2b6be497fe16c35b1e5ba192c96dab15d7485277c24690c7f3ea49",
+   "jpUrl": "fc8cd0dd48cacb9e2d2b6056fb96aae2a806150470f34b00d9c10f73687d6ed4",
+   "enUrl": "f2e22516cc173516e9e105287f948a0f90704cb0008aa590b7473231d3dfb345",
+   "krUrl": "21c140639ed5906ae954b01d395dd02b5e9425d641ae3e11793e851d8271b833"
   },
   {
    "id": 72,
    "title": "Giải Đố Thành Công 2",
    "text": "Liệu có cách giải quyết nào khác không...",
    "unlockRequirement": "",
-   "cnUrl": "db474797145852a5d8e17614fa40e4dd6122a8285b7176c50b151bb219997480",
-   "jpUrl": "9f5103db296360a278d0f40ef0296a65b1317c97a74bdb8ce79c6f389c11fe61",
-   "enUrl": "bffaf863f8d164230230b7e023eaff5aff769e9e00f13efe23325fd9dfe0c6d3",
-   "krUrl": "6d04b5b46e46569e7c9384371f7da237e87f8fc2c6863ebfd9dcf39880d923ab"
+   "cnUrl": "1c52a8364f329ae453cfec594a6075f6074c6c31f883baaacdcc9e09b350f315",
+   "jpUrl": "e88a0a67c2aa2bab17fae2d5bc021b8dd9a91bbc96ad99bc263f5b86018fbc05",
+   "enUrl": "24c6e922e7de4f00c276a8e7ab2a83886a1bc46f7ab802f167a2f849e0f1ce49",
+   "krUrl": "0b3c3caac2e5b20080111beb90ce604301c6c7b954a8a14741a6fcf13e2ed59c"
   },
   {
    "id": 73,
    "title": "Phát Hiện Mục Tiêu Phe Địch",
    "text": "Tên đó khó thuyết phục lắm... quan sát trước rồi mới hành động vậy.",
    "unlockRequirement": "",
-   "cnUrl": "e409b3f088887ea0a68cf07aa0ee62b394de0a5149092d86453e12838c786a26",
-   "jpUrl": "4e75941c90b54ab0dfaac36a690d6443562cdc8bcc72508d74dc57dac12e9cdc",
-   "enUrl": "cee422b558c18ae4b06fcb1edff9e41df0ef13dcc426a20aad45c1973a961c69",
-   "krUrl": "4be34e20609399c935afd42bc979e35da66d72b58103fde70f06b8d4572138c3"
+   "cnUrl": "f29f30b53d984492dc77c07c980fc0641afe45fa2e4f78ba1181f51f8112a2c0",
+   "jpUrl": "23d3492a0e88750834169835a02bc3cb0fef05b1847a74a5a0c3b47f6be7e2e2",
+   "enUrl": "94366e881f9816e400a694ba6f41ec54a7ef7d4f4a104bce9d5937b837b7abe4",
+   "krUrl": "efe7a7e23de866830dba96fc7be59721bb19a1e82f89bd054592167e6bd5fc96"
   },
   {
    "id": 74,
    "title": "Về Thành",
    "text": "Một ngày trọn vẹn! Tối nay chắc chắn sẽ ngủ ngon!",
    "unlockRequirement": "",
-   "cnUrl": "410b048525f15d4d83bf5c123cf3a4ff97ccfd87e700c3e51dc670dd561ca022",
-   "jpUrl": "69e4f4d8fc88229faf5cf292923c2bebbaddcf52d2bc0862156b7b22f4150b28",
-   "enUrl": "daaae8c9ea9fa12805c47dbf8b1c1753d549a87be2fb101fb34d6795ea96ba5e",
-   "krUrl": "41ae9861fbdbbca529341e6397d980fcdfef1e115cea5bab08e24ce2efc196b3"
+   "cnUrl": "862816048e00168b1ffce15a647686b4e5974f6d6d50b76f7250122b7d581487",
+   "jpUrl": "c74923a24cfed7bba10064b5b1e42ed864cde5897827549288b052f04f415600",
+   "enUrl": "52382332350af30d6dbe8304daa759aa110c3ae5ba0f96fa783f53b5ff4f70d2",
+   "krUrl": "d66ec10853b1d3a8f3bd48a7c261f8dcca4773c6a70ce2ea77a8d470cc13322a"
   }
  ],
  "storyItems": [
@@ -2813,12 +2836,12 @@
   },
   {
    "title": "Câu Chuyện Nhân Vật 1",
-   "text": "\"Có thể từ từ dang cánh, đúng... giống như lần trước chúng ta đã làm, phối hợp với thầy thuốc cùng hít thở sâu nào!<br />\"Thả lỏng một chút, không sao đâu... Ừm, đôi cánh dang rộng hơn rồi, em đang ăn rất chăm chỉ đúng không nào?\"<br />Ánh nến chiếu rọi ánh sáng ấm áp lên cái đầu nhỏ mềm mại khi cô gái nhấc chú ngựa lên và nhẹ nhàng đặt nó lên cân.<br /><br />\"Yên tâm đi, em sẽ nhanh chóng cao lớn và khỏe mạnh như những Thú Cánh khác thôi, đúng không?\"<br />Đeo ống nghe lên, cô gái bắt đầu kiểm tra, cô chạm vào \"vết thương\" mới dưới sườn của chú ngựa.<br />\"Em bị thương à?\"<br /><br />Cô xoa đôi cánh của chú ngựa con, cẩn thận nhét bông gòn vào vết rách, rồi lấy kim chỉ ra.<br />\"Hơi đau một chút, nhưng đừng lo, chị khâu chắc lắm...\"<br />\"Em lại liều mạng tập luyện à? Là vì có rất nhiều người nói với em, mẹ của em, bà nội, và còn rất nhiều tổ tiên lợi hại chỉ cần nhảy một cái là có thể bay lên trời, chạm một cái là vỡ nham thạch?\"<br />\"Mọi người kỳ vọng em sẽ trở thành anh hùng như sấm sét, nhưng dù huấn luyện bao lâu đi nữa, hình như em chỉ có thể khiến họ thất vọng...\"<br />\"Giống như... em và họ hoàn toàn khác nhau...\"<br /><br />Ngựa con bất động, đôi mắt đen láy nhìn ra ngoài cửa sổ.<br />Tiếng sấm xé ngang bầu trời vẫn vang vọng từ xa, đó là cơn bão do các anh hùng thành bang bầu trời và Thú Cánh của họ tạo ra.<br />\"Nói nhỏ cho em biết một bí mật... Chị cũng như em...\"<br /><br />Trong căn phòng bệnh tối tăm cô độc đó, cô gái dưỡng bệnh đã lâu, tay ôm búp bê, tay cầm kim chỉ, luyện tập y thuật mà cha cô đã dạy lần thứ một trăm...<br /><br />\"Nhưng có lẽ... Ánh sáng khác biệt, cũng có ý nghĩa tồn tại của nó...\"",
+   "text": "\"Có thể từ từ dang cánh, đúng... giống như lần trước chúng ta đã làm, phối hợp với thầy thuốc cùng hít thở sâu nào!\"<br />\"Thả lỏng một chút, không sao đâu... Ừm, đôi cánh dang rộng hơn rồi, em đang ăn rất chăm chỉ đúng không nào?\"<br />Ánh nến chiếu rọi ánh sáng ấm áp lên cái đầu nhỏ mềm mại khi cô gái nhấc chú ngựa lên và nhẹ nhàng đặt nó lên cân.<br /><br />\"Yên tâm đi, em sẽ nhanh chóng cao lớn và khỏe mạnh như những Thú Cánh khác thôi, đúng không?\"<br />Đeo ống nghe lên, cô gái bắt đầu kiểm tra, cô chạm vào \"vết thương\" mới dưới sườn của chú ngựa.<br />\"Em bị thương à?\"<br /><br />Cô xoa đôi cánh của chú ngựa con, cẩn thận nhét bông gòn vào vết rách, rồi lấy kim chỉ ra.<br />\"Hơi đau một chút, nhưng đừng lo, chị khâu chắc lắm...\"<br />\"Em lại liều mạng tập luyện à? Là vì có rất nhiều người nói với em, mẹ của em, bà nội, và còn rất nhiều tổ tiên lợi hại chỉ cần nhảy một cái là có thể bay lên trời, chạm một cái là vỡ nham thạch?\"<br />\"Mọi người kỳ vọng em sẽ trở thành anh hùng như sấm sét, nhưng dù huấn luyện bao lâu đi nữa, hình như em chỉ có thể khiến họ thất vọng...\"<br />\"Giống như... em và họ hoàn toàn khác nhau...\"<br /><br />Ngựa con bất động, đôi mắt đen láy nhìn ra ngoài cửa sổ.<br />Tiếng sấm xé ngang bầu trời vẫn vang vọng từ xa, đó là cơn bão do các anh hùng thành bang bầu trời và Thú Cánh của họ tạo ra.<br />\"Nói nhỏ cho em biết một bí mật... Chị cũng như em...\"<br /><br />Trong căn phòng bệnh tối tăm cô độc đó, cô gái dưỡng bệnh đã lâu, tay ôm búp bê, tay cầm kim chỉ, luyện tập y thuật mà cha cô đã dạy lần thứ một trăm...<br /><br />\"Nhưng có lẽ... Ánh sáng khác biệt, cũng có ý nghĩa tồn tại của nó...\"",
    "unlockRequirement": "Nhân vật đạt cấp <nobr>20</nobr> mở khóa"
   },
   {
    "title": "Câu Chuyện Nhân Vật 2",
-   "text": "Giống như các thầy thuốc khác, cô gái ước có thể chữa khỏi cho tất cả mọi người.<br />Cô muốn xoa dịu nỗi đau của người phàm khi thế giới sụp đổ, nhưng khi Thủy Triều Đen nhấn chìm các thành bang, dịch bệnh vây lấy những người bị thương nặng, cô chỉ có thể xua đuổi dịch bệnh, nhưng không thể ngăn chặn sự tuyệt vọng lan rộng .<br />\"Có lẽ, để trở thành một thầy thuốc giỏi, người ta cần nhiều thứ hơn là những loại thảo dược hiệu nghiệm...\"<br /><br />\"Rèm cửa màu trắng sữa phải cho ánh sáng lọt vào, giường phải cứng mềm vừa phải, đầu giường phải bày một bó hoa tươi mới... Như vậy trong phòng cũng có thể nhìn thấy \"màu sắc\" giống như bên ngoài...\"<br />Cô muốn đem lại hy vọng cho mọi người trong thời kỳ tận thế, một tia sáng chiếu rọi từ tương lai.<br /><br />Thế là, cùng với hương liệu an thần, một cô gái trong những ngày cuối cùng của mình thì thầm trong căn phòng ấm áp và thoải mái, những ký ức đã bị chôn vùi bấy lâu dần dần thức tỉnh.<br />\"Ngày cha tặng tôi hộp nhạc, ngoài trời cũng đang mưa phùn rả rích. Tôi lắng nghe giai điệu trong trẻo, trải qua sinh nhật tuyệt vời nhất trong tiếng mưa rơi tí tách...<br />\"Tôi còn nhớ, hoa hồng trắng nở đầy trên các con phố, khi gió thổi qua, như thể một trận tuyết thơm ngát đang rơi xuống...<br />\"Và bầu trời đó, trong màu xanh ngày càng đậm, có một chút màu cam đỏ rơi vào...\" Cô nhớ lại, \"và rồi những bong bóng trong suốt đó bao quanh tôi, giống như...<br />Giống như bây giờ...\"<br /><br />Tích tắc, tích tắc...<br />Kim đồng hồ đang di chuyển trong hồi ức, âm thanh kể chuyện dần yếu đi.<br />Trong tiếng mưa rơi không ngừng, chỉ còn lại tiếng thở dài hài lòng.<br /><br />\"Doot-Doot...\" Nhóc Ica cúi đầu, buồn bã nằm bên chú ngựa bông.<br />\"Nhóc Ica, có nghe thấy không... Cô ấy đã nhìn thấy bầu trời chúng ta tạo ra đấy...\"<br />Trên trần nhà, mặt trời lặn xuống biển.<br /><br />Cô nắm lấy bàn tay dần dần trở nên lạnh lẽo của cô gái, những giọt nước mắt trong suốt lăn dài trên khuôn mặt.<br />\"Sau này, chúng ta nhất định sẽ làm cho nó trở nên rộng lớn hơn, ấm áp hơn... \"<br />\"Doot!\"",
+   "text": "Giống như các thầy thuốc khác, cô gái ước có thể chữa khỏi cho tất cả mọi người.<br />Cô muốn xoa dịu nỗi đau của người phàm khi thế giới sụp đổ, nhưng khi Thủy Triều Đen nhấn chìm các thành bang, dịch bệnh vây lấy những người bị thương nặng, cô chỉ có thể xua đuổi dịch bệnh, nhưng không thể ngăn chặn sự tuyệt vọng lan rộng.<br />\"Có lẽ, để trở thành một thầy thuốc giỏi, người ta cần nhiều thứ hơn là những loại thảo dược hiệu nghiệm...\"<br /><br />\"Rèm cửa màu trắng sữa phải cho ánh sáng lọt vào, giường phải cứng mềm vừa phải, đầu giường phải bày một bó hoa tươi mới... Như vậy trong phòng cũng có thể nhìn thấy \"màu sắc\" giống như bên ngoài...\"<br />Cô muốn đem lại hy vọng cho mọi người trong thời kỳ tận thế, một tia sáng chiếu rọi từ tương lai.<br /><br />Thế là, cùng với hương liệu an thần, một cô gái trong những ngày cuối cùng của mình thì thầm trong căn phòng ấm áp và thoải mái, những ký ức đã bị chôn vùi bấy lâu dần dần thức tỉnh.<br />\"Ngày cha tặng tôi hộp nhạc, ngoài trời cũng đang mưa phùn rả rích. Tôi lắng nghe giai điệu trong trẻo, trải qua sinh nhật tuyệt vời nhất trong tiếng mưa rơi tí tách...\"<br />\"Tôi còn nhớ, hoa hồng trắng nở đầy trên các con phố, khi gió thổi qua, như thể một trận tuyết thơm ngát đang rơi xuống...\"<br />\"Và bầu trời đó, trong màu xanh ngày càng đậm, có một chút màu cam đỏ rơi vào...\" Cô nhớ lại, \"và rồi những bong bóng trong suốt đó bao quanh tôi, giống như...<br />Giống như bây giờ...\"<br /><br />Tích tắc, tích tắc...<br />Kim đồng hồ đang di chuyển trong hồi ức, âm thanh kể chuyện dần yếu đi.<br />Trong tiếng mưa rơi không ngừng, chỉ còn lại tiếng thở dài hài lòng.<br /><br />\"Doot-Doot...\" Nhóc Ica cúi đầu, buồn bã nằm bên chú ngựa bông.<br />\"Nhóc Ica, có nghe thấy không... Cô ấy đã nhìn thấy bầu trời chúng ta tạo ra đấy...\"<br />Trên trần nhà, mặt trời lặn xuống biển.<br /><br />Cô nắm lấy bàn tay dần dần trở nên lạnh lẽo của cô gái, những giọt nước mắt trong suốt lăn dài trên khuôn mặt.<br />\"Sau này, chúng ta nhất định sẽ làm cho nó trở nên rộng lớn hơn, ấm áp hơn...\"<br />\"Doot!\"",
    "unlockRequirement": "Nhân vật đạt cấp <nobr>40</nobr> mở khóa"
   },
   {
@@ -2828,7 +2851,7 @@
   },
   {
    "title": "Câu Chuyện Nhân Vật 4",
-   "text": "\"Lịch Ánh Sáng năm ████, Tháng Cơ Duyên, gửi đến thầy thuốc Hyacine<br />Tôi hy vọng mọi thứ đều đang tốt đẹp khi cô mở lá thư này. Tuy năm đó chị tôi không thể vượt qua, nhưng thời gian cuối cùng chị ấy ở trong đình viện... Nụ cười trước khi đi của chị ấy luôn làm ấm giấc mơ của tôi. Tôi muốn nói với cô, hôm nay tôi cũng chính thức trở thành một thầy thuốc, tôi muốn giống như cô, đi giúp những người đang đau khổ trong ngày tận thế, hy vọng trong đêm dài này, tôi cũng có thể trở thành một ngọn đèn nhỏ...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Cửa Đóng, gửi đến Cinny<br />... Thật sự rất cảm ơn sự đồng hành của cô trong khoảng thời gian này. Khi tôi thu mình trong phòng điều trị của Đình Viện Hoàng Hôn, cô cho phép bi thương của tôi tích tụ rồi bốc hơi như mưa, khi tôi nói mình 'thời tiết không tốt', cô lại hoàn toàn bao dung với tôi... Có lẽ, tôi cũng nên dũng cảm hơn một chút...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Tự Do\" quý cô Hyacine<br />Những người bạn nhỏ đều đã hồi phục tốt, đặc biệt là chiến sĩ Okhema lần trước gây gổ đòi uống nước ép lựu. Thù hận giữa các thành bang rất khó để xóa bỏ nhanh chóng, nhưng bây giờ tôi tin rằng, những màu sắc khác nhau cũng có thể cùng tồn tại.\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Đêm Dài\" Trợ giảng Hyacine<br />Cảm ơn vì đã nhắc nhở, tôi sẽ cân nhắc hoà giải quan hệ với cô ấy. Đương nhiên, hoàn toàn là vì nể mặt cô...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Tiếc Thương\" Cô Hyacine<br />Không cần phải tốn công gửi thuốc mới cho tôi nữa. Tôi biết việc mất đi nhân tính của mình đã không thể cứu vãn được nữa. Cô cũng không cần lo lắng, quan hệ giữa chúng tôi với Điện Cây vẫn chưa đến mức tan vỡ...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Hoan Hỉ, quý cô Hyacine<br />Tôi chưa từng nghĩ, hạt giống của quê hương sẽ có một ngày nảy mầm trở lại. Nằm trong vườn hoa của Đình Viện Hoàng Hôn, cũng giống như trở về với Aedes Elysiae. Mỗi khi tâm trạng buồn bã, ngửi thấy mùi lúa mì ở đây, tôi lại có động lực rồi!\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Ngày Dài\" Hyacine bé nhỏ<br />Mọi người luôn ca ngợi bầu trời trước đây vì đã bao dung cả mặt trời rực rỡ và sấm sét dữ dội, nhưng *chúng tôi* lại cảm thấy cô còn dịu dàng hơn cả bầu trời. Bất luận *chúng tôi* ngày mai sẽ đi về đâu, *chúng tôi* nhất định sẽ mãi mãi, mãi mãi nhớ về cô!\"<br /><br />Vài bức thư lộ ra từ chiếc rương đầy ắp, được cất giữ bên cạnh cuốn sổ ghi chép điều trị.<br />Khi bắt đầu hành trình, ánh sáng yếu ớt của cô gái dường như sắp bị bóng tối nuốt chửng, tuy nhiên, trước khi bắt đầu trở thành bầu trời của ngày mai...<br /><br />Ở nơi cô đi qua, bầu trời trong xanh đã bất giác nở nụ cười đầu tiên.",
+   "text": "\"Lịch Ánh Sáng năm ████, Tháng Cơ Duyên, gửi đến thầy thuốc Hyacine<br />Tôi hy vọng mọi thứ đều đang tốt đẹp khi cô mở lá thư này. Tuy năm đó chị tôi không thể vượt qua, nhưng thời gian cuối cùng chị ấy ở trong đình viện... Nụ cười trước khi đi của chị ấy luôn làm ấm giấc mơ của tôi. Tôi muốn nói với cô, hôm nay tôi cũng chính thức trở thành một thầy thuốc, tôi muốn giống như cô, đi giúp những người đang đau khổ trong ngày tận thế, hy vọng trong đêm dài này, tôi cũng có thể trở thành một ngọn đèn nhỏ...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Cửa Đóng, gửi đến Cinny<br />... Thật sự rất cảm ơn sự đồng hành của cô trong khoảng thời gian này. Khi tôi thu mình trong phòng điều trị của Đình Viện Hoàng Hôn, cô cho phép sự bi thương của tôi tích tụ rồi bốc hơi như mưa, khi tôi nói rằng bản thân 'thời tiết không tốt', cô lại hoàn toàn bao dung với tôi... Có lẽ, tôi cũng nên dũng cảm hơn một chút...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Tự Do, gửi đến quý cô Hyacine<br />Những người bạn nhỏ đều đã hồi phục tốt, đặc biệt là chiến sĩ Okhema lần trước gây gổ đòi uống nước ép lựu. Thù hận giữa các thành bang rất khó để xóa bỏ nhanh chóng, nhưng bây giờ tôi tin rằng, những màu sắc khác nhau cũng có thể cùng tồn tại.\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Đêm Dài, gửi đến trợ giảng Hyacine<br />Cảm ơn vì đã nhắc nhở, tôi sẽ cân nhắc hoà giải quan hệ với cô ấy. Đương nhiên, hoàn toàn là vì nể mặt cô...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Tiếc Thương, gửi đến cô Hyacine<br />Không cần phải tốn công gửi thuốc mới cho tôi nữa. Tôi biết việc mất đi nhân tính của mình đã không thể cứu vãn được nữa. Cô cũng không cần lo lắng, quan hệ giữa chúng tôi với Điện Cây vẫn chưa đến mức tan vỡ...\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Hoan Hỉ, gửi đến quý cô Hyacine<br />Tôi chưa từng nghĩ, hạt giống của quê hương sẽ có một ngày nảy mầm trở lại. Nằm trong vườn hoa của Đình Viện Hoàng Hôn, cũng giống như trở về với Aedes Elysiae. Mỗi khi tâm trạng buồn bã, ngửi thấy mùi lúa mì ở đây, tôi lại có động lực rồi!\"<br /><br />\"Lịch Ánh Sáng năm ████, Tháng Ngày Dài, gửi đến Hyacine bé nhỏ<br />Mọi người luôn ca ngợi bầu trời trước đây vì đã bao dung cả mặt trời rực rỡ và sấm sét dữ dội, nhưng *chúng tôi* lại cảm thấy cô còn dịu dàng hơn cả bầu trời. Bất luận ngày mai *chúng tôi* sẽ đi về đâu, *chúng tôi* nhất định sẽ mãi mãi, mãi mãi nhớ về cô!\"<br /><br />Vài bức thư lộ ra từ chiếc rương đầy ắp, được cất giữ bên cạnh cuốn sổ ghi chép điều trị.<br />Khi bắt đầu hành trình, ánh sáng yếu ớt của cô gái dường như sắp bị bóng tối nuốt chửng, tuy nhiên, trước khi bắt đầu trở thành bầu trời của ngày mai...<br /><br />Ở nơi cô đi qua, bầu trời trong xanh đã bất giác nở nụ cười đầu tiên.",
    "unlockRequirement": "Nhân vật đạt cấp <nobr>80</nobr> mở khóa"
   }
  ],
@@ -3140,7 +3163,7 @@
     "icon": "421e2c943eeb53d76cd2114945201467d1a63c0367e2706bf6ecd6fae3ba4307",
     "tag": "Hồi Phục",
     "typeDesc": "Thiên Phú Linh Hồn Ký Ức",
-    "skillDesc": "Tốc độ của Nhóc Ica duy trì bằng 0, miễn <u>Hiệu Ứng Xấu</u>, đồng thời sẽ không xuất hiện trong thứ tự hành động.<br />Nếu mục tiêu phe ta ngoại trừ Nhóc Ica bị giảm HP, thì khi bắt đầu hiệp của mục tiêu bất kỳ hoặc sau khi hành động, Nhóc Ica sẽ tiêu hao HP bằng <nobr>#1[i]%</nobr> Giới Hạn HP của bản thân, và giúp mục tiêu bị giảm HP của phe ta hồi HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]</nobr></span>.<br />Khi Hyacine trong trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", sau khi Hyacine thi triển kỹ năng, Nhóc Ica sẽ nhận ngay 1 <u>hiệp tăng thêm</u> và tự động thi triển \"Mây Đen Hãy Tan Biến!\", đồng thời khi Nhóc Ica kích hoạt hiệu ứng trị liệu của Thiên Phú sẽ hồi thêm cho toàn thể mục tiêu phe ta lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]</nobr></span>. Sau khi Nhóc Ica thi triển kỹ năng, sẽ khiến số hiệp duy trì của tất cả <u>hiệu ứng duy trì</u> của bản thân giảm 1.",
+    "skillDesc": "Tốc độ của Nhóc Ica duy trì bằng 0, miễn <u>Hiệu Ứng Xấu</u>, đồng thời sẽ không xuất hiện trong thứ tự hành động.<br />Nếu mục tiêu phe ta ngoại trừ Nhóc Ica bị giảm HP, thì khi bắt đầu hiệp của mục tiêu bất kỳ hoặc sau khi hành động, Nhóc Ica sẽ tiêu hao HP bằng <nobr>#1[i]%</nobr> Giới Hạn HP của bản thân, và giúp mục tiêu bị giảm HP của phe ta hồi HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]</nobr></span>.<br />Khi Hyacine trong trạng thái \"Sau Cơn Mưa Trời Lại Sáng\", sau khi Hyacine thi triển kỹ năng, Nhóc Ica sẽ nhận ngay 1 <u>hiệp tăng thêm</u> và tự động thi triển \"Mây Đen Hãy Tan Biến!\", đồng thời khi Nhóc Ica kích hoạt hiệu ứng trị liệu của Thiên Phú sẽ hồi thêm cho toàn thể mục tiêu phe ta lượng HP bằng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> Giới Hạn HP của Hyacine +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]</nobr></span>. Sau khi Nhóc Ica thi triển kỹ năng, sẽ khiến số hiệp duy trì của tất cả <u>hiệu ứng duy trì</u> của bản thân giảm 1.",
     "simpleSkillDesc": "Nếu mục tiêu phe ta ngoại trừ Nhóc Ica <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">bị giảm HP</span>, Nhóc Ica sẽ tiêu hao HP của bản thân để <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">hồi HP</span> cho mục tiêu này. Khi Hyacine có Sau Cơn Mưa Trời Lại Sáng, sau khi Hyacine thi triển kỹ năng, Nhóc Ica sẽ nhận ngay 1 <u>hiệp tăng thêm</u> và tự động thi triển Kỹ Năng Linh Hồn Ký Ức. Sau khi Nhóc Ica thi triển kỹ năng sẽ khiến số hiệp duy trì của <u>hiệu ứng duy trì</u> của bản thân giảm 1.",
     "levelData": [
      {
@@ -3522,8 +3545,8 @@
     "icon": "421e2c943eeb53d76cd2114945201467d1a63c0367e2706bf6ecd6fae3ba4307",
     "tag": "Cường Hóa",
     "typeDesc": "Thiên Phú Linh Hồn Ký Ức",
-    "skillDesc": "Khi biến mất, sẽ khiến Hyacine Ưu Tiên Hành Động <nobr>#1[i]%</nobr>.",
-    "simpleSkillDesc": "Khi biến mất, sẽ khiến Hyacine Ưu Tiên Hành Động.",
+    "skillDesc": "Khi biến mất, sẽ khiến Hyacine <u>Ưu Tiên Hành Động</u> <nobr>#1[i]%</nobr>.",
+    "simpleSkillDesc": "Khi biến mất, sẽ khiến Hyacine <u>Ưu Tiên Hành Động</u>.",
     "levelData": [
      {
       "params": [
@@ -3699,6 +3722,7 @@
     "anchor": 0,
     "type": 3,
     "children": [],
+    "enhanceId": 0,
     "embedServantSkill": {
      "id": 17362987,
      "name": "Mây Đen Hãy Tan Biến!",
@@ -3821,6 +3845,7 @@
     "anchor": 0,
     "type": 3,
     "children": [],
+    "enhanceId": 0,
     "embedServantSkill": {
      "id": 17769018,
      "name": "Bàn Tay Nắm Lấy Trời Xanh",
@@ -3940,6 +3965,8 @@
    }
   ]
  },
+ "skins": [],
+ "hasEnhanced": false,
  "name": "Hyacine",
  "rarity": 5,
  "descHash": "Thành bang giữa những tầng mây tan rã theo năm tháng, Đình Viện Hoàng Hôn một lần nữa mở rộng cánh cửa, mang đến ánh sáng le lói cho Đêm Vĩnh Hằng. Thầy Thuốc Hyacinthia, Hậu Duệ Chrysos canh giữ Ngọn Lửa \"Bầu Trời\". Kế thừa ý chí của tổ tiên, vá lại bình minh và hoàng hôn đã nứt vỡ. ...Mong ánh cầu vồng rọi xuống, xóa tan hận thù, đưa bình minh trở về với mặt đất.",

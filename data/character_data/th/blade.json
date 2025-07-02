@@ -1977,6 +1977,7 @@
          "anchor": 12,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 18204,
           "name": "เสริมการต้านทานสถานะ",
@@ -2006,6 +2007,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 18207,
         "name": "เสริม HP",
@@ -2035,6 +2037,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 18206,
       "name": "เสริมอัตราคริติคอล",
@@ -2064,6 +2067,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "เมื่อเปอร์เซ็นต์ HP ปัจจุบันของ Blade น้อยกว่าหรือเท่ากับ <nobr>50%</nobr> ของ HP สูงสุด ปริมาณการฟื้นฟูที่ได้รับจากการรักษา จะเพิ่มขึ้น <nobr>#1[i]%</nobr>",
     "ultimateCost": 0,
@@ -2118,6 +2122,7 @@
          "anchor": 15,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 18203,
           "name": "เสริม HP",
@@ -2147,6 +2152,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 18202,
         "name": "เสริมอัตราคริติคอล",
@@ -2176,6 +2182,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 18205,
       "name": "เสริม HP",
@@ -2205,6 +2212,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "หลังจากปล่อย \"Forest of Swords\" หากโจมตีโดนศัตรูเป้าหมาย ที่ติด <u>สถานะทำลายจุดอ่อน</u> Blade จะฟื้นฟู HP <nobr>#1[i]%</nobr> ของ HP สูงสุดของตัวเอง +<nobr>#2[i]</nobr>",
     "ultimateCost": 0,
@@ -2259,6 +2267,7 @@
        "anchor": 17,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 18217,
         "name": "เสริมอัตราคริติคอล",
@@ -2292,6 +2301,7 @@
        "anchor": 18,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 102149,
         "name": "เสริม HP",
@@ -2321,6 +2331,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 18216,
       "name": "เสริมการต้านทานสถานะ",
@@ -2350,6 +2361,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "DMG ที่เกิดจาก การ <u>โจมตีต่อเนื่อง</u> ของพรสวรรค์ เพิ่มขึ้น <nobr>#1[i]%</nobr>",
     "ultimateCost": 0,
@@ -2393,8 +2405,483 @@
    "anchor": 9,
    "type": 2,
    "children": [],
+   "enhanceId": 0,
    "embedBuff": {
     "id": 18209,
+    "name": "เสริม HP",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549504,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 11205101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 11205202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 11205203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 11205204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "enhanceId": 1,
+         "embedBuff": {
+          "id": 19969662,
+          "name": "เสริมการต้านทานสถานะ",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "53050ffa2be01a99b930263f8c1b883e021e236827d23c7f2fafbd5d59f4a98d",
+          "statusList": [
+           {
+            "key": "ต้านทานสถานะ",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920200,
+            "count": 3
+           },
+           {
+            "id": 633445,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 20201578,
+        "name": "เสริม HP",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920200,
+          "count": 3
+         },
+         {
+          "id": 633445,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 1,
+     "embedBuff": {
+      "id": 19927686,
+      "name": "เสริมอัตราคริติคอล",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "อัตราคริติคอล",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 1,
+   "embedBonusSkill": {
+    "descHash": "เมื่อ Blade ปล่อยท่าไม้ตาย การล้าง HP ที่เสียไปทั้งหมดจะรีเซ็ตเป็น <nobr>#1[i]%</nobr>",
+    "ultimateCost": 0,
+    "id": 20191676,
+    "name": "Vita Infinita",
+    "iconPath": "a4157917a12dd4097d2b7687842c8f7a2456fe80e1759eb85cb57ddd88f40a78",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       0.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 11205102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 11205205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 11205206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 11205207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 1,
+         "embedBuff": {
+          "id": 20133925,
+          "name": "เสริม HP",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+          "statusList": [
+           {
+            "key": "HP",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836259,
+            "count": 3
+           },
+           {
+            "id": 717386,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 19974743,
+        "name": "เสริมอัตราคริติคอล",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "อัตราคริติคอล",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836259,
+          "count": 3
+         },
+         {
+          "id": 717386,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 1,
+     "embedBuff": {
+      "id": 20243529,
+      "name": "เสริม HP",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 1,
+   "embedBonusSkill": {
+    "descHash": "เมื่อได้รับการรักษา ปริมาณการฟื้นฟูจะเพิ่มขึ้น <nobr>#2[i]%</nobr> หลังจากได้รับการรักษาแล้ว จะแปลง <nobr>#1[i]%</nobr> ของค่าการรักษาให้เป็น HP ที่เสียไปทั้งหมด ของท่าไม้ตาย",
+    "ultimateCost": 0,
+    "id": 19942290,
+    "name": "Neverending Deaths",
+    "iconPath": "8733972c86f22f8255529ddb90a3dc5c2e4086eaba6c5bbce5b7029121f19274",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 11205103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 11205208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 11205209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 20143120,
+        "name": "เสริมอัตราคริติคอล",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "อัตราคริติคอล",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836259,
+          "count": 8
+         },
+         {
+          "id": 717386,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 11205210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 3637365,
+        "name": "เสริม HP",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836259,
+          "count": 8
+         },
+         {
+          "id": 717386,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 1,
+     "embedBuff": {
+      "id": 20409916,
+      "name": "เสริมการต้านทานสถานะ",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "53050ffa2be01a99b930263f8c1b883e021e236827d23c7f2fafbd5d59f4a98d",
+      "statusList": [
+       {
+        "key": "ต้านทานสถานะ",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 1,
+   "embedBonusSkill": {
+    "descHash": "DMG <u>โจมตีต่อเนื่อง</u> จากพรสวรรค์เพิ่มขึ้น <nobr>#1[i]%</nobr> และจะฟื้นฟูพลังงานเพิ่มอีก <nobr>#2[i]</nobr> หน่วย",
+    "ultimateCost": 0,
+    "id": 20217221,
+    "name": "Cyclone of Destruction",
+    "iconPath": "1c0ec11562b207bb9eb7007748a441fe044e3a6847693f2b41fa9f3810343fb7",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.2,
+       15
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 11205201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "enhanceId": 1,
+   "embedBuff": {
+    "id": 20196531,
     "name": "เสริม HP",
     "levelReq": 1,
     "promotionReq": 0,
@@ -2429,550 +2916,550 @@
    "title": "พบกันครั้งแรก",
    "text": "ผู้บุกเบิก... ฉันไม่รู้จักเธอ/นาย นี่ถือเป็นเรื่องดีสำหรับเธอ/นายแล้ว",
    "unlockRequirement": "",
-   "cnUrl": "2326ca5ed44236d29898f5bdbd0cbfcd1ab801d92cd1695f833b492a90d09412",
-   "jpUrl": "d84f4e00a179f0c9881a674be26d8ae3c6cff94ea117c1c47eb1c18289c6c8f0",
-   "enUrl": "dde095cdbc32c2f90d0f3a808684db11e8bad822d022542cb1f0682bb649f100",
-   "krUrl": "c77bde662fa07b338f9e31fa6e626241fcc9d7e15f0ad8e03c2ec025e7dd43dd"
+   "cnUrl": "2a1da742fd9b628ad86405270a49b6768c0007e76acde939b4db0b03c4264e3a",
+   "jpUrl": "b92307383587f20e27be3d4b0d5faebc0676998fcbe651927896834b4055a175",
+   "enUrl": "077fc190dd7642f5b34bfd797a3d75b555b6fcf8950e8b896feff1d175dff52d",
+   "krUrl": "b9989ef2d70a1b06a822aabb5adb513c484d4427d87eadee1bab5aa6d15a5d6d"
   },
   {
    "id": 2,
    "title": "ทักทาย",
    "text": "มาอีกแล้วเหรอ? ...คนที่ฉันจำได้ มักจะจบไม่สวยหรอกนะ",
    "unlockRequirement": "",
-   "cnUrl": "bd6a95314a6f2e92bd241b1f7268c3e1b5de1e8aa59a99af7f295bdde02b3c02",
-   "jpUrl": "351624901d206794409e84c00d4d0cf33ea4c5256597607a2ae333e14307354a",
-   "enUrl": "70910f7c533e28a7a2b0163e5a8539438f30d8776ed799c78c99a7752d391443",
-   "krUrl": "8ca2d32d97676a6183d4665d95fd8001600e64fe0c3883f7646a6b8cc504ecfe"
+   "cnUrl": "37108250a089e717304a5dc3e0e311574375c78c6324db2f576ea15d79532c2f",
+   "jpUrl": "571dbe6c63183bced9a38c80da0c59fa3022e3b1ae1da27f6a7c6c45b9c1f51f",
+   "enUrl": "dc8946ff83dee0f93bdc1fc634a0aa0954ea2161d4540d49dbf27082e3a85cd4",
+   "krUrl": "ad72904a894f0470fd579a975cdf0f070049873e0afc508e48a2b6997e02ea10"
   },
   {
    "id": 3,
    "title": "บอกลา",
    "text": "ไปซะเถอะ ถ้า \"Mara-Struck\" กำเริบขึ้นมา ก็อย่ามาอยู่ข้างๆ ฉันล่ะ",
    "unlockRequirement": "",
-   "cnUrl": "d08f581f418ff1714aef1af0853e8662e339d438e689e0c2fd0d12be76a1571c",
-   "jpUrl": "fa9315d397291c8e35e42a7b96152625bc36ad34fe7469181d6665026bbd28f5",
-   "enUrl": "681863a4bd28ed7a7bba01589f9dd327ff666d75a8e2448eba5966e3a7a88df5",
-   "krUrl": "454a633005dcbff788412179bb9ad0d910508f44b2d381ffbbd84b0b3ce329d2"
+   "cnUrl": "79be84c9f0576be3b51d52d8f7d5882a525a99f3f072bc48026468bbec55a626",
+   "jpUrl": "31dbfd187848b5acd5806b66f3e6546f3615b92ab0691a216a93e6d12b21688c",
+   "enUrl": "20efa027c12971d80a7a1393ec4b0d1a9ddd470eece5135559ba8065a655f3cc",
+   "krUrl": "9a826960a5e32aa4ac69aa6bc7c3844d74bd5c160f08c5935a0341f52cb4b077"
   },
   {
    "id": 4,
    "title": "เกี่ยวกับตัวเอง - ชื่อ",
    "text": "ขัดเกลาตัวเองและฉีกร่างศัตรูเป็นชิ้นๆ นั่นก็คือ Blade",
    "unlockRequirement": "",
-   "cnUrl": "9e40e5c8b0df74ebcb2a7c3df491ff155109ef9d84a1c513bfd9b63f162539c6",
-   "jpUrl": "b9933436fe9f8bc6c2285108d45b0258794dbbae33d22f07c2250472ef55ea23",
-   "enUrl": "8cc7e6d740f27c5d53cb229807fe43522830534765e4781d1392585dc8284068",
-   "krUrl": "5d3cee914e4196b33c259684a31c172f10f2f33c3d76e0d802435f941cdf7700"
+   "cnUrl": "f28558a46d4e70081302b062c9192388e11518d3be3ada5caa5aa5b820f51cf9",
+   "jpUrl": "cc780580b144074bb971840f164f9652c5ee3586bfe7e06f1f23d8feb7858ae4",
+   "enUrl": "ecd1591e8ea80f836baaa5f1b00d2c662524e09d6df0c8b11036628759651e21",
+   "krUrl": "69559635635121eb82ed5d63fcf8fd917c9a3a1fccd423420dbf1488e869f76a"
   },
   {
    "id": 5,
    "title": "เกี่ยวกับตัวเอง - Mara-Struck",
    "text": "ทุกคนล้วนมี Mara-Struck ที่แตกต่างกันไป อาการของฉันพิเศษกว่านั้น ถึงแม้จะโดน Mara-Struck รังควานอยู่บ่อยครั้ง แต่ฉันกลับจำมันได้น้อยมาก ไม่ว่าจะเป็นความเสียใจ, ความแค้น, ความคิดถึงและความตื่นกลัว...",
    "unlockRequirement": "",
-   "cnUrl": "58aae99dd77395ea18e4dbd51967c552e056231f9e194915d3f6aa79ff5b8553",
-   "jpUrl": "eb92c5ca86d1e86154c3440708df8d0386bfae82351e497a883b18e49f49be05",
-   "enUrl": "a1b1bb0b4eee7779cd4cee4c2f59c512c65ad3fcda5fcfdb84d3ed82cdd169c0",
-   "krUrl": "2fe11e96184c7e9e29b7027e6415526a8f7d1909e30765ff61b672458d29d310"
+   "cnUrl": "7254becc0ed110eccf59f45959fefa01ccc50029c34f0b1781f0de4ad36864af",
+   "jpUrl": "44beb418eea11a97cbba061ace042705d7c72cea39b84d3dac8f6deb030908bc",
+   "enUrl": "a2ccaa5ac4dbf59df10c9d80e7cf15e72d8aef4131a8c2f3d5933c3f4e4f6d4b",
+   "krUrl": "0421f87d1b0d456987fa7c82064a8be2fc6beca8fbddbb202bb9b675936bb85c"
   },
   {
    "id": 6,
    "title": "เกี่ยวกับตัวเอง - ปีศาจ",
    "text": "เวลา Mara-Struck กำเริบ ฉันจะกลายเป็นอีกคนนึง",
    "unlockRequirement": "",
-   "cnUrl": "290f191997ae991d30cf961bc04d73db282b653878c28d406aa3ad958a95d357",
-   "jpUrl": "e4730d50c916c5ad8523b9a642c5bf65b231ad3a75547b1d2e016c4c3fab784e",
-   "enUrl": "95a259e56b47958cfe011073e8f958e93bfcca2d8739dfe6d3d534c2c151123a",
-   "krUrl": "fe67e9208853593f5048a75940b92ccefcb9e31208fa736f10a5ffea0718bc04"
+   "cnUrl": "bbbafb50fec71e08f777d86bec52eebe41eb9697bac30d3c09f7deda3a4da676",
+   "jpUrl": "3d2e5e81f2ce14049258acfd9a17783251fd9ba219b09e7ddfca78917d8dfde8",
+   "enUrl": "72a5503b57a76e7545d38588508e94bc7f172730a98f910d96f9584f4506ef24",
+   "krUrl": "14f5164f27a31dccc461499b208364f43c05f6383154ebc99b0591ae957f99e9"
   },
   {
    "id": 7,
    "title": "พูดคุยทั่วไป - นักล่า Stellaron",
    "text": "พวกเราไปถึงเป้าหมายด้วยความร่วมมือของกันและกัน",
    "unlockRequirement": "",
-   "cnUrl": "ea6a263a6a11e73a974f39ea2b00f8b47a4979f3a9e1f75df1944953e9df69e8",
-   "jpUrl": "2cab26c7ebc663bed8041a69ac33c367cec120c5034c4860712a8cd8d91c6398",
-   "enUrl": "db7de59f2bc3fdca47878fc5dfb8f36c64bcd89362af1cfe618c27d8d84b0460",
-   "krUrl": "1ad3f472a3b260db55001e25992875e73cee327521ada35e5f85c6b5884d04b1"
+   "cnUrl": "5a9d15dd2b672f6b0f3d655498027f933da05ece17637ebc6b314c29b97397d0",
+   "jpUrl": "2f4c461193117972bc290a26dc19f15506623fec832272147f95191fad56c996",
+   "enUrl": "ffd5b1ff4a91de5dd7ecf837cb56e75f8b88f3e1d7760376f6001c15ac26ab0e",
+   "krUrl": "03ff74212753545bc37c95ca8518f612da2ccc52af73900bd902d4f7f396b4bb"
   },
   {
    "id": 8,
    "title": "พูดคุยทั่วไป - ความเป็นอมตะ",
    "text": "ความคาดหวังว่า \"นี่จะเป็นครั้งสุดท้าย\" ที่สุดแล้วก็จางหายไปในความเจ็บปวด ตอนที่แผลบนกายมันเริ่มสมานกันเอง",
    "unlockRequirement": "",
-   "cnUrl": "a21eaae16a75757255e8c94b4b7e898c748845134e458296727b3365aa759ffd",
-   "jpUrl": "fce0975dfb59e1787636e1a646e87917d49ee68ead09988de3107bfa10d0069b",
-   "enUrl": "4e4253391fd9d03e356e6f7abcbe6edb7ee621ceb29ee337c23ba7bb25326db6",
-   "krUrl": "b99bac7a6febe6a03a1a2a171b665a8eac0e02eacfd3be34fd3dd6cc8aa152b3"
+   "cnUrl": "78d710b58587c578fcb218fdbae3abfd063ff5fdfb4a38138a07460e76f699f4",
+   "jpUrl": "dceac0e938e8ac4f1dae6eb70fdbc16effb231346b8451d715b1bbf1930950cc",
+   "enUrl": "ba14fb186f356e2fbfcd2c303479525225898ec1c7e82baf35a2564a4d2dc049",
+   "krUrl": "ad8ccf462d3f331e122176d2e12f5c297371e8bedffe27cb309f3f179e030660"
   },
   {
    "id": 9,
    "title": "พูดคุยทั่วไป - สิ่งที่ต้องชดใช้",
    "text": "ในห้าคน มีสามคนที่ต้องชดใช้... คำพูดนี้ฝังอยู่ในทุกๆ บาดแผลของฉัน",
    "unlockRequirement": "",
-   "cnUrl": "242f6f154d809fce88689c2604f11699bda7008ac204c2a054adff1f432fc424",
-   "jpUrl": "eb23a8072bf0969664e13c516bdaaa6b2df58d733c8fe1da63199972a3877b02",
-   "enUrl": "fefa3da7260e3a617f45f0ac8ecd3a786fdc59e74589ba6d9d63bd60c2307f7b",
-   "krUrl": "ca4cadba4e33ab46fd3c0a16c9e71e3275e11edc6f3a45fc14fb892a0962a3b1"
+   "cnUrl": "2976d2500a14672034c06a1ffcc9a0be83383465cddeff73f2219ec72ffd3e36",
+   "jpUrl": "e96cd935a5b0c3a75646b693da3d3a9979d08f6d4f26f21169f7714775bf97af",
+   "enUrl": "2a0ffe1f19032dd2a0d9dfbdbd8c6a2a3b89e514df694f90a94295e3271dd7d5",
+   "krUrl": "1f9862bc2fba65929888bc3cd4f61efa3824bec49b9841aa097b38b9844fc4f9"
   },
   {
    "id": 10,
    "title": "งานอดิเรกของ Blade",
    "text": "การมีอยู่ของ \"Blade\" จะหายไปชั่วขณะ เมื่อกวัดแกว่งดาบ",
    "unlockRequirement": "",
-   "cnUrl": "a623e44d5c7a9ae5bb87a2655c98200b2d50cc9fff79ed99599b174ea017dd8b",
-   "jpUrl": "d3dc6d417c43af01cb2f63922f9109ab21c668ecf92b661b8a3eca7016e6f8b5",
-   "enUrl": "6cb15a2c4ce17446b81e8a2918ea449930267ad0cabdeb8f9eb89ba2d5354e03",
-   "krUrl": "2e3cb78b89c379ad69c284bb001da599ca240b1e8686eea806cbd9570e8d3ae2"
+   "cnUrl": "52e37c5599b512aadf840ec6969c99bce927dd5b2ea012bb54a7983cb2861999",
+   "jpUrl": "c6c2558d023902616048be5a06703089e74ec5566b275f1581549e74c7ba6e35",
+   "enUrl": "66631d0521328a16723ebb0bdb6939083014ca2919ecbccfffd77594370b3bfe",
+   "krUrl": "2388bc81997fb262f2ac3f94e4021b84ec23dfc6f5adb1187ffe21d757074366"
   },
   {
    "id": 11,
    "title": "เรื่องกลุ้มใจของ Blade",
    "text": "ความตายจะมาถึงเมื่อไหร่กัน? ฉันเฝ้ารอจนชักจะร้อนใจแล้ว",
    "unlockRequirement": "",
-   "cnUrl": "90891b34f7b8c9dba13586181d86d6165db536d4a20da3ce2b4b17469f10356e",
-   "jpUrl": "eeb153a76010b0f2a4af6f0f0e0160942e6720a2d675634ae1d10b2e62c7592a",
-   "enUrl": "c2fe201a2a28b856cea560f0d4c5c615ebfd6dc447a6a7645efff651ecb1998c",
-   "krUrl": "5b3f8354f0ff08a46895148a07f4339909c95a03ef1b47350a028bcb7e62d24d"
+   "cnUrl": "f6032039844409363d25c3b9ab4eee83a39e69c8da466b140696b8be4eb95ad2",
+   "jpUrl": "6c082517d8e831aeadd551c1728e7c2a161e586d9a5b4dfb5d4146184f267b16",
+   "enUrl": "e3a13791dfbdafe0a091a964628eacd26b3c08ff01fc9384ceccb9dc2700bf8c",
+   "krUrl": "96125861484b0eb25ba22d52d6926b3b49c38e85b2ff52cc5c39a3c9d0a9294f"
   },
   {
    "id": 12,
    "title": "เรื่องที่อยากจะแบ่งปัน",
    "text": "อาวุธที่เร็วกว่าฉันมีอยู่นับไม่ถ้วน แต่จะเป็นยังไงหลังจากปะทะกันเกินพันครั้ง?",
    "unlockRequirement": "",
-   "cnUrl": "0c430d606e5bed70c791ca6b9c72ed8442f893b954ac21b52b94428900f2fd7d",
-   "jpUrl": "917f46976d764882b34d461dc0fe64b27c42e60b7a4ec3408a9c4dcaa95a2655",
-   "enUrl": "7a2b89b85ee34ca046dc9c7fdb7aea69b0fd97647309f22d0a1ad318390aca88",
-   "krUrl": "fa040acbc336852ae814bbbce2e907fcb3a90d5f09d05ee956414d67d3655e66"
+   "cnUrl": "3220391506d7a14e1d2426953216032839da12df58790743cdbdbeb1016e321e",
+   "jpUrl": "4b690b4f4c67faa27b8c8c28013af7ab00d947594830ec38e16056a41586df3a",
+   "enUrl": "0a243634c5970f47eb1703481e72d163790621b55b798f06d008cc92dffd22d3",
+   "krUrl": "76f21beabff15d5ad0efbf1b8baefae84228c56e12288ce95baae7a5fe0f2dc9"
   },
   {
    "id": 13,
    "title": "ความรู้",
    "text": "คนที่ตายไปแล้ว ไม่รู้จักความกลัวหรอก",
    "unlockRequirement": "",
-   "cnUrl": "e855063ea356f4b6797f71b020d328cb845a502be24cb043f38f41c303d01375",
-   "jpUrl": "f487c819589f2b67d2f06113414df8e9c331ba84a20c5138b1dc6d85e65cef45",
-   "enUrl": "589e92865bbf1199f4b284658d7e1d96d6298abbaf053d230d0075dab522d24d",
-   "krUrl": "78ad00f774dc65159931dabd89d8021a3f857e0b18ee4ac9863a8bae43488fc0"
+   "cnUrl": "c76e7d0dbe73c0f1422c2d67ebc0b7a68fb722f17f69d78edd134614b88d7007",
+   "jpUrl": "7f2a2d3e9df50879ac9b8af7378c852f2bfd63157861010eac77d21706971e39",
+   "enUrl": "cb71c1516245940df8122439d6cadb77a4d63f11c28521b4c3c95bc35f2fdb51",
+   "krUrl": "6c3c1a30ecb6e815ba7048a6c9f55664b6d448e2d995f65e84b779473ba1f70a"
   },
   {
    "id": 14,
    "title": "เกี่ยวกับ Kafka",
    "text": "เชือกที่พันธนาการ Mara-Struck อยู่ในมือของเธอ ก่อนถึงเส้นตายที่ตกลงกันไว้ เธอจะไม่ดึงเชือก และก็จะไม่ปล่อยมืออย่างแน่นอน",
    "unlockRequirement": "",
-   "cnUrl": "49bd96cb9e3610263e497f353d44f4c1293fecb9b7b75ecb6adfcfdbbb6f2f7f",
-   "jpUrl": "cb2326d691677072985cb31615453a171eb49da024c2580f49d7f017fb8827f8",
-   "enUrl": "edee1040860f0f8be40994a5decbc48b29ad5445533f3873f3bde43db369aee8",
-   "krUrl": "24d28478495130660409d15096c8c063fde75927ca846bd1976901dfbe0801b6"
+   "cnUrl": "8868ec5ad9e7d22dfdc46cc26321b5ea6e577826ff5f11acd43a8dfb58ee143f",
+   "jpUrl": "0b2bdb780b6c9f08a0d294c01da889289ec305de609d1ca58ed3e6306e6abd16",
+   "enUrl": "ba2305c6f0d85fd9eb79c98841e6b8192c06bba5ad7d2d19e871394fc815a31e",
+   "krUrl": "a37ff9728e6afb2fbcc032ce4b09ea4bcb4800a469e183f8b79a67082570a56f"
   },
   {
    "id": 16,
    "title": "เกี่ยวกับ Silver Wolf",
    "text": "ในโลกที่เธอเรียกว่า \"เกม\" เธอจะไม่ยอมแพ้ และจะไม่ตายจากไปแน่",
    "unlockRequirement": "",
-   "cnUrl": "bfe6d35aeecfac56626942fae5dbbb380915e1e8f15960ed4c430ef126570eaa",
-   "jpUrl": "9fa39e1ea5ec36c7cd9ab5b56b45620f51bac067287c48892660e4a2737f0a27",
-   "enUrl": "4cf3742e1403c6c51c11cb1860a0618d2cb4d6c7de43025369bf5a4967935908",
-   "krUrl": "eebd98882d74125c8282f1d935f38ed0022177fefaa85b65da123d93c786d405"
+   "cnUrl": "61b2f4d3f28e436f8c38821bbf125224905b9789e8656047d2cc9a779b5fe205",
+   "jpUrl": "5a5a143d266f3969e798c36a4610485f45bc16432f046318e27706a7b3dec23f",
+   "enUrl": "9e1581573d6998253005f0d7be8a46172c336d6be0e6e5091cbac14aa1de3838",
+   "krUrl": "5524cc95eb509e88fb12cf46bf5815cbdc08e9f97e993e8be957bbb8f1209d4f"
   },
   {
    "id": 17,
    "title": "เกี่ยวกับ Jing Yuan",
    "text": "เขาเป็น... เป็นคนที่เข้าใจถึง \"สิ่งที่ต้องชดใช้\" ได้ดีที่สุดในบรรดาพวกเรา แต่เขากลับไม่พูดอะไร และไม่ทำอะไรเลย!",
    "unlockRequirement": "",
-   "cnUrl": "b8260777852b17272604851d1e780b9e64659dfef1e111d6b266d0d54da37c20",
-   "jpUrl": "f5cd2cef3ba80c56741752edb04efcdfd761d14966cf9f994bc3db51027212ad",
-   "enUrl": "e464e4e58164de0142878245054a074fcf31484f07a9668e53bfbf980402f050",
-   "krUrl": "7a19cb80865105046b50f1e456807c20cbccee4147732fea565b57f94735e212"
+   "cnUrl": "b6cda3815cd83e2746302470fc6cb53b6a6c836c75a218294daf889d605fb25c",
+   "jpUrl": "268f22087bfdb618410887aa645f2a9163ab6fb65586d04fe1dca63ccc69be80",
+   "enUrl": "8dd6e94cfa9c831c7175a3c44b18c61178166406cb13760abc9313e58fb8052a",
+   "krUrl": "724384e26d34c43c519bf070cbd0b6d8939a92568853ad90e58723cafafc3acf"
   },
   {
    "id": 18,
    "title": "เกี่ยวกับ Dan Heng",
    "text": "จ้าวยลจันทรา... ผลกรรมของพวกเราจะมาถึงเมื่อไหร่? หนี้ที่พวกเราติดค้างไว้จะต้องชดใช้ยังไง!",
    "unlockRequirement": "",
-   "cnUrl": "efc326e0ca344fbbe745df5a60d1a98f5d4e99ae55103584ddfce31befaa496e",
-   "jpUrl": "0bf9f3bf1da7cde40fabdad2e25e898a427e9bffc05beb769bc8b167ba0a90de",
-   "enUrl": "b12df134f15cd38c8e58a2b1e5dc817206d73240d239e6de8d0402984bc4034c",
-   "krUrl": "f2b50446f63c11b3761f399bdcf4e63c7ebc9979246df8b023688b8f9fa68d16"
+   "cnUrl": "287b764b0a7bd634a669ffe6df39d0947773cccc0527e22feab807795526309b",
+   "jpUrl": "c8c74d836bcecb2dbb2a1767ab73256088e0f32450458a1b3179fa53d81b79fe",
+   "enUrl": "7f1a99a0d2a19b40bc609f1e57d8f18d728c60dba4eee4d417e7d7dc5eab1184",
+   "krUrl": "36193765ba6d671dba2125b015806875337fa8c292459ba603c7bcf8101350d4"
   },
   {
    "id": 19,
    "title": "เกี่ยวกับ Jingliu",
    "text": "เวลาตวัดดาบ ความเจ็บปวดจากภาพลวงตาก็จะแล่นผ่านทุกส่วนในร่างกาย... ที่ใดต้องดาบถึงชีวิต ที่ใดเจ็บแต่ไม่ถึงตาย... ทั้งหมดล้วนเป็นเพราะเธอทั้งนั้น!",
    "unlockRequirement": "",
-   "cnUrl": "4b3ea7c84d5f875542309a00b04914010ac1dab55fd42205b8ebe8cb807c0c1f",
-   "jpUrl": "f6b17aee722d41995d4ee7b72f8e55bdd7303ec1a9a9c8739999af5db992c466",
-   "enUrl": "312e63a647b9b339f9bbdab2d6703202e580ab27dc7df44de1db5ccdc284494b",
-   "krUrl": "aff7ae674c6a717a57c89df7aed021e2027312d8e918871f4d712f6f4de84fee"
+   "cnUrl": "633ef30675562e2e8ce7ba584e983da33463e67653a8a1da41714b7d5ad92a8a",
+   "jpUrl": "80d07c1141572395a8064ee4c3d01d348135a4a74416fa04ccb5f1424b75cba1",
+   "enUrl": "d0d36c71c06eb4419db98881475c2f6ac0dbf3bb251841333cc186016c4b2e78",
+   "krUrl": "9edb3ff61176b5593fc5d63793b6ef6cd22a55cc26e808d161bbe6f0d513582f"
   },
   {
    "id": 30,
    "title": "เกี่ยวกับ Sam",
    "text": "ฉันอาศัยอยู่ในนรก ส่วน Sam ถนัดเรื่องการสร้างนรก",
    "unlockRequirement": "",
-   "cnUrl": "4e663c3e060689e40416696633ea4cd8546d8a8107a1c44a776fa123522d450b",
-   "jpUrl": "b9a702089b60e6cac6e25dbdaa2e10fa007d0b69ab41d71a3c2494f7c90b8692",
-   "enUrl": "59d9e76d2ac5eadd449f1b20fb664d8c13f5c7dc47a14e8bbcbceb171c8aad6f",
-   "krUrl": "295c7ddc425ccddffb5fbe5515b8cd78b31e80b9aec7aab15a35252732a18470"
+   "cnUrl": "983bd522fc3eb5d68ac753c5599f9f9d2e4f4024cb3e0779e21c32e3614255f2",
+   "jpUrl": "cb741075b211f64337b82ee9ae319b57786590c81eaaa97944adb6a08d893ed7",
+   "enUrl": "bcd774e3ce6da5d43b6e0c315f12544df8b3ea40aaf6cf900d6169cd8101c9d6",
+   "krUrl": "5d803eead0b56ca7a66acbf07b85ce74e7a4b3b9078f1e0c570a49a3a42b811a"
   },
   {
    "id": 32,
    "title": "เกี่ยวกับ Firefly",
    "text": "ฉันปรารถนาจุดจบ ส่วนเธอปรารถนาที่จะมีชีวิตอยู่... พวกเราต่างก็เป็นทาสแห่งโชคชะตากันทั้งนั้น",
    "unlockRequirement": "",
-   "cnUrl": "8c4b8beea95cae3ea3886d1d3b17c0f6a938188f414e7d36f9eb9a350221df2f",
-   "jpUrl": "756641aef2e36e1a4c9042289db3292b973de710a1d3e70dcf2fa4e5d9a79799",
-   "enUrl": "41d08d1874e57067d8d8e53d6669bdd7a4b9093ddbbc203b1dc9a79c0e608cb0",
-   "krUrl": "4b3bbd9cabdf24cfd7229eb59f76bbe7ef00dd5adba4957591b9e70828bee172"
+   "cnUrl": "21cb76ebb1cfc6234c87d20949b23f7d43437e494cc7452bd07793f37244054c",
+   "jpUrl": "497354a23435a0dde691fe042177a1841ac58f842ced5f20a141aeba63499dd7",
+   "enUrl": "bdaaa6e136c17a4280a7a4d3617735e2bbab477d6cfd268949198d4df1460ea7",
+   "krUrl": "9e827107a1dc4d08e42172aee4bfb6b017f362cf16f2f7005f50ca3dc69ef3cb"
   },
   {
    "id": 20,
    "title": "เปิดใช้งาน Eidolon",
    "text": "ชีวิต กลายเป็นการลงโทษ",
    "unlockRequirement": "",
-   "cnUrl": "e6332ddc2aa8f32fde2f9f8940af21581928193c6932b8a7f35fada3292aa074",
-   "jpUrl": "fa6188dd1485e31d1e56bc0bc8c86e0d45daed5fa14149a7fba225a67323c4e0",
-   "enUrl": "47ae09008df8796eac69b75e06335e7e4499cd7baaa8965c3940ba81562d1d9b",
-   "krUrl": "68a5ccd948ea280d29a1470657c980b3a68442de41b7baba1fae3fa88909069e"
+   "cnUrl": "fbe567a552caddac55ceb7866fc89ab74afa857d49c828a1483ad718128ce8b9",
+   "jpUrl": "b23d93b7b1dd3e582a21845c23c4ba6b50fc8546c4825652885f89a47e38ba1f",
+   "enUrl": "0fcce80bcd235b6b2692c890ed100b690916aed80bf3043234f547899822c821",
+   "krUrl": "234a5f25d99ad92977c3fc89266bc49b964f16f3b7a5c1d72e1cdd4d81a39f9a"
   },
   {
    "id": 21,
    "title": "เลื่อนขั้นตัวละคร",
    "text": "เส้นทางสู่การทำลายล้างนั้น ไม่มีทางลัด",
    "unlockRequirement": "",
-   "cnUrl": "d6590f69b6c4b7d5934fa068c4953e9170fdc7b45c5dec02026f07d480c15eb5",
-   "jpUrl": "4287e2159d13109a51395090cc8bdf75b6b58c5835e13e367015ddd8ebd70c9e",
-   "enUrl": "a7f8188d8b82740c2e09f880e0431a18617b3cb3d1317e047f277f6b42d99a3c",
-   "krUrl": "3b5f6cfadb1a7162362d1dbd054d14348d3ef8c77e13c55b629caec8adee1a27"
+   "cnUrl": "97cf0941484af11d7c3c12e406a67bc594d0bd57d37107858fc9591fd964e98b",
+   "jpUrl": "bf724f5545d8e271fceb76d145c868d827ee2bd783cc70f140a93a0852b0b83e",
+   "enUrl": "0635f4dced0c13fca84ac265eef7250288b000777924ca7ae8f3bc004f1fb87f",
+   "krUrl": "38930f8f9b50e6a01d02e2fece3c3600d30480cac509ed0bd25e03b1897d4f8f"
   },
   {
    "id": 22,
    "title": "ตัวละครถึงเลเวลสูงสุด",
    "text": "หวังว่าทุกอย่าง...จะจบลงตรงนี้",
    "unlockRequirement": "",
-   "cnUrl": "3b18b90c4189ff775c79865ec84f478149026e5664c81f38154f85ef04b0a0c9",
-   "jpUrl": "41a0ab5b0e1e4ec06a51ceb87c77cf6eb4d352341c64b7fa81fec87a1a1ac2db",
-   "enUrl": "aa142707e845afefffb99dc6b9a044ad2d9fae12852f502099497689ad28bac3",
-   "krUrl": "73ae5c701ecafcee0911ada3b1bf753c0bd8e8e10b9e3714d86aead4f634db73"
+   "cnUrl": "72706f91288acd4d2cff925132c5fd301bd41dc760394473555888c4ab57f295",
+   "jpUrl": "6e7b03ee8583458cb6f7ec823c54e54fc8e7b1ff5453c73677a67e1878a26c35",
+   "enUrl": "e231245f31d02df4aa3c75078e716c6f9284a788d23876f9a0bd9cccc52ff20b",
+   "krUrl": "1bb4ea31fe81431042f5c11df6b21ad39c669ef23af345f58b72085eb0c4830e"
   },
   {
    "id": 23,
    "title": "เปิดใช้งาน Trace",
    "text": "นี่เป็นเพียงความเจ็บปวดที่เล็กน้อยที่สุด ท่ามกลางความเจ็บปวดนับหมื่นครั้ง",
    "unlockRequirement": "",
-   "cnUrl": "7eabb307b557609475725b44fa14b2f65862b478a36d09a1ec26ce26e26843be",
-   "jpUrl": "fab881d68cec952d1fac3c789e90411c64036ebb30233d2373cdaf0d85e1052d",
-   "enUrl": "a9ab0f6c2bcc0cd37ae904d637195d11f8180d10f6d98968638e64472e640bef",
-   "krUrl": "eff0d6f30cd08121be7ba7c80533e6bec44f820056c598100e7daaf56fec79aa"
+   "cnUrl": "779f75481289d14daa0b52bf5c67f1474c4323b4add70c8a69dcac7bf39df9e4",
+   "jpUrl": "7607c78b1ec5755429a71a5521a9aa86482d32a416cf0fa9cba1c4a7d651a484",
+   "enUrl": "dc517496bdc08f5c88305a790849fb2a6442be7ad7cbeb4345f5811879b9b0b3",
+   "krUrl": "d20af91f038336845ba4dfbf1576cde4800d9cef0464d08e011eaba448af4e52"
   },
   {
    "id": 24,
    "title": "สมาชิกทีม - Kafka",
    "text": "Kafka... สิ่งที่ไม่สามารถฝังพวกเราได้ จะถูกพวกเราฝังกลบทั้งหมด",
    "unlockRequirement": "",
-   "cnUrl": "0c0bd8cc1c2f1f340ce31b6930a0b7e12423241fb9d980e83839b69726efb3d8",
-   "jpUrl": "9d6e3aa4622f51cea424b8ac957563d4a0f848dcd7be4653469a67eb28b67dcb",
-   "enUrl": "e6846200d964d8797509bd8a081da3f4869ca68f3a84e4352614174b08027b13",
-   "krUrl": "a6887a245cc43874a807550514f4f31702b8f244d6a525abf401c254899cdb3a"
+   "cnUrl": "d4bb459a71cc5bd181a33162ff9a7e5ca70d76268ed51ad2f0addea5a95f8f1e",
+   "jpUrl": "d29a33fb2684c19c32f42c98d32c22f00ba0aa661fabfe876a995a13df9132dd",
+   "enUrl": "1067dc2513ab1c99de04351b81d072451dcda5523f4c973abcc95ac67a633a54",
+   "krUrl": "cee19381ee8e898f6b2b1f5b47ef588cb5bf412954ee9d2941ebe14caa16a0de"
   },
   {
    "id": 25,
    "title": "สมาชิกทีม - Silver Wolf",
    "text": "วิธีการเล่นเกมของเธอมักจะทำให้คนอื่นคิดไม่ตก... งั้นก็ทำอย่างที่เธอคิดไปละกัน",
    "unlockRequirement": "",
-   "cnUrl": "a11d6df304d079c9a8e73f170cb4725e3dc13b19c96158b5b514024f16e0c04b",
-   "jpUrl": "90d2d8bf0552b49164265bcd32f4d0754f22f03ccc7920d9a440597f3bb9c385",
-   "enUrl": "889eecad5c72325466421575a75b91ed61ef0292fad7c6bb6271c03563ec844e",
-   "krUrl": "ad9a3dd68d5b3d770b05ed790d538f70e473099601c129c90be5e5e822995421"
+   "cnUrl": "0d9de0c293147b51d6740837927abce5a27c86385b9ae6a2b2297b1f951c3464",
+   "jpUrl": "68ef436fc2f454560b638f9a4d2992e36a162a21691305c0523c3e095277efb9",
+   "enUrl": "85cc04fe446da654da1c6f822b6eadc51e4d1ee735d3064b5a5fe3dab0c60743",
+   "krUrl": "348bc45d583bdc9b30e298bedb04918e39e0fcab1b6c14fd4248e8d7f2c39bf7"
   },
   {
    "id": 26,
    "title": "สมาชิกทีม - Jingliu",
    "text": "Jingliu... จงเป็นพยานต่อความเจ็บปวด และทุกการเคลื่อนไหวของฉันซะ",
    "unlockRequirement": "",
-   "cnUrl": "5639a585fae7db0ed0152d989d617dffb4034555842799864943bfa43ebfdb19",
-   "jpUrl": "c7baa36083412e3acce7cb50b591accbd13f9d3e9fa4b0ac0bcf364d39111d66",
-   "enUrl": "c0cb804591544606303d999a8692d8d15b6221cef7a5cf91582bae710505df2d",
-   "krUrl": "aaf705053bff5dd991607ef3e56f3896566502f12858afa57b0e41f4958872e7"
+   "cnUrl": "efb09ca56ceee923415b19d5a8e182fd56d33b5188dd7a7037fcc59a95bcaaa8",
+   "jpUrl": "eef41edee1bc8a5104ad87aa720166fb650f6c06dbbbb55725619b939888ae46",
+   "enUrl": "9b6de709d3325ed906641a1c9a198e51d925c73b512acc537b2fe49e79902e4f",
+   "krUrl": "ccc02504d833ce75cad5f86c8a7673bf6c89ac2921e5c26204675d1cae41e0fe"
   },
   {
    "id": 27,
    "title": "สมาชิกทีม - Jing Yuan",
    "text": "Jing Yuan เมื่อก่อนนายไม่ได้ชอบยุ่งเรื่องคนอื่นแบบนี้นี่",
    "unlockRequirement": "",
-   "cnUrl": "7298c557baec06a0cb183b2182a6fe44d1af78a1a95b4089ba34f59cda6f120b",
-   "jpUrl": "369950e387988847ae0048ac173d364aa0ecb2f893445c8d2eeece9d37dd88ab",
-   "enUrl": "4fc6f03154cc99bd8010a95b1fd791ab0fada005863f6fd051c9f8a022e33741",
-   "krUrl": "6768f45c131e531cec958fca81b88a1c14423296d25baf8179023c9cea4cd612"
+   "cnUrl": "fa64ed0c63588d820f59860206028d03af81ce1a5162f5b8324718b30018c8aa",
+   "jpUrl": "53665dfe28fa48e5c2a2934e254bf364ccf42226103b0d3e7f44855766c9c339",
+   "enUrl": "de7e070ea7d4a356bfa015ead5d5496cd1d9baba9ffa5e12a0c6b1792622a962",
+   "krUrl": "f622125a7b88c69a32e3aa389b3174a15c5d7cb9309f407c6cccdeeef933becc"
   },
   {
    "id": 28,
    "title": "สมาชิกทีม - Dan Heng",
    "text": "มาแล้วเหรอ อย่าให้ฉันเห็นช่องโหว่ของนายเชียวล่ะ",
    "unlockRequirement": "",
-   "cnUrl": "3ae111d896fb6009d0dbdf8db85188f66d31718ed4c7db4d39e770d2c7e515a4",
-   "jpUrl": "f58ce0721891f78b7fa4eff2c7980c7d10c80eac9e4870b437c6110c89604bc7",
-   "enUrl": "f8a40c3eed33655d71b4b059ccdd70fe28760900c5c5ea5692ad3af31300b931",
-   "krUrl": "81954414fccf0c672593886c5549f1266ebe0522eab8fe2dd20a3e0e925f9ca0"
+   "cnUrl": "a2a31c082ca071d943d0fa0e7ebd9a3741ecd886718a9b9882bbf7eb78884a8c",
+   "jpUrl": "5fcc2e14bb929cbdf7a30bbd518197d962d28a1c9556223c07c692d9042bdb96",
+   "enUrl": "baf1638d21d43c1a44d25183532b4aad34f0fc7649fc111c834e803aa234fbb2",
+   "krUrl": "b6da948cde9c1cb30eb23a80a6b29d2fe3110b07a840873c9749975927fbaa90"
   },
   {
    "id": 29,
    "title": "สมาชิกทีม - Dan Heng - จ้าวยลจันทรา",
    "text": "มาแล้วเหรอ อย่าให้ฉันเห็นช่องโหว่ของนายเชียวล่ะ",
    "unlockRequirement": "",
-   "cnUrl": "53b15007bff77fd073665179db07b77c15eef29f00d533e9dd4ae479a9dca83f",
-   "jpUrl": "871ce560ccda9ed698ed6621503dd24d80801d1c7dc49df94c5d6670e0f60e95",
-   "enUrl": "1d41679b27ab556619e7a42d137fcebadd504e27e408c18f5dc731f642f7d646",
-   "krUrl": "81954414fccf0c672593886c5549f1266ebe0522eab8fe2dd20a3e0e925f9ca0"
+   "cnUrl": "9d2e4018693030e0b9f77ed757e2b1f42407e69f9e58fa65ce98537029045cc5",
+   "jpUrl": "6cc91ce708bba4270bace135d58d624aa73e096b4ce70320dada3bb022e82330",
+   "enUrl": "6814a6414d87649d7fb6819974e1e8ae49d7423677e4a807337f0fc1172657cf",
+   "krUrl": "b6da948cde9c1cb30eb23a80a6b29d2fe3110b07a840873c9749975927fbaa90"
   },
   {
    "id": 31,
    "title": "สมาชิกทีม - Firefly",
    "text": "ลองทายสิว่าคนที่จะไปถึง \"จุดจบ\" ก่อน จะเป็นเธอ ฉัน... หรือว่าพวกนั้น?",
    "unlockRequirement": "",
-   "cnUrl": "fd7e286be443a20a015b393bb42be6ef058442849b39393ae85e3b97f5f3dbfe",
-   "jpUrl": "feaa162d8c7c89277023e14d87a21c08380dc76d8757a018678217f2c6635a2b",
-   "enUrl": "8017868d8e1aeb6742c5d28e1d3fd34346df3a038bd0eefe84934c5a1450f2aa",
-   "krUrl": "2785ca64e1a736de5255aa9a2a61efa2b8d3e93ae2562344c19f2460b7703005"
+   "cnUrl": "eb73805cd278e98b19ee93f94704abe0757313a5e8c752426655a511f9d384bf",
+   "jpUrl": "453179b98c08d77f84fd77a0afecaaeef6b222a0908e492711edad01928e658a",
+   "enUrl": "a5caeb45f1e646288f69086a8dd905abb5f6e052d38b26b3b345a7cabcb5492c",
+   "krUrl": "2d0f021442cd79552edd085a08595df21afde6bc09a86c43ff61bca2236c9fba"
   },
   {
    "id": 51,
    "title": "เริ่มการต่อสู้ - ทำลายจุดอ่อน",
    "text": "แกขวางทางฉัน",
    "unlockRequirement": "",
-   "cnUrl": "e3a7ba85f23a80211464d524dd5d4820740cfa4cef130bfc91a0b6af8bce5e68",
-   "jpUrl": "741a0fbd3ebe217b27b90e11afbad982e6b585fc32e3df68d27caac91af19bf7",
-   "enUrl": "d4ca4bb76915bdcaf030feb218f785001f8bd1218c9199afc52965ba198ff01f",
-   "krUrl": "374fa0a5c1f1b35e92f63f8e4665a51c13432499397e6e3065f932f49d9fdc94"
+   "cnUrl": "f62078345aca726f6c80b2f388fd0a63e52856464e0c88bfee979359e7916f07",
+   "jpUrl": "5b74c6c9644024276571702b36cbbaa3add79626dce78d8293db7d05c96e7f8a",
+   "enUrl": "e292098e68d48588d85091bc30f62379688fb7834f15ce7a89a125fee0e656d0",
+   "krUrl": "e66849fc97b42160cdad21b23a38212938e482493542a3755958060689c101e3"
   },
   {
    "id": 52,
    "title": "เริ่มการต่อสู้ - เตือนภัย",
    "text": "แกจะทำให้ฉันประหลาดใจได้มั้ยนะ?",
    "unlockRequirement": "",
-   "cnUrl": "71cf65e75e0e2400629f07cf953817e29e810897b8861b0e0136c87a64f070c3",
-   "jpUrl": "617b09db38ea1e5af6e8fb301fcc9444cc12441a915b11fbbc505f17ed49933b",
-   "enUrl": "f752ab048d7f15d243f9474d3872619b9f31dcce60ad1a456a22f99e2dc4c757",
-   "krUrl": "640addae2775b8c06a4c58193d3c3d647f96c88ab29c4427a213242bf21469ff"
+   "cnUrl": "2f5f091f98ffd79fb42e9ad038d3bc006c7322dd208e26ec399f5f534c28a6e5",
+   "jpUrl": "6fb56084c578c29203a42b226e818ac443ef48b5649dda565d6a296ecbb56750",
+   "enUrl": "b362b7eea9bcf9909ffff9153205d011de6c84f5848c92328b18d68c46fd5842",
+   "krUrl": "eac953b3d74fe612a8a6d5360442690bb1f98614122f026e075bc843c5d3b2ae"
   },
   {
    "id": 53,
    "title": "เริ่มเทิร์น 1",
    "text": "ดาบในมือของฉัน จะสงเคราะห์แกเอง",
    "unlockRequirement": "",
-   "cnUrl": "2db3c9df7c363c6c8ffff0daf298d88a3042357379da56b4c843ab7da7c06e09",
-   "jpUrl": "c7d6d60465d10e93ea11a8121bdf18702d7ee277b7cbe72bbc5a872b4461bf5b",
-   "enUrl": "d83299376519e75a94a5332f724ceca2efd449df7ec279860f7bdebfea062e74",
-   "krUrl": "8048997d62380d3c5a099886a4485acdcd6cbedeb73a2d85448e93f10e4e6f5f"
+   "cnUrl": "293be29f08d900e5764f107f7f1e0a19f6314c0888e96217a6f5d1d1b3dde4e6",
+   "jpUrl": "3bc743dd5019cbf5999f3ed4caed7261da4f93533aa5f820f11dc34e122eb63b",
+   "enUrl": "485ea3cc26f9a8ea04b9119e9b63b089eb0fe1e28f8b0e364fe870856a68d04d",
+   "krUrl": "06747e9e1dc8779e2f77a45297f740280d28d17af40b40cc1b34384122e50508"
   },
   {
    "id": 54,
    "title": "เริ่มเทิร์น 2",
    "text": "ภายใต้คมดาบ ไร้คำว่าปรานี",
    "unlockRequirement": "",
-   "cnUrl": "18bed214e7e79d9195b6577c4583dc2abc2494ce87cd5df79fae223588c2792f",
-   "jpUrl": "e874002ef5dd21443086b25c154265e321d574002a49ef426ab30eed34575467",
-   "enUrl": "ab160f93bb006eab26e75fe9dcc18dd13e691e6efd2a8018d1e2ea74eaf3d418",
-   "krUrl": "7e72eb57709966c93109a914c45d543683c22367a45583cd393b07af8115ce9c"
+   "cnUrl": "74b141c46972639061a04f675657a8379b96ac7fb63b97662826ec0ccbff6f3d",
+   "jpUrl": "1cdea0f779bfb40e027593806716522b2430f0c4f2ee8036744c0fb51efa749b",
+   "enUrl": "e01c31efaf653f979a81ef94388c3b703d59bf9377843d14a8db8aa8e40b2aa9",
+   "krUrl": "f8e80b5c12d3eb9bded65c70376909dd7194f949b4c63ee112c78b2ef8a65131"
   },
   {
    "id": 55,
    "title": "เทิร์นสแตนด์บาย",
    "text": "รอนานเกินไป ระวังจะหมดไฟซะก่อน",
    "unlockRequirement": "",
-   "cnUrl": "5542668496dc0423689b4b5a4c10e45729a1422b75ed94b29bf6d363b95fbf52",
-   "jpUrl": "3df961f1e1b47f930690e5edb55b5aad9e8db84e0bef4624bde2bfc62ef585c7",
-   "enUrl": "a132d4b09d1d91fe44d7bac07f0f01b7f19235be361d3951eca6d263d59adccd",
-   "krUrl": "893b8d28b201e4f6888d0655680655b433cfa2ea05792d35e1cee14f5e49f31c"
+   "cnUrl": "3abe44d1f132581cc94b72fbeddfe978893e9d6ac617f1c2ff909a0e76cb3675",
+   "jpUrl": "cf6af38d643eedab070240e2078e86a1357adf36f0de68d331325a7eba5c124b",
+   "enUrl": "a3e1d3e8aca1829ee268ee87b1be50142d45d77af4682dd285fca71f5e01318a",
+   "krUrl": "9403f70f6660e46bc3ac5109581cad2b26b1952aa991726df8b73368f5c86162"
   },
   {
    "id": 56,
    "title": "โจมตีปกติแบบเสริมพลัง",
    "text": "เอาคืนไป... ให้หมด!",
    "unlockRequirement": "",
-   "cnUrl": "85b7e85a6a81f71dbdfc12f1387b64ea63ee8f76365e44e2c484f863e7714420",
-   "jpUrl": "caa1e4064868ef00b3e5f03c9548da6563b151a1add4104520eb0878698dd7a2",
-   "enUrl": "385b01ba05ce0f1ed19a9d18b1a3d356e4401432be0ccce9650e0eadaf64d5fa",
-   "krUrl": "55c1253c0eefb368aee3a7854da6906268ab3eaf53d24917889d2fe2ecf66657"
+   "cnUrl": "c52c47539d4f3668f9494ce8a0cd6d776c52cb67bb52219bddf0bd84d93b6764",
+   "jpUrl": "95ee4b5e46dfa14eb6cee8fc3c12baf75eb15bfd31314b2bbe7b95acde0986ec",
+   "enUrl": "6bd157648ed1d278857e6e4392d918bc14f71eb278186226e3afcf1489614918",
+   "krUrl": "7f1f44ab8cd5d7ac2f9bb1357e86da6caa1e627870b0d83bacd9de88a7634433"
   },
   {
    "id": 57,
    "title": "สกิลต่อสู้ 1",
    "text": "พลัง... บังเกิด!",
    "unlockRequirement": "",
-   "cnUrl": "5d07c3818d28699958e849bf8264f47512e4e420f3d673d7b2cffa39e5db334d",
-   "jpUrl": "fc1a737cd8224abceb32d8dff2aa1f41fc14b9256410b1e279767e1d5a60ea8d",
-   "enUrl": "cc88fa41d6e1bc2c14591ff54d5dad690a8944d2033bf3b866b3df9c8975a2c6",
-   "krUrl": "42c2554788f5d74df78497f67c5799a59b5116254b3faf3a4bbdb3610931c63a"
+   "cnUrl": "3aec026ce0e947b6d9b3ef3263d3385784db576bffc9666f9cc59297930919b1",
+   "jpUrl": "f883b93ea98c05e7cde849dab1e2f3530ca0898e72460b9d6b0aacc22a755109",
+   "enUrl": "3a59e1e37f18d502dbee8b6c4fb4cedb74f1f845a49c0b13240ec22e5bf74fd1",
+   "krUrl": "060c4283b8f547c7894a077c59187b09a5adaab63e283b2c8ac53e1730f29697"
   },
   {
    "id": 58,
    "title": "สกิลต่อสู้ 2",
    "text": "ลางมรณะ...กำลังมาเยือน!",
    "unlockRequirement": "",
-   "cnUrl": "0f971a5893896a4422a198a4b811ce35448170d62f26a3d2fae52944f027db4d",
-   "jpUrl": "dab388a03aee5f1f19d8988140a51d090be1d90a764a7c8094ecab4a0f49eb68",
-   "enUrl": "413b85e5108563db077271e265931d31386e509fe8cc943fec603c9adfae1687",
-   "krUrl": "8cd019255634f780a09c953d101399ec06fe65fa590223a8efd3483bceb03789"
+   "cnUrl": "9b2e8b55949135e41ad186ba8612872888fadadba90b83cc75630e2fe0fda671",
+   "jpUrl": "bc15b5328edbf95d5768dbb59383ce9440d8f236f992711bc774feb2c246f8fd",
+   "enUrl": "40fd579b123037968fe456ced688cf704f00f7d1654484ef73d101902c068152",
+   "krUrl": "01a9bf4fa4ac53c488de899e73bad91ca33fafaeee0f61b535d78dbd84d2628a"
   },
   {
    "id": 59,
    "title": "โดนโจมตีเล็กน้อย",
    "text": "ยังไม่พอ...",
    "unlockRequirement": "",
-   "cnUrl": "9405d7c20dde48bbeb70a1c6cd8ff0aec9c5d75dd59c23e39a1f176b4813fbe8",
-   "jpUrl": "c8e15a43f911e467e1eca8b958a7e1cdf7776ea52db8605cc0b9a9df33b658bf",
-   "enUrl": "9c4d707277ef758c6aef590d897a785cc7520dba8acace6ce548a29f27300dfe",
-   "krUrl": "e22d717b6c55f0c8d6b1cdfa0a7e306db4439c8c2a9fea448493e44d069f5c68"
+   "cnUrl": "e2a24bfbdc9fa2d3a3f9bfce51cd433fcb839af083161e099e8ed533ea11fbf9",
+   "jpUrl": "c87e9ef04848bc2a492866bdba2bc2f8c9c5a7b5b1e3bd7a442747540d07a9a4",
+   "enUrl": "af3ce54aae754d97b19557f3f0be7ca76b51a526017eee085776a4470922cc73",
+   "krUrl": "450fa7f33d603eb93d3ca16437d28948b45350fd2dfea03fd4fbe4460cd098c6"
   },
   {
    "id": 60,
    "title": "โดนโจมตีอย่างรุนแรง",
    "text": "ดี มาได้จังหวะเลย",
    "unlockRequirement": "",
-   "cnUrl": "cb969d4683bc3ced50883f442c7f165c987373b2c83912e0bd9885451669dc8e",
-   "jpUrl": "2a55bf61baf2bae3661c69889968465f9d45fbd2c3e438e284ce5ab17dc95789",
-   "enUrl": "7ecc1ee8f9eec7c2b765925fdaa2f090649d7b198708e1cd41f63509045e2b40",
-   "krUrl": "008a5cccee84ca5605c191a6f3ec5f11ed8abef38ae54ad1ac2d9355426520b1"
+   "cnUrl": "ac7d2e07ec125697b460e09dc4ce9dffe5316f67389367f0eab4882c62e015de",
+   "jpUrl": "fcba69e4f1d0e3926a2cfdc266a00b378150f40b89fc992de0502717a1945fa8",
+   "enUrl": "76dfa37a49bef17d41111fc3c71b82114ae440550aca42ded0e732ce32b61843",
+   "krUrl": "29b41a2cc0fd62ed347029d1933905c8e7c19223f944909dca767faa79603059"
   },
   {
    "id": 61,
    "title": "ท่าไม้ตาย - เปิดใช้งาน",
    "text": "ทิวทัศน์อันงดงาม แม้จะอ้อนวอนก็ไม่อาจได้มา...",
    "unlockRequirement": "",
-   "cnUrl": "62691aa5576de3b790e2f68a5a0870a1c9479302402bddfb2a600a6f9a9794b8",
-   "jpUrl": "fd746fee43be62b621515b01255bcc8360b0de46f6c75c8a76ee009902dae8f4",
-   "enUrl": "747661bb14d0bbf8d72f34094ed7c3972d4788a09148751d19e2f17a0f3ed7ff",
-   "krUrl": "0a79788a1259771194dd235f9e87319a37a2183811ff7be77b8c39b01d4a178a"
+   "cnUrl": "6d87ba3d138430eaed3607ba17e15ae47c15de34d6b8049b44e53a58bd4463ef",
+   "jpUrl": "b2a91928f96058a3afab4ccc1ccb42ed9deba7ce727cfd57391cd6fdf2cb3f15",
+   "enUrl": "bec3674b11550f696381f61de1d37ec12fabf6fea3b5712c75adb42b2348cbb8",
+   "krUrl": "929f07c77c8985f5d5899d73c292fc4a38f397594e10e7110cc06dc2ab011723"
   },
   {
    "id": 62,
    "title": "ท่าไม้ตาย - ปล่อย",
    "text": "ทว่ายังเชิญให้ทุกคนมาร่วมชมได้",
    "unlockRequirement": "",
-   "cnUrl": "7033f639cc2b2db586ca2fbc54a00463f98493844027a34179f83fa33ee8cb59",
-   "jpUrl": "701c7221806830128f037069a02f3754448b8083a1d5ffe9d47efc0ca94a97cc",
-   "enUrl": "0ccd3eb96e1e0740f5815fdb6fd23eeffcd750cf1016c5111265a16a83413e49",
-   "krUrl": "bf5efe51d3237c642fbf792d328ff3dd8bad302db13239509cecbb0bcab499b9"
+   "cnUrl": "b637d97593c35f0358088516fbb501c925ba50f7afbeaea773d5a23c89554c3e",
+   "jpUrl": "16f6a088a8ec4634364a77062a41a2a6c2b3795fc14d77da15cdae6b8e36bbc6",
+   "enUrl": "0fcf9df2649a9bcded35c124dfcdb18289b68411cb1cfc6eb1bd978fef9d78aa",
+   "krUrl": "2c7402e50cd4aa2a468a3caaf413c00cece662cd86afe57a8d180fc21b10717b"
   },
   {
    "id": 63,
    "title": "พรสวรรค์",
    "text": "ส่งไป...โลกหน้า!",
    "unlockRequirement": "",
-   "cnUrl": "ce88515d7c381d31d53891e42d721731e07e4f2f3db18e2579a23d584a2b4dbe",
-   "jpUrl": "bc211c0b9139ae50bdcaa152c3cad84df42bcd34e7f8e54137791269ca3b9c3c",
-   "enUrl": "0abf34c1691cad9b1c29b9b7adaf71f83d2b56989049d30bfe1725acc28c361f",
-   "krUrl": "85887b61f06db69cdda34c810acffe8ef7731c51f66b29b1d72a3825ccae562c"
+   "cnUrl": "569e7ce14b9f4d190acd9e05ca4f287125b76a5e40e92359d9f547fd2ef792de",
+   "jpUrl": "20e5c420f312912b8232068f878252586e1d2c848b13d15b9ac10f67c2833bb0",
+   "enUrl": "359a06cbc588f54e812feb2b0350aeb7667d9306700918481b4f9e853f927040",
+   "krUrl": "e2c7ab631b8982239e4396ac1c3df83a5f027c18c96ca10aa23ad254731fd602"
   },
   {
    "id": 64,
    "title": "หมดสติ",
    "text": "ครั้งนี้จะสำเร็จมั้ยนะ...",
    "unlockRequirement": "",
-   "cnUrl": "979b8546f89bc3edbf9c076c15f7d6d0f66198917a2045ee295fc382a3c9aa2c",
-   "jpUrl": "796ab8dad258102fb8b4857e227e6cad755599ff5174fa5b7bb2a25cb3f9cb78",
-   "enUrl": "c80280ce3a0ce40f2cc70146017dc22cefe2930030e03f3123e5d0fbd09af7b9",
-   "krUrl": "a41993557b410fe97ebfa051465eb5c51ba090eac425e36cce856dde35279d2d"
+   "cnUrl": "e83666c3353ed200cdf85b4e0abd037c98e7284cf146101ab67a4eee3150ec7a",
+   "jpUrl": "1732660132de7181904dce1e0e62e246313f02bae954e02404a4f688e08eeec6",
+   "enUrl": "be28e1588bfc9201d803e9c9297052d4d4eb698ab297550b0440f852ef97f985",
+   "krUrl": "e3c72492ba2d7b45136b44a3a23f45f6bfbe71bd48af8055c8a56ec75a9c9f95"
   },
   {
    "id": 65,
    "title": "กลับสู่การต่อสู้",
    "text": "น่าเสียดาย ฉันยังมีชีวิตอยู่",
    "unlockRequirement": "",
-   "cnUrl": "b5d128618b3f356e5c0187cbd172361e89bff8bff6635c5ff634462f6dc2074f",
-   "jpUrl": "3b33583f1a5e065f2b1511822c50dcdb573eeeeaff6720f92976982d59f90de4",
-   "enUrl": "40ff4e209516f89e4a583baab8fbb9e9f90003ced1b4ea2ffdb1cbfe25268d9c",
-   "krUrl": "9638cd45ac66cd660d8521f9da4a743543f7a4776bed7dec74b1634a0953a44b"
+   "cnUrl": "c75a901f3f3dd0517602a5d06e52d84e366bc4b656c09aa20c048224ec3c1d70",
+   "jpUrl": "f3b2ac33a6bacb4a4854df5e561ee1816c917d7bc152ff6d57b36a49f77b60b4",
+   "enUrl": "846d4cd449da4de93d0ce523e12a198878e70b9adb53eea2e9d85263e7a9a00e",
+   "krUrl": "4891354154e3b8401d90f9cadc6e616897e855913d977cd2eb429d3d90fc70e1"
   },
   {
    "id": 66,
    "title": "ฟื้นฟูพลังชีวิต",
    "text": "มากเรื่อง",
    "unlockRequirement": "",
-   "cnUrl": "02100bb5cda3981ea74490c671082381d9945ed4ae045fcc12ce44b4d2c6e692",
-   "jpUrl": "1e5395e7b807db474fe18e11c8b8cc605bfe020590bb2d1d345bc90bcecb67c3",
-   "enUrl": "da658b6998a6dc78aab609a2bafa83df64e01cc5e555ef1715b6723c37f30202",
-   "krUrl": "cb01a0485381aa1ee0a6281cfdcb9e5e7be2e43caf6a5e82c7b431ad8dea9a99"
+   "cnUrl": "f8862172a62d6ecf1658c865760e8d9afa680d500fa0e9552f86322b70337788",
+   "jpUrl": "c8bcf01c34c1874a6a3830fbf48a7d5649383e6b0b884711014d91523ab7bcf2",
+   "enUrl": "2ebd8d9159773a4d98b3966382454f5f0fe1fcb9268c62f3a9acf646d8715d7b",
+   "krUrl": "8f61912f0e16384c7a8b94a7ce2161050d115a191a0e38128573587a9e606df9"
   },
   {
    "id": 67,
    "title": "ชนะการต่อสู้",
    "text": "ดูเหมือนดาบจะยังไม่เร็วพอนะ",
    "unlockRequirement": "",
-   "cnUrl": "f9ddedaadea40a04a3dd481c95e414a4c8c5d05eebbb4df3264810adf98574a9",
-   "jpUrl": "fb7e2e37dde83cbda85ec279303143b5d41019d38e6604165638f2b32e7c3910",
-   "enUrl": "462eeb45b9c8ac3314f2f8e6e4937febd07e3dea281dabb55fddbff2444874d1",
-   "krUrl": "476a87dc3a7af9fd9bdcd388ab7c38c5a987f77a65edf9b4c4e60b43fb1057be"
+   "cnUrl": "ca0a5980761d09f8d8921974b68440072efdc580fc869aaa53bb17b12a75d272",
+   "jpUrl": "bab6a1d78bc83a13e008bfef1abd01a7b8dcfb331c25599b393a389cb5f6c6d1",
+   "enUrl": "8ffbbf5a316785ad6ac52d04cb5d9492d8e97a7e7a44b7b9791c5111027a4890",
+   "krUrl": "f29f47f20d96d00431cc310a48b8c0d54d686849cd2e1b2981b9e31b5cf9b851"
   },
   {
    "id": 68,
    "title": "เปิดสมบัติ 1",
    "text": "ไม่มีอะไรแล้ว",
    "unlockRequirement": "",
-   "cnUrl": "9faf910bb39c70f6159b8a32e2272189a64bfb35677e77d5df3db7ab8cc34bf8",
-   "jpUrl": "d18d736523a2736617b797eca1d9ab3dd6e5f1647c742dee4555baab08057165",
-   "enUrl": "327bcd0e20b8d548b1ae525693118e9d51cb41a39f9a3a6a96c6c50a3bf7ecae",
-   "krUrl": "16956c88e43d31df0bc4973a7972a18f9f6e279a187236e40820a62663abcfb3"
+   "cnUrl": "a6deaf46cc90426975e4f923b7b97d605c49f3db3cd8baee6f840810e2dfd2da",
+   "jpUrl": "29bc8269174c3d6d7b07bd87bf58c34b21234ba04b1677ecf2e2530711f5c9da",
+   "enUrl": "54d82e68a60a39bab51f62b51348ba77e8a550171ee6a99edad35d4b53d536d6",
+   "krUrl": "4aac3717c7e08a9e650fa664ebe62767c1ab8344d0420af3c4e708fbb19a75b2"
   },
   {
    "id": 72,
    "title": "เปิดสมบัติ 2",
    "text": "อืม",
    "unlockRequirement": "",
-   "cnUrl": "f18ac5e19bf21f2477b86216eaa51e3a3913c0ba646bece49a584dd0ab5ec02d",
-   "jpUrl": "85f1e1c6e0a307f14542c3b4c0fe03ef98a219e166b7af9e5e7535507875dbb7",
-   "enUrl": "4e1e46d7190d62bf3da3146a99d757553f01a0892828b9094ec273aca88ba632",
-   "krUrl": "b0b6fc3e5a90ce466263e6f7c0575727d164513b6ca697429cf614f4bffde1ce"
+   "cnUrl": "982a43cd66f97567380c97e94f98c7113d357be6f933c3fd8c867b6df77abcac",
+   "jpUrl": "e5a9feda24322f865505bd2248edc292c0b80487857977b6abd5e2035eb970af",
+   "enUrl": "beff29af1e8240e1650e34b3c2ccf583dba926e71025e95d1670289ac3d203e3",
+   "krUrl": "ed7153f044fe9703b1c4814f3f0eda6e647f109e2dfa7d55f84c1717c482cd43"
   },
   {
    "id": 73,
    "title": "เปิดสมบัติล้ำค่า",
    "text": "เก็บไว้ให้ดี",
    "unlockRequirement": "",
-   "cnUrl": "d2d17e9c1b73e5829b3594535ff2f76cdc54f0285f4c5bc28551090e6893b011",
-   "jpUrl": "9bd462b7a4f58ca47ea851bbab9625a634ad09d4faa295f10a1b751beec92781",
-   "enUrl": "ec1e0b6c7e506b342834160ed4293d16665a056451b4b88e5935f2e5886b6555",
-   "krUrl": "dd725422018cc977d66edddfdbe439d4d866b08dff150f62646d4b7c21299a0a"
+   "cnUrl": "fa74d18a6c2c156a3c68eb4b441759394beea75f3f2b80ebb6ec021c0c570be2",
+   "jpUrl": "a78ce5cfb3fc3b177ca4db227ebdbbf9b15f460fbc3697f38eff9de3b518fcbf",
+   "enUrl": "08f8b7a5263474b060aae1a0e1c0c7c252209ec8a1e0f6c6b6a2280b5f472796",
+   "krUrl": "1a1a89f0f5533be93db45c4a496c3924b4bc0db524d1b5dff9fb5b6918e7c5ab"
   },
   {
    "id": 69,
    "title": "ไขปริศนาสำเร็จ 1",
    "text": "จบสักที",
    "unlockRequirement": "",
-   "cnUrl": "dfb1ab1b0164d71eb1a547d7abcaf3cf9224d56b4df47221a0c65fab51e4c7f4",
-   "jpUrl": "65d33c9b89f6e383bc8834a5a9ffc6f00850a0aa1fa84733ce21c964deeabcbd",
-   "enUrl": "9802f00033abf4c3cb8e1d224dcd0f738d84972f7a32e7f7e4875f455c4db2f2",
-   "krUrl": "1249a7e66be8ad3e078a70388eec8f7f8173db85ed8827d598f98e18c682328e"
+   "cnUrl": "dd8b855a34ce41aff850700766976a28ffa8ef2b0dc155f1d4c9b2d5deac6924",
+   "jpUrl": "ee4179aca128cf74823d7137c1a024c0c05371bc5ab28e2f191233ab09c301e4",
+   "enUrl": "76ebe115b630a8a6ab62e4bbbdfa3cb266bbb242ad02e78b1fc326faa017fd08",
+   "krUrl": "0a9c6d3657247fe36753920d2c583ae5430197bb2cff507c64349a1c7d25a765"
   },
   {
    "id": 74,
    "title": "ไขปริศนาสำเร็จ 2",
    "text": "อย่างที่คิด",
    "unlockRequirement": "",
-   "cnUrl": "1b24b204abf1a2c76b78b50b87b21982a462ca13759c3a5d934e384149319b0e",
-   "jpUrl": "372534e48480b09bbd3240e162f7679f5db16cdae79aa8cd8940342abe9c1775",
-   "enUrl": "fb30ec58009e2adfdee196ffa03e3c36f4d27c819764e56e2ce84b9002d42412",
-   "krUrl": "e6755d6e6c68e300aaec0bde7d40001ae8128bbbcb7286b8cc760cf14e5cdfe9"
+   "cnUrl": "fe5cba95a0c3473a4af7d4d985fe5011b007433f3c2cd9dc792bb3562367a9b0",
+   "jpUrl": "a5cd006c67f37e8b3b45c65ddd5b6d0d13dc567b764517d175039b6510d734ac",
+   "enUrl": "14304f502f0e12a337680a86270ce269498bf348fbfd2c5e8f36c468092ab9f2",
+   "krUrl": "f16d79a4f7a8fef737696805ba50859841dd87a0c8d6e5e0616b665df8529667"
   },
   {
    "id": 70,
    "title": "พบศัตรูเป้าหมาย",
    "text": "เข้าใกล้อีกนิดก็ไม่เป็นไร",
    "unlockRequirement": "",
-   "cnUrl": "f09d486390e3430fab588b9f9051cb8b6d1ca48606fb795485469ecd4c811af6",
-   "jpUrl": "bad5af3d0de6fa4aaf95c8853decdbe6ec2772eb9b71f512827883731a80c953",
-   "enUrl": "d2ed88ec9b24cf9e1c66c480f343c36bc8bc4ac2c35b6708e072adfdd99f6bd6",
-   "krUrl": "3e4ec5769ebc93dc0297092ee7298357952eee2ae9833ee1dbd095033a8c48a8"
+   "cnUrl": "13aa8e1e7c881115d5fe190ea59b2ae9a7d1a0a12c2e8a564dd34e6f9d658516",
+   "jpUrl": "3d4fd02fc302a4d8d7d507b76815569f0cef27ceeb94ef1fcccf3560a49b2b50",
+   "enUrl": "4be831fe61f2f54ff9396f0e35f6ab819076b9dd44c9cdbb59b204e5d3425400",
+   "krUrl": "a7c5bf5ba09bb4a7c90f8518228d2559c164e753548a1eb37dde1669fe5c9db9"
   },
   {
    "id": 71,
    "title": "กลับเข้าเมือง",
    "text": "มีธุระอะไรอีกงั้นเหรอ?",
    "unlockRequirement": "",
-   "cnUrl": "607e8097e8347becf2f7c2e3f4437113bb885db3e5befe7e3469ccffd75278af",
-   "jpUrl": "b4b097434fb80aa89beae05f29224ee16e70230c5b53c785da175dfbe316516d",
-   "enUrl": "1f74c8753cd8b00b4a0ee7e99e509993e8adb546f01912e33d12439cdfca1bb0",
-   "krUrl": "d285c87a74d3113d7c4600c83016f99f71a4ceb8ce5d14b15e661dcb55dba805"
+   "cnUrl": "223bc144acee2ec9ef0f6ab64c4e16e89f502cc6547b1b9f1e80e1c18ef09643",
+   "jpUrl": "a2cdb8d6531a7514fff84dbbddf6079b00303884437d05c6945c443eb0d5e944",
+   "enUrl": "b0243fd7fd3aaba40b0b3810b8f25463f7b971ac1cdd2d5e6d4c59e9566e4d00",
+   "krUrl": "66e8fcce8100b02fc9124b92d517aafdb49d7e714303821113b5f686eb9bd558"
   }
  ],
  "storyItems": [
@@ -3120,6 +3607,1565 @@
   }
  },
  "hasServant": false,
+ "skins": [],
+ "hasEnhanced": true,
+ "enhanced": {
+  "spRequirement": 130,
+  "splashPlaceholder": {
+   "w": 0,
+   "h": 0
+  },
+  "damageTypeId": 0,
+  "baseTypeId": 0,
+  "itemReferences": {},
+  "levelData": [],
+  "ranks": [
+   {
+    "id": 1,
+    "iconPath": "271025fb61ef5f6ab71601d26719eb831962170f85cee1f95e05e60c12e68359",
+    "artPath": "7586c20a07f51a7094642277283ffe16486eb76156312459891b2df5df62879a",
+    "name": "Blade Cuts the Deepest in Hell",
+    "descHash": "การโจมตีปกติแบบเสริมพลัง และท่าไม้ตายจะสร้าง DMG แก่ศัตรูที่กำหนดหนึ่งตัวเพิ่มขึ้นอีก โดยค่าที่เพิ่มขึ้นจะเท่ากับ <nobr>#1[i]%</nobr> ของ HP ที่เสียไปทั้งหมด จากท่าไม้ตาย",
+    "params": [
+     1.5,
+     0.9
+    ]
+   },
+   {
+    "id": 2,
+    "iconPath": "fe1026de254e28061a54a686a38d19a24ca82eaa501616e5d669b5b3aaa79595",
+    "artPath": "3f3c61cd3f2db4e5f12af1250001d23933ea7fe836cd7c2d856cbf8fae4cc19e",
+    "name": "Ten Thousand Sorrows From One Broken Dream",
+    "descHash": "เมื่อ Blade อยู่ในสถานะ \"Hellscape\" อัตราคริติคอลจะเพิ่มขึ้น <nobr>#1[i]%</nobr>",
+    "params": [
+     0.15
+    ]
+   },
+   {
+    "id": 3,
+    "iconPath": "d879cee43e486a11cd5c728eef357176f324f42a8a46c476359d53030f197080",
+    "artPath": "4878a5b8b7c0c2df8dec93524e8e2dbc7ea2c837a8b2f5ac3b5441851d9b7419",
+    "name": "Hardened Blade Bleeds Coldest Shade",
+    "descHash": "เลเวลท่าไม้ตาย +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลพรสวรรค์ +2 สูงสุดไม่เกิน<br />Lv.<nobr>15</nobr>",
+    "params": []
+   },
+   {
+    "id": 4,
+    "iconPath": "84e75875a47b46bb6f5f57e42a1e255b46044de9b9b49d0f4da080648668cc48",
+    "artPath": "a58b4dd72be204557f47def98b51118f9ac2e00ef4557b2e6a3bd363d44f73f7",
+    "name": "Rejected by Death, Infected With Life",
+    "descHash": "เมื่อเปอร์เซ็นต์ HP ปัจจุบันลดลง จากมากกว่า <nobr>50%</nobr> เป็นน้อยกว่าหรือเท่ากับ <nobr>50%</nobr> HP สูงสุดจะเพิ่มขึ้น <nobr>#1[i]%</nobr> โดยเอฟเฟกต์นี้ สามารถซ้อนทับได้มากสุด <nobr>#2[i]</nobr> ชั้น",
+    "params": [
+     0.2,
+     2
+    ]
+   },
+   {
+    "id": 5,
+    "iconPath": "725f0775fd113afb62d32631747ecfe303b13ef95cf6a276bb3e251a1e389ee4",
+    "artPath": "49d8a339ea5bec5231b351b2171fe13b8d208ec28f592367d2e8b41548424e1b",
+    "name": "Death By Ten Lords' Gaze",
+    "descHash": "เลเวลสกิลต่อสู้ +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลการโจมตีปกติ +1 สูงสุดไม่เกิน Lv.<nobr>10</nobr>",
+    "params": []
+   },
+   {
+    "id": 6,
+    "iconPath": "403644fec5933768c5ccc261fa099028f53412889b6a7fb1e97b3c327a357010",
+    "artPath": "27be3617d91d38a20064e95489990ca7edb3e44f77a0f8048f72f4b5c5de8c15",
+    "name": "Reborn Into an Empty Husk",
+    "descHash": "ลดจำนวนชั้นสูงสุดของการชาร์จพลัง เป็น 4 ชั้น และ DMG ของการ <u>โจมตีต่อเนื่อง</u> ที่เกิดจากพรสวรรค์ จะเพิ่มขึ้นอีก ซึ่งค่าที่เพิ่มขึ้นจะเท่ากับ <nobr>#1[i]%</nobr> ของ HP สูงสุดของ Blade",
+    "params": [
+     0.5
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    19036485,
+    19348161
+   ],
+   [
+    19289947
+   ],
+   [
+    19015021
+   ],
+   [
+    19395448
+   ],
+   [
+    19098931
+   ]
+  ],
+  "skills": [
+   {
+    "tagHash": "โจมตีเดี่ยว",
+    "descHash": "สร้าง DMG <span style=\"color:#00FF9C;\">ลม</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ HP สูงสุดของ Blade แก่ศัตรูที่กำหนดหนึ่งตัว",
+    "ultimateCost": 0,
+    "break": "30",
+    "energy": "20",
+    "id": 19036485,
+    "name": "Shard Sword",
+    "iconPath": "50b75435ee3a82d5ef3573cfef49323b407ccdaa1237f266b0fe065d470b0c65",
+    "typeDescHash": "โจมตีปกติ",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.35
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.45
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.55
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.6
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.65
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.7
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "เสริมพลัง",
+    "descHash": "ใช้ HP <nobr>#1[i]%</nobr> ของ HP สูงสุดของ Blade เพื่อเข้าสู่สถานะ \"Hellscape\"<br />เมื่ออยู่ในสถานะ \"Hellscape\" จะไม่สามารถปล่อยสกิลต่อสู้ได้ พร้อมทั้งทำให้ตัวเองสร้าง DMG เพิ่มขึ้น <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> อีกทั้งโอกาสถูกศัตรูเป้าหมายโจมตี จะเพิ่มขึ้นเป็นอย่างมาก และการโจมตีปกติ \"Shard Sword\" จะได้รับการเสริมพลังเป็น \"Forest of Swords\" เป็นเวลา <nobr>#2[i]</nobr> เทิร์น<br />หาก HP ปัจจุบันไม่เพียงพอ หลังจากปล่อยสกิลต่อสู้แล้ว HP ปัจจุบันของ Blade จะลดลงเหลือ 1 หน่วย<br />สกิลต่อสู้นี้ไม่สามารถฟื้นฟูพลังงาน และหลังจากที่ปล่อยสกิลต่อสู้ดังกล่าว เทิร์นนี้จะไม่สิ้นสุดลง",
+    "ultimateCost": 0,
+    "break": "0",
+    "energy": "0",
+    "id": 19289947,
+    "name": "Hellscape",
+    "iconPath": "725f0775fd113afb62d32631747ecfe303b13ef95cf6a276bb3e251a1e389ee4",
+    "typeDescHash": "สกิลต่อสู้",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.12,
+       10
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.148,
+       10
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 1,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 2500
+       },
+       {
+        "id": 549504,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.176,
+       10
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.204,
+       10
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.232,
+       10
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.26,
+       10
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 30000
+       },
+       {
+        "id": 920200,
+        "count": 7
+       },
+       {
+        "id": 633445,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.295,
+       10
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.33,
+       10
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 80000
+       },
+       {
+        "id": 836259,
+        "count": 5
+       },
+       {
+        "id": 186254,
+        "count": 1
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.365,
+       10
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.4,
+       10
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 300000
+       },
+       {
+        "id": 836259,
+        "count": 14
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.428,
+       10
+      ],
+      "level": 11,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.456,
+       10
+      ],
+      "level": 12,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.484,
+       10
+      ],
+      "level": 13,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.512,
+       10
+      ],
+      "level": 14,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       3,
+       1,
+       0.54,
+       10
+      ],
+      "level": 15,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "กระจาย",
+    "descHash": "แปลง HP ปัจจุบันของ Blade ให้เป็น <nobr>50%</nobr> ของ HP สูงสุด และสร้าง DMG <span style=\"color:#00FF9C;\">ลม</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ HP สูงสุดของ Blade +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> ของ HP ที่เสียไปทั้งหมดในการต่อสู้ครั้งนี้ แก่ฝ่ายศัตรูหนึ่งตัว พร้อมทั้งสร้าง DMG <span style=\"color:#00FF9C;\">ลม</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> ของ HP สูงสุดของ Blade +<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[i]%</nobr></span> ของ HP ที่เสียไปทั้งหมดในการต่อสู้ครั้งนี้ แก่ตัวที่อยู่ใกล้เคียงกับเป้าหมาย<br />โดย HP ที่เสียไปทั้งหมดในการต่อสู้ครั้งนี้ สูงสุดจะไม่เกิน <nobr>#7[i]%</nobr> ของ HP สูงสุดของ Blade ซึ่งจะถูกรีเซ็ตและสะสมใหม่ หลังจากที่ปล่อยท่าไม้ตาย",
+    "ultimateCost": 130,
+    "break": "60/hit",
+    "energy": "5",
+    "id": 19015021,
+    "name": "Death Sentence",
+    "iconPath": "79290c92b3888021f88bc1ea135efa7ee71fbaae82dff46fe0be400eacd2ec8e",
+    "typeDescHash": "ท่าไม้ตาย",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.9,
+       0.6,
+       0.36,
+       0.3,
+       0.72,
+       0.36,
+       0.9
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.96,
+       0.64,
+       0.384,
+       0.32,
+       0.768,
+       0.384,
+       0.9
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 1,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 2500
+       },
+       {
+        "id": 549504,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.02,
+       0.68,
+       0.408,
+       0.34,
+       0.816,
+       0.408,
+       0.9
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       1.08,
+       0.72,
+       0.432,
+       0.36,
+       0.864,
+       0.432,
+       0.9
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.14,
+       0.76,
+       0.456,
+       0.38,
+       0.912,
+       0.456,
+       0.9
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.2,
+       0.8,
+       0.48,
+       0.4,
+       0.96,
+       0.48,
+       0.9
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 30000
+       },
+       {
+        "id": 920200,
+        "count": 7
+       },
+       {
+        "id": 633445,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       1.275,
+       0.85,
+       0.51,
+       0.425,
+       1.02,
+       0.51,
+       0.9
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.35,
+       0.9,
+       0.54,
+       0.45,
+       1.08,
+       0.54,
+       0.9
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 80000
+       },
+       {
+        "id": 836259,
+        "count": 5
+       },
+       {
+        "id": 186254,
+        "count": 1
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.425,
+       0.95,
+       0.57,
+       0.475,
+       1.14,
+       0.57,
+       0.9
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.5,
+       1,
+       0.6,
+       0.5,
+       1.2,
+       0.6,
+       0.9
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 300000
+       },
+       {
+        "id": 836259,
+        "count": 14
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.56,
+       1.04,
+       0.624,
+       0.52,
+       1.248,
+       0.624,
+       0.9
+      ],
+      "level": 11,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.62,
+       1.08,
+       0.648,
+       0.54,
+       1.296,
+       0.648,
+       0.9
+      ],
+      "level": 12,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.68,
+       1.12,
+       0.672,
+       0.56,
+       1.344,
+       0.672,
+       0.9
+      ],
+      "level": 13,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.74,
+       1.16,
+       0.696,
+       0.58,
+       1.392,
+       0.696,
+       0.9
+      ],
+      "level": 14,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.8,
+       1.2,
+       0.72,
+       0.6,
+       1.44,
+       0.72,
+       0.9
+      ],
+      "level": 15,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "โจมตีหมู่",
+    "descHash": "เมื่อ Blade ได้รับ DMG หรือใช้ HP จะได้รับการชาร์จพลัง 1 ชั้น โดยสามารถซ้อนทับได้มากสุด 5 ชั้น และในทุกครั้งที่ถูกโจมตี เอฟเฟกต์นี้จะซ้อนทับได้มากสุด 1 ชั้น<br />เมื่อการชาร์จพลัง ซ้อนทับจนถึงขีดสูงสุด จะปล่อย <u>การโจมตีต่อเนื่อง</u> แก่ศัตรูทั้งหมด 1 ครั้งทันที ซึ่งสร้าง DMG <span style=\"color:#00FF9C;\">ลม</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ HP สูงสุด ของ Blade พร้อมทั้งฟื้นฟู HP <nobr>#3[i]%</nobr> ของ HP สูงสุดของ Blade หลังปล่อยการโจมตีต่อเนื่องแล้ว จะใช้การชาร์จพลังทั้งหมด",
+    "ultimateCost": 0,
+    "break": "30/hit",
+    "energy": "10",
+    "id": 19395448,
+    "name": "Shuhu's Gift",
+    "iconPath": "5d8fcbd52c82d149efcad9ac2c29e373f9f3370a16b80f92b7b1f7ce40324acc",
+    "typeDescHash": "พรสวรรค์",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       3,
+       0.65,
+       0.25,
+       0.65
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       0.715,
+       0.25,
+       0.715
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 1,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 2500
+       },
+       {
+        "id": 549504,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.78,
+       0.25,
+       0.78
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.845,
+       0.25,
+       0.845
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.91,
+       0.25,
+       0.91
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.975,
+       0.25,
+       0.975
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 30000
+       },
+       {
+        "id": 920200,
+        "count": 7
+       },
+       {
+        "id": 633445,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       1.05625,
+       0.25,
+       1.05625
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       1.1375,
+       0.25,
+       1.1375
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 80000
+       },
+       {
+        "id": 836259,
+        "count": 5
+       },
+       {
+        "id": 186254,
+        "count": 1
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       1.21875,
+       0.25,
+       1.21875
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       1.3,
+       0.25,
+       1.3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 300000
+       },
+       {
+        "id": 836259,
+        "count": 14
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       1.365,
+       0.25,
+       1.365
+      ],
+      "level": 11,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       1.43,
+       0.25,
+       1.43
+      ],
+      "level": 12,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       1.495,
+       0.25,
+       1.495
+      ],
+      "level": 13,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       1.56,
+       0.25,
+       1.56
+      ],
+      "level": 14,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       1.625,
+       0.25,
+       1.625
+      ],
+      "level": 15,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "",
+    "descHash": "หลังจากโจมตีศัตรูและเข้าสู่การต่อสู้ จะลดทอนความทนทานของประเภท ที่สอดคล้องกับศัตรูเป้าหมาย",
+    "ultimateCost": 0,
+    "break": "30",
+    "energy": "0",
+    "id": 19373856,
+    "name": "Attack",
+    "iconPath": "50b75435ee3a82d5ef3573cfef49323b407ccdaa1237f266b0fe065d470b0c65",
+    "typeDescHash": "",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "",
+    "descHash": "เมื่อโจมตีศัตรูและเข้าสู่การต่อสู้ทันที จะใช้ HP <nobr>#2[i]%</nobr> ของ HP สูงสุดของ Blade พร้อมทั้งสร้าง DMG <span style=\"color:#00FF9C;\">ลม</span> <nobr>#1[i]%</nobr> ของ HP สูงสุดของ Blade แก่ศัตรูทั้งหมด<br />หาก HP ในปัจจุบันไม่เพียงพอ เมื่อปล่อยเทคนิค HP ปัจจุบันของ Blade จะลดลงจนเหลือ 1 หน่วย",
+    "ultimateCost": 0,
+    "break": "60",
+    "energy": "0",
+    "id": 19098931,
+    "name": "Karma Wind",
+    "iconPath": "18ead147f83d3e106bf6ca1f90969fad30d70afbbfd88e53aaaee596f59c5b81",
+    "typeDescHash": "เทคนิค",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.4,
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "กระจาย",
+    "descHash": "ใช้ HP <nobr>#1[i]%</nobr> ของ HP สูงสุดของ Blade เพื่อสร้าง DMG <span style=\"color:#00FF9C;\">ลม</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ HP สูงสุดของ Blade แก่ศัตรูที่กำหนดหนึ่งตัว พร้อมทั้งสร้าง DMG <span style=\"color:#00FF9C;\">ลม</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> ของ HP สูงสุดของ Blade แก่ตัวที่อยู่ใกล้เคียงกับเป้าหมาย<br />หาก HP ปัจจุบันไม่เพียงพอ เมื่อปล่อย \"Forest of Swords\" แล้ว HP ปัจจุบันของ Blade จะลดลงจนเหลือ 1 หน่วย<br />โดย \"Forest of Swords\" ไม่สามารถฟื้นฟูแต้มสกิลต่อสู้ได้",
+    "ultimateCost": 0,
+    "break": "60/hit",
+    "energy": "30",
+    "id": 19348161,
+    "name": "Forest of Swords",
+    "iconPath": "d58c2c78ba37b119606b51ed2672ba3678bbd03a657ff33f13c50d570b107266",
+    "typeDescHash": "โจมตีปกติ",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       0.65,
+       0.26,
+       0.65,
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       0.78,
+       0.312,
+       0.78,
+       0.24
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       0.91,
+       0.364,
+       0.91,
+       0.28
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       1.04,
+       0.416,
+       1.04,
+       0.32
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       1.17,
+       0.468,
+       1.17,
+       0.36
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       1.3,
+       0.52,
+       1.3,
+       0.4
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       1.43,
+       0.572,
+       1.43,
+       0.44
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       1.56,
+       0.624,
+       1.56,
+       0.48
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       1.69,
+       0.676,
+       1.69,
+       0.52
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       1.82,
+       0.728,
+       1.82,
+       0.56
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillTreePoints": [],
+  "relicRecommend": {
+   "twoPcSets": [],
+   "fourPcSets": [],
+   "props": []
+  },
+  "voiceItems": [],
+  "storyItems": [],
+  "archive": {},
+  "calculator": {
+   "expCost": {},
+   "expItemConfig": {},
+   "sCoinId": 0,
+   "rankConfig": {}
+  },
+  "hasServant": false,
+  "skins": [],
+  "hasEnhanced": false,
+  "rarity": 0
+ },
  "name": "Blade",
  "rarity": 5,
  "descHash": "สมาชิกแห่ง \"นักล่า Stellaron\" นักดาบผู้มอบร่างกายให้กับคมดาบ ผู้ภักดีต่อ \"ทาสแห่งโชคชะตา\" และมีความสามารถในการรักษาตัวเอง ที่น่าสะพรึงกลัว",

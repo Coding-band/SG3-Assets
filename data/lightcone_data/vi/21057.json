@@ -1,0 +1,522 @@
+{
+ "name": "Hoa Sẽ Không Quên",
+ "rarity": 4,
+ "descHash": "Mùa xuân, họ gieo hạt.<br />Mùa hè, họ tưới tiêu cho cánh đồng.<br />Mùa thu, họ hái trái.<br />Mùa đông, họ ca hát trên tuyết.<br />...<br /><br />Mảnh đất vốn cằn cỗi giờ đã nở hoa, những cánh bướm bị tiếng cười trong trẻo như chuông bạc thu hút, đậu lên đầu ngón tay.<br />\"Chị ơi, sau này chúng ta cũng sẽ cùng nhau biến nơi này thành biển hoa khổng lồ nhé!\"<br /><br />\"Nhìn xem, lời hứa của chúng ta...\"<br />Bướm bay về phía bên kia bờ, cô gái trầm lặng khẽ vuốt nhẹ cánh hoa ấm áp, như thể em gái vẫn còn ở bên cạnh.<br />\"Chị, và những đóa hoa mà chúng ta chăm sóc... đều chưa bao giờ quên.\"",
+ "iconPath": "78f2c4f45fcf04b8663abe3e88c7b4e917ececf3d9e34a5d61014b932bbea358",
+ "artPath": "d274555261f1c4856855dbd9f8068528f12b104083afd716a2d0e0ca0f3a8bfe",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRuYBAABXRUJQVlA4INoBAADwCQCdASoUABwAPm0qkUWkIqGYBABABsS2AE6ZQkCH0m43tTxgNsBz2HoA3lXeN/8pXgVG/HofJq79M4/7t6EA50H86yYB+g+Ed/gh4iEaRumGj0zGlNAAAP71QWkXt5MDX+mA6JtyBGaNgny6A+WEJRq/npB5GA9FdMaBphNEtQ8qBt6YttYWdqh9B2fVQnRXkdNtOOisUJhAic1E1Fd+U7TZn0BDOVFFkWhm/SUIU0avVvXWeVbLd5tIQj5/tZetHNzkKLGV6zN78Y+aCDra4B91PrDBArUhC7c7CZ7vhEzxW0aTZ9YSDvnz97UGnPOn9LVCq+ZCiKJ7H34/fxwellZ4/0T57/7mzL80slixvrv9of/saDB7lPt7Rf0rdRVdsnpuIg0D1DKM5e0/8ILsxUF960/GQw4yjifhXTboFn0NXJtRhShdIPjbvJxda94Yro5YZRWDK/rV2FmXi7y3ulWv4mkFUD9wr0TNu1zr2bgRLTzZCFqKRoZi46PVp0Xtnyvn906/ALKxnPn73rkSjJPar/gd+s8XOe5Ifpjc5EjZf4ZR/Y8R64sm2p6YvdZHSaX+XKF2fysoMuYvWzcdwV/2N+8J/hU+1JPICoMjXXQ5k3cT0UpgAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "882fa2e44641184c2c05ca28be5e84a0a3d81fa812c27ed4b29b6e0561e3d8eb",
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "color": "#FFFFFF",
+  "name": "Ký Ức",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Điểm Tín Dụng",
+   "desc": "Tiền mà Công ty Hành Tinh Hòa Bình (IPC) dùng để giao dịch với khách, nay đã trở thành đồng tiền chính khi đi lại trong vũ trụ.",
+   "lore": "\"Người ta bôn ba, tranh đấu, mua bán, cũng chỉ vì những con số xuất hiện trên thiết bị đầu cuối. Nhưng thứ quý giá thật sự, thì con số của công ty lại không thể mua được.\"",
+   "purpose": "Tiền Tệ Thường",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Khu Mỏ Khổng Lồ",
+    "Đài Hoa Nhân Tạo: Sở Công Nghiệp",
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Đài Hoa Nhân Tạo: \"Rừng Cây Thầm Thì\" Điện Cây Giác Ngộ",
+    "Phần thưởng nhiệm vụ",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Aether Tinh Luyện",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>6000</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một lọ Aether được tinh chế bằng kỹ thuật đặc biệt.<br /><br />\"Sảnh Đường Hồi Ức hy vọng lấy lại sự huy hoàng của ngày xưa, nhưng đó là \"huy hoàng của ngày xưa\" mà họ đã chọn, hiểu không?\"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Sảnh Đường Lãng Quên"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Aether Cô Đặc",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>2000</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một lọ Aether được tinh chế bằng kỹ thuật đặc biệt.<br /><br />\"Phải cẩn thận, không được đè hay làm đổ. Nếu nó bị hỏng hoặc bị rò rỉ, vui lòng tham khảo Chương 2 của \"Sổ tay hướng dẫn xử lý tai nạn tràn ra\" để xử lý sau tai nạn. \"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Aether Loãng",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>500</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một chất môi giới tưởng tượng không nên tồn tại trong thực tế, nguyên liệu cơ bản để tạo ra nón ánh sáng.<br />Đưa vào trong nón ánh sáng, có thể khiến những thứ được gói trong đó trở nên rõ ràng hơn.<br /><br />\"Hóa ra là như vậy, \"ý nghĩa\" của Sảnh Đường Hồi Ức chính là thứ này, chẳng trách Người Lưu Giữ Ký Ức có thể mang theo ký ức đi xuyên qua các hành tinh.\"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Thưởng Ủy Thác"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Tiếng Khóc Vang Vọng",
+   "desc": "Bộ phận cấu thành thân xác Tạo Vật Thủy Triều Đen, nguyên liệu thông thường dùng để cường hóa.",
+   "lore": "Cái đầu quái dị phát ra tiếng gầm, mảnh lưỡi đao sắc bén đủ để chặt đứt mọi thứ, nhưng nguồn gốc của tai họa vẫn chôn vùi trong bóng tối, bị những đám mây chết chóc che lấp.<br /><br />\"Tại sao lại khóc một mình trước mộ?\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "Tạo Vật Thủy Triều Đen rơi sau khi đạt Cân Bằng cấp 2",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Điềm Báo Mơ Hồ",
+   "desc": "Mảnh rơi ra từ cơ thể Tạo Vật Thủy Triều Đen, nguyên liệu đơn giản để cường hóa.",
+   "lore": "Vận rủi luôn đến bất ngờ, khi ý thức được thì nó đã trở thành tai họa quét qua cả thế giới.<br /><br />\"Tiếng chuông báo tử vang lên ở điểm cuối của vận mệnh.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "Tạo Vật Thủy Triều Đen",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu",
+    "Đài Hoa Nhân Tạo (Vàng)"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Khóc Than Vô Tận",
+   "desc": "Tinh thể ngưng tụ sau khi Tạo Vật Thủy Triều Đen tử vong, nguyên liệu cao cấp để cường hóa.",
+   "lore": "Sinh ra từ hư vô, cũng sẽ trở về với hư vô. Sinh mệnh bị biến dạng bởi sự xâm thực, đã định sẵn là phải lang thang vô tận trên mảnh đất hoang tàn.<br /><br />\"Sinh mệnh của nó đầy rẫy sự hủy diệt và bi thương.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "Tạo Vật Thủy Triều Đen rơi khi đạt Cân Bằng cấp 4",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "Mầm Cây Mana",
+   "desc": "Tế bào ký ức trích xuất suy nghĩ và sinh sôi trong trái tim người khắc ghi chúng, có thể tăng vừa Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Ký Ức</span>.",
+   "lore": "Hạt giống nảy mầm, cành chồi đan xen, truyền tín hiệu như một mạng lưới các khớp thần kinh. Năm tháng dần trôi, có cành non đã khô khéo, cũng có cành non đã sinh trưởng, cho đến khi có thể mang theo sự sống, và trở thành xác thịt của một linh hồn nào đó.<br /><br />\"Chúng ta không từ bỏ thể xác, mà chỉ khiến nó trở thành một thứ... lâu dài hơn.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Máy Ghép Vạn Năng-Nguyên Liệu Ghép",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng-Đổi Nguyên Liệu"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "Alayawah",
+   "desc": "Đây là một cách tồn tại khác của sự sống, cũng là vật chất mà vũ trụ không thể lãng quên, có thể tăng mạnh Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Ký Ức</span>.",
+   "lore": "Nó đã trưởng thành, và trở thành một mạng lưới thu thập lịch sử, một bông hoa đến từ quá khứ. Sự sống là vườn ươm của nó, cũng có thể là trái tim hoa của nó. Nếu bạn trở thành tim hoa, bạn sẽ ghi nhớ vũ trụ, vũ trụ cũng sẽ ghi nhớ bạn, bạn chính là ký ức.<br /><br />\"Ký ức là thực thể của các pháp, cho nên trong cõi tịnh thổ vô biên này, không có sinh diệt.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Máy Ghép Vạn Năng-Nguyên Liệu Ghép",
+    "Máy Ghép Vạn Năng-Đổi Nguyên Liệu"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "Hạt Giống Suy Tưởng",
+   "desc": "Sự giao thoa giữa ý thức và vật chất sẽ sinh ra phôi thai ký ức, có thể tăng nhẹ Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Ký Ức</span>.",
+   "lore": "Vật này vốn không tồn tại, cho đến khi bạn nhìn thấy, nghe thấy, cảm nhận được thứ gì đó. Sự tồn tại được sinh ra từ cảm nhận sẽ nhanh chóng trầm lặng, chôn vùi trong vườn ươm của tư duy, có thể sẽ nảy mầm vào một ngày nào đó, cũng có thể không bao giờ.<br /><br />\"Đó là chất liệu tạo nên thân thể chúng tôi, tồn tại vì ký ức của bạn.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng-Đổi Nguyên Liệu"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ],
+   "attackBase": 24,
+   "attackAdd": 3.6,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 15,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 6744567,
+     "count": 3
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ],
+   "attackBase": 52.8,
+   "attackAdd": 3.6,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 33,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 6471577,
+     "count": 3
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    }
+   ],
+   "attackBase": 91.2,
+   "attackAdd": 3.6,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 57,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 6471577,
+     "count": 6
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    }
+   ],
+   "attackBase": 129.6,
+   "attackAdd": 3.6,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 81,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 6720910,
+     "count": 4
+    },
+    {
+     "id": 3526997,
+     "count": 5
+    }
+   ],
+   "attackBase": 168,
+   "attackAdd": 3.6,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 105,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 6720910,
+     "count": 8
+    },
+    {
+     "id": 3526997,
+     "count": 7
+    }
+   ],
+   "attackBase": 206.4,
+   "attackAdd": 3.6,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 129,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 244.8,
+   "attackAdd": 3.6,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 153,
+   "defenseAdd": 2.25
+  }
+ ],
+ "skill": {
+  "id": 21057,
+  "name": "Phụ Thuộc",
+  "descHash": "Khiến Sát Thương Bạo Kích của người trang bị tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Sát Thương Bạo Kích do Linh Hồn Ký Ức của người trang bị gây ra tăng thêm <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>.",
+  "levelData": [
+   {
+    "params": [
+     0.24,
+     0.24
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.28,
+     0.3
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.32,
+     0.36
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.36,
+     0.42
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.4,
+     0.48
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21057"
+}

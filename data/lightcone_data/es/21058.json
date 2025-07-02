@@ -1,0 +1,525 @@
+{
+ "name": "Sangre del pasado",
+ "rarity": 4,
+ "descHash": "A lo lejos se está formando una tormenta. Unos tentáculos emergen desde el fondo del mar Estigio, como si quisieran jugar con el ser frágil e inocente que flota ahí.<br />Las extremidades rotas de la bestia marina producen salpicaduras gigantes que se elevan hacia el cielo y se hunden en el fondo del océano tras desperdigarse.<br /><br />Se dice que el estruendo de la batalla duró diez días y diez noches, y fue incluso más fuerte que los truenos y relámpagos.<br />Se dice también que, aunque un hombre tuviera diez mil vidas, no bastarían para resistir la erosión del mar Estigio.<br /><br />Hasta que el coraje arrasó con la inmadurez y el orgullo templó la debilidad.<br /><br />Aquella delgada figura se tambalea hasta la orilla. El primer rayo del sol brilla sobre las aguas del mar y las tiñe de rojo, como la sangre del pasado.",
+ "iconPath": "73bc07e443bffc33400a76e4d06121800b05d138746d3b0279128941479d9a50",
+ "artPath": "94ea5255cb9c8b4a5a283f1a6df34cc6a0097f98627ebafca2013501dbd37864",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRroBAABXRUJQVlA4IK4BAADwBwCdASoUABwAPm0skUWkIqGYBABABsS1AE6ZQY8IM/1LbYDnsbJjb+7Hi/TuoACzAZ9+JAJdJIMIXejnG1/oZ+512OyqvwAA/vbyN7Xoxee5+WQaRTRPRtTsCRjzwAu6nswy45hCrvrA/hRd2KbHz27b1Y3TvsaSLlvSSaILlbc8r7Q/XS72WLf0MBjAmvtGAXvpKLZvvC3WLpjD3Q70iRa37SuqGYe8wCZtou+Nxu9UJuim3KT2axY+zaHPrpgYZLyEr1v/Kei8m569L4vW4JM/3qK4HdIjCtr53vCu/jW7876sDKlKsRJGNAQpdOUKlQAN3+OxkdgSQJvCAoUZspLVC1FL4H95bIfKU6CuepWI3Cdq7+TXtBBUhwE3c+BNTR77VJVfIGTbxTEhOAW7La1xobhK/ej4oMIVsypujxZCq/L7tIaeGP89QxPPg5LVsj6X5QfdB+ZToEEFjeTvohedXN853P3mf/h14D3+/8K1dbHvOqNm6fv+tVcKUDsNbpPuoR+AtP7vsy9/4G/KhEI/U3VM/C7439LMeo1yc0Nqsn1RyyYhmTvusAAA",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "f9dc1ef66f7a351c850164b490219adc64eda878f1065bf596e3d7648972959c",
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "color": "#FFFFFF",
+  "name": "Destrucción",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Divisa que utiliza la Corporación para la Paz Interastral para sus cuentas con los clientes y que se acepta en todas partes como moneda de los viajes espaciales.",
+   "lore": "\"La gente corre, se pelea y comercia por algo que no son más que números en una terminal, pero lo que es verdaderamente valioso no se puede comprar\".",
+   "purpose": "Moneda común",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cáliz de la mina principal",
+    "Cáliz de la Comisión de Artesanía",
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Cáliz del Soto de las Musas, Bosque Susurrante",
+    "Recompensa de misión",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "Canino de borisin",
+   "desc": "Diente abandonado durante las conquistas de los borisin. Sirve para mejorar ligeramente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destrucción</span>.",
+   "lore": "Los borisin consideran que sus dientes son armas formidables.<br />En sus tribus, que se dedican a la caza, los fuertes dominan sobre los débiles, y aquellos que presentan caries en la dentadura son relegados.<br /><br />\"Oh, Alfa, concédenos dientes y garras afilados\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "Cáliz del Desfiladero de Escamas",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éter refinado",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>6000</nobr> pts. de EXP de cono de luz.",
+   "lore": "Un bote de éter extraído y destilado usando un proceso especial.<br /><br />\"El Jardín desea recrear una gloria pasada, pero una que elijan ellos, ¿lo entiendes?\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Salón olvidado"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éter condensado",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>2000</nobr> pts. de EXP de cono de luz.",
+   "lore": "Recipiente con éter procesado mediante una técnica especial.<br /><br />\"Transpórtese con cuidado. No debe caerse al suelo ni recibir presión. Si se produce un daño o una fuga, consulte el capítulo II del «Manual de respuesta a los accidentes de fuga»\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éter disperso",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>500</nobr> pts. de EXP de cono de luz.",
+   "lore": "Sustancia imaginaria que no debería existir en la realidad. Es el material básico para crear conos de luz.<br />Al inyectar esta sustancia en el cono de luz, las imágenes que contienen se vuelven más nítidas.<br /><br />\"Oh, así que esto es la materia consciente del Jardín de los Recuerdos. No me extraña que los Guardamemorias se lleven recuerdos en sus viajes galácticos\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Recompensa de encargo"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "Colmillo de la locura lunar",
+   "desc": "Colmillo grotesco abandonado durante las conquistas de los borisin. Sirve para mejorar en gran medida los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destrucción</span>.",
+   "lore": "La locura lunar innata de los borisin les permite volverse más fuertes.<br />Al entrar en un estado de frenesí durante el combate, tienen una excelente capacidad de sanación. Además de robustecer sus huesos y músculos, sus fuerzas aumentan significativamente en medio del baño de sangre.<br /><br />\"Oh, Alfa, concédenos el poder de los dioses\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "Cáliz del Desfiladero de Escamas",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "Diente serrado con lupitoxina",
+   "desc": "Colmillo filoso abandonado durante las conquistas de los borisin. Sirve para mejorar moderadamente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Destrucción</span>.",
+   "lore": "Los borisin consideran que sus dientes son armas formidables.<br />Motivados por un impulso salvaje que recorre sus venas, despedazan a sus enemigos con sus dientes serrados que contienen lupitoxina y les succionan la sangre.<br /><br />\"Oh, Alfa, concédenos músculos de hierro y huesos de acero\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "Cáliz del Desfiladero de Escamas",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "Pecho hendido del valor",
+   "desc": "Fragmento de un deudo del Conflicto tras caer en batalla. Material corriente que se usa en la potenciación.",
+   "lore": "Los generales indolentes comenzaron a entrenar, y los sabios recluidos comenzaron a discurrir. Cuando la gente descubrió que las creaciones de los dioses podían destruirse, la masacre se convirtió en guerra.<br /><br />\"El miedo es el cincel del valor\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "De titandeudos (nivel de Equilibrio 2 o superior)",
+    "De Bestias Crepusculares (nivel de Equilibrio 2 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "Torso bautizado de gloria",
+   "desc": "Corazón de un deudo del Conflicto, lleno de poder. Material avanzado que se usa en la potenciación.",
+   "lore": "Al principio, la gente luchaba para vivir. Ahora, algunos luchan para morir, intrépidos como los deudos del Conflicto. La gente de Kremnos suele decir que, quizá, los guerreros de piedra y los de carne y hueso tienen el mismo corazón.<br /><br />\"El valor fluye en su interior, y este corazón se llama gloria\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "De titandeudos (nivel de Equilibrio 4 o superior)",
+    "De Bestias Crepusculares (nivel de Equilibrio 4 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "Carne pisoteada del miedo",
+   "desc": "Pedazo que forma parte de un deudo del Conflicto. Material simple que se usa en la potenciación.",
+   "lore": "La marea de muerte inunda el mundo, y los gigantes del odio y el resentimiento salen del río Estigia. Ante ese ejército tallado en piedra, todos bajan la cabeza, presas del miedo.<br /><br />\"La masacre es la piedra con que se construye el miedo\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "De titandeudos",
+    "De Bestias Crepusculares",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material",
+    "Cáliz (oro)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ],
+   "attackBase": 24,
+   "attackAdd": 3.6,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 15,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 635680,
+     "count": 3
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ],
+   "attackBase": 52.8,
+   "attackAdd": 3.6,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 33,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 920207,
+     "count": 3
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    }
+   ],
+   "attackBase": 91.2,
+   "attackAdd": 3.6,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 57,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 920207,
+     "count": 6
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    }
+   ],
+   "attackBase": 129.6,
+   "attackAdd": 3.6,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 81,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 836266,
+     "count": 4
+    },
+    {
+     "id": 20389475,
+     "count": 5
+    }
+   ],
+   "attackBase": 168,
+   "attackAdd": 3.6,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 105,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 836266,
+     "count": 8
+    },
+    {
+     "id": 20389475,
+     "count": 7
+    }
+   ],
+   "attackBase": 206.4,
+   "attackAdd": 3.6,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 129,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 244.8,
+   "attackAdd": 3.6,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 153,
+   "defenseAdd": 2.25
+  }
+ ],
+ "skill": {
+  "id": 21058,
+  "name": "Masacre",
+  "descHash": "La Prob. CRIT del portador aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. El daño de habilidad básica y de habilidad definitiva infligidos por el portador aumentan en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>.",
+  "levelData": [
+   {
+    "params": [
+     0.12,
+     0.24
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.14,
+     0.28
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.16,
+     0.32
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.18,
+     0.36
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.2,
+     0.4
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21058"
+}

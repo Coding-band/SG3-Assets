@@ -1,0 +1,527 @@
+{
+ "name": "物語をめくって",
+ "rarity": 4,
+ "descHash": "そよ風が揺らす麦の波の中を、少女は空白の手記を抱えながら歩く。<br /><br />エリュシオンの外にある、見知らぬはずだがどこか懐かしい町で、様々な仲間たちと出会い、歌のような夢のような旅が始まる……<br /><br />「今度こそ、一緒に……」<br />麦畑の果てで、長く待ち続けていた少女は本を閉じ、「未来」へと誘うように手を差し伸べた——<br /><br />「さあ、物語の新たなページをめくりましょう♪」",
+ "iconPath": "69e9e4350ddc2c0b1b07565ead848a085462e032cc1ea4c029ef05bd302ad058",
+ "artPath": "66a35753e4d4a7d898f6f64034db8eb588f92610ee3fe95c84af4a8eba0ca3f3",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRrwBAABXRUJQVlA4ILABAACQCACdASoUABwAPm0qkUWkIqGYBABABsS2AE6ZQjgYVftr4V+oDbAeKBksG8ZvgGsDwAuB7O8+gC1tgxIS3gf5Of1afHofEot+Y1e8AAD++lT/N13RHthuqeeNO76dHU9JsVXLrNefud5Jbrliu6Mm71ugdN7PPtwi3mcil3+Q5w1Qq8nrbO9O34gl6XCRz3nb54H18P/X7FCF9MFogZR/p56gNiKC9fMyaBWDyeW6IaeWLu9H0lZsFxm8+ivStMlZvUaFDWGfqDk4WqlgGykotknjPjzKuVQJ1b5tvx1nQDcyEEadeaDt6r0qLZWpSJQ//lj7i+zjDpdmOgD2WmlyTzJO7g2BuEueKssR+xFnGdzF18hSnqZo16Z9kGeEj+vYStOtHM2g7HReb0OT6b9JiH6zSdC03DuDSSSDyckp5wAilKMoKg4/hBfkHEyHb34xe4Y8scWLjDl6Mj6IDjF8xF97i4O4ESCdKcUN3K/+k7+osRv+4i/dc+XeeqUEom97nQWFmNongp4aWsMSRdUFUHfVZ07vmU3j/8kGrH0TP5IawCOlUYGF1K3uMqiywAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "af421249d841f67ba5f933db991bc37988d2192f70bb125c98e8b0c86712342a",
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "color": "#FFFFFF",
+  "name": "記憶",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用ポイント",
+   "desc": "スターピースカンパニーが顧客との決済に使用している貨幣。現在は宇宙旅行をする時の決済通貨となっている。",
+   "lore": "「人々は、端末に表示される数字のためだけに奔走し、戦い、取引をする。しかし、本当に大切なものは、カンパニーの数字で買えるものではない」",
+   "purpose": "星間通貨",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "疑似花萼「大鉱区」",
+    "疑似花萼「工造司」",
+    "疑似花萼「ホテル・『レバリー』-夢境」",
+    "疑似花萼「『囁きの密林』神悟の樹庭」",
+    "クエスト報酬",
+    "依頼報酬",
+    "エンバー交換"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "精製エーテル",
+   "desc": "光円錐強化素材、光円錐経験値を<nobr>6000</nobr>獲得できる。",
+   "lore": "特殊な技術で精錬されたエーテル。<br /><br />「ガーデンは昔の輝かしい時代を取り戻そうとしている、だがそれは彼らが選択する『往日の輝き』だ、この意味がわかるか？」",
+   "purpose": "光円錐経験値素材",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "疑似花萼「外縁通路」",
+    "疑似花萼「太卜司」",
+    "疑似花萼「稚児の夢」",
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "「忘却の庭」"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "濃縮エーテル",
+   "desc": "光円錐強化素材、光円錐経験値を<nobr>2000</nobr>獲得できる。",
+   "lore": "特殊な技術で精錬されたエーテル。<br /><br />「気を付けて取り扱ってね。潰したり、落としたりしちゃダメよ。万が一、破損して中身が漏れた時は、『流溢災難対応手引き』の第二章に従って処理しなさい」",
+   "purpose": "光円錐経験値素材",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "疑似花萼「外縁通路」",
+    "疑似花萼「太卜司」",
+    "疑似花萼「稚児の夢」",
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "エンバー交換"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "希薄なエーテル",
+   "desc": "光円錐強化素材、光円錐経験値を<nobr>500</nobr>獲得できる。",
+   "lore": "本来なら現実に存在するはずのない仮想媒体、光円錐の基本材料。<br />光円錐に注入することで、中に封じられたイメージがより鮮明になる。<br /><br />「なるほど～これがガーデン・オブ・リコレクションの『憶質』ってやつ？だからメモキーパーは記憶を持って星間旅行ができるんだね」",
+   "purpose": "光円錐経験値素材",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "疑似花萼「外縁通路」",
+    "疑似花萼「太卜司」",
+    "疑似花萼「稚児の夢」",
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "依頼報酬"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "遠くから近づく悲鳴",
+   "desc": "暗黒の潮の造物の肉体を構成する部分。強化に必要な普通素材。",
+   "lore": "不気味な頭部が雄叫びをあげ、折れた刃はすべてを断ち切る。しかし、それでも災いの源は暗闇に埋もれ続け、死の陰影に覆われている。<br /><br />「なぜ墓前で1人涙を流しているのか？」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "均衡Lv.2に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "あるようでない予兆",
+   "desc": "暗黒の潮の造物の体から落ちた欠片。強化に必要な簡易素材。",
+   "lore": "不運の訪れは常に予兆がないものだ。気づいた時には、それはすでに世界を席巻する災いとなっている。<br /><br />「弔鐘は運命の終わりで鳴り響く」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "暗黒の潮の造物からドロップ",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "依頼報酬",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換",
+    "疑似花萼（金）"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "果てしなく続く悲嘆",
+   "desc": "暗黒の潮の造物の死後に凝縮した結晶体。強化に必要な高級素材。",
+   "lore": "無より生まれ、再び無へと帰る。侵蝕によって創られた歪んだ生命は、不毛の大地を彷徨い続ける宿命にあるのだ。<br /><br />「その生命は破滅と悲哀に満ちていた」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "均衡Lv.4に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "マナの苗",
+   "desc": "記憶の細胞は思惟を抽出し、銘を刻む者の心の奥深くに根付く。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を中アップできる。",
+   "lore": "種子は発芽すると枝芽が交錯してシナプスのように信号を伝達する。時の流れの中で枝葉の一部は枯れていき、一部は生命を育んで魂の器となる。<br /><br />「我々は肉体を捨てたのではない…より長く生きる何かになっただけである」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "「万能合成マシン」- 素材合成",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "アラヤの花",
+   "desc": "生命のもう1つの存在方法、宇宙が忘れえぬ物質。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を大アップできる。",
+   "lore": "成熟すると歴史を搦めとる網となり、過ぎ去りし時間の花となる。生命は種にとって畑であり花芯でもある。もしあなたが花芯なら、あなたは宇宙を記憶し、宇宙はあなたを記憶するだろう。あなたが記憶そのものなのだ。<br /><br />「記憶は万物の実体である。煩悩なき浄土に生も死もあらず」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "「万能合成マシン」- 素材合成",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "イの種",
+   "desc": "意識と物質が交わり、記憶の卵を生み出す。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を小アップできる。",
+   "lore": "あなたが何かを見聞きして何かを感じるまでは存在しないもの。感じ取ることで生まれたそれはやがて沈黙して思考の苗床に埋もれていく。いつか芽を出すかもしれないし、芽を出さないかもしれない。<br /><br />「それは私たちの身体を構成し、あなたが記憶するからこそ存在できる」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ],
+   "attackBase": 16.8,
+   "attackAdd": 2.52,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 18,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 6744567,
+     "count": 3
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ],
+   "attackBase": 36.96,
+   "attackAdd": 2.52,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 39.6,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 6471577,
+     "count": 3
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    }
+   ],
+   "attackBase": 63.84,
+   "attackAdd": 2.52,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 68.4,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 6471577,
+     "count": 6
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    }
+   ],
+   "attackBase": 90.72,
+   "attackAdd": 2.52,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 6720910,
+     "count": 4
+    },
+    {
+     "id": 3526997,
+     "count": 5
+    }
+   ],
+   "attackBase": 117.6,
+   "attackAdd": 2.52,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 126,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 6720910,
+     "count": 8
+    },
+    {
+     "id": 3526997,
+     "count": 7
+    }
+   ],
+   "attackBase": 144.48,
+   "attackAdd": 2.52,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 154.8,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 171.36,
+   "attackAdd": 2.52,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7
+  }
+ ],
+ "skill": {
+  "id": 21054,
+  "name": "綴る",
+  "descHash": "装備キャラの最大HP+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>。装備キャラの記憶の精霊が攻撃した後、装備キャラおよびその記憶の精霊の治癒量+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>、<nobr>#3[i]</nobr>ターン継続。",
+  "levelData": [
+   {
+    "params": [
+     0.16,
+     0.12,
+     1
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.2,
+     0.15,
+     1
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.24,
+     0.18,
+     1
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.28,
+     0.21,
+     1
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.32,
+     0.24,
+     1
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21054"
+}

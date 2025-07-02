@@ -447,7 +447,7 @@
  "ranks": [
   {
    "id": 1,
-   "iconPath": "d869a9127af34f072f244fdf33eeab304cee9f43b31d9f8d35a9dc8311fc49f8",
+   "iconPath": "5fc5dd8fe4bf2217cb7e7b0fa4f4703669525b0ff6b8e05017044045992ee828",
    "artPath": "0a3909c4bab9769672b730901742cec2b848ea98c43c9a436f66280ebd621612",
    "name": "Чтение эмоций и поиск улыбки",
    "descHash": "Количество записываемого Цифер урона становится равно <nobr>#3[i]%</nobr> от исходного значения. Использование <u>бонус-атаки</u>, описанной в таланте Цифер, повышает её силу атаки на <nobr>#1[i]%</nobr> на <nobr>#2[i]</nobr> хода.",
@@ -459,7 +459,7 @@
   },
   {
    "id": 2,
-   "iconPath": "1ff9e0e4746e3e5598f005e423b64a304fb3d5ad113056f317c6fbcbc6360c49",
+   "iconPath": "8ceb2502dd2ab758cc85641e7128387f39e801b4323826da83baafdacaed79ce",
    "artPath": "f623abc037ace6247db8471edea34f0150aeed1e460631b7e6f8b70410d3ae5d",
    "name": "Голова горит - руки тянут",
    "descHash": "Когда Цифер поражает противника, она имеет <u>базовый шанс</u> <nobr>#2[i]%</nobr> повысить получаемый им урон на <nobr>#3[i]%</nobr> на <nobr>#1[i]</nobr> хода.",
@@ -1048,7 +1048,7 @@
   },
   {
    "tagHash": "Взрывная атака",
-   "descHash": "Наносит выбранному противнику квантовый урон, равный <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> от силы атаки Цифер. После этого наносит выбранному противнику <u>истинный урон</u>, равный <nobr>#2[i]%</nobr> от записанного талантом Цифер количества урона, а также наносит выбранному противнику и соседним целям квантовый урон, равный <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> от силы атаки Цифер, и <u>истинный урон</u>, равный <nobr>#3[i]%</nobr> от записанного талантом Цифер количества урона. Этот истинный урон распределяется между всеми поражёнными умением целями.",
+   "descHash": "Наносит выбранному противнику квантовый урон, равный <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> от силы атаки Цифер. После этого наносит выбранному противнику <u>истинный урон</u>, равный <nobr>#2[i]%</nobr> от записанного талантом Цифер количества урона, а также наносит выбранному противнику и соседним целям квантовый урон, равный <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> от силы атаки Цифер, и <u>истинный урон</u>, равный <nobr>#3[i]%</nobr> от записанного талантом Цифер количества урона. Этот <u>истинный урон</u> распределяется между всеми поражёнными умением целями.",
    "ultimateCost": 130,
    "break": "90/hit",
    "energy": "5",
@@ -1757,6 +1757,7 @@
          "anchor": 12,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 3556113,
           "name": "Усиление шанса попадания эффектов",
@@ -1786,6 +1787,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 3292452,
         "name": "Усиление скорости",
@@ -1816,6 +1818,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 3534640,
       "name": "Усиление квантового урона",
@@ -1845,6 +1848,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Когда скорость Цифер выше или равна <nobr>140</nobr>/<nobr>170</nobr>, её крит. шанс повышается на <nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>, а записываемое количество урона - на <nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr> соответственно.",
     "ultimateCost": 0,
@@ -1902,6 +1906,7 @@
          "anchor": 15,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 3339738,
           "name": "Усиление скорости",
@@ -1932,6 +1937,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 3581929,
         "name": "Усиление квантового урона",
@@ -1961,6 +1967,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 3314175,
       "name": "Усиление скорости",
@@ -1991,6 +1998,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Цифер записывает <nobr>#1[i]%</nobr> <u>неистинного урона</u>, нанесённого союзниками противникам без статуса Постоянный покупатель. Избыточный урон не записывается.",
     "ultimateCost": 0,
@@ -2039,6 +2047,7 @@
      "anchor": 16,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 3611594,
       "name": "Усиление шанса попадания эффектов",
@@ -2072,6 +2081,7 @@
      "anchor": 17,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 3353022,
       "name": "Усиление квантового урона",
@@ -2101,12 +2111,13 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Наносимый <u>бонус-атакой</u>, описанной в таланте персонажа, крит. урон повышается на <nobr>#2[i]%</nobr>. Пока Цифер находится на поле боя, получаемый всеми противниками урон повышается на <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
     "id": 4176691,
     "name": "Ограбление по-кошачьи",
-    "iconPath": "bc3f8247961acfee884fde9d20d988b65c397446fae1df84bfe9d778b55cb20b",
+    "iconPath": "4f85620631850f9fd1fd9674a6a9974112f3c61f4402c1624f89db5c5353b88a",
     "levelReq": 0,
     "promotionReq": 6,
     "levelData": [
@@ -2150,6 +2161,7 @@
      "anchor": 18,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 20413782,
       "name": "Усиление скорости",
@@ -2180,6 +2192,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBuff": {
     "id": 3266892,
     "name": "Усиление скорости",
@@ -2217,550 +2230,560 @@
    "title": "Первая встреча",
    "text": "Цифера? Значит, ты меня знаешь... Впрочем, сейчас мало кто называет меня этим именем. Зови меня Цифер, звучит быстрее ветра и очень опасно, правда?",
    "unlockRequirement": "",
-   "cnUrl": "40e1f9b7f5c0d85b8dc649fe882758c3e4ea870c103676bc5506b0e2abf2fa27",
-   "jpUrl": "699548901d5ecff929469e89d10f1013d9f1d88111431e80e6fd47d5459f71fc",
-   "enUrl": "e64d88a7a4e28c1c2f07b127dabaf83dc292bbaa30c0005c2d7761118501e689",
-   "krUrl": "2126664873d0556cbef501e0ffa344d4e47f3dda947aa696ebfe59d34fed67e1"
+   "cnUrl": "c1b4a94f1984012fba34229a86a119cb3a592aa3ba1a8dcf186049708ad0b92d",
+   "jpUrl": "622f4b198394d5acd3967e544e57ebdfb62acf4b33aafa47ecdbcecc85f43ad0",
+   "enUrl": "c92fa96d7382f96b374daedebaa1b929c0cd2e4f982735b5897db9c82c028ac0",
+   "krUrl": "2901b669821c0216f214dbf1788dbeaab58e014aa9ca14aede9c8a912612b731"
   },
   {
    "id": 2,
    "title": "Приветствие",
    "text": "Ах, Серая Тайна~ Где набил{F#а} кошелёк?",
    "unlockRequirement": "",
-   "cnUrl": "5ca05a35689d284541291133d053f2733aa9a168802f834f07898825492f465c",
-   "jpUrl": "c7c460a4162f5c02836f80b7350f97311c98e215685bf00b951ea8d1dad728e8",
-   "enUrl": "b6acd3d59e638906e0c0ec40cebd162ad8062b147c1d15f4325b6030db638abd",
-   "krUrl": "8fd0c982e5e91a107daba8ba53060af8ee7e07041cc0278ba892c6b88395305d"
+   "cnUrl": "e55f9ab11a503fc93d7f08fe89698920ca4e0db75c9e1b00d6960e9d9af5014c",
+   "jpUrl": "8421249f65025fed5b6fb8396c96fcf046526a53e4f0e32153eb4e9ac06a9be3",
+   "enUrl": "cad42e37b581f1e5508c568c3cd1efc705f0f12a0d1075974b27d47d5194ec3b",
+   "krUrl": "1ce3552e3da0d2bf7b4cc14747b2085f2a56dc6dd05ff512a5e761354c74c3b1"
   },
   {
    "id": 3,
    "title": "Прощание",
    "text": "Время - деньги, и я уже потратила достаточно. Дарю~ Увидимся!",
    "unlockRequirement": "",
-   "cnUrl": "9bb08eb0dbc952857cab5d481883ee9d6357d1dee7f686ab2c3cf221e8099d05",
-   "jpUrl": "07fdb943aa457516625d3df4945f2bad7b0e44316be01e31ed7a5825a990b7e8",
-   "enUrl": "c66448f31d52c8472260083265dab4164a19f5b40ac71679ca1b732d33421781",
-   "krUrl": "7667831114abc1b0dd8d536712a37a56fc975a7cf61d8ecbe9e05466db18c888"
+   "cnUrl": "455f36b97d6400a530e5b8b4cf038766f952018139ed8fa9b919ad7f3e5e2483",
+   "jpUrl": "a6c55514e2e4a2e360a1dc2eb6cc6e8adec89cd4b598e3a69bcdd7f0b2e6b37a",
+   "enUrl": "a066698926566c127a4ddfc0400c184460425268da65b1da577c52d6d27ab377",
+   "krUrl": "e60a5040059d9bc273be5c766c2a46eca2580c49ddce9456b57a64bf681597ba"
   },
   {
    "id": 4,
    "title": "О личности",
    "text": "Слышал{F#а} про Долос? Тысячу лет назад верующие в мяу-мяу и в гав-гав схлестнулись там в ожесточённой битве. Мяу-мяу победили, и как их дева, я унаследовала священные силы. В чём дело? Не веришь? Ну и правильно. Но забавно ведь, согласись? Любила рассказывать эту историю в детстве.",
    "unlockRequirement": "",
-   "cnUrl": "f2b603a50c0e39042be887478e324055311434c2d72d5f50ce25b62c4f9f3342",
-   "jpUrl": "c1e0822755ca243e15ece3bd1853373eda11e3df1a29d2989ce1667d3fa3a1bc",
-   "enUrl": "d3b53b43b717bc17f60677b184884d1f2a3f048c03ee7dd582e4de50d238bb97",
-   "krUrl": "9952716e3d58e45f6805f5c982f0bf0c066ed204fdffbdc1b31c5264bc5c073a"
+   "cnUrl": "8883a8c37ed5a5611f4a552dbe4cf58d42af0e89b29c6d1c3f661951c913f283",
+   "jpUrl": "2354c888e70a86628ea2c5a273c1b31045db1f9c4df694af1a7d44feedb25acb",
+   "enUrl": "4c5bec426150ce4699d45a514eb7300f7cc47d24b4a644843a655fb7c0a46a68",
+   "krUrl": "91ca65be493007b89f8ca25341e7eb6f414931fd9d4261081538d234f9798346"
   },
   {
    "id": 5,
    "title": "Об идеальной жизни",
    "text": "Слоняться по улицам, где тебя никто не знает, пить козье молочко с медовыми пряниками по вечерам, а потом сворачиваться клубочком в кроватке, под которой сокровища, награбленные за день. Вот такая у меня сейчас жизнь - самая лучшая на свете.",
    "unlockRequirement": "",
-   "cnUrl": "d5457ad8f5549b96a5484402d35cfc8991366b539218dba4e0da56be9afb5692",
-   "jpUrl": "8acb2eb575d86f5868a361845f2dfb3c253763fab8e476e9b75dd6d84f73f447",
-   "enUrl": "ee245c60dbd6939a953ce170fb9902fca83cb3a9ad8e2b5d6a582e06acaaa1ab",
-   "krUrl": "9569b5a08e21c1db286768c070e4710f3dbbcc1d2ef7faa0d8ad45b643d62ac5"
+   "cnUrl": "0bfee5004b0149034681d17013ecad288ce71ad85d081501eefc1d8e37c3492f",
+   "jpUrl": "014a5bc724c979e112307ffade99f6589f81e83f2f980242fbeee8a931c9f464",
+   "enUrl": "bb20f0687ed9a5dad0810f61cea0c417cb944fdb8b56d3e4d75745c4c700fe49",
+   "krUrl": "756c775429225bc204d98d6377a5107cdeddede771487f63a6bd274706195701"
   },
   {
    "id": 6,
    "title": "Об устройствах",
    "text": "Долосцы обожали изобретать всякие гаджеты. Например, пулемётное кольцо, ключ от всех дверей, с помощью которого можно было украсть это самое кольцо... Но больше всего мне нравится самодельная тягучка. Она может притянуть всё что угодно. Очень крутая~",
    "unlockRequirement": "",
-   "cnUrl": "e853c1859974f45386a7f3efcd06500c43497967e08ff6e0781b272b7c9021c5",
-   "jpUrl": "f47abd644eb371b569ae1eb3b436a8742b784ec7816c595150d5a652ba326d8e",
-   "enUrl": "38697a43854140e47a3f6da36401eb45e32bfebc5e65d321e20c0046b354fbcd",
-   "krUrl": "1f9897f0b40817668f7698f578f9c4554871c53b0196e95f32f7b8ed52ab3890"
+   "cnUrl": "86c872a5b486e90179bf7b1cc6e75b278f8bb4691875dc13615d568dc8abf69c",
+   "jpUrl": "621d5601146b5db0f2e4d0bfcbb5bebe243df5f47137e81686cfb9312d999069",
+   "enUrl": "e5efd9c69a5dfa22c7285da29e5e652f8bdf94b96c749a4f9351640ab249829b",
+   "krUrl": "4bf18225d2ae5e912024722f215f196bf4442c5b5b4985ba350830306cdae139"
   },
   {
    "id": 7,
    "title": "О капюшоне",
    "text": "В детстве этот капюшон служил мне накидкой. Когда он совсем износился, мне не захотелось его выбрасывать. Тогда прославленная Золотой Ткач заштопала его - вот тут, видишь? Странно, что... с тех пор на нём ни одной дырочки и выглядит он совсем как новый.",
    "unlockRequirement": "",
-   "cnUrl": "b93e2a2d145b16785b97197a5a26abbac3ecdac06c5f89e03f37d7d40db45cf3",
-   "jpUrl": "00bd0ce7deab0325963f7f7b114bfb4ecc1d9f124cd5c058fe1808b15e0becc9",
-   "enUrl": "22a8159da2a00ff8625c2b34a108e2a3b21e80f1260ac2807f4d844a4b285dd0",
-   "krUrl": "a8ab72dc2263ed8e5ac7991c1fe338ceef0035613e550144fe902de87e9272fd"
+   "cnUrl": "23c3ba8170fbee11a3254a22ebb23c02b3f16a3de788c9eaadc133d59d38506f",
+   "jpUrl": "f4d3968fdfe163f1ec4585ce07d3553e4c6cf3aa0c2a1b4dba3d5a1efab2b7d9",
+   "enUrl": "da2294a2bb724423c5e761cf8cc3f88c7ec869544d844bef51cea7374c7b3b45",
+   "krUrl": "9dff8a447e961e617c12341a90e639147c81149bda3ef17db55860fe5119be99"
   },
   {
    "id": 8,
    "title": "О сокровищах",
    "text": "Чтобы стать богаче, надо больше зарабатывать, а не экономить. Шишки из Сената и древний кусок краснозёма готовы назвать произведением искусства - даже богу коварства далеко до подобного лицемерия.",
    "unlockRequirement": "",
-   "cnUrl": "d3be6797a1d322029a79fc18659c88b3e5be92aa82518c32f52f387e2c2414b8",
-   "jpUrl": "4b27957561399a7dce30a37cb23be0dfee366655ace83af1c85455917551b918",
-   "enUrl": "e60f7a6a17389953d3882aeb2dcd96446bd4939abf1e3f2472c735365b0e49e8",
-   "krUrl": "d8aac89a3e05e448e6d46f52e16ba730aaaf6cbe4c242f6ce79d585478a56670"
+   "cnUrl": "8c79eddbfa7b01c7c4bbf659d07ee0d9ac793a2064fa96ab241c789cfd2108b9",
+   "jpUrl": "2e8c7116b09ea912245f2f0a45dfa86c448756384b193b80dc261d77cab56066",
+   "enUrl": "3d965bb0aac601cd4e3a5dac37c0c6af294a87fbbcc8b8b6cfaab3ba54ef3d5a",
+   "krUrl": "9bed5cb3f823668072c2579a4d2278dcce71f7205535a1b96115d7e33b87fcaf"
   },
   {
    "id": 9,
    "title": "О театре",
    "text": "Маленькой девочкой я часто пробиралась в театр посмотреть представления о героях, могла просидеть там день и ночь. Теперь я в любой момент могу туда сходить, но всегда покидаю зал прямо посреди спектакля.",
    "unlockRequirement": "",
-   "cnUrl": "e20d2e9669184e28ee7b76a79179c770cb697a359189aaabd351a486c16febc5",
-   "jpUrl": "6ac2b56966f816eeed342980862a65a7688369ac18c9a359d46db22e0e259c37",
-   "enUrl": "80374cbff11f9e51538280d682d9e7f5fb879c264a8e5f08751eada967011d9d",
-   "krUrl": "6db71cbf15aa3cd63171d17dc41b6ceba83ca3296616408e10608cda7df20127"
+   "cnUrl": "a976082a8fce7dd227e428e4ca7ad6b32d76849adf1d39abe600c6157fbffed3",
+   "jpUrl": "22fe8c1cfa138dc201fa2cbe3b44bd289c53d02d435281bd882e75836b99a4f7",
+   "enUrl": "4918a975d298e46ea627a26a9189d2b3e547ff0bb0f53e9d895bfa2ad8afaaf6",
+   "krUrl": "ddd445aea5fcd20a048eca91def95fa47e4975231d71b77152cc93e6bf2a32a2"
   },
   {
    "id": 10,
    "title": "Огорчения",
    "text": "Терпеть не могу дождь. Всё вокруг липкое и мокрое, и хвостик становится тяжёлым.",
    "unlockRequirement": "",
-   "cnUrl": "e3ba9b35c9fc69d6ff1fe6ff2cc8b927772bf060b7da0fc0cb4668af384e71c5",
-   "jpUrl": "a769533cde18764430d839aee9a61259d9bc94a602918297a72f95e0b7c2592c",
-   "enUrl": "c2152d9b3af75016c16cfb20fcc5248194fa21ac6675ff883ea5c680d5c3a818",
-   "krUrl": "d9f2b441c53c0b4ce36e0d70c8ad9e130c24894a92072aed62de084564d7dd61"
+   "cnUrl": "dff3b7a0424585ae2035d8ecf8040b48e78b9fbcbf888317cf3571ac76ac4466",
+   "jpUrl": "75c54c7da69f1998da489bb85cce5a78c8c62daf15ff59cebeb214279d27b9e7",
+   "enUrl": "5712ae55c79d5d72e2e1f995e89e7aac262a668cfecdcc31377a2d7a895c9386",
+   "krUrl": "7fcdf50950f7d661a0f9d4ceb11054d88edfb3a6b6b92361d2a3aa3d0963a1dc"
   },
   {
    "id": 11,
    "title": "Сокровенное",
    "text": "Если однажды я не вернусь, иди к каналам Охемы. Вдоль самой большой трубы до самого конца. Там будет небольшое убежище - скажи тем детям, чтобы больше меня не ждали и справлялись дальше сами.",
    "unlockRequirement": "",
-   "cnUrl": "2fa9fd5ae0dc77f11dd259871909036efa1b68c210ed1dcd362728738caa2fc0",
-   "jpUrl": "325e01941dace8956c6331b18e23922e992e979b90eb6174cd1ddf553856264b",
-   "enUrl": "3587e0fc51694a9ed73c21046a46c9b0d5cd590d942d414124102cd06f840ac5",
-   "krUrl": "729c83e422f048a399927295b44ac0c00072587098cb97b3e51345e9445da3d7"
+   "cnUrl": "c9039b4d7e9c06f35ef5fe684cfe6595101c75db32b11add06f25c91487001fb",
+   "jpUrl": "a644bd4873aa766fc578102eaf7177159cc918dc7e8373cc91550b5b28579ae2",
+   "enUrl": "7745c1bb201e710e9eae620504053af3a4cbbeffba3526c5cecfdfcf36cac7b0",
+   "krUrl": "2b95236384dd170264e3081260df8261d1d9a467e83c510f8efcda80e9fe64f1"
   },
   {
    "id": 12,
    "title": "Сведения",
    "text": "Пока все верят в ложь, она является реальностью... проще простого, да ведь? Люди верят в то, во что хотят верить. И разве плохо будет, если однажды мир превратится в мечту?",
    "unlockRequirement": "",
-   "cnUrl": "82f503d9ae9104267d64dd566716ad4ea0d2ad30925f62572f1ff08aec7d1859",
-   "jpUrl": "4528a9a00a98bec4db173fd343790651fe981e5aa2dbda696bf3ef91417d3326",
-   "enUrl": "42424ea5a6967ea288180b912b6f6ce62ca882fed935fe9d2b32a21ca8e72fcc",
-   "krUrl": "c34e0988c89dc901a060df2d1998d06e04981bdd6bbbdded2b139ec450278580"
+   "cnUrl": "dfe36af1140d52ff5a5bc848308dc5819e0a2a0d864dd34d0f1f1c8cec425a77",
+   "jpUrl": "c160a6e73acfddea5b0988983cf2a696e044aedd42a3dc82bc4a13e15f456936",
+   "enUrl": "9792df2015a927348ff95a5d08f7e1a83b46b4ea5a89c0032d9fe2c72235f4a9",
+   "krUrl": "9c846ce3d1517afed56b8bb9070895a2606c3844d5a4b393602c2a7f6861152f"
   },
   {
    "id": 13,
    "title": "О Первопроходце",
    "text": "Эй, Серая Тайна~ Замечала}, что у нас похожее чувство юмора? А ещё мы {F#обе/оба любительницы/любители подбирать всё, что плохо лежит, - просто два сапога пара~",
    "unlockRequirement": "",
-   "cnUrl": "85988a0d71d90191e59298cec642da3f63771bbb24307e9e72bb04a36c1cc928",
-   "jpUrl": "34430b84a88c815ac0121233f36404b8120c815389a7edb4fadb7d5384d7325c",
-   "enUrl": "9e5f73ec252db311b6eba8fb26347d9574a82ae9709f7792a4cb38f9c322fe18",
-   "krUrl": "27c979d9d5905932f509e6a0980eef1ad7125da7f49db670b6e53cf0439ddb84"
+   "cnUrl": "25e6011d1e640d2170f295190a35830e22e81b33bc5aeab7ab9d2b4083a0c558",
+   "jpUrl": "2871af32344c45e8983937754a5b91058d277d81a6f2af0badc9145120ba03a9",
+   "enUrl": "d8bd652bb3150429ff16e79b0d274a4959fa883424f9aeab43ed47abdc5cf391",
+   "krUrl": "5003fd44a296140f5868dc8ca4557ee8f150ed0f2fc80bd1e9d4ab951e42bae7"
   },
   {
    "id": 14,
    "title": "Об Аглае",
    "text": "«Великих актёров» истории воспевают отнюдь не за их прелестные мордашки... Куда больше публика рукоплескает, наблюдая их падение с пьедестала.",
    "unlockRequirement": "",
-   "cnUrl": "f159fc647291bca2ec32ab17fa2a5cac5a452322811a5c4d0fcafd6c4bb08f20",
-   "jpUrl": "a44e981c73c2e9ae6b3fe7321bd70adcfbb18ed879bfdf6a7a0e668c68b6a0aa",
-   "enUrl": "412082e035e961214d8c2cd8a4403d38c89d5f75b0e632a8bf1c9bbd4a11dbf9",
-   "krUrl": "1f70e4f0cefc2bccdea4aac389c2c2cbaf7e564b57ecb82d8c65d153a4ab8bb4"
+   "cnUrl": "64a5d8b4c1d5e68249e12bfb6f454ee2ca3d3ae4b9d1b6d025597149b26efca0",
+   "jpUrl": "8dcb209f03c977517574800744c0c7251cfa47bfebe6cd05f52ca0f08095354f",
+   "enUrl": "43a3e3d022a8138b738f2688ab44c33cbafae0fbc06f21bbf9b4e8d7b4b80563",
+   "krUrl": "00e31f0354c11e9c4fd70e1f0f18c3292eb263b5276898b0574de7034d7a22d6"
   },
   {
    "id": 15,
    "title": "О Трибби, Трианне и Тринноне",
    "text": "Старшие сестрёнки любят меня. Каждый раз, когда я тайком смываюсь в очередное приключение, всегда обнаруживаю, что мой рюкзак набит всякой едой. Перелезать через стены с таким грузом тяжелее!",
    "unlockRequirement": "",
-   "cnUrl": "fb8168ae40c2f3dbc178415eaa0d18cfc1ecf5f56ebd6b9d1053ca9a87a3442e",
-   "jpUrl": "3e52b7fad9135930391f497c49e38304bc081f3711654cc9989595995b6dbd94",
-   "enUrl": "44c3ea85e78d7639ae6a75a494e4cc632eb618a0ea41b137904f0d8a3d6cf7ee",
-   "krUrl": "2f764be494221517de7850ba683224fa1f01739b1a6594cb8996f008741ed881"
+   "cnUrl": "e6fccb929983e831603a88529b3421cd4774bc50ee94bb75ad705a7fc8b3fa04",
+   "jpUrl": "1ea531626f146c04aae498420507a08d6f3b6ec9225600019769ef9d01e968ea",
+   "enUrl": "24f5e512c0308918c8c10185abf8fb67f143eae724332d9fe2253cb68fff3188",
+   "krUrl": "9fecaf96b79e24889aae2d8e0c13ba9a89d9ef24232f6f5578f19001a39b7f5a"
   },
   {
    "id": 16,
    "title": "Об Анаксе",
    "text": "Как его там называют? Расфуфыренный Геозавр? И его ничего не смущает? Тот, кто его так обозвал, вряд ли добился чего-то стоящего, в отличие от Анаксы...",
    "unlockRequirement": "",
-   "cnUrl": "4ccf5638902c98777592df667be90559edddf11c4334674e8548a5c56231b1bb",
-   "jpUrl": "1bd2f9ad147809e4f50e7c5a6653c486bdc95f6de9181333728d5d2d67c9104e",
-   "enUrl": "d035c280e8271d4b8e2916af9ff71a37a03cf2c054c5a592930872e41dd3e6b2",
-   "krUrl": "4b678ae01554a4381d4a104d855aa9534d1bd554a047b64c37ae99a79573708e"
+   "cnUrl": "f4ee853752fecdefc07de69de142b53a7fa41cf750960680e65788d058d02463",
+   "jpUrl": "41fedc1f17a75d0f3b4272de8daeefabf8377d9f49d15face779ffb9e0da970a",
+   "enUrl": "1731a1eab9c84faa24aef2147b878b06a0d5869c863dd41ca1cc59e89cca5162",
+   "krUrl": "2dea47af70820d64c9d16ea92d93965b6c1f8384ed5ab9cd9a9fbcde47292c16"
   },
   {
    "id": 17,
    "title": "О Фаеноне",
    "text": "Мальчишка-спаситель кажется наивным простачком, но он точно знает, чего хотят другие и какую цену они за это готовы заплатить... И тем не менее все его обожают за искренность. Тут я ничего не могу сделать.",
    "unlockRequirement": "",
-   "cnUrl": "bd32afcd45efdc35e8172a2dd55e51c65ae79e1ee1b0b70f0248f2250bd2d608",
-   "jpUrl": "b5df7921c6810c4975f11d559bd2dee43ac1ac6170eff799a47f5e5339c58398",
-   "enUrl": "370e63bd2890b2894eca3ac91efdf1d1c3bff0d104eb2e5aea6166c80f354363",
-   "krUrl": "6cfc253c10c1e9f544c4fa59d6ca100d7aefce82f78e7401ccef37779cc117b2"
+   "cnUrl": "e978a44bc95ac6825bc63e2bb838b38d1e966f01dd3136b5f6535fd7bc172368",
+   "jpUrl": "c668295fce11e6184f02e172b72a6deb3f130b7176ae34fb64f050c9ab218c31",
+   "enUrl": "08f943ad8223ea5228d7a3fcbb27386b3673b940546da4f7fc12671c1c321803",
+   "krUrl": "8a933cbd3a48a562b986993bec4f6ce9f1f71336420d59d29f5335717b362c66"
   },
   {
    "id": 18,
    "title": "О Мидее",
    "text": "Если кто-то говорит мне, что «его отвергла смерть», обычно я спрашиваю, не ударялся ли тот головой. Но этот малый... Ему и правда удалось. Вынуждена признать - бессмертный принц невероятно крут.",
    "unlockRequirement": "",
-   "cnUrl": "eb3f0ab50900b0a236e822818cbf214213713da674d65a822049ea443af542cc",
-   "jpUrl": "d4154643f3dc131f310b3f38d3b939186c6afbc7e1fe116a32fd32a317c1f359",
-   "enUrl": "a57c9541efb78c10d9f0ef25c1f688fe9a42692b253e2a04532887994a24e3bb",
-   "krUrl": "c30a4f5958acaaa33e754a0b0b2d95a4232c105d3eef56d4c7df9729815c93d2"
+   "cnUrl": "621422497ece6a4e5b524a5c4e4ed535662aaad988c63c1d501f7d9c2847460f",
+   "jpUrl": "2f520b70f2758b9b40a1682bb14a3c4dd30e21f3c9380c1d3115861d461f816b",
+   "enUrl": "76093ab3bac533daf02e47053a078c59089f1fae174be6b1b1810a5831afb9e5",
+   "krUrl": "dba8bf29cb48df87bdba17b5b60bfa37a125b91d1ff1951abce369281f090fde"
   },
   {
    "id": 19,
    "title": "О Кастории",
    "text": "Разве не весело подтрунивать над ней? Я всё жду, когда эта Принцесса-домоседка разозлится, но куда там... она слишком милая. И что странно, но меня это ещё больше бесит. Надеюсь только, что она всё-таки начнёт думать больше о себе.",
    "unlockRequirement": "",
-   "cnUrl": "2dc02ef512a104e8828585287ee1c243c0a930491c21a094e3987f71b1b6d324",
-   "jpUrl": "4a1415cb83dec07c452d7ce642bffd530c74a41cd92caba16c6401d3a6e5165b",
-   "enUrl": "093de352823490181b7d3602a4c31257f3e3c8f81aa4fb54986ee80d33928d92",
-   "krUrl": "dc3b8a9be76e52a34c1b5abce206ffc9c145e5e802df90ce0888d7c36264aba1"
+   "cnUrl": "73e095d4b65011de3ea7912fb58809a24f8764ed916f79f28b55cb0f6d8cd3f0",
+   "jpUrl": "20517b30412cc131f9cadfc0359b8c1567349617d5a51d1b80d78e910f0087e8",
+   "enUrl": "528d29a77be8194e072b11121a1908f4fbda35047f6602c3fd77079a7b97bb4c",
+   "krUrl": "edcca399a31b299f94152e919883f52024d707f7cd317486623600c7a5746250"
   },
   {
    "id": 20,
    "title": "О Гиацине",
    "text": "Розочка могла бы с лёгкостью заткнуть за пояс всех этих старпёров. Если ей что-то станет безразлично, то другим и подавно. Но нет, к счастью для неё, она очень ответственная, правда же?",
    "unlockRequirement": "",
-   "cnUrl": "5845574e4937bb84f5a39ca5e1740568880139b51759871e2a1a13ca80629ccc",
-   "jpUrl": "336965492bab1b3455549fb88dc0274053e6fe9c5364c9c4a5faa3b0875e55c6",
-   "enUrl": "474ddd78ffff8ee874c0c287649dc8c1278d56d7be7a7b3c8929b8e33962be0a",
-   "krUrl": "5012177efe2024d225178b8d758b001651c93e72c6f27b8c3f1f6a92600a1f59"
+   "cnUrl": "805b6ce78fc2c58e1fb89addb4dc9db19f6c32b298b748e44fa92e586114cecf",
+   "jpUrl": "e7abdf9a37392ad76d728f42b64c7984b3a7c0cd58274f0993b51225c13c26bc",
+   "enUrl": "94e22c1420a20ea618eb3e89d6f22d8237bd6e531ec4294e4cec4c7f6d9cd8c4",
+   "krUrl": "fa2e96a739ba5f9e643584b815d6b17659fe7e9c007b61e526ee80390a2b2dd9"
   },
   {
    "id": 21,
    "title": "Эйдолон: Активация",
    "text": "Ложь и правда всегда проигрывают настоящей искренности.",
    "unlockRequirement": "",
-   "cnUrl": "934bf3ebcbf80922e6d8098aaa04f4c5e005a3f34c4b0bd0056c64d1dfdf7265",
-   "jpUrl": "ad2fb57d4f5ab826015cbb3b090bcc778dbb7a7b01b7c4cbc48faf081c3e71a2",
-   "enUrl": "1e16c775fde3117141629c00133899c560dc4178929c6b577c32f951a51920f0",
-   "krUrl": "ffb36e4f296d71888f619a7f2f77dc096b25bee8c6422d0ab4bdadc2416abc15"
+   "cnUrl": "8c72a02c11b6671e61271914edb25e10957452b0dca53f28a13c602b4fb27e64",
+   "jpUrl": "68c807f9818e0f899d8ff96bd06afbb552c26025a02432e482b3d9a44cfad00b",
+   "enUrl": "c0ae92a94d0b21d7c007eed5c9cc6dc9332243762d5f08dbe21d335882221d8c",
+   "krUrl": "38c1f9a30eeb0c8ab44814d066cd1d107804864e7af118a2750cc4067445d860"
   },
   {
    "id": 22,
    "title": "Возвышение персонажа",
    "text": "Неплохо. Положу в заначку.",
    "unlockRequirement": "",
-   "cnUrl": "d11b2f4581e4593cf5d4cfd06e1fc00d74a1aaa831b86f0e7602991d6b3bbf89",
-   "jpUrl": "0913fa20ba50e066a73ebba25393531dc4e9d0a8c2943cd37d561b70d52f3ac5",
-   "enUrl": "9f1a07660495f0afcac0d33d7b006b03c1dec009de81c764c3b92ace505faf9a",
-   "krUrl": "382a17ef973dbc7ceda6977b0e5b70d21388a5037fbd60add31a5e845bcbfa42"
+   "cnUrl": "724aef9c32320562e345ae2136f7d816244bfd127d0c33f22dd3ec880ef27491",
+   "jpUrl": "3ccc2344a5bd014d7808ff8d1ecb08f5cbcf6e15b12c5a1575310b6053390db3",
+   "enUrl": "a51d5ea39c121c7e5a10cedb4b3d8ff8dfd0e77ea408dd0e47b81d142e1b9815",
+   "krUrl": "13662027dbcdac5f81c41a5e6ae816a8351811656da9827a44dd0b338b605e45"
   },
   {
    "id": 23,
    "title": "Макс. уровень",
    "text": "Почему так мало?! Я могу больше унести.",
    "unlockRequirement": "",
-   "cnUrl": "82e9e6f394bb6b21d51eb61ba342264ab5a59e810c83f6e95b143808dd93d94b",
-   "jpUrl": "97348086f69ec303c24841298bbd4f74a29812d4dd82e585616033477bf9097e",
-   "enUrl": "b8e674bb8958f9f82be9a5582c21534e068898f1a299bd5c69fbcbd56c37ae45",
-   "krUrl": "fbcc27ef9cba77ca0a5cf5ba71d3a4bca934f6c757002411e1b5e4af9c7bfc9e"
+   "cnUrl": "3653ce1e56492ae9d1a2f602ba102d1391df2736e498ad9ad96b0ca76444cf1e",
+   "jpUrl": "c905ec7e40034675675cb0fa551f36a83c8ac46620bf71eb35c5e410a6337096",
+   "enUrl": "af85cf5f81783eb8b93bc3b31b75fb8f0b71dab0da9ab5a0d16a5a519aeb2e25",
+   "krUrl": "011cb9e9b7af65f6ff83fe919dba8cbe7d24518f89b9749869785d77ebb99329"
   },
   {
    "id": 24,
    "title": "След: Активация",
    "text": "Сокровища ждут! Пора бежать!",
    "unlockRequirement": "",
-   "cnUrl": "5d64933aa970b11515cc146ab74595660892ce7141ae31e450494dee9ba94865",
-   "jpUrl": "fbeb29e23b0cbabdbee2725bd67ac36a87364ef3c3e3ac2f217aec6479f2e80d",
-   "enUrl": "dad1fbdb43953efbff0678477a3d9cabcdebd2cadfc8bf991190d6c273c02b3a",
-   "krUrl": "6a74e732ee8816b25bf4dc471a370bf701e5e6089480992a7ed7f21b1fea3823"
+   "cnUrl": "3acbb6a8f0d351f82320c0c3593823a300db33e866b6269d5dfb96ac5f972eda",
+   "jpUrl": "c76e66de815ccf07f47628e2196ff0ff1f7f96e63a5c51b2063ed2e62d63bbc9",
+   "enUrl": "3b62015cdbf6167d194fa5269b2aba5ac24b8ad00decc8655130c53598667868",
+   "krUrl": "3e0a3e93487eab32c74a550cb00697bd955278bff13940c3ba35a1eadbe86b7b"
   },
   {
    "id": 25,
    "title": "Пополнение отряда: Первопроходец",
    "text": "Серая Тайна. Потом пойдём искать сокровища~",
    "unlockRequirement": "",
-   "cnUrl": "d67faa8c8cb02bd079df5118d4dd2c48f1de15eeddfd9770f4d3a0549437c8d9",
-   "jpUrl": "75b9da75327acb85be55a78b32d7440a5cefccc2ea75b68691b4aa8b0e5ead4b",
-   "enUrl": "4b7511bab0f58a8cf6ecc34389991415618d199a670a14fad1649170c1cebd44",
-   "krUrl": "c7ae10e936d91f2bc6ea98cee4fe3a378bad26cc56607b034b969cf27ee8da90"
+   "cnUrl": "2936d59f709ecf59cbc848e947990851aef6c07fba883a43a95624a3be947d43",
+   "jpUrl": "269852e8aee48be53888f16abd0d32900bd5cded66bde091d04d20aab8ff819e",
+   "enUrl": "70e8676bdce72309af72b3b4c683e4ebfe0b745930cf4c1f0741824eb844f2f0",
+   "krUrl": "484bf07906e5a44c2195654fbacc906f53b1a83690f550cef0287d519051d56b"
   },
   {
    "id": 26,
    "title": "Пополнение отряда: Аглая",
    "text": "Всё-таки скажу: я сделаю всё, что от меня требуется, а ты мне не указывай, ага!",
    "unlockRequirement": "",
-   "cnUrl": "03dc771edecbdd9c517170416219c8f37e3dc102b98dd32aa391115be818acfd",
-   "jpUrl": "a29031036d335c2bed30221270bfc21ad4fe194f27323eae82e7f87aba1e83dc",
-   "enUrl": "11e04b08ca7df70c2dd1efe496eeb6134b2613fe5329851ab680ca0da652a8cf",
-   "krUrl": "26cc80769f9f8407714e179471ae95a1d43b9b264345658001314314aa7e3bee"
+   "cnUrl": "f0286b9102a55839031210442144f411004fc134093b448fff1d8c85d67e38f4",
+   "jpUrl": "f9e0ff101446861d4b474257cd28b5de85cd3243a44b8b22954b65782ca075a5",
+   "enUrl": "dbc2273fbc0c75128d380730cacc376767a2b080f3ab0c695bc723a0653d5db8",
+   "krUrl": "64c73d5db05678999998ca873d1e82e2b51f05fe722f8373ae583e4fcad3c307"
   },
   {
    "id": 27,
    "title": "Пополнение отряда: Кастория",
    "text": "Ой, Принцесса-домоседка, покажешь свою косу?",
    "unlockRequirement": "",
-   "cnUrl": "7882cd788c36dca42dcecd2fab606d622a93fb7f0c9ba7190b86d52883cfed9d",
-   "jpUrl": "8845742a0ab16493c559c9fc3f1c5efc03ea171554d654d97be8ef4f3e33b3bd",
-   "enUrl": "c7582d085286d640a4daa271c7af0a309bdcb5a0f76c9cb8722003b7a886b85a",
-   "krUrl": "b62010b996dca2a7ef6434b77cffdc2a16cb8134397833ae59b5f72024f3ddee"
+   "cnUrl": "66013fb31fd67206d64d04c2c7b82e7c5666eee93ce6625e6128d0ca096e07b5",
+   "jpUrl": "b0d3ad9bbbe23327e9d5a64566442622d1cb81786e2181efa7ede4182a7d9e85",
+   "enUrl": "8f7bf13c13e57286bd6b505b8e6d8e291d0655f708717cec55dd9a031697108f",
+   "krUrl": "183fe31a64670ab93915d278c1fe6f83981853a0f1a31fc0a0424f76349f5c38"
   },
   {
    "id": 28,
    "title": "Пополнение отряда: Трибби",
    "text": "Сестрёнка! Ветер усиливается, может, полетаем?",
    "unlockRequirement": "",
-   "cnUrl": "d08c620a91a60f00d8a9157e7f7d2d7673bd40f3291eca57af9660d4be25c4fe",
-   "jpUrl": "e988809c7685a3bda6fed90e1c2fb6449ff046826eb2c70343fac747b604a898",
-   "enUrl": "54c00cc0aecc9b31f2fb2cbcf78172813db6e6f420486fcf1e0c23d63a6cd5fe",
-   "krUrl": "dc075bdead8efdcb0926958b76ecd4a36372b2852926d0697e10a1586571c7f0"
+   "cnUrl": "83cefd8e14b84824b23c7d16d293df33ad825576df753334136064ab839f4c5f",
+   "jpUrl": "6282caf4c4e4aa03ad6ce3cc8f669709b9a833352a27dbc46887901f955275cc",
+   "enUrl": "aba0056fee173d10b3ba88eedae8a7a4f5695321115ba95c06c8dfb66b1dbaea",
+   "krUrl": "61e42721da1bdd6c80d00dd46e54a48c80b8d86f017c90eb36af0c41a8bfc009"
   },
   {
    "id": 29,
    "title": "Пополнение отряда: Анакса",
    "text": "Профессор Накс~ Правда - это, конечно, хорошо, но без уловок на войне не обойтись~",
    "unlockRequirement": "",
-   "cnUrl": "c814a4a75932e0f66ecc911d4126011664ccfdc640f67dfc75c98d5bd817ab5e",
-   "jpUrl": "0ca0a65253a3377fe64639a1e0927aa98dffbe816526635b69a09fd4fe9b4bd3",
-   "enUrl": "9dabfb79569e4f2846e860067c7a1f2045614c7b46e922065f68a7f95504bbfa",
-   "krUrl": "167b61111dceba7aba2da218cfc9933c261d71fa5eb0d0258b1ad58dde5a6e86"
+   "cnUrl": "912c9fd96dd789ef0e5e410f5db6a2591f385d7a9efd54910357879ccf2e3573",
+   "jpUrl": "e92662cfea538184837ac1c52910789d94a17fb927de726f847efc6e1a12e6aa",
+   "enUrl": "a2e9eb491210edaf67dc746ba5959ab1f4e9106dd74d6da91319ccc06db1636f",
+   "krUrl": "9826737b9e81f08ca1d440699ef3cee05a065ca02275f49fe085a9b7e5ee0a92"
   },
   {
    "id": 30,
    "title": "Пополнение отряда: Мидей",
    "text": "Маленький принц, как думаешь, на этот раз смерть не заберёт тебя?",
    "unlockRequirement": "",
-   "cnUrl": "ee4b3eb348d5a1f591eec56a8175167e35170fee31bfa70bb35d9af09dd64709",
-   "jpUrl": "b1a3b948697cbb2b4ffde5ccf49abc95a361268559ea448e621f0f0f58b593c3",
-   "enUrl": "97ff58ec3e95cd6adebdb74b1694915738beff97e3ff072413a9b13bbd260de6",
-   "krUrl": "6690a76bdb8639088dcd2234da163f0f55a96f9d0d65378cf97fc15146c7096d"
+   "cnUrl": "856a01f71e54249a84d489bc7c43db762543f601b23f235ec3ce8a0fbcd0de87",
+   "jpUrl": "7e98a90be1123bb5fd902670261ff5601cf3b1469f4f42ba3827b04bea80081b",
+   "enUrl": "1188d47566c84c64bf5d20413309d14a2dc7db76a55d2a2719cb47d932f927c5",
+   "krUrl": "c512e9ea24495f6b9b94928956a8350786c15966d65a3cb3427c2110a499fb19"
   },
   {
    "id": 31,
    "title": "Пополнение отряда: Гиацина",
    "text": "Постараюсь вести себя как взрослая, чтобы ты не волновалась, малышка Гиацина~",
    "unlockRequirement": "",
-   "cnUrl": "4674ef174fb134b8f2628ad8a58ed4bb924a35504bd9a72cd438f6d0e7d92f0f",
-   "jpUrl": "827ca2b14a5f06fabd7808ad94607e7aff2cb847b50a5617f97449e1f9f59e91",
-   "enUrl": "e747a51af9f730b7ec0f0b8b3e4c1e3dc6a540002e861dd508f1693722a2a0ef",
-   "krUrl": "1764479a2b1d8b947fd6eb8e0e3073dc07aea9d61eb1c1973aa12cede6042cf8"
+   "cnUrl": "6c4049011e1dc894d213999637b994432612f9f4d695da245b77b38ec3d3e1d5",
+   "jpUrl": "17fbcdbf3bb8da39233223d79dc35b2c3c6ccd8eff63a830b2e14758eb0e355d",
+   "enUrl": "f880006905e186602f9e436305e7b37532dd40ef52d840f2460b469678fb7c06",
+   "krUrl": "1ba79c02a584a6f6a7e8115809280a2e4e7cd23d8ba70074641c7ca2c427f6f8"
+  },
+  {
+   "id": 32,
+   "title": "Пополнение отряда: Фаенон",
+   "text": "Покажи, на что способен, мальчик-спаситель!",
+   "unlockRequirement": "",
+   "cnUrl": "b22514d377d64caa9f3b494e6e34b2c9ea35044fe48a0fbff61665463c112588",
+   "jpUrl": "1740d0bae93f4d5910fde962004583b6d6c054cad1c4da09e9a5c5e8df453d72",
+   "enUrl": "721b32b0d6994f5878d928f556b2046ccce42dbc454f54db7aa6401112a14634",
+   "krUrl": "163784180cfee9fe61fbebc763310ae3401d5665367be3b3aeab219133bc0b43"
   },
   {
    "id": 51,
    "title": "Начало боя: Пробитие уязвимости",
    "text": "Слегка царапнула, и сразу силёнки закончились?",
    "unlockRequirement": "",
-   "cnUrl": "18aca5d9b37a7b807cec11ef5771d613d1de237e50e06a0b905e5871428df8b7",
-   "jpUrl": "a1e6f762ff8a0168dcd6b8e39a2deaac82195bd9f6e0ae5b37ac67b233394dea",
-   "enUrl": "e651716b536330465d5875dc9993509ef8ed7272c2abf5968553847a24807f09",
-   "krUrl": "be214b3b5f381ca99dc4daa79b22ecbab719482a8dec6768518449f8a145bc8a"
+   "cnUrl": "4c449cd2f452bebe84b9274537436e7a4670ad6f0a0988c4dadaf6c5e97daaf2",
+   "jpUrl": "99bf9ea58d629cd7d1fe5f4aa0b6f0cdb71fc6118c36b8a990dc77f0127f2ec5",
+   "enUrl": "0fa0a69346f1b6eb8c52fbf763411dd358419067ed3d817d8f2a43008f923663",
+   "krUrl": "1395ab187dc10385b59bf722640351753bfee5f45a8831dfa682ad4158327436"
   },
   {
    "id": 52,
    "title": "Начало боя: Сигнал об опасности",
    "text": "В воздухе буквально пахнет деньгами!",
    "unlockRequirement": "",
-   "cnUrl": "dddba31f2a92c2394930fb9ff11afb6a91869b937f4a6e7f367ce45cb0872375",
-   "jpUrl": "82a9b83d735c846369291279d7d2dd9172659a5221d361e5b15a5345cbfb298b",
-   "enUrl": "78ab926d77f6974d8e2cfe2fa616cc2cdd3fb143db8d0bc098025359ed01d436",
-   "krUrl": "8ecbba23c847e34e09ec0cc3e0b5bdc18c21a636e8c77ce39a15cb6a4bcfe4ce"
+   "cnUrl": "09f7e494a794df4fc90c676b199d417420a68f9ffd0b00c8026c0aa2a6888ad2",
+   "jpUrl": "bccef5e1243419c24168253157fe6b2fae3432f93251bc8ead4987051717381e",
+   "enUrl": "2191f8ff7bb903950cfd5078af04bfc4076ef84ea4de9a095658767dd111c21e",
+   "krUrl": "9783f4d859d4f464736fc8b04d3c3c67e0d742a5f0a24dd3c8a7fef3a4c55e85"
   },
   {
    "id": 53,
    "title": "В начале хода I",
    "text": "Предлагаю сделку: ты ложишься, а я иду домой~",
    "unlockRequirement": "",
-   "cnUrl": "8f292feac1d163b512636d6a75582e1315d616996815476dff69f0e72e7b935e",
-   "jpUrl": "003a0783aca65e5e9403c23cc6402adc19c809936190e2a90f67c698bfc56e03",
-   "enUrl": "370a3141e2c1554dfa65426c26648ba3ddbc7c2d4cb6432cca4b3bf14c855578",
-   "krUrl": "7eb17cad6d2d13c6ec3b99eed53c5fa1656ff50292df012dfc51d41da08ba450"
+   "cnUrl": "a5433287b2c6739febae17488945052ff2afb8960bbc2160c8fec814deb18a3a",
+   "jpUrl": "d8a2f7057fbbe90fc18553233aa63377e56cb6d9bf7635fe88589e392eb1e43f",
+   "enUrl": "3380b0914ecfc7cec5e6fd3d39f1bdfe02317fe26da3cf21206c3b9d63b4ccfc",
+   "krUrl": "4c91e0db9bbc390e9b15b527f71a05ec85f070b121e6da0dbdd57bc405d75e8a"
   },
   {
    "id": 54,
    "title": "В начале хода II",
    "text": "Хочешь поживиться за мой счёт, а?",
    "unlockRequirement": "",
-   "cnUrl": "edfc113aec905952de461dca8cd001fc6813ea8953aa8e9c4a949cb177319784",
-   "jpUrl": "2e0fa1bc50bf5e8e1132a6c90c626f9778509916c439b9614ebd8e7e7432d9f3",
-   "enUrl": "5a314118ca1f732bdf12c3e34737ae9ccd27e251ad00343bb04452df4cac5c8e",
-   "krUrl": "c5b8fbe6bc90d834b7cd9e5a0feba30f33b9bb3e4226f52432120c29fec692f6"
+   "cnUrl": "3b13e0edb8332bc89dfd5287c91b7fe458301de04cbdb3db1a529468a86dc0ac",
+   "jpUrl": "69684615a4a06aa4e85ce0f821151aa3a9750189778af0c50b24206617ae731d",
+   "enUrl": "ecb18e5c82cc4f7cb888e30f5a787b8616ad3e165eda8e30f62eb67b7f18d53a",
+   "krUrl": "e3d1e9fec3182bf26ff74231eefbe5b895dcf359d6eb0bfbffd91e4d960e2128"
   },
   {
    "id": 55,
    "title": "Ожидание хода",
    "text": "Время - деньги, вообще-то. Ещё секунда, и придётся платить!",
    "unlockRequirement": "",
-   "cnUrl": "89a8e8574eb35d5592415e81a9a66368c4af82522341c2d117e8e824203ee5cf",
-   "jpUrl": "775a057513d0486e71d52fc79ea4cf2f19c8ecb9cc7e878ba3a5aa16f934a354",
-   "enUrl": "2b3acab9d44847b10c1f7c2c6ab685d6df51ded84558aea9ea0d98c9500d4ee7",
-   "krUrl": "6d72f4ae05add4205f684c4e9227f7a8b83cc7e48dfb2f7fc05a0c9cb96d0d95"
+   "cnUrl": "8f194a2fc84100746ca85e5b395dd9e7ddbf6431cd744e034ebbe93b16c33566",
+   "jpUrl": "8a7f71f952357067bd5e4ee320dec385461f4fb6c0971b9fd4572f365f6fc14e",
+   "enUrl": "4ebf57750a47d47af2f44edc73c867a02600054474d742966bedcc81a3374025",
+   "krUrl": "81b3067d199d0d56cb245c18135552347ac46cbf5ca9091f4599d81a6786e430"
   },
   {
    "id": 56,
    "title": "Базовая атака",
    "text": "Получи пинка~",
    "unlockRequirement": "",
-   "cnUrl": "15cbf3c297b20c4f9204269cd7ccaec1ca4bd5988e00378a00a152f52b5cfc27",
-   "jpUrl": "e5e22d837c77ba93af24d52c90c3b7300471fc1d904009aa6dbeaec667d3f1ec",
-   "enUrl": "3fc37e7d00ea8a80ce04c456f725d012589cd92a59f46e9442aff02740d9ee63",
-   "krUrl": "70c72624355728fc91667af6197b1459bde9fbd0b91e73b7ced24fc8742f5fb4"
+   "cnUrl": "671c58f9e5962f45e81a6413a982ee72f492857dfe6a18751e24848a0d968685",
+   "jpUrl": "5125cb1ae2791140a2d3f85709f6d42e1d49a48b0623de256d24ba893e572ca7",
+   "enUrl": "32a0c80f92e42effe05cc3f2473977b3d4a0fa9d096fd82367c1b99578a78271",
+   "krUrl": "b5287b2aeb7c7dcb29b253311b72688af49c09abefaad3c08d0d1525008c28f2"
   },
   {
    "id": 57,
    "title": "Навык I",
    "text": "Иди ко мне, моё сокровище!",
    "unlockRequirement": "",
-   "cnUrl": "09629a919b83d2267c33cd7ce26a28b286c51bcb11556b170fdf1262ab1ece94",
-   "jpUrl": "af9fd673d94a1d445af177b3ccdcbb3a4ba99db31008e8a5fc484aa9ebf58c55",
-   "enUrl": "4a5a71b2adf22d49f7240138dee48f1f584518ac19e52784aef87c9f2416bc76",
-   "krUrl": "6b86198a71ee7f9be9f078e09cd3f0f8eec4224cd5c3b71b5a8f6d55ab5fb32e"
+   "cnUrl": "6fb2cceee91d501430a87769fb74aa39fe8380cba2e0dab22d7970ea4d79ee0d",
+   "jpUrl": "aeeb8f17026b368dc972d2512c60320468b56e41f2d63bd105e15570c6bb1b13",
+   "enUrl": "cbf4dc54a709cf0c011a9c52d5af0da901aa9e8ef4295bd7a18dad8999a489a7",
+   "krUrl": "3e7c1ac43317b8fae648622277381ecb53ef2bb9260f19e473ded354cbd85d44"
   },
   {
    "id": 58,
    "title": "Навык II",
    "text": "Котик заберёт всё~",
    "unlockRequirement": "",
-   "cnUrl": "21f09260bd838e709bf7aceba15b20f429828fe153154e16bbed4b8fb22f23c7",
-   "jpUrl": "f2f9739babd6ad0f9ecdea9f5ea6f4d1649635522a36cd1f5e15d0c55959efc0",
-   "enUrl": "65154c35e06d4c1d37273ab0c604e7af81042f8da61aa45574dd0958c2566f12",
-   "krUrl": "5610ac9d3925da62b8187d7d49527d5be5ef75743ff252ea624b68cd2c14b759"
+   "cnUrl": "8bb365c4124408d55e9fca320bf0d84de0cda4b5519aae561dcbce6e3e6d297e",
+   "jpUrl": "c89a2ff975f1311f3464869194909d81eb4cdcfc785c0ec4820c8456edbb9e0d",
+   "enUrl": "81a6d7de0f49bda2ac0d9f90de2ea17a0223e4851411d9baa1d43445f2be2583",
+   "krUrl": "2f3bf3869a765cedc5701523281fe29a0aa510bf8a67ec32cef159c12c82da2d"
   },
   {
    "id": 59,
    "title": "Поражение слабой атакой",
    "text": "Все старания коту под хвост...",
    "unlockRequirement": "",
-   "cnUrl": "fe703085af56ad3c22bf7a9edada017d1caa777afe1d2c4d5102a80840529f69",
-   "jpUrl": "658572d06609e92866a2ff746aec21e1e3f2ca30cedab9911493b2430f4f7a98",
-   "enUrl": "87a46452b83c027ba03807cac337ba3209f7796fd9fca792f16b73d698e98a43",
-   "krUrl": "91ebbae08f72fe4aaa749bc9c3fb1d264417efe2226e91a62ac2e0330596de68"
+   "cnUrl": "3a42fab1ae3a2c6745a81774683e81890af1c744bcb553505c32dabc6072bc81",
+   "jpUrl": "5a0acc66aed8e1825b032eb87990c0075decdd4649d92c2786d311d6613792aa",
+   "enUrl": "b48635df8cf4c70f07818f3a640680589adda77b7c9758ce16a1b757142105d8",
+   "krUrl": "a98fa0f113386fa240d901d88a4cd507453cf0f980d2143b3eabb397254cb5fa"
   },
   {
    "id": 60,
    "title": "Поражение сильной атакой",
    "text": "Прям кошки скребут!",
    "unlockRequirement": "",
-   "cnUrl": "2ac6a624cbe2d20a811a224afe74c530e3b4aad0a597932c71b25dbcb23584d6",
-   "jpUrl": "088b5901ce868f8612c2ce27ba7779a449fae73d57a86bd9897cf8a94ca0789f",
-   "enUrl": "d1ef5173b512185d2462723307dd3f1f9214a0bd022b2adbec229d3f2b460005",
-   "krUrl": "970e19a6df330405b164f4fd3f304d244f1dc98668c01855c16e56479f0c38d8"
+   "cnUrl": "a82ec8fe7558ff49215992a19c67ded178ba91f02461225af1b2b1806eed8c5d",
+   "jpUrl": "f3e79a53e2ddb7c5a4df4a78ef188aae348eeede93048caab04f1bfcca05a690",
+   "enUrl": "325672770283ca13d38cc6986a0ce4f37b2490da10f7e824c54bc23662d95764",
+   "krUrl": "69441c533dcc54529f8817c74aa455de0faad14d333dc9837574c61d292bd62e"
   },
   {
    "id": 61,
    "title": "Сверхспособность: Активация",
    "text": "Я наигралась.",
    "unlockRequirement": "",
-   "cnUrl": "b716ac85bf3a81b5c5a0212f028900c64bf1efb93faef57ecce14d99ae1cf1b1",
-   "jpUrl": "57a4e19fe15018d933bf8a90e39edc361cb936f20251129c111a2721b4d46076",
-   "enUrl": "b3779108f2814dad02037b3e97164b9dc69fbb6326cea3d1b6340de986d61a3d",
-   "krUrl": "131016d13d87c8d2ba4bfe8cd241734348f6900fdec14dffaa43324efaec3a24"
+   "cnUrl": "ce64cbb077d2258548780c828f9d028835b4a481de1836f7a62023765d873bfe",
+   "jpUrl": "4996b3aabef7bcd6928d3995de6e722219960c1312175b67265bf17a1fd76d3d",
+   "enUrl": "722ac22f85fc8d041bac8fa9d9fa5fc8566b49ec7b1d7fd6497c2f7a98785221",
+   "krUrl": "ac0e310a5eff84815f277eba4923d9071470bf8c6d14c82d33ffeaba39a3c595"
   },
   {
    "id": 62,
    "title": "Сверхспособность: Применение",
    "text": "Ложь, в которую верят, становится реальностью~ Попались~",
    "unlockRequirement": "",
-   "cnUrl": "70423a4f3aa96674e3e4ea3f53b03a734eba8cdb0f804cedcd9c80b64c30ac73",
-   "jpUrl": "bf5f45afd72f93aef7747c3b53931321cae50c5fc26da3fa7cdea6859706cf96",
-   "enUrl": "c850269960a90cb0d696b8960d0418930cf89fdd8f3014a197259f4000d50ad5",
-   "krUrl": "69726c989fae8810e9e26089d2471ad43db5196c10f290bf3b8fa57fab344900"
+   "cnUrl": "26defa74ce3205f3a4eb4c16b8dffb93cbc4f3981edc6218fcb61d1426afb71d",
+   "jpUrl": "2b1abe7d4f63b913b4d710233848c91076df118c8767acc285656c910662b4ee",
+   "enUrl": "c653f90142fdd3a27bab16fa2d6558eb1d5ad13ce78f27d8381b31b085d894a1",
+   "krUrl": "8651a691c3edbf0b678bbe55edcbeeb63866a05c79c4c0fed4eacbb70823219e"
   },
   {
    "id": 63,
    "title": "Поражение",
    "text": "Таков удел Преследующих пламя...",
    "unlockRequirement": "",
-   "cnUrl": "bfc10309e14e690d4c345443af2c277062940617405d9cf992748356d1b95439",
-   "jpUrl": "54486ef036058026339215a04831a5476845bd702cde9076250e9639316fbb21",
-   "enUrl": "3b5532dc25ae7b88b2502dc1ab536071a64389932cacd16ef01433036367e9d2",
-   "krUrl": "52aa4d5c18fd7780175ca59dbb92dee0d38eef0f347f93bbb7d5a662cfcd4ae2"
+   "cnUrl": "b8e140dddc1809b0709c070f6e35b847712a9cc56b91869970d246d1727d3983",
+   "jpUrl": "c35b911d0c7ebe7889a51a5113827d6e9539053ec2a8995351bbac4f25f188a8",
+   "enUrl": "c4093c8e8633c4b217513330ebeb6a2d5ba0f1231a2c66a88e0a3e6177d0f98e",
+   "krUrl": "76ce1f6c195c9180a81ee966706f89fd2086e17d5b17f4083ec671bd959d6256"
   },
   {
    "id": 64,
    "title": "Возвращение в битву",
    "text": "Угадайте, сколько у меня жизней?",
    "unlockRequirement": "",
-   "cnUrl": "cf018e9d2532c0be4e96578ac5dd76499714c30cb92231fa89a4cd3397d6b33c",
-   "jpUrl": "5f8828640b5480c32a248d07118a88f3e187af18ab6aca873caa588e6dbf85ad",
-   "enUrl": "cb478da0b341ce3f5b7eb3ad79ac2bd3f499b1263efa5a692d4829eacd53d1d5",
-   "krUrl": "1e8adaf80f3155c46068ad294d4e7509a751ff547af776a701d08982c4ace9b6"
+   "cnUrl": "6232fdc7b7c73ccff89be3e9b77b796519fa5b5606e204246093c2a5b783e8bc",
+   "jpUrl": "a002416e166de86f48b2f5f1d9cd211e786febda76eb7b4e48b946abc65ef761",
+   "enUrl": "6e4dc9c6398ceb72c654964159fab0b6855ce3aff0f43f181a9a8ff55916b38e",
+   "krUrl": "f0da2601697e41d71253a06ab57d5c4a8eb4f346e7037368368be76844fb170e"
   },
   {
    "id": 65,
    "title": "Восстановление НР",
    "text": "Спасибо. Так намного лучше.",
    "unlockRequirement": "",
-   "cnUrl": "59ac593630afcf93f355420fc9c53a78b4581035d002aac9ccb1c5e27173a892",
-   "jpUrl": "f4f07bef4bb7bb9dc8d68f7f39df7a5cb1dd99f2e9c4401816a5b9fa9083d16e",
-   "enUrl": "c3f4057c3646ea776cc0c3a645fa5ab4924565560a1b3fd41bbb6636975e70e1",
-   "krUrl": "1103eceafc6c9fdc0380d1f4a5fefccadbd65f696af9f9e01a7157e7a3e89489"
+   "cnUrl": "e82d9220c004f3268a9328a9f3aa0a16717093319e8b18d18d08f829839d298f",
+   "jpUrl": "88f427d32abee2df71dee519eb99660a5cc819820aa4897a454a18581ac26957",
+   "enUrl": "f03e0cd408d3ce6459621791a77043d9dc831a7e0302041ebd9ee1aed857abfc",
+   "krUrl": "2b61f94fa0844ac4206e9b0abf85f471760529d9115f217c7e99ed3e61412b05"
   },
   {
    "id": 66,
    "title": "Техника",
    "text": "Пора сыграть в кошки-мышки!",
    "unlockRequirement": "",
-   "cnUrl": "e4ed41832948e00fb7c6c67d6d6abfcc07fcfc7acbbb90a981eaef8e6bfdcc3c",
-   "jpUrl": "d0cf28e7dfe588767f8aad40d1e7c65791a8c384068ffdf3bfd7976740a28545",
-   "enUrl": "aa489ea4f12f1926212f9a72fa2c26ad51b00c4e2005ad8f997d488dde12bdc9",
-   "krUrl": "5d5cbe03f7086e54562876b17347497be2311cc76e354011f85b93b2e81572e3"
+   "cnUrl": "bd82f380f0830dae8c1f3c88e3272b2dbecb4d719144e1ef448fe4375c0979e4",
+   "jpUrl": "d9b90e617ae55a643eeba2d1008a7ff65d6f7964028c3d551e30af592a6fd3d1",
+   "enUrl": "daeee010f0aa872e3e0ce512cff0473e4bb9bb008ebad895a0fb9ea593c904bf",
+   "krUrl": "084e058e94c47d17a9b3b6319a5ae38bbca0bccf6fc37be6aa64d3864924ddfd"
   },
   {
    "id": 67,
    "title": "Победа",
    "text": "Вот это куш! Ещё увидимся~",
    "unlockRequirement": "",
-   "cnUrl": "8842e5882a57dd971a60a88c76070e7e13a87cee426b4bc78461a89b538d84c9",
-   "jpUrl": "a7b464824a303f92275bfa33f2257aa5dee58cb3724b971ffa35805fd700561c",
-   "enUrl": "34f5fdc4a008c3a4292e4d232f9e4efd0ea5edc28fbc378547083873302a21d3",
-   "krUrl": "5de17af83e7d0a5d8a0132a918aa0211e88ca5d155d83345bbaa0af282f755e7"
+   "cnUrl": "35f46011d06d69a51a36f5e6d589ae252eda7f0689ad56bc5e11073ac67ccba3",
+   "jpUrl": "a7867e1edcfed234ff6fbc8094b9a4c522dfdb94f1ec806ec2f4b2c84aeb63bd",
+   "enUrl": "4be8f3dd41afc7fbf852a7d70f771af05611483f3664a724938569859beb65b0",
+   "krUrl": "ef75bcfc893d4d33f9a4ab4a1e17a81abeb25a09bac545536219dd92e61d9139"
   },
   {
    "id": 68,
    "title": "Открытие сундука I",
    "text": "Люблю всё бесплатное~",
    "unlockRequirement": "",
-   "cnUrl": "cf2173794cef7532e963a882e5fdae8a4bc36e18a0eac5754804daaaf586bdf8",
-   "jpUrl": "d1e8c8a2cb97336bc41cf619fffc980c81602bcb53a2b64edf7a6a94172e9539",
-   "enUrl": "69ee31d2cdfe455d1213a33015f9a10082bd73085e548012d29259c922104f73",
-   "krUrl": "ff5962eec40c6ab47348f0552d9e67c3b7a86c22af6250ea5f8aa4b482c7f729"
+   "cnUrl": "0592f05c4c2d68688964d0210b4239daa62fa74084c11752b6b50e2d7758e55f",
+   "jpUrl": "0735005d44a0ec791f25d79d3ca31f17655a16c4c897797490e76164a65ed16b",
+   "enUrl": "bb2e6debb8a08ba5b07423e7c6b57129e086089d6be27f97ff7bd5b84aade367",
+   "krUrl": "8c6e2e2d866130446f2b84814559ffc45baf45a7a7c51fbdccf1aee2f6217c1e"
   },
   {
    "id": 69,
    "title": "Открытие сундука II",
    "text": "Котятки сегодня голодными не останутся~",
    "unlockRequirement": "",
-   "cnUrl": "b3097638e20a52d81b80a31d64609f146bb20c0b5ca0dec71d9d439c87e4ac2f",
-   "jpUrl": "2aa9c98263d9eeffd4ad7493a6a775bb4538e82f25c3e460a6f04a7dab73975b",
-   "enUrl": "967ec7fd7663346d40bb855aed8bc47a58904b8941a8d0bc9f1c587d5d68b7a4",
-   "krUrl": "b41651e5feffbdc98faf7128787d8ffaeceb30869e6568a53976acd5429e1337"
+   "cnUrl": "ced38938b79044c7dfcf954e7d2d5e90dc872c9712d009d3c3216daa25cc96ad",
+   "jpUrl": "1f75a9d9676158ffe5f5cd0f54773580172ebb045db450cedd88f2c8857b6e26",
+   "enUrl": "5a5bb81683c8705f2879b3ca521f63b3368341024452ac1580bb21534fce4f87",
+   "krUrl": "d531c3080f350a4c97001a2a6e844f124399cbd04471b7cca5560e2f456c4deb"
   },
   {
    "id": 70,
    "title": "Открытие роскошного сундука",
    "text": "Да я титан удачи!",
    "unlockRequirement": "",
-   "cnUrl": "da91240e014f692d0ac466bac5721aa2e9ea818f237924c9719db291c0666df9",
-   "jpUrl": "44a34e44d66048db9c662fe1f9d55dd96221ee9734b9aeea3b639eecec801355",
-   "enUrl": "87d8328ee87d8c99fc8700882a0d92acb1c1fe888ae50c5941672dfd05eacc27",
-   "krUrl": "45665c620fa8e22ecbc7f5fca13d07f8d97bb3ff49dc5b421813f0e128522c47"
+   "cnUrl": "8bee715ec51ff73aac91a0b266af4a17409473f34e4ae3b9cb85aa49cc3168fd",
+   "jpUrl": "35092d36a9944a5b6259da33d43a3d7527790056c02a765a4a897986c2e73021",
+   "enUrl": "c6bd60307d7b5e96c3cdf53df65d1be3b5d61ef1ec4b2b9fb007b66fc898af54",
+   "krUrl": "703ed3fcf608405618e00a833bfa42b6279871db8dd16d1a8f1308b2ca562779"
   },
   {
    "id": 71,
    "title": "Успешное решение головоломки I",
    "text": "Плёвое дело... И кто не верил в долосцев?",
    "unlockRequirement": "",
-   "cnUrl": "7316a0bbdc60675e57ceceb24724ed3299fc178f07291349c8d83af9ce7cad2b",
-   "jpUrl": "6bcb8eb092f00858adb0a2ccdf9f4ec09f7fa4d91407ea3df1275d8dd2af16f0",
-   "enUrl": "320b45084916d241c68c0462004b2aaa21ecf768d8d14e97ff84e77844326ac3",
-   "krUrl": "0155c5059014424e4898f9c8c884e5cbbcd8dc52b190068a635f62080ee54571"
+   "cnUrl": "ac1625fa8ee2290b87b758a9dbcfbee8782f28941c819aab58b0b4e92b6dd821",
+   "jpUrl": "631afbb1c520826ec1e52fb550b2a41d37a8705ff5ecb28c7df5fc4408834db6",
+   "enUrl": "22acc5a3b9ab5603faa6078329332a6e0e1e7e21d23aed3c864fc4b9415199a3",
+   "krUrl": "1d4f3245ee57bb6aa6af72d9863d632989f75f8d959a7162914bb2a5c6464a0a"
   },
   {
    "id": 72,
    "title": "Успешное решение головоломки II",
    "text": "Да ладно! Можно что-нибудь посложнее?",
    "unlockRequirement": "",
-   "cnUrl": "3865226606ba785456298e0536fc7d331de27b3edd363e71baaf401272959b43",
-   "jpUrl": "5a91732151e5a6650bf98aac63fdb210870e51970498c62d8691822a9f56d224",
-   "enUrl": "38df1a5d577f4e3e3067bbcf9bb8bb41c4de9c15c4825d95d09fd4bde5965103",
-   "krUrl": "dd2ab6931082762e5ee945cfcff865d005115e6566c22c0b155afc8c4176f2d8"
+   "cnUrl": "0aae32e9680daefec2fcfdd02acd4dfac69852049232611099b6ca422f840a52",
+   "jpUrl": "85492f68e9f57252d1fafe4387223dbeae69f06557a296d2c4df790841b31679",
+   "enUrl": "be79b3427e63874df6f89f5313bd5bbd7d7ed94d7f7345788c18a7d562cc8dfb",
+   "krUrl": "918a80ce047caf754c645dec92616b50e3b959e529068703cb3f921cebae28e4"
   },
   {
    "id": 73,
    "title": "Обнаружение противника",
    "text": "Шерсть встала дыбом... Может, другим путём пойдём?",
    "unlockRequirement": "",
-   "cnUrl": "4ceb9edf2d03809b439a8ab1f9b8bd4772ba00b6d60d943e5f2adc7ca711efd2",
-   "jpUrl": "aad2a0856095cbdc3c4683ac7994e0051cfab6620f52a153157229538e60c3ef",
-   "enUrl": "359d5500e734406eff2e030b5fe81fa238d13fd6091e698ce662ab52b0a6ea6b",
-   "krUrl": "315bdf19bdbf8ff852b4e50f368e8490d602ad847ffc161fb719a00588efe5ea"
+   "cnUrl": "9679637e05f1f3b8128915c24c93f84a49e9465684305a1214f987c7332ce783",
+   "jpUrl": "253543d452bd8dfd1644086a50ae1d9262a47bb699716369d59f3aad2b0c8466",
+   "enUrl": "56b9944b50075ec5a826207cc587bc9d424bd9f227205774268fd58ba4198ca5",
+   "krUrl": "961737c7b17f0ec4af359ca32c9d1020c010d8a84260bdc42c7eb309ccfb99e4"
   },
   {
    "id": 74,
    "title": "Возвращение в город",
    "text": "Чую, тут весело будет! Прогуляемся~",
    "unlockRequirement": "",
-   "cnUrl": "2efae99a3148b23d8c552def91f827950d34a1469673a976cefb92a987f6a25a",
-   "jpUrl": "3214f8528b7242983b6c42a9362ffda9fdc633cd40d464a0813c1da7d67bfde9",
-   "enUrl": "5e23fb469f0d54d77f437c7ecd954e3ea8b54fdf2c370fc29423948ef769d8df",
-   "krUrl": "25b441aa5b2311865c213d1d568b44f612de04a4dab3dee86d08942ed3f24214"
+   "cnUrl": "3e8ac0ad3d5d0e50ec065768a0cfb7921465317fb9edf2047073578970f0a91f",
+   "jpUrl": "760dd33c5aa29becfa0ec353065dea147b829b8fcae5e58ebb6f4d15c38c8cc5",
+   "enUrl": "707bc0baaa8f533d483a480defd08e55c61ea5f931faa6596761e8d79f9ecc32",
+   "krUrl": "5b50b9e979b0435922ab6e9e4e92e181bc2b6b194f4debb122a79512b1202735"
   }
  ],
  "storyItems": [
@@ -2907,6 +2930,8 @@
   }
  },
  "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
  "name": "Цифер",
  "rarity": 5,
  "descHash": "В заброшенном городе воров Долосе дебоширят триста благородных разбойников - весь полис находится в их власти. Беги, быстроногая воровская звезда Цифера, златиус, дразнящая ядро пламени коварства. Пусть твоя ложь летит с ветром, разносясь по всем землям этого мира. - Пытаешься меня надуть? Не выйдет!",

@@ -1296,7 +1296,7 @@
   },
   {
    "tagHash": "Усиление",
-   "descHash": "Атаки Сампо имеют <u>базовый шанс</u> <nobr>#1[i]%</nobr> наложить на противника статус Выветривание на <nobr>#3[i]</nobr> хода.<br />Противник со статусом Выветривание будет получать периодический ветряной урон, равный <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> от силы атаки Сампо, в начале каждого хода. Статус Выветривание может складываться до <nobr>#4[i]</nobr> раз.",
+   "descHash": "Атаки Сампо имеют <u>базовый шанс</u> <nobr>#1[i]%</nobr> наложить на противника статус Выветривание на <nobr>#3[i]</nobr> хода.<br />Противник со статусом Выветривание получает периодический ветряной урон, равный <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> от силы атаки Сампо, в начале каждого хода. Статус Выветривание может складываться до <nobr>#4[i]</nobr> раз.",
    "ultimateCost": 0,
    "break": "0",
    "energy": "0",
@@ -1680,6 +1680,7 @@
          "anchor": 15,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 286061,
           "name": "Усиление атаки",
@@ -1709,6 +1710,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 286060,
         "name": "Усиление шанса попадания эффектов",
@@ -1738,6 +1740,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 286063,
       "name": "Усиление атаки",
@@ -1767,6 +1770,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Использование сверхспособности дополнительно восстанавливает <nobr>#1[i]</nobr> ед. энергии.",
     "ultimateCost": 0,
@@ -1815,6 +1819,7 @@
      "anchor": 16,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 286074,
       "name": "Усиление сопротивления эффектам",
@@ -1848,6 +1853,7 @@
      "anchor": 17,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 286075,
       "name": "Усиление шанса попадания эффектов",
@@ -1877,6 +1883,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Наносимый Сампо противниками со статусом Выветривание урон понижается на <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
@@ -1925,6 +1932,7 @@
      "anchor": 18,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 370007,
       "name": "Усиление атаки",
@@ -1954,6 +1962,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBuff": {
     "id": 286067,
     "name": "Усиление атаки",
@@ -1998,6 +2007,7 @@
          "anchor": 12,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 286062,
           "name": "Усиление сопротивления эффектам",
@@ -2027,6 +2037,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 286065,
         "name": "Усиление атаки",
@@ -2056,6 +2067,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 286064,
       "name": "Усиление шанса попадания эффектов",
@@ -2085,6 +2097,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Увеличивает продолжительность статуса Выветривание на <nobr>#1[i]</nobr> ход.",
     "ultimateCost": 0,
@@ -2131,490 +2144,490 @@
    "title": "Первая встреча",
    "text": "Эй, Первопроходец! Знаешь, когда рядом Сампо Коски, у тебя есть бизнесмен, компаньон и мастер решения проблем, и всё это в одном лице! Выгодная сделка, да?",
    "unlockRequirement": "",
-   "cnUrl": "d6ceb9217ccbc1740b6f8bece944a72b78945b8b8c48ec6646b292469ab4c842",
-   "jpUrl": "3ea022eb334e2827a2f6475a3c95b3d5596f5584f67026f7e273f88780a50846",
-   "enUrl": "a2b3fb7da2a43dfe6593d39ce76e50c43d53f89956994f629ff5b8ccff798919",
-   "krUrl": "ad4ff06d9eefb180d37256cd3315f1f9e9ce51ad768fd643516c53e9e9d0b6e5"
+   "cnUrl": "d9c345186a321e8e37f46c166789523cd828b109bf1a48b65c7b01e3ed7822e2",
+   "jpUrl": "945aef9588279892b886a53f727ed09fb78a54d36081226bb781224dc80ad6f9",
+   "enUrl": "d1525dad4a077499e9239e609bbdc57d9429ec8a2b081072bb274f86e7c1718d",
+   "krUrl": "19134e035aa176d5423cdc69bb816c6ae97249e57af08ad4ae23d8bc601bd513"
   },
   {
    "id": 2,
    "title": "Приветствие",
    "text": "Что сегодня надо сделать? Есть деньги - сделаю. Нет?.. Всё равно сделаю. Ты только скажи, друг.",
    "unlockRequirement": "",
-   "cnUrl": "a93b50df5ab608c6920917940771ebd6c3730e17e6fc9ea31dfa32dd648a492d",
-   "jpUrl": "aa2243acdd688bcb06fbd6cd917ddaede73ffc7f6c51469024672e583c8ead60",
-   "enUrl": "54ec5981a0cd16eeab23e953694ddae5d51771073903e93e23a74e8e16a663ed",
-   "krUrl": "5e51dd987d6970f46b1f7e3de0a704c523efadce496e289663f790db1149beb5"
+   "cnUrl": "7896a8b9faa4604a3351ba186cc352d9362b5cd6d64860b048c005b35d47f23d",
+   "jpUrl": "deda90cd3df46a7fd286b3a196c9535200ba3da5a30766acb66bb8205aaf442c",
+   "enUrl": "c49c790340a72c6cdfd4171a56572e166a9d5576283172eed9967f96490241f3",
+   "krUrl": "cea92fa1e48a47ec7c5c63f4c657ceec4eee7bc791b776f4e7cb924b244c533d"
   },
   {
    "id": 3,
    "title": "Прощание",
    "text": "Ладно, хочешь отдохнуть - отдыхай. Не бойся - не сбегу.",
    "unlockRequirement": "",
-   "cnUrl": "8ca91ec909e5c84ee7c4092e67ab4da31d7d951387aa4060c9f28f446f43f396",
-   "jpUrl": "9c8d0b14ba87a6187d3f5a6d688ca442ccc62db0064b88b2c9897fdd4e7b6d86",
-   "enUrl": "3be84fea0fe06c41e59d3a46aecfc1f71d6724733b00a0201f40ece5898ec475",
-   "krUrl": "687638eb18fdcf6060503808945175cf3b534a313d493dfa8d8a71c3e475b76f"
+   "cnUrl": "14bff4b8f040151819728857235900650f0ab7df04d55764b18f6fb870eaf313",
+   "jpUrl": "c528ba5a6dbffe68803286979e7eed9a8318e68cbfee780f081baff59b4f3b1b",
+   "enUrl": "554aa144117a324023297740120ff93e163fd35f1b4dee440e28aaa96ca102e2",
+   "krUrl": "3b0c5c58f1a165432ef4e172dc5f0b9139efbf465ea6960cabc11629aff31e8d"
   },
   {
    "id": 4,
    "title": "О себе",
    "text": "Я? Я лишь добродушный парень, который помогает своему маленькому компаньону - заметь, бесплатно - и которого всегда втягивают в чьи-то дела, не давая ничего взамен! Кхм, как я уже сказал, я очень покладистый парень.",
    "unlockRequirement": "",
-   "cnUrl": "6ce1d88fba7072328335007fc0b5430dd8da2bf4260746b1533375563672c3de",
-   "jpUrl": "04af38bb3be915ba4c4ee9b9664d0c98c250f8d08a6963bc6871d819fdce1f6f",
-   "enUrl": "d7ff13749be549dd57f648797de28f641c609197c77a024da07a12063e3465ec",
-   "krUrl": "594d1d912480c9a4ec53550f5a0af0cc13cc609eb600958a2beedef3d91523c2"
+   "cnUrl": "e07acb072069cee000c60ccda8471b0b4fd695a24062abc7b1130e710fd329ab",
+   "jpUrl": "6d704c9c9b324a66203909db58065bb6d8c8c25a9169de30e48b20cf99937be7",
+   "enUrl": "6636396786c57f0186790336bca78979938a3f44c2bb7d129ec9f9d23146a80b",
+   "krUrl": "84804d90f8b364ffee842730e9a34c4ebe4dfddd6b2d8b07425daf9b5162814c"
   },
   {
    "id": 5,
    "title": "Об информации",
    "text": "Если правильно упаковать информацию, то её можно продать разным людям! Это, мой друг, называется максимизацией прибыли.",
    "unlockRequirement": "",
-   "cnUrl": "20fe60737a5fda49d7033301813c2ca12522e82fb73d9897cf098f4ced03df01",
-   "jpUrl": "545accf053b7cc0f693fa507c9648bf4a4cff1fea2a0cac4c577419167a41970",
-   "enUrl": "f5608bce95af27809e6f8b64b1e8d11c60eacf73bd75216e3873427dc1ffaa92",
-   "krUrl": "1ea327a3c0872424847046ca7e0bd3e6747c1fc7faba243158efa469f1251d2c"
+   "cnUrl": "57cf9b5e4be580dd9e9a49ac9c5776caa1790ef8bdbc90e2c9d36929cd3348de",
+   "jpUrl": "60ef50e4a043bc4fa8df4b13d78fdd3e02a725c52a6fdc6eae69272c65d64f97",
+   "enUrl": "81f57256c395c83bf6d504c95d5cc74fe1bc33e9b4cd5af37ea12b609eec2d1f",
+   "krUrl": "f2ea8dec87218f04fd0aab0b50c59c994a774e18c827d5700fbd0c7190924c71"
   },
   {
    "id": 6,
    "title": "Хобби",
    "text": "Я твёрдо верю в то, что светская беседа приносит больших клиентов.",
    "unlockRequirement": "",
-   "cnUrl": "791c2f807c41d9224646d82e3db0f6c3d42072e3f33d66e10fdef88ef2ac3eab",
-   "jpUrl": "ed0721c714282222bb300f67c0b339e87c047b4d8e9c37c86f0d1810432b5f5a",
-   "enUrl": "46f87be0af982f1fd5b98651140e65582895b2ec7294b6e8cdc774942684e980",
-   "krUrl": "597eb52c7a401d8a0a0714c63e74d86b801cb3fb16123dd8faa01a396f0b84b3"
+   "cnUrl": "3ea5fe487cb1dfcf1f2771ec344b6c397c8d73c6a63d033893c94cb8281d1eab",
+   "jpUrl": "f82371e3a43b532734e0058b54eb0aceb5d4380c0bab60c4e8a76a837e7517c4",
+   "enUrl": "aed2ea7f21b2afbec35939d2cef02d92d7e027d94bff60c373d499bdbdb62950",
+   "krUrl": "f5807f21bcab7af9b69f500cd026274afbe811201348fa44ab2db0b98b1ca430"
   },
   {
    "id": 7,
    "title": "Огорчения",
    "text": "Я продаю то, что люди хотят купить, а меня называют мошенником! Это возмутительно!",
    "unlockRequirement": "",
-   "cnUrl": "1e1534d9a13c00932c889d9028af847978b17ebe85e934a525afd6d462ce9ad5",
-   "jpUrl": "276f60fd060914bcd81efa67c4adb0d9dc71b370d8c2e03d4929a862ec6ac7e2",
-   "enUrl": "a64f95cef444c0fa1290b401a586ffb56e1f10b916d8eb26b10be480d5a0a61f",
-   "krUrl": "ee76df2ebd41b5ffdaeab26049f651f4fbcda31b952cb5414a7944c790b2716e"
+   "cnUrl": "9a8230b856ae3ca3d8d135975f11cd3f5c8b08bfc68f32551d35251da33170ec",
+   "jpUrl": "27b9ad9fc593d6f0febb17aae9e0900713d0306ac1e524e2708e7b123fb1421a",
+   "enUrl": "d08a57df4663b47d1d56fb838440d8ca3b38c3c52f3151709ce9c5489ed7847b",
+   "krUrl": "8d59771fc5ca16d8dca756593a3e0f3a975aa007174ef48bd8166db8d2af4e7c"
   },
   {
    "id": 8,
    "title": "Сокровенное",
    "text": "Я-то думал, что в таком изолированном месте, как Белобог, люди будут охотнее делиться тем, что у них есть. А оказалось наоборот. И я более чем счастлив восполнить этот недостаток.",
    "unlockRequirement": "",
-   "cnUrl": "612769b7024180f58ca4044464441051ca7b740b358ec346bb29b16c1b383e01",
-   "jpUrl": "ee654f1aeb188ca2171f2daf14242713ab7965840b06972fe879710a7b31015f",
-   "enUrl": "93004f15d3adf7c7240ab28b77c99610db148970d043e4847917701b769a2ccd",
-   "krUrl": "3f6a722c85694a54d49d29e47a1bcbe719a0a5c8d8c12343792b3d308fe41565"
+   "cnUrl": "25205ad3f9ecf5b675609ca08403b1fadc74b392c8aff75f3e4b608957035823",
+   "jpUrl": "529a34361c16249490b894e73886d10e945252a83af2b08ad8225e84746c7212",
+   "enUrl": "add4eb9c458161c0c82723c83b1db85e5f99e1acb77a0f7afeb2666d5b25ccae",
+   "krUrl": "f9063a38d119bc95a0e191e46707566800037d2fa6113c4d7a36186f11ae3645"
   },
   {
    "id": 9,
    "title": "Сведения",
    "text": "Ну же, как вы, ребята, оказались посреди снежных полей? НЛО? Дайте-ка угадаю, вы на поезде приехали, ха-ха. Да ладно?",
    "unlockRequirement": "",
-   "cnUrl": "8d18b4401423e777ce698f5414723e95d7b9cb6008987f04c2a9a7206b5a6552",
-   "jpUrl": "c132ebcaa8860f3ef7671651816b2af10aadbbc6b1d5654434a860b46a96e2bf",
-   "enUrl": "aa54107a254c774b270b66b390632398bb4f29d619b96939a9381b3999b9d4aa",
-   "krUrl": "d29d20ba5e740c0ec136a7b55942446f1feb664544900f47dc9ff2e6ad61724a"
+   "cnUrl": "8555f19500b04d51248fbd8aa902be51e13e7a8cc38f2bc0af033af621c23f68",
+   "jpUrl": "21b2cd51e8dacc6c386e77eb187a4fc0a33a448be4e161386e08d06eaa01b463",
+   "enUrl": "4d5d280a5c7e6f4a4d862fc1845f0078ab6a5275e3781fc5b450b5d6209d9abc",
+   "krUrl": "81580f9b672ebfeae287404f47fa14bc4210a342137330df31b097369a7e8678"
   },
   {
    "id": 10,
    "title": "О Наташе",
    "text": "Когда я впервые попал в Подземье, я привозил Наташе лекарства, в которых она нуждалась. Я делал это некоторое время, и вскоре это были лекарства и информация. Ну ты знаешь, как это работает.",
    "unlockRequirement": "",
-   "cnUrl": "03572383b38b881fd04a972dcc292c09e62cf73b6acb9ead1bf2a582ba5b74ea",
-   "jpUrl": "ff1693b91e63a204bd878c7666a5e927bceabf367651e9457a9c16b3f638354a",
-   "enUrl": "91a64f1c44943a87690af59dd238ab38d2464b674b9a9b6f6f75dd5eaab76d1b",
-   "krUrl": "3022dcf61a8b276985b3b1c6c6d6e62b39fc846497c86265ce7679147038b181"
+   "cnUrl": "9b4e54df0bf87c4a1b82d7e2e14655837e83279bbb13db6020650c17aa3fcb40",
+   "jpUrl": "b492325e6eac66c22fbfc8fe64bc632060c4e0582618cd6973ac82fa7e7fc952",
+   "enUrl": "ab19ca67e717a56c58e211435487b927fe2257b23d07540fb2cac5d7a6f2ff1a",
+   "krUrl": "eeeb2c180629ae8b3a843618cfd3cde3153cb41428ca3652e88852c647560f80"
   },
   {
    "id": 11,
    "title": "О Свароге",
    "text": "Если бы кому-нибудь удалось заключить сделку со Сварогом, он заслужил бы моё искреннее восхищение!",
    "unlockRequirement": "",
-   "cnUrl": "dce566a8a689a6c88923274125af3559b3c0d596c171a3392b4f939e510b0efe",
-   "jpUrl": "e1289d3b43afd269963cd3a74988905e184d2592e52c23d973adeb2f7df57f1f",
-   "enUrl": "d6a26ee586217a9de33062d85a9fa71a977cf5e6af4644f5111959d4a79cb60a",
-   "krUrl": "008adb5f39205064f2771a9ef0970e3a578afd095c7e4a9f2f359f7f59eea7ff"
+   "cnUrl": "99d5aa9c42378485df0d776843901ae091a81d396219563feca4bd20b398a6ce",
+   "jpUrl": "f442b174cfd49306899dd6ef0698863562004f8e642d19f6d386b9ebd4d662fd",
+   "enUrl": "98eeb9075ab982a1bf7dc3f2fdab0a54e4786c717f858ff52e7464401c7172b7",
+   "krUrl": "99a7bacfed547197a0af87bc9b166f77574028b3bfe7a651ed89013f68c5f934"
   },
   {
    "id": 12,
    "title": "О Кларе",
    "text": "Наша маленькая девочка в красном действительно впечатляет. Как ей удалось заставить эту гигантскую жестянку слушать её?",
    "unlockRequirement": "",
-   "cnUrl": "bc1c858ee6ca2b80720701da22278ee268f2897ccc1af20e90d79e49497c0562",
-   "jpUrl": "6bda06197f2a283e33431419174358c2fc41d2931e69fb1243281aef42359bb7",
-   "enUrl": "e6d35a38d42116e1662e14954404daf73d55cd804aa005810d2027f2f442b7a8",
-   "krUrl": "833048d3458b472e9aed75ec0ec1db479f250b31b54a4fb6be97e83e305e7faf"
+   "cnUrl": "594292dcb930e4f71bd82021ae01056d94b61c96cbbbf09d691f111d8b20feae",
+   "jpUrl": "993c2e19f360df1403de0e979b1ba89f613ed33930f307832a9f4389424c200b",
+   "enUrl": "d98b2ecedf6739bf7f3028e15b11e0ad37c8ce3aa369b23d033b07f132757868",
+   "krUrl": "1cb5df0f087864081f5d78d1d7eb3ac7c510b513c75d78578a8a515828d47da3"
   },
   {
    "id": 13,
    "title": "О Зеле",
    "text": "Госпоже Зеле только дай волю, и она будет меня бить, вместо того, чтобы говорить ртом. За что мне это?",
    "unlockRequirement": "",
-   "cnUrl": "b9f54749f9c469126eba6700dfb5f77fe0469b74d58b89ca405d0e618aa6f253",
-   "jpUrl": "2301362d18890eea0fabcfd2d96eb477a6a671f699a7d517cbe86746bc18595c",
-   "enUrl": "cc0f672216f11a557b88d1f30015891e77167728368de3e7afbc6eb511ae60fa",
-   "krUrl": "7cd202b196cc6dd3e726f11252672d9beeb533e583537298d6ea31e858689f42"
+   "cnUrl": "c1ccd95de27087d1a745020d54a7d32f36ce2a754354f04996b21d85d70d1b62",
+   "jpUrl": "81800521e2987cb8a90b77b281ec0612d24ec10ef410c903eaa891a3245442c0",
+   "enUrl": "e70c6af1d662f034d4621105e68eead8988993dea079f0917e776bcee65227f9",
+   "krUrl": "532a23c54e76f73ced3e50e7db1791c46425174f0fc8c83334859c6c2f965962"
   },
   {
    "id": 14,
    "title": "О Гепарде",
    "text": "Ах, мы довольно часто видимся - обычно я убегаю, а он бежит за мной. Должен сказать, я начинаю наслаждаться проявленным ко мне вниманием, хе-хе.",
    "unlockRequirement": "",
-   "cnUrl": "a33264081e4b0abaf341f6fe19065772d6f83ff0ff46f5c70dbd1f89054687a8",
-   "jpUrl": "1ea1767f9f7349f2e898eb15d0264fd436abed57f2eaf5b3bba9d3973ad79bc9",
-   "enUrl": "236c0cc2d5a84e4f761ccb31aa1eef3ec02b491d61c968d406fba2f71e02c9b1",
-   "krUrl": "c7184bde0bd2f5f8afddbb3716b2f79089e2fccb93b1e5f46085c5e7e80b1170"
+   "cnUrl": "3f2d502990850ae8825a25b2b5bba6efd5ca54136a36b2db1dd831605b492932",
+   "jpUrl": "2e4bd0c8080de023ccf56de4f0fec995b08e80924acca8a565ee4864502806e5",
+   "enUrl": "1aeea0394d0dc1736b2669c688d2ef0858c7a4d971d327399b41e6aa06405d66",
+   "krUrl": "27855de0debcda44276fbd6a69b1ca1abd3eef3229661d92981908a11a6b9a1f"
   },
   {
    "id": 15,
    "title": "О Сервал",
    "text": "Раньше мы были хорошими друзьями, но теперь... Скажем так, её братец замолвил за меня словечко.",
    "unlockRequirement": "",
-   "cnUrl": "6f4dad8f3ea2658bb0d193b049d8ebcea5f3a4ec2d4ff7e0fe315c15cd3a9959",
-   "jpUrl": "72ad65fcc059efbf7fba22ce94a909555fcc8919cb47e10f8e29cfa83b4d5ce6",
-   "enUrl": "716e48b81fe6253b848e87115f73576cf41e6ddcbfacfcb7c7d750db64c0b4ac",
-   "krUrl": "63130d55af8c65694a29f49de847309e1ae13c2e6ff11ea52d3d206b2de975dc"
+   "cnUrl": "e4edf91d399f52e53c7c3a19d9a8a141ceb129cc7c497b6f18ea7b3ea3ec1692",
+   "jpUrl": "e930d417ed9c672ed5ff3dc5a5055bf00c155643a04156ca5aaef560b9a20e1a",
+   "enUrl": "40e340fdc120cc81c5bf87545021e82892576873d04001fbfc331a2a856221b4",
+   "krUrl": "4ca8a249fba69d93a078e8d0e7b37fb7af5e0b8366287beb43748b5b77529a12"
   },
   {
    "id": 16,
    "title": "О Броне",
    "text": "Моё единственное желание - познакомиться с будущей Верховной хранительницей. Подойдёт любое знакомство - даже болезненное!",
    "unlockRequirement": "",
-   "cnUrl": "e84dc49c3f483def6b8a4f4ddcecd0e53878bff2d3b919d3104d1f9c65fdb356",
-   "jpUrl": "5f5d0d39830275cc1a482c11dccb0d40978a3a1eac91f0c0c5ec055bbb8cc2f7",
-   "enUrl": "dd2dcd3f883d11a92f8adc23be1c4c34fdb8122936fa5ddbf08914d1226fb0c0",
-   "krUrl": "7074d06941d2b534331e0a28600fb83398743dad8eaca42760293aabda37109d"
+   "cnUrl": "eac7f338bfd90653590c6770854bed06a22d9ff07c1eb0618f2d95cb0dba94bd",
+   "jpUrl": "96b5ae794d7d5d8017f53b4d8a60c6bf6a3eedc0de6937db480254bf897e1f43",
+   "enUrl": "47af3bea8d7ac149d6516a154e3f961418314f030ac310476ab3b7fb3ac0d87e",
+   "krUrl": "dd550c0dde23439f9aabe45e3a05e9626d215c5cabad43c5cdf28f29be76bd34"
   },
   {
    "id": 17,
    "title": "О Луке...",
    "text": "Ты же видел{F#а} его на ринге? Да он же просто золотая жила для жителей Подземья! Жаль, что старине Сампо ничего не перепало...",
    "unlockRequirement": "",
-   "cnUrl": "c5fd39e0baa8e9463d4dae8f69880e97a6d691222b9d4d7d195e936a35f02e30",
-   "jpUrl": "b5fcf83ed42799a46e9c7540d4fcffcfc499e3be11bd6148ac4c3bf3c849e55c",
-   "enUrl": "8a03b3cd726b65a4f67d1b860b7472242fe17cdeb0456551ea9c5619cc7231dd",
-   "krUrl": "37f38c5ebb921382da808d275dc019d9109e1da19cd95271a63552eb420aa296"
+   "cnUrl": "ccde453d877e0a71d2de520e11722ee2172345d7f7265be88d1883c483ff3401",
+   "jpUrl": "757babc5455926c394d7c0f3636bf121c6040177fbaf8b84ed34ad4cbff24e8a",
+   "enUrl": "8b1eb43324afbe0adf58dda4226606ad68f5da0f3ad5ed36c7e97469b2a9b9e4",
+   "krUrl": "5ea6807fe8fcedaf9752e05e4fda30d77c0ae6907a006b58ea695dfcc6063b07"
   },
   {
    "id": 27,
    "title": "Об Искорке",
    "text": "Если кажется, что её коварный замысел раскрыт, стоит насторожиться, ведь может оказаться, что это тоже часть её плана. Поверь мне, она настолько беспощадная, что может саму себя одурачить!",
    "unlockRequirement": "",
-   "cnUrl": "c8f934da4e1b4dc946dfe2733d8f2aa41074a636e74e940f8d872502437939e0",
-   "jpUrl": "4690085b26913af258199b8428ef3eff11873e95130fdf2da717c8391bae72f4",
-   "enUrl": "b592522e2d07b606e5a0481b4f08c92c8dbcd3ebc04f9b70bb95a310d9d6b0fc",
-   "krUrl": "214b0bb89bd58c3d54671b7b91c10e562292f5ca7fd0a385c1b43778785a88a0"
+   "cnUrl": "36b5877c87e699ab0da2dec2db79420feddcacc902ff494064c35b8ef08e4ecc",
+   "jpUrl": "49f564fee0b7c8e77c326033f379bb64d870759906924d0b2118b4412338ef99",
+   "enUrl": "944e0273cabba035654eab5c373e2910a174fbf15b2ff3d5b5e60ed5cc038e0d",
+   "krUrl": "af059ac5f9f41ee2aa7bd1da1fa8d7b111fb3e7f4c1d0c212872620b9ac71bbd"
   },
   {
    "id": 18,
    "title": "Эйдолон: Активация",
    "text": "Думаю, у всех нас яркое прошлое, не правда ли?..",
    "unlockRequirement": "",
-   "cnUrl": "9e5610f4228200a1028d0768f21c42e958044143844731a366dde16752e46dcb",
-   "jpUrl": "0189f7a061c6291670908be802d01a5e9b0afc795bed6281f08256efd8e0d132",
-   "enUrl": "0c995fd96f008ffd1ba28ba663002169ce73c5f38ab3f1e21a8ef5d716907d33",
-   "krUrl": "7f59dd33d71470c78f1763d18ef239ba1684427ceef08809d799a5e2f2342b28"
+   "cnUrl": "9040316107bdcd86e75da82c5d1a47871194af808c3c22ae33ce77ad1fa6687e",
+   "jpUrl": "816190e96e14780b8e8af3430bd89d97929647bd1151794a5e65bfe618df449c",
+   "enUrl": "6c0fd7fd925b267c3da48d1da4721d7f27a1cfdae1d6d2a9c35a2a0bf19f93eb",
+   "krUrl": "f29d170f7d3c415058353b42e53b48e9c62c1cc0281bd72a28ecf069da4dd622"
   },
   {
    "id": 19,
    "title": "Возвышение персонажа",
    "text": "Больше платишь - больше получаешь!",
    "unlockRequirement": "",
-   "cnUrl": "70489d73245f81fd46e02ec9707bdfb200221beaf4d9eef08d4be5c5de3c3b93",
-   "jpUrl": "61b7916dc21925a9bde2aa67e5a1c4f673799e61047ce73f5e05f709800d3b97",
-   "enUrl": "0061dbe251c925bc4e06539c76fe8d199e53f6427cab5d1e9eb4fc1287773d34",
-   "krUrl": "a89978e8514a683a81ff806522fdb20ff2cd379c06335af8311b27fbac8002cc"
+   "cnUrl": "c7eaee75fc258ed81af8c2e6b2a2d2b5d0f77d5cf015b17470dd245ad7bcb306",
+   "jpUrl": "e6b711bf895f8975404c50d64a3de53d800827c49b94db4aa9d74eef628c9571",
+   "enUrl": "0717be0f105129eab3f003f81855b858077222fec322bcaac24eb93d719bed28",
+   "krUrl": "ba6153cb189aa54a867102d0fd37d2df104ccecd255b0eb5e03292b4e0715b29"
   },
   {
    "id": 20,
    "title": "Макс. уровень",
    "text": "И всё? Эх, я ведь только начал...",
    "unlockRequirement": "",
-   "cnUrl": "9e18bcec9ba82a3aa34a629b2e185987bf2dd1cc5350605a9b55d84b20c60031",
-   "jpUrl": "5ab45a4c8f1f45759c5c2b25a55120ec5608a0af66d0a2373c5e77d3118b757e",
-   "enUrl": "b3e28c246d591502ab60f92b2da8a217978d90a4896f18afda24feef8e21e69a",
-   "krUrl": "13f1cad7f047d757f211251c298dcf3c0cedf0f6a830aac54825059462d6040d"
+   "cnUrl": "66b09cb5d0b7641f29e334719ceac260e7141bbf904f846282ee9c268625f15e",
+   "jpUrl": "fa1f8fba02e5cfec3bfbc9923837f6e0cddacd39bc8a8a936ca48afb2d3693c1",
+   "enUrl": "03a600fe187d33c70e1a20821dbbbb88a96cd95cd43a035a12aece2ae63c2592",
+   "krUrl": "36afc480db38f03cf645dd9b6e1a078e5c2882bc086f288b480f911e47d5424c"
   },
   {
    "id": 21,
    "title": "След: Активация",
    "text": "Умное решение! Старина Сампо тебя не разочарует.",
    "unlockRequirement": "",
-   "cnUrl": "5be856ed99aa0e7b20e020c5e78619665711aa8808a51a38844055508532e8d7",
-   "jpUrl": "7f6f41ee11339fde7865a2dbd28662a45dd1820ea562dd2a2dd745ae81f594de",
-   "enUrl": "45a905031076cb0c996d3dfc58ad2c2c70ef1184bfeff9b5b0edd4520d318ae2",
-   "krUrl": "08a4594111ec74d4769c8f6317a980b90abb18292f4d687c5e84faf2312084ba"
+   "cnUrl": "e9ddcc328d2f47785def448212347f518e0c180ac69673c974d2f56f00c7ea6f",
+   "jpUrl": "1aad741273e18e90a00a36114f7595f6f307e5f492ae7cf9ecc74967732238c1",
+   "enUrl": "e8ac282e7b770a083e5f31dcd6e88cb9fdd3261b055e3f22fe0a03e68c69ef29",
+   "krUrl": "23065d34217bd94c2cb09ee2a39ea4082e003b46795c220b4a6e50019bf913cc"
   },
   {
    "id": 22,
    "title": "Пополнение отряда: Наташа",
    "text": "Госпожа Наташа! Я думаю, я вам кое-что задолжал...",
    "unlockRequirement": "",
-   "cnUrl": "d1bbefa4bd39151b1a25352299e734f34fa1f6751dd4239714c1f25875f23314",
-   "jpUrl": "9f7c113a46c048824e4e1e7e5170160dce1b7959222eb742695ee40d0870c74d",
-   "enUrl": "db98bfcb69e068887b35c194cbbbdfdddd8d4bf2a39a858f8e7c848d378669ea",
-   "krUrl": "ca545302d19bd72c175d7c7343b1e232f33b66819ecb3bf4e9a900e0e2297803"
+   "cnUrl": "7ae5e2fdbbfbda63ebb817baa47f07eca47ebbed6a8ab2f80a170595d1646cd3",
+   "jpUrl": "49a78b192fb4dae9931a83d9997be05c38da8f8b4ca1e2db5e0032c48b519bfd",
+   "enUrl": "d605bf70eac7140d26610b8eba549c986a024bd93a8108aa7c8beb44e79c25ae",
+   "krUrl": "15cf13fa9615542e16b8de73825ad9111f307a7a3c140992353db61d02d02ef6"
   },
   {
    "id": 23,
    "title": "Пополнение отряда: Хук",
    "text": "Хук?.. Эх, похоже, всё серьёзно.",
    "unlockRequirement": "",
-   "cnUrl": "a6c7ec9535fd46cd2fd02d5c431c17d2f3211e36199cac6915aecb4615919892",
-   "jpUrl": "4c6b980fcdded4ea1b8150bedb407b567558e574d42a1874d1f96f1103b2a243",
-   "enUrl": "c764ab0d671f4c865ffdb4df4dc40742e3513c02eae5bb0be3855b48a9b705d6",
-   "krUrl": "1996a741be031dff5814fd8b005f426d1a49127977e6bf76def295984c838dbc"
+   "cnUrl": "8996ff70bd844c4ed5de9e36b4f39a5abebd136fb99f2715b56bd448f8ac400c",
+   "jpUrl": "9fb7bf0fd129093549ff13e5e8dc2d9009661e39a4dd03185e2f470016531ca4",
+   "enUrl": "946733febb61fb4bc45052a208bef881cc8f1ba8faea884b9e9336da106fe336",
+   "krUrl": "e0daad502764a4cf5cf9ddce3020e39132e2c96e0da8ce35435659f234ce34fb"
   },
   {
    "id": 24,
    "title": "Пополнение отряда: Зеле",
    "text": "Не волнуйтесь, госпожа Зеле! Я вас прикрою!",
    "unlockRequirement": "",
-   "cnUrl": "c7f520aa085a0859b1af8e00a686a315b451481fd7f4d93080a82a0b11306738",
-   "jpUrl": "416ec2d76b08af97b11fe85087d4b047ce12abdb18cc1f77580de16eb20a2159",
-   "enUrl": "636e5be365e38def1453f152050e664b2ce3c4c783b96d02c1b766f3eadbfcb4",
-   "krUrl": "30ba26931358958431962199e948f6bcbdfa9bdc2108d4a0bc6363dc70d041aa"
+   "cnUrl": "e2586ad74fe9e1ec415732e319ecd03aaa9e00b1c71678f8473a0f691486c279",
+   "jpUrl": "76b3e8f480617cad13956d0fc88334f3c8dba4dd46db0e04a655f5149cc98409",
+   "enUrl": "c9d1c611bcbf5233f64a42a470089d5c1e5d145172b2af7d0132c5da6d4612f0",
+   "krUrl": "5a9f797943a3281f3cf2e3fa56e06879487aefeaf07dc81d34026ee6a8c2e51f"
   },
   {
    "id": 25,
    "title": "Пополнение отряда: Первопроходец",
    "text": "Ха! Для меня всегда большая честь сражаться бок о бок с Первопроходцем!",
    "unlockRequirement": "",
-   "cnUrl": "5fcab75e50c1b2134e9a334ce7418f9b26ff386402986f302d7501ae513e304a",
-   "jpUrl": "f005e769215c89cf6d3062e1eff150afd085b71e96e089c18b77cc5abaff8ca8",
-   "enUrl": "2bf00ea6387ca4ad786cabb710c2d56aabced141191c946e711c34ce5e866283",
-   "krUrl": "c335dc3947028aaf800f25fca1c86510cbc3ec831800592f06be9c468f45cf7e"
+   "cnUrl": "1d5bfff99b51ab075e044dd2ab543ccfa503f561bbaa929041f863ac3b1948e9",
+   "jpUrl": "562b2b89dd56b53d334595f8708b855c014d85d9262d27158630c70b3c212592",
+   "enUrl": "213d293170b7bfea47c6efcb1c29d5d7d40f3ff2717126abbd615616c374f908",
+   "krUrl": "3b14eba7bcc7e32f33cba48c080f78c976755d1cd9affe2d3e64f1df6f5c490e"
   },
   {
    "id": 26,
    "title": "Пополнение отряда: Искорка",
    "text": "Правила прежние - не рой своим яму, идёт?",
    "unlockRequirement": "",
-   "cnUrl": "af22ee267ec975b99a01f0a05f405b209197c0c7aa335c6475249c08620d6400",
-   "jpUrl": "ae298671270e6099c30700bb82680116b6f1af9b2cb13fd3aadd6a6cf5604c3d",
-   "enUrl": "1869b06b5a45f89230b90e9da713012c7c1252cd5e9ab4fc63ead790373c922f",
-   "krUrl": "27fb7afe3b3e3ce5dbaf8b9c8c809620b9fc0efed999f15c8976d43708209fac"
+   "cnUrl": "2b93ca772dc9d6d1a748a2fd93402b6ed336ac51cebe766da2effa317cbd3e3a",
+   "jpUrl": "6e441cbd18cce125525b5e27c9884018d538f7570ca10e372f9a68fe9a9c692b",
+   "enUrl": "4506834a42c42833af69b22c014949d3751cec99937c31f1f1d4d7930e20bd78",
+   "krUrl": "a87728cd1c45f907d2b431bd77505d7309e4d43b550f3d4a47e4d702394b94ad"
   },
   {
    "id": 51,
    "title": "Начало боя: Пробитие уязвимости",
    "text": "Мы просто развлекаемся.",
    "unlockRequirement": "",
-   "cnUrl": "73c60f449f5a9b45e76ac9a8b2a1a8fa745b3bf59acafc981efe5127309f0938",
-   "jpUrl": "b42834a7f9749bb4babbded67f78b6c668bd9665606ecce28cfe5225618a6b84",
-   "enUrl": "f054773f6ba131be853eebbd4bc0f0774abe2b6869f0dc778f95d2d9f8fddae7",
-   "krUrl": "d471337bdafbe986841a00f2e4745e43cb1cc15cbbaa8f45a025f7caf40db957"
+   "cnUrl": "a05b400d6ff121455adec5da02407187456da4325a1e9a3b3015aa6f0ebf442a",
+   "jpUrl": "2d13d6d453ededbc942d77b0659912dd47e8b111bac3f5b897558cd1f5492a0d",
+   "enUrl": "c7133699248058c8575770216ede134d4b698cffafa3c190677a0165c7686040",
+   "krUrl": "066c45a4c699d10e80620241b0364dc6f6df5e53cd83cf3e002bca61d00e3a03"
   },
   {
    "id": 52,
    "title": "Начало боя: Сигнал об опасности",
    "text": "Чем сильнее, тем лучше.",
    "unlockRequirement": "",
-   "cnUrl": "b67daf980066bf527ed44f4d53a434c98d0c300c7e2eacd0643055b3f94b6436",
-   "jpUrl": "b37651028e398860bfb6ee09a88070c80ac826b04500fc5df158c634ddbfc3ff",
-   "enUrl": "7b06a5d485647e374d17c0c5f59004032f34331ee7af4838d64032938725f124",
-   "krUrl": "d1f084fdb694f2e3a61b5e77c2e1814eb697ef3228ad683ac35aa6a5155f9990"
+   "cnUrl": "6a16d9d933d19e3f48ec6db2054b3bf6f7e3e7cf4bd5b0b4b9390fbf533a1ab6",
+   "jpUrl": "fa504b05621ed3ed7d5e920a5814837ea08ffc817a1a249a29e2c5c97a540284",
+   "enUrl": "9547a114c20f9dce412b77c74b4904cdc32a17b82f43dd4ef7a352576e4d3466",
+   "krUrl": "daf0fa60e3aabe0981a2f1cded640fd5b84eae4cc5e63cb0da7ec5381091120f"
   },
   {
    "id": 53,
    "title": "В начале хода I",
    "text": "Сампо Коски всегда заботится о своих друзьях.",
    "unlockRequirement": "",
-   "cnUrl": "f715a6574d70857fc16cd36c0727bc51e8a840f69667ccf1e36f9e99a3ee3ed6",
-   "jpUrl": "db53d2557a7820c6e2c746c58f863f369b2e44dd6f88e837d30b9dc13e1fd475",
-   "enUrl": "5f729a77fa0f0479ed69d177c93d234b7783b78aeea6a68366d3e5dd7b36df5d",
-   "krUrl": "bbc450c0e6be04aacfc38257aa01c29562e2737db6d3047b2a213fd17b134926"
+   "cnUrl": "3f7c922f4aaa63359a0837d23cc605d91ae8d921827c3a3bf8a2cf07d14f99bc",
+   "jpUrl": "117f9d35e888e159cb2f318d27502c11d0532e3b4017fe8ac5196784d5c0db5e",
+   "enUrl": "3ffc11262970d04767f30206502666748ab06cfa78f506efef71db02ef5942f1",
+   "krUrl": "e42ecbb4864ba3f392f920177b1d1519bb1fa3f6517d63c00b85c395a2cc53e8"
   },
   {
    "id": 54,
    "title": "В начале хода II",
    "text": "Кажется, у нас дела.",
    "unlockRequirement": "",
-   "cnUrl": "6a704552f66d3028d72b865a5417c4334bcdf6845c4babc6d43d67c9354da952",
-   "jpUrl": "7fe99df4bc3831a9bcd97d3dd3f92075ce24a89d3a1bb7bb396c8cab8d5d4852",
-   "enUrl": "dd6fabc152073fab7d052a5d7b1e27c1d8d9f56a352e9f8167a035ed05d10eaa",
-   "krUrl": "8beec4bc12b23341a1c5360211c971828651974f85688cb14b2acc72f3821e66"
+   "cnUrl": "3729b15a02cfbe2a85610e679fd4a7e139ffa4058f79c432972d25e06314280e",
+   "jpUrl": "c1b6273336a659bb5e6a45c41421f1e05665f33eb178d48cdab798fc1b183841",
+   "enUrl": "0e2361605b7bb73fb64a2d42b6553744c91d1fbcfbb98ba79716a854c5516267",
+   "krUrl": "99402cccc72bf2aa1be7259b57d3978208152b7ad8e44e8193ae844e7a27ce03"
   },
   {
    "id": 55,
    "title": "Ожидание хода",
    "text": "А можно уже достать пушки?",
    "unlockRequirement": "",
-   "cnUrl": "d9bee11afe0d19e69c456daa0635308af7bc29db86f638655996b6866a52ab42",
-   "jpUrl": "36b11120c60ff351497689e7322a479c7a9ff061b7a95ab0b198e9428af0019f",
-   "enUrl": "df14b573887df6a40aa2b4573a0141884c0758b44b981e1d3c57cced17b2f3e6",
-   "krUrl": "6b004477c2411b30480fa6393e95eb6ff8bdbfa4e8f0239932c608d47c5cc7d6"
+   "cnUrl": "4c13eca39335253cbb66a92b07f90d06159bca1ec8674825f7de605a3cc51eda",
+   "jpUrl": "6f303c570911a782e95be21b66be9c8995b3bd601c53ea01ba878386b50617c7",
+   "enUrl": "4563b846bf1942c7722fa649866c34f8452e9c87a6d61907b3052dd75bc59af2",
+   "krUrl": "31a45d9f10d69ddb28d7233ec3b59ffc3de54970857747099bfdc5549e21e3a8"
   },
   {
    "id": 56,
    "title": "Навык",
    "text": "Примеришь?",
    "unlockRequirement": "",
-   "cnUrl": "729438f70600eb8d557467e02214f6f14d5179f4930c684c7c350c8ece858b35",
-   "jpUrl": "8633a47ee8711d5adbbbecca1936efb2c78b1f68d06d0248ae9526cbed64a59d",
-   "enUrl": "a6dd39a7b8f6e65d0befad5386065c0e5dc0a34b07cb4787eb31e37185caceb0",
-   "krUrl": "2c8f05a04b3ea2248508f3c1ccdb64795e0ecaf4d50ea145138e9b0352fbf9ac"
+   "cnUrl": "9e1c28c26159fe31ef6b9788798c7313b155355ab22a9467a5b329ee3c85886e",
+   "jpUrl": "87ecfd70d9aa3eeae54550798bc2cc897865ce4bfbfcbf35d7a1f524854239e9",
+   "enUrl": "a063a21e6240621d39ca74cf20cad24acb6f2071c6147342e680a3ef6550e5c1",
+   "krUrl": "0760d8a7f2ffd6b48b24b44952da2f31a8a873fd87b106e984bd95131215c6d8"
   },
   {
    "id": 57,
    "title": "Поражение слабой атакой",
    "text": "Ох, больно...",
    "unlockRequirement": "",
-   "cnUrl": "9f0eee30a0c60b0caab8e6bd8139841e77eecffce274e0805bba9b49c9c3edbe",
-   "jpUrl": "6934148302b1490c8d98a51ac14ef6fc796783ff238b372d877f21c1bf7f8421",
-   "enUrl": "bd902634a1361ae20a82a82caa0db99bc7f2b2ac927539d0293c932e1123e3ef",
-   "krUrl": "bae0fc022ccb647088fd6f467a263da0e38a7e4d398877601f71b2ac1c9c13b2"
+   "cnUrl": "2b9549826676128845ef4a1be1c584201f6ccbe9360d55d267447f36dd57f86b",
+   "jpUrl": "4fc6b1efb88efce4f33c064860615d2a8197dd554edc0b3c3076a26fd6117098",
+   "enUrl": "105fc7355f5455f8aaa8e606c8bd707511c353c7155e1e9a01470a3e23423581",
+   "krUrl": "d9f465f05f3a92248531087f2acb73545893f11a1a35a8a97fdb19fdee05275c"
   },
   {
    "id": 58,
    "title": "Поражение сильной атакой",
    "text": "Эй! Только не по лицу!",
    "unlockRequirement": "",
-   "cnUrl": "e318debba226e9943d45ff35ad3496b1948ef74acd6c30b445252d8c3d22a2ca",
-   "jpUrl": "228c7efe5302fa0d18c3cc9fec6ad661458a508398b73fae282d0a5226c4db70",
-   "enUrl": "539f4e68ce0ff234f4146ac60839848fe9df6a8f81016e5a5c729a041501ae30",
-   "krUrl": "6d538b0b2fcdedf8ae93de18b00352edf5f5a5b1ba4b8d8997cd2db46106457a"
+   "cnUrl": "cfb8a3f8c58a4526ddd58462eff187a773fc154d074a96915e0604fc0df7401c",
+   "jpUrl": "316f272d0998a849a0a389e50d6d76d69b7c8b0070ef336aacf099c7266783d2",
+   "enUrl": "b6fedc2e3507d99b8c41402b00c3aca01f01fd5f4c906947962e5f5f33990550",
+   "krUrl": "da65f91df3af5e050c0957f668b4745e402639fe7a98a2a5568fe7c25234cd5e"
   },
   {
    "id": 59,
    "title": "Сверхспособность: Активация",
    "text": "Чего ты ждёшь?",
    "unlockRequirement": "",
-   "cnUrl": "3ea09c7cdd0daf060540751902a4718fd473c73a53f747489d8016728ecd8997",
-   "jpUrl": "9f5951a68bae9a1e9fda12fab7d7e72e551f58deac09c242509ab29d39d57e70",
-   "enUrl": "aad069ef86b87a7978da9919192f2031109af182ac825bdd9bde879abd845aed",
-   "krUrl": "fc21fa18bddc34f091e882c8d46ea98ebc9d65c674de3295da9f4f7d9b49f496"
+   "cnUrl": "d66084001911227f39ddc8ef1e8664c08b7b3815e37d682c3fcf927b8459b90d",
+   "jpUrl": "e0ed343c5e381375b120baa0aa0cf0749123a18b98c17be4bb5cd4de70b5e722",
+   "enUrl": "cb38b76228467bcdb3f33149979cbd122d5bb199649c3ddd5b46e199948d769f",
+   "krUrl": "5a97e1f23fcafa042f3c462c06009dcc8d8bd70e0753c891cad65ea86a75798b"
   },
   {
    "id": 60,
    "title": "Сверхспособность: Применение",
    "text": "Клиент - это король, а для меня предать короля... В общем, надеюсь, оно того стоит.",
    "unlockRequirement": "",
-   "cnUrl": "ad42861eb1880bd8dc29bb755cbce36bc5cc3fad44dc7f57d2e7cd2c8cc0919a",
-   "jpUrl": "2ce39ed9f441a81be63685ec3928fc2a95fcb80a1b13d288820e79ab9acd56c3",
-   "enUrl": "e416b198856df4c14cd74ada37d48200ad8966272aff92f4bce6328357943d1e",
-   "krUrl": "daad172ff18138a7b58ca1b5c0599b80b94c76072d96ce6ba7abf5675bcd077e"
+   "cnUrl": "ea63c7588d15abfc46e196727366090ebf78526a9c7d4604b0a7c80d7a8c1f45",
+   "jpUrl": "60ccebe98465985402c2aa2779d47e496cf2be11fc810d2f9aa0e3873d6e48d7",
+   "enUrl": "3b279cb94ece5f08b0c7f31ff86a262fd35539c8bfea4302b1d37ffa421bd23e",
+   "krUrl": "91d27fe9fdd4e512590c2097f84b126c148158ea893629a92107a3db1a779d4b"
   },
   {
    "id": 61,
    "title": "Поражение",
    "text": "Слишком... высокая цена.",
    "unlockRequirement": "",
-   "cnUrl": "d068003358cf6c0cdf4da44b67de298883f8af6d5e5c6857b16d9431f7735f9b",
-   "jpUrl": "08d5a916ed51a5133b90cc6ab1e8ef15b91978a4238d35872debde209b13d47b",
-   "enUrl": "6bce54fca66f1286e0c5d59d079141918256fad1c2641bcdf4a704b5f08b34b4",
-   "krUrl": "b1def662b708edc7c3471b0776942a9cc49df16d83c66a3fcefeedc55bddeacd"
+   "cnUrl": "a3970e01c9ae88409b108fcf7ae6e83a5d7a27f4c203df1f3cf1b6b0698902aa",
+   "jpUrl": "802395a007279dc322a101a2e02e7aa633c0acec288f5d198a9ce2ba56ae4b2b",
+   "enUrl": "9500de230b61f9facf2b70f95e9d2a67ff583e3c8bffd0f98ef29a2e289a5459",
+   "krUrl": "bd75866b2388d25b459cc8b541053105a4fb71ea5e6453aa17724d95c3cad2c1"
   },
   {
    "id": 62,
    "title": "Возвращение в битву",
    "text": "Услуга за услугу!",
    "unlockRequirement": "",
-   "cnUrl": "36d071f8c51388e93488e2ade3ced168c3ad46e31545e026c482f8832dbce641",
-   "jpUrl": "39590362841027d38d8c8c38be391bb19508502c539361c56d3e6ad6422b8da3",
-   "enUrl": "1d985dbf4f85408bdfbf7c6c3e8c1a932aef4472ced1d073209295e7373982d9",
-   "krUrl": "edd5c72940498e54b00dcf445c00efc61e63a25d9a15170e7d4a3f1589b78bae"
+   "cnUrl": "8984fffcb7519224195388960586a6a73bfe32f946265894e6af520505a63aee",
+   "jpUrl": "514f760dfb3e5725b947cdc19b67a8cb971acaa6a35e2a5d7b93841c576b9451",
+   "enUrl": "7741e093a2f963271eac16be62bcc1fbb28ab0ecbdb6201b6fe640812c7d93fc",
+   "krUrl": "d89dd697ee4fd6f48fbf7a446f5f0e50c334aca0e1874192ea1e9ba74e572889"
   },
   {
    "id": 63,
    "title": "Восстановление НР",
    "text": "Я перед тобой в долгу~",
    "unlockRequirement": "",
-   "cnUrl": "0e7b0fefc18de99d43286eea14262e008443e5cc4ed6e1f87d6df20cbc873f2f",
-   "jpUrl": "5bf9d3adc51940fd864d393ce4215e6669674659e50be3494a0b091b297847b2",
-   "enUrl": "0fb8174bff7dce56fd433a4f5d8b8b1508c4a25e1217510ab57b681848386901",
-   "krUrl": "b7a81910fb3aee922f19b43f988ccccfde0b81c85991dae0ecb38ae21a5dcfec"
+   "cnUrl": "e4c8a3cbf8b32d42b8360a071515a62acef91e19fbaa29a6b49bf69febab1fc6",
+   "jpUrl": "a3e54078f944ba2d8ae9496d9a695e2ed47bf623631acec0800898fcf419b6be",
+   "enUrl": "feab71a311e9b5eecf2b95f93d1eb9068d8c8184f5de10351abb1a14c3f4141a",
+   "krUrl": "9df4b49b3f07be4b5c78db9f5ebbf5dd62a720cdd7d28fef2dfeda747b7b7f43"
   },
   {
    "id": 64,
    "title": "Техника",
    "text": "Хи-хи...",
    "unlockRequirement": "",
-   "cnUrl": "f5f7b7e2e131a758a0ae453a77e7561f1731056aaf5777852ab39b57acec4f13",
-   "jpUrl": "5c2fad3515b52fa4d514750a27ac99c7beccedef6a784d0eadd8c6c9570ac6a6",
-   "enUrl": "880721c70fe7c4c50db0f10b9c194926ec2a311e1f3e101d44ce03130a276c52",
-   "krUrl": "b43a9e478f32d584c8f7bcb4dbaf52296bbd0ff8ee22eb938526f6d52633f4bb"
+   "cnUrl": "4c8f772e7071c16adfc45a45f7deb3686ef4ed00a43fe7c539926092b27019b3",
+   "jpUrl": "e3f43c4fce7865ce5757ea805585ae337ceb414eaed40c4fd8a4902b61e51132",
+   "enUrl": "15e20c8ca779e86f6a49779ff9a6c43869d50a4650d3c28b457f76327fd1baeb",
+   "krUrl": "1a0161e77a0ce1488984ef998271d0c4eb7f416480bc7f7bc0508bc4f8ff9aaa"
   },
   {
    "id": 65,
    "title": "Победа",
    "text": "Как ты собираешься выиграть, если не хочешь рисковать?",
    "unlockRequirement": "",
-   "cnUrl": "c485322744c5cb27eb95a7e4993e6e2ea8be2ba7f768efe043244e6edfa1e3c3",
-   "jpUrl": "8528b64496ba8b59c67bded98cc51204a660b32071530bb9c6d8334269c96a76",
-   "enUrl": "f0e0174d5dc24ae0364ba5ebc32ab249fee7180c09ebcf76769dda2aaac1366e",
-   "krUrl": "d66805ae4d29de2ca5cf9624505637a2bdb78ff42c1867497e0be336d081b211"
+   "cnUrl": "dc511d877786824f53e61c2d68c137c7b0da2185060c2162538cb00e1f728fd4",
+   "jpUrl": "a77612148bed9500188ee44fd3223240472d4363b9ec57072528aeb19cc49ff5",
+   "enUrl": "a87df66d4ebb088427ff7fe1b2b571b0c24e62f284be016e2a6ad7560c2bd92c",
+   "krUrl": "a0afb70191f650fc7905e604067e4e7dec302741fad1c0e26ee26f5fe0f83178"
   },
   {
    "id": 66,
    "title": "Открытие сундука I",
    "text": "Нет наличных?",
    "unlockRequirement": "",
-   "cnUrl": "35e9caef67c229c1eb4d720dbc3ee966e3e49b6f9d25a96e7c5d827c89855896",
-   "jpUrl": "ec7350e8313d89c6844a1d79cd54f0956ecb62d5b8c1d05e23a23d75664770fa",
-   "enUrl": "16da70658c5b5539425599f2affa639b992fef720b8b746d8ec7218a90d42519",
-   "krUrl": "9a86f0ea66ea058128b90d6330c57538bfdbae4b96586dd2da8f2d76a005c906"
+   "cnUrl": "25e5821d3a84a939e9990b0ae0befa528013721b666073a21c9ff79a5b7cb4c4",
+   "jpUrl": "a3f71269ab2e4bb623b75347a8c3b1b7561a7f7208ba0c5e0b18fd54886fc552",
+   "enUrl": "cf70ad4c12282a824e5231cc35ae387fb63ac6d9ab9612d264df33f6d5ce4404",
+   "krUrl": "16f4c057bf60b8ad617f0fb69e751c92cd051b957aa3ea99641adc51059d0539"
   },
   {
    "id": 70,
    "title": "Открытие сундука II",
    "text": "Нравится? Забирай!",
    "unlockRequirement": "",
-   "cnUrl": "824289289d29b9c34c8ed12c6f1898df69609c93a6b00bac7fdf13b5889f7343",
-   "jpUrl": "d9e692ec4ac837925aa3e9a485d8405416d95e5185d77601ab5b57d32e89578e",
-   "enUrl": "b8bbc3af3c1fd8f8f2d8e90e0c684ff768c8c1562d1f4791372582661f5c1b73",
-   "krUrl": "443f1624e2bde9847b2c1a2fbfa7e88c6a27402aa4f19b62ed9c5933e445d74a"
+   "cnUrl": "e8becea808472f2da6f5ed6da928da32aa5f3ae6e645922744fb783edf8f7601",
+   "jpUrl": "f72a48adb730302e94c657d6459f31028014e41049fb3e6bacf903fe628e709c",
+   "enUrl": "0172f58e75ad4d42f5595d8e4ab26c0fd503c32046f5814e5b5c51831d1f951e",
+   "krUrl": "e9bf8c2c32a96780c7cf79a14bfa3309a8d3f499da8d4cb3d14d28767df03559"
   },
   {
    "id": 71,
    "title": "Открытие роскошного сундука",
    "text": "Ого. Это хорошая вещица! Дай-ка взглянуть.",
    "unlockRequirement": "",
-   "cnUrl": "bd1e71eceb9c189be69427f721c93bfc69b2385ebbb978f1e9a73f8652938acf",
-   "jpUrl": "23548602fa3b7795b3399f94cbb2c1a859b88514590f50a22934d4ac45e25cff",
-   "enUrl": "fc180abd45c025f807bfbc8fa3cd00e024ccfe820a993c5b1a8a055d971bad7b",
-   "krUrl": "3ffa5e5abbeef66fcbebeebe35a8d9bdb7bc558befd4336ea8593ef95a99ab52"
+   "cnUrl": "4668b24695bfb5e5ab0e77bd96e61572f86e4a8bd8a7885486279cb32a877702",
+   "jpUrl": "6d9ab44726f0f7a475994578de84cde9dcffc2963bd7671e0b398e8e770a9cd4",
+   "enUrl": "3f6095e4fcf39993b55c289ddafc205b3a9ffa898d87c2cbd59794e71f392558",
+   "krUrl": "aca3136dec3299b0c37353acc4b9c7fc2daeb28551096fb3c0538a5ca8c904f3"
   },
   {
    "id": 67,
    "title": "Успешное решение головоломки I",
    "text": "Ого! Очень неплохо.",
    "unlockRequirement": "",
-   "cnUrl": "0a630ca700b9c400563ed66bd41efacd1836196c0a9cadc9fc159ff0e7564279",
-   "jpUrl": "9355a9e75e6454e01c124556f167d0144d02b81f63416419c48be0353ad3bb05",
-   "enUrl": "656d224a3e2d60ee5a5e46d549bfade45051f887584e73ab50d83bb13da611b9",
-   "krUrl": "5a5ee608504559a8eaed28a67b63b791ffe5bb7809c786c21f7cc0dc62b2f5fe"
+   "cnUrl": "699c0e630b91607279ed2ca64450fd2efe6e162f2dc9f0119600e4b18f393d90",
+   "jpUrl": "7b6fd157bbf9bac85e7ee950071aa48ea2a94f52b968f1b2ab4fe1e813ba4f5e",
+   "enUrl": "818af50a397a7e1fd8652a2e7ca93350977368c8454887087274b9fd55eb717e",
+   "krUrl": "7529db02545cec9424734a9d472eb064be5c8a0a9f033646392868e041c82b30"
   },
   {
    "id": 72,
    "title": "Успешное решение головоломки II",
    "text": "Решать проблемы людей - моя специализация!",
    "unlockRequirement": "",
-   "cnUrl": "91de07cab7890bd4e095c78a9a2797fd5b76f5e25b2c91d5f8165f276d5ad31d",
-   "jpUrl": "123e1c665b27ec26e899239eeecf88392fee3e6bed1ce0d14f3b5d82082ce309",
-   "enUrl": "27c9b052c80630cd7e6c22e017c703f41a1b5ebfba2862c0de189238350d1fa0",
-   "krUrl": "4c975f2e14396e378fe628d6ffdb4cf326efebf89a62c444d385da4298df7239"
+   "cnUrl": "54637b5071a402717bb7d59fabd6c78dd0ab9a468ab628ad8a0021c318aaea2a",
+   "jpUrl": "60514d65f9258099bda8cfc759230398ced2015de7462fd6808c0664bfa4a453",
+   "enUrl": "5fe8713b6d4939ce24768c6f63399b4d08970399d835d50c58dc530ba741307f",
+   "krUrl": "5ea12a81f0a581be5851d705491cc5dc7db7c5759e45e1622e398194b55981a9"
   },
   {
    "id": 68,
    "title": "Обнаружен противник",
    "text": "Даже не знаю, выглядит сурово...",
    "unlockRequirement": "",
-   "cnUrl": "75d40579cb8b582fed125bcf54c7e958952d38e4e33e7f150cc0a672b7139057",
-   "jpUrl": "67e7b54228599e8edd350ad658ae5516e566ebab0de61cd0d6f2c26bb0b87eec",
-   "enUrl": "364fd925b44c0deddce23470e41571c92e6feeba38810f60f8c18bad9bd14aa3",
-   "krUrl": "5b5312e15af9b924efc9187adea8f669e990fe2cde3615296aba4ab78226dda3"
+   "cnUrl": "b4e18f3e4eee0a3b7b87baeb6ec5622d763eb6410f205df308d2c7c8f1e469c9",
+   "jpUrl": "6c5267c2879c6f55e36e3b3f9a6f05b96a30c2f4b07b6eb28fc51481cf24b250",
+   "enUrl": "ee8d797a22609f26b2385f612f9e8bd5941b26d25965190b2da70f717d9e4235",
+   "krUrl": "af13a7611785847ce1b7fb34cfdd2205c63699c50dafb69743fe271cbefb896d"
   },
   {
    "id": 69,
    "title": "Возвращение в город",
    "text": "Где торговля, там и Сампо.",
    "unlockRequirement": "",
-   "cnUrl": "4f601f3dcb7641345b17936964f9df7dcfa8a8ef12b519d712dc1818c162a000",
-   "jpUrl": "804a857589519e22583da5a362a843e67433055c826225d29dded3638bcf8a10",
-   "enUrl": "6d594076d8e1c31104987ec09cc9db446f765121e79d5da1bd5a0ac823bde4ba",
-   "krUrl": "72faeff3c06617c7cb2bfd4d09ba33b47631d5d340bc38b6cb67dcb102e2fa5d"
+   "cnUrl": "5a66d07c5c7f29515b07bcf0d692d72ba4095d31330d310c01d8d61bf2f31abe",
+   "jpUrl": "04d410071b8d17b951fec04d9e3939ec693a82eb02782afa18c85762a7ade625",
+   "enUrl": "30fa8a2ffc7b9b25ac5dda7d5c2951fcb2e6f1569a39075e6ed7c780cb6ac68c",
+   "krUrl": "06911e1c9529dc2378ee681c08ccfffd609c49ae048aac870a149f17ba76f98b"
   }
  ],
  "storyItems": [
@@ -2761,6 +2774,8 @@
   }
  },
  "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
  "name": "Сампо",
  "rarity": 4,
  "descHash": "Торговец, свободно путешествующий между поверхностью и Подземьем. Он ведёт себя со всеми как со знакомыми, с энтузиазмом относится к юмору и умеет подшучивать.",

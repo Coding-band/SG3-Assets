@@ -979,7 +979,7 @@
   },
   {
    "tagHash": "Suporte",
-   "descHash": "Concede a todos os aliados o efeito de Dançarino de Apoio, com duração de <nobr>#1[i]</nobr> rodada(s). A duração diminui em 1 a cada início de rodada do Desbravador/da Desbravadora. Aliados com o efeito Dançarino de Apoio têm seu Efeito de Quebra aumentado em <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>. Quando atacam alvos que estão no estado de <u>Quebra de Fraqueza</u>, a Redução de Tenacidade desse ataque será convertida em uma instância de <u>Super Dano de Quebra</u>.",
+   "descHash": "Concede a todos os aliados o efeito de Dançarino de Apoio, com duração de <nobr>#1[i]</nobr> rodada(s). A duração diminui em 1 a cada início de rodada do Desbravador/da Desbravadora. Aliados com o efeito Dançarino de Apoio têm seu Efeito de Quebra aumentado em <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>. Quando atacam alvos que estão no estado de Quebra de Fraqueza, a Redução de Tenacidade desse ataque será convertida em uma instância de Super Dano de Quebra.",
    "ultimateCost": 140,
    "break": "0",
    "energy": "5",
@@ -1613,6 +1613,7 @@
        "anchor": 11,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 481404,
         "name": "Bônus de Quebra",
@@ -1642,6 +1643,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 481405,
       "name": "Bônus de Dano: Imaginário",
@@ -1671,8 +1673,9 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Quando o número de inimigos-alvo em campo for 5 (ou mais)/4/3/2/1, o <u>Super Dano de Quebra</u> ativado pelo efeito de \"Dançarino de Apoio\" aumenta em <nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>/<nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr>/<nobr>#5[i]%</nobr>.",
+    "descHash": "Quando o número de inimigos-alvo em campo for 5 (ou mais)/4/3/2/1, o Super Dano de Quebra ativado pelo efeito de \"Dançarino de Apoio\" aumenta em <nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>/<nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr>/<nobr>#5[i]%</nobr>.",
     "ultimateCost": 0,
     "id": 481373,
     "name": "Dance Para Mim",
@@ -1724,6 +1727,7 @@
        "anchor": 14,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 481401,
         "name": "Bônus de Dano: Imaginário",
@@ -1753,6 +1757,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 481402,
       "name": "Bônus de Quebra",
@@ -1782,6 +1787,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Ao usar a Perícia, aumenta a Redução de Tenacidade adicionalmente da primeira instância de Dano em <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
@@ -1835,6 +1841,7 @@
        "anchor": 17,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 481398,
         "name": "Bônus de Dano: Imaginário",
@@ -1868,6 +1875,7 @@
        "anchor": 18,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 565348,
         "name": "Bônus de Quebra",
@@ -1897,6 +1905,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 481399,
       "name": "Bônus de RES a Efeito",
@@ -1926,6 +1935,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "Após aliados-alvo causarem Quebra de Fraqueza, atrasa adicionalmente a ação do inimigo-alvo em <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
@@ -1974,6 +1984,7 @@
      "anchor": 12,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 481403,
       "name": "Bônus de RES a Efeito",
@@ -2007,6 +2018,7 @@
      "anchor": 15,
      "type": 2,
      "children": [],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 481400,
       "name": "Bônus de Quebra",
@@ -2036,6 +2048,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBuff": {
     "id": 481406,
     "name": "Bônus de Quebra",
@@ -2072,1020 +2085,1020 @@
    "title": "Memória: Sobre Si",
    "text": "Quando tiver a chance de fazer uma escolha, faça uma da qual você não vai se arrepender...",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"A Viagem Continua\".",
-   "cnUrl": "d9c3abf024f1b0e599de8246dfc831ce568d3ba2428a560b67d2ade5ce485a9b",
-   "jpUrl": "f094c37f67c143557346f860419e8d0ab05774734acd087a64dcfe87ce6c6d0e",
-   "enUrl": "e8de6fe4426a688556678a79d028d18e3c60bfa2bdef713fd7a1782dfbc8a0e3",
-   "krUrl": "c5e74ad7eb28aad4753b05de428424108447737759fdfa4f38f7de785b6a46cd"
+   "cnUrl": "54e6848e65d43405aae398ec2890144c917fd52307eb70e1f937f2a470815147",
+   "jpUrl": "62e90f5d5f2152374a700df045ffb5fafad4f31e3a3418c8e12e23dd0429ebc2",
+   "enUrl": "7830ea0af5af77802f6989f2ceb81b6a0a273bad83275de8524aebcd2c54da75",
+   "krUrl": "c9682b8cda766aa1b0414ff90799ed36ecb90070efc23b67ed8d99cccea9f1da"
   },
   {
    "id": 2,
    "title": "Memória: O Expresso",
    "text": "Que tipo de vida eu teria vivido se eu não escolhesse embarcar no Expresso...? Não, não existe essa possibilidade.",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"A Viagem Continua\".",
-   "cnUrl": "9bea97ea994540fca227109513134678538a4cdcffd61654197a0b23d008a205",
-   "jpUrl": "db956ce505f117d13f5eea5da761e38bbd21abe50055999794cfc207cd86316f",
-   "enUrl": "aac38a5686bf88cc0e8dd76cb1982501c758e75b745885f185c2cbaa7a994b58",
-   "krUrl": "8e44139c4faf2e848ee625d46449eb3480cd17b02bb1ac57f75197361783f106"
+   "cnUrl": "36ddd2a083941a78505dae1ac60fffb80857e3c4851714e4b87ce62e2cc3be4d",
+   "jpUrl": "57940b586787acfb910cdf2a19133f150b3166ddadac7f923e5cb670da11539f",
+   "enUrl": "b539d0eae48f4f7f1c4fef81085cc81997df37a5fad8ca779133b3538f0352ca",
+   "krUrl": "918f483dc4bdad8858f51c6391d9da62379c8d3536a313095b445dea96cd9d7f"
   },
   {
    "id": 3,
    "title": "Memória: Pom-Pom",
    "text": "Ele pode parecer irritado, mas a linguagem corporal fala mais alto. Eu deveria visitar o Pom-Pom com mais frequência.",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Aventura \"Recompensas do Condutor\"",
-   "cnUrl": "41406ec0c667ed6af5a4fc95d7b9c341412f1722eaddfc40e65d48b01a79f9e0",
-   "jpUrl": "e97439ddfe6582cadb63ace92fd8a96c10b7c9a009a929f7cc58365ea82a69af",
-   "enUrl": "89edbb7359d7b4c0bdc86573ba72821a7b64ded33d267f1c745a6554eadb4e1c",
-   "krUrl": "4a4adcfe47f7791066689a81d358a784c0030e5a5881dc3c632a974c6668b30c"
+   "cnUrl": "5fd0d2f2336881103eeebe999a83fe493ff1520e82e48c3290cd7c97e56bf325",
+   "jpUrl": "9c35c18a20b0fefb4d8cb43c8c811526db2310b4dda96adea5768ebc6120f3cc",
+   "enUrl": "62c04572d1504f4f86d3b25b1077b5b0dec39d56820be6838790181e4b594e68",
+   "krUrl": "4d10664477ba72579e926d2ce4701d222bb1e2e536459382964b2a24e48812ba"
   },
   {
    "id": 4,
    "title": "Memória: Estação Espacial Herta",
    "text": "A minha arma também é uma das Curios da Estação Espacial. Eu não sei de onde ela veio, mas se ela chama a atenção da madame Herta, ela deve ser importante.",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"A Viagem Continua\".",
-   "cnUrl": "35c380798287102352557af76d1358d156c53dbbbfb743891a5dc9092e734fa1",
-   "jpUrl": "9300bfc3a8b2aeb7e66bff83022b1959a37c2785715d2b659278e0185aea3612",
-   "enUrl": "7080c843cd0c23bac3c0487b3cea5240677fa06aee62560ae3db43271d6a6f57",
-   "krUrl": "fb9b6f2306ae2616f6760996bc4164f64a7527a1368d8a86e56a6cd8b49b6640"
+   "cnUrl": "94a746a6abc99d16371db7b479b20eb929ffeb9ace1a5c3a22a62a2c1ccc9604",
+   "jpUrl": "3028444e239c0e06926d4c4d0d04ae4ff070e5dec40d7c115a14eed7e8c00d28",
+   "enUrl": "f881549054810f8a84f03ab0234c4e03c551973f38073f787e9ee1eb00c012d5",
+   "krUrl": "e84d879f1824015fc2319eeeb03b717e7765a8924eca1603cbc5eac6958acd70"
   },
   {
    "id": 5,
    "title": "Memória: A Destruição",
    "text": "De onde veio o desejo da Destruição? É realmente por causa do Stellaron dentro de mim...?",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"A Viagem Continua\".",
-   "cnUrl": "f394187c2a97aac487d25a57553c12b5869781f1e17a6e95c7069c68410e8fab",
-   "jpUrl": "62ef7dcdb7a73f230727e62c0e008888db4408354f5bfe4d9132855e68311aae",
-   "enUrl": "2d98f4fcc6cd2f4fb36986e6d906b3b6726c037a454f930d73b7a203bf1c8361",
-   "krUrl": "bb83252fdaa6bb0857879ffc3529ae1252cb7fa3e16eebbda77532c962ad0c7f"
+   "cnUrl": "d0bf7f749ba5df6a18a4b4a4f412ad02a2767a03949d7bc3ea178e363ac9b2ca",
+   "jpUrl": "6b5ff31c1087f9577133d93110b0306858ba06c9d61057436c6f7390658ebb4e",
+   "enUrl": "f10e8dd8749ddc8a85a9578d2a836e1ce5fffa462cbb70740333e90716807397",
+   "krUrl": "4ac5f8538cbac572940f4e283cc954e760123da4a750392e3d4575b49dc093fc"
   },
   {
    "id": 6,
    "title": "Memória: Belobog",
    "text": "Assim como eu, o povo de Belobog também está vendo o céu desse planeta pela primeira vez.",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"Galáxia Silenciosa\".",
-   "cnUrl": "6b4b1ad246062019e488b7a6e59c3cf0d3de577fd27856c128a5ddf6022af6fe",
-   "jpUrl": "fbce22aed21dc64e3e17bdd344146ace37e52a8e7b81d4a56cd3713dda930912",
-   "enUrl": "dbe0fa395c5483157908e01e3b17f29f3a233bd7a22a33094eb72e4507c1d32f",
-   "krUrl": "87d963bce7939c9823d2f3918f1ec2eb476bd693f4630385c9c8fdec2a16bcaa"
+   "cnUrl": "7fb7a9c06f1a147cbebe326c17cfb5221c69938cab361202aa81109e06bed6d3",
+   "jpUrl": "d0bb144d44fb9bfc649def4d1c10f3301b5de91df24f4e8fe68ba6cd0edb3b2a",
+   "enUrl": "49aa62dde846d5ac889cc3318a5d1b5411d72e0c0ab2130e6a86d21f871bef56",
+   "krUrl": "3f5a80c8a1b4d7c01b35324b9f2d5ac192bde54c6102f9141f4ed6dbfacab809"
   },
   {
    "id": 7,
    "title": "Memória: A Preservação",
    "text": "A semente da Preservação sempre esteve dentro de Belobog e eu simplesmente reacendi o desejo de viver dessa cidade... Esse desejo pode ser fraco, mas agora não era a hora dele se extinguir.",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"Galáxia Silenciosa\".",
-   "cnUrl": "e152061a6dfb17d5e7e325a9a85b96f3b2f1ce53bb0c8448b7d1c50ef41cbc35",
-   "jpUrl": "965f085bc5df213ed4cf25082bce453fb101fef50f4ecc158441066b56b0a51e",
-   "enUrl": "ae65d7dd61739569c0dd91588f0d6429d8c84f1b3f6165971d0cdf81390c0f32",
-   "krUrl": "1cfcff6e5652575d268d01beb30d1b3e790c0b2b22beabd07e63a8d4dd9799ef"
+   "cnUrl": "235d3d4d7b1894f8cd92f8a0de14d2fcf9749a281568eed0e4bbbf2d76a82bb1",
+   "jpUrl": "5f5efc05aa5e6a525ef29448e8d9bbfbc085a98c4ad275a5a9a52254e81d0d97",
+   "enUrl": "31e83a8e578d1e8620f59ab89a665e4845ee97d6a46ffed81e53cb67e4b6f6e2",
+   "krUrl": "a42c7b478f00b696dbdf36b8894bf65284eb1ac71da0eb09968984689d897252"
   },
   {
    "id": 21,
    "title": "Memória: Penacony",
    "text": "Em Penacony, Mikhail passou sua vida sendo o precioso legado do Relojoeiro... Somente quando alguém despertar, poderá então trazer os sonhos noturnos para a luz do dia.",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"Estranha/o em uma Terra Estranha\".",
-   "cnUrl": "c7659041bfdb95aea9dfa86332900a6174cb7a8d2fc4e75a2d86a3a399db625c",
-   "jpUrl": "f5196f153111ab5aa092acce8f091b89b2aea271d055df73b31accc5364071fb",
-   "enUrl": "1ccd343b213030017a66f4e875dd5d96878b4adb1d18c34cc86062ff89120a04",
-   "krUrl": "9459f4bec38e377a088bace958ad39b75128b3dce7e39827456963f34d983419"
+   "cnUrl": "b3eeeaa7e7ff339c17164bed4db6495d7534b065f5eda0c478e8cf514b8d6357",
+   "jpUrl": "056056a1e0ebc7a3a6456521a44a0a5daa7476bd15eb312850204d9b732763ff",
+   "enUrl": "92a9c4097634a509c0902059ca46e141be8a5ecdc019b019d598fd78046b1894",
+   "krUrl": "e2b662e7060f395feb93c8dbcfcba19dd6d54e0aa06dd1b24d628ad88d8625d7"
   },
   {
    "id": 22,
    "title": "Memória: A Harmonia",
    "text": "Eu tive minha cota de confrontos e conflitos com os outros, mas estou disposta/disposto a colocar isso de lado por agora e olhar adiante, para nosso futuro, onde os destinos dos bem-afortunados se cruzam.",
    "unlockRequirement": "Desbloqueia após concluir a Missão de Desbravamento \"Estranha/o em uma Terra Estranha\".",
-   "cnUrl": "2588df4ef13e72eb1256f84d0de2ec00cb5d51fb078bb4f637654064d6bbe5f9",
-   "jpUrl": "8926812ae27c25fbc012ecc6370ec0901e93d524fc82aa5020e9d9ed2b23a2b3",
-   "enUrl": "743f462a5494f3d8fc6aa9c33f0927bc563ec1f9ed931bea141bd0ee331d62fd",
-   "krUrl": "c92f1981e29a50aed62042d67ecfccaaaaf92876706e9afe18533ea9c55a7483"
+   "cnUrl": "0fc847d81e5398cfd7ab6ce10450dffe9132b0d161bffeeb85c59c90b3cf3d75",
+   "jpUrl": "c430ec06819114fe409dd8c2d6fbc6b6bdf084b61631b01be6e4436531a6cc8d",
+   "enUrl": "0ce68bcc92f34b63f984fa7ed4da9ce9e367165b16d1a8a295fec4f67bb466f6",
+   "krUrl": "a5f90eb66be82237c9c691cf6d9d753d4c7af38d205bf49af3e368217ab59c79"
   },
   {
    "id": 8,
    "title": "Ativação de Eidolon da Destruição",
    "text": "A escolha não é tão evasiva quanto parece.",
    "unlockRequirement": "",
-   "cnUrl": "f04744f57d84ba36b405d155b627f6a3d8c728e1ce9f0c80e589a2a2825fa39e",
-   "jpUrl": "660328226fa9c0d07bad7bc9aa6463fe5f994a8fb75b07fffcb3fab2cb52d5de",
-   "enUrl": "b633e4d3c627da49cef13e5ced61cb0c2c5740b2dec98394ae53c3c053dc7232",
-   "krUrl": "59acc477e9eb28a40575fd3658f6c7a09ecd3e64f8b1795066a29c991e6c289c"
+   "cnUrl": "6d21ff09b6ea449b6f5bcdffe48b9b14afdc8adc2a09f0daf69ffa64fe772b91",
+   "jpUrl": "d4221cde540343f948e5fb4bdc9e782e9fea8f78486c78531b9211e78bb7f31b",
+   "enUrl": "83146a6767b3e0bed2f7aabf6ec54376ffe89efc8eb72f29673baabb69454118",
+   "krUrl": "e298a2d8fbabbb0c18ba0084afc3e1e05282a974fb8ad00f07c7d9ef4eb5914d"
   },
   {
    "id": 9,
    "title": "Ativação de Eidolon da Preservação",
    "text": "O valor da escolha está na determinação inabalável.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "5b0efd5a4b2ad216cc025657433036ccd95adccaa3dacb63bcf4a72d9639ffdb",
-   "jpUrl": "ce1ac3091894215c4813c350a0aeab68bca185f5a2e919b2855c41f42866d4db",
-   "enUrl": "ad63ba7d2d750f7c1b96178188f59989580f9eb47f9085fa91f2e02544569619",
-   "krUrl": "5cc0b940597bb7bd83d6fb90125bbe4ccce24f4d22c0af9339a6ace0e53a3ab1"
+   "cnUrl": "d7f5f347914e29998e8defe3c5cab6aa7ee885c6a3be9bf6ca4a916243e11bb1",
+   "jpUrl": "7dfb423818b27b7fd84a14a448a46d6a54d7777f0dc9aa311edb0dcf8503a407",
+   "enUrl": "3d77f7777f0e3763fd03a8d71a3c8a0f86021716896bcf012e29e6843b4738cd",
+   "krUrl": "0e7ce55a2e34962963fad3bf76ce6543ff41809a02b08fbcdc62666d3199e0d3"
   },
   {
    "id": 19,
    "title": "Ativação de Eidolon da Harmonia",
    "text": "Desconhecidos um ao outro, porém unidos em propósito, fazemos as mesmas escolhas.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "3faca06960c61ba6ed41721e0c81ae915d1b51da2a6c0398b4392397f63f2934",
-   "jpUrl": "7d054621cf93ef846c0683ef5aadbffbd95789db3ca0b438f6f40ebb20e16357",
-   "enUrl": "4598b91741b4c75d6bfcb7e30cf77c1d3ca647d0ceea1313784be18e182f4627",
-   "krUrl": "13b116c00113062339f670bdbede9f029a190ff88b4c78a360fc31e35d319cca"
+   "cnUrl": "9956a784db8860ca515a777f5f9195c6bdfc418c729e0a081914e912189b5a1b",
+   "jpUrl": "38b0fe996c2b2905048814ce3ae0aa0e0b04f7a0b9d6062e93af2cd1eb13ddf2",
+   "enUrl": "46a115f8237f8e6e4996fe0fcbf80e813080a923d975e0830a3184d39440fb8b",
+   "krUrl": "ca27f1085a02677bfb70dad9fc7885deb4e4ad8d72c274f89bd4ff0fc4f4f709"
   },
   {
    "id": 24,
    "title": "Ativação de Eidolon (Recordação)",
    "text": "Não desista de fazer uma escolha, mesmo que você esteja prestes a ser esquecido.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "e9b84fb6a0f61e2d128d4b29d0a36078ef0e4e1a34b84baa8d85264db51f7d74",
-   "jpUrl": "0fcec62aa237c16a8c2518b5c5bfe61ca32feac5db98e144a2f22f333d8a21b3",
-   "enUrl": "",
-   "krUrl": "2880d62aefb0648b0fb5d6521c1a4a298cba0802f41057254dd59d86784812ae"
+   "cnUrl": "b4827e77c32d940e7b8d9620009764b2369481ec022b736e2254a1567dd379b0",
+   "jpUrl": "73c7f85144eafa465a8262bd36c03d7969471685fcbdf0bafb17daba3f180d4f",
+   "enUrl": "522a32a7ff16938fa258e89012238795bb5179cfec34a0d0f4a9d9c4e0f9a5a2",
+   "krUrl": "c1b4922a9d5abf6d215e21fee671d4adfb0e8bb171a59ec78e3bf21cc79693b8"
   },
   {
    "id": 10,
    "title": "Ascensão de Personagem",
    "text": "Eu ainda não acabei.",
    "unlockRequirement": "",
-   "cnUrl": "9fb8d9b7ca925fdc79f1e749b688eecfb97a7960f3ee108ec2339d8836c78ca8",
-   "jpUrl": "7612b5b702b578d57e10ad39f8dcba6a7d92dd5041df91d8452abe2ec7eb8727",
-   "enUrl": "e35a257a6b00da9572a683601040ed325819a386a6708a3bc2380d218f651091",
-   "krUrl": "21db2589096382ae920bc386e8376a235f3b8ed70b0b0caa78790c68237485ea"
+   "cnUrl": "b155aa14a95991bdedba61e8e290642f6b5cbc8e7fc109179ec701acf8b8c56c",
+   "jpUrl": "4558e4a0296cc537ebee757209948cf29583367b8a7a38e81014111eec18ddb6",
+   "enUrl": "e7c0dc034565d7503b08d971e0d9b1c5284f6e05da6499090ee1792d4c2ccc39",
+   "krUrl": "97d5af7822d7cdd732b0b7a36423e6a8e278e93cde8cda7aa2c0ebadc4f72643"
   },
   {
    "id": 11,
    "title": "Nível Máximo Alcançado",
    "text": "Jornadas nunca acabam.",
    "unlockRequirement": "",
-   "cnUrl": "b8e38e67f33d47a213f0769d78cb3a2f3f8fd4d0488ed800c5dc5b4b4d0267b7",
-   "jpUrl": "f62d8d6276693d3a97a477dde3703c3f0493cb5f494ee25ecf3a59559c11558b",
-   "enUrl": "10e3ff2cd9acb583fecde4dbbcfc04f9d6c3f65ba8c9f86cb64f585533cb7ca0",
-   "krUrl": "7b80c3e6126777abc4e8234f665f1267ef78f037bfd29ed436616c8a77395fff"
+   "cnUrl": "3c8cdba47fb3e7e9e15cb47855f3fba4d6a73f4064a066d7b295456c69de750e",
+   "jpUrl": "e13aeee4d4aef1ea940c0d3e4b364fbf261c94936f5d1005f196d69df9629679",
+   "enUrl": "aee881c67dd0f9cb574455e8c12598be778bc97875ef58b6bf104eb59b4d562a",
+   "krUrl": "b24cee52c1c23723a67245b327aac57ba21e427d4cbe4ed8db2beff7f5ecbaa0"
   },
   {
    "id": 12,
    "title": "Ativação de Rastro da Destruição",
    "text": "Essa é... minha vontade.",
    "unlockRequirement": "",
-   "cnUrl": "82d71c7043cc44c3746aebab3b22d1ca789ca6e5101108b6ec3ea3ff78478213",
-   "jpUrl": "7168c6b5f4db353a306843c4f58adacadfcf663f56c6f3f3e19520bd2d4f411d",
-   "enUrl": "d862dc0df83e2d9e8786b73fa44b2b69b7ba957cee0ce17b806e25e9ae34c3ed",
-   "krUrl": "ec6f804b699172ca2298351c916feaa106e0aae4cd3ecc7082ff03252c096f3c"
+   "cnUrl": "42a1105bbbed573679dfeaa2547d7ea5a9478699ef222d39ceaa87b86754d9c5",
+   "jpUrl": "fcff8224bec82ed5c34e74abfa4cdb16649659b1e1ed3b71abf8bb3f7cf0c90f",
+   "enUrl": "c3c544eb13012e3638c9adeed4ccd12607d6bbae4d2f4f90b6734e43f2d0e20d",
+   "krUrl": "ff3c4d55f4458a82fa5c778c7d4d9d65c8ecd8abb8f4e59c829d86c8bae7f05e"
   },
   {
    "id": 13,
    "title": "Ativação de Rastro da Preservação",
    "text": "A Preservação é determinada pelas nossas ações.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "4117883c3cdb4a6a6c2db0057cac3e2b59cbafe27e49a0b5130382ea22e67957",
-   "jpUrl": "d2d230a24350475e71a5062d4d653699ce95d8e9e89c61f736d4a5c054116851",
-   "enUrl": "59567e138cc580e4cfcf399cf830bfc4c6dd47e949892a93f60c52e756dfa13c",
-   "krUrl": "9f9765af824590a675f0ffcd59e56a1b0494ba94def1bb1a49055bfcd694f604"
+   "cnUrl": "a44b62a48b2f213abeda944945e5e67de4d606b31ebf6f53a167c21a7be33903",
+   "jpUrl": "f77a219f585d2a8e2ad8bd15d0fb45fc97fec6bd63cb0ff6080587c32f87727a",
+   "enUrl": "73f94fce311d246556cd974947918c27fd24b5e897623d612bf6ec5bf8ad81c2",
+   "krUrl": "54fdf31029ca8c23896905824563e259f210156ef6da15694e7a8c8fa3128aa3"
   },
   {
    "id": 20,
    "title": "Ativação de Rastro da Harmonia",
    "text": "Antes que nossos caminhos se dispersem, aprecie a jornada em conjunto.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "54499e3a5dab1744d5b82a52e61b5ae844156864745efc7fb89c52897a10c2d6",
-   "jpUrl": "d267734a9ef8d60f66ff2f3492d57114fb03f8ff6e0abafe18951c9f639dad9b",
-   "enUrl": "3290c33a1150895d4d173768a816da6c334934d89e09d2db767967f8c4bb2037",
-   "krUrl": "ff0ec6518f1be0e225e88c3b2df6a80d0388c6f3beeba3619c08fad8310f9cfc"
+   "cnUrl": "9cac38018dd869dd29ee9bbf119e98867d33bd5f38717e0592a52cc6f3d7d695",
+   "jpUrl": "ed02575ce3ccc4afb79c6420fb95e2eeee5faf184e5b7a8eb52b79a94dd653e5",
+   "enUrl": "90437c386af00795e5d0bfaf3257d16d2f4e2d63366f2fafee28b6242352ffac",
+   "krUrl": "aaf4bbe24aea835b8e99ae25325d63b2a6f40f2159873c58ed2c716b48ee02a0"
   },
   {
    "id": 25,
    "title": "Ativação de Rastro (Recordação)",
    "text": "Nos lembramos do passado para caminhar para o futuro.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "cfc73d629717980c73ecd04ece22983e5f0ab48c6cecf609f9fc43a905c8ce2b",
-   "jpUrl": "55b1bc109f841df27671e77421826626915b8cf02078681e190b7456c1c259cc",
-   "enUrl": "",
-   "krUrl": "9c1dc25b2bb871792b98d67d81db879932e471740d7d48d05f27d20158525eaa"
+   "cnUrl": "dabb96304dc5a99821b60b456b9d2d925682ae1b1737b6c1ec8cec64b8ef0103",
+   "jpUrl": "05f8ca0f135b0e80d77cb679af63fca8b926f31e96b6998628f8e40d9f8dd0f2",
+   "enUrl": "5ac3513ead76f8ea30ef10ea68bb8b5909523076bdab7852a249f82403106c19",
+   "krUrl": "6be18f068dc5acb1ef792329541174e4cce137c6d61c93a1914c4af6f4885fc4"
   },
   {
    "id": 14,
    "title": "Entrou na Equipe com 7 de Março",
    "text": "Março, lidere o contra-ataque. Eu acredito em você.",
    "unlockRequirement": "",
-   "cnUrl": "7944862677fc796173ea4cf0be4b25913c6cd772e26c49f566df2ea3d7b0d42a",
-   "jpUrl": "af4b746f2978366c57bb7be3053e774fbc36a4e49f248c919e49154b9ef49e69",
-   "enUrl": "33811a6232892200029cec468069a30794edb13c99e4eb59d307298095d5af48",
-   "krUrl": "e0a494d414f04fd7cedaea21e7e2d2166534df81cbc9bfa28e66c71e066850cd"
+   "cnUrl": "c36b0f7162285ec405879ef6da85ff1b665a78d5f5359696466591d36c49b97b",
+   "jpUrl": "266460c946c9d9066d9265f3f27fa0f23d7e830e75e810c848d77632ed0006c8",
+   "enUrl": "313ea445ec3a5c9fb2633eff65b19cc44eca5f74f9e4554b04723c7076c79acc",
+   "krUrl": "d54e9f2b79470f925cea4e809d6a00fa1f224dc6d896912537c4e13c35194784"
   },
   {
    "id": 15,
    "title": "Entrou na Equipe com Dan Heng",
    "text": "Dan Heng, vamos acabar rápido com isso.",
    "unlockRequirement": "",
-   "cnUrl": "9041156cf343d0d8b9a38f485edf8145d306c92b95fabb02a0a32375a3152ebb",
-   "jpUrl": "5a8fcf8c454b720be93a1979a56bef8faebb476921b65a003228920a130539f7",
-   "enUrl": "7b009d7c085ec30de267edc7a1bb73622666d2b09814473a42db7c9f8cd10b83",
-   "krUrl": "624af9d37d9a757ff4b151c6479b8ea4eadc09353256bf1141f6f425eb59ed8f"
+   "cnUrl": "7c5fe0b43b863ba61c557f37e9aa0813005d484245b6c8e7e059f397356dfa79",
+   "jpUrl": "88f6287a3ab3419733d07686b95d002b5460bc6cfa9d0188faacfca5054d477c",
+   "enUrl": "cd89c3cf18e9b01d7ff439dc5dab97981837fa954a11d007756065110f55429c",
+   "krUrl": "6fcff0bc0e85b0485c5015452561ffce71daa3f2baa159eafd80902cdc1b3c8f"
   },
   {
    "id": 16,
    "title": "Entrou na Equipe com Dan Heng - Embebidor Lunae",
    "text": "Como sempre, Dan Heng, vamos acabar rápido com isso!",
    "unlockRequirement": "",
-   "cnUrl": "7febc625ce6eebfcb74d23649676ab1e4b61d54ef1ec96f0417f19b657c41855",
-   "jpUrl": "0775b5efe8ee4298c36d7f2aa82fac8830f2212dfc9233383bbcf04893f4df36",
-   "enUrl": "06004d426410ff20ecc77693edeebec963659d1387cf3122bf6749c1130a4dd0",
-   "krUrl": "e5ae307efd1d43f7a0d741b951faa50425a822f9ba791086a08f03244487ab85"
+   "cnUrl": "5e6a818233d75773aef372058455e91c34ad1f815ddb14facca495b0d8c584f6",
+   "jpUrl": "2abd640d761a93e4705af9f1784f435d2a0adcdac97113b83a536b10f2c94cee",
+   "enUrl": "89e837e1d42721b93e5dc29c95d77fb55f76a32bedbf3deec867949e6442db2a",
+   "krUrl": "2eeacf4d1f4b14b963babc7f11757fedec3841781ab549c2f2f3c3e63db8e1c5"
   },
   {
    "id": 17,
    "title": "Entrou na Equipe com Himeko",
    "text": "Estou contando com você para finalizar isso, Himeko.",
    "unlockRequirement": "",
-   "cnUrl": "f0bfae799ef5582fb6c481afc6f017db717182dcea9b1db55a9b41926a9687ec",
-   "jpUrl": "a5cea2b349d6d21be8c8291f7b6b886cf84a9018aa76236ab75ce3511ef9c9ce",
-   "enUrl": "b60cd5251cf8e605d7e68cb63d614639abcc28ba815a58d8d65f288c41f83739",
-   "krUrl": "ae04b68c4acc1c4fc65ddabc126202abecbf57141b459868c995b2ba9a7f94ea"
+   "cnUrl": "8f85fdd28cc25f485111e7116b9b6287212bcde963e640570b640dda987bbe24",
+   "jpUrl": "96f7b7bf1f6c3aff63d6959142bb3bce598a261ee0fe05b6444e02d30bea3fb1",
+   "enUrl": "b0ad9641b885fc49dd3e13034522258883150e9e5ddeeb86b5e44605a63167f1",
+   "krUrl": "541b71aa916323ed41ece7ca769e5d030b59d03ec3f8abcd4d7d2b479b031e50"
   },
   {
    "id": 18,
    "title": "Entrou na Equipe com Welt",
    "text": "Deixa comigo, Wel... Ahem, Sr. Yang.",
    "unlockRequirement": "",
-   "cnUrl": "bab0c5b41b24dc9bb0321ef25f886ba4141c3dd19383147aa10a913c7acc04f0",
-   "jpUrl": "0dfa85a19ec9cce9e39e9f77185c01fc66ccff229a4c3c7593965c3f6fb07ebb",
-   "enUrl": "c8dae1034b8a46e70d4dbeba3738a75822809741a162a1fc36fca8af34514082",
-   "krUrl": "499700905a5dfa5c450407085b7648042a7b7287514dee67b9570bb2add29e36"
+   "cnUrl": "fe05e8e616104e335ca4e53e5ec579ffe50c0b3acdc8399b974974d281443427",
+   "jpUrl": "d87bc16f19b5f3369271dd328e0d3b88d91e846aae7e24a902e0be510b815b5b",
+   "enUrl": "3b6211dac9958264d6c2597e88c51f5730e847d80cfc9a19805b342ac952154e",
+   "krUrl": "a197c10b77a5648842b48ac1b0cf787480f964efdf326d790685fde28016b31a"
   },
   {
    "id": 23,
    "title": "Entrou na Equipe com Sunday",
    "text": "Uma visão inesperada... mas isso também é parte do que significa o Desbravamento.",
    "unlockRequirement": "",
-   "cnUrl": "61b40d1d43c35b3533a83b839415f7f07dbb8cc38321006e9e217e571257af92",
-   "jpUrl": "458031d5bd5ca29415e2426d24a311346e15afd5b04d586d86e4218d889db495",
-   "enUrl": "",
-   "krUrl": "9ca8743b18e12dfbb98322205e87e2341aaeeae8919db8496f5812e45216c151"
+   "cnUrl": "7c3bcf91cdec3f39d8d844b32c4d3ecaee168dee5f1d0b1208df8932846cc061",
+   "jpUrl": "e745dec501f046342285435465ab6f75cd656af536683d4593b79f3511840301",
+   "enUrl": "f4ef83e46b4fc57f451175729ae931479d3caa1a4cfeb4b44cb3351a686b0f3c",
+   "krUrl": "4c4f548e07795451ded22a07792cc1c768aac55f042f9198a1849769d81db8bf"
   },
   {
    "id": 101,
    "title": "Início da Batalha: Quebra de Fraqueza (A Destruição)",
    "text": "Essa é a nossa chance.",
    "unlockRequirement": "",
-   "cnUrl": "fa8019fb0d47a8c2cdb54f36d6a0e64233db802a7dd67e8ef6d5ce5455ad2567",
-   "jpUrl": "ad3a41e8c7097b3ade22f3f2813b2157e035e2eabf50c641ded7a2d76e1b4512",
-   "enUrl": "aa75be0a855765cd8a23568e03e96eba3733a6ffc45d7d02a192564d6145dda5",
-   "krUrl": "fc692369d622cb86dcffc254ecb80c8df8ce1b20e892725a4496bf4b4ed859eb"
+   "cnUrl": "b57eae6c783fa2bf47901d0cdd0635e5948d343e26aa150f7519e456f2f5d84a",
+   "jpUrl": "0f2f967340ef7796f2c0e1779bab6b651728879ca82a483630d26c2c892c2cf5",
+   "enUrl": "ac04358c379b9fd72f273ff3c9fccb3588e69e0d5af130814a57e49dfcf69eb4",
+   "krUrl": "a401c8a674ceb00e697fea440640736742dfea60a01b327b7dd20790e528cd69"
   },
   {
    "id": 102,
    "title": "Início da Batalha: Alerta de Perigo (A Destruição)",
    "text": "Fiquem atentos.",
    "unlockRequirement": "",
-   "cnUrl": "69fbbbbd6cabb3081325d61188b38f3e4922880cc055c93e3d634fa406caf05f",
-   "jpUrl": "34caaac4b0e5616b2dc7bdb8b7ac1974708b5a8097e2fe4aa7e4e4de4eb1ac7f",
-   "enUrl": "43dd4b4c90d85ea0f61a5a941751bc2ba0ff6082bd4a9b3c6b621a2b36392362",
-   "krUrl": "6c9d2ed34fbc391ec11da79bd5f71bca334284e10a128921aaf93bf1c519058b"
+   "cnUrl": "edb37c01dafc6aae8e41520b777218fc719a0b5518e1bd8fb022d1308f311904",
+   "jpUrl": "e7095824727fb7fced0154ee14537437ee772d1d70f9e0419244cc3384c7faf9",
+   "enUrl": "c9a7c0616eaa6dcb2708ff4045476455549f4e104b44a46881d86c4e16d44c5a",
+   "krUrl": "97e5bd1f084b9ff69d86b3d6511529c60ab58ff9489532bcd1bf2d995e5ab930"
   },
   {
    "id": 103,
    "title": "Começo de Rodada - 1 (A Destruição)",
    "text": "Vamos lá.",
    "unlockRequirement": "",
-   "cnUrl": "25e715ddb7d3d98ce0a031350884324f89dc898ad12db1de6781c6f2569ba040",
-   "jpUrl": "f8ba73ccb212e47b5cccefec8181fc823d77de5ac01a9cd7892721a1001646f0",
-   "enUrl": "cd892d813105c12b1d3d00e25572044f5e629ae97d6b2f908668efefb9e524f7",
-   "krUrl": "6ee3453cf30c7da35839beb53355b89a16e8956448a5268779d00c1d28ff211d"
+   "cnUrl": "26daeb5f2607b8e91777bd7a112e1d613a554557a96878c436f209511c6aa9ee",
+   "jpUrl": "79171742833d909295f23a6f437811efa1d55b943a7467798f0deb3efbfbde33",
+   "enUrl": "49534a8257761ecb9cd82e64db5a526da9386ac8c34ddad3104a8b1b63373881",
+   "krUrl": "0d5c292c04c044fb06540e868d043dac19c2de46c2e60c5d3c8c7fcefd28ca8d"
   },
   {
    "id": 104,
    "title": "Começo de Rodada - 2 (A Destruição)",
    "text": "Vamos acabar logo com isso.",
    "unlockRequirement": "",
-   "cnUrl": "008bb93cd8f0cc3fa5b545532028103e27d14a32de9da46b41c561857190b9b7",
-   "jpUrl": "88dc8781c69ef170fe9f97c772b06de24625c86cf0a01eaba01af7de6229d52c",
-   "enUrl": "a8e75bb4b33fe6469930fc1a435c7403fafc540f541164482967248d74b46d24",
-   "krUrl": "432e3281f6df2b6ce9a77a4e03e62125c124143a2b371bddcc6df1feb85c745e"
+   "cnUrl": "14821a52a84c8a8df03ba7b4281e4850d9c9eb3732ab75585db734835df5e191",
+   "jpUrl": "e06fdbbb13dfbe0c07e79c46355e0ec8d701138a2e79b667e45b2f6c5663fae0",
+   "enUrl": "39994ffab8fe5892052c793f927aff6ae247bde2f01958a8285a5a2003906078",
+   "krUrl": "46286da83cc6dde778091c74f83a905b6e18832dd5cccd6787c020e8387c516b"
   },
   {
    "id": 105,
    "title": "Rodada Ociosa (A Destruição)",
    "text": "Quem é o próximo?",
    "unlockRequirement": "",
-   "cnUrl": "0c71b4d11df9c7d482759f169bf106eac02bd22e36f38e4eae67da11f8e1ee82",
-   "jpUrl": "3cc1d1ead1fddd8c842b5ce1883e5f19339942efee734050dd9e118da193a4f6",
-   "enUrl": "20654036d81c2631eece8c4cdd2e54f3c44359e16e1a9bc072efe9495a9081bb",
-   "krUrl": "49ed59854363dfa2ca7df8ec27d9d95855144197f84ac39afe58d9cd0b942b8e"
+   "cnUrl": "016f0326a860d3b617b32644d50c85458eef10a604672d3669e69705a5438e8d",
+   "jpUrl": "a144e86bb9a57674898cc93fe12a6211ea97ea4acc64ff15964ed51a7bf5c48a",
+   "enUrl": "8a20a60ee17aae41753b34154fa35d3fda7776fafa62401dc07ad8fe854fa59a",
+   "krUrl": "308d44cd664ad8cda5492a9a6cc4aca9540aef755c013147272a12203e1c9266"
   },
   {
    "id": 106,
    "title": "ATQ Básico (A Destruição)",
    "text": "Hora de rebater.",
    "unlockRequirement": "",
-   "cnUrl": "ab3233da1e3abcdd9fb8b745932f05eee9ea39f62ded6efcdc2b2bbe8680ed7d",
-   "jpUrl": "9dc7e5e36e03fad3e8687611be1682485ea273f342e975ed8e971660a2435be3",
-   "enUrl": "1548075cac07f9e90db634cc0c305ea1c9baa464f8c834f4beb47a4802c6f2c8",
-   "krUrl": "7db72fdf2f39ac374293525ec7a4e99a50152ed0efcead47e9adb710e0f2921d"
+   "cnUrl": "a2404a7dbb044d63a613c08cca812aaaba5a2fa8f3ac8f3f996487ed5a8fe3d0",
+   "jpUrl": "50c1b52ecd471e24335e903d5dfe364f43c0fbb23596b2f36826ed797f7a697b",
+   "enUrl": "c0c9d1f3eb91dc04441bcf397a0f7a0628961e7241a36372883cca746c1cc202",
+   "krUrl": "bf0aad932a5c0ced706dddf675a432747ac68f40e587b4a94f06f867afa9e45b"
   },
   {
    "id": 107,
    "title": "Perícia (A Destruição)",
    "text": "Que tal essa?!",
    "unlockRequirement": "",
-   "cnUrl": "2b16c0426795081ac8fb68d32178228ba5ef18dcd355747d737c933721435272",
-   "jpUrl": "b95c5b9f3abb2e2abc1b7e9873cb5ba089490f2649d2c3c2426e46770d7fc10b",
-   "enUrl": "e18c970d9eda3a8e9e00b97b9ad0f34359b49de6ed24b7b1d9208a39560f2834",
-   "krUrl": "96e864eebf139bbc71da42eebeda7e914b77c7240bd3d9f4464f35f5e96af2bf"
+   "cnUrl": "3e1bba1bdc3f058ca7eb71fc11d91d2103103e9e2d82a16b70831b20a8d5a1fd",
+   "jpUrl": "7d9a3019cc68fece4a8d90ae8d3ff07caa7d6d5b0a2af5f09644361268006482",
+   "enUrl": "803a1b74ae263a763df4c5bb2966d4220a0155ab39bdf5e8e6b4dd81762bba82",
+   "krUrl": "d13616767e11ce41609439f8616ed45bdeae4d40bcb77e724ee4c4b483134733"
   },
   {
    "id": 108,
    "title": "Ao Receber um Ataque Leve (A Destruição)",
    "text": "Foi só um arranhão.",
    "unlockRequirement": "",
-   "cnUrl": "f49738a4118ae0c565a38bc30a42821c8eb5195a16a13ba7bc1d5f82535830e3",
-   "jpUrl": "13875d8ac98d62c649c73e26d024cbf7e3cf80d0839f538277350888471fa463",
-   "enUrl": "4a62e909bd8a94cd6f3ec29e92777301abe6deb1ca65ba64689000fc25f155d4",
-   "krUrl": "205e50dbb5203c76a2ceab1037bc4cc2b100a747d7cadf8ea5f3ed8b2407094e"
+   "cnUrl": "efd04f7b5459d91c18cf88c92e113b22f7e763a942fa89786a896dd77ed826be",
+   "jpUrl": "3bad764b46786c847cd761c79d23307fc022cc9ea656466c3ce1c3f156f35453",
+   "enUrl": "56870f1f857ff964156fb465e9f8c37c2b7ff76dd4ca32ea84d816c5f0a1c42f",
+   "krUrl": "2325f7895c4a861b2912ef099ef5c41404a4c9cc321a3fce5d4d47812940e2ed"
   },
   {
    "id": 109,
    "title": "Ao receber um Ataque Pesado (A Destruição)",
    "text": "Vai precisar de mais do que isso.",
    "unlockRequirement": "",
-   "cnUrl": "76af543b2d415b7f54c593cade826df27a8124888a9bb8742944bca49e40e062",
-   "jpUrl": "110359d88ea37023165d1696e6c9f78c82b3d9c44fca30d76a8679fcc78f9031",
-   "enUrl": "c66e17ba1656766ed4212aa32fc7c254225c5990220ac161cd050f2c64c7f3ab",
-   "krUrl": "4b1a996f59d16a11ac40de00c8794be2ccdb21ed316bd488faa944de6eb11fd6"
+   "cnUrl": "d465cf25a62733e544dde90ddd2fd1aa65df27cc2192daa0801d138ae8c61706",
+   "jpUrl": "1198a352f2fb4f402a9c281cf2b64b2dcacd252434eb218d17d18fc05ebc70df",
+   "enUrl": "965df1066d0736cb43d5f57a762618392f959e461a03de28ba629ffa99c54447",
+   "krUrl": "f410215ea03ac86fe5639a27206853e8ae7a8652df1c3ac5e4a57601dc75f2b4"
   },
   {
    "id": 110,
    "title": "Perícia Suprema: Ativar (A Destruição)",
    "text": "Regras são feitas para serem quebradas!",
    "unlockRequirement": "",
-   "cnUrl": "a07e50dd6ca21f2211136437335e99288012d4d38d3ae347cdcb19d28adf1cbf",
-   "jpUrl": "06b7581488842acc09e95d471a347ed1936fe2e0419d17e91abf4595403d399a",
-   "enUrl": "6db998c060a59054e34ab8ca663ec443f27a3bdfd83d0ac9cdbdde33884a2d04",
-   "krUrl": "7ce9e076e7091c6b0af9524b367b82ae9e85c44d30102f1659ecf26df4bd55d0"
+   "cnUrl": "29fbf1d42d2ca57699ce8e58c2ae0a60fb2dd26255dbbd76c48ad92ea6feb781",
+   "jpUrl": "79fa7fe27f37e63d39d1d526251f79000525a6de5649df279149d9fa49491866",
+   "enUrl": "2559c5db04a7f63ef0c526efead15facfbd5d91465d6e3786361129921052e65",
+   "krUrl": "c9814f903f08441c6594a418edcf7bf90c90f459947c2a9fcb4aea52bc0baa9b"
   },
   {
    "id": 111,
    "title": "Perícia Suprema: Liberar 1 (A Destruição)",
    "text": "Você está fora!",
    "unlockRequirement": "",
-   "cnUrl": "0874a2f2659d444a75df677e7d9d9ed9fe9dd79d6adda4fa26104594b2d98a58",
-   "jpUrl": "ddaf7927358c2bb09ca36374805ef6eb318f7c42dab2a1b051aa0699eefc7f8a",
-   "enUrl": "1b43c9deb0fc8b1287244dc5783842e4eb126a307dc34fdb71ed59fd4b7f9853",
-   "krUrl": "4c9beaf42a613610bb3571d0087e88976f825dd7ca4303155c0b137b62b64a5f"
+   "cnUrl": "e31db09373433d1ec39c3e16b803facd5e96d74cd996bf1ce546ffcb67cc1f00",
+   "jpUrl": "90a06dab4309829975f271f10ea526bd544e0b1ae05e45c5c5c3fb665aa3b972",
+   "enUrl": "aa1b06af0bbb04a63ad7cc8ed2d184ee11c025755742ac8fcc1045e85ddcf530",
+   "krUrl": "4952afcbbbfd59be6a70d56e761b593a47cfae3c59b236c32f931e3a39326ff3"
   },
   {
    "id": 112,
    "title": "Perícia Suprema: Liberar 2 (A Destruição)",
    "text": "Já passou da sua hora!",
    "unlockRequirement": "",
-   "cnUrl": "ea5fe8460acf003d958725289fdb5167c6295470e8664295d5d2cf450b5e5da9",
-   "jpUrl": "a23f66394f43ef93fb10617b6c3f3abac9c600c577459550f679caed95af53bc",
-   "enUrl": "3d9b959283d760c9c8103167987c50f41d2b5f24135089d371f81ac6d4ef2dd1",
-   "krUrl": "12db04181e63bbd84eb1bcadf3057ed5c1dce56e294e44de9f59ebc4a67c8db7"
+   "cnUrl": "200f94b403e1c48cf2ce1d2553d1f7a33687a8c9bdfb2a0791fb052b28eb5b96",
+   "jpUrl": "91436019d44d2121692dedaf6de74f2ce8d7bb50ed94a135a36a56afcd70a7a4",
+   "enUrl": "3aec7c1afc03ca6004ff8200df821c10b6f45bb146d681efd482d654f0c27204",
+   "krUrl": "c89933cbe7feadef8592b34687b2a4f78ecda70fab9fe9de320a3d71e88e08cb"
   },
   {
    "id": 113,
    "title": "Perícia Suprema: Liberar 3 (A Destruição)",
    "text": "Ataque decisivo!",
    "unlockRequirement": "",
-   "cnUrl": "9c9dc2ff506d7cde9f7708ce6c9025a0d9ad43a41fa588884d1b0efe8da821cd",
-   "jpUrl": "da97b9c344e73dda9d4ae201078220d92c022f14835918ecbca43c31c7f7be22",
-   "enUrl": "ec25fe3cf7d11b2c504b1957e6db8d903acd211d9d545c513992eddc452bf055",
-   "krUrl": "46618f8c4f3fad3eab6b2cb217c803d4bfa48f11ce84e9d4f531d4bf64819f07"
+   "cnUrl": "79d8aca547734409c31b17e5589cf78f454f412aec77903b3e52fd32fdcaa806",
+   "jpUrl": "ef762c80c2bd60c65b770a87e3814a15f997b6df4c187cab9b7a4d8956beda63",
+   "enUrl": "1a0bc8e1e98b4db2293dc09e8115a00ce118bdaba53c6a24002f2730269e54a6",
+   "krUrl": "ebcab35f6eb411f5d69f2274857087bcbb9e1cdaad55bdf951ddef52b202d438"
   },
   {
    "id": 114,
    "title": "Ao Ficar Fora de Combate (A Destruição)",
    "text": "Então é assim que é... a derrota...",
    "unlockRequirement": "",
-   "cnUrl": "4bdb007ca4a6fb589da4e483b6161efad26cb924e1fa7f2e45327fb7cc9a99a7",
-   "jpUrl": "e1e49169c4995579f045e46cc9eb6d655ae2054964f814fa738238e61df00449",
-   "enUrl": "39fd375970d174333bc6a657201d49fc99329eccfd882a1da55110048998d602",
-   "krUrl": "279e410a64941b21cdd75f0fedc65195c271ab89a6deb59757b315e44e10b3f3"
+   "cnUrl": "a6299cc0ff583faa79cd125f94ab38217e0bb717c6a32b5f5d3d7dcfb71d624a",
+   "jpUrl": "1eef5d6e03493c41e3950ce671fa18825576d89bee5fdc607863fc96f73fb772",
+   "enUrl": "d824dedfec671d11705ed1691332a79b852ee607a414c627cc5bc39b4a1d60a6",
+   "krUrl": "cd342fc232b18d79d7b796b36e9ab523bec16a99be78ecedc055b83aa88996b3"
   },
   {
    "id": 115,
    "title": "Ao Voltar à Batalha (A Destruição)",
    "text": "Hora de voltar pra luta.",
    "unlockRequirement": "",
-   "cnUrl": "238957b7ba08171a3dde7a194f7a6b745f8b5c9b9a493dc58f40dcc8d5a9b995",
-   "jpUrl": "e8c26552bfbf3f3db489a46771a9f573635cb5cb243e04d97fd73d176b12f424",
-   "enUrl": "4cffec74a4a8d70bde5f303b88e41ecd040f161242d3b078cd5373a4d8690462",
-   "krUrl": "c9d51a5c66ddc5d815e4f038a64154269468b8729c798c9f03185a02f1923f91"
+   "cnUrl": "a29637c62d38c0e6a3b7c3dab7159e8f03c6a4be347fa3d2773209ee3eab33cc",
+   "jpUrl": "7e84bb19087d0f6060b58ce72776fb1eb18a3737ab019e6c21dfcfa2b4026647",
+   "enUrl": "56ece50c05570a97dc169f4c4399fd2e5f5f7cdc756baf82a59d9bbe0db18175",
+   "krUrl": "8cd3853ceac00d8f07f634dfaea3ae9280ddba04c27eb83e212bb755c5189298"
   },
   {
    "id": 116,
    "title": "Restauração de PV (A Destruição)",
    "text": "Muito melhor.",
    "unlockRequirement": "",
-   "cnUrl": "f9ce3afc2b5e4b429fce45476b998e29089bee4659b16066e5184bd756b34642",
-   "jpUrl": "123bfaed8cfc4bd3ab36b73b32d22b54476bf2b503987d42d000bb97cd4f88a9",
-   "enUrl": "33a31aae5a28e1401b9de2122859f3f62a304f65abcbcf5b442cb5df42797640",
-   "krUrl": "c3ee0abd2af555de04fcead64cafa1cdc0a883e6f09c7f82a7f958dad909c50a"
+   "cnUrl": "e2b123417ce04f9b495b5735c56673e9671c22775dfb980964998883f2803647",
+   "jpUrl": "3ceb99fb810d24f24f14104cef1c2e8be8397f1a577415507967c30338b6190a",
+   "enUrl": "cf216857624b453e4e83fdfe987a5a49a92ef56d21d72cfa135b1e09807a3767",
+   "krUrl": "1c1717a0b499081d6376f62ff02caa54458769c44be5cbf88d55efe37377c0c8"
   },
   {
    "id": 117,
    "title": "Técnica (A Destruição)",
    "text": "Mantenha o ritmo.",
    "unlockRequirement": "",
-   "cnUrl": "764be4ffdae41e3d879a58be23b46a71ce15ee21429acb8ebb7b33b615681aaa",
-   "jpUrl": "f14d15ac0be726985f4ba3f524043cdaa06e67ff2c0a0f26c0a03e17ed00c3bc",
-   "enUrl": "21f854fb41ae3d5da14567c31c5dddefc94ba9fa52b846d9f6541f3fe27aec5f",
-   "krUrl": "fc460392559029eb93a0d65ed27214a2b3db7ea7cd55d27128ff2993ddd9bf17"
+   "cnUrl": "1ed0c6eca495795672f9dc599d4e6a5441b8b3b3a1dd070cf95fdf21dddcebf4",
+   "jpUrl": "0c3e340b754f68d32fcbcc8b71196945914e274dd539480945c7e62a74d36b05",
+   "enUrl": "10eca3bb37d3bed173387cd07e5773e94052ca462e6839577882cb4ef41c1ea7",
+   "krUrl": "81ac8fe0db7b095d66a1aff4d6d2ee360c9315b08577d9c26d04f536aad7ac17"
   },
   {
    "id": 118,
    "title": "Quebra de Fraqueza (A Preservação)",
    "text": "Hora de ir para o ataque.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "7140979ab54e935aa85d08b31c7d09857f0429dcdb6958ff9bb4cc60aa9076ce",
-   "jpUrl": "f5526bfc390e45c9bc5ac41c73ed27c01b11884c0dc31e1940f42cad92ebdb52",
-   "enUrl": "3fc4b035c9abf819e5deb182fb0fd4bf3d8dd7ef744bf147103ad3671834bdfc",
-   "krUrl": "2c5a2f85e3549e5bcf63ea94a02a28cdc1d0220b4576b910e31783e6f7bb7cd3"
+   "cnUrl": "2e291b34d55c6ae0d46f4767f842e7aca9bde0e3b4f11641ebcc8f51e3db6bed",
+   "jpUrl": "8f594a78429a8160f04e2d54eb82ceb4a6089ae505e480d197249f1b49a7383e",
+   "enUrl": "e4630ac4fa93663f9680dc58cc35ad50cdf42d282b17b215ec12fdceafbe0bd2",
+   "krUrl": "c376761f8f4332f792a868d7019f4d01416eb63a7d730e5b77052eec8c389f36"
   },
   {
    "id": 119,
    "title": "Início da Batalha: Alerta de Perigo (A Preservação)",
    "text": "Fiquem atentos.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "0d7ba8a16b28a386d9aca8e4de416bab8dedd13fd10fd7a8fcc0dcbfb7a68088",
-   "jpUrl": "de2b44a1e8367c8324dc63a35d5d63b751708f9898196cbf77cf07c89b7c6f9c",
-   "enUrl": "6a8e03ea9ebc211f8167f8fea476dc7cb8c2f0999452a40a548597724b0ad41c",
-   "krUrl": "bfe542331a8d692e6fbb52de3f7b04ccb011650215c0fe049813591355ff0106"
+   "cnUrl": "20e228668466cefe56a3c204d5e79d4a6b4566e18d13eef4628b582ab9fb0a65",
+   "jpUrl": "24e3de1e5f1bec90d94be92ab7f802be15f87581a272941e64e0f755bdd96455",
+   "enUrl": "347f972e19855c795546281dc6d829a0879cb83144b9abf711acfef3e1e1e598",
+   "krUrl": "1ed20e06cd06e0fc31639d4d3fc8a7c867ffbb99ac9a6bcc0c49ef63f5b7b061"
   },
   {
    "id": 120,
    "title": "Começo de Rodada - 1 (A Preservação)",
    "text": "Lança preparada.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "eaf2223494cb6603fcc9440f08f3095b0f185697ec9515fe982627d029e794c5",
-   "jpUrl": "ba1f9056e3dec982f05364d308d019baaaa4561b1c6bce0f889a110e2405872c",
-   "enUrl": "e0b0ecd3f522ea0e1da74cde3fa034203e1799c0ad5aae88fec6b8ec83a453bd",
-   "krUrl": "0403f9918c7a1b322ff28a04d93264aaf4a26c3e012b713a46c80e74c5cf22fc"
+   "cnUrl": "55071c5f84260fd689782b1f94283b03ae7d1c8c4809978e4cf5ca95e4dd4654",
+   "jpUrl": "014da398ee6ee8a705a67a7a1ed66a8e4a158644b24b2d061c49d67f0d7ba454",
+   "enUrl": "381f74b968f77b8e542f2445797ae60a30a4af8aaf2cfdff4ec0a3b7912677e6",
+   "krUrl": "74c308a5c29c5327bf2288e8d6b99b52963d27721e42395a473a08a64e2409c8"
   },
   {
    "id": 121,
    "title": "Começo de Rodada - 2 (A Preservação)",
    "text": "Estou em guarda.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "547ae3308730c792442707d502589141d280d74ce6213d8d35e27a5c193e0931",
-   "jpUrl": "1d67d1f510c67b1ff14f89a1063794ad86892198cd65c5e84fe292982dd865c8",
-   "enUrl": "2e439e5f2475c7748eae4d28c4129e388031dca9091c7366ab21209d434e1526",
-   "krUrl": "d3337ba8b3a8c0ed68804fccf3c78333d8deaa2929ceacbaa2b702cd56eea16f"
+   "cnUrl": "f24de3faba90bbd1ffc6ce262d7c8c19b3aec24aa628fd60a5f0e91176e761ae",
+   "jpUrl": "7937ef2653369bef262d773a9cf80206c83a88259bd339c5ce6cd034f62944da",
+   "enUrl": "9417728552cb3ec217f05f38d1fd65f396519cfdab19d90a6043901e336d1e06",
+   "krUrl": "e890951bf84e41e65d2f40967e7891f8528a4d74731c2ad253c78bd581970474"
   },
   {
    "id": 122,
    "title": "Rodada Ociosa (A Preservação)",
    "text": "Não perca o impulso.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "04782b3b6f5a85b73a28fd284946e08851ddd068a9a27f5702269558f31f7cc3",
-   "jpUrl": "c154b7b07399480a8cdcc34d52bed78c4c6d5b63c1b3c4bc995917d14065601d",
-   "enUrl": "59edf5313165ad2b0741f0c1e0e8d8479b765457aafcb21ae976acd40968f61c",
-   "krUrl": "3e0fbc7c69278e752799656f16abeaa4dc2bb47629535e53485fecc1d752b98d"
+   "cnUrl": "9920a6c2bb08a835a2bf2abf01454237e94b2b00de933d8b2f84aa9239b38a7e",
+   "jpUrl": "55a2bc4daa30e71ccab060804b0455781174afb32ae5fd0a219dd1d59e6a52e8",
+   "enUrl": "e31ee3283a93da3e0714d58550a77ce4ee197aa935dc440b743911ba6c071472",
+   "krUrl": "dba400da66a1f431179587e208f05076da17d8f19ce0bf884644e9123b09ab34"
   },
   {
    "id": 123,
    "title": "ATQ Básico (A Preservação)",
    "text": "Até o fim!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "23dcb8c875bd209cb8ac85b1a9a6423e22605351dce688fd3f8a1615c09a5fd4",
-   "jpUrl": "16eb8561dd96aa1a8deb7476d7aa39cdf30a2937db52a7c5424106fef54a05cf",
-   "enUrl": "15ba70bd36cbe20c02b18546dfad52f9ecac9dcc759ec36b761bd61588d3d295",
-   "krUrl": "745e146b45cfd800a47def94188f8f78866a4351d63ff09092fff44e0ded3bb3"
+   "cnUrl": "f319774e0397fafefd95bd2593ebf303b36ee5255cf0c1bf35b466b250cad227",
+   "jpUrl": "05b07e450b797c3189a1072d8206b552dc92ee005f218db0880eca3230bf90a7",
+   "enUrl": "d6d037202ae71c3c90edccf78d05db28163a1e91664d51900dca5c2acf5fbfde",
+   "krUrl": "a349afcf72e2eff24a27b8ddecc031affcbc6fdea56707494f9819edf57e15f5"
   },
   {
    "id": 124,
    "title": "ATQ Básico Aprimorado (Preservação)",
    "text": "Ruptura!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "af5eaad075d9d0947f735a218d464c150721df07d078a421168edc58fd656fb4",
-   "jpUrl": "e334180af5cb758408438eda43b0150028bd2aceddce697afbd3ec465a6e8f5d",
-   "enUrl": "6537bec32bd161b6caf8ae2aa87c245bd2d41c66694c9c26b479c5d12d17dbbf",
-   "krUrl": "42300dbcc6eeef2920fa5cc706db5239a543b8cdd159b40d40e9c449072b276a"
+   "cnUrl": "d55578c4ad8c8e463969e0b18130933596163a0f3a40fdda551c6d9e8a725e08",
+   "jpUrl": "076f8aaa54b77388b1a2c623fe08cbd74ab25b7df074ddfa6d1809c0d611daad",
+   "enUrl": "a91eb44ec15ff450e449210cea1b410a729dc2db698ab80fcb46abc06e6a918a",
+   "krUrl": "ef6a3539f7e162588eaebddac28114f1909e75db945da893318cee4b94c120e1"
   },
   {
    "id": 125,
    "title": "Perícia - 1 (A Preservação)",
    "text": "Indestrutível.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "88af33c9ad4fccc6a9dd18228d761fbd6e125104525e99c3e6eff9d6c98edb41",
-   "jpUrl": "e85ef873b026782027072b8268e479ce83cf25593526683df76496c988b9c1b0",
-   "enUrl": "f56b57535fb22ba0548b679d3f11800735ef55eb495915fe128d7221611fbd6e",
-   "krUrl": "22fe85bee2f550960689c2b532275943c5d816ca21af29a479c23556660de989"
+   "cnUrl": "8359c415b1d45d6048c7ec4c8e7a731b67f9c4d58108d0f396f45b799afa7a12",
+   "jpUrl": "6def665e61d3e4d418a742b3392a112962dcd8ce6e4cda76951ce8c520a79d48",
+   "enUrl": "1d116a8f787a3a5a2e1002b8079681dd61a8060c00c81a0d8f613de364f6a1bd",
+   "krUrl": "9d79506c3d2c513564bbdc8e7f16bb86241664d53b30665d079e41723399ff6b"
   },
   {
    "id": 126,
    "title": "Perícia - 2 (A Preservação)",
    "text": "Defenda os fracos.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "0dd384b7c271c7bd895375fb4ef96fa4c87dfe64811945e6f42b3985e8675996",
-   "jpUrl": "d6ccc09638346e96b724ec496eb1970953b9c60b5e2b0dfa066a6dbee58fe847",
-   "enUrl": "d27072617de3a37c5871ee0e345d11fd21e6deaa67f02a986df47dd3de5acf9a",
-   "krUrl": "cfa36c34819931283290d02116a2ce4cb9bc4a1fd71b0a294b54626d8ee0f060"
+   "cnUrl": "32114c719780627a4a0555a1d8de0d6c65dbbb34d489071a123cf14f4a3bea69",
+   "jpUrl": "3c060185028bbe1efb267b47b12951ab43b674d9951a3501354f798dfb521491",
+   "enUrl": "02d951e341dfee426f78ba0f5b16a32a2760eda08102e9b010420f4f2052db1b",
+   "krUrl": "7f25a7daa8f2dbff3a87122db71c5ed73e7116d9108990ab410a29dc3e7c9688"
   },
   {
    "id": 127,
    "title": "Ao Receber um Ataque Leve (A Preservação)",
    "text": "Nem um arranhão.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "dc61e5f847730e1bc983cff6cabe7e653483dc3ff189f08988507ab7a1b7771f",
-   "jpUrl": "fbfefc6bcce870bdcfa0768f14e1e4dcb9e8231233b915a5e42e1be469c7b2d6",
-   "enUrl": "4f404301a735099fe39539e5da02284fca8241f7cc4d76953e379ba5ac02f334",
-   "krUrl": "a98b1ce1fa3426414b8c45e02419a98029ba4d4ec0aa2a0c9b5ab059f26cbd2d"
+   "cnUrl": "5046dff2ce52935cf7df2248e7127f68c25f2beab85a136f544049947141772a",
+   "jpUrl": "cdd7eaa9f82a326e79405c92703ae0cab88b1ce30e545469e8d22a49f7a3134a",
+   "enUrl": "a25c6b282dc60a40ef464047f0559ea297130e39247077b8e1a3c5284f87229b",
+   "krUrl": "fb8adbd2001d5ef6d364ead074f8ea1cb9bc3374820cac468b74b92d0cac3b8a"
   },
   {
    "id": 128,
    "title": "Ao Receber um Ataque Pesado (A Preservação)",
    "text": "Eu... estou bem.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "ec09429886996acfe8693518ae25d23b08a92828757f2b7f921187a4061154cf",
-   "jpUrl": "0e6fad53689ba0b01fd99881716a45542d0a6d56050a887c299269bc14eb4dbf",
-   "enUrl": "46d4920ae7c9511d8e62703cbd51e5fe4a665e1b67384169a930b406f7f8f6fa",
-   "krUrl": "24fc1e6907ad257e0a04be74255020d828285941084ecec285f28992e096adaf"
+   "cnUrl": "75c49dc830284d2322a8f47d0e098e6bd639d116ddc751ae06a3d08a4b9c8b51",
+   "jpUrl": "beaa1c53737de0f125512f101dd5a8251bb7be03ab28d5c6f1ca4fc3f566a36c",
+   "enUrl": "28653cecddf6f7f853e7094e0a8ac4554591dbe53fb4027c2aa2e7b3aec3b0c8",
+   "krUrl": "d7d04221aadb34b684cf8e263b3811dad9b9dd34ff4527a069351a2295c8aa0f"
   },
   {
    "id": 129,
    "title": "Perícia Suprema: Ativar (A Preservação)",
    "text": "Lança em chamas.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "8efeff0d4c38775f83a32b76ddb3793e936d4db178cdd424f6208c6ccf6d09dc",
-   "jpUrl": "c313b7132d6a192212307cf6ef08baf58b2e050aaa9c49426bd14b16947147e2",
-   "enUrl": "f6fe9ae30f275467f0e0cbbc6aee3e20ad9c1d05872779fbcc79c9a8bd666c25",
-   "krUrl": "4243bba892e3935644163f329ce6227206afd1885f178b447f201e2c9d013de7"
+   "cnUrl": "ea25c188d19ca4855928a565bdae4fbfbed48cd6111958116b370e4b72b02a4d",
+   "jpUrl": "69115825fb8889381f88153393c1f776474595c41ed801915d4d58c025c91153",
+   "enUrl": "dbe9eb87b2abc42eaa68228c72319192ed8885647fa01cde596eb7d53d1196af",
+   "krUrl": "cbf0b1644b79cc0fa2418d166e0a2c0a903daa756f9cdca6e61d23af7da75d40"
   },
   {
    "id": 130,
    "title": "Perícia Suprema: Liberar (A Preservação)",
    "text": "Lança flamejante! Avante!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "e99254f29c2ee8b1e6520a1518cf41c113e023841fabbc85d0c6b2e6c5a7c6f2",
-   "jpUrl": "75510f9af62b030fb9d54c555f73dbc09f1ac2047a04afa2e18c9cfd8e6f6418",
-   "enUrl": "948bc25243f1c2207f51c26d20462d0a13cdc20e966c37498b5e923ca9bbe687",
-   "krUrl": "a8a318aea9b29c5f57e7ba79e4d96bc203e2e8880f1989b00035447b7151cb07"
+   "cnUrl": "598a02f2b00fc1760aa9eb514bf29bba571206c468fd428fdff15c4394839da7",
+   "jpUrl": "2984da8d4802a5bf68aa0e38aa675eb5433aef0cd28e44766a8196855497c85b",
+   "enUrl": "2cc2ac8994124cc8981e65899d47a15e9c4ef07fb75be882df2ebc5abdc60b08",
+   "krUrl": "506bdd0ee6a2c6dcaed60fe96bff901ca3f1cff705901a28892aa562f6774875"
   },
   {
    "id": 131,
    "title": "Ao Ficar Fora de Combate (A Preservação)",
    "text": "Eu... preciso continuar...",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "7cfd6ef11f874bf11111d7107cde11b9737a7fe5b292ae82bd03119c96bc9902",
-   "jpUrl": "6c7354cce920094dd7792c0191f7562a2389d02ab237f9a7e2f6bdae4ff2fd27",
-   "enUrl": "7665bb55dd7f9da42977e0f1765a063b1edfaeaf1493011a967f378a2dc7b29f",
-   "krUrl": "811a41db9a51c6c27a88cd1b6bd3d79dd2f07364178b819b987dea0071988c8a"
+   "cnUrl": "888ded5aaea52680bfa888436820b8521d890d568d4895f2c9b4a6c0d42df86a",
+   "jpUrl": "f720ec38dc6f8810e21b4d7a58b9577b884455254b9228d3022644552bd6456d",
+   "enUrl": "04c564aca2c244442b64ce61d0269f47e5017ea3c4c8ced90f60053c70e127e5",
+   "krUrl": "88e36a72e0b23aa7410a594e45c834c6d60ddbc0aefee4987a0eac13e4e7f6b4"
   },
   {
    "id": 132,
    "title": "Ao Voltar à Batalha (A Preservação)",
    "text": "Eu não vou recuar.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "d2108c5c3d6bcb29fed2851e2bd8bcf7471904d81e9561dbef29278408a56603",
-   "jpUrl": "d4aa87fc1e3cee3c46917ef08937666ccab57c63f9377cb68288d1ca25c105d7",
-   "enUrl": "f8fc3e4d0a4945e95e13da6bbc5d7b7cd82d91d818109e8faf081c2a10650a8f",
-   "krUrl": "9540831358de7700a7b123eba668f8f6def9d7563dbfbe973cc6086ed32b80ab"
+   "cnUrl": "42ab856417dcd8d0ed3d73a6d5e7237f910e391aa2d78edb520366150fd07d80",
+   "jpUrl": "a500e9b19b644973e5b76f3903b205f4276b1d516948e5fbd14c73cfb32650dc",
+   "enUrl": "376d86bd1e1b1fb15d1b688260cacf283f6261c658d4c928519fa8b7fd938915",
+   "krUrl": "9fa73106df92ac0eaeb41f0059be1119414e82a45ba634cd5103e4ab49e84683"
   },
   {
    "id": 133,
    "title": "Restauração de PV (A Preservação)",
    "text": "Bom trabalho em equipe.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "d861c26c89576f4c8434977751d8e734b44ffa6eec70c19da59a09dc0d55020b",
-   "jpUrl": "f28c42adf8f0f4a97e3b14d579bfdaa1b6185254e1974a50a467aa5e49c99b3e",
-   "enUrl": "907176c6ec0646117a41668d4d53c00404338c94cbba531ec2f99214da1113dc",
-   "krUrl": "52683264c87f5ee884fa60a2e7f2cdab92fa8edabcc1ee0ba18fcfdd3bd6f353"
+   "cnUrl": "b41d8f50772ceae28f2167f8ee5b3107d247e645ec39d938daed747288cbb746",
+   "jpUrl": "c0d718f300d2fadd7f61b2a7fc001f3a2fb6ec5c5715787857daaf70de5eff58",
+   "enUrl": "0a59fdad031c56f1e92f11d37c31d9eb5872b96e7fcd228c8efbfd81c7935903",
+   "krUrl": "8feea5900edf09b9b0071cb68054d14a96abd666f04440b5bdd9913157894ecf"
   },
   {
    "id": 134,
    "title": "Técnica (A Preservação)",
    "text": "O desejo da Preservação!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "1d666e7d96ad0489898fdb7bc1576090487e44db386035b4d6462dfd36faaf69",
-   "jpUrl": "8af712163fde70c6cc3c47a435adbb3c4138ff1fdacaa647c4c551fbd4cca1d5",
-   "enUrl": "ec0ebb0a86665426dc241cdc6c17b39b04240126c96c543bbda048e62fda0d3a",
-   "krUrl": "049459294aad68ffdaf969afc2582374136e2476244ae65f5059baa71e1a029c"
+   "cnUrl": "267fddabfe2e42fcfa0724f2d6814836d70f29c56a26192f64f0155fa8457f15",
+   "jpUrl": "8dc8c434ffe7c3c26e90f6453cc505650e3d2186b746b5708bc8c973bbea34ae",
+   "enUrl": "de4b372c1581925fde93a1150ab1ab4c3fb2278cfe6ad3324d42006e7556030e",
+   "krUrl": "8f6c859a23ffb879f99f15591b7122fd0762ec22c379bd6f38525051d323b1ea"
   },
   {
    "id": 135,
    "title": "Início da Batalha: Quebra de Fraqueza (A Harmonia)",
    "text": "Perdeu o ritmo?",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "16c4d6f400f2c27c1a3ed152016326a4b9dde8f3c266c55d531a5eed2cb5fe26",
-   "jpUrl": "afcd4d5d4ccc4e8fcfd49c0721b7121e6ac7947d44478248c1de5cbf34ad750d",
-   "enUrl": "1f4bfd52f49db24e0019a30f13757a3746e0ee26caf8e37bab831c5d7ff5b80f",
-   "krUrl": "8acd5b3c018d182e846d76c43cf8a4207997edc923e21597b7283ea8a3e9e13c"
+   "cnUrl": "28ac1484a24ae19610b9d612cbcb915704e9a11d457044392720de0bf6f52d5c",
+   "jpUrl": "d6ffb472f0360fccffa65bbcd07705cdf71d5ad21a7117dd24f4f2e0a297d7cc",
+   "enUrl": "b0215420b5c95df328d018603d525b9db7f267daa0c8dbff0e19fe548527ae2b",
+   "krUrl": "72b637a5344f9a9c272c77e6aa9c4b9714f9f98751ce8542c06156834962200d"
   },
   {
    "id": 136,
    "title": "Início da Batalha: Alerta de Perigo (A Harmonia)",
    "text": "É hora de testar nossa conexão.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "712950e987fc7280f813ae4e392e245a0dfb5c2219e90b44765c274372bfe791",
-   "jpUrl": "8f7ea69ed7d4bb76fc431c95b2e17fa6c90e8857f992db076a1e2e92596b9404",
-   "enUrl": "77c40e40df3c2469f8b42c22a0e6cdaf5f65a7f532012dc3e601898d74a5769e",
-   "krUrl": "6ee2cda27bcbb6ceafb96dff5b047f491b09236eeecb7300faaa43d0fb9bdf31"
+   "cnUrl": "0c741cf868462b3e15d04d0dd60ef0c0196d023a645bb408ad8793919a9a5038",
+   "jpUrl": "2fb0c1a972d2e65d614644d573c7bef3bf21b8af6cee1371af919fc6553696ad",
+   "enUrl": "a285a511e48f0fd4d2f6c2c9ba0acc7b763bc502fc35c19ec7aa695c09e1ae77",
+   "krUrl": "c3062713a44f02d182f039463e38d7ba7c2f4c6a5e436cfe055a0ac19bdfadec"
   },
   {
    "id": 137,
    "title": "Começo de Rodada - 1 (A Harmonia)",
    "text": "Todos a postos.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "ecef8449d2d565111616e6eef6c0a6edaebd0111f387b5e280f40c67a8874de5",
-   "jpUrl": "9af844a0da6c841bc142eb6fbd786d722b94432371c27e84d04ebeef9a1dc944",
-   "enUrl": "9287ba934752057a09216ef215ebb798394d332dc11f6220efeb433ced283c21",
-   "krUrl": "4a9c95ecfc916622b0d5006ed193c3b7cccc02118d6c6dee4660159360a3d27e"
+   "cnUrl": "6c6fec8376bd4c7f07ee88899447480403d422bd99818f6b7c19e98ad44d4cd7",
+   "jpUrl": "c8aa85481a3aa97d3203ac3574dc830382fc6bbb53aa20aba360c45baebf2d1d",
+   "enUrl": "091e6ceca9e05b2b2ffb2f64a1079142d2b9f2939c93a1aa83cbe36466107197",
+   "krUrl": "6158e5a8ff1fe52bcbe3f4e1b01ba7c9537dd5afd4bf507aac7d664c8e223316"
   },
   {
    "id": 138,
    "title": "Começo de Rodada - 2 (A Harmonia)",
    "text": "Mantenham o mesmo ritmo.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "bd779b319365ae7867a1ce5641fe7d9a1cfc50e3f45dc07117f51108c7be36c0",
-   "jpUrl": "948070e6703ddbe3cd12630d0ae4e16435cfea8b35b75f4cf5d92a877160547b",
-   "enUrl": "73737db932f8c4aceaba87b51ec3822b2c951c3ea38875af56f049ee6aac0c5f",
-   "krUrl": "caad15acbb1a7ffca96623b05dfdc26bdb6eac655a1a907498bb9970a16aa0c9"
+   "cnUrl": "365a0bcbc7f5ee0148ec426c460a14467f5e9069f616675ff3c7df54a7cb5f99",
+   "jpUrl": "c47b28f47a79816c3b033edf020590e21e0a8b002fd1ad6dbf25b3fa7d794567",
+   "enUrl": "3824a7928f91ec462da7d3030b45e2e82c9c3dc7a1ea34013da0d9d7d5178c24",
+   "krUrl": "ab1a5c80b138c4c1e46176d14e6f65315d1197b32e2bd0d61162b7b57be19c00"
   },
   {
    "id": 139,
    "title": "Rodada Ociosa (A Harmonia)",
    "text": "Não perca a melhor oportunidade para um ataque.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "9ba8a7495259dffcdfce2dcfb0761113973ad2bf975b4b39006e5b97a2aae19a",
-   "jpUrl": "b5122e411f14a780f715b2a50c7a47e90ce8f310425ba541162e5738b9fbb900",
-   "enUrl": "b277f8a9fa0eba8dd47a463b9dbaa0b570134cf8336c7e492ec04dd81b5c3388",
-   "krUrl": "08f4f57a3c5f94a90c971996336995516c616b52bf8b45da97e4511d62784039"
+   "cnUrl": "10054eb9f067c0af7c2f3348c75c52badc44b1e7dccb1db80b702d61379c8ab8",
+   "jpUrl": "23f19464c922463f820b4a755c70d6b11e26ecf1faa51c8d035d6fca46c0bc45",
+   "enUrl": "b6425082819427afbbb89623533d051516a662c16ca792ed6e0945b5b9927d45",
+   "krUrl": "2a92da0a5f15f49606560fa56b334a47f9d79ecf104887fd5ac70b5a5df86d5d"
   },
   {
    "id": 140,
    "title": "ATQ Básico (A Harmonia)",
    "text": "Minha vez.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "89e2c5e284abd29ce671d3976bbd74a4e90cd4df25b83b414d1fa6203beedc51",
-   "jpUrl": "efe950bcceb4a78ab5bfae1358a6278f8ad27a8cb79cdff437993a3cd8edc957",
-   "enUrl": "a568c0c8a2e534ffbc09c925878640b27006fadd8a9671c40ba0b448a1b11a79",
-   "krUrl": "ac8e50ceae3e1df2b0bad2409c29a4d88f86a23667845a4a157719bc4cb14083"
+   "cnUrl": "236ea833b731b69e7297edd6dfb9b641285d4b6d0fe544fc8440725633e191ae",
+   "jpUrl": "51ff0905b2963df7c0f964efd804681b1696331a26848a47505df0885b486e91",
+   "enUrl": "cd18b988d3a6d619af9f9ffa0aea19645c812955b5fbc7b88b19a18846729f05",
+   "krUrl": "2268b5f9a3b578c57ec30f9f7084912b2212d210023efae2d933c5ba75405088"
   },
   {
    "id": 141,
    "title": "Perícia - 1 (A Harmonia)",
    "text": "Vamos improvisar!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "397bced2149229010b47445952816b191fbc1d05a2a38765225bbba82c8141cd",
-   "jpUrl": "0c0de453a6111a7362db54475ea2aca196e1729d1e7203f2676f2a51c7e2c435",
-   "enUrl": "617b8005c0dc9e417572cff5723539c9a5b81dc91d91c13efbccee2d252f334f",
-   "krUrl": "c4b781f611084a2526a196867f2ca48dae76f576817ec49bc73bb92f9992278b"
+   "cnUrl": "9f3a9be556505689a554cb37010ca5cc056f52770cf6eb0c6b8a79b1777f52a2",
+   "jpUrl": "b1f88443c4311cd7b900a491e88187073bab49f3d2e110bd0bf53107cb7422d8",
+   "enUrl": "1448de6eb9c764412d92ef58c42cbb3eeefc73ede6aa1eb061ff890894df44f6",
+   "krUrl": "01a76ff7990627f9e3ea16830cd56454736b157ac8e3fbd4e4b85a3490a3a33d"
   },
   {
    "id": 142,
    "title": "Perícia - 2 (A Harmonia)",
    "text": "Os sonhos podem mesmo se realizar!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "b57d9eabd8e2e87963aad5d7773a867d2c2904a93112d23e6af254ec82c3ce30",
-   "jpUrl": "bf3389eb8e31129703a676351365956ecc9addce8b86c167ce7de87cc5b1046a",
-   "enUrl": "6b9196eb498ae37a7a19884b0e8157bbd8e8d3a6cd6d9fb11bee70b8025a1070",
-   "krUrl": "8e43d4aacd3564159581c295a5c4bba898fbab5983656d42c425995e07e9c2cb"
+   "cnUrl": "e6942d05b7d7e08f8f2d5b897a4a043be81dbe02640187df9e6ea00cd017d662",
+   "jpUrl": "b8fc41286b6f302fa55ee90712d21e3449bc14d5713b8a059bbd65dcd7c1b16f",
+   "enUrl": "5d08f4ca419e0117e797e36643969af59b0db9781790307d594b80acbdde7c87",
+   "krUrl": "6ee0668f1c040c4cfcb1a1e4f7b965a59c98598262bbdaa8acd8a74965105917"
   },
   {
    "id": 143,
    "title": "Ao Receber um Ataque Leve (A Harmonia)",
    "text": "Ainda é o mesmo de sempre...",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "6a84b2f173db8cbf8831a7b5c2e79766cb20c4198f5915242a0399e6cce1f5f0",
-   "jpUrl": "72bc223f61a053a6143e0080131b00333bdd5f33432e219d0ae11b240d43e546",
-   "enUrl": "084c196811f9177e03ad154cd6c5215e72924dc476debdd397df54e02e90ba20",
-   "krUrl": "625e02b73b0da4beb510c6a53a9115056bd4c597127696770671699fc5962bb0"
+   "cnUrl": "151a00225aad49d2b273b8af5380ea371d870b91fd0117be3c57bc7ad8125bfc",
+   "jpUrl": "229a38a20253d346a6f0cf4bf5f5caae80ec883fadceeecb99380fe80819b24e",
+   "enUrl": "d111a59b1146f46ad9e723f239f0234dcfc35114cee06c2c2b80376fa5d69eb2",
+   "krUrl": "76c8b09ed86c2c50c343dcd949a19c453efe7141177895ac570e9b7031a0c32b"
   },
   {
    "id": 144,
    "title": "Ao Receber um Ataque Pesado (A Harmonia)",
    "text": "Eu não vou ficar para trás.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "e92d74cf68bd323e726eefbe5b0f2d2dccb0a77f6e8ba9571a9383dfea248716",
-   "jpUrl": "490ed40bf028ba5b414a09ce634647ee5492968d343f600fd2aaae86821a2734",
-   "enUrl": "66f9cfd2ff9fb7ae96e8e8845943bb0911292b57d2b9b152fc734079b50947d4",
-   "krUrl": "5fae0f1306066046d2f1880c5c5c65c354910f2134697b41c53ba0fd0d6eef56"
+   "cnUrl": "721ac0ad50935acb0d3b6f2fd98a4e1a9cbdd975927e78b8c36940bd6694b42a",
+   "jpUrl": "4380710d496e83a68bdc5c5d16a510ba9d8a40e539ca89950da6a079f72137c7",
+   "enUrl": "ffff406634e689f750d15d4c51e93ad8da5adcca9e9fdbd2b013950c73aaffb4",
+   "krUrl": "ca20961932ae2b9501778305ec32f6663f4932bb0e9e38297cf9ed7c4cf97003"
   },
   {
    "id": 145,
    "title": "Perícia Suprema: Ativar (A Harmonia)",
    "text": "Essa atmosfera está perfeita.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "7cc851b294e116bdfbef3932aa24b68505002dde983ae437b66e9a8b7b428ee7",
-   "jpUrl": "191af01d536308e8e68c40c4ee7a0782956bfac0124ea295961e6d27fc28d174",
-   "enUrl": "03db084e9d8880b511d0ae60473ade5546897f233c33192a40be50255388088f",
-   "krUrl": "3a074c809296b3c28d4f89c3bf85cf07c998cc316666008e92a47548be58cd42"
+   "cnUrl": "db6f83c08bdbb5f4b5102fbfef6a93ad56130ba5830b877f8ce1e94fa325be6e",
+   "jpUrl": "4a9bbc0b8598ffb6797c7f8d12fc14acbeaae42a4429dadd4be24309835815be",
+   "enUrl": "b8284b90bb8f2897c02daf3b054e0645c6e9f3e086ed87622f9f90ac934cba7c",
+   "krUrl": "c48986257dd39b5e1c631c44ba779040344c335edeb05fff21980c8d2c0e42df"
   },
   {
    "id": 146,
    "title": "Perícia Suprema: Liberar (A Harmonia)",
    "text": "Que o show comece!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "9b7b7d0e48bd3f4ab79db17ee1cfdc52af743b79377d96f4a5e97a071263197e",
-   "jpUrl": "834138b30cd2b31c788fc4f045187f119d4ac21d8d798e666b5ca2cb6e83d362",
-   "enUrl": "19253e35ead0c0538818cc64a0c0fbcfd854b22bc948dc7e783e3ea60b9d8281",
-   "krUrl": "681675ef212b7479fa3cd40690d80fd17d7c709f99dba5bbb2d59e2b7911b3df"
+   "cnUrl": "ed4fcd6d2620c86f25ccbf73b278ee436784f6bc636d83f4ad94a3d5458cfbb8",
+   "jpUrl": "4df4c87d9d59b792333ced4ad177249fa9fcddea83a8a1ae859e1c151f6c1050",
+   "enUrl": "c7a6cf5eec91e1330fa8928127294efe5d07c2b73e072a75f2a986e1e6a436f3",
+   "krUrl": "2621367e6f60fb5ae756702435069872255a39945cf8c2abc131279f1f1134df"
   },
   {
    "id": 147,
    "title": "Ao Ficar Fora de Combate (A Harmonia)",
    "text": "Isso ainda... não... acabou...",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "d7f1a3599356f94030a4c27762145ae3e9c973affe1d11a1ff5f25312c78e800",
-   "jpUrl": "d500a3be5ff9c8595f4b69a47ae1e6d06541e1a99624144568012b9a065bd74a",
-   "enUrl": "d06880227936f3c0525c1220dda06621ea01e5295f7d43946f38d1c0cc54b4e8",
-   "krUrl": "d565cdc2825e5a8eab8e4ea219673fc74c8e4f610e836ac6c1b9dc676240cd10"
+   "cnUrl": "75ef0f5044bf791cefbbe04b09f3164f5b5c6373107efd09543f65426a7beb07",
+   "jpUrl": "ddaed1025734651e4992022cf25f2b332500420b7ec6029d02719355b81235ea",
+   "enUrl": "ca2f6a878f9903d86cf57fd722615fa3b0a6fb3ef928aa4759eff6beb1d8567b",
+   "krUrl": "cee72caf5e9a264abcc5cc59efeef6312f10b3ee4423505b773abfdc95ab9ba2"
   },
   {
    "id": 148,
    "title": "Ao Voltar à Batalha (A Harmonia)",
    "text": "O intervalo acabou.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "36b0505681bf1a42a72b77471a859f8bc4138b36c7079e4f9bf0f49533eafeae",
-   "jpUrl": "f94a6450f4c620fcf6194cb99ac4bd14cf75a05c315bf35fda9e48d9cedd0986",
-   "enUrl": "bf2ba532deef7fd0f11eb7279d0f93342d76b227bc19f3116f60a01f5dc63f59",
-   "krUrl": "6b32f39d75824a196bbf380b67463e84a384e8a0e120b41a911d6e57e3e79a80"
+   "cnUrl": "ee4c5c10e78f0108170a4b66850eb294d6cd3f6ed64bf6a279688a7b938a4871",
+   "jpUrl": "0604ec081924000f3a89e104e41c00ecdf7abddaa15e7569e165c304aa502cdd",
+   "enUrl": "77f027645a5fd7c3c531dab66c4cb22feca81e183175f78a3c86e8fedec80f44",
+   "krUrl": "9c8cf8f5cbb2e0b4cd08a9ba22fc06f3359e22497b0a512c53f5f1b7f6940114"
   },
   {
    "id": 149,
    "title": "Ao Recuperar PV (A Harmonia)",
    "text": "Bom trabalho em equipe.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "40ddcd33c3817b21b6dd38f4387b463b8fc456bddfe91e9351f55ba73eb5f27d",
-   "jpUrl": "7d27c8d3c8da17f005d689a3ab6dcef3c4d1dba3e926513e54d1d5ca72700a8f",
-   "enUrl": "06601d13ce062c3b253edbcf2a36f1a0f7f8f42e90836cf2685dd734f27c3cef",
-   "krUrl": "e8d82a0045a9513ed89198a4b583e1fced2eecda64749eb1b33184f03d40c31c"
+   "cnUrl": "8a7bc683eef4230623d465a1dd0a645739a8cd3a2122c4c630d3f5e77255aedc",
+   "jpUrl": "298e0278d88a761b650ae15a61758eb34fadd9e2a35fbd630256c30484eb2c3c",
+   "enUrl": "04ab8a04a2ea4393cb316e561ff87ccdbbe1de99cd80ac29fe173f099409d812",
+   "krUrl": "78a1a3f4af04389857e76e274cbbaf7c25af1529b252478a49b7a8434f5c6bc7"
   },
   {
    "id": 150,
    "title": "Técnica (A Harmonia)",
    "text": "Por favor, mantenha a atenção.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "189dd63d60c7b83fbf8d7ddb087a08feb64adf54992e5989ab5994a46d1bafd5",
-   "jpUrl": "ff7955d54c435a450869d608adf9212ef9ff45d80c365acde7451f7b8a4caa29",
-   "enUrl": "27b6145a4c92207ae1841ec9edb917a3c1e8770c3e2df235ef67fb4577d31087",
-   "krUrl": "ab6dc2a329051e02f4cc8f948e808ad36741009f4ca6949876642dd6f0b3c79e"
+   "cnUrl": "fb90e49c38671bf519e6234d3f74619767b441a223f509a0cdb0bf825a7f80e5",
+   "jpUrl": "3740fba5a937c8c803332f11586b3e38d387c0d257cf387d827a4b3930394577",
+   "enUrl": "5c102764121a4d6896f26b088940d3bfcbb598dfb1705b9e1bde7dbbf3fb6361",
+   "krUrl": "0989d56a2efdb1ba5b5d7cf73f63e0f181eeac38e9da03954e09c4b1c062032c"
   },
   {
    "id": 151,
    "title": "Início da Batalha: Quebra de Fraqueza 1 (Recordação)",
    "text": "Boa, Mem!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "a613f5d38e2bfe1a909c7292e04e7061800a2b8a648abc809b4ae1c37145c9b5",
-   "jpUrl": "a20d593024c8f7e48766fb0a6dc97acf35cf9d5a529ea63640365dea7d5dad5f",
-   "enUrl": "dd17fb20ca6036bebedf06ce1494098ca85467f27f382f6cac68e8375a214a86",
-   "krUrl": "2e6191127e8c66217f5d1e67846df38ab5b928be73f34511f98b23cf74155866"
+   "cnUrl": "e8c40f317fb6d2a4cfde0674029f301e4df11498e671a4d3155a399e202a652a",
+   "jpUrl": "98f863e495fa78faf279c7fad9931569db6741f1df2834c42db9a90bfba5d84b",
+   "enUrl": "2502311a07f43aeecfecfd038d11aff20f37cf4574727a43b9ed3e976a0d4a7a",
+   "krUrl": "ea9af13608c087c6718a8d7c2d6129212b7dfaa2a74d4414ac7e3ca9a389015e"
   },
   {
    "id": 152,
    "title": "Início da Batalha: Quebra de Fraqueza 2 (Recordação)",
    "text": "Não é uma má ideia.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "f884984fab4950a080360f14847e26ce5c56dddd096764ccaff136c12e270359",
-   "jpUrl": "e518813f32f2dc98204f7264aed4d456901b2cf8a2c6a40e530553a47a99c54c",
-   "enUrl": "563a3783cdc6bece5f5987962174d247c7739ce29776e3e0e41c685787203586",
-   "krUrl": "1811931d9b54ce341a67f47200ee06e73cd73adc349f77ebee977bdae96eb155"
+   "cnUrl": "4a448f99052eaa58723e37826b1f6154770560810494b83e7aabdd1fff7d22f3",
+   "jpUrl": "da55cf742b17a1b5a6a416345796fe8b370b8b05ffc4e973b7d876b2497c8d91",
+   "enUrl": "4d00891ee24430786caabf00d6b0eb102c271dee51e4674698dad651bce19115",
+   "krUrl": "12f7dacffabe561c6c28dd2e49f010e6e00cc9e6e0fe429de5503a2342677f2c"
   },
   {
    "id": 153,
    "title": "Início da Batalha: Alerta de Perigo (Recordação)",
    "text": "Vamos tentar desse outro jeito...",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "2ca00ba9f5e3e6710709da5cfefcf534bf27b31a03c7189a389550b0dbb200fd",
-   "jpUrl": "619ad27882822b98117ebaf07211c186be7334411f3425876fedb2ce6c1d79e0",
-   "enUrl": "",
-   "krUrl": "d6fe02a5a76eb6627d62be41854563aeb48d57a0f15a5f5dea88c4e4cd3ebc5c"
+   "cnUrl": "4853b67032fda72f42c81f2d116b96508cd9fb34b084aa95477a3b845cdee2c6",
+   "jpUrl": "628065580366214677fa985e527db35d3a2eca5fa0d4a39301a5174b996032aa",
+   "enUrl": "c76adc724c0c8fa9299aade248dd2ccd0a8a81b7364625bc0dc738dd4247ab0d",
+   "krUrl": "6ab213233588a8346555f6cce3f6aaa78729fe0bdb8d7680276fbedbe8755fd1"
   },
   {
    "id": 154,
    "title": "Começo de Rodada - 1 (Recordação)",
    "text": "É assim que é estar em sincronia?",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "732468082cabb4f6084cd96e471633a1248cd33473f33a79ef6ae66e11918fdb",
-   "jpUrl": "b14b792ea7bbfd7dc977ba059dddf098fd3f8006f56ce476ee9a76cdbeef2280",
-   "enUrl": "0367d81b710e6ebf180659c39b41bb2f77857054900a9de715fbbef55fc23e3f",
-   "krUrl": "cfe0f55d78646cf985de3195e8b9622c661c28efce823a4c111464512ec49b27"
+   "cnUrl": "690724492b8e12018523a22cc15c788eabc158724529f20549298c8439c832e4",
+   "jpUrl": "c1a9dbb331c110ea494eb8c625c7856b6312be573375f28f6c8a562d6ecb8be4",
+   "enUrl": "b3c04fe9a31228de9018abf1af2fca6e0f3fe66513f565c3f7ce327ccb8aedb1",
+   "krUrl": "c7264ea1790cbeb3db4531dd65af3df781e262d7299764b788c01c2a8fd96d94"
   },
   {
    "id": 155,
    "title": "Começo de Rodada - 2 (Recordação)",
    "text": "Relaxa, eu dou conta.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "e44ddcf56a77c5e7d4b249f5b894d8c7540bc1bf200258881de8298f67b896a3",
-   "jpUrl": "1911fa6c890b3fcbcc7a9fe9749e15bb7cbaf486b24740466828fd4ff7ca78c8",
-   "enUrl": "37fa8f59abf5e53ccbf6d9ba03add1128998ca3cc7a42ce02a580604dcc507d9",
-   "krUrl": "49b08dce216589f4fec1f6c2badffdd14cefa5caff79ff0b73a7f0fe156fb24b"
+   "cnUrl": "5a73f3f123cd06c2bf7ff47918e49ef7c9265b6f1b78a562e8ba4634c297c106",
+   "jpUrl": "9edf9e99847c179217fdd6d35f688c0bb95221732edad5e781d3b6d13d48316f",
+   "enUrl": "88e54e199ba17bb37ad2c1e2c8c40109e22a20a5b3228fd60262186c52879266",
+   "krUrl": "9fef47d1da999bba7bb9fbd41b4c44f0dae5761342e79fa5e249af4adf570f51"
   },
   {
    "id": 156,
    "title": "Rodada Ociosa (Recordação)",
    "text": "Ah... eu não estou com pressa mesmo.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "854e428c07d9f734e92f53286470529a6c91d9c1aa34305a7ad7f61a621d32a8",
-   "jpUrl": "154dc9c0f5573fc527b88240847cb9d53a90c6a75b28755786c6554423cfc76b",
-   "enUrl": "bb1d837373626d049ae36777cb9b5fc1ad0ea6332fea2b167ac54e29b0bc8a36",
-   "krUrl": "3ae7535f8f1f40c08b45894920d9db0a1047b75e9af55b5e3c4a0c959dd18e1e"
+   "cnUrl": "28bbd003ec5f93a33aa71076116caf492c2c9be88832938d277aa3ceed3fb3dd",
+   "jpUrl": "15c64397731804f0432131c3b15aecfef1b8d3a6ea0f457af85e5513a4bc8ae9",
+   "enUrl": "b72632b0a437813697b8c928427c93b576a9974f08ea175addee45f59d1ca2af",
+   "krUrl": "f759bd59787ca631c14fce2e68d40754fbc47ebfc3af8a4d95886d8f622f1087"
   },
   {
    "id": 157,
    "title": "ATQ Básico (Recordação)",
    "text": "Lembra disso.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "b6c21efda39bd0721d4f0a743823cdace39c0a42c2ca88fa4b8d8ad480fb96ca",
-   "jpUrl": "e76e3180b2993b2ce0736b10c7ade758f3d813f7a15beb35598399dcf2f2845c",
-   "enUrl": "4ac792de3da211c0bf6aa78bd8f71311b652b045996cc9f48f530b793b21803e",
-   "krUrl": "f6fa5ddc006094f58a1980d96b662e6f2d7ca848e8e2e276e8701c6aaa0f2615"
+   "cnUrl": "56511b06f0edf48852ae998ae051bb596d432bca14fc18f54ffb4e5beb66854f",
+   "jpUrl": "32eeb1a676d555e293f509058b2f5bf840ec987a21b43f0851a394dd4d685782",
+   "enUrl": "09eca8ec172435b2def985f0cf56e9157faea7ac6703a5b3e4fbc03fd3b1ff50",
+   "krUrl": "fa6337c210717370b8a77804613030538630c03f630cf9310c9df3f1f20f87ee"
   },
   {
    "id": 158,
    "title": "Perícia - 1 (Recordação)",
    "text": "Bora, eu escolho você!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "57e2fa8768399f9e3d43649fe01aae80039db0b1f6f1bd08bdca51da4833c09d",
-   "jpUrl": "92019e86d291747e45f752ba986857cf84785676d4474986531be300aae32eaa",
-   "enUrl": "1d72d4bfaffccd2dedea6d324a92650127cda9296a3b479d76b1fef3bf7ddf30",
-   "krUrl": "4b837498b1d0cbf20e2f683a6eb12f6f14427e7a88487a3157016b2f481af8a5"
+   "cnUrl": "d817793031561f97c0260aee94596941ebb922c6fe999ed41019488efc76d265",
+   "jpUrl": "fee4a586e24acad648096eee1315a0d243f333da61a532fa45effcf566b27b8b",
+   "enUrl": "c6030b41a404cec04ea0fe8511ded147918798709e81676f7395314c77f56656",
+   "krUrl": "a14a8e249cda4f9618826ff0ade66a30f696ff1453eed11ea111ed2605e92116"
   },
   {
    "id": 159,
    "title": "Perícia - 2 (Recordação)",
    "text": "A gente pode fazer tudo!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "9540685b8d5d5004cd1c20f78bd9ef6f2c8ad1605eb5d7379fdd8a2c4e3a0ade",
-   "jpUrl": "fac756fc04557d1fff67882eca107542569361de4fe66f9efc50b3e30ff28d0c",
-   "enUrl": "3e60bc97f7da57fc3ece18401cde5dc5eb4f0874ed2a868ef5e7fecf6b4ddc12",
-   "krUrl": "12198cb939fbd91473584dff3a8f84d461f7ed19469ccb56f9b8416540139723"
+   "cnUrl": "ea8195a4fab904d10c66d7f01170606ce71faf508663e9a17b880a1965182b85",
+   "jpUrl": "f3f947f42fd1854342c6a0f6f26f8954ebff5ae8c7d45490350066a95b0db1ef",
+   "enUrl": "08a8d0599660694e66c64d0c83e3a44aceef177dbd2d35fe9dc7f82128be688e",
+   "krUrl": "ef665a492df4f0e763378b1c259c1f1a6f288924c42e96893a5debfe378f6f6f"
   },
   {
    "id": 160,
    "title": "Perícia - 3 (Recordação)",
    "text": "Nada de pânico, eu ainda estou aqui.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "1347c23f2893830ba03bfc69aeddfcff2cc932820daef098339f661e347908bf",
-   "jpUrl": "16f5b51117fd34b4ba50a35acaf39062b6a69d05a7ae0f19c7ca0b4da780a678",
-   "enUrl": "43b3c1998fbc49e904f191493301cec098143c2c399f707b040531a514a5ad80",
-   "krUrl": "d72db02ff7e8294796e1cd98659f2077b9d125d3a513b105b4565c85eafbcffa"
+   "cnUrl": "5e652b76240d3298b6737186eea54e53eed938b5662c99074e7d346aa631ef7a",
+   "jpUrl": "0fbd748c03574e582662596c1e5200fed4971d1a3e23f52d3bb111e6aa924b22",
+   "enUrl": "d1c0a7f79a7f19ecdd19f6015df2924eb461adc5e0ed1b1372abb8a9988f9f75",
+   "krUrl": "46f9a5d3a799d6550389d66aef439866e3f35acb562a56f64281cca384d9cead"
   },
   {
    "id": 161,
    "title": "Perícia - 4 (Recordação)",
    "text": "Confia, você dá conta.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "60c974c2146c1bdd89153924236c7fbf8593b510c0dd93d0e50afcc6a3aaeb16",
-   "jpUrl": "1b37ab054ed89c95cda0dc1f9a9d82e90d464b8b9f83e34667b4c7b315970063",
-   "enUrl": "cefc912b9925f99f56f37cf91e29834f2ba890443e511879b06d89cbe2bd0a39",
-   "krUrl": "d43511523e0788e4824045a929bb183d8f682d767d5118ca9dca680ffa881f27"
+   "cnUrl": "5dddf1d3a8a6a3f6d77a19e32bbcbf3619efe6528e194f86050cebcbb4b4e63a",
+   "jpUrl": "1897e0072a3c6c9699b426c94cd14255e0fdcda2bdb2a13e3873ffb20d52be79",
+   "enUrl": "ee60dc8c9289fbf826ef6bc8eb7b5f8028717304183e694fce9054810390ad7e",
+   "krUrl": "664aec507e0019dff1199e7904f31cc0c087046f19ee9c1168da8fbade46747e"
   },
   {
    "id": 162,
    "title": "Ao Receber um Ataque Leve (Recordação)",
    "text": "Você não aprende mesmo...",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "fd15ee5201c8789057bb88a10562043445f6840b2ac462baef6307f87c704e6a",
-   "jpUrl": "cfe0c7ba02bb466d38cf99fd8b57660f06fe63c659ddc82857d7fa18a7f4a5b3",
-   "enUrl": "",
-   "krUrl": "5047609268870cb38a00d7059744a8f5e1e8054c2fd6138f0a5b2df31ce33cd2"
+   "cnUrl": "fe4915d15e29ae4e820f051fc1965376404a3b15bb0428367076ede2c5262173",
+   "jpUrl": "a0429484998851da410c3da8afea61dc3ae5031a49bdcdd40ae469f70b42cc35",
+   "enUrl": "6b9a4c753162a57617506ee83af5ed7391fc07be1c4c2667946d1a1b919deb6f",
+   "krUrl": "92386ff8cabba4a172d95665afd2f69b847074eb25605d5a78a2913db5cf248b"
   },
   {
    "id": 163,
    "title": "Ao Receber um Ataque Pesado (Recordação)",
    "text": "Pode esperar.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "2f5a74c18f09daa4f661fd2fa8a7140393056c84aaf897283a9bd33826eae4e3",
-   "jpUrl": "4983e02ce90d8673042eb6bade58492115a511cc62ab60ac0289d43a4e158eaa",
-   "enUrl": "",
-   "krUrl": "4faf6143e8a685b748a1c0124da825c582f61e5d4aa151d0edaeaef92920724b"
+   "cnUrl": "7a91ec2c186f56ee09f4baf8065c7246579fe274691d3a272a359144356adefa",
+   "jpUrl": "18003f3677795d8ccf2f04ceeee71b4aafe178e4453db9e7fb6f9eb15d2d82b4",
+   "enUrl": "d0f50df2f683a62f85ccd2697952a92d37c49d211704f777f7035475b79bedb1",
+   "krUrl": "7b1a8f8ca6adcaaf06e8ad5e3fa3585286c24e0180cd692dcff5c6d9e51f8360"
   },
   {
    "id": 164,
    "title": "Perícia Suprema: Ativar (Recordação)",
    "text": "Confia em mim.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "e2b82ac5ca2e2910e1d92442013f97f10ddd8f09efbb7e0d7f0409b3f5457405",
-   "jpUrl": "01b963658b50d103a4a4dca0542ad0975a7152d9a3d779aa175bfc7bf9ee7931",
-   "enUrl": "",
-   "krUrl": "cc018c3dea0e22a3afd741fd933637ef5421d95f4f95b800d5e5d491a444e0b2"
+   "cnUrl": "6576cd3a34aeaa405d96ed2b3628df467e57fcce5f19f13df90d8c322021c6d4",
+   "jpUrl": "cecccdf07add25399238cd8088a31add188cba7a47afa2b2cfb58fc5b700b6fa",
+   "enUrl": "d8068eaf865ea9d7b2d9f74a67fa321538699dbd01f758f73cb11cfbb339eb91",
+   "krUrl": "07ee1cf3e3f8285f417d0f6d31f612bdeffc7e16aa2c0f182714dfeb73753ba2"
   },
   {
    "id": 165,
    "title": "Perícia Suprema: Liberar (Recordação)",
    "text": "Juntas/Juntos a gente pode fazer qualquer coisa!",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "19bf4612bfea0115f68a01ff7ce3aaf194d2ea177edca4851b1cc950da606aaf",
-   "jpUrl": "cc8bfe02e42a2c4e044b512b382b62d10efe0fe4d07536efdad7d0f31e855c66",
-   "enUrl": "9f351e9ccc87a8aab5a7a8ed9dca4e8490ac17137ca346970cefa8e00010e286",
-   "krUrl": "a884295553b34da1d5cc0827abcf5cb6fbead3928c0ee99914cdeb770a0bdbde"
+   "cnUrl": "b7e38995108e80d5bfe7d4d71ce0478ceadfb4654c52131492782b05a1d270cf",
+   "jpUrl": "62a2dc3ec46532370e57bb26df6a67ff724c6914c4732fd80a07b0f58ec82035",
+   "enUrl": "8380afd4fe368b92ffc1a4d5e0094f84fb5394e4d03c134eb98b8b0276d65c3c",
+   "krUrl": "1d0a85171f1a6f048c866c6b36098399c8ce18a2fc144a1535c2e2cb1e8fbbbd"
   },
   {
    "id": 166,
    "title": "Ao Ficar Fora de Combate (Recordação)",
    "text": "Eu... vou lembrar disso...",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "85d7a7ae07adf93c6a1a3762ebb688b86231fddf11753380a3ba523c7289f466",
-   "jpUrl": "3fd1ace0dc282bb66e6c2d7a25c9249c0a5a2dca0a3aa2247eb4f4e0cab168f9",
-   "enUrl": "",
-   "krUrl": "214b661363b2f997374372ca2cc0c442cc769522f59658c31108ac1fd4c713ea"
+   "cnUrl": "c2c4aa32717c14c5e6644084a77a5e269aa30b5fadb696888f68809d26b1751a",
+   "jpUrl": "15f8b526c98c7fa88f7de55310448862aa07795d9e939cbc8217e3e95d638a34",
+   "enUrl": "6484a12b1498de542b58a9cbfae16f338a93580cf3ab1f4aa1ab31a7381a57e4",
+   "krUrl": "116db4b0059161795faf6857b3e32057d6820e834ca4ad579e614cff0cfd34cd"
   },
   {
    "id": 167,
    "title": "Ao Voltar à Batalha (Recordação)",
    "text": "Quer me derrubar? Não é tão fácil.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "58f99402459a51cfbac7ebb4a4aa89b8ba2fb8b3953f45cc947b758147788778",
-   "jpUrl": "c5635ae1d61a61f071920bb7e5bc3f8bb9a15e4e0e055470592dc6f5b9cc9aae",
-   "enUrl": "02f87397e8e185c5892ece1aad1f18e994f72c2dae35f057da807f9ff1a5db5d",
-   "krUrl": "82fe9933ed3db628e364797d02efb8d8981d9b78d96cf854be0531edfc59ca6a"
+   "cnUrl": "0ea581c5aeb1bdc22ee316e5b2c1fd9360e3583d15c42fba40a147b5ceb01f05",
+   "jpUrl": "f6a0d8537fbca362d33f5c4cd48ac96025b60c5aba43f464854dc476d95308cd",
+   "enUrl": "f3bc94dac090ce11642eae87b3470c70c2bd9843ac92805c39ead737616cb6f8",
+   "krUrl": "1cd1565f1346d4768c385368173db57d2fcaaccce4ff4f96bfbb405a75fadf2d"
   },
   {
    "id": 168,
    "title": "Ao Recuperar PV (Recordação)",
    "text": "Acabou o intervalo.",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "1560fd320813c1dd9b00f051ab11242af3bf9b0b1ec8d3548db349497a7854b5",
-   "jpUrl": "4779c0e5f22dbc6c8869ed1029a083b81908b0eb5d72b2902306072d69469878",
-   "enUrl": "",
-   "krUrl": "82401161748dcc7355542f109d26b64b898eda382597c36463b331ab686a5f34"
+   "cnUrl": "34b72242fbbb3122dc40a2d3c095a2e4f96f31c81d09efb287608d79134a4f74",
+   "jpUrl": "850187704c4ee5d16e1277a68932db3eaf87457f304d2aaccd379e8df1d53101",
+   "enUrl": "4df571b4eb16d509135ef7cdd6c7b2ea9e13c3c1186b817a094ad7eddd1e6470",
+   "krUrl": "ec434a83ea53a2f275af7f32dba133baf3c7f0f0fb76469864c3047ff5b9a312"
   },
   {
    "id": 169,
    "title": "Técnica (Recordação)",
    "text": "Hmm, déjà vu...",
    "unlockRequirement": "Desbloqueia após trilhar um novo Caminho",
-   "cnUrl": "6d8c4eb50e19c87d4b0abee49da32565ea33e58a7dc734ba18a4ab02b42be895",
-   "jpUrl": "ba8b765c27001d974a251a0e84ffe62f8639e5b1f0874c9de2d8676d2ade010c",
-   "enUrl": "7bf0721f39a3577118f191caaa2783396138cfbb82952ef3fc8804a693ea3bb5",
-   "krUrl": "5a73d0aecb51c9f252b9d20a9440743415817f7732bccf0976558a8837707da6"
+   "cnUrl": "24708acfe18a4c56fc3e0e60a759cb8105a8b1d908e748bdd56dd592a85dd17d",
+   "jpUrl": "469359de1ba54b251a1021a6b6591d3cc4b73672a0eeb1ffc9ebabc174f7553b",
+   "enUrl": "c23587dbb59aa813126d1628f6a244ac4b5b7a2ceb2939483cb58534d672ee7d",
+   "krUrl": "b4502783d660178c31d84faa1a724100d22cd883232add2b48e34e9a9e3b12a3"
   },
   {
    "id": 995,
    "title": "Ao Vencer uma Batalha",
    "text": "Chegue ao fim da história da sua própria maneira.",
    "unlockRequirement": "",
-   "cnUrl": "46f3ae38c599d7fca427fa52571bdf54c615519130c28e965e3d159fbd2270ff",
-   "jpUrl": "86fe0003c02d8de030711df312999c5f74d3213aed2b8cd0986e13c80e30d16c",
-   "enUrl": "5133efcc3e87fc2cfaf1f39c3e2c962124d6f55d2ef9acd926fd300b1af75afc",
-   "krUrl": "4c713599f6ab86b1679203959c82cf407d2cb797dc5d58dc1cad661ed1e5daf5"
+   "cnUrl": "ff837ecf85eac19ec919763ec1b636591d00309bf948b70c3af87c6af7c9080b",
+   "jpUrl": "e597622d979addff9da38493706fda2120ebe91307334674e17db1d09c3c4d2e",
+   "enUrl": "fb7574eff5201b3359bcc73274cfb8c31dbc9c5e64b62d22fa006fb38289bddb",
+   "krUrl": "aa7ec34cd55cd0be14b4c28d5210abb9c08bf8dbeaae04ec0068dcc167e13216"
   },
   {
    "id": 996,
    "title": "Abrindo Tesouro - 1",
    "text": "Parece bom.",
    "unlockRequirement": "",
-   "cnUrl": "f2e66c668832181c23f387bae241555f6b329f11df647404867c957fb046c29d",
-   "jpUrl": "17f858992fd685e582d3d8c1b563ace23269305109e66cf44abf111c487d52d2",
-   "enUrl": "8d3039486468a8d4872eee09e91fdc83518b9d56f17a3a342ff6aa0a400b65ad",
-   "krUrl": "62c22776858af71a5d12f0e66648783480903398a969f5ce37c989b4f983d8ff"
+   "cnUrl": "cce29f6b6ca2cbc8f62c64f1caa849cb78038f10301375bde48b49c1eeb656df",
+   "jpUrl": "5e0d1588748c66039f14b4f6621631460a31fd68532c4a1c71306f2ffe707ba9",
+   "enUrl": "d6f22bf032c7c19b74b4b3809e2306ed33055f755de677d897daba08c03974d1",
+   "krUrl": "b80b37e95965a0796875355c37487ac7908144f5780badb6cee3aae8cb2673ff"
   },
   {
    "id": 992,
    "title": "Abrindo Tesouro - 2",
    "text": "É só isso?",
    "unlockRequirement": "",
-   "cnUrl": "ba258dbae414f2653f7eb4f17af7783de7d263c0c648cfecf7dae6af340809a7",
-   "jpUrl": "12997edfebb1abd770234dc03c59c6a6b8ebefb2d733c5d0b6f6e2f351408a97",
-   "enUrl": "88b24417133aacc2424ed76154bbc542122763ae8399fcdd22cbe83986dfc63f",
-   "krUrl": "e5b6660e767c16d5ef497c28de9a8ab8377a70dd33dae72144b69945f33e3324"
+   "cnUrl": "841b87e961072213aaa5459be8c6eacd71dc4a5f4669569c797663e7a94e95ee",
+   "jpUrl": "3bac2508fd74653320348f504289c06f0df3a9eb45cb6fb1a8c198c26164cde2",
+   "enUrl": "6cf87d271d86d34ff41659cd328615ed7dd11e0e6d612d6d4a13f964c73c922c",
+   "krUrl": "fc57d0229821e147686dcdf0a3ea7a326a8e50b4f641121abc73726963f06541"
   },
   {
    "id": 993,
    "title": "Abrindo Tesouro Precioso",
    "text": "Ótimo, quanto mais, melhor.",
    "unlockRequirement": "",
-   "cnUrl": "519a0caf1d015fac04c8befc1ce02112b8ba25e3e52924fecbc10f518283650a",
-   "jpUrl": "f13582e7da000aee3f710a7548cf93125378c9208f08f3f14ebf4c080655661c",
-   "enUrl": "1327302d9c7a9e4d0356789b7eb5a40337424d8f206f1d35e4625649cfd77b3a",
-   "krUrl": "ae8db727f6fcde007743131e6d7fcf576d8e388203f035752a3b5f4e02f66c78"
+   "cnUrl": "e9b4c9cda3497d8e5fe5a46e08cfab5d5f5c24a84b7f27d9b5e0146712339a24",
+   "jpUrl": "be52b0558984247044288b891dc755a4809941e467feaf46401ef2c92385a618",
+   "enUrl": "1cea4c8b3316b5fb04159999c08376c2902fe53db0e5a8f8f92c5a1917f3a90e",
+   "krUrl": "e29d1543f6073fecea95262517fc54f76b5f7e159d4d1d28d8d56f2c856d2ad9"
   },
   {
    "id": 997,
    "title": "Enigma Solucionado - 1",
    "text": "Então é assim que funciona...",
    "unlockRequirement": "",
-   "cnUrl": "d7b3be027bbb2b1305b3db258abe119d0957e9af49440c4120153bc4b618d18d",
-   "jpUrl": "24796e8c0018b68f3b24621d14ab2392f8eeefa22e7bc767d7b9a6ac8991c704",
-   "enUrl": "9ab7bcbdb51ed58f302ecbe6583b4c62dee19cdf8ace9554ef4fd2c273fa3aba",
-   "krUrl": "3dee41333e19bb50dd2d3c2bee5356a6217e45f4a3772645b4bff911576ab8a2"
+   "cnUrl": "2a0b77b1e4cc886aa9ffd410688fd421137def756504da5d57709b6952831fc1",
+   "jpUrl": "779db06792ec43b4d1b274e8bb958ed5224c42c5b301a544d584e32ad85589ad",
+   "enUrl": "9b809ea4eba58fcc191023485972c7f0d437821af81476a3e463d36f7cea7035",
+   "krUrl": "75d313a71ebc2b2a8637d81dc6e4f30ecdad9c05dbf16f3d4f51c616d606cc31"
   },
   {
    "id": 994,
    "title": "Enigma Solucionado - 2",
    "text": "Não é páreo para mim!",
    "unlockRequirement": "",
-   "cnUrl": "d1696488e38065934657f3be18cd0ca78b80e05f0acabed6b94c04d976c5f872",
-   "jpUrl": "3831f115a94ce87da2201143fee395b6f4c8e8bba9f8f39caed83f295d925a61",
-   "enUrl": "f5233a79f4f5edc7b9ffaee16c69ed8626bb577219b2bbeef36ba73556c7c1ce",
-   "krUrl": "50b64ec5dc500c0fc65fbe0194bd239a347e524e6b4f96a3d2a37fecb4ba621f"
+   "cnUrl": "7c662e676456a74a7be344dd6b2d3e7db0ba3c92dbc9eb5f96a3ff98b940a702",
+   "jpUrl": "9cba01883b64ac1bf21c24a535b3ce1b1bb22d01d2aaeed5884a284a22339ced",
+   "enUrl": "fd40900172ebb8a280e64275b3f1de887dac3e77953c0fe87498a309ba979e5d",
+   "krUrl": "5edad52b1307b24542dab01260765d6cee5653f13025d52c02ae5d07d4610559"
   },
   {
    "id": 998,
    "title": "Alvo Inimigo Encontrado",
    "text": "Precisamos de uma estratégia.",
    "unlockRequirement": "",
-   "cnUrl": "9d221317f64ec53c30b3917d398c1e2c0b6667bd5b607be59cbf4fc732440756",
-   "jpUrl": "fad4bf28e254a0aedff6d7be4c49d3962582c12a541526849295bacbdc1bf5dc",
-   "enUrl": "ed9b5a770429e867878701d5256318b55e09475e541bd9ee658426370b8d4b17",
-   "krUrl": "beca522197144962bdee1b1573d6d330a5437fcbaa9b9303e90dc345ac8530bf"
+   "cnUrl": "6ceb09d92131aefbc96729329db65e2e6f5664743ae5851186dbafb199ca1f34",
+   "jpUrl": "40eaf4bcf3d1865f3f7cd8d865c9dce4ab7074f9189f9475ea6b591c4ffcb0b1",
+   "enUrl": "e550b48cdf8c92913e70931286d5ba02a6fbc584af4258219e6078ed04433146",
+   "krUrl": "0bdcf477221b0f780f5e1839a34cbdb13e0750d6b2e3a6d766ef8596afa74bc4"
   },
   {
    "id": 999,
    "title": "Voltando à Cidade",
    "text": "Está ficando tarde. Para onde vamos agora?",
    "unlockRequirement": "",
-   "cnUrl": "599298bf4ef5766acccaf8dd4c716852574331577ec5ee6698a6233cbf6f3fbd",
-   "jpUrl": "b03df039891551c19f39a401a78ada65ccfd77973d982a267c213f5198d0cf21",
-   "enUrl": "46f3916ef01c8348a48b6067d4b709b0d03b492146efb35b164600e9a1d56b01",
-   "krUrl": "71512dc26d451c22aad6014f48aad5b832ff1037c920026a98dc5f7aeee0fafc"
+   "cnUrl": "ded39269545bfba4ecef43a94b0510f580f3f115a9e909fc055ba9f7c23ad122",
+   "jpUrl": "58dae04fa38bb77fe79bcbd02640ca5f664309c6e88f248a009961e4c79fe368",
+   "enUrl": "70df6493a44a633fcfa1a9e57d7fcc3361351a5129a6fb7071b0e932b15a4e1c",
+   "krUrl": "cc87a27240809dc4593f37070e620b3c420c5b5357ddbbedd81c1620c4085c74"
   }
  ],
  "storyItems": [
@@ -3227,6 +3240,8 @@
   }
  },
  "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
  "name": "Desbravador",
  "rarity": 5,
  "descHash": "Uma garota/Um garoto que embarcou no Expresso Astral. Ele/Ela escolheu viajar com o Expresso Astral para eliminar os perigos apresentados pelo Stellaron.",

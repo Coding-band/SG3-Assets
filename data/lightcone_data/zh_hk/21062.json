@@ -1,0 +1,522 @@
+{
+ "name": "於那終點再見",
+ "rarity": 4,
+ "descHash": "不甘的淚水從面頰滑落，損毀法陣中央留下的除卻死亡的陰影，還有無盡的寂靜與空洞。<br /><br />恍然間，黑暗中傳來一聲嘆息，那是屬於「靈魂」的震顫。<br />「是你嗎？姐姐…」<br />男孩抬起手，眼中閃過一絲光亮。那至親身影只停留片刻，卻仿佛在他心間停滯千年。<br /><br />「我明白了…謝謝你來與我作最後的道別。」<br />他緩緩起身，第一縷清晨的朝陽映照着倔強的臉龐與未乾的淚痕。<br /><br />「求索定是孤獨的長路，讓我們於終點再見吧……」",
+ "iconPath": "5db5995002943893eefa0829b927870177def85ff5f13f52279f700575348149",
+ "artPath": "fa5771eacd8e7c5c8f4b46c2194de20c9c15cf3be42e9685b3d41503f1afe158",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRgACAABXRUJQVlA4IPQBAACQCgCdASoUABwAPm0skkWkIqGYBABABsS2AE6ZQj0/1W3DtBBgNsB4sH6ze9v6AN4A9ADpR3iALx9Mz8a30n7AfMgDM36U6k7nrS6QJFbtW/ayGznvXgsQPrRtvAAA/vucFidrNZzspdY+SuHPpdecMLjxbH61r9fqvmBV+XFfHtrV3d/zqMQbVu0n8XkEvMQsenw+9Ur7kc3/Tz3k15jVQlu43ZOf/2rwW8cOt9ksZwPmopRpjMRYgFJnwNez2aYjqAPaJ/NchaeuDcbdXJfZnf7zQEzj0+WECmwa5I4D8JsloSHue3j/6cx/uf/5WDyS8B7c1j7QP/f9crAQ/7vNCNJDkAK1FWRlIKEM+JIaudY1WapmB48gMV0E958i3G3a6eHN/ZyfcY0m7yz4ZV9QBqhZxyGoX6x5qZe+8nMgA/oOwpE0/d05txZT80i4/9UAjT4Ruv4Q1cODuj3YdhGh6qAk3kckKeprbccJZ99vBZz8L1tP6oWHd8PDhZzUMfgznivdSJhMdwrFY15VKWT+qsyznLYG2P2MvAJKKimwss7solGQ4bqlZyQ4nyU1/vC1PMbX51srF7/bPuc/BX1raJlRaL/qFP3/f/lXnrvX2lFfqjpVx3BL54rlaiuGwP29+FxObczuMSTHD+dIWJOmNIAAAA==",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "ff11baeddaf063e58dfc0d9391d6db1018b172dcc4454abd8134d104cf09648b",
+ "baseType": {
+  "id": 0,
+  "iconPath": "c124f823c629312e7f010bce17fa8d215b4bcb1087ca1e7a3f746a24c4198b76",
+  "color": "#FFFFFF",
+  "name": "巡獵",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用點",
+   "desc": "星際和平公司與客戶結算時使用的貨幣，如今已成爲太空旅行的硬通貨。",
+   "lore": "「人們奔波、爭鬥、貿易，爲的不過是個終端裏顯示的數字。但真正珍貴之物，公司的數字是買不到的。」",
+   "purpose": "通用貨幣",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "擬造花萼【大礦區】",
+    "擬造花萼【工造司】",
+    "擬造花萼【「白日夢」酒店-夢境】",
+    "擬造花萼【「囈語密林」神悟樹庭】",
+    "任務獎勵",
+    "委託獎勵",
+    "餘燼兌換"
+   ]
+  },
+  "635681": {
+   "id": 635681,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "34ff25f0d7aec3e211042af53b5ecf82f2320beb5164052b2bee26cedb2e6198",
+   "name": "隕鐵彈丸",
+   "desc": "鑄之以獵殺怪物的鐵球，上面的刻痕仿佛記錄着死於其下的獵物之數。可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">巡獵</span>角色的命途行跡。",
+   "lore": "武裝考古學派自各類怪物化石骸骨中發現了這些鐵丸，放射性測定確認了它們發射自人類尚不存在的紀元，射殺之物均爲某個怪物族羣最後的遺孑。<br /><br />「死於衰老和死於彈頭並無區別。獵人的道路不會通向任何神聖或罪惡的終點。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/635681",
+   "comeFrom": [
+    "擬造花萼【蘇樂達™熱砂海選會場】",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "提純以太",
+   "desc": "光錐的強化材料，可以獲得<nobr>6000</nobr>點光錐經驗。",
+   "lore": "一罐經由特殊技術精煉而成的以太。<br /><br />「憶庭盼望重現往日的輝煌，但那是由他們所選擇的『往日輝煌』，明白嗎？」",
+   "purpose": "光錐經驗材料",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "擬造花萼【太卜司】",
+    "擬造花萼【稚子的夢】",
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "「忘卻之庭」"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "凝縮以太",
+   "desc": "光錐的強化材料，可以獲得<nobr>2000</nobr>點光錐經驗。",
+   "lore": "一罐經由特殊技術精煉而成的以太。<br /><br />「小心輕放，勿壓勿摔。破損泄漏後請參照《流溢災難應對手冊》第二章內容進行災後處置。」",
+   "purpose": "光錐經驗材料",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "擬造花萼【太卜司】",
+    "擬造花萼【稚子的夢】",
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "餘燼兌換"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "稀薄以太",
+   "desc": "光錐的強化材料，可以獲得<nobr>500</nobr>點光錐經驗。",
+   "lore": "本不應存在於現實的假想介質，創造光錐的基本原料。<br />將之注入光錐，能令封裝其中的事象更爲清晰。<br /><br />「原來如此，流光憶庭的『憶質』就是這東西，怪不得憶者能攜帶記憶進行星際旅行。」",
+   "purpose": "光錐經驗材料",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "擬造花萼【太卜司】",
+    "擬造花萼【稚子的夢】",
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "委託獎勵"
+   ]
+  },
+  "836267": {
+   "id": 836267,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "e33a9c34ab89b9315339791c792f2a07174330390c95c5c8a44b6b46d3c46158",
+   "name": "逆時一擊",
+   "desc": "永遠與時間箭頭錯向而行的螺旋彈頭，如同獵犬永遠追逐着悖逆時間的不死之物。可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">巡獵</span>角色的命途行跡。",
+   "lore": "曾是一位絕滅大君的餘燼，曾是抹除一個文明的按鈕，曾是一頭太古之獸最後的哀鳴…匯聚多少死亡的材料方能鑄成這樣一發彈藥？又是何等槍械能將它射向過去？它是解答一切的答案，它並非問題。<br /><br />「逃吧，逃去任何一個時刻的間隙裏，它總會找到你，將你釘死在宿命裏。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/836267",
+   "comeFrom": [
+    "擬造花萼【蘇樂達™熱砂海選會場】",
+    "「萬能合成機」- 材料合成",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "920208": {
+   "id": 920208,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "635d4a30e82aaec978a5957e89c85bd611d2d58fa2bad72d2c175c430d9b3521",
+   "name": "命定死因",
+   "desc": "嵌入死者眉心，穿透物體罅隙，這顆子彈永遠在它彈孔該在的地方。可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">巡獵</span>角色的命途行跡。",
+   "lore": "它行經萬軍人叢間曲折的縫隙，穿透堅盔上最脆弱的一點，最終駐足在不可一世暴君的顱骨中心，發出一聲好似低語的嘆息。它出現在那兒，如同致命的巧合。它出現在那兒，如同每個人都要抵達終點。<br /><br />「有時候，彈孔先於彈道存在。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/920208",
+   "comeFrom": [
+    "擬造花萼【蘇樂達™熱砂海選會場】",
+    "「萬能合成機」- 材料合成",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "悲鳴由遠及近",
+   "desc": "黑潮造物軀殼的組成部分，強化所需的普通材料。",
+   "lore": "怪異頭顱發出嘶吼，殘破利刃足以斬斷所有，而禍亂的源起依舊埋藏在晦暗之中，被死亡的雲翳遮蔽。<br /><br />「爲何在墓前獨自哀泣？」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "突破至均衡等級2後，黑潮造物掉落",
+    "「萬能合成機」- 材料合成",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "預兆似有若無",
+   "desc": "黑潮造物身體掉落的殘片，強化所需的簡單材料。",
+   "lore": "噩運的到來總是毫無徵兆，意識到時，它已成爲了席捲世界的災難。<br /><br />「喪鐘在命運的盡頭鳴響。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "黑潮造物掉落",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "委託獎勵",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換",
+    "擬造花萼（金）"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "哀嘆漫無止息",
+   "desc": "黑潮造物死亡後凝成的晶體，強化所需的高級材料。",
+   "lore": "從空無中誕生，亦將歸於空無。侵蝕造就的扭曲生命，註定無止境地在荒蕪大地上遊蕩。<br /><br />「它的生命充滿了毀滅和悲哀。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "突破至均衡等級4後，黑潮造物掉落",
+    "「萬能合成機」- 材料合成",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ],
+   "attackBase": 24,
+   "attackAdd": 3.6,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 18,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 635681,
+     "count": 3
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ],
+   "attackBase": 52.8,
+   "attackAdd": 3.6,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 39.6,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 920208,
+     "count": 3
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    }
+   ],
+   "attackBase": 91.2,
+   "attackAdd": 3.6,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 68.4,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 920208,
+     "count": 6
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    }
+   ],
+   "attackBase": 129.6,
+   "attackAdd": 3.6,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 836267,
+     "count": 4
+    },
+    {
+     "id": 3526997,
+     "count": 5
+    }
+   ],
+   "attackBase": 168,
+   "attackAdd": 3.6,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 126,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 836267,
+     "count": 8
+    },
+    {
+     "id": 3526997,
+     "count": 7
+    }
+   ],
+   "attackBase": 206.4,
+   "attackAdd": 3.6,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 154.8,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 244.8,
+   "attackAdd": 3.6,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7
+  }
+ ],
+ "skill": {
+  "id": 21062,
+  "name": "執着",
+  "descHash": "使裝備者的暴擊傷害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>。裝備者造成的戰技和追加攻擊傷害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>。",
+  "levelData": [
+   {
+    "params": [
+     0.24,
+     0.24
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.28,
+     0.28
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.32,
+     0.32
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.36,
+     0.36
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.4,
+     0.4
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21062"
+}

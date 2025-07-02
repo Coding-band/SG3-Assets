@@ -1,0 +1,4391 @@
+{
+ "spRequirement": 12,
+ "iconPath": "52b9feb97a377b3e611797b8150bfe38ca31d55436b111d06d6a8487f5dc7396",
+ "bgPath": "2594772f0331ee757968708e3f1d66fd464fb5de9abbc7c42ab4861ae3e4e321",
+ "figPath": "c08ba2cb708d2a98e05b9618aed77e41a27f195e4fa1a0685a30328e74a70718",
+ "fgPath": "def4926ac62b25c61847565473260c0876af482f40c1c34343aef77fbfd8b472",
+ "splashIconPath": "c9ccc6595cf01622c07370fc650b4a0521bad518a56573e6f6586b4f8cac7358",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRs4CAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSDIBAAABkGvb1rE9+/2+749t27bt5AJYm+VfxU5K2ylt27btVHbe590rvoaImABFal1JUqT/jlRltjoWVeGGiv6VUub85mqq0aeT0lIURSkVkBoOPz2h2tRDc4qlC5fWn31HVMg5dgPnDsK6ipsmNRjVsWPZQv171Sm0/ttHEuIDHx+0HzR/ZH6p06Vj1z5+wgZO1m06vZ1UqnPzzW/eY3DgzdPXdwsqkuo+A+M/gWnVM1ldBjwhNsY2ThJeNlKlh/zAxmBwwo3qKnyAYGNsbAf25tI2Ysy/Hdiav/OtrQQb2xg7sLf8yqvbCDiJwdgEXtZYt/MaSQDiBDuJ/W6gei4CE54sW/ricwA4U05quOUSl7OzS5WbBeHmvjFlpChSzg5lajRru+rm9Wktcuv/izavoD/TkQRWUDggdgEAAHAHAJ0BKhQAFAA+bS6SRqQioaEoDVCADYlsAJ0ygzSpgN4BzyuQAdKH5IBTKvFx9GBj9cJf8FQBK/oZuUUKvFBQjdOAAP0ArzSDaZmnOW2M2Qb7CH8GgJkAMx94Wts0Br9HCL9AxIW3ZpP2fNyfYCdeQi/3I0rzSKOxup13Sw5XQ9XvNtVJd1pKEA745h/mFsrXdZVx4IYnDujyiEYnVFJGIHEZwi/RNJG1ycVTsFC4oYr7szs6K3KKT8snfxOpBOI4fi3hpd4Dgm6X/Hr0C93QfnRRDyfGyhLpSsr1U9T6xWkfY3OlaAuml2vdBgpp79RSg5MoExjewWByK42l8wMD/wFBz/9Tc/f/hFJXB+Rf/zuff/8qnIdBRv7unBgvq0yYy0//B8qFBT9Hazxgo8P65YA4MMK6tqOKQN9ff0UL43HnzMuricjflyPvJ3EcjdUKDOIuP5dX8/+DZq8ojvRG56rT/l8cD8aEwxvy2Dc4HiH6qLAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 1,
+  "iconPath": "030e601ad017d8aaf9c2e1b34f108db7a35a7385a6445d47094815c62f6c5e6f",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "เครดิต",
+   "desc": "สกุลเงินที่องค์กรสันติภาพแห่งดวงดาวใช้ในการชำระบัญชีแก่ลูกค้า ซึ่งปัจจุบันได้กลายเป็นสกุลเงินหลัก ที่ใช้กันอย่างแพร่หลายสำหรับการเดินทางในอวกาศ",
+   "lore": "\"ผู้คนดิ้นรน ต่อสู้ และแลกเปลี่ยนเพื่อตัวเลขที่แสดงในเทอร์มินัล แต่สิ่งล้ำค่าที่แท้จริงนั้น ไม่สามารถซื้อได้ด้วยตัวเลขจากองค์กร\"",
+   "purpose": "สกุลเงินทั่วไป",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx: Great Mine",
+    "Calyx: Artisanship Commission",
+    "Calyx: โรงแรม Reverie - แดนฝัน",
+    "Calyx: ลานพฤกษ์ปราชญา \"ป่าแห่งวจนะ\"",
+    "รางวัลภารกิจ",
+    "รางวัลคำขอ",
+    "ร้าน Ember"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Tracks of Destiny",
+   "desc": "วัสดุระดับสูงสำหรับการเพิ่มเลเวล Trace",
+   "lore": "ความพ่ายแพ้ซ้ำแล้วซ้ำเล่าจะนำไปสู่ชัยชนะ ก้าวไปข้างหน้าก้าวแล้วก้าวเล่าจะนำไปสู่จุดเปลี่ยนของโชคชะตา",
+   "purpose": "วัสดุ Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "รางวัลคะแนนสะสม Simulated Universe",
+    "เกียรติยศนิรนาม",
+    "แลกเปลี่ยน Ember",
+    "ร้าน Starlight",
+    "รางวัลกิจกรรมจำกัดเวลา"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "คู่มือการเดินทาง",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>20000</nobr> หน่วย",
+   "lore": "หนังสือชุดเกี่ยวกับการผจญภัยที่จำเป็นต่อการสำรวจโลก กดปุ่มอ่านเพื่อฟังเสียงที่น่าฟังในภาษาที่คุณเข้าใจ ซึ่งจะบอกเล่าเกี่ยวกับประสบการณ์การผจญภัยในโลกต่างๆ ของเหล่านักผจญภัยที่มีชื่อเสียง รวมถึงภูมิปัญญาอันล้ำค่าที่พวกเขาได้รับจากดาวแต่ละดวงด้วย<br /><br />\"คู่มือการเดินทางชุดใหม่ 'การทำอาหารระหว่างดวงดาว' จะวางจำหน่ายเร็วๆ นี้ โปรดติดตามกันให้ดี\"<br />\"สำหรับการส่งผลงาน โปรดติดต่อกับ Synesthesia Beacon ERD<nobr>-23</nobr>θ เพื่อติดต่อตัวแทนของสถาบันแห่งปัญญา โดยวิธีการจ่ายค่าต้นฉบับนั้น สามารถจัดการได้ตามความสะดวกของคุณ\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx: Outlying Snow Plains",
+    "Calyx: Cloudford",
+    "Calyx: พรมแดนสร้างฝัน",
+    "Calyx: Janusopolis \"แดนพยากรณ์ศักดิ์สิทธิ์\"",
+    "\"Forgotten Hall\""
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "บันทึกการผจญภัย",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>5000</nobr> หน่วย",
+   "lore": "บันทึกการผจญภัยที่ได้รับการจัดการอย่างเป็นระเบียบ และมีคุณค่าต่อการศึกษา ซึ่งประกอบไปด้วยภาพประกอบและข้อความที่เกี่ยวกับการผจญภัยตั้งแต่ต้นจนจบ ตลอดจนข้อมูลที่มีคุณค่าและเทคนิคที่เกี่ยวข้องกับการเอาชีวิตรอด<br /><br />\"ทำไมไม่แปลงข้อมูลใส่ลงไปในดิสก์ล่ะ? สะดวกกว่าตั้งเยอะ\"<br />\"เมื่อเผชิญกับพายุดาว และการปะทุของกระแสนิวตรอนแล้ว เทคโนโลยีขั้นสูงนั้นมีความเปราะบางมากกว่าที่คิด นอกจากนี้ คนทำหนังสือเล่มนี้คงอยากจะให้คนอ่าน สามารถอ่านได้ด้วยวิธีที่ง่ายที่สุด\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx: Outlying Snow Plains",
+    "Calyx: Cloudford",
+    "Calyx: พรมแดนสร้างฝัน",
+    "Calyx: Janusopolis \"แดนพยากรณ์ศักดิ์สิทธิ์\"",
+    "การฝึกประจำวัน",
+    "ร้าน Ember"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "ความรู้จากการเดินทาง",
+   "desc": "วัสดุประสบการณ์ตัวละคร จะมอบ EXP ตัวละคร <nobr>1000</nobr> หน่วย",
+   "lore": "ไดอารี่การเดินทางที่เขียนด้วยลายมือสุดยุ่งเหยิงและมีเนื้อหาตามใจชอบ ซึ่งไม่ค่อยมีประโยชน์สำหรับคุณสักเท่าไหร่<br /><br />\"Dan Heng อ่านจบแล้วก็รีบเอากระดาษพวกนี้ไปทิ้งเถอะ\"",
+   "purpose": "วัสดุ EXP ตัวละคร",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx: Outlying Snow Plains",
+    "Calyx: Cloudford",
+    "Calyx: พรมแดนสร้างฝัน",
+    "Calyx: Janusopolis \"แดนพยากรณ์ศักดิ์สิทธิ์\"",
+    "รางวัลคำขอ"
+   ]
+  },
+  "554722": {
+   "id": 554722,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "c73f7c95477c413116ae2315f55567473f4fd49d28ed37983d40adad50141294",
+   "name": "Daythunder Anamnesis",
+   "desc": "วัสดุระดับสูงสำหรับการเพิ่มเลเวล Trace",
+   "lore": "เมื่อบุตรแห่งมนุษย์ดื่มแกนของผลึกแก้ว จะสูญเสียความสามารถ ในการสังเกตจิตใจของผู้คนไป หลังจากนั้น ดวงดาราและจันทราจะหมุนเวียน และการก้มมองลงมา ก็ได้กลายเป็นหน้าที่เดียวของเขาแล้ว<br />เขายังคงรักชีวิต แต่ก็ไม่อาจมองว่า เพื่อนบ้านคือสิ่งมีชีวิตได้อีก<br /><br />\"เมื่อคืบคลานอยู่บนพื้นดิน จะพยายามสัมผัสสีฟ้าครามผืนนั้น แต่เมื่ออยู่บนท้องฟ้า กลิ่นหอมของผืนหญ้าเขียวขจี กลับมีค่าเหลือเกิน...\"",
+   "purpose": "วัสดุ Trace",
+   "rarity": 4,
+   "rewardPath": "/material/554722",
+   "comeFrom": [
+    "Echo of War: เนตรทิวาราตรี \"ปราการชั้นฟ้า\""
+   ]
+  },
+  "635680": {
+   "id": 635680,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "830c4cbe2f90103ae590fcb4c72c62d3fc6f645ef3483335f0b033d813fd83ca",
+   "name": "Borisin Teeth",
+   "desc": "เศษเขี้ยวที่ Borisin เหลือทิ้งไว้จากการต่อสู้ สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ทำลายล้าง</span>ได้เล็กน้อย",
+   "lore": "Borisin มองว่าเขี้ยวคืออาวุธที่แหลมคมของผู้พิชิต<br />Borisin ยกย่องนักรบที่มีพลังสูงสุด และใน \"เผ่าพันธุ์นักล่า\" ที่ผู้อ่อนแอจะตกเป็นเหยื่อของผู้แข็งแกร่งนั้น ใครที่ฟันผุจะถูกฝูงทอดทิ้ง<br /><br />\"ท่านเจ้าแห่งรัง โปรดมอบเขี้ยวและกรงเล็บที่แหลมคมให้แก่พวกเราด้วยเถิด\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/635680",
+   "comeFrom": [
+    "Calyx (Scalegorge Waterscape)",
+    "ร้าน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "836266": {
+   "id": 836266,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "7798a1ea6caf6bf8ba0bca6935ec1a2a1a99d2ae3cf352b9704dd0570ea8bf91",
+   "name": "Moon Rage Fang",
+   "desc": "เขี้ยวยาวอันน่าสะพรึงที่ Borisin เหลือทิ้งไว้จากการต่อสู้ สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ทำลายล้าง</span>ได้เป็นอย่างมาก",
+   "lore": "Borisin เสริมความแข็งแกร่งให้ร่างกายของตัวเองด้วย \"จันทร์คลั่ง\" ที่มีมาแต่กำเนิด<br />เหล่านักรบจะมีความสามารถด้านการรักษาที่น่าทึ่ง พร้อมกับกระดูกและกล้ามเนื้อที่เพิ่มพูนขึ้นมา จนสามารถทำลายทุกสิ่ง ท่ามกลางหมอกโลหิตได้อย่างง่ายดาย<br /><br />\"ท่านเจ้าแห่งรัง โปรดมอบพลังอันมหาศาลให้แก่พวกเราด้วยเถิด\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/836266",
+   "comeFrom": [
+    "Calyx (Scalegorge Waterscape)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "920207": {
+   "id": 920207,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "134fcb78ee639f1136abf8502044713adfad97efb3c06e1358c24fe3439481a9",
+   "name": "Lupitoxin Sawteeth",
+   "desc": "เขี้ยวดูดเลือดที่ Borisin เหลือทิ้งไว้จากการต่อสู้ สามารถใช้เพื่อเพิ่มเลเวล Trace ของตัวละคร Path <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">ทำลายล้าง</span>ได้ปานกลาง",
+   "lore": "Borisin มองว่าเขี้ยวคืออาวุธที่แหลมคมของผู้พิชิต<br />ในสายเลือดของ Borisin มีแรงกระตุ้นอันบ้าคลั่งไหลเวียนอยู่ เมื่อพิษหมาป่าถูกกระตุ้น พวกเขาจะกระหายเลือด และไม่มีอะไรที่สามารถต้านทานได้<br /><br />\"ท่านเจ้าแห่งรัง โปรดมอบร่างกายที่แข็งแกร่งดุจเหล็กกล้า ให้แก่พวกเราด้วยเถิด\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้น Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/920207",
+   "comeFrom": [
+    "Calyx (Scalegorge Waterscape)",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ร้าน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Echoing Wail",
+   "desc": "ส่วนประกอบที่เกิดจากเปลือกนอก ของสิ่งก่อเกิดจากคลื่นทมิฬ วัสดุธรรมดาที่ใช้สำหรับเสริมพลัง",
+   "lore": "หัวที่ประหลาดส่งเสียงร้องคำราม ใบมีดที่พังทลาย สามารถตัดทุกสิ่งให้ขาดได้ แต่ต้นตอของหายนะ ยังคงถูกฝังอยู่ในความมืด และถูกปกคลุมด้วยเมฆหมอกแห่งความตาย<br /><br />\"ทำไมถึงร้องไห้ อยู่หน้าหลุมศพเพียงลำพัง?\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "ดรอปจากสิ่งก่อเกิดจากคลื่นทมิฬ เมื่อระดับความสมดุลถึง Lv.2",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ดรอปจากศัตรูใน \"จักรวาลต่างมิติ\"",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Ethereal Omen",
+   "desc": "ชิ้นส่วนที่หล่นจากร่างสิ่งก่อเกิดจากคลื่นทมิฬ วัสดุพื้นฐานที่ใช้สำหรับเสริมพลัง",
+   "lore": "โชคร้ายมักจะมาโดยไร้สัญญาณเตือน พอรู้ตัว มันก็กลายเป็นหายนะ ที่พัดไปทั่วโลกแล้ว<br /><br />\"ระฆังมรณะ ดังขึ้นที่ปลายทางของโชคชะตา\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "ดรอปจากสิ่งก่อเกิดจากคลื่นทมิฬ",
+    "ดรอปจากศัตรูใน \"จักรวาลต่างมิติ\"",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "รางวัลคำขอ",
+    "แลกเปลี่ยน Ember",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ",
+    "Calyx (Golden)"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Eternal Lament",
+   "desc": "คริสตัลที่ตกผลึก หลังจากสิ่งก่อเกิดจากคลื่นทมิฬดับสูญ วัสดุชั้นสูงที่ใช้สำหรับเสริมพลัง",
+   "lore": "ถือกำเนิดขึ้นจากความว่างเปล่า และถูกกำหนดให้หวนคืนสู่ความว่างเปล่า ชีวิตที่ถูกบิดเบือนจากการกัดกร่อน ถูกกำหนดให้ต้องร่อนเร่ไป ในดินแดนรกร้างอย่างไม่มีที่สิ้นสุด<br /><br />\"ชีวิตของมันเต็มไปด้วยการทำลายล้าง และความเศร้าโศก\"",
+   "purpose": "วัสดุ Trace <br />วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "ดรอปจากสิ่งก่อเกิดจากคลื่นทมิฬ เมื่อระดับความสมดุลถึง Lv.4",
+    "\"เครื่องผสานสารพัดประโยชน์\" - ผสานวัสดุ",
+    "ดรอปจากศัตรูใน \"จักรวาลต่างมิติ\"",
+    "ดรอปจากศัตรูใน Simulated Universe",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  },
+  "29937571": {
+   "id": 29937571,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "e914aa6c1c3cceed1fe5912f35f1d439d662aec5699654e8ff682bf2010c1c74",
+   "name": "Invasive Clot",
+   "desc": "ผลึกแกนกลางของสิ่งก่อเกิดจากคลื่นทมิฬ วัสดุเลื่อนขั้นของตัวละครประเภทกายภาพ",
+   "lore": "แท้จริงแล้วผู้สนับสนุนของคลื่นทมิฬนั้น มีรูปลักษณ์ภายนอกที่หลากหลาย และสามารถแยกแยะได้ด้วยผลึกแก้ว แต่ไม่มีใครรู้เลยว่า สิ่งที่ดูเหมือนแกนกลางนั้น จริงๆ แล้วคือ \"เปลือกนอก\" ต่างหาก<br /><br />\"ฉันเห็นมหาสมุทรผลึกแก้ว จากนั้นก็เห็นรอยยิ้มที่ปลาบปลื้มของผู้เยียวยา\"",
+   "purpose": "วัสดุเลื่อนขั้นตัวละคร",
+   "rarity": 4,
+   "rewardPath": "/material/29937571",
+   "comeFrom": [
+    "Stagnant Shadow: Styxia \"เมืองกระดูกมังกร\"",
+    "\"เครื่องผสานสารพัดประโยชน์\" - แลกเปลี่ยนวัสดุ"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 79.2,
+   "attackAdd": 3.96,
+   "hpBase": 195.36,
+   "hpAdd": 9.768,
+   "defenseBase": 95.7,
+   "defenseAdd": 4.785,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 94,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 110.88,
+   "attackAdd": 3.96,
+   "hpBase": 273.504,
+   "hpAdd": 9.768,
+   "defenseBase": 133.98,
+   "defenseAdd": 4.785,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 94,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 351.648,
+   "hpAdd": 9.768,
+   "defenseBase": 172.26,
+   "defenseAdd": 4.785,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 94,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 174.24,
+   "attackAdd": 3.96,
+   "hpBase": 429.792,
+   "hpAdd": 9.768,
+   "defenseBase": 210.54,
+   "defenseAdd": 4.785,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 94,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 205.92,
+   "attackAdd": 3.96,
+   "hpBase": 507.936,
+   "hpAdd": 9.768,
+   "defenseBase": 248.82,
+   "defenseAdd": 4.785,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 94,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 237.6,
+   "attackAdd": 3.96,
+   "hpBase": 586.08,
+   "hpAdd": 9.768,
+   "defenseBase": 287.1,
+   "defenseAdd": 4.785,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 94,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 664.224,
+   "hpAdd": 9.768,
+   "defenseBase": 325.38,
+   "defenseAdd": 4.785,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 125,
+   "speedBase": 94,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "2b81bbc2e6de245626a685cb4db8c8b2e1cb1b0b540ca408aad81ff9a41967d9",
+   "artPath": "d9f418fe5c32a15d61460ecbcc851bd5f2d5bd81279b60cd11e95c44b46a32c4",
+   "name": "Fire and Light Bind Virtue and Vice",
+   "descHash": "อัตราการสืบทอดความเร็วพื้นฐานใน <u>เทิร์นเพิ่มเติมของ Khaslana</u> จะเพิ่มขึ้นถึง <nobr>#5[i]%</nobr> และศัตรูเป้าหมายทุกๆ 1 ตัวที่ถูกกำจัดในการต่อสู้หนึ่งครั้ง จะทำให้เพิ่มขึ้นอีก <nobr>#1[f1]%</nobr> โดยเพิ่มได้สูงสุดถึง <nobr>#4[i]%</nobr><br />เมื่อปล่อยท่าไม้ตาย DMG คริติคอลจะเพิ่มขึ้น <nobr>#2[i]%</nobr> เป็นเวลา <nobr>#3[i]</nobr> เทิร์น",
+   "params": [
+    0.015,
+    0.5,
+    3,
+    0.84,
+    0.66
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "a9e32434fc88e08c3aad0b96b5c0bb67855d32d9a24c4669e963ba692524ada0",
+   "artPath": "37ebcb8ee8914a8151c601934b2a90cec29e54a179574818ef6f6b0d615d9c6b",
+   "name": "Sky and Earth Churn Mortal Froth",
+   "descHash": "<u>การทะลวงความต้านทาน</u> กายภาพของ Khaslana เพิ่มขึ้น <nobr>#2[i]%</nobr> เมื่อใช้ <u>\"พินาศ\"</u> ถึง <nobr>#1[i]</nobr> หน่วย ในการปล่อย \"Foundation: Stardeath Verdict\" หนึ่งครั้ง จะได้รับ <u>เทิร์นเพิ่มเติม</u> 1 เทิร์น",
+   "params": [
+    4,
+    0.2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "0b7379312b0a451bc703b0772413ac36db96bc8bfb7b5331c29f80a63b844ffb",
+   "artPath": "9a59a0134a58780389d1073e531570db890f3360a8ccfa8bbffb3a77ec32c512",
+   "name": "Depths of Quiet, Entombed in Ruin",
+   "descHash": "เลเวลท่าไม้ตาย +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลการโจมตีปกติ +1 สูงสุดไม่เกิน Lv.<nobr>10</nobr>",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "3f5cae0adf8a27fe30abe9ebb17244e9331fca1248dd841429f872ecc65019b9",
+   "artPath": "0ac1a5715fd8372d6e86c3019f07007424f3e49f9b645ca52031e6e00e9feff4",
+   "name": "Faces of Titans, Blurred by Time",
+   "descHash": "เมื่อปล่อย \"Calamity: Soulscorch Edict\" จะได้รับ \"เพลิงทัณฑ์วิญญาณ\" เพิ่มอีก <nobr>#1[i]</nobr> ชั้น",
+   "params": [
+    4
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "adae7dd155133f44a8d43cf153b8d536e47a774694c4fed516d33736cab099cf",
+   "artPath": "e279b6f35e32b7702c4a87af525f42b33ce0b5ac4fddad09085fb98dcf8f524e",
+   "name": "The Wheel Spins Forevermore",
+   "descHash": "เลเวลสกิลต่อสู้ +2 สูงสุดไม่เกิน Lv.<nobr>15</nobr> และเลเวลพรสวรรค์ +2 สูงสุดไม่เกิน<br />Lv.<nobr>15</nobr>",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "4369e396c186fc274a48c7df8485c9d3c4fb13ec5de12f69c9704ce3fdce4142",
+   "artPath": "a5347cdb030a7f9cb206dc17955aa9f22ec452532c279b334fef1e7ce827e448",
+   "name": "Embers of Old Rise Still",
+   "descHash": "จะไม่มีการจำกัดจำนวน \"เชื้อไฟ\" ที่สามารถเกินออกมาได้อีกต่อไป เมื่อเริ่มการต่อสู้ จะได้รับ \"เชื้อไฟ\" <nobr>#2[i]</nobr> หน่วย<br />หลังจากปล่อย \"Foundation: Stardeath Verdict\" เพื่อโจมตี จะสร้าง <u>DMG จริง</u> อีก <nobr>#1[i]%</nobr> ของ DMG ทั้งหมดในการโจมตีครั้งนี้ แก่ศัตรูเป้าหมายที่มี HP สูงที่สุด",
+   "params": [
+    0.36,
+    6
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   13957315,
+   13777487
+  ],
+  [
+   13840085,
+   14051421,
+   30838253
+  ],
+  [
+   14097639
+  ],
+  [
+   13845246,
+   14135434
+  ],
+  [
+   14144694
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "โจมตีเดี่ยว",
+   "descHash": "สร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Phainon แก่ศัตรูที่กำหนดหนึ่งตัว",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 13957315,
+   "name": "Stride to Deliverance",
+   "iconPath": "47a32643d72572fa7bb01582fb90b9aabe2ff559b68e6459af5aa6c37a9ea036",
+   "typeDescHash": "โจมตีปกติ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "กระจาย",
+   "descHash": "ได้รับ \"เชื้อ<span style=\"color:#F84F36;\">ไฟ</span>\" <nobr>#3[i]</nobr> หน่วย และสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Phainon แก่ศัตรูที่กำหนดหนึ่งตัว พร้อมทั้งสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ ATK ของ Phainon แก่ตัวที่อยู่ใกล้เคียงกับเป้าหมาย",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 13840085,
+   "name": "Let There Be Light",
+   "iconPath": "adae7dd155133f44a8d43cf153b8d536e47a774694c4fed516d33736cab099cf",
+   "typeDescHash": "สกิลต่อสู้",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.5,
+      0.6,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.65,
+      0.66,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.8,
+      0.72,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.95,
+      0.78,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.1,
+      0.84,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.25,
+      0.9,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2.4375,
+      0.975,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.625,
+      1.05,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.8125,
+      1.125,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      1.2,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3.15,
+      1.26,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.3,
+      1.32,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.45,
+      1.38,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.6,
+      1.44,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.75,
+      1.5,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "โจมตีหมู่",
+   "descHash": "แปลงร่างเป็น Khaslana ในช่วงที่แปลงร่างจะเปิด <u>เขตแดน</u> \"สุสานเหล็กอนันตกาล\" โดยเพื่อนร่วมทีมคนอื่นภายใน <u>เขตแดน</u> จะ <u>ออกจากการต่อสู้</u> และไม่สามารถแอ็กชันได้ โดยที่ศัตรูทั้งหมด จะติดจุดอ่อน<span style=\"color:#FFFFFF;\">กายภาพ</span>ตลอดช่วงดังกล่าว<br />Khaslana จะไม่เข้าสู่เทิร์นของตัวเอง แต่จะมี <u>เทิร์นเพิ่มเติมของ Khaslana</u> <nobr>#4[i]</nobr> เทิร์น ความเร็วจะคงอยู่ที่ <nobr>#3[i]%</nobr> ของความเร็วพื้นฐานของ Khaslana เมื่อถึง <u>เทิร์นเพิ่มเติมของ Khaslana</u> เทิร์นสุดท้าย จะปล่อยการโจมตีครั้งสุดท้ายทันที โดยสร้าง DMG ท่าไม้ตาย<span style=\"color:#FFFFFF;\">กายภาพ</span>เท่ากับ <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Khaslana โดยศัตรูทั้งหมดจะแบ่งรับไปเท่าๆ กัน",
+   "ultimateCost": 12,
+   "break": "60/hit",
+   "energy": "0",
+   "id": 14097639,
+   "name": "He Who Bears the World Must Burn",
+   "iconPath": "a417eab6dff4de12b26127d6a62a62de55e839d13e92c67ae022f77b87847f2c",
+   "typeDescHash": "ท่าไม้ตาย",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      4.8,
+      12,
+      0.6,
+      8
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5.28,
+      12,
+      0.6,
+      8
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      5.76,
+      12,
+      0.6,
+      8
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      6.24,
+      12,
+      0.6,
+      8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      6.72,
+      12,
+      0.6,
+      8
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      7.2,
+      12,
+      0.6,
+      8
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      7.8,
+      12,
+      0.6,
+      8
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      8.4,
+      12,
+      0.6,
+      8
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      9,
+      12,
+      0.6,
+      8
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      9.6,
+      12,
+      0.6,
+      8
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      10.08,
+      12,
+      0.6,
+      8
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      10.56,
+      12,
+      0.6,
+      8
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      11.04,
+      12,
+      0.6,
+      8
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      11.52,
+      12,
+      0.6,
+      8
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      12,
+      12,
+      0.6,
+      8
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "เสริมพลัง",
+   "descHash": "พรสวรรค์ของ Phainon เมื่อ \"เชื้อ<span style=\"color:#F84F36;\">ไฟ</span>\" ถึง <nobr>#4[i]</nobr> หน่วย จะเปิดใช้งานท่าไม้ตายได้ หลังจากถึงขีดจำกัดสูงสุดแล้ว สามารถเกินออกมาได้สูงสุดที่ <nobr>#3[i]</nobr> หน่วย โดยหลังจากสิ้นสุดการแปลงร่าง จะได้รับ \"เชื้อ<span style=\"color:#F84F36;\">ไฟ</span>\" ตามจำนวนที่เกินออกมา<br />เมื่อ Phainon กลายเป็นเป้าหมายสกิล ของตัวใดก็ได้ จะได้รับ \"เชื้อ<span style=\"color:#F84F36;\">ไฟ</span>\" 1 หน่วย ทั้งนี้ หากผู้ปล่อยสกิลเป็นเพื่อนร่วมทีม จะทำให้ DMG คริติคอลของ Phainon เพิ่มขึ้น <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> เป็นเวลา <nobr>#2[i]</nobr> เทิร์น",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 13845246,
+   "name": "Pyric Corpus",
+   "iconPath": "3071bc166c2c76d6af120c4c81a316b86a86ecfa3e85b9ab516daaaa232473b8",
+   "typeDescHash": "พรสวรรค์",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      3,
+      3,
+      12
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.165,
+      3,
+      3,
+      12
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      3,
+      3,
+      12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.195,
+      3,
+      3,
+      12
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      3,
+      3,
+      12
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      3,
+      3,
+      12
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24375,
+      3,
+      3,
+      12
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2625,
+      3,
+      3,
+      12
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.28125,
+      3,
+      3,
+      12
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      3,
+      3,
+      12
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.315,
+      3,
+      3,
+      12
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.33,
+      3,
+      3,
+      12
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.345,
+      3,
+      3,
+      12
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.36,
+      3,
+      3,
+      12
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.375,
+      3,
+      3,
+      12
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "เสริมพลัง",
+   "descHash": "พรสวรรค์ของ Khaslana เมื่อแปลงร่างจะได้รับ <u>\"พินาศ\"</u> <nobr>#1[i]</nobr> หน่วย หากขณะนั้น อยู่ในเทิร์นของเป้าหมายฝ่ายเรา จะทำให้ <u>เอฟเฟกต์ Buff</u> ทั้งหมดของเป้าหมายดังกล่าว ขยายเวลาออกไป 1 เทิร์น และเทิร์นนี้จะจบลง<br />Khaslana จะต้านทาน <u>สถานะ Debuff ประเภทควบคุม</u> อีกทั้งมีการโจมตีปกติแบบเสริมพลัง 1 อัน และสกิลต่อสู้แบบเสริมพลัง 2 อัน โดยจะไม่สามารถปล่อยท่าไม้ตายได้ ในช่วงที่แปลงร่าง ATK จะเพิ่มขึ้น <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> HP สูงสุดจะเพิ่มขึ้น <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> หลังจากปล่อยการโจมตี จะฟื้นฟู HP เท่ากับ <nobr>#7[i]%</nobr> ของ HP สูงสุดของตัวเอง เมื่อ Khaslana ถูกโจมตีถึงตาย จะไม่ <u>หมดสติ</u> แต่จะฟื้นฟู HP เท่ากับ <nobr>#2[i]%</nobr> ของ HP สูงสุดของตัวเอง และจะปล่อยการโจมตีครั้งสุดท้ายทันที <u>เทิร์นเพิ่มเติมของ Khaslana</u> ที่เหลืออยู่ทุกๆ 1 เทิร์น จะทำให้ตัวคูณ DMG ของการโจมตีครั้งสุดท้ายลดลง <nobr>#3[f1]%</nobr> ของตัวคูณเดิม<br />เมื่อสิ้นสุดการแปลงร่าง จะทำให้ความเร็วของฝ่ายเราทั้งหมด เพิ่มขึ้น <nobr>#6[i]%</nobr> เป็นเวลา 1 เทิร์น",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 14135434,
+   "name": "Fate: Divine Vessel",
+   "iconPath": "3071bc166c2c76d6af120c4c81a316b86a86ecfa3e85b9ab516daaaa232473b8",
+   "typeDescHash": "พรสวรรค์",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.4,
+      1.35,
+      0.15,
+      0.2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.44,
+      1.485,
+      0.15,
+      0.2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.48,
+      1.62,
+      0.15,
+      0.2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.52,
+      1.755,
+      0.15,
+      0.2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.56,
+      1.89,
+      0.15,
+      0.2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.6,
+      2.025,
+      0.15,
+      0.2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.65,
+      2.19375,
+      0.15,
+      0.2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.7,
+      2.3625,
+      0.15,
+      0.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.75,
+      2.53125,
+      0.15,
+      0.2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.8,
+      2.7,
+      0.15,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.84,
+      2.835,
+      0.15,
+      0.2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.88,
+      2.97,
+      0.15,
+      0.2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.92,
+      3.105,
+      0.15,
+      0.2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      0.96,
+      3.24,
+      0.15,
+      0.2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4,
+      0.25,
+      0.125,
+      1,
+      3.375,
+      0.15,
+      0.2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "หลังจากโจมตีศัตรูและเข้าสู่การต่อสู้ จะลดทอนความทนทานของประเภท ที่สอดคล้องกับศัตรูเป้าหมาย",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 13887130,
+   "name": "Attack",
+   "iconPath": "47a32643d72572fa7bb01582fb90b9aabe2ff559b68e6459af5aa6c37a9ea036",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "เมื่อมี Phainon อยู่ในทีม จะทำให้ขีดจำกัดสูงสุดของแต้มเทคนิค เพิ่มขึ้น 3 หน่วย<br />ใช้แต้มเทคนิค 2 แต้ม เพื่อปล่อยเทคนิคโจมตีศัตรูทั้งหมด ในขอบเขตที่กำหนดทันที หลังจากเข้าสู่การต่อสู้ จะฟื้นฟูพลังงาน <nobr>#3[i]</nobr> หน่วย ให้แก่เพื่อนร่วมทีมในฝ่ายเรา อีกทั้งได้รับ <u>\"พินาศ\"</u> <nobr>#2[i]</nobr> หน่วย และแต้มสกิลต่อสู้ <nobr>#4[i]</nobr> แต้ม เมื่อเริ่มต้นในแต่ละ Wave จะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <nobr>#1[i]%</nobr> ของ ATK ของ Phainon แก่ศัตรูทั้งหมด<br />หากโจมตีโดนศัตรูทั่วไป จะกำจัดศัตรูดังกล่าวทันที และไม่เข้าสู่การต่อสู้ ทั้งนี้หากโจมตีไม่โดนศัตรู ก็จะไม่ใช้แต้มเทคนิคแต่อย่างใด",
+   "ultimateCost": 0,
+   "break": "60",
+   "energy": "0",
+   "id": 14144694,
+   "name": "Beginning of the End",
+   "iconPath": "791b26c20ad3f2cda32b97123434a6f9eb9df2d2b1a6bd2fede097f8eab9552d",
+   "typeDescHash": "เทคนิค",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      2,
+      25,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "กระจาย",
+   "descHash": "ได้รับ <u>\"พินาศ\"</u> <nobr>#3[i]</nobr> หน่วย และสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Khaslana แก่ศัตรูที่กำหนดหนึ่งตัว พร้อมทั้งสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> ของ ATK ของ Khaslana แก่ตัวที่อยู่ใกล้เคียงกับเป้าหมาย",
+   "ultimateCost": 0,
+   "break": "90/hit",
+   "energy": "0",
+   "id": 13777487,
+   "name": "Creation: Bloodthorn Ferry",
+   "iconPath": "7a3314cd4c22716d834b17dd88b7010edefaf5e9c6f3a7f15886b1c052930d8c",
+   "typeDescHash": "โจมตีปกติ",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.25,
+      0.375,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.5,
+      0.45,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.75,
+      0.525,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.6,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.25,
+      0.675,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.5,
+      0.75,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2.75,
+      0.825,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.9,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.25,
+      0.975,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.5,
+      1.05,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.78,
+      0.945,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3.96,
+      0.99,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.14,
+      1.035,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.32,
+      1.08,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.5,
+      1.125,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "เสริมพลัง",
+   "descHash": "ได้รับ <u>\"พินาศ\"</u> เท่ากับจำนวนของฝ่ายศัตรูทั้งหมด และ \"เพลิงทัณฑ์วิญญาณ\" 1 ชั้น จากนั้น จะทำให้ศัตรูทั้งหมดแอ็กชันทันที<br />เมื่ออยู่ในสถานะ \"เพลิงทัณฑ์วิญญาณ\" Khaslana จะได้รับ DMG ลดลง <nobr>#2[i]%</nobr> หลังศัตรูเป้าหมายโจมตีหรือแอ็กชัน จะซ้อนทับ \"เพลิงทัณฑ์วิญญาณ\" 1 ชั้น และเมื่อศัตรูข้างต้นจบการแอ็กชันแล้ว จะปล่อยการ <u>โต้กลับ</u> ทันที โดยจะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Khaslana แก่ศัตรูทั้งหมด พร้อมสร้าง DMG เพิ่มอีก <nobr>#3[i]</nobr> ครั้ง โดยแต่ละครั้งจะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> ของ ATK ของ Khaslana แก่ศัตรูหนึ่งตัวแบบสุ่ม จากนั้นจะลบล้าง \"เพลิงทัณฑ์วิญญาณ\" โดยที่ \"เพลิงทัณฑ์วิญญาณ\" แต่ละชั้น จะทำให้ตัวคูณ DMG ของการ <u>โต้กลับ</u> ในครั้งนี้ เพิ่มขึ้น <nobr>#5[i]%</nobr> ของตัวคูณเดิม<br />เมื่อสร้าง DMG ผ่านสกิลนี้ จะถือว่าเป็นการสร้าง DMG สกิลต่อสู้ ทั้งนี้เมื่อถึง <u>เทิร์นเพิ่มเติมของ Khaslana</u> หากยังมี \"เพลิงทัณฑ์วิญญาณ\" อยู่ ก็จะปล่อยการ <u>โต้กลับ</u> ทันที",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 14051421,
+   "name": "Calamity: Soulscorch Edict",
+   "iconPath": "3bf0edd8646df9f7f0bd555739a65fb49cf7f06bd5275ce0cb535d1b68aa9cdb",
+   "typeDescHash": "สกิลต่อสู้",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.2,
+      0.75,
+      4,
+      0.15,
+      0.2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.22,
+      0.75,
+      4,
+      0.165,
+      0.2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      0.75,
+      4,
+      0.18,
+      0.2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.26,
+      0.75,
+      4,
+      0.195,
+      0.2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.28,
+      0.75,
+      4,
+      0.21,
+      0.2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      0.75,
+      4,
+      0.225,
+      0.2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.325,
+      0.75,
+      4,
+      0.24375,
+      0.2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35,
+      0.75,
+      4,
+      0.2625,
+      0.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.375,
+      0.75,
+      4,
+      0.28125,
+      0.2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      0.75,
+      4,
+      0.3,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.42,
+      0.75,
+      4,
+      0.315,
+      0.2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.44,
+      0.75,
+      4,
+      0.33,
+      0.2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.46,
+      0.75,
+      4,
+      0.345,
+      0.2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.48,
+      0.75,
+      4,
+      0.36,
+      0.2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      0.75,
+      4,
+      0.375,
+      0.2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "จู่โจม",
+   "descHash": "ลบล้าง <u>เอฟเฟกต์ Debuff</u> ทั้งหมดของตัวเอง จากนั้นจะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> สูงสุดเท่ากับ <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> ของ ATK ของ Khaslana<br />ระหว่างนั้น <u>\"พินาศ\"</u> ทุกๆ 1 หน่วยที่ใช้ จะทำให้สร้าง DMG <nobr>#3[i]</nobr> ครั้ง โดยแต่ละครั้งจะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span> <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> ของ ATK ของ Khaslana แก่ศัตรูหนึ่งตัวแบบสุ่ม เมื่อใช้ <u>\"พินาศ\"</u> <nobr>#4[i]</nobr> หน่วย จะสร้าง DMG <span style=\"color:#FFFFFF;\">กายภาพ</span>อีก <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ของ ATK ของ Khaslana โดยจะแบ่งปัน DMG นี้ให้แก่ศัตรูทั้งหมดเท่าๆ กัน",
+   "ultimateCost": 0,
+   "break": "10/hit",
+   "energy": "0/hit",
+   "id": 30838253,
+   "name": "Foundation: Stardeath Verdict",
+   "iconPath": "43d88c89dfa9d3bc61dad2b0f7a23a2dc810485d887e44613cf525521d07115a",
+   "typeDescHash": "สกิลต่อสู้",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2.25,
+      0.225,
+      4,
+      4,
+      5.85
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.475,
+      0.2475,
+      4,
+      4,
+      6.435
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2.7,
+      0.27,
+      4,
+      4,
+      7.02
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635680,
+       "count": 3
+      },
+      {
+       "id": 3517880,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2.925,
+      0.2925,
+      4,
+      4,
+      7.605
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920207,
+       "count": 3
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3.15,
+      0.315,
+      4,
+      4,
+      8.19
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920207,
+       "count": 5
+      },
+      {
+       "id": 3276614,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      3.375,
+      0.3375,
+      4,
+      4,
+      8.775
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920207,
+       "count": 7
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      3.65625,
+      0.365625,
+      4,
+      4,
+      9.50625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836266,
+       "count": 3
+      },
+      {
+       "id": 3526997,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3.9375,
+      0.39375,
+      4,
+      4,
+      10.2375
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836266,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      4.21875,
+      0.421875,
+      4,
+      4,
+      10.96875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836266,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      4.5,
+      0.45,
+      4,
+      4,
+      11.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836266,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      4.725,
+      0.4725,
+      4,
+      4,
+      12.285
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      4.95,
+      0.495,
+      4,
+      4,
+      12.87
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5.175,
+      0.5175,
+      4,
+      4,
+      13.455
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5.4,
+      0.54,
+      4,
+      4,
+      14.04
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5.625,
+      0.5625,
+      4,
+      4,
+      14.625
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1408101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1408202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1408203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1408204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 21056949,
+          "name": "เสริมความเร็ว",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+          "statusList": [
+           {
+            "key": "ความเร็ว",
+            "value": 2,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920207,
+            "count": 3
+           },
+           {
+            "id": 3276614,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 21274543,
+        "name": "เสริม DMG คริติคอล",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "DMG คริติคอล",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920207,
+          "count": 3
+         },
+         {
+          "id": 3276614,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21012952,
+      "name": "เสริมอัตราคริติคอล",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "อัตราคริติคอล",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "เมื่อเริ่มการต่อสู้ จะได้รับ \"เชื้อ<span style=\"color:#F84F36;\">ไฟ</span>\" <nobr>#2[i]</nobr> หน่วย และเมื่อสิ้นสุดการแปลงร่าง จะได้รับ \"เชื้อ<span style=\"color:#F84F36;\">ไฟ</span>\" <nobr>#1[i]</nobr> หน่วย",
+    "ultimateCost": 0,
+    "id": 20773223,
+    "name": "March to Oblivion",
+    "iconPath": "2629f29dada45fbb6d9f677bc3e9bcd21cc7ac1ef82aae9345dc81683bdcd7da",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       3,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635680,
+        "count": 3
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1408102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1408205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1408206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1408207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 21350270,
+          "name": "เสริม DMG คริติคอล",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+          "statusList": [
+           {
+            "key": "DMG คริติคอล",
+            "value": 0.08
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836266,
+            "count": 3
+           },
+           {
+            "id": 3526997,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 21096850,
+        "name": "เสริมอัตราคริติคอล",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "อัตราคริติคอล",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836266,
+          "count": 3
+         },
+         {
+          "id": 3526997,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21314439,
+      "name": "เสริม DMG คริติคอล",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "DMG คริติคอล",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "เมื่อได้รับเอฟเฟกต์รักษา หรือโล่จากเพื่อนร่วมทีม จะสร้าง DMG เพิ่มขึ้น <nobr>#1[i]%</nobr> เป็นเวลา <nobr>#2[i]</nobr> เทิร์น โดยเอฟเฟกต์นี้ จะไม่สามารถเกิดขึ้นซ้ำในเทิร์นเดียวกัน<br />เมื่อได้รับการฟื้นฟูพลังงาน จากเอฟเฟกต์สกิลของเพื่อนร่วมทีม จะได้รับ \"เชื้อ<span style=\"color:#F84F36;\">ไฟ</span>\" <nobr>#3[i]</nobr> หน่วย",
+    "ultimateCost": 0,
+    "id": 20482903,
+    "name": "Bide in Flames",
+    "iconPath": "1893e4f058aa8baca040d83aa18ca53bdd9b127776a8d45b5188b98fb81fdf39",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       0.45,
+       4,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920207,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1408103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1408208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1408209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 21390166,
+        "name": "เสริมอัตราคริติคอล",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "อัตราคริติคอล",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1408210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 4346046,
+        "name": "เสริม DMG คริติคอล",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "DMG คริติคอล",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836266,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21083458,
+      "name": "เสริมความเร็ว",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "ความเร็ว",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 3526997,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "เมื่อเข้าสู่การต่อสู้ หรือสิ้นสุดการแปลงร่าง ATK จะเพิ่มขึ้น <nobr>#1[i]%</nobr> โดยเอฟเฟกต์นี้ สามารถซ้อนทับได้มากสุด <nobr>#2[i]</nobr> ชั้น",
+    "ultimateCost": 0,
+    "id": 20796747,
+    "name": "Shine with Valor",
+    "iconPath": "04fd54208405ebbae65de9f4712caf91b60f2dbacc306ac0cf216411682a695c",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.5,
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836266,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1408201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 21296072,
+    "name": "เสริม DMG คริติคอล",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+    "statusList": [
+     {
+      "key": "DMG คริติคอล",
+      "value": 0.053
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 34,
+   "title": "พบกันครั้งแรก",
+   "text": "สวัสดี ฉันคือ Phainon แห่ง Elysiae ในฐานะที่เป็นคนต่างแดนใน Okhema เหมือนกัน การได้มาพบเจอกันถือเป็นโชคชะตาอย่างหนึ่ง ตามฉันมาสิ ไม่แน่ว่าในอนาคต เราอาจได้ร่วมรบเคียงบ่าเคียงไหล่กันก็ได้นะ",
+   "unlockRequirement": "",
+   "cnUrl": "9ddc27a89668c73fd12e1f1ea7c5d5b6536b1c99cac06d4370f121fc54eec931",
+   "jpUrl": "30a1d22658a2210fe05db0520e0f59c1f92f08e6e6f9713f43ca063fec124fdf",
+   "enUrl": "9cf80f3048132c4d014325d1be43c739656e560f07eb7e45153688d4a540465f",
+   "krUrl": "5973d76cd7b327e7d18a29f457e7e09c6e2152db75f2aea0e12da35db1032736"
+  },
+  {
+   "id": 35,
+   "title": "ทักทาย",
+   "text": "กำลังอยากไปหาอยู่พอดีเลย ไปเถอะ ไปฝึกกันหน่อยดีไหม?",
+   "unlockRequirement": "",
+   "cnUrl": "e0ecc0df2e4399dd8f8318738255ec3bd3476e0dce1e1c1f89c78e0bcb45a3fa",
+   "jpUrl": "6d7527b56639ff79ef662b5f0bec65a673c21d4c60f6511ef1e83e6e885012a4",
+   "enUrl": "74452fd34b98cfd6284041e617cbf7704d0bbc440f030a7c9a5b045bf6cff95b",
+   "krUrl": "98e0f2261cddb5ed3cc4da67f6c33e4ea238ced2dfe1038af9ed1128158e3773"
+  },
+  {
+   "id": 36,
+   "title": "บอกลา",
+   "text": "ลาก่อนนะ เพื่อน หวังว่าตอนที่ได้เจอกันอีกครั้ง พวกเราจะกลายเป็นวีรชนในใจของกันและกันนะ!",
+   "unlockRequirement": "",
+   "cnUrl": "7899fb6a7098615005971512ac3f0dbb353a697250ab710ad6e5afd2d34102bc",
+   "jpUrl": "66f732b4d99921caccec4168edcbb61c6a264b8cc8956701a3c47a8df3be6e40",
+   "enUrl": "dc42a9f3a4cf946058733b05bb9acc9a2a5c93ea89c5c8d62cb39c08514577c1",
+   "krUrl": "e8de46250b95e3cb1d1a9d4a3450d08c9115749918b3e3191f8d0dda50a0f1a0"
+  },
+  {
+   "id": 1,
+   "title": "เกี่ยวกับตัวเอง - ความปรารถนา",
+   "text": "ตั้งแต่ที่บ้านเกิดถูกทำลายโดยนักดาบชุดดำ ฉันก็หนีมายังเมืองศักดิ์สิทธิ์เพื่อตามหารุ่งอรุณ ในฐานะผู้สืบสายโลหิตทอง ความปรารถนาของฉันไม่เคยเปลี่ยนแปลง มีเพียงการแบกรับความปรารถนาของผู้อื่น ไล่ล่าเปลวไฟ และสร้างวันใหม่ขึ้นมาก็เท่านั้น...",
+   "unlockRequirement": "",
+   "cnUrl": "903f1269e514f3df0681f0af73c3a48173c1c7a6a6bc8f8b51f9ee533a648954",
+   "jpUrl": "e625025dff8b88b2866de0cfc584082c2164acb667a6795fb04c92978cfb86e8",
+   "enUrl": "caaa44965a4241f4b35aa66ae8b7e2f9a969bd24fa4baf2bb09b7b44fc61989d",
+   "krUrl": "fe2619f2cb83aed46ad45e5e54aeef6ca1840ff2f65c17968f90da8fb3e56500"
+  },
+  {
+   "id": 2,
+   "title": "เกี่ยวกับตัวเอง - ความปรารถนา",
+   "text": "ตั้งแต่ที่บ้านเกิดถูกทำลายโดยนักดาบชุดดำ ฉันก็หนีมายังเมืองศักดิ์สิทธิ์เพื่อตามหารุ่งอรุณ ในฐานะผู้สืบสายโลหิตทอง ความปรารถนาของฉันไม่เคยเปลี่ยนแปลง มีเพียงการแบกรับความปรารถนาของผู้อื่น ไล่ล่าเปลวไฟ และสร้างวันใหม่ขึ้นมาก็เท่านั้น... แต่ตอนนี้ฉันรู้แล้วว่า Amphoreus ไม่มีวันพรุ่งนี้... จนกระทั่งเธอ/นายได้มาถึง",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\"",
+   "cnUrl": "b8c962bf57040d821812ae74436b7c15f5be1d8302d68404d29246def599fb22",
+   "jpUrl": "9cb2be658de21474245d19b24b96a0eed109da6219c4a2127d02673d57692fb8",
+   "enUrl": "a95086cdde92b6b8f6cc4e0bd1324e56f7e9b03febbea11dcc2fada07ded22a2",
+   "krUrl": "5846a862b97f398b129c5a8a7ea1ff6164ed4e9e172be0c3e7431015e3b55dcd"
+  },
+  {
+   "id": 3,
+   "title": "เกี่ยวกับตัวเอง - อดีต",
+   "text": "ตอนเด็กๆ ฉันมักจะจินตนาการว่าตัวเอง ได้ฝึกวิชาดาบกับผู้กล้าจากต่างแดน ไปกำจัดปีศาจร้าย และก้าวเข้าสู่การเดินทางกอบกู้โลก... ตอนนี้ ความฝันนี้ก็ถือว่ากลายเป็นจริงแล้วใช่มั้ย?",
+   "unlockRequirement": "",
+   "cnUrl": "8c934488778e41e2cc26c7341f940039cff8d30106caf3c0c336d01fb5c1ec3a",
+   "jpUrl": "f1ec06dfbceaac0afb90994da48a22f81d8e9a1435d7842bcf64f12497c3965a",
+   "enUrl": "bba3a7d069486a12cb36749fa4d4128cd794a25603afe73e0864d4eaef59baa7",
+   "krUrl": "cb9b74332010290d7a3310847c543f5f6253f1420cdd8ce56866e783120b422f"
+  },
+  {
+   "id": 4,
+   "title": "พูดคุยทั่วไป - วีรชนในใจ",
+   "text": "ทุกคนต่างก็มีภาพของวีรชนอยู่ในใจกันทั้งนั้น พวกเราใช้คมมีดแห่งกาลเวลามาสลักตัวเองทีละน้อย จนกระทั่ง \"เขา\" กลายเป็นความจริง และกลายเป็นผลงานที่สมบูรณ์แบบที่สุดในมือ",
+   "unlockRequirement": "",
+   "cnUrl": "951b50575e0379623dba87b420f447edbad93a67428950c447774f0bb5f9b9dc",
+   "jpUrl": "ca3aae347b28e689556857df04adb7231a18702ee613df60e6b0e97142614989",
+   "enUrl": "aaff0cf8ed1ffdffcd50103ac9fa69e96f10508912a5f3eeae4df8e9ff573cad",
+   "krUrl": "e20b8636180b404f5c80aa1e9f33ab28a109a401bdd21ed3936fa6617436cef1"
+  },
+  {
+   "id": 5,
+   "title": "งานอดิเรก - ประเมินสมบัติ",
+   "text": "การแยกแยะวัตถุโบราณไม่ใช่เรื่องยาก สิ่งที่ทดสอบจริงๆ ไม่ใช่สายตาอันเฉียบแหลม แต่เป็นวาทศิลป์ต่างหาก ถ้าสามารถทำให้ผู้คนเชื่อจากใจว่า สมบัติในมือเป็นของปลอมได้ ไม่ว่าทำอะไรก็จะสำเร็จแน่นอน",
+   "unlockRequirement": "",
+   "cnUrl": "68cba5c3b8406a4fc095e17c027bc50fef4b669b99cd8bdf5b285e57e63cbf1e",
+   "jpUrl": "fb46d2d426ba62cdb08b798791f5f802e718821bf17dcec24a28f59fe787b200",
+   "enUrl": "0e0015f899a282e2cdf8df011c6ea7c2a66750c912b0a913a07dfaff4393b179",
+   "krUrl": "55b0716f7641b2af952a09c011042baa46a0770490034910a965271958ee16aa"
+  },
+  {
+   "id": 6,
+   "title": "เรื่องกลุ้มใจ",
+   "text": "ความกระหายในการแก้แค้นคอยประคับประคองให้ฉันก้าวไปข้างหน้ามาโดยตลอด ถึงจะรู้สึกไม่สบายใจ แต่ฉันก็เชื่อว่า ปลายทางของค่ำคืนอันยาวนาน จะต้องเป็นแสงสว่างอย่างแน่นอน",
+   "unlockRequirement": "",
+   "cnUrl": "369f9ef37ba12a9be470b03c0a2e9ff120e608a71cef964bea423dfc53ed6f15",
+   "jpUrl": "6d96846a408a0c012ae5b61051efcbdbbdd2b3b025395749364e8736fd1df883",
+   "enUrl": "ac3847a378dea50d6d215c01ed9d0926a37fa659c0bf58f9283db93fa0f14bdc",
+   "krUrl": "c3a9021f0ac1132e0499500a9a9f5a12cc211cfb2b1c8fbf4468267f6bf83761"
+  },
+  {
+   "id": 7,
+   "title": "เรื่องกลุ้มใจ",
+   "text": "ความกระหายในการแก้แค้นคอยประคับประคองให้ฉันก้าวไปข้างหน้ามาโดยตลอด ถึงจะรู้สึกไม่สบายใจ แต่ฉันก็เชื่อว่า ปลายทางของค่ำคืนอันยาวนาน จะต้องเป็นแสงสว่างอย่างแน่นอน และแสงสว่างนั้น ก็หาใช่ตะวันแรงกล้าที่ลุกโชนจากการแบกโลกา แต่เป็นเพลิงโทสะที่แผดเผาร่างกายฉัน!",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\"",
+   "cnUrl": "6315b6ea74bc9950854e659c1f8df56786380af7aaee4afca47644f826251898",
+   "jpUrl": "dc7b48af0719ecb0a40dd34655de930edb7cc4a23a6cf68a4a24d4679367cf98",
+   "enUrl": "c59642399d9fd708935ad08bf2f32c4148a0633a3535170f42e1c866737fb9f3",
+   "krUrl": "fd1e46c038efcbcdf2705c4661c92258fa0874ca911d691c1d28200c9fe2bdfe"
+  },
+  {
+   "id": 8,
+   "title": "เรื่องที่อยากจะแบ่งปัน",
+   "text": "ทุ่งข้าวสาลีของ Elysiae กว้างใหญ่เหมือนผืนทะเลเลยล่ะ ตั้งแต่เมล็ดพันธุ์งอกเงยจวบจนรวงข้าวร่วงโรย ผู้คนล้วนถือกำเนิด เล่นสนุกและเติบโตขึ้นที่นี่... ต่อมาไม่ว่าจะไปที่ไหน ฉันก็มักจะได้กลิ่นหอมของข้าวสาลีลอยมากับลมเสมอ พอมาคิดๆ ดูแล้ว คงเป็นเพราะแบบนี้ ฉันถึงไม่เคยเดินออกนอกลู่นอกทางเลยสินะ",
+   "unlockRequirement": "",
+   "cnUrl": "e560568d3bb6623d4a2393900428f9c38fb09619bb9a8b5bd8b8bf4729e6931c",
+   "jpUrl": "17a7162c9a09e11d32c529659af06fc0e3dc193fdb166c0f2fbeb3500c5b7ce5",
+   "enUrl": "c429de292e1e47ec44391f63b5abf5b703118bf2b17e2b4833094a49888023b2",
+   "krUrl": "d0cbfd224fbc739731eba8e9e1eeb73f659afd0c3a3122318f6acca1357aa042"
+  },
+  {
+   "id": 9,
+   "title": "ความรู้",
+   "text": "ไม่รู้ทำไม ฉันมักจะฝันเรื่องเดิมทุกครั้งเลย... ในยามพระอาทิตย์ตก ฉันกำลังแบกหินยักษ์ก้อนหนึ่งปีนขึ้นยอดเขา และเมื่อรุ่งอรุณมาเยือน หินยักษ์ก็กลิ้งลงไป ฉันจึงแบกมันขึ้นอีก แล้วเดินทางขึ้นสู่ยอดเขาอีกครา...",
+   "unlockRequirement": "",
+   "cnUrl": "fac4fdb446006077ae5099680802916a238cbf17e8f369aed637bb89008241b8",
+   "jpUrl": "014a42ddac64fbe3853f930650def9a58574fdad8b0dda2f99770c59443b038b",
+   "enUrl": "1b4d6229a861a357678422a5838fe97d7bdcaa8c8c2e7ace48d150f0871217e1",
+   "krUrl": "2c641f16603b7d3f80e8c24ab6af826c730e628ffd273e6709a0a819d339132c"
+  },
+  {
+   "id": 10,
+   "title": "ความรู้",
+   "text": "ไม่รู้ทำไม ฉันมักจะฝันเรื่องเดิมทุกครั้งเลย... ในยามพระอาทิตย์ตก ฉันกำลังแบกหินยักษ์ก้อนหนึ่งปีนขึ้นยอดเขา และเมื่อรุ่งอรุณมาเยือน หินยักษ์ก็กลิ้งลงไป ฉันจึงแบกมันขึ้นอีก แล้วเดินทางขึ้นสู่ยอดเขาอีกครา... การเดินทางที่ทรมานและสิ้นหวังนี้ ก็เป็นช่วงเวลาเดียวที่ทำให้ฉันมีความสุขเช่นกัน! เชื้อไฟหลายล้านดวง... พวกมันแผดเผาจิตวิญญาณของฉัน แต่ก็มอบความอบอุ่นให้ฉันด้วยเหมือนกัน",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\"",
+   "cnUrl": "b875288fdbee88a1c7f6bf14199786dad8aacac1aba799d310087015303c7f3b",
+   "jpUrl": "d90fdab0f06f526d0aa93a1aeff950852988f0282d8c14fea03dc0e3cefda565",
+   "enUrl": "3e913a7e8e38fc47ca9e6ded00e159a26e669fe2841b81fc29c0c033c29b0610",
+   "krUrl": "e4daaf425e5f0b256fd1f1ccd4989cbb27e264fa0853b337ee8d5bd7b914323d"
+  },
+  {
+   "id": 11,
+   "title": "เกี่ยวกับ ผู้บุกเบิก 1",
+   "text": "ช่วงที่ผ่านมานี้ ฉันได้เรียนรู้จิตวิญญาณของการ \"บุกเบิก\" มาจากเธอ/นายไม่น้อยเลยล่ะ การท่องไปในทะเลดวงดาว และเชื่อมโยงโลกต่างๆ เข้าด้วยกัน... ถ้าไม่ใช่เพราะมีภารกิจที่ต้องทำ ฉันก็อยากจะลองเป็นผู้มาเยือนนิรนามดูเหมือนกัน!",
+   "unlockRequirement": "",
+   "cnUrl": "3fce82351f8df15549b07f104f94e883200f1f4a4f9e2147da6dae80d3a89060",
+   "jpUrl": "052589e6e759f404cbe927791bfaf765a63d22d2ee00d1560b666f37d4295653",
+   "enUrl": "5fc46642e3b1a263ff81e197bd297329dbcd7ba0125d0d88cbf4cb85c37e3c97",
+   "krUrl": "3c38ef7c45caf49e64d465f7381ed9db0c3cc5393c2174deb56f3fdf884f8836"
+  },
+  {
+   "id": 12,
+   "title": "เกี่ยวกับ ผู้บุกเบิก 2",
+   "text": "...บางทีส่วนประกอบชีวิตของเราอาจจะแตกต่างกันมาตั้งแต่แรก แต่ \"หัวใจ\" ที่เต้นอยู่ในอกนั่น ต่างก็ร้อนแรงไม่ต่างกัน",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\"",
+   "cnUrl": "4afd0870cf8e963137e35f92e25f14dd6649f97b0e2e397b6101112719180e61",
+   "jpUrl": "1da05a87d6ed0bc75ccb08039f010a58c0314a322e975cea2baf44fbfc86ed04",
+   "enUrl": "cb8d768e2eed4a076d64caad99e04ffaae8d47c06ec0ee6bdf5c25a2e4898273",
+   "krUrl": "056b91c5a6d98d47de37a2bc739312dd01b9da4565bea4a90fc18c8c5f035c4c"
+  },
+  {
+   "id": 13,
+   "title": "เกี่ยวกับ Cyrene",
+   "text": "เธอมักจะพูดเสมอว่า จะตั้งตารอวันที่โลกไม่ต้องการผู้กอบกู้ แต่เจ้าตัวก็รู้อยู่แก่ใจมานานแล้วล่ะว่า ตราบใดที่ยังมีคนรักโลกใบนี้ ผู้กอบกู้จะถูกกำหนดให้มาเยือนอย่างแน่นอน",
+   "unlockRequirement": "",
+   "cnUrl": "4ae0a63119bec7e6f8fa8d33ad01ebf2182a471ef34003dbc4a4cf9d5c62cb22",
+   "jpUrl": "03e6d7bf59ff101a7c7544403fd24a2fb22285dffcdbac45da9080f2ea1d1e0d",
+   "enUrl": "8255582ee0d624a928081ec8dd512ec0573bd916d24f6decd919ede52a98373d",
+   "krUrl": "158694b7c6bc8dfe2ed9f6c0c7a75ea4d1f63f8d16799bbeeaa10af55fd80b88"
+  },
+  {
+   "id": 15,
+   "title": "เกี่ยวกับ Aglaea",
+   "text": "หลายคนบอกว่า หัวใจของเธอว่างเปล่าและไม่มีอะไรอยู่ทั้งนั้น แต่หัวใจที่ดูเหมือนว่างเปล่าดวงนี้แหละ ที่สามารถบรรจุความปรารถนาทั้งหมดของโลกเอาไว้ได้",
+   "unlockRequirement": "",
+   "cnUrl": "3add8b3da0153350a7001f9d96f6f1b88fea3aefd5d9266bca9bfeed3c7c5dfa",
+   "jpUrl": "d5b6cde3e39236265721c12364824b3b49d9a75ff79bbf56afb908066231df67",
+   "enUrl": "1b2500f69648639c02b6402f37e8399a3c01b54f0435951aa5f7620631661eaa",
+   "krUrl": "c5483d8b7e783704e9676a71ffb488c9654984e7a872ad1dcbbf48222ea78684"
+  },
+  {
+   "id": 16,
+   "title": "เกี่ยวกับ Trinnon, Tribbie และ Trianne",
+   "text": "เหล่าอาจารย์ได้สร้างประวัติศาสตร์ บอกเล่าประวัติศาสตร์ และกลายเป็นส่วนหนึ่งของประวัติศาสตร์... แต่ปณิธานของพวกเธอก็ไม่เคยแตกสลายเพราะกาลเวลาอันยาวนานเลย ฉันเองก็ควรจะเป็นแบบนั้นเหมือนกัน",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"ผู้มาเยือนเอ๋ย โปรดแสดงอดีตอีกครา\"",
+   "cnUrl": "3d4d2a430e0d639d6994899985d9bcd0c7bf71471e84681fc6820d9ceba5bdc3",
+   "jpUrl": "089c93e06334d320d67a8c1e9a594d9390f4ff22c8febdd3c58c758c29bc651d",
+   "enUrl": "39522f617abf45cc6af21b392e5eb21f8c5000d7bce2b3a91ee0b6075acaffc5",
+   "krUrl": "6d77cf03467a2d197852398c75363cfb659cb9d6d3246efca7b62276885932af"
+  },
+  {
+   "id": 17,
+   "title": "เกี่ยวกับ Mydei",
+   "text": "ถึงเจ้าหมอนี่จะไม่เคยเปิดเผยความในใจออกมา แต่อารมณ์ความรู้สึกของเขากลับชัดเจนอยู่เสมอ... มันเรียบง่ายซะจนมีแต่บ้านเกิดของเขา และก็หนักอึ้งซะจนหลงเหลือแต่เสียงถอนหายใจ... บางที นี่อาจจะเป็นสาเหตุที่ทำให้พวกเรากลายเป็นเพื่อนร่วมทางกันก็ได้",
+   "unlockRequirement": "",
+   "cnUrl": "fd67081be4bf8335ec24bf7cdc248deca140b7a66432ed391f049fef0c20bd9a",
+   "jpUrl": "f4e44bde7b6698e631c969d2bf04174a9c07c0efd1c97b8f027b1584fb9bdffb",
+   "enUrl": "9d5271afdaeb6fa5d1adc3437cca8a2b93e8ca0ec57dc64c52a7b94713b5f0b6",
+   "krUrl": "69c328f9e58934980120e28d5a18aa7e2502807f16113c13ca1cf0861d3ce85c"
+  },
+  {
+   "id": 18,
+   "title": "เกี่ยวกับ Castorice",
+   "text": "เธอบอกพวกเราว่า ความตายสามารถเป็นสิ่งที่อบอุ่น งดงาม และเป็นมิตรได้... ถ้าอย่างนั้น การมีชีวิตก็ยิ่งควรเป็นแบบนี้เหมือนกันไม่ใช่เหรอ?",
+   "unlockRequirement": "",
+   "cnUrl": "bb30f5063669860a09f42790cbcf123be6b339c8ab57fef0a0a937cb774d1589",
+   "jpUrl": "f189d4a8471abe130c79edf8138df8b36249e3de48e356e7f1c7953fc28d7a45",
+   "enUrl": "bb17ece9c7ed448e1f7d50b7be87a479c864ab446d672b385900a456fc7eac11",
+   "krUrl": "27e9a577d2d020a09c652a2872d14aac6e459b0fb0f6ac902586c4528a0a361a"
+  },
+  {
+   "id": 19,
+   "title": "เกี่ยวกับ Anaxa",
+   "text": "\"ชายผู้ถูก Mnestia สาป\" ...อาจารย์มักจะเรียกฉันแบบนี้บ่อยๆ และฉันก็ยอมรับมันด้วยความยินดี เพราะยังไง ความกล้าหาญอันเป็นเอกลักษณ์นี้ ฉันก็เรียนรู้มาจากอาจารย์นั่นแหละ",
+   "unlockRequirement": "",
+   "cnUrl": "7125a32a448fe56812f71ef4ffef01d6e1b38e3567297bd9a6387b07ade49d38",
+   "jpUrl": "24d64776297daac0c1a2867ff4352061be7aabe4eb28f333e0a48e060c244e45",
+   "enUrl": "41047201b9d01fc89a09eb5c37baec3b42d1b3919dddea2a9480bd1ee6e50ac7",
+   "krUrl": "611b276bcfb8c36310df4f9646963683cde50291aada53146fe4f9ccad95c79b"
+  },
+  {
+   "id": 20,
+   "title": "เกี่ยวกับ Hyacine",
+   "text": "ทุกครั้งที่ไปยังลานสวนที่มีแสงแดดส่องแห่งนั้น แสงเรื่อเรืองที่ส่องลอดผ่านหน้าต่าง มักจะทำให้ฉันนึกถึงทุ่งข้าวสาลีที่บ้านเกิดตลอดเลย ในวาระสิ้นโลกนี้ ความหวังที่เธอมอบให้ มันล้ำค่ายิ่งกว่ายาหรือการรักษาใดๆ ซะอีก",
+   "unlockRequirement": "",
+   "cnUrl": "b995626c3966064fdcc43f2360e65482ea166c2eae6e896573f4f03b1a0fcdcf",
+   "jpUrl": "87a62eab97e95c9256c96f904b29e863bbcbab47a5198cd8f4173fbcee46c666",
+   "enUrl": "b24afd9f30ac2eb9b32fd547435248ff5d66ee32d5bb223c838532ee6368b717",
+   "krUrl": "ced8450b33ee5c336b14e744a7dd62c269c2fcec6308a703682620cbc7221e2a"
+  },
+  {
+   "id": 21,
+   "title": "เกี่ยวกับ Cipher",
+   "text": "เธอหยอกล้อกับความตายและเล่นซ่อนหากับปฏิปักษ์ เธอรักษาคำโกหกด้วยพลังของตนเพียงลำพัง ความอดทนและไร้ข้อผูกมัดแบบนี้ ช่างน่านับถือจริงๆ",
+   "unlockRequirement": "",
+   "cnUrl": "b94c576cd1d3fc6cebe48d04d89fb6af0d09f916f1b2a2a952023ceb6b355d3b",
+   "jpUrl": "a3aff21a6ae352b6e5417444b4197eb8b3d7d658b27a6a157a112092d2876988",
+   "enUrl": "aecf1a61b4f1dfe83dcfd4fa27ab7ef6c8e0d34ad95497ddf12b5c89ec9eddcb",
+   "krUrl": "147c48c5590b734c37cf2f8f78e7b617cccee3cb4222a5c4cb1e5531097d2afe"
+  },
+  {
+   "id": 22,
+   "title": "เปิดใช้งาน Eidolon",
+   "text": "โชคชะตาเพียงพอที่จะก้าวข้ามคำพยากรณ์ศักดิ์สิทธิ์",
+   "unlockRequirement": "",
+   "cnUrl": "3b73d7fc8964a4588e0922c1b69ca2e77a1edfcb6946aaeef74d610c56ac3e56",
+   "jpUrl": "5b30758a61e0bba80ef84834c1f16dbc0258346a83c3b6aef7273b7e350f7b41",
+   "enUrl": "4cd671e8bdf501d756a195f50e5f2fa065bdd9f387e8573162c012d180ea86c9",
+   "krUrl": "74bf39917e6c4362bccaaf99ed140a02c91c2ef685026e6f403ab782eb7d1352"
+  },
+  {
+   "id": 23,
+   "title": "เลื่อนขั้นตัวละคร",
+   "text": "โลหิตสีทองจะไม่หลั่งรินโดยสูญเปล่า",
+   "unlockRequirement": "",
+   "cnUrl": "455ca815fba320bf11d4cb75a50d2bc079cde51e8097df26931c755a15798c84",
+   "jpUrl": "0f7df9938e49cccaef33171c35a107a85d124d2f8d4294a3da3502620d1c10fe",
+   "enUrl": "dd10380a93f7dd9c0bd03dd657991817de4c11d3c3a4b42d7213a0e40e0d789b",
+   "krUrl": "71a5db6b2626347689cce3868d66f25ad666abc1a015fe50ca9a01bbddfbd3b7"
+  },
+  {
+   "id": 24,
+   "title": "ตัวละครถึงเลเวลสูงสุด",
+   "text": "สุดท้าย พวกเราจะกลายเป็นผู้จุดเปลวไฟของโลกใบใหม่",
+   "unlockRequirement": "",
+   "cnUrl": "40ba9e7e09dc1eede0d433d213a2f156e996468f9f73191a970a556758620e5e",
+   "jpUrl": "46e14fa64d59b3cc99cd46321f30bececee08b3c0726c28d6844219a2d8f980b",
+   "enUrl": "549a3ec2a87cd21a75180d1ced0829e1f0446c86e32df311c82379c566424279",
+   "krUrl": "0801eb155e73ff2b692774b0aa1cfdd5acaa8beb967bc9a06675ba5b141027ce"
+  },
+  {
+   "id": 25,
+   "title": "เปิดใช้งาน Trace",
+   "text": "ทุกย่างก้าวในเถ้าถ่าน ล้วนเคยเกิดประกายไฟ",
+   "unlockRequirement": "",
+   "cnUrl": "8bd5788f1341272c1c7f2b16ec7b581cc0613a5d14f91c39816691e5680de598",
+   "jpUrl": "a95b0f20e6bcd8b2c7c9dd66b579481f3ea0f2c96dfc987d48312fd557ff54ed",
+   "enUrl": "61441eeeecb3cdc10d7bb82a5dbe0bdc5b161df638a93ba2722df7ecd855559b",
+   "krUrl": "302042694339969ff5ceb9201786536d4405ec7f7366a2019533867d120384c5"
+  },
+  {
+   "id": 26,
+   "title": "สมาชิกทีม - ผู้บุกเบิก",
+   "text": "ไม่ว่าเมื่อไหร่ พวกเราก็สามารถสู้เคียงบ่าเคียงไหล่กันได้เสมอ",
+   "unlockRequirement": "",
+   "cnUrl": "eb132aca6f9b4c697f7e0b5465f94eefb8be588727d3fa28587d2eed3676c514",
+   "jpUrl": "81d725d6bc15dfb1bc6066836e3d7fbcbec1976ad48b6b2d006e6b80b09cf066",
+   "enUrl": "21c539e393c84a50bb2b8b8af0eebd1d12a4d598bb5b196ffb69453e1a675836",
+   "krUrl": "1af6c6d981e83478cec9a64303086be0b2d2626c491db6442e451ab05066e381"
+  },
+  {
+   "id": 27,
+   "title": "สมาชิกทีม - Aglaea",
+   "text": "ทุกอย่างพร้อมแล้ว ได้เวลาออกศึกแล้วล่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "401af77029edfc86ff1c71dabcd2398f20a32cba675a4dc2505a1d1ab0c41cd6",
+   "jpUrl": "bd58861263cdaf8ac3e9376baa7a10187ffdb398e38cf1de818e039d319b6e28",
+   "enUrl": "193cc6e259f546bab052abdf396c2f594822aeab0dd2fb0f978eb768d94872ac",
+   "krUrl": "e2cb3dbb97af5bf37bba43a934331b48b0ce2f04189f739442bbd5b71770f3e4"
+  },
+  {
+   "id": 28,
+   "title": "สมาชิกทีม - Castorice",
+   "text": "แม้จะเผชิญหน้ากับความตาย มนุษย์เราก็ยังเลือกได้",
+   "unlockRequirement": "",
+   "cnUrl": "ab1165a4e4180d27f45eca41aa61b17acfb00eee5a9df72cec3d0ee1e0ad666c",
+   "jpUrl": "1032191aafd5ea613048a4630dcc826f313392552442fe9cd06f22f212634f04",
+   "enUrl": "f83c72bf94ee18629d58f0c4b041f4c0903b85b63eca93d96998cb1ed53e8ad7",
+   "krUrl": "de89cf9a1e0d0b76062a3534bedbe8e01eeb648f27a704a7db360dfc53a720a2"
+  },
+  {
+   "id": 29,
+   "title": "สมาชิกทีม - Tribbie",
+   "text": "อาจารย์ Tribbie คอยสั่งการจากที่ไกลๆ ก็พอแล้วล่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "8306f0a559e21db7b20f70ab12e723d6525052e054c18b25319d44edbbacd91a",
+   "jpUrl": "f2af6a90127e2d9c2526f597a7d8fe6704e04bb0a28321407f2a81b83e4656ee",
+   "enUrl": "b72a085deb31bc58afa5ea25dc2b15cc2d26762f719d22635b05eb57f9de7ec6",
+   "krUrl": "327192bc3cd3838e96da04297e500adc084a38137aeb8d48c4e21b4c388b8f8d"
+  },
+  {
+   "id": 30,
+   "title": "สมาชิกทีม - Mydei",
+   "text": "ครั้งนี้จะแข่งอะไรดี... ความเร็วหรือว่าพละกำลังล่ะ?",
+   "unlockRequirement": "",
+   "cnUrl": "274e994dce8f34b64ca1e61317395e849de8920f5c05cb2ce9da462a306a2fea",
+   "jpUrl": "d0ec352b3eb133bcc6f3114738d0d057cf907cebb810f03e0cac2abce7a07ad5",
+   "enUrl": "feefe5e6e510d0c6c970bb5c026af3e7408bd168e6e4447c714a43a5b8227906",
+   "krUrl": "62a669f00b9624b863101511ec6585c360b18ccce4869fa36af4f2ad4337a499"
+  },
+  {
+   "id": 31,
+   "title": "สมาชิกทีม - Anaxa",
+   "text": "สนามรบก็เหมือนกับห้องเรียน ฉันจะรอฟังมุมมองเชิงลึกจากคุณนะ",
+   "unlockRequirement": "",
+   "cnUrl": "d2231b55872c7538d7bf1014191d6a5d9fd66534b2c76a8c0b5665f2ecf1fe33",
+   "jpUrl": "b1e82bf9340ec67517b4531f174eb73d8e4248e7cd84224c5e4bc0a4a313ab3b",
+   "enUrl": "0164c8a938c611ce76f44c6d58926a7f0cd698e32bf8fc3bb85edfc0e02419d7",
+   "krUrl": "5b5ea0c187d94777612d677d8976c476eef0661e9af3af38c4bd122c3722eca8"
+  },
+  {
+   "id": 32,
+   "title": "สมาชิกทีม - Hyacine",
+   "text": "ถ้าเกิดสถานการณ์ฉุกเฉิน ก็ไปช่วยรักษาคนอื่นก่อนได้เลยนะ",
+   "unlockRequirement": "",
+   "cnUrl": "e40057331b4fc06e8952aedbf0c0940a4ac7e3d2b43f995d254ac72c4b10e70f",
+   "jpUrl": "7542c425c6537f55d631bfbab03ef2d79582eb8f72365c5010c989be39ce3b8d",
+   "enUrl": "2f16ab97b19c874f9b1730b4406032eb3190612029051ff43b15861648f9a964",
+   "krUrl": "7ace393f260270dd4d65df08beba3d25f9aa108a6313e8d585c1b9e0abb8ffc0"
+  },
+  {
+   "id": 33,
+   "title": "สมาชิกทีม - Cipher",
+   "text": "คุณ Cipher มีแผนอะไรก็รบกวนช่วยบอกกันล่วงหน้าหน่อยนะ",
+   "unlockRequirement": "",
+   "cnUrl": "13e640ada9f093a7f34c573c4ae3ea0989395ac8aa1d7e1164428959d398d5a0",
+   "jpUrl": "65ea76c6b923d31507528233d971e86b118e180325c4355d859415ffac313edb",
+   "enUrl": "859e82555bd6a41897fe14c8b55e54910c4441745172227cfdd1eb3500379dac",
+   "krUrl": "72660e8f39927b495e4b1ee8f3c0f7a0c0ca752945d7609fd1e1b339fe188807"
+  },
+  {
+   "id": 51,
+   "title": "เริ่มการต่อสู้ - ทำลายจุดอ่อน",
+   "text": "จัดการให้สิ้นซากในทีเดียวไปเลย",
+   "unlockRequirement": "",
+   "cnUrl": "bd8b5d5955f605f2087a347f580210894caa3154c5f26f8038be15c49807a818",
+   "jpUrl": "f4d10e37ecb4f202adb472a888688ae6a2b3a7040d1cc1980faecc7ba4f1be8c",
+   "enUrl": "1568ebf6a42a8e7889b1768830114bf0a4f0056f3fd1fb175bbda3aa224c419d",
+   "krUrl": "20f63b79dae021262a275b74f322d5acbfa1746f7d8a2853fa11df4788eac004"
+  },
+  {
+   "id": 52,
+   "title": "เริ่มการต่อสู้ - เตือนภัย",
+   "text": "ได้เวลาฝึกฝนตัวเองแล้ว",
+   "unlockRequirement": "",
+   "cnUrl": "8efc6facc7e046ffb3eb7fba8b53cafe34f4311bb0330c613b4d95b610da78cb",
+   "jpUrl": "275ca02df7a685488f269197e726b254ec46bf4bd000094fea2c67a4ee56380f",
+   "enUrl": "df4ba01f20f3bab9ba1e533cfd1a6f67aed5726fcb01ed3e7b13fc3cf5d6865b",
+   "krUrl": "cf9a0eaac0fd093d2063ebada12a114f283dd3ab349729537a2aa5166c07ec1b"
+  },
+  {
+   "id": 53,
+   "title": "เริ่มการต่อสู้ (Divine Vessel) - ทำลายจุดอ่อน",
+   "text": "สัมผัสได้รึยัง? รสชาติของการถูกความโกรธแค้นแผดเผาน่ะ",
+   "unlockRequirement": "",
+   "cnUrl": "187a84b3163b34f8bc353fddd46d5319aac7bd9358c8b208c44c7d79ef90b897",
+   "jpUrl": "485d57b13a6df75c94cf8b86fb2f58b750bdfd37872fa56cc15f93c2ec8708dc",
+   "enUrl": "31ae2e93f5c5a8f01947868d32e7f1c4124c2315cfa3472f882bd79fb0b8461e",
+   "krUrl": "765ab1f56f2f7a711667c56deaa3180779fd6f13970df93062d0b8c564b3f10d"
+  },
+  {
+   "id": 55,
+   "title": "เริ่มเทิร์น 1",
+   "text": "ไม่มีทางเลือกอื่นอีกแล้ว นอกจากก้าวไปข้างหน้า",
+   "unlockRequirement": "",
+   "cnUrl": "63d9323370f5486473bfcb6c532d7f1306abc9a16341a60348600ade663b12b3",
+   "jpUrl": "2f4c4b6efab8a68a5e91ad9c82c81c03d6a6c05765dff0ff1de5abcf8da66dab",
+   "enUrl": "ff34485f08a99ca78ad56cc5d27e45a0ce549b9650cc497263a76d8f6a3196f7",
+   "krUrl": "ea258778148161923001458b0b119544afedf22c1cb711e570fb0f1d2adb767e"
+  },
+  {
+   "id": 56,
+   "title": "เริ่มเทิร์น 2",
+   "text": "ชีวิตของฉันไม่สำคัญแต่แรกแล้ว",
+   "unlockRequirement": "",
+   "cnUrl": "7a7ea970e94b9b0371972489ea971e63a2468c449f0cad79371cf5a13eb29a2f",
+   "jpUrl": "004c7a89a0e47e26fca8e7f6431bd82e022d19f0f75dcc589b696d2dacb863e2",
+   "enUrl": "7d2ef2076452b7d1aab0fb326cceab89bd00b804f58ed6bf2faa32fd57fb2df8",
+   "krUrl": "5f659130c1c84d9ad69de8075c57e558ac5ac0545d8ddcec0f1c45c48f32e059"
+  },
+  {
+   "id": 57,
+   "title": "เริ่มเทิร์น 1 (Divine Vessel)",
+   "text": "ฉันไม่ยอมจำนนต่อโชคชะตาแบบนี้หรอก",
+   "unlockRequirement": "",
+   "cnUrl": "c3c66e672691a5d3438594853d5d3ec13603a050670d4d7f4e82721ae0b59710",
+   "jpUrl": "d1849261ea81f3528eb8fecbf51df4cf057dd79a0f9a5a05b6652077bcb92b90",
+   "enUrl": "70af912f0910ee9629b1ebc09f084611f564cc2bf386e5476203c3d71f80883b",
+   "krUrl": "7800f792886eea1b9b8f31c22ac5cc079675712144102f131d16997a4d911c82"
+  },
+  {
+   "id": 58,
+   "title": "เริ่มเทิร์น 2 (Divine Vessel)",
+   "text": "เปลวไฟของร่างกายนี้ ยังไม่รุนแรงพอ",
+   "unlockRequirement": "",
+   "cnUrl": "9fc36aec99eb6655b6f69e95fe6e0a6a9306405897da70c3eb0218ef98e8c8f7",
+   "jpUrl": "b5de9eff00f85a93711977f4e538751364973750c29aeee87f8bc8722214ae9d",
+   "enUrl": "d2c66b269a65eba11060455f92afc3c9720ebd9dbd0fc7bcb4857e68c643fb85",
+   "krUrl": "9f962d3cd7e678f99c047064a7565590cfc8f633b163b9fad85111e2b658c735"
+  },
+  {
+   "id": 59,
+   "title": "เทิร์นสแตนด์บาย",
+   "text": "ไม่ว่าจะต้องรอนานอีกแค่ไหน ฉันก็จะไม่ยอมแพ้",
+   "unlockRequirement": "",
+   "cnUrl": "33ee873ada44c3ea16cf6a8673d9d740e73e9a88861abfdfdeccb6ba2998e731",
+   "jpUrl": "618401b8d0960c3c8be8f7b409601d8690d8c3901d80a6c0563c6c571eaf4362",
+   "enUrl": "367335d2d56bf74792370d6c94477a148b407d1e0af9f2a8eb57342d5d66e35b",
+   "krUrl": "70c0528cd987a083b6b6b7fb2d1eaba00827474a20e5a9819c6eb99dcd4d837e"
+  },
+  {
+   "id": 60,
+   "title": "เทิร์นสแตนด์บาย (Divine Vessel)",
+   "text": "อย่าปล่อยให้เวลาถูกแผดเผาไปอย่างเสียเปล่า",
+   "unlockRequirement": "",
+   "cnUrl": "9ee158a4dba1c1da7aa8541e53ba4c671b80f571dc6a4ee1423a710246400b28",
+   "jpUrl": "8898ab85bddea7a784cdc8bd425a6a828a7d16253f404eb08cd51ef7bf6c4da8",
+   "enUrl": "d27b8a3449688168352b249408e4d99ad490e3ae3623444ada937a6e28e95ce6",
+   "krUrl": "9554170d6f1f76f8ad96c18ef1aef345341ecda18468bbc1268ea30270ca5635"
+  },
+  {
+   "id": 61,
+   "title": "โจมตีปกติ",
+   "text": "เริ่มกันเลย!",
+   "unlockRequirement": "",
+   "cnUrl": "822147ab8e009e045216a1b235424bff3619c2bee4f1e63a6a324748a1c0be28",
+   "jpUrl": "968c02e42289e98ceb04bac64c36abd1b748de10e4918834f860c60797933299",
+   "enUrl": "71ed68593b5f014bc842fb84fa47403882f503368745f71efaacfa379613441e",
+   "krUrl": "571f10df9f0a2eeca5154239a6437a9caf0c558b2a7fe4ff1a5535eac0eaec3a"
+  },
+  {
+   "id": 62,
+   "title": "สกิลต่อสู้ 1",
+   "text": "โลกใบใหม่ จะมาถึงในที่สุด!",
+   "unlockRequirement": "",
+   "cnUrl": "3342dd157638b3458773b2a9d1c5c2213fe35e59dca5133e7bf25339f36b086f",
+   "jpUrl": "e65ce3ffa873cc6601ae7143c2d553259fb91d3555ff2ca17d57d748be90bd1d",
+   "enUrl": "4f0dcdea507a01ee97f0372a7eaea63bc2bccfb98290f408f8fa200b5aa4ee62",
+   "krUrl": "30ea562e71c8dbbf979dfd29cb5fe7a169f38e41d2c09a0414636434e4d59bbb"
+  },
+  {
+   "id": 63,
+   "title": "สกิลต่อสู้ 2",
+   "text": "เพื่อวันพรุ่งนี้ครั้งต่อไป!",
+   "unlockRequirement": "",
+   "cnUrl": "84f67a092641edd1bcd5ef8b2d2b13372d7ee4cb51f7570940c0ff682d3fb3e4",
+   "jpUrl": "2b5e008ce46c9b6fd9f2b6853c789686417bd99316af8a926f3c776e8496c3fe",
+   "enUrl": "f2bb0fde3c02141a04df0c5565251a8047dcf751f40960531c0827ecf3593111",
+   "krUrl": "462b0e0c0cbb838098da73df2c303d80d0ebdcaf888d9dc87693edc88e243b25"
+  },
+  {
+   "id": 64,
+   "title": "โจมตีปกติ 1 (Divine Vessel)",
+   "text": "ก็แค่เปลือกนอกที่ว่างเปล่า",
+   "unlockRequirement": "",
+   "cnUrl": "8bc3ade8a8f97adcbd82a1b554bdd7882538e90cabcec60a24749098da85bb08",
+   "jpUrl": "8743d193da5868a21595aebb385dd63d4567e0375b6dade09ffded59a34c8294",
+   "enUrl": "f69802195f1105f03687fa61da16060e3cc63bf015379f2246a9c90ce6020151",
+   "krUrl": "7c463bee6d556be264eb24c6b361deebf4ae6cf54ee8f3b070408e90efaeb08d"
+  },
+  {
+   "id": 65,
+   "title": "โจมตีปกติ 2 (Divine Vessel)",
+   "text": "วิญญาณปลอมเปลือกไร้แก่นสาร",
+   "unlockRequirement": "",
+   "cnUrl": "b58e47a49a09cae072c1c99219834b9ce6c5e3b4bd9e0b43f562b4ef1bf52fbf",
+   "jpUrl": "a89e20c0c604b330849ab070a8f6ec2f88e5b33c45f5a4e984f5be1fc3893e61",
+   "enUrl": "e990736b3a61320491ba095ab2786361293d13cf9b3ddc353ea6de68e7f40fe0",
+   "krUrl": "2f6baa8dc9745e2b16c46f6359fd74342a0568a0bce9c461984464028c4f457a"
+  },
+  {
+   "id": 66,
+   "title": "เสริมพลัง (Divine Vessel)",
+   "text": "ดับเพลิงด้วยโลหิต!",
+   "unlockRequirement": "",
+   "cnUrl": "f30a73fe8fbc7d3043a367edd466f68d153abef4373c5e7c24604f3f7205f25e",
+   "jpUrl": "e2ad0e3268e94ab7f2d0f2d8f815cd0287708ac52f04f9d8743f4e0ec2e5db0c",
+   "enUrl": "9469a54fee2adadcf012047d6ef9a07b304787927b61d4731a64c8f8e064b98d",
+   "krUrl": "d35a569b2e6e49fd7a0f7ed056e311638442f6b194c9b6f22a1d8c615f510911"
+  },
+  {
+   "id": 67,
+   "title": "โต้กลับ 1 (Divine Vessel)",
+   "text": "จงจดจำความเจ็บปวดนี้ไว้!",
+   "unlockRequirement": "",
+   "cnUrl": "b545d06bb803be48af7ecfc7044e2de849e11d245ee57ae583843dc954625696",
+   "jpUrl": "f7ae92befc1dc6e2acfea5517613619f8655675da500afb39d834f656566012a",
+   "enUrl": "0f4a93022a3aef31fd142c2bb4c6b57f768479ae8657a5c86e843658e0aed5fb",
+   "krUrl": "2495e03fc7bcf1a923693dbc68cfbc573e0bb4f37aef2cfa3b24944cf28768b5"
+  },
+  {
+   "id": 68,
+   "title": "โต้กลับ 2 (Divine Vessel)",
+   "text": "ประทับตราไว้ด้วยนามแห่งปฏิปักษ์!",
+   "unlockRequirement": "",
+   "cnUrl": "f960ea83c9204f1cef19b03335f412eebd2ea56c19454bccb343eacbd328fb5c",
+   "jpUrl": "e4688e265b255c15b243011c16499ffbd3c8d771017d160ac1a104b996cdea38",
+   "enUrl": "10fe5aad3dcccb1e00961a749599f2687f9ca71fc6a90a27cb1ade1bd16199f8",
+   "krUrl": "1e4f6a7caccaed5a15f3e8ed5f0c45cec8f0884826039c4b73d7e012e6d8c638"
+  },
+  {
+   "id": 69,
+   "title": "สกิลต่อสู้ 1 (Divine Vessel)",
+   "text": "จงหลอมละลายค่ำคืนอันยาวนานเถิด!",
+   "unlockRequirement": "",
+   "cnUrl": "e666329aecad541e0c287f912c51aa2eb6fd5aa29c588f13b10a558b4cbc4c8b",
+   "jpUrl": "b16a73cf33555e027109c5e583ab63644fee58604bdc57d1bfd5000c8c9e35c9",
+   "enUrl": "a1f1c58b15be0c63b44f5f937ea07726da5f79fed8bbaf1792becc9a800d9a19",
+   "krUrl": "d326b091eaefa498035b107a7b674e1136e86bc2a19923320755fa5141b254f1"
+  },
+  {
+   "id": 70,
+   "title": "สกิลต่อสู้ 2 (Divine Vessel)",
+   "text": "จงหลุดพ้นจากกรงขัง!",
+   "unlockRequirement": "",
+   "cnUrl": "7af140698c54afb01a61c060b3e757b3ab86dd51731507bb3354da9cbba2727c",
+   "jpUrl": "65cb42c8d69c0b4f71eb7152ac7ac7e68c83e16dad90d93b5a50c4483d4b1e29",
+   "enUrl": "6ad04b057a261e9b27114f8f670a385c3847ed485db90971ea64178b35d81d6f",
+   "krUrl": "673fd889385238211f791d3cbe0bc5cf5643098663bc9168ff0fea5d18f9e853"
+  },
+  {
+   "id": 71,
+   "title": "สกิลต่อสู้แบบเสริมพลัง 1 (Divine Vessel)",
+   "text": "ตะวันแรงกล้าดวงใหม่ จักฉีกกระชากผืนฟ้า!",
+   "unlockRequirement": "",
+   "cnUrl": "4fe3dce8412eea611972ebb4e7051c0e380cce43b91bb6b397413022f6310b99",
+   "jpUrl": "91642836e810b3416ef82978417fde2245acf5485741803bae6914c181cc7c69",
+   "enUrl": "e02b71fc9a0a75625d33a4692b67c4e3a88d39c0766d5f63d5e9b5d6df43a051",
+   "krUrl": "b7a4a2f4db789b7a87b0460aaf5af023d65285d33b9f5034e4253a66f88d9416"
+  },
+  {
+   "id": 72,
+   "title": "สกิลต่อสู้แบบเสริมพลัง 2 (Divine Vessel)",
+   "text": "ใช้เถ้าถ่านจากอดีตมาเป็นรุ่งอรุณของโลกใหม่!",
+   "unlockRequirement": "",
+   "cnUrl": "c930fb1f501c6b3e21297c7fcec5dfd9896befcb2ef4c2c23527e4f4c8d9bbcd",
+   "jpUrl": "6ea52905d1b81752222282879ce84a913a52ab9d8f57df74cef405c7b900fd6b",
+   "enUrl": "cb9d7305019ce7bfcebb7f260a1179a15860e6e3803908cff0c075859ab5b9e5",
+   "krUrl": "6e020fb67cafcc66e9d688886913aedd208b4187b2577e4d56d981c75fdcd1ad"
+  },
+  {
+   "id": 73,
+   "title": "โดนโจมตีเล็กน้อย",
+   "text": "ฉันไม่เป็นไร",
+   "unlockRequirement": "",
+   "cnUrl": "ca0aa3da6fa08f0814167c05af9752bff404fc0ed6201efea4bf58ac3e2d044c",
+   "jpUrl": "50b04a2d25c0de0208154cd2b9f86dbd23ee751c36ee8ac7a435ce98f25e7685",
+   "enUrl": "57fbea1f58ac9ab194243992547c1f8cebc7686e74af0baee9a0967d0dc61274",
+   "krUrl": "4ea4a38aa924e4239eba2004d6e6e89104736b57ffbed8da09e24d2be8d58b5b"
+  },
+  {
+   "id": 74,
+   "title": "ถูกโจมตีเล็กน้อย (Divine Vessel)",
+   "text": "แค่นี้เองเหรอ?",
+   "unlockRequirement": "",
+   "cnUrl": "a72a5e9cad440340f0ed15bcf7d86ea79186a88287be3a53163310c1e926c75c",
+   "jpUrl": "077bcc1b411b24c3813a69b963945b4a5ba059976a0224069385f574524e1a0e",
+   "enUrl": "6196c08e16c01992f04c7e10e3af3cd74f1fd5ddd566ada2108c77668260099b",
+   "krUrl": "f31e32dce0fed3954659efb069d0e7b2434ffb989ce534877c62809af9a5c366"
+  },
+  {
+   "id": 75,
+   "title": "โดนโจมตีอย่างรุนแรง",
+   "text": "จะทำให้ทุกคน... ผิดหวังไม่ได้...",
+   "unlockRequirement": "",
+   "cnUrl": "7620fee693ecf4a136c171cbc3d00db6405f30e07ddd87fed76460d6b69d0091",
+   "jpUrl": "98fcec5e15111ab27947a142e5ed5d413d79bb150c698671599f584d28fc6c84",
+   "enUrl": "222591ffe811b5580c00ece2a9f663e9e1f7aef4450af152993f7ca8a91f575c",
+   "krUrl": "a2970e8347eab9341c42b7a75f0885f54c39a87a6df9c0cd8e510f9af9dffb83"
+  },
+  {
+   "id": 76,
+   "title": "ท่าไม้ตาย - เปิดใช้งาน",
+   "text": "แรงโทสะจากเชื้อไฟหลายล้านดวง จงเผาผลาญกายนี้ให้เป็นจุณ!",
+   "unlockRequirement": "",
+   "cnUrl": "388c4e6c611b834b38d5735859ab7489b81ca15a3195c7fcc2d29a185fe7d88d",
+   "jpUrl": "1220c79fa14486977b27b11578197422e876b7639edb237cd0c04407b5cb73c1",
+   "enUrl": "bef04baab6e21ac5066ce07eee35965535b5a9ac26b04e94ad7da8b30a0afeba",
+   "krUrl": "87c971e6b0d044048b07c71d59a1d983f8863e2a2f5ff65fd2e79fa5ce8d5642"
+  },
+  {
+   "id": 77,
+   "title": "ท่าไม้ตาย - ปล่อย",
+   "text": "สาดส่องแสงอรุณที่จะแผดเผาดาวทุกดวง!",
+   "unlockRequirement": "",
+   "cnUrl": "6305c25a911a178063e25b58af5cc23da3a83e719989f512c663fd3ab063cc23",
+   "jpUrl": "fcd8aa1d5d83e28a22aaaad5c51dfd9c793bd3b9a52ca08e8617e5655c5ec58e",
+   "enUrl": "d05ccc7c6675f3340627867dd572973282eda831635ed105e7a4d1c8b226e423",
+   "krUrl": "3cad0e57e0a68f85141c5bce6b5cef1f2955d795c7c36d52cb90edbb9d035bd5"
+  },
+  {
+   "id": 78,
+   "title": "หมดสติ",
+   "text": "ฉันจะไม่... ลืม...",
+   "unlockRequirement": "",
+   "cnUrl": "15d9266e7fa218e200fe08394eca9b89526eb1a4d252dca5beda5d9a46dd4855",
+   "jpUrl": "c32554e6ecfc1bde40e328753be4974c2687ab64ce138fc4b0c54142ee1b045e",
+   "enUrl": "62b38aab4dc2ce6efa2122a5be9a707bc1df1743ddc6c6f77609dadbf5674d08",
+   "krUrl": "5f1ba005bbe16a8878e1dbadb4c12c063fa94cafaeccdd975eaba5aa5efdcff6"
+  },
+  {
+   "id": 79,
+   "title": "กลับสู่การต่อสู้",
+   "text": "ไม่เป็นไร ฉันจะเดิมพันทุกอย่างอีกครั้ง",
+   "unlockRequirement": "",
+   "cnUrl": "cebd0ed12a4296952f8153d9b2b4e02dc43ffeb59b88982b42d6e1fe16b6599b",
+   "jpUrl": "96c63e94de6090915324a27f09ef8bfbc274b013ce36c82b00d9c878b04401b4",
+   "enUrl": "63771281cdbfa6b1f802601055a0740815efa7e7e00a70b0ec03af86dceb661a",
+   "krUrl": "5e97674168ec515b0c28d9a3c6d8886f2d222a3b5eda04fc9aa17f24525111de"
+  },
+  {
+   "id": 80,
+   "title": "ฟื้นฟูพลังชีวิต",
+   "text": "ขอบคุณนะ ฉันยังไหว",
+   "unlockRequirement": "",
+   "cnUrl": "7a54a50bd447db93316949a17fd216fdfc3f8a3844abfaf38ea5db539eaa6c4e",
+   "jpUrl": "2dff5807de2bcb7bbc1a8c1e001b151a9c4d18e5b403a6261802f19f4f1b81e2",
+   "enUrl": "a458a31d8040c034a3bbfc4657ae7eb9ecec3a869ac4dabb603740fe58346660",
+   "krUrl": "74af2733938558ad86fec8d7bde325879b289b68ab2d12dfa9169eec9d0c974d"
+  },
+  {
+   "id": 81,
+   "title": "เทคนิค",
+   "text": "จุดไฟแห่งรุ่งอรุณ!",
+   "unlockRequirement": "",
+   "cnUrl": "298bcb71a5e97d846042041950d39b65947603136019bf0bb00f58b134d0893a",
+   "jpUrl": "8fb5739f95a4a949574e590685c18fd7b8ae0820160d9528d3a92e61483a0704",
+   "enUrl": "0a08125b791afeb2d5eeefeba10db0e8137db0e38ef0e8f00e0539f7afcdd245",
+   "krUrl": "1bde2259ddcc5bf5850101800d10787ed34516603e4ba47f3b409ab6a2eeb2e6"
+  },
+  {
+   "id": 82,
+   "title": "ชนะการต่อสู้",
+   "text": "Amphoreus จะต้องได้พบกับรุ่งอรุณที่แท้จริง",
+   "unlockRequirement": "",
+   "cnUrl": "e8794db0660692affa960754828e9c6ebb27165ba0a8d6b440ee1806a5d5d7ad",
+   "jpUrl": "899c46c42739167ef2e7695c217ddd99dd3332ac1ab99c1a48855219ad932b30",
+   "enUrl": "722bfdc2576bd49802e0eec6616777b5606671f2636a22a397cf591014e99ef0",
+   "krUrl": "9bf51d00127f4c3f666bc5f3e0e0828c4a82bf559700b395b400019f193cf4aa"
+  },
+  {
+   "id": 83,
+   "title": "เปิดสมบัติ 1",
+   "text": "ฉันช่วยดูให้แล้ว เป็นของแท้หมดเลย",
+   "unlockRequirement": "",
+   "cnUrl": "3dfb4486689bf150b331efabd9e76acdc7c1881d9ecb06c04a7d6cef09b1ff45",
+   "jpUrl": "4ea23097a20fd22738bb7715f1ab47667d91cd16408aa94b98095ff069d9dc1d",
+   "enUrl": "37d5d8d454d9d8b9debd8dec611d7b5ae165c05137424e6afa4d223edf041d44",
+   "krUrl": "adb36a16c21bf11d4ce41e1544c27dd7d6c22cc0b26c4b778e5fc9f51d4dc5c0"
+  },
+  {
+   "id": 84,
+   "title": "เปิดสมบัติ 2",
+   "text": "นี่ก็เป็นของขวัญจากการ \"บุกเบิก\" สินะ?",
+   "unlockRequirement": "",
+   "cnUrl": "56ef80ad9ceed1f3ed7f7f103a55d1355f17ee808848543c0bcfc2e8fe0c6571",
+   "jpUrl": "d1aefd08cc92d0eca576c47519a2aa801d9c23675f3843d4b43ec679c697a78e",
+   "enUrl": "0b9415dd2f38cd52f2e35b453299dd77c1f9883cf36b26f6e91d61c17a5037c0",
+   "krUrl": "2a3b1c9832703766df3c057e0803e690271ed4024a370a39356bf7718c770710"
+  },
+  {
+   "id": 85,
+   "title": "เปิดสมบัติล้ำค่า",
+   "text": "อื้ม ถือว่าดวงดีใช้ได้เลยแฮะ",
+   "unlockRequirement": "",
+   "cnUrl": "810b7c3ff6e4079792df65001bb5801dbcc3d37bb0f07f28555ee3b1bbcc14c2",
+   "jpUrl": "56c5768dc68ca80cd7765dc3e08a7c5c44b6b96db7c95d7a2f414f08c650d763",
+   "enUrl": "1217a3d6f1cc1fa1c436904cc57c26a779de5ab9e39baa875eecc227becab2a1",
+   "krUrl": "3879fe5169a67d7b5219d01dd6582eb528fb6543337e866775ffba0f1a621369"
+  },
+  {
+   "id": 86,
+   "title": "ไขปริศนาสำเร็จ 1",
+   "text": "เหมือนสมัยที่ยังเรียนอยู่ในลานพฤกษ์เลยนะ...",
+   "unlockRequirement": "",
+   "cnUrl": "918901aebfd24d01185ed62a0c9938701addcb67877b4c85af8686240afe3e5d",
+   "jpUrl": "8320cbbed5c0c41d6bb562d16eba796f4a4519152930643051498e3d5f1c7fce",
+   "enUrl": "a8c3e99ee2cecdf7f4d6944023aad43fc6c2f38bf0555f9bc44701feeda11ab4",
+   "krUrl": "33dc8fe79d2e3d09464d5115b34a30e3dfe649b0cd46e4c71e33e555c0005daa"
+  },
+  {
+   "id": 87,
+   "title": "ไขปริศนาสำเร็จ 2",
+   "text": "ไม่เป็นไร ถึงจะยากแค่ไหน ค่อยๆ เป็นค่อยๆ ไปก็จะจัดการได้เอง",
+   "unlockRequirement": "",
+   "cnUrl": "b8e92b015ba2270e89ff1f7e9aeaffe693bdbe6d64f59bb2487a243cacf476ff",
+   "jpUrl": "85a6a33238ff2bf5ed6b514c6321f29601fe25e00073d5c7fffae500edf9c388",
+   "enUrl": "8e166dc8af073583473047968e75253ded8fb5d96b7ad0b32bf174e964351db2",
+   "krUrl": "df7ff2f146eefa24b3b73f9c98469780efbb507c405366f6c2105111d84a2ad9"
+  },
+  {
+   "id": 88,
+   "title": "พบศัตรูเป้าหมาย",
+   "text": "เจ้านี่ดูรับมือยากไม่เบา... ฉันจะลองไปหยั่งเชิงดูก่อนนะ",
+   "unlockRequirement": "",
+   "cnUrl": "6ea7c2a653d8378cc7cd03eb1b6d4624a208a0e4dc97d9cd0267fb3312b2ace9",
+   "jpUrl": "f502cd41344d9ce97a17fa8d141a8ced5782452b46b1f815d10e65161f3cbc7f",
+   "enUrl": "6be731a8dbeaaada18543dcfc319db9c238241d6633fc3f8398fab03f60ee5b4",
+   "krUrl": "d472eb4e02088f81a1e0a3d37abd5335ba40282d24693f36af16743ca58c09ef"
+  },
+  {
+   "id": 89,
+   "title": "กลับเข้าเมือง",
+   "text": "วันเวลาที่สงบสุข ก็เหมือนสายลมที่พัดมาพร้อมกลิ่นหอมของข้าวสาลี",
+   "unlockRequirement": "",
+   "cnUrl": "31c7a7ffb2cc573235271a372b0b17bb26b0fc46eb23f1b672c071ef542f4684",
+   "jpUrl": "c6551e022ce2bb50da279447d7bdbc500a5e71fb83684cfb4f1bf143d0b48d28",
+   "enUrl": "5f458d9cb9f8222ef2efc11745b3f57295081d634ae708fc6ed6cc4792119ad6",
+   "krUrl": "2915312a1bacd9d7b3723407e77004b27606b3182f92c77af53aa6716800903e"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "รายละเอียดตัวละคร",
+   "text": "Elysiae หมู่บ้านชายแดนอันสันโดษ ที่ปัจจุบันหลงเหลือแค่เพียงตำนานอันเลือนราง<br />วีรบุรุษไร้นาม █████ เอ๋ย ผู้สืบสายโลหิตทองที่แบกรับเชื้อไฟ \"แบกโลกา\" จงจดจำอุดมการณ์ของโลกทั้งมวล แบกรับชะตากรรมของสรรพชีวิต และนำแสงแรกแห่งรุ่งอรุณ มาสู่โลกใบใหม่<br />...\"แต่ถ้ารุ่งอรุณไม่เคยมีอยู่จริง งั้นก็ปล่อยให้เพลิงพิโรธ เผาร่างนี้เป็นจุณ และกลายเป็นดวงตะวันสว่างโรจน์ของวันพรุ่งนี้แทนแล้วกัน!\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 1",
+   "text": "Elysiae บ้านเกิดของเด็กหนุ่ม<br />หมู่บ้านที่หาเช้ากินค่ำ เรียบง่ายธรรมดา เช่นกันกับภูมิหลังของเขา<br /><br />ในโรงเรียนที่รองรับได้แค่ไม่กี่คน เด็กหนุ่มกำลังเรียนวิชาประวัติศาสตร์ อันน่าง่วงเหงาหาวนอน แต่ความคิดกลับล่องลอยไปไกลแสนไกล พร้อมขี้เลื่อยที่ปลิวว่อนอยู่ในมือ<br /><br />เมื่อผ่านการกรีดสลักแต่ละที ไม้ที่ซ่อนอยู่ใต้โต๊ะก็ค่อยๆ ปรากฏเป็นรูปร่างของนักรบ<br />\"ต้องมีดาบใหญ่หนักๆ ถึงจะคู่ควรกับพลังแบบนี้...\"<br />เขาลับคมขอบไม้ภายใต้แสงอาทิตย์<br />\"ชุดเกราะเปล่งประกาย ด้วยร่องรอยแห่งเกียรติยศ เสื้อคลุมเป็นดั่งปีก ต้านได้ทั้งเมฆและสายลม\"<br />\"แล้วก็...\"<br /><br />\"Phainon! ถ้าอยากเป็นนักรบที่แข็งแกร่งที่สุด... ก็ต้องตั้งใจเรียนนะ\"<br />ครู Pythias มักจะทำลายจินตนาการของเขา โดยไม่คิดเหนื่อยหน่ายเลยสักหน<br /><br />เทียบกับโรงเรียนแล้ว เด็กหนุ่มชอบสนามฝึก ที่มีกองฟางข้าวสาลีมากกว่า<br />ที่นั่นเป็นสนามรบของเขา บางครั้งหุ่นไล่กาก็เป็นกองทัพที่เข้ามาโจมตี บางครั้งก็เป็นอสูรร้ายมุทะลุบ้าคลั่ง<br />ตอนที่ไม่ได้เข้าเรียน เขาจะขลุกตัวอยู่ที่นี่ทั้งวัน กับเพื่อนที่แกะสลักขึ้นจากไม้ จนกระทั่งกลิ่นหอมจากครัว ได้ลอยออกมาจากทุกบ้านเรือน<br /><br />ใต้ร่มไม้เย็นสบาย เด็กหนุ่มผู้เหนื่อยล้า แค่นอนบนพื้นหญ้ายังหลับได้<br />ในความฝันที่แตกสลายนั้น เขามองดูเมืองที่ไม่เคยเห็นมาก่อน และร่วมเป็นพยานในเรื่องราวตระการตา<br /><br />\"ไปเป็นวีรชนเถอะ...\"<br /><br />เสียงในใจนั้นเหมือนคลื่นข้าวสาลีใน Elysiae ที่กระเพื่อมไหวไม่หยุด และชักนำเด็กหนุ่มก้าวสู่เส้นทางอันยาวไกล",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>20</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 2",
+   "text": "เมื่ออยู่ต่อหน้าเด็กหนุ่ม ผู้รอนแรมมาจากต่างแดน บางครั้ง ผู้ถักทอและผู้ล่วงรู้ที่หน้าตาเหมือนเด็กน้อย ก็จะเล่าถึงประวัติศาสตร์ เกี่ยวกับการไล่ล่าเปลวไฟ และผู้สืบสายโลหิตทอง<br />ดวงตาไร้แววของผู้ถักทอ ราวกับเห็นความสับสนในใจเขา ได้อย่างทะลุปรุโปร่ง ส่วนความบริสุทธิ์ไร้เดียงสาของผู้ล่วงรู้ ทำให้เขารู้สึกถึงความอบอุ่นของครอบครัว<br /><br />\"ถ้าอย่างนั้นผู้สืบสายโลหิตทอง ก็คือโชคชะตาที่ถูกลิขิตมาสินะ...\"<br />เด็กหนุ่มรวบรวมความกล้า แล้วเอ่ยออกมา<br />ผู้ถักทอส่ายหน้า<br />\"เรียกว่า เป็นการเดินทางอันแสนยาวไกล และยากลำบากดีกว่า\"<br /><br />เด็กหนุ่มเก็บอดีตที่อบอวล ไปด้วยกลิ่นหอมของข้าวสาลีไว้ในหัวใจ เขาเข้าร่วมกองทัพของเมืองศักดิ์สิทธิ์ และฝึกฝนทั้งวันทั้งคืน จนกระทั่งวิชาดาบอันลึกล้ำนั้น ได้กลายเป็นเรื่องง่ายดายราวกับแค่หายใจ<br />ในการประลองชี้ชะตาอันน่าทึ่งครั้งนั้น ผู้สืบบัลลังก์แห่ง Kremnos ต่อสู้กับเขาอยู่สิบวันสิบคืน ระหว่างการฟาดฟันอันหนักหน่วงนั้น เขาราวกับมองว่าตัวเองเป็นดาบ ที่พร้อมจะตายได้ทุกเมื่อ มาตั้งแต่เนิ่นๆ แล้ว<br /><br />แน่นอน เวลาส่วนใหญ่ เด็กหนุ่มมักจะปฏิบัติต่อคนอื่น ด้วยอารมณ์ขันและความผ่อนคลาย<br />\"ฉันแค่อยากให้คนอื่น รู้สึกสนิทใจและสบายใจน่ะ\"<br />แม้เพื่อนของเขาจะเย้ยหยันในเรื่องนี้ แต่ก็รู้ดีว่าเพราะแบบนี้แหละ เด็กหนุ่มผมขาวถึงได้รับความเชื่อถือ ทั้งยังมีชื่อเสียงดีงามในหมู่ชาวเมือง และชนชั้นสูงของเมืองศักดิ์สิทธิ์<br /><br />ช่วงเวลาที่ศึกษาเล่าเรียนในลานพฤกษ์ หลังจากอ่านหนังสือตำราในคลังมากเข้า เด็กหนุ่มที่เดิมทีไม่สนใจในเรื่องตรรกะ ก็มักใช้ถ้อยคำอันชาญฉลาด มาคว้าชัยในการโต้วาทีตลอด<br />แม้ความเข้มงวดของอาจารย์ จะทำให้เขาอยากหนีแทบไม่ทัน แต่เขาก็รู้ดีว่า ตัวเองยังขาดความกล้า ที่จะยืนหยัดในตัวเองอยู่<br /><br />แต่เมื่อเด็กหนุ่มกลับมาจากสมรภูมิ หลังจากผู้เยียวยาพันแผลให้เสร็จแล้ว ก็ยังนิ่งคิดอยู่นานสองนาน<br />\"คุณ Phainon... คุณมักจะสะดุ้งตื่นกลางดึก หรือนอนไม่หลับอยู่บ่อยๆ ใช่มั้ย?\"<br /><br />เขาไม่ได้เก็บมาใส่ใจ<br />การก้าวไปในเส้นทางโค่นเทพเจ้านั้น เขาจำเป็นต้องแกะสลักตัวเองออกมา ให้เป็นในแบบที่ผู้คนต้องการ",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>40</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 3",
+   "text": "เทพเจ้าผู้ถือหอกอสนีบาต ได้ตกอยู่ในความบ้าคลั่ง ในสงครามที่ชื่อว่า \"ปฏิปักษ์\" นั้น ชายหนุ่มกับสหายได้มอบการปลดปล่อย ครั้งสุดท้ายให้กับเทพผู้บ้าคลั่ง<br />ในการโต้วาทีที่ว่าด้วย การช่วงชิงเชื้อไฟแห่ง \"เหตุผล\" ชายหนุ่มได้เผชิญหน้ากับอาจารย์ในอดีต และเป็นพยานในการประหารอันโหดร้าย<br />จากนั้นก็เข้าสู่สมรภูมิแห่ง \"นภา\" ชายหนุ่มได้ก้าวไปบนสะพานสายรุ้ง ใช้แสงตะวันระอุทะลวงม่านหมอกร้าย แล้วส่องสว่างเส้นทางอันตรายเบื้องหน้า<br /><br />\"ผู้กอบกู้ นำพาพวกเราก้าวไปข้างหน้าด้วยเถอะ\"<br />เมื่อได้ยินคำพูดปลอบโยนของผู้ถักทอ ในใจของเขาก็ยิ่งขมขื่น ทว่ายามอยู่ต่อหน้าทุกคน เขากลับไม่ยอมเผยความกังวลออกมา<br /><br />ผู้สืบบัลลังก์ที่ตายมานับหมื่นครั้ง ได้ก้าวสู่เส้นทางหวนคืนบ้านเกิด พร้อมทั้งฝากฝังชาว Kremnos ไว้กับเขา<br />\"วางใจเถอะ ฉันจะดูแลแทนนายเอง\"<br />ผู้ล่วงรู้ที่มีร่างแยกนับพันได้ร่วงโรย ส่วนเขาก็สานต่อคำสาบาน ที่ให้ไว้ก่อนเดินทาง<br />\"อาจารย์ Tribbie ฉันจะไปร่วมเป็นพยาน... ในวันพรุ่งนี้ที่มีฟ้าพร่างดาวเอง\"<br />นักวิชาการ กระโจนสู่ความตายเพื่อความจริง นักบุญหญิงโอบกอดโชคชะตาอันโดดเดี่ยว<br />\"ในโลกหน้า ความจริงจะเปิดเผย วัฏจักรความเป็นความตาย... จะกลับคืนสู่ระเบียบ\"<br />ผู้ถักทอหลับใหลในสระอาบน้ำทองคำ จอมโจรผู้ปราดเปรียว จะหยุดฝีเท้าลงด้วยความเสียดาย ผู้เยียวยาต้องดำรงอยู่บนนภาชั่วนิรันดร์ ไม่อาจกลับสู่ผืนแผ่นดินได้อีก<br />\"ฉันจะใช้ร่างกายเป็นฟืน ฉันจะ... กลายเป็นเปลวไฟระอุที่ส่องสว่างโลกใหม่\"<br /><br />ชายหนุ่มไม่อาจร่ำไห้ ได้แต่ใช้ความเจ็บปวดรวดร้าวในใจ สลักความทรงจำไว้ในห้วงความคิด<br />เขาแบกความหวังของผู้คนนับหมื่น แล้วมุ่งสู่ยอดเขา ที่ตะวันจะเบิกอรุณอย่างทุลักทุเล<br /><br />เขาเชื่อว่า สักวันหนึ่งแสงอรุณ จะส่องทะลุผ่านราตรีอันยาวนานของ Amphoreus<br /><br />\"แต่ถ้ารุ่งอรุณไม่เคยมีอยู่จริงตั้งแต่แรก...\"<br />ในอดีต เขาเคยถามคำถามนี้ กับตัวเองเป็นร้อยเป็นพันครั้ง<br />ทว่าปัจจุบัน ชายหนุ่มก็ได้มุ่งสู่ปลายทางอันร้อนระอุ ที่ไร้ความปรานี พร้อมสลักปลายปากกาสุดท้ายของ \"Phainon\" ไว้ว่า...<br /><br />\"งั้นก็ปล่อยให้เพลิงพิโรธเผาร่างนี้เป็นจุณ และกลายเป็นดวงตะวันสว่างโรจน์ ของวันพรุ่งนี้แทนแล้วกัน!\"",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>60</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 4",
+   "text": "เหมือนอย่างที่เคยประสบ นับหมื่นนับพันครั้งในอดีต เขาเห็นมันอีกครั้งท่ามกลางเปลวเพลิง...<br /><br />เช้าตรู่ของ Elysiae แสงแดดยามเช้า ได้สาดส่องทุ่งข้าวสาลีในหมู่บ้าน<br /><br />\"ดูเหมือน... จะเคยฝันแบบนี้ มานับครั้งไม่ถ้วนแล้วแฮะ...\"<br />เด็กชายที่ตื่นขึ้นมาใต้ต้นไม้ ขยี้ตาอย่างงัวเงีย<br /><br />ในความฝัน พระอาทิตย์ล่วงลับ รูปปั้นวีรชนพังครืน หลอมละลาย แตกสลาย ทั่วทั้งโลกถูกแผดเผาเป็นฝุ่นธุลี<br />ท่ามกลางความเงียบงัน ร่างคุ้นเคยสีเถ้าถ่าน ย่างกรายอย่างเดียวดาย ไปยังความมืดมิดอันไร้ที่สิ้นสุด<br /><br />\"ร่างนั้นแผดเผาตัวเอง... แต่ก็มอดไหม้ทุกสิ่งรอบข้างเช่นกัน...\"<br />เด็กชายเหม่อลอย ขณะมองไม้แกะสลักที่ยังไม่เสร็จดี ความโกรธแค้นเข้ากระดูก และความเกลียดชังตัวเองในความฝัน ยังคงสะท้านก้องหัวใจของเขา<br />\"โลกเช่นนี้... คงกำลังร้องหาวีรชนสินะ...\"<br /><br />\"อนาคตจะเป็นยังไงกันนะ?\"<br />เด็กชายนอนอยู่บนฟางข้าวสาลีสีทองคำ เบื้องหน้า ได้ปรากฏเรื่องราวมหากาพย์อันน่าตื่นเต้น<br />\"บางที วีรชนที่กำลังจะมาถึงนั้น คงกำลังเดินทางไปทั่วทุกสารทิศ ผดุงคุณธรรม แก้ไขปัญหายุ่งยากมานับไม่ถ้วน แต่กลับไม่เคยทิ้งชื่อไว้...\"<br />\"เขาคงแบกรับอดีตอันลึกลับ ต่อสู้กับโชคชะตาอันน่าเศร้า เอาชนะศัตรูที่แสนน่ากลัว\"<br />\"เมื่อโลกตกอยู่ในวิกฤติ ก็จะทำตามคำสาบานจากใจจริง ทุกที่ที่ไปเยือน มักจะนำไปซึ่งความสงบสุข และความรุ่งเรือง...\"<br />\"วีรชนอาจถูกทำลายไปเป็น... ร้อยครั้ง หมื่นครั้ง หรือล้านครั้ง แต่ก็จะไม่พ่ายแพ้เป็นอันขาด...\"<br /><br />...<br /><br />ถ้าทุกอย่างไม่เคยเปลี่ยนไป<br />ชีวิตใน Elysiae จะยังคงดำเนินไปอย่างเงียบสงบ เช่นเดียวกับนับหมื่นนับพันครั้งในอดีต<br />เปลวไฟที่อ่อนแรงนั้น ได้ปลูกฝังอยู่ในใจของเขา ตั้งแต่จุดเริ่มต้นของการเดินทาง<br />เมื่อเด็กชายที่กลายเป็นเด็กหนุ่ม มายืนอยู่ ณ ท่าเรืออีกครั้ง เขาจะมุ่งหน้าสู่การเดินทางไกลอีกครา<br />เขาจะพุ่งทะยานไปสู่อนาคต แล้วลืมความฝันที่แตกสลายพวกนั้น<br />เขาไม่อาจรู้ได้เลยว่า การเดินทางครั้งนี้จะไกลสักแค่ไหน จวบจนกระทั่งได้กลายเป็นฟืนลุกโชน เพื่อทำให้เปลวไฟอันไร้ค่าได้เติบโต<br />ยามเมื่อมาถึงปลายทาง เขาถึงจะรู้ว่า ตัวเองได้เดินผ่านเส้นทางแสนเนิ่นนานมา<br /><br />ในช่วงเวลาสุดท้าย เขานึกย้อนถึงช่วงเวลาที่ตะวันเบิกอรุณแรก ตัวเองได้เคยสลักต้นแบบในอุดมคติไว้ และในช่วงเวลาหลังจากนั้น เขาจะตั้งอีกชื่อหนึ่งให้กับมัน... \"ผู้กอบกู้\"<br /><br />ส่วนชื่อของตัวเขาเอง นับจากนี้ จะกระจัดกระจายอยู่ในความทรงจำ",
+   "unlockRequirement": "ปลดล็อกเมื่อตัวละครถึง Lv.<nobr>80</nobr>"
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 1",
+   "text": "Elysiae หมู่บ้านชายแดนอันสันโดษ ที่ปัจจุบันหลงเหลือแค่เพียง ตำนานอันเลือนราง<br />วีรบุรุษไร้นาม Khaslana เอ๋ย ผู้สืบสายโลหิตทองที่แบกรับเชื้อไฟ \"แบกโลกา\" จงจดจำอุดมการณ์ของโลกทั้งมวล แบกรับชะตากรรมของสรรพชีวิต และนำแสงแรกแห่งรุ่งอรุณ มาสู่โลกใบใหม่<br />...\"แต่ถ้ารุ่งอรุณไม่เคยมีอยู่จริง งั้นก็ปล่อยให้เพลิงพิโรธ เผาร่างนี้เป็นจุณ และกลายเป็นดวงตะวันสว่างโรจน์ของวันพรุ่งนี้แทนแล้วกัน!\"",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\""
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 2",
+   "text": "Elysiae บ้านเกิดของเด็กหนุ่ม<br />หมู่บ้านที่หาเช้ากินค่ำ เรียบง่ายธรรมดา เช่นกันกับภูมิหลังของเขา<br /><br />ในโรงเรียนที่รองรับได้แค่ไม่กี่คน เด็กหนุ่มกำลังเรียนวิชาประวัติศาสตร์ อันน่าง่วงเหงาหาวนอน แต่ความคิดกลับล่องลอยไปไกลแสนไกล พร้อมขี้เลื่อยที่ปลิวว่อนอยู่ในมือ<br /><br />เมื่อผ่านการกรีดสลักแต่ละที ไม้ที่ซ่อนอยู่ใต้โต๊ะก็ค่อยๆ ปรากฏเป็นรูปร่างของนักรบ<br />\"ต้องมีดาบใหญ่หนักๆ ถึงจะคู่ควรกับพลังแบบนี้...\"<br />เขาลับคมขอบไม้ภายใต้แสงอาทิตย์<br />\"ชุดเกราะเปล่งประกาย ด้วยร่องรอยแห่งเกียรติยศ เสื้อคลุมเป็นดั่งปีก ต้านได้ทั้งเมฆและสายลม\"<br />\"แล้วก็...\"<br /><br />\"Phainon! ถ้าอยากเป็นนักรบที่แข็งแกร่งที่สุด... ก็ต้องตั้งใจเรียนนะ\"<br />ครู Pythias มักจะทำลายจินตนาการของเขา โดยไม่คิดเหนื่อยหน่ายเลยสักหน<br /><br />เทียบกับโรงเรียนแล้ว เด็กหนุ่มชอบสนามฝึก ที่มีกองฟางข้าวสาลีมากกว่า<br />ที่นั่นเป็นสนามรบของเขา บางครั้งหุ่นไล่กาก็เป็นกองทัพที่เข้ามาโจมตี บางครั้งก็เป็นอสูรร้ายมุทะลุบ้าคลั่ง<br />ตอนที่ไม่ได้เข้าเรียน เขาจะขลุกตัวอยู่ที่นี่ทั้งวัน กับเพื่อนที่แกะสลักขึ้นจากไม้ จนกระทั่งกลิ่นหอมจากครัว ได้ลอยออกมาจากทุกบ้านเรือน<br /><br />ใต้ร่มไม้เย็นสบาย เด็กหนุ่มผู้เหนื่อยล้า แค่นอนบนพื้นหญ้ายังหลับได้<br />ในความฝันที่แตกสลายนั้น เขามองดูเมืองที่ไม่เคยเห็นมาก่อน และร่วมเป็นพยานในเรื่องราวตระการตา<br /><br />\"ไปเป็นวีรชนเถอะ...\"<br /><br />เสียงในใจนั้นเหมือนคลื่นข้าวสาลีใน Elysiae ที่กระเพื่อมไหวไม่หยุด และชักนำเด็กหนุ่มก้าวสู่เส้นทางอันยาวไกล<br />->->->->->->->->->->->->-><br /><b>>>> การคำนวณครั้งที่ 1<br />...<br />>>> มอบนิยามให้ \"Neikos<nobr>496</nobr>\"<br />>>> กำลังโหลดฉาก <u>[Elysiae]</u><br />>>> ดำเนินการจำลอง</b><br />เป้าหมาย \"Neikos<nobr>496</nobr>\" เคลื่อนไหวไปตามเส้นทางของชุดพิกัด A-F<br />เป้าหมาย \"Neikos<nobr>496</nobr>\" สร้างตัวแปรใหม่ <u>[วีรชนในใจ]</u><br /><b>>>> ตัวแปร <u>[คลื่นทมิฬ]</u> เริ่มอัปเดตการย้ายตำแหน่ง ดำเนินการเขียนทับคำสั่งให้ <u>[Elysiae]</u></b>",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\""
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 3",
+   "text": "เมื่ออยู่ต่อหน้าเด็กหนุ่ม ผู้รอนแรมมาจากต่างแดน บางครั้ง ผู้ถักทอและผู้ล่วงรู้ที่หน้าตาเหมือนเด็กน้อย ก็จะเล่าถึงประวัติศาสตร์ เกี่ยวกับการไล่ล่าเปลวไฟ และผู้สืบสายโลหิตทอง<br />ดวงตาไร้แววของผู้ถักทอ ราวกับเห็นความสับสนในใจเขา ได้อย่างทะลุปรุโปร่ง ส่วนความบริสุทธิ์ไร้เดียงสาของผู้ล่วงรู้ ทำให้เขารู้สึกถึงความอบอุ่นของครอบครัว<br /><br />\"ถ้าอย่างนั้นผู้สืบสายโลหิตทอง ก็คือโชคชะตาที่ถูกลิขิตมาสินะ...\"<br />เด็กหนุ่มรวบรวมความกล้า แล้วเอ่ยออกมา<br />ผู้ถักทอส่ายหน้า<br />\"เรียกว่า เป็นการเดินทางอันแสนยาวไกล และยากลำบากดีกว่า\"<br /><br />เด็กหนุ่มเก็บอดีตที่อบอวล ไปด้วยกลิ่นหอมของข้าวสาลีไว้ในหัวใจ เขาเข้าร่วมกองทัพของเมืองศักดิ์สิทธิ์ และฝึกฝนทั้งวันทั้งคืน จนกระทั่งวิชาดาบอันลึกล้ำนั้น ได้กลายเป็นเรื่องง่ายดายราวกับแค่หายใจ<br />ในการประลองชี้ชะตาอันน่าทึ่งครั้งนั้น ผู้สืบบัลลังก์แห่ง Kremnos ต่อสู้กับเขาอยู่สิบวันสิบคืน ระหว่างการฟาดฟันอันหนักหน่วงนั้น เขาราวกับมองว่าตัวเองเป็นดาบ ที่พร้อมจะตายได้ทุกเมื่อ มาตั้งแต่เนิ่นๆ แล้ว<br /><br />แน่นอน เวลาส่วนใหญ่ เด็กหนุ่มมักจะปฏิบัติต่อคนอื่น ด้วยอารมณ์ขันและความผ่อนคลาย<br />\"ฉันแค่อยากให้คนอื่น รู้สึกสนิทใจและสบายใจน่ะ\"<br />แม้เพื่อนของเขาจะเย้ยหยันในเรื่องนี้ แต่ก็รู้ดีว่าเพราะแบบนี้แหละ เด็กหนุ่มผมขาวถึงได้รับความเชื่อถือ ทั้งยังมีชื่อเสียงดีงามในหมู่ชาวเมือง และชนชั้นสูงของเมืองศักดิ์สิทธิ์<br /><br />ช่วงเวลาที่ศึกษาเล่าเรียนในลานพฤกษ์ หลังจากอ่านหนังสือตำราในคลังมากเข้า เด็กหนุ่มที่เดิมทีไม่สนใจในเรื่องตรรกะ ก็มักใช้ถ้อยคำอันชาญฉลาด มาคว้าชัยในการโต้วาทีตลอด<br />แม้ความเข้มงวดของอาจารย์ จะทำให้เขาอยากหนีแทบไม่ทัน แต่เขาก็รู้ดีว่า ตัวเองยังขาดความกล้า ที่จะยืนหยัดในตัวเองอยู่<br /><br />แต่เมื่อเด็กหนุ่มกลับมาจากสมรภูมิ หลังจากผู้เยียวยาพันแผลให้เสร็จแล้ว ก็ยังนิ่งคิดอยู่นานสองนาน<br />\"คุณ Phainon... คุณมักจะสะดุ้งตื่นกลางดึก หรือนอนไม่หลับอยู่บ่อยๆ ใช่มั้ย?\"<br /><br />เขาไม่ได้เก็บมาใส่ใจ<br />การก้าวไปในเส้นทางโค่นเทพเจ้านั้น เขาจำเป็นต้องแกะสลักตัวเองออกมา ให้เป็นในแบบที่ผู้คนต้องการ<br />->->->->->->->->->->->->-><br /><b>>>> การคำนวณครั้งที่ <nobr>49</nobr><br />...<br />>>> กำลังโหลดฉาก <u>[Okhema]</u><br />>>> กำลังโหลดฉาก <u>[ลานพฤกษ์ปราชญา]</u><br />...<br />>>> กำลังโหลดปัจจัยการคำนวณ</b><br />\"HapLotes<nobr>405</nobr>\"<br />\"SkeMma<nobr>720</nobr>\"<br />\"EpieiKeia<nobr>216</nobr>\"<br />\"PoleMos<nobr>600</nobr>\"<br />\"EleOs<nobr>252</nobr>\"<br />...<br /><b>>>> เริ่มการคำนวณ<br />...<br />>>> ความคืบหน้าการวนซ้ำตัวเองของ \"Neikos<nobr>496</nobr>\": <nobr>0.43%</nobr></b>",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\""
+  },
+  {
+   "title": "เรื่องราวของตัวละคร 4",
+   "text": "เทพเจ้าผู้ถือหอกอสนีบาต ได้ตกอยู่ในความบ้าคลั่ง ในสงครามที่ชื่อว่า \"ปฏิปักษ์\" นั้น ชายหนุ่มกับสหายได้มอบการปลดปล่อย ครั้งสุดท้ายให้กับเทพผู้บ้าคลั่ง<br />ในการโต้วาทีที่ว่าด้วย การช่วงชิงเชื้อไฟแห่ง \"เหตุผล\" ชายหนุ่มได้เผชิญหน้ากับอาจารย์ในอดีต และเป็นพยานในการประหารอันโหดร้าย<br />จากนั้นก็เข้าสู่สมรภูมิแห่ง \"นภา\" ชายหนุ่มได้ก้าวไปบนสะพานสายรุ้ง ใช้แสงตะวันระอุทะลวงม่านหมอกร้าย แล้วส่องสว่างเส้นทางอันตรายเบื้องหน้า<br /><br />\"ผู้กอบกู้ นำพาพวกเราก้าวไปข้างหน้าด้วยเถอะ\"<br />เมื่อได้ยินคำพูดปลอบโยนของผู้ถักทอ ในใจของเขาก็ยิ่งขมขื่น ทว่ายามอยู่ต่อหน้าทุกคน เขากลับไม่ยอมเผยความกังวลออกมา<br /><br />ผู้สืบบัลลังก์ที่ตายมานับหมื่นครั้ง ได้ก้าวสู่เส้นทางหวนคืนบ้านเกิด พร้อมทั้งฝากฝังชาว Kremnos ไว้กับเขา<br />\"วางใจเถอะ ฉันจะดูแลแทนนายเอง\"<br />ผู้ล่วงรู้ที่มีร่างแยกนับพันได้ร่วงโรย ส่วนเขาก็สานต่อคำสาบาน ที่ให้ไว้ก่อนเดินทาง<br />\"อาจารย์ Tribbie ฉันจะไปร่วมเป็นพยาน... ในวันพรุ่งนี้ที่มีฟ้าพร่างดาวเอง\"<br />นักวิชาการ กระโจนสู่ความตายเพื่อความจริง นักบุญหญิงโอบกอดโชคชะตาอันโดดเดี่ยว<br />\"ในโลกหน้า ความจริงจะเปิดเผย วัฏจักรความเป็นความตาย... จะกลับคืนสู่ระเบียบ\"<br />ผู้ถักทอหลับใหลในสระอาบน้ำทองคำ จอมโจรผู้ปราดเปรียว จะหยุดฝีเท้าลงด้วยความเสียดาย ผู้เยียวยาต้องดำรงอยู่บนนภาชั่วนิรันดร์ ไม่อาจกลับสู่ผืนแผ่นดินได้อีก<br />\"ฉันจะใช้ร่างกายเป็นฟืน ฉันจะ... กลายเป็นเปลวไฟระอุที่ส่องสว่างโลกใหม่\"<br /><br />ชายหนุ่มไม่อาจร่ำไห้ ได้แต่ใช้ความเจ็บปวดรวดร้าวในใจ สลักความทรงจำไว้ในห้วงความคิด<br />เขาแบกความหวังของผู้คนนับหมื่น แล้วมุ่งสู่ยอดเขา ที่ตะวันจะเบิกอรุณอย่างทุลักทุเล<br /><br />เขาเชื่อว่า สักวันหนึ่งแสงอรุณ จะส่องทะลุผ่านราตรีอันยาวนานของ Amphoreus<br /><br />\"แต่ถ้ารุ่งอรุณไม่เคยมีอยู่จริงตั้งแต่แรก...\"<br />ในอดีต เขาเคยถามคำถามนี้ กับตัวเองเป็นร้อยเป็นพันครั้ง<br />ทว่าปัจจุบัน ชายหนุ่มก็ได้มุ่งสู่ปลายทางอันร้อนระอุ ที่ไร้ความปรานี พร้อมสลักปลายปากกาสุดท้ายของ \"Phainon\" ไว้ว่า...<br /><br />\"งั้นก็ปล่อยให้เพลิงพิโรธเผาร่างนี้เป็นจุณ และกลายเป็นดวงตะวันสว่างโรจน์ ของวันพรุ่งนี้แทนแล้วกัน!\"<br />->->->->->->->->->->->->-><br /><b>>>> บันทึกการเรียกใช้</b><br />[การคำนวณครั้งที่ <nobr>597</nobr>]<br />...<br />คำขอ: \"กลายเป็นคนที่ตอบรับความหวังของโลก และแบกรับความปรารถนาของผู้คน\"<br />ตอบสนอง: \"คนสันโดษผู้หนึ่ง\"<br />ความคืบหน้า: <nobr>0.096%</nobr><br />...<br /><br />[การคำนวณครั้งที่ <nobr>8128</nobr>]<br />...<br />คำขอ: \"ถึงในมือจะมีแค่เศษเหล็กห่วยๆ ก็จงใช้มันปกป้องบ้านเกิดของตัวเอง!\"<br />ตอบสนอง: \"บาดแผลที่ไม่สลักสำคัญหนึ่งแห่ง\"<br />ความคืบหน้า: <nobr>1.34%</nobr><br />...<br /><br />[การคำนวณครั้งที่ <nobr>16256</nobr>]<br />...<br />คำขอ: \"ผู้สืบสายโลหิตทองประจำตำแหน่ง เริ่มการเดินทางไล่ล่าเปลวไฟ อย่างเป็นทางการ\"<br />ตอบสนอง: \"วัฏจักรอันไร้ที่สิ้นสุด\"<br />ความคืบหน้า: <nobr>2.89%</nobr><br />...<br /><br />[การคำนวณครั้งที่ <nobr>496000</nobr>]<br />...<br />คำขอ: \"เริ่มต้นยุคนิรมิตใหม่ ต้อนรับรุ่งอรุณใหม่แห่ง Amphoreus\"<br />ตอบสนอง: \"▇▇▇▇▇▇▇ที่เปล่าประโยชน์▇▇▇▇\"<br />ความคืบหน้า: <nobr>32.47%</nobr><br />...<br /><br />[การคำนวณครั้งที่ <nobr>33550337</nobr>]<br />...<br />คำขอ: \"▇▇▇▇จดจำ▇▇▇▇▇▇▇▇ แบกรับ▇▇▇▇▇▇▇▇▇▇▇โลกใหม่▇▇▇▇\"<br />ตอบสนอง: \"▇▇▇▇มอด▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇เป็นจุณ▇▇▇▇▇▇\"<br />ความคืบหน้า: <nobr>99.81%</nobr><br />...<br /><b>>>> คำเตือน: ความคืบหน้าไม่สามารถอัปเดตได้</b>",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\""
+  },
+  {
+   "title": "",
+   "text": "เหมือนอย่างที่เคยประสบ นับหมื่นนับพันครั้งในอดีต เขาเห็นมันอีกครั้งท่ามกลางเปลวเพลิง...<br /><br />เช้าตรู่ของ Elysiae แสงแดดยามเช้า ได้สาดส่องทุ่งข้าวสาลีในหมู่บ้าน<br /><br />\"ดูเหมือน... จะเคยฝันแบบนี้ มานับครั้งไม่ถ้วนแล้วแฮะ...\"<br />เด็กชายที่ตื่นขึ้นมาใต้ต้นไม้ ขยี้ตาอย่างงัวเงีย<br /><br />ในความฝัน พระอาทิตย์ล่วงลับ รูปปั้นวีรชนพังครืน หลอมละลาย แตกสลาย ทั่วทั้งโลกถูกแผดเผาเป็นฝุ่นธุลี<br />ท่ามกลางความเงียบงัน ร่างคุ้นเคยสีเถ้าถ่าน ย่างกรายอย่างเดียวดาย ไปยังความมืดมิดอันไร้ที่สิ้นสุด<br /><br />\"ร่างนั้นแผดเผาตัวเอง... แต่ก็มอดไหม้ทุกสิ่งรอบข้างเช่นกัน...\"<br />เด็กชายเหม่อลอย ขณะมองไม้แกะสลักที่ยังไม่เสร็จดี ความโกรธแค้นเข้ากระดูก และความเกลียดชังตัวเองในความฝัน ยังคงสะท้านก้องหัวใจของเขา<br />\"โลกเช่นนี้... คงกำลังร้องหาวีรชนสินะ...\"<br /><br />\"อนาคตจะเป็นยังไงกันนะ?\"<br />เด็กชายนอนอยู่บนฟางข้าวสาลีสีทองคำ เบื้องหน้า ได้ปรากฏเรื่องราวมหากาพย์อันน่าตื่นเต้น<br />\"บางที วีรชนที่กำลังจะมาถึงนั้น คงกำลังเดินทางไปทั่วทุกสารทิศ ผดุงคุณธรรม แก้ไขปัญหายุ่งยากมานับไม่ถ้วน แต่กลับไม่เคยทิ้งชื่อไว้...\"<br />\"เขาคงแบกรับอดีตอันลึกลับ ต่อสู้กับโชคชะตาอันน่าเศร้า เอาชนะศัตรูที่แสนน่ากลัว\"<br />\"เมื่อโลกตกอยู่ในวิกฤติ ก็จะทำตามคำสาบานจากใจจริง ทุกที่ที่ไปเยือน มักจะนำไปซึ่งความสงบสุข และความรุ่งเรือง...\"<br />\"วีรชนอาจถูกทำลายไปเป็น... ร้อยครั้ง หมื่นครั้ง หรือล้านครั้ง แต่ก็จะไม่พ่ายแพ้เป็นอันขาด...\"<br /><br />...<br /><br />ถ้าทุกอย่างไม่เคยเปลี่ยนไป<br />ชีวิตใน Elysiae จะยังคงดำเนินไปอย่างเงียบสงบ เช่นเดียวกับนับหมื่นนับพันครั้งในอดีต<br />เปลวไฟที่อ่อนแรงนั้น ได้ปลูกฝังอยู่ในใจของเขา ตั้งแต่จุดเริ่มต้นของการเดินทาง<br />เมื่อเด็กชายที่กลายเป็นเด็กหนุ่ม มายืนอยู่ ณ ท่าเรืออีกครั้ง เขาจะมุ่งหน้าสู่การเดินทางไกลอีกครา<br />เขาจะพุ่งทะยานไปสู่อนาคต แล้วลืมความฝันที่แตกสลายพวกนั้น<br />เขาไม่อาจรู้ได้เลยว่า การเดินทางครั้งนี้จะไกลสักแค่ไหน จวบจนกระทั่งได้กลายเป็นฟืนลุกโชน เพื่อทำให้เปลวไฟอันไร้ค่าได้เติบโต<br />ยามเมื่อมาถึงปลายทาง เขาถึงจะรู้ว่า ตัวเองได้เดินผ่านเส้นทางแสนเนิ่นนานมา<br /><br />ในช่วงเวลาสุดท้าย เขานึกย้อนถึงช่วงเวลาที่ตะวันเบิกอรุณแรก ตัวเองได้เคยสลักต้นแบบในอุดมคติไว้ และในช่วงเวลาหลังจากนั้น เขาจะตั้งอีกชื่อหนึ่งให้กับมัน... \"ผู้กอบกู้\"<br /><br />ส่วนชื่อของตัวเขาเอง นับจากนี้ จะกระจัดกระจายอยู่ในความทรงจำ<br />->->->->->->->->->->->->-><br /><b>>>> คำเตือน!<br />>>> คำเตือน!<br />>>> คำเตือน!</b><br />ผิดพลาด 7: เรียกใช้เป้าหมาย \"ผู้บุกเบิก\" ที่ไม่มีนิยาม<br />...<br />ผิดพลาด <nobr>12</nobr>: เกิดการแปลงประเภทที่ยังไม่ได้จัดการ<br />...<br />ผิดพลาด <nobr>99</nobr>: เกิดการตัดสินเงื่อนไขผิดพลาด<br />...<br /><b>>>> การคำนวณครั้งที่ <nobr>33550337</nobr> ยุติ<br />>>> ความคืบหน้า \"Irontomb\": <nobr>99.81%</nobr></b>",
+   "unlockRequirement": "ปลดล็อกหลังจากเสร็จสิ้นภารกิจบุกเบิก \"วีรชนเอ๋ย จงกู่ก้องลำนำสดุดีชัย แด่ยุคนิรมิตใหม่\""
+  }
+ ],
+ "archive": {
+  "cvCn": "秦且歌",
+  "cvJp": "日野聡",
+  "cvKr": "윤용식",
+  "cvEn": "Joshua Waters",
+  "camp": "Amphoreus"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "13777487": 1,
+    "13957315": 1,
+    "14097639": 2
+   },
+   "5": {
+    "13840085": 2,
+    "13845246": 2,
+    "14051421": 2,
+    "14135434": 2,
+    "30838253": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
+ "name": "Phainon",
+ "rarity": 5,
+ "descHash": "Elysiae หมู่บ้านชายแดนอันสันโดษ ที่ปัจจุบันหลงเหลือแค่เพียงตำนานอันเลือนราง วีรบุรุษไร้นาม █████ เอ๋ย ผู้สืบสายโลหิตทองที่แบกรับเชื้อไฟ \"แบกโลกา\" จงจดจำอุดมการณ์ของโลกทั้งมวล แบกรับชะตากรรมของสรรพชีวิต และนำแสงแรกแห่งรุ่งอรุณ มาสู่โลกใบใหม่ ...\"แต่ถ้ารุ่งอรุณไม่เคยมีอยู่จริง งั้นก็ปล่อยให้เพลิงพิโรธ เผาร่างนี้เป็นจุณ และกลายเป็นดวงตะวันสว่างโรจน์ของวันพรุ่งนี้แทนแล้วกัน!\"",
+ "artPath": "25de23aa3dec541dccd5cb3dfcad38dffe1100e22db4ef03675077ff6efb8323",
+ "miniIconPath": "09c5efa5b81ea10086b46fb9deb50c932edccd7d23442a8f80128861ec0879ce",
+ "damageType": {
+  "id": 1,
+  "iconPath": "fc6c9fc2a7b462613ce59b29974d45a4b4fae29eaf89c36e4370b6d48e640a03",
+  "color": "#FFFFFF",
+  "name": "กายภาพ",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "8f21eb57a307c75c1d2367bd3a5d01cdea7db6178a1c5570a6143e3229ca54ee",
+  "altIconPath": "64028c66965b78960c898ea3117321ca2503409c39e962e81aeb911a58b320cb",
+  "color": "#FFFFFF",
+  "name": "ทำลายล้าง",
+  "rarity": 0
+ },
+ "pageId": "phainon"
+}

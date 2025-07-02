@@ -2048,6 +2048,7 @@
          "anchor": 12,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 384492,
           "name": "HP Boost",
@@ -2077,6 +2078,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 384493,
         "name": "CRIT DMG Boost",
@@ -2106,6 +2108,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 384494,
       "name": "SPD Boost",
@@ -2136,6 +2139,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "While in the Spectral Transmigration state, increases Effect RES by <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
@@ -2190,6 +2194,7 @@
          "anchor": 15,
          "type": 2,
          "children": [],
+         "enhanceId": 0,
          "embedBuff": {
           "id": 384489,
           "name": "CRIT DMG Boost",
@@ -2219,6 +2224,7 @@
          }
         }
        ],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 384490,
         "name": "SPD Boost",
@@ -2249,6 +2255,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 384491,
       "name": "CRIT DMG Boost",
@@ -2278,6 +2285,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "After using \"Transcendent Flash,\" the next <u>action advances</u> by <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
@@ -2331,6 +2339,7 @@
        "anchor": 17,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 384503,
         "name": "SPD Boost",
@@ -2365,6 +2374,7 @@
        "anchor": 18,
        "type": 2,
        "children": [],
+       "enhanceId": 0,
        "embedBuff": {
         "id": 267851,
         "name": "CRIT DMG Boost",
@@ -2394,6 +2404,7 @@
        }
       }
      ],
+     "enhanceId": 0,
      "embedBuff": {
       "id": 384504,
       "name": "HP Boost",
@@ -2423,6 +2434,7 @@
      }
     }
    ],
+   "enhanceId": 0,
    "embedBonusSkill": {
     "descHash": "While in the Spectral Transmigration state, increases DMG dealt by Ultimate by <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
@@ -2466,8 +2478,486 @@
    "anchor": 9,
    "type": 2,
    "children": [],
+   "enhanceId": 0,
    "embedBuff": {
     "id": 384495,
+    "name": "CRIT DMG Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+    "statusList": [
+     {
+      "key": "CRIT DMG",
+      "value": 0.053
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549504,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 11212101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 11212202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 11212203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 11212204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "enhanceId": 1,
+         "embedBuff": {
+          "id": 15931152,
+          "name": "HP Boost",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+          "statusList": [
+           {
+            "key": "HP",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920200,
+            "count": 3
+           },
+           {
+            "id": 633445,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 16204128,
+        "name": "CRIT DMG Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "CRIT DMG",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920200,
+          "count": 3
+         },
+         {
+          "id": 633445,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 1,
+     "embedBuff": {
+      "id": 15954764,
+      "name": "SPD Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "SPD",
+        "value": 2,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 1,
+   "embedBonusSkill": {
+    "descHash": "While in the \"Spectral Transmigration\" state, increases Effect RES by <nobr>#1[i]%</nobr>, and increases the Ultimate DMG dealt by <nobr>#2[i]%</nobr>.",
+    "ultimateCost": 0,
+    "id": 15910298,
+    "name": "Deathrealm",
+    "iconPath": "92e19549c470ae1f965983d70e936ec2854606bd77708cdb3da9ddd38cf5b2e0",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       0.35,
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 11212102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 11212205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 11212206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 11212207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 1,
+         "embedBuff": {
+          "id": 16226603,
+          "name": "CRIT DMG Boost",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+          "statusList": [
+           {
+            "key": "CRIT DMG",
+            "value": 0.08
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836259,
+            "count": 3
+           },
+           {
+            "id": 717386,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 15977277,
+        "name": "SPD Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "SPD",
+          "value": 3,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836259,
+          "count": 3
+         },
+         {
+          "id": 717386,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 1,
+     "embedBuff": {
+      "id": 16246019,
+      "name": "CRIT DMG Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "CRIT DMG",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 1,
+   "embedBonusSkill": {
+    "descHash": "After using \"Transcendent Flash,\" additionally regenerates <nobr>#1[i]</nobr> Energy. And after using \"Moon On Glacial River,\" additionally regenerates <nobr>#2[i]</nobr> Energy.",
+    "ultimateCost": 0,
+    "id": 16202636,
+    "name": "Sword Champion",
+    "iconPath": "afde684b5932b3af568859cc5537ba8eeabce3a6e538c330a10de39d0c0a1adb",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       15,
+       8
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 11212103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 11212208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 11212209,
+       "anchor": 17,
+       "type": 2,
+       "children": [],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 15744506,
+        "name": "SPD Boost",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "SPD",
+          "value": 4,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836259,
+          "count": 8
+         },
+         {
+          "id": 717386,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 11212210,
+       "anchor": 18,
+       "type": 2,
+       "children": [],
+       "enhanceId": 1,
+       "embedBuff": {
+        "id": 32768331,
+        "name": "CRIT DMG Boost",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "CRIT DMG",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836259,
+          "count": 8
+         },
+         {
+          "id": 717386,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 1,
+     "embedBuff": {
+      "id": 16019401,
+      "name": "HP Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 1,
+   "embedBonusSkill": {
+    "descHash": "Upon obtaining \"Syzygy,\" if its stack limit has been reached, Jingliu's next attack ignores <nobr>#1[i]%</nobr> of the target's DEF.",
+    "ultimateCost": 0,
+    "id": 15952319,
+    "name": "Frost Wraith",
+    "iconPath": "aca69318d39ed0160bce1ea86745b96341bd244513285697db8d0ed2184f2a5b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 11212201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "enhanceId": 1,
+   "embedBuff": {
+    "id": 16166237,
     "name": "CRIT DMG Boost",
     "levelReq": 1,
     "promotionReq": 0,
@@ -2502,530 +2992,530 @@
    "title": "First Meeting",
    "text": "To the Xianzhou, I am but an abandoned pawn — a wandering swordmaster. If you wish to avoid trouble, pretend we never met.",
    "unlockRequirement": "",
-   "cnUrl": "43fa1e452607bc0a4ff54b127faed1432bca70e8f1d5ea9d88277be705974479",
-   "jpUrl": "a349d7fbdbc45e4111b21329a27e05b11566cc8bfb7fb1fc36b6d09bfb869bbf",
-   "enUrl": "dfb8d8fdfb9422706cc2318c68e3c0bea24135e16cc9d30d5c6673d2af363a5c",
-   "krUrl": "7169cbfda463b015d5ddfdf820a206de81e5e4414f5545e2ed1d919a99a0203a"
+   "cnUrl": "24a0b803a2e00d73f4372fc67e5dc0785aaab841247133936d0f6ec6983a537d",
+   "jpUrl": "2d16b5e5759a23509e91a59838cccd22f63a46aad1fb9acbd4001595d926fcde",
+   "enUrl": "6d910a4d1a1aa1cd9c449fc2cc8a9c8b1cb2c3905bcf0c703bdb6abc5f2efb3d",
+   "krUrl": "151776e5b13702902c36aca48ff30fc74328354c48f30736c58f544a3a648249"
   },
   {
    "id": 2,
    "title": "Greeting",
    "text": "Let's forgo the pleasantries — what do you want?",
    "unlockRequirement": "",
-   "cnUrl": "3f3e2102be140ab0ac7d578bc58e5cce4ae0ca7ec46eb17552a3982a6c239b65",
-   "jpUrl": "c8a76ba5b02333568b4e370b5c3fff9cc64669206c65731805eec8f635ec709b",
-   "enUrl": "4c490c8d8f9b3a8a404e95d607f45fec3af2c362fc1e2ceac40291deaee79f89",
-   "krUrl": "71581b86b65660d6be731a3d54a7fddbf174e79b9908b436a52011f5b3405df9"
+   "cnUrl": "5add58fef21cb292ae514ad619ea6c215cf4167b13ba1f1e55274e3235b331bb",
+   "jpUrl": "b8f633b4563080312626d518f13123e2e4705399210cf18ac2ad0fe75354ec30",
+   "enUrl": "d7f1f60f32f414c2dc3fef5b8883e6372d10d69204b1d83a84ad06957d4c92c5",
+   "krUrl": "f4b3bfa07b9c8e8d410c41d9baf07ae9aba7edc4c378149deee5844b3dece154"
   },
   {
    "id": 3,
    "title": "Parting",
    "text": "The universe is vast... Will we meet again as friend or foe, dead or alive...?",
    "unlockRequirement": "",
-   "cnUrl": "b9e4cf7591597cc9bb08a0b64684152c1c9e9a5d53b247cb93ff99bb837c3276",
-   "jpUrl": "904acb33fabe5e017c52e5424f45cd13c867e7be48b32598837abaac3284c466",
-   "enUrl": "efc1f82a27fe5d02a43341e04a1e885dfb4d928028dff38696ae939621030a8d",
-   "krUrl": "5c7164bb9509f46ce26957bf183ec73733b569cb7aecb14ca3e139e992c19e07"
+   "cnUrl": "1634ec48c20b38ad10fb33bdfebaea548d4cd3c5be2d7b5caf9a05888f13a846",
+   "jpUrl": "6acf2a615675e1000755cca94307403122806e6d9166529552a90becb77cbc57",
+   "enUrl": "913f609604c06c477aec514c8dfbdf7aa5d4a047b651c87b7b1e46ca4a3a9eaa",
+   "krUrl": "53f3c44f324a3d2279d37d646481b718e21e65b652bcd24f8236db85146f494d"
   },
   {
    "id": 4,
    "title": "About Self: Sword Champion",
    "text": "Fame is like the clouds — fleeting and elusive. I am viewed as a sinner in the eyes of the Ten-Lords Commission, and the Xianzhou has erased my name from its memory. So be it. A sword cuts with its edge, not its name.",
    "unlockRequirement": "",
-   "cnUrl": "eeb24416c4dd3cf06729a14008dab643302169c6c52309596f6406238917554a",
-   "jpUrl": "3fae0c149ce6d6ba1082de53ead3aa37586eafc94f4683700f91decdc85c3f71",
-   "enUrl": "1e60d7e08557a2dd00b54ab6107a54d75038ccec886f15c2873c17dee580f80b",
-   "krUrl": "4b37b24377f0c525e0bc9352fb93cd16584acc2bcaec9f0cc6f49af8510ad34d"
+   "cnUrl": "080621d7efcf3904c8169b19d9363bd2e11a829ab78bb36355a6f9b6d7551f54",
+   "jpUrl": "f2c6527cfd5b14f1d23eaf0fdb9d4c9c9b8865222cbe128b2522056a534ddda9",
+   "enUrl": "e9a2180962f948f070f7ecf30a3c1084199733e96682682237de082080401024",
+   "krUrl": "677b530a7ca216c9c4d5e998fd1ae824eef0eadeeca1162a20f5ffa74a8e3cd7"
   },
   {
    "id": 5,
    "title": "About Self: Blindfold",
    "text": "I have already surpassed my limits and may soon succumb to the influence of mara... but given the choice between staring into the abyss with a troubled mind and marching forward blindfolded, I choose the latter.",
    "unlockRequirement": "",
-   "cnUrl": "c395970c1544618c2139303b95aa5df3ae1d265d0b8a06f2d5f3030e88449631",
-   "jpUrl": "c5ea303e508e9daeb7a864ca4973368877e4f0c5201882c1924595214e62e636",
-   "enUrl": "537db194652560e7870422e92389d7ac9ae357d519fae26181acae1ccd1f8fa3",
-   "krUrl": "a520b73cdbf0d73ef7e3c13ebb32f38c07b97f89c04c68c649eb4b0b7d8210f5"
+   "cnUrl": "5784a983df1529113ec89a6692ed39175be64b69b30dfab56fb51b738b445521",
+   "jpUrl": "037ac3e1ff4d8002a45bf6ed95048e04c543c11f0ae0fdc37fe2cfeef6941dd6",
+   "enUrl": "76a71ddbce9fb0faddc5b1fa8c3f25853e4526bd7e15fdc22f5c848b36512e9e",
+   "krUrl": "724af95332fc3b2039d6947a7c3f699c1455e83056cb494eb9f0034a86ac8106"
   },
   {
    "id": 6,
    "title": "Chat: Cangcheng",
    "text": "The Cangcheng was once the most bustling of Xianzhou ships, a place I called home. But when it was devoured by an incarnosphere bred by the Plagues Author, the long-life species had to face the truth that their lives were but a grain of sand in the river of time.",
    "unlockRequirement": "",
-   "cnUrl": "32c005deec3252ce7d84576be8b484a4ddca09ae72b6da52d6583892b5b8bfa5",
-   "jpUrl": "904db7b551a76c20cd98c7bab073cc3c7dc758098f98374b9796978824a24cc7",
-   "enUrl": "499d283926c91a0fb83c5eb3025a5e9cf7b1bde320efc7ad0ddcab31ef50dcc4",
-   "krUrl": "9816a383f91c527b4d19dcc37f9fcfe5539e8cd303a2a60a9f75dd3cb6ced001"
+   "cnUrl": "c3faed87b39809cfbec52287fd912fbedc0d67e5f29bc298543b8cb200940ae8",
+   "jpUrl": "b0c3d68dd9884c131194d55898046b2e40eba62179bf0497b6ad08e4f5386556",
+   "enUrl": "6924e82479749a91491225f380ae117ff79b5191bcdfd851c34481d78d11ae92",
+   "krUrl": "45410d924589248afbd46a3504f0ff49be6f274a9e7aeb72c1a8f5f6972fb3ae"
   },
   {
    "id": 7,
    "title": "Chat: The Florephemeral Sword",
    "text": "Techniques relying solely on the physical form are but second-rate disciplines. Similarly, swords forged with mortal steel don't serve me well. I have stolen a sliver of moonlight that can shine over the earthly world — a \"sword\" I control with ease.",
    "unlockRequirement": "",
-   "cnUrl": "c9ecca02c88c3453223ae70a503fe83449c0935e1dd2a2aedd2c8642780676bb",
-   "jpUrl": "06a846e2f1110b6ab41567ee4a6149e0a4f348f64083141ab97fc5470ab50414",
-   "enUrl": "99fd25b744e317cca64cbdda55d48294b3f72a1e47bd4612fb77706dfc84e335",
-   "krUrl": "c1a01dbbc17e86ffe0bc7f4b269f09d953d0dfd486807fa9b7ed70d1ec5f83f4"
+   "cnUrl": "4f300282765072bbe158cf2920ba1bef77c26891dd7446e13c0eccf270e0fbfc",
+   "jpUrl": "8954358bc9f33eb2a97799fb1034c85c2879a4a3766edac0cf228d005141ec57",
+   "enUrl": "49405e4ac32d25316c2a0c761b2d1544fa5ac990035c89d0923453fd8355198c",
+   "krUrl": "2b809b77d5877cff043b35a018d8ffd858327dcf3458d14a5242e490ea8d7b79"
   },
   {
    "id": 8,
    "title": "Hobbies",
    "text": "Let me think... In the beginning, most of my time was spent on swordsmanship and defeating my enemies. Later, I found myself indulging in all manner of wines that Baiheng brought to me from different planets. And now, watching my enemies suffer has become my newfound passion. Strange pastimes, no?",
    "unlockRequirement": "",
-   "cnUrl": "3b0cc8e4738e9d68cdc9e9d8c05bfa9daa8e349fb4bb919d935d01fba65c2236",
-   "jpUrl": "df0aec560d50225ee1d598977c9a441efb33993defda9190cc42b8135fc6c7e4",
-   "enUrl": "33a9c2fc742968199a402ef0069d3edf8d465cf0e00354783cf59f96e66236d0",
-   "krUrl": "5d93457b232de6f62060520ffbbc1d74d8cc07e2daab7908f1723e8ab1ba1a21"
+   "cnUrl": "2feda50a16b33cb970d13a20b0139f4b578f5882407a7d21e36c7c0e2d43f320",
+   "jpUrl": "587b1dd321d00c70e6909fc8e893d1c4227a9443e7a0d785f72a0b159509881c",
+   "enUrl": "7e2753e032a6b75a9eda89def59d645552c254bc9d31288ed8e86daef51e9ffc",
+   "krUrl": "60d3482e8634f5077cf86eb697ab5561d18ac3c54d06fa038f108d772762ca22"
   },
   {
    "id": 9,
    "title": "Annoyances",
    "text": "This sword in my hand... naught but a needle compared with the heavenly bodies. How can I use it to cut open a star?",
    "unlockRequirement": "",
-   "cnUrl": "cdc0454d24df1ad1d2e4c75464f9f59201a975387a1eb2ea1753fcfafbc10183",
-   "jpUrl": "7f5d22449326229f9f9cc94c4f82414522d7dfed89ba05f81fb4bbecd1b5cfab",
-   "enUrl": "37791c03f6ec4215c987fec678b95e3e29c26aa5b97115ebd2ba2f430a1f2001",
-   "krUrl": "19f8a6e1a8914883562a771016f170a1fafdb457e3129676118a36e12a1575d8"
+   "cnUrl": "6762945e27f1c28990e04edf086dbc5218b6fbc89a95b7233e1b010fde1d7ded",
+   "jpUrl": "46ad0cfc0651437d9f6cfb59f59065477701d618cc7818c77120554f386a8677",
+   "enUrl": "ea328919706c4cc3051f01784a6e55f18c38c14bd2853f62a8774d8d5aefdb9d",
+   "krUrl": "94aee751d92ba698ba5aee2d7ad76b89ca26f29b935df170807db68fb33bef79"
   },
   {
    "id": 10,
    "title": "Something to Share",
    "text": "I, too, once drew the gaze of an Aeon. The only difference was, it was a path I chose for myself — through the deep recesses of the Ten-Lords Commission on the Xuling, through the Gate of Wonders, and onto a path of redemption.",
    "unlockRequirement": "",
-   "cnUrl": "786a423f87f1486eb87b23c823c513ee4438359e2932f65a445c596ffd84307b",
-   "jpUrl": "1c03968844b0aa1a544d396ee93a3647c012528f2a475d0a0299514107f080a2",
-   "enUrl": "fe048472b84eccbb055ca3b48f578cf89224a72abc6d3649edc60ede914cc0c7",
-   "krUrl": "8e431686a5610a75f12959fd934592c634c741e842edbd81d2d794630e902b91"
+   "cnUrl": "5d5b027575fbdb7864dc06ad6bc44b9ad623788a910868ec83b986d2305d2cdf",
+   "jpUrl": "4138edc6ef55dc9ab915a900f46a934f693ecfdff26ac5eb6fe6e1c0098ecb80",
+   "enUrl": "67319d180c1ae72a901693cfdb27154e76117067a9f129683d13efcb141cb823",
+   "krUrl": "e1cc0e2ef8e9955eebe5f35561a0953e3b0f8c5e9ad86d3a97f3884bb81d2255"
   },
   {
    "id": 11,
    "title": "Knowledge",
    "text": "Hmph, Exalting Sanctum has seen little change in the past millennium — a little dull, I would say. However, Starskiff Haven has grown on me since it was rebuilt after the war.",
    "unlockRequirement": "",
-   "cnUrl": "bd10631b0dc44842e3249ccad94e9b188b925bc4b105f474a81762ebdd0f3b8c",
-   "jpUrl": "d6a3cc1e941290ad06ddfcf3d611b0780d60706b5c2db7df0ca47e0d4d705510",
-   "enUrl": "3eb64eb8d5853c6a5a323341cb50d94a027f4fe032ddf01be97ba65c82d34ca1",
-   "krUrl": "9ee9ed3180d015331d6d5ae0af9d5bfe743cc4aa008a003bf66ee75ed13858aa"
+   "cnUrl": "9babce4e854551c36a3a9a6c1f476252aef73f998e643e9f94a1fa336eb0ddf3",
+   "jpUrl": "e96edc47d911a09c73ad78b401ee64f0cbb2597bd274a53997ebe5d4b464a6c4",
+   "enUrl": "38755167ecf34fb7c4bdb10e0bd22f1c023cbeaf71f4b4e0d5a91065d92271d3",
+   "krUrl": "87561c33a1608784534f7d50f94a32f1a93cc202e3beb779c9406964aa0732a7"
   },
   {
    "id": 12,
    "title": "About Jing Yuan",
    "text": "I wouldn't say he's a natural swordmaster... but being gifted shouldn't be a determining factor when choosing an apprentice. Mentors who place importance on natural talent either lack the skills to teach, or seek to take credit for their apprentices' easy success. Fame, background... none of those matter. I will teach my techniques to anyone willing to put their heart into them.",
    "unlockRequirement": "",
-   "cnUrl": "8c780228e55614f58c0f77713ae800fd5d22220fe5c538013a6c101b05f2f556",
-   "jpUrl": "0dd5e09eb40f0398a0990cf10dd06a8958028ef61d87d6b277799d4d2bd1f578",
-   "enUrl": "e8e19984352cb5784adf666fe12ca8bb2811568363972ff3d5edbdef73f75b95",
-   "krUrl": "67ea293605bb844286ec84746e719df2b4825ce6621174eb4983240720e05cd0"
+   "cnUrl": "f73db7e2930b33403ffc8c29dca27155d3a5fa48a0ace615f90dae0903a806ec",
+   "jpUrl": "72a0bc408649bd588190c2e929b669e6bb572ff0cb0496e926328a8f2e11475e",
+   "enUrl": "106a7ef4dbcf4ac26896dfef46de302a24ef5a11e2a586a733c39ff7a36f3fe2",
+   "krUrl": "70933672adedbf2e69b252ef812502ab4023af9081e32b2c9baa0ed5aae3272d"
   },
   {
    "id": 13,
    "title": "About Blade",
    "text": "I put him under great pain and suffering when I taught him. On the day his skills are perfected, he vows to return the favor. I look forward to it.",
    "unlockRequirement": "",
-   "cnUrl": "aaffb0a8de571b62d35c1c51a9777045de22c2c642c56dcb7f3bbc8ca7dd5ea0",
-   "jpUrl": "17e2f1000134860b2dc9338d819ef952a9b81ef54a387f66e2926784857203c0",
-   "enUrl": "820320ae1bb6ca1ce04c27996a97d113a43c0d8820432c519ebaf733e28e8d20",
-   "krUrl": "927ba6aad715b52b163ac45b26919bcaa37e03504723ac99d387696e9177c829"
+   "cnUrl": "271a06cb15fa5e60608d9e40971f05a75aa62286aac3842b9fbb72f590a01bd9",
+   "jpUrl": "046d193d81401f8da41fc23eb7bc1f9dcab7960e43be26a2db66683642051701",
+   "enUrl": "61bcf8ae9ff3a9b102a1bcc9459a9df951524ee70ebce262d05ec4586907a370",
+   "krUrl": "eeb73a8fdc864915afc5d3210fa78a6fb50bcadfb4ad950ca77e63f3d7f04f9a"
   },
   {
    "id": 14,
    "title": "About Dan Feng",
    "text": "To take the throne, the high elder of the Vidyadhara needs to pass a series of trials during which their physical features slowly transform to resemble that of their predecessors. I see that loss of identity as a curse, rather than a gift. He managed to break free eventually, but should have done it in a different way...",
    "unlockRequirement": "",
-   "cnUrl": "1db4391388ee5d704fda328fd9727bf9bd8f93e48ef7e4ae8086d1fa4f34fc4f",
-   "jpUrl": "e8fe1fd312f1dc9fb4fbf27f81fe39bd090961ba70482f7f89dbe0b97baaeef5",
-   "enUrl": "ae0ca0db9c58f3d7d02b165849948ff100be9763af04e49aeb925010bb4d5994",
-   "krUrl": "3c8b45330c4aef24b92e27a2b4c6dacea6a6a2a8ef6bcc9e6715b3ecd5f35a7e"
+   "cnUrl": "cec73e10e456d84cdd627b8d473aeb680496b8965c6c41aa01652c47ee908731",
+   "jpUrl": "b23d9894f26e2915bfc16a671f9fc3b81c60a3ea07c798a63ee0487157617871",
+   "enUrl": "6faaca6a8f54617972f6988466af4c52864089b98c1613224c51970bafc0a676",
+   "krUrl": "43de181566de1f2a28b9db319eadf54f05edf6135245ca0a503e14db67b30477"
   },
   {
    "id": 15,
    "title": "About Baiheng",
    "text": "We talked about the stars we flew past, the views we saw together, and the dangers we escaped. But... I can't remember the details. The things we said and did together have all been shrouded in a layer of mist... a mist I cannot see through...",
    "unlockRequirement": "",
-   "cnUrl": "f9db684bbff5a691e9c5580a1528b68aff50198e53702586c30aa4ab6573b385",
-   "jpUrl": "6ea273047e13607353e8c125cfdf7094f627d07687b07b36c02efe22c9f842e1",
-   "enUrl": "c5229b0bed4f790dc34d463a818061637ac3645b499bffef43ccaef3a1a7af1c",
-   "krUrl": "1c4a193e61a9ed60e2bd975f6887bc115e58f376481295a9af8739c60d8a8931"
+   "cnUrl": "20165ea6ca0f81b24b5124e17745435d455dd81201538c4f9c3a2380f2af16f9",
+   "jpUrl": "980037b2513fb97d26e0067a8d12b3abdcfadc29bb1b8b4bceac4a8403b4b932",
+   "enUrl": "f7512ddfffad467a0bbc4410c51de77854969fa507bac601a4cc69629ec2b555",
+   "krUrl": "e3adb8dcf627a340ec4efe9fe5635f9f5b2fd98b5ea2ce1b9a3b03a88baed625"
   },
   {
    "id": 16,
    "title": "About Yanqing",
    "text": "He is still a fledgling, but I see great potential. Still, one cannot truly understand swordsmanship without sustaining injury and drawing blood in the thick of battle...",
    "unlockRequirement": "",
-   "cnUrl": "a60ee7c95a87b4a2185f2b502e1893983b537f32072faa90946582c830c3cb02",
-   "jpUrl": "97ef5f4617524998ba63089b8c8581b4931fb9b792186aac7cc79b03bdf74ee8",
-   "enUrl": "5c898ab51e4c81a26ede3b5e119249058492043f765ff809166a8b161c6d38ab",
-   "krUrl": "946428c73ff12d0cc318fa9b5e93e055e9417c7d6d098a0a385e0505b71a5195"
+   "cnUrl": "6c6d889215f50963264f665d469aa964c22930974546648bb26e7fca9812936d",
+   "jpUrl": "2cae72b356438ff5e4dfd457dd10326ffc12a5e2c4372a9039c87c2b8a27d970",
+   "enUrl": "0c06747acec2c4247d5c25beb8b10b66f3403c933122b231b63eea2980ca9c58",
+   "krUrl": "fbb951d8168abe05b7b4d3210c5436f43f5d5b9f36cb56385af204f90e88ca10"
   },
   {
    "id": 17,
    "title": "About Luocha",
    "text": "He is just like me — there is a hole in his heart. No matter what he does to fill it, the hole remains. The harder he tries, the more exhausted he becomes.",
    "unlockRequirement": "",
-   "cnUrl": "bcff8ab8ca54f91188b38e38857e36daa5b551f1ab5805de262f4976c4c8dc3c",
-   "jpUrl": "ec68b32aa63141e52e4840070887ed7699721fa06ab70f6537ae9cfe06aee4d9",
-   "enUrl": "57ee37b2e767d72ddae84259e91a8bd6dbfea81aec7f4d6d51e0bd145a969b61",
-   "krUrl": "7122e9727f96ad1c84cd8bdc94d7105db04647b28a409423a748c55d2f07d174"
+   "cnUrl": "d29bf2a5214fb83b36109be10863bd647178f28ecd4cfbe38479dcfd55610537",
+   "jpUrl": "7713d385ca0087bc732165d2fa81ce3cd1b7a755bb8973d0997dbdc82ed8ca81",
+   "enUrl": "b1a61a0dac3bed2fde63f4e8ae15ae9a7cd7ba5628ba65707f3b1e248353e858",
+   "krUrl": "91cb87189426e4186b629757f456e14322cd8c43213b93bac24740f37f61fe67"
   },
   {
    "id": 18,
    "title": "Eidolon Activation",
    "text": "The blade's reflection illuminates the past.",
    "unlockRequirement": "",
-   "cnUrl": "7fa87ab8123eaa5c11341ae85600d340c424a19c51ee15ef5fe1899a135d019c",
-   "jpUrl": "d2091a14e10806c9e0ca2196531e8be5a0c6791d621b0c6f9893e5cf23eeab14",
-   "enUrl": "08b6c8ec43626e87ff769e3d6450d38236f59a1a7c65f62e69409f72495bc3eb",
-   "krUrl": "a65aef3baa51e8f905387c4b37f3412304f45578515b3982e229341247adff33"
+   "cnUrl": "195f427791c0f107f33042eebf54f405f72d4fe7b470ecf2ed1ba75b6865600f",
+   "jpUrl": "450e5e6989dcf6d5f5152fb447fa26799566c764c99d81773ffb4d47e223cf33",
+   "enUrl": "8218ba3f9ceec8ed6360916ad8a0f2435ccba17c4c8ddf8c358de1dfbd9c566b",
+   "krUrl": "3975c5e7f13d84bd865ec667715cd352591c5f19c1df9d1cb1e5c2e1876fed38"
   },
   {
    "id": 19,
    "title": "Character Ascension",
    "text": "If I am to cut through the heart of a star, more time is needed.",
    "unlockRequirement": "",
-   "cnUrl": "abf08798cef7b60610f0a1507002204a39db95ec9b652dabdfde6b6de9331afd",
-   "jpUrl": "ae40eb0502fd54988c2642d58a6b5fe692305acc4a0d5696813b5df4ab552342",
-   "enUrl": "f70e0f732c9823542eb4a2a59118630faf020815f6cabf3b6b692b961342d18c",
-   "krUrl": "a9e629173878ac480decfae456d5dbe7112e50282eb0dbe21c51e5373327754a"
+   "cnUrl": "43b4889ff3e418f31cf0a25d975f26da4d2ba3d05ac45101a1af1aa2abd09b43",
+   "jpUrl": "ed0b0cc6bdfa135cf9a8304ca6548196ba36f41c0a5dcb2bcd6f9744d1b4f1bf",
+   "enUrl": "bc741c4ab084b91942ad640c73677135829207f8f7ec0dd9ce8e56603d711368",
+   "krUrl": "fbcc8ae3a1a35d8ac9f09895148369439f422c835bd4561f3b92e70019b6d29e"
   },
   {
    "id": 20,
    "title": "Max Level Reached",
    "text": "Pushing my limits is what made me who I am today. I will not stop here.",
    "unlockRequirement": "",
-   "cnUrl": "1350dfe5bb0709bb71d2b04211af1a2351a1bdb8bf14616896c225200a046376",
-   "jpUrl": "434e0405d299023c91cffd9783830940c5a07f2264d09ae4a24cc2afa5df134b",
-   "enUrl": "1cd8ff7aad0e8b902a25588703e462e35574fab08bd535258138d20f60974b3a",
-   "krUrl": "2fdae5acd11ed49829fa4f3357ec6b937232d28d1790d037f0e2a99f9fc043e8"
+   "cnUrl": "0f477c6145693d5f9d40b504eea67f0fa72bf1522a6cc12b00456dc2e0400b8c",
+   "jpUrl": "ccaad0d460b36e8b26bad4021feb1ffd7013c55a87598d8483ceb47d9e16bad2",
+   "enUrl": "1600f304ba61d2907901258bf03e0643e067aae7b13f49bcd507ec65401a9b38",
+   "krUrl": "0514d7eb4bd2886e8f879608b8aa82ed4f7dbee22fe7cb5f505849f7c08274b6"
   },
   {
    "id": 21,
    "title": "Trace Activation",
    "text": "There is a story in every scar.",
    "unlockRequirement": "",
-   "cnUrl": "8691d67682eeaa9c9f2b11b5269da02efb657a6a41a8d0bbfac2d7bbf3e2b53e",
-   "jpUrl": "03d1c6b994fa9071a14ef369688400ff712f5b7255b61bd9915ae4d99ae3d55a",
-   "enUrl": "392b573614fa5c63cccde2cfbb50580d89efbbe6dc6a113354d4504ef0d3c2a6",
-   "krUrl": "368a89c47ab03fff43c621548cde7e35bc33aeff9ace4b11960df212a47fdc09"
+   "cnUrl": "17511ac9b2dd98050a0d36bfd3db02c234f886714478222670d763f6d6aaac95",
+   "jpUrl": "3c34bb1a906352239b1c1c10bf87f86f1ec24c2fff624bc8bbcaa62d0d51f0d0",
+   "enUrl": "002408c99c7838c07cadddc4a5acede2e66897f41b4a5484ad57055554433a95",
+   "krUrl": "12b416a7fcdbcbc570494ea1c0ed9e6e5e275f9b9606d02b945db0634c787ce8"
   },
   {
    "id": 22,
    "title": "Added to Team With Yanqing",
    "text": "Young man, show me your progress.",
    "unlockRequirement": "",
-   "cnUrl": "d6a04eead68251ca1fb72b996379a6c4961865d42d68ff35caf8b19d5936d470",
-   "jpUrl": "39d033f5a658068d570907679a67a994a7ec3dd4181a801f4154f923522bfbc2",
-   "enUrl": "a6e4fece93a2073cf21b1737b55f8ef7797475d1e71d46dea01bd93ed2b19429",
-   "krUrl": "5aeb319d6307f3d50f01f966dc80bec5b6c505bf192600ed65ac0257583c5442"
+   "cnUrl": "02935ecf2f9a276c9970dfbd3cbe97b6c5aa31607971efafa64c34f1ddf273cc",
+   "jpUrl": "649dcf676f022a7d2ba63751bc24ee38491b7127b914c8530b82bb80bb79d21e",
+   "enUrl": "82d9ffbb66d141ee5bd8fed0b350d216863c07124ade92fc6f8576920efbff39",
+   "krUrl": "66d1a1e27e91da9f3731a198352ce285b23f75be3c8317d46322f7ae1a13c359"
   },
   {
    "id": 23,
    "title": "Added to Team With Jing Yuan",
    "text": "Break the enemy's strategy, Jing Yuan — that's what you always did best.",
    "unlockRequirement": "",
-   "cnUrl": "6a3f079348a5e4b60d0ea958daa30fb4da5119c83f38282ad3af5a485fb9e1bc",
-   "jpUrl": "bd690b5c5ecdf5d591afefa8967bf90697f0f79f3ced647f4ed6126810911e86",
-   "enUrl": "f3702538690d217203a5d4bd272dc3d78bb48c4ba887f47a6381c4d612e5f7f0",
-   "krUrl": "52f8b347848e3af125ba75474852543e0c36dda68c0a87b1b8e406372543149a"
+   "cnUrl": "366ad0521f0a740d74d2aebedb7df1c7f622ec0569c3617e470cab36136e095f",
+   "jpUrl": "f6672c82e626c926ac466882f33ea0ac7eb10aed581d5098485cc202dfc7a239",
+   "enUrl": "5a8d36e54dd0ed49d494d08285810d23c2e3174b28615167056619f3fa224c0b",
+   "krUrl": "6eebd395f9e4292d50b3bf3594dbb9c276732224737129a74cf774017aafa8e0"
   },
   {
    "id": 24,
    "title": "Added to Team With Dan Heng • Imbibitor Lunae",
    "text": "Imbibitor Lunae... It feels like an age since we stood shoulder to shoulder.",
    "unlockRequirement": "",
-   "cnUrl": "f202d53b3181c4c1e6ff9ad5e9a2bd7c7489bf656e8f15bb4f0532454ac14076",
-   "jpUrl": "287d7e8483bc35b1fa8e86d3edf02757dbfdd2dd965bd159140076c6ad5718b8",
-   "enUrl": "ed5846d90628fd00dadb431deaac9257edca007f5fb9f504b394bb30818807cd",
-   "krUrl": "96a5c5a3be6d7d66e6a6b91a3c42525d1bd785a444729719893a0307f8190b38"
+   "cnUrl": "0704743ee6377bb1a8b029d48b11a07df3d615a9c91d2c2464a977471e884baa",
+   "jpUrl": "de6b736e6059b88e8ea7fafc9c65815632adeef93667c4e828fa28211e2e14f8",
+   "enUrl": "61b4624fe502fd26804395d18749b916a00a82629ce04b6e37faf9bc68cb74db",
+   "krUrl": "9a1f772319f663c58a2e5524ba8f32811bbe2c632f0fd130724c08deb2325916"
   },
   {
    "id": 25,
    "title": "Added to Team With Blade",
    "text": "That broken sword... You don't want to let go of the past, do you, Blade?",
    "unlockRequirement": "",
-   "cnUrl": "46272b1816a7c7a03983932921e00a44c1e87ba134908d29ccf2ea59cc494d16",
-   "jpUrl": "1ad642ea829359bee7c45fb19eb9dedd9f208d575e72a908856cdc71e8894e1b",
-   "enUrl": "efcb0d77146ffaf7746bed76808f2d00cddb7feb901bc8223f2dc7c7b31f8bd7",
-   "krUrl": "73c3722ec9245489d17e702848cd04c4d5d9a01b42d4bbd3af1925bc3a87d7e8"
+   "cnUrl": "27aee55447cee46158fef8077a7c31575f0773edd042aca4608d8bfdc0e75444",
+   "jpUrl": "3da01712a9622415144364d3086c173d2d87b7b615cdb38648a876d421563027",
+   "enUrl": "9c4e2c39d7cdf3ca01557b441f1be5256165eb259224a038d3c78fbf7941bb08",
+   "krUrl": "e0218fe86b141419ea8b9c92789d2b900cd296925441e230c994ee0340d702ec"
   },
   {
    "id": 51,
    "title": "Battle Begins: Weakness Break",
    "text": "Unworthy of my time.",
    "unlockRequirement": "",
-   "cnUrl": "bf4f6eb0fd9c0613ea7270cac17e00c1a6a8fd2231aa4166bbb17dde3e6bf940",
-   "jpUrl": "463e2d491cef2ad6df0bfe11071cb0f561052ea4cb9b8630070fb53aeae93aa4",
-   "enUrl": "ba7b858bbd06be5aebd7c7b87f83145c73b33d63a0664f825419a425212991a8",
-   "krUrl": "d03fb43d87017b926570c3676778ea26cd22e4c0adbbf48693142ee3f558a30a"
+   "cnUrl": "c8557a0b6d2304756b8f2144c1aa9b17ef43d8d9a9b8b118833f7a685df37f7d",
+   "jpUrl": "33ab08dd41c85042417dd600515af47cbb9fb05bde49c724188c210d91d00c82",
+   "enUrl": "13424799fb100873fff5d427451f9c3a596817f3a90b48aa5f2eb5feac6755a5",
+   "krUrl": "f279fe672cb7e38db00f4e7a39cc262623683058b9d6e932fc165d4005b770b6"
   },
   {
    "id": 53,
    "title": "Battle Begins: Weakness Break (Spectral Transmigration)",
    "text": "Blade fodder!",
    "unlockRequirement": "",
-   "cnUrl": "ff3f015b8eef8011f194897ab2430291f67902f72fe8c584bda8a7dcc1ae8eba",
-   "jpUrl": "ec638a566f6ba1045396ac765aab89a407314632160aa0d83a8a00ecf0856f6c",
-   "enUrl": "8e57118836c1e489b147667c1c3f1340decbc83e18840a300187a08473790744",
-   "krUrl": "c9852b4f4e205cf02786116038cf9390a1288eb1370de3714353d260278f8b17"
+   "cnUrl": "01a81af3d490ba8a518f93b6d56d8bf42f97a01dc4d22262138f97221d466964",
+   "jpUrl": "150ea343f56f8495cb8cce60ce729d966c7202d1b881a8939ce8b173b4545f33",
+   "enUrl": "f364977052719873da1d08c4bf6f9c3fbbfa0604b593a166430b1b1009948cb9",
+   "krUrl": "04c31d1a8c9c2921ffae0e4b177e8f4ecae6b4c84168ef8f3198fcd56bbd418f"
   },
   {
    "id": 52,
    "title": "Battle Begins: Danger Alert",
    "text": "Another soon to be departed.",
    "unlockRequirement": "",
-   "cnUrl": "71890b9a80cef138deec3c59186db1ed43ed9b4c45756d0ad5c8f923537ebb30",
-   "jpUrl": "8d2536e6a8d5445670fc9df0a75f729f17da0c17e73b4aba5422a140d29b6b4b",
-   "enUrl": "4960d6af356d1d47898a2f51c34cf6d73dd34ad201d45b39c8990a1f7354d70f",
-   "krUrl": "4ac1a39feb6f1a4e9ce1db7f9f7b4ee8f2788ce7122f2e9c0114734219772a04"
+   "cnUrl": "479f2a6023b9b37bf92a8b4f5949d3f98c0925b9e44f6f4507e8195eab615cfb",
+   "jpUrl": "6e772ce1a223cb925afb7e59914947d801d5524b63eb569d29366fa60fefa559",
+   "enUrl": "2deefd0371327fa852c04c489fcd12d7a4390ec19118993ad94596066f2fda09",
+   "krUrl": "5c97d9a92e634b40c2790eb7e023912651d86462a668d956eb3f92b05fb6f90a"
   },
   {
    "id": 55,
    "title": "Turn Begins 1",
    "text": "Tedious.",
    "unlockRequirement": "",
-   "cnUrl": "b0409d1712deec989c71e79600c975d23d6f15c1b596020fe6ce543982a72303",
-   "jpUrl": "c67c0a63cffdcaf9e2afbeecb40986f41fa88d695fd78f2f29e7f645f867f6cf",
-   "enUrl": "d0b935039f0d8b864652a85ce573d359cb150a54d3d9ba59a377f3746c9bf883",
-   "krUrl": "5787e083ad0cfde5f617df31fe0ff6941f8f4f5e8329da32b7ad267754702a4d"
+   "cnUrl": "478801f38f7a0c971c047de686d1fc5034f59a121db22d65ec551e2369bc3eac",
+   "jpUrl": "6ce1bb74357e04af959e29c0f1628347503dc5c33287aaf0982e5251c16f8432",
+   "enUrl": "98f9a8c20eaa1a926adfc0d82c5e81f360e10b0f44e82b244672b4425a4ce250",
+   "krUrl": "d98bbcd250244aea8c376a9deb057d9cc6b49c37c2914520879880580ad65884"
   },
   {
    "id": 56,
    "title": "Turn Begins 2",
    "text": "Stand down and I'll spare you.",
    "unlockRequirement": "",
-   "cnUrl": "04d5b3277bdfa2bc106bacacee09216f3d5f9fa164c3543700d4bbddfa1c56ef",
-   "jpUrl": "991e32b59205b0eb8002b38e95558ed95208e3c6c1c93f167e16d84c5cc43c86",
-   "enUrl": "81c2f149df449247b196cde64ab111e545141f5a6ed974db5d2adfd93205ffbc",
-   "krUrl": "e74e3b111ec85ff48066f32b70c25c9feee808ba4bb8528d66adb0bbea5ac957"
+   "cnUrl": "142151b233203e022b7a4a5d6290c72542228eec8b12f83688bcbff34829c4e5",
+   "jpUrl": "bd37fd1fd6518de3362e70aed99bfed267073a8b61e64985d3c41c7a62d47795",
+   "enUrl": "bbe67d06a6330a5f8808173b3521e19b2c99fe1b84e3e744b670ce4533760b3e",
+   "krUrl": "5799761f3aa88860c860d795ba1e13ed46aec1865a82fab59c6f744c591dcc34"
   },
   {
    "id": 57,
    "title": "Turn Begins 1 (Spectral Transmigration)",
    "text": "Nowhere to run!",
    "unlockRequirement": "",
-   "cnUrl": "6866b58a6128891ba0f74b65a18fe389490a5548206051cfc156a920a38de20c",
-   "jpUrl": "5739c3abd0c8c137c7675b67e51be89316d209a8bf3c626ec84c482bb8905938",
-   "enUrl": "9b16b70f8f357a3eec0f764a7fae3c906248c161e0ff01babe01853f732fd898",
-   "krUrl": "13794a85c0c73fc63f1c0359406e3cbfac233158c37985d171cd0d602b754e7a"
+   "cnUrl": "0b5d80b3dc8faec63e6584f2ffeeedd36c3321ac3147807bd26079788eb01d03",
+   "jpUrl": "edc1c4d42b0ff3121418e291d1931115b9d1f1ed0499459fbc61e0012c1c8d98",
+   "enUrl": "9ed605a5b8c5210cde48236a68a29316a1099dde62b9b7e2a740d7eb300d47b4",
+   "krUrl": "e0ac9a33e0ee363a2c977e5ff49aa100d0545fa5d7fa61026f2b551cf331017d"
   },
   {
    "id": 58,
    "title": "Turn Begins 2 (Spectral Transmigration)",
    "text": "Ready for death...?",
    "unlockRequirement": "",
-   "cnUrl": "bd8b2bc6122cdbefdb8c91133af18fe6e2550588a8a28b0ac3a7553e54e739d1",
-   "jpUrl": "5661ac5dbab64e447e6654959e766e199176e4752cd16d006ffe80409d09e40b",
-   "enUrl": "a78832ccb8574b789668279852a97dfd5e67f35a607e784320dc104204c27ff7",
-   "krUrl": "618ee0a7f01e2b75699a7c0ae2c39bab2337d7de8d5e7a5f80acc1e6476b95ae"
+   "cnUrl": "97e4648afed62a799ba313761d7adf9976f760d3e9ef45136fb7c7dd85c52771",
+   "jpUrl": "04647cb5d23d5443f71dc21ea425373cf0222005b74fa126e99171b95e51bdd4",
+   "enUrl": "8d112465cde99ef04ba88d1327d7a9c9b5d077cc61fac5dd1bdaa21b3bbf8b31",
+   "krUrl": "57f8148c269cad889f74548f4db85f7870c721ba379a3c0f207eb87aef0c2f0e"
   },
   {
    "id": 59,
    "title": "Turn Idling",
    "text": "An endless lifespan is just a bitter wait for insanity.",
    "unlockRequirement": "",
-   "cnUrl": "c0b7491ca963a1d39c5faca373eccc2fade97eaf3cd0a8afcf6aa8a21f0d748d",
-   "jpUrl": "703b616be93af7978e4a536d9d398a2a2973b99c03b5cd041b242a27a1967684",
-   "enUrl": "ba68a6263edcf096d826c1963465279a32dc5733e24d0592338ce622095f6fd8",
-   "krUrl": "250087bade617b5444f14da9c0d5de446a6358ee962574c2d4a00acea309f1f1"
+   "cnUrl": "1485bb7e5446352c791219b6f7c2f6968270d5b72f3e2834b5a78a580139ab6a",
+   "jpUrl": "2404f065b97f64018665c795dacacfc9cf1058b5244f1192559c9d1a0cffd232",
+   "enUrl": "726cfdac3f802b3b84d46c7aede6dfdc8383463c93d16faf5ff343f28ab99660",
+   "krUrl": "b648bbea6d5e1e43abd5b7dada6295c06eeb7f599ee0be28f3fe805d65e2ba6b"
   },
   {
    "id": 60,
    "title": "Turn Idling (Spectral Transmigration)",
    "text": "Can't stop... Can't stop now!",
    "unlockRequirement": "",
-   "cnUrl": "a4f74e69b36429d3bbe4c046edf210675803750b97cf3f0c5c3b585be3987c30",
-   "jpUrl": "11a7ebb94cbd8fa8a88bd254ff66763306d314fef2880eccb2dfcd8335a07757",
-   "enUrl": "6493ed397d79e9517e5a613584b07fd05ee8c08c840005512c55f1bad851fbf5",
-   "krUrl": "227487c14ca706a85daf84ab8f35a16bcd39a87a9eccd50a2427b1bcf0cea9b3"
+   "cnUrl": "bf8a1bde9b682776cc448c240dc68f5608c43bfc160382a4f99bad601d546966",
+   "jpUrl": "f4aac8568d3146c93de57edf15cf32b4fb1eca7b4b61f7b41a9721d086f8bb9d",
+   "enUrl": "b5e15e56f5ed4a4fe07a79f183e1b53208b4e257b552908db300a3fd815fb49f",
+   "krUrl": "e3e0c4f81e6eeb991b0bd71bf920242fd2b6d9a72677090a9fde7071e13a7fc0"
   },
   {
    "id": 61,
    "title": "Basic ATK",
    "text": "Swordward!",
    "unlockRequirement": "",
-   "cnUrl": "244badebded0407b26c9aa1dc798d320a57b09836ffa20aac7a150cbd0bca212",
-   "jpUrl": "6cbdc2d575f0aa9b93d25bf73dc3af0f0d64a8e3107bccc1c8c292ec5550b5f6",
-   "enUrl": "f4c8741c00b43eeb5dc5e71785cc58450633141070c8501a799933eb964d4747",
-   "krUrl": "63d53393757b71ed36089600cdef38f7c30653b6ba753c6d324bc812b647f621"
+   "cnUrl": "c901861e22b54c70657390ec3704dd71c6080d6d3df16a8b0a99d41defb6d901",
+   "jpUrl": "29674d9f47cd97892a4cfbe2dce7c1d7f918dd793ce4f137b9321809114ee618",
+   "enUrl": "a44d6c061d56aedce40a74c25dd0fd70b20e08470cc069af5405d24eb6d4969f",
+   "krUrl": "97c9d9a30dc5d8e8e571bcdf6fc7e2c0e574606411bd40e5f8f0411f26bf6362"
   },
   {
    "id": 62,
    "title": "Skill",
    "text": "Fleeting light, roaring flood!",
    "unlockRequirement": "",
-   "cnUrl": "f32f558250d1be087969909251dc390c32707fab032ae35fb529410dfaacac3c",
-   "jpUrl": "75fb48fa510df83957926960ef4feadb73542d3726724084896c2e0c7d9e23cb",
-   "enUrl": "1f2172f4ba1ec61aa941989cc2d82ec83c6f592b524834a6d0c8624de272abd3",
-   "krUrl": "478b58bd3d3909c744e49014a4ba93ae1f460f8ac5f8d21f62d8e4b8bcd62f3a"
+   "cnUrl": "7c55ab4f42eff5213d89545f8737275d341f305c47dca23b280a82628ad36fba",
+   "jpUrl": "7dd0adb399b017604bfb44290799b8d14cde126b7733e3c2d2163ebb53bf90ca",
+   "enUrl": "bbb864d0881988681a15f3d8dcccef2da6a2bb55c50e34fd60d7b38dbe580849",
+   "krUrl": "878a1ed874fa6fc6c6c923dcc385ddb7d3833f99ceebc1b75634dc030b240c84"
   },
   {
    "id": 63,
    "title": "Hit by Light Attack",
    "text": "Try harder.",
    "unlockRequirement": "",
-   "cnUrl": "dd654bf766e207587e298d87f9871d02f4291170c6e035340d58384a15e4b9ad",
-   "jpUrl": "a4dd8db2fe4d419eeaa18f228e2a50148a6a528fdb590377c966ff1c3b03c173",
-   "enUrl": "0ec86f936b8653e32aa9e586cece2140f6969c9dc4d49f329880cf2b666f9ab6",
-   "krUrl": "30f7e5f36ec48fc86013e99aa7a4f9326adfca51d1846789cc58be520400cc9c"
+   "cnUrl": "a7b7993dc18fd22a6735809020b95da075bd0330fad1c0b44c9d1fb11d0bd968",
+   "jpUrl": "77973e981df1a42d8ca783760397e73e7462a1ce6a08b96bae07d4801a51ca78",
+   "enUrl": "44b470113c7bc26e985b5af4a371930f1c9d6d0b3bfc416837ad805f3090863c",
+   "krUrl": "d86e4813b01e061039f869ce41953bdf30d8ff4fec0cb1d66754d34f93b10942"
   },
   {
    "id": 64,
    "title": "Hit by Heavy Attack",
    "text": "You can't kill me!",
    "unlockRequirement": "",
-   "cnUrl": "56e2bb172238dc48e15edc4c9fb13e6d4747cade12a38a3708f0d1d4e2165246",
-   "jpUrl": "ce383a5cc8f38da6b1fc64e37b0f3959ed21ad3b1dca99d405bf5269863f53c1",
-   "enUrl": "5d2aadc23e67cc71feb98be9a6bfd1a162943a8bc66fb5339a1b8f1f0416dea0",
-   "krUrl": "2a24f905fbd6563c8b182f2e8fbd95565214bb428c4d6e27769054ca460f6672"
+   "cnUrl": "10fb17205e81fb1ca97d385f6617159130e45f9ba4c26bb3fffabaa330b570b8",
+   "jpUrl": "dd9692fd5918bc122dbc877ffb9d46f8c72e99ac99a837b28f7c58d2c3793dcb",
+   "enUrl": "e74e768b87635e3acc2f8ded6ed26da040d1f38e2aaffffb3886e6fd99dccbba",
+   "krUrl": "cf52353a7ab2b7ddb4f1df23deefb59656954f7a748da7bebe0425641efa4c82"
   },
   {
    "id": 65,
    "title": "Ultimate: Activate",
    "text": "All will be revealed...",
    "unlockRequirement": "",
-   "cnUrl": "f0f1a785fb4d27fb50a922ca5548845e41e289e324ebebc646f730021c8d49a8",
-   "jpUrl": "715880655c3843ad4708a5072680b7e490467549220b5a3eba67d49bd63123d8",
-   "enUrl": "6904ee3d8f5628f0acf578a9cc11b632e329584cc091ae0dae270d24403b9765",
-   "krUrl": "a282f907adf0b167d517687ebc19ad7f993ce2f237c2f10cdad39a7c6bfa7860"
+   "cnUrl": "96acd04496c621330899bb84e9a42969c3b9236fe4b3c5cadc3fa5ea098a9e47",
+   "jpUrl": "47bd0f62f0c21dff47f0e38bda5e684839df540ea4cdae909c2d1e2f462f0e39",
+   "enUrl": "3c1e7ae6b56d7fc55a53a087bb90cd24befacef02674e9dd43c0f00b5a189349",
+   "krUrl": "7550fcc6aee104a378eb5234567f0263425d3dcb389bb1137170a6051e80dc0b"
   },
   {
    "id": 66,
    "title": "Ultimate: Unleash",
    "text": "...in lunar flame!",
    "unlockRequirement": "",
-   "cnUrl": "817c80f033679f8c80afe3fd5dabb8bf761d970060ecc5e72e0aa03fa2dd781e",
-   "jpUrl": "fd1697358c1b8fe9cde6f9b8fc5fc0bb170e35a08394d2a5c9bb1bc52188fd84",
-   "enUrl": "206ddd8f289275804bbd00ea8e87396ec62f1ea0d902f3deea57434f8a87d4dc",
-   "krUrl": "5a99df7bb8014086863fd2ce985b0a4779f4c385cc55788f2c6b3d2965640d52"
+   "cnUrl": "f51cbace76a61c60894a183dffeaae6465cca95e3da5eb1404259eca4b2df358",
+   "jpUrl": "6bd8cf432e1a5c076caa7c6e7b8e75afdc5d1f1765140b84873db10d152e4346",
+   "enUrl": "7a65429b3bbe0b711487dbd741c450feaabaf2508e6b82cded27340db53a7251",
+   "krUrl": "82e361bc57b1dfe2fe9c45bd07806e1d4c4fcdcff1130618c59acadd60939a30"
   },
   {
    "id": 67,
    "title": "Talent",
    "text": "A blade of moonlight.",
    "unlockRequirement": "",
-   "cnUrl": "df575170d93ac962d74dda5e5e89241ee1e1195794c390700c2e02a2428b7ed6",
-   "jpUrl": "b38b3c746c718f5b1fd83984a991242f3e24739d765a91f2ba81a2d71842aa16",
-   "enUrl": "84d6c3420184a12a53ed3b520b41339847106fa1f570e3f22a725d6ce4f68414",
-   "krUrl": "a5e6195e88416d73951c5d24fd192128b8fdcbe7eed35fd26a33b909e6ae0583"
+   "cnUrl": "f241bff6bda7ca8d874e93898494786d8f225488cce8e6aa18557a137ce2ee9e",
+   "jpUrl": "44a5614dd7cf34a9b88dba3e0480e63a22d24287d596e70d3ef6348504f0d5ac",
+   "enUrl": "5e7a07bb2a57d01fa71292abe47490a726def47aa480ca79ae7afb4e3f0101dc",
+   "krUrl": "1dbd7d33d8671578a29c8139dd3271ad52cb6de8cd7b8f9628ebdd6ef7c2ea69"
   },
   {
    "id": 68,
    "title": "Downed",
    "text": "Finally, the end of it...",
    "unlockRequirement": "",
-   "cnUrl": "c3e8709636416b8c670d64d65469ddc2c3af9062dfa571de0406728c3b2d727f",
-   "jpUrl": "3c6d8e5880d134105e5ec9840982bfefbb58a1f176f5bfe0d9e4d88007b3e00f",
-   "enUrl": "d889642ff87926bd7136b410e45376f910a740958cb88e43cb7d598c7ead3c8c",
-   "krUrl": "a19641c46e19d3db188c243523e535f2031aab9b28c45d6e5e522d1fcb328171"
+   "cnUrl": "52007178f4db273bc7f462884b04a8c4a82efab1068063e1d2ad164a6dac3933",
+   "jpUrl": "8909b61c85be3df7a96ac71ec25a4adef0e4185e3d643469512610cdbfd600a7",
+   "enUrl": "224b1a0cfff8cbb2a078d7ab78a1032d44e4e247a3ae117dfb85d05c4f7531cc",
+   "krUrl": "eba9b183f670f47e07217f03c48d82f90e55321bbc083849b7c84a5c3441e73e"
   },
   {
    "id": 69,
    "title": "Return to Battle",
    "text": "Did you think my lifespan would be cut short?",
    "unlockRequirement": "",
-   "cnUrl": "d5f1b7cc7d51fc3fd3b0b4fc67576e2011ffa1e2083862ba934e25a5c7092499",
-   "jpUrl": "67655d1e326ecba3ee04a46061589e917a2b3a2aa4109d6ef603bca46666ddb2",
-   "enUrl": "b6c2d4ae6f99ff16146bbd32bf4235d1f10ca71b37668f4154df55024794eaa7",
-   "krUrl": "939e0f3fc8602ffae8548eba6d8c795a9ad489d5f823bef30c599967df261084"
+   "cnUrl": "17ba8c1b905c4aa2480764ed1283f98087ad9b1470ea72f6b2047b01c8c69f25",
+   "jpUrl": "a792a39c4b5d0cc6ab328890331b50f707b6238a5ead315059d59a5a225dae62",
+   "enUrl": "eb5378a4fa8ca3230416f58e14adaa667a412d003625649d64764aea12a2097b",
+   "krUrl": "0841dcc6cac45f51a5c54f98c76aac8ad55493402346d1ab3f15ab38a65373af"
   },
   {
    "id": 70,
    "title": "Health Recovery",
    "text": "Save it for your own skin...",
    "unlockRequirement": "",
-   "cnUrl": "7472fbda8103256ab8d03ccd47ffe20f3ffe3f7923c1554c26646d06fc7ff3b5",
-   "jpUrl": "bc7c7175fd1b2db0230f1614c256e5db91635a5cab2134423dfe50db3b007db2",
-   "enUrl": "d3e25631ae7eb33b585af02876e63f374b7a2dccbb7ec78eafb94ab8ceec99f5",
-   "krUrl": "aee125094dade14b2c0074419bbc205e177f70238d562ac5cedbca396c87e189"
+   "cnUrl": "ef757d4fda3c1ba635063b845c2b7eb38045ffcbbdab0f2c966bb91bdabf3469",
+   "jpUrl": "b4c6dc5e1b03fffa593055a704ac6365821b0de9619b092ebac3823211f8e538",
+   "enUrl": "38ac7b56832f41dabe3eeb3ba36e0b2e89d128dcd280cef1581883e791afbed0",
+   "krUrl": "987e5f4fa9a9a8d5b1abbf1dd430f2ae30725987b1b31acc2fc49ac72ff7d073"
   },
   {
    "id": 71,
    "title": "Technique",
    "text": "The moon shines on the truth.",
    "unlockRequirement": "",
-   "cnUrl": "6cffacd7594ccede2bc5ee14e2d7e5b75bfc01cebb30473814ccc64af493a6da",
-   "jpUrl": "3dc97f2f19038de473cf3df9e5e3a3aedeb1a0310282bda31c4ad4fe0419fdeb",
-   "enUrl": "c1f693437597f87218822ee0cfb6ffc0f4b976b773aa383c64dfcbc7222e95fd",
-   "krUrl": "16497a412d43f2c5b0d49c4f601cd242a86ab8098ac4455c407b4bda99122ce5"
+   "cnUrl": "2ab16f53f86309cb5ef7201b3313560507c911100663bb62b6998b81fe8b0c90",
+   "jpUrl": "8e426baa82f38d3eae5e6c81ff0efdf9fe23ffd22f646a1fa748aba863746163",
+   "enUrl": "c3b8d0d39434b7fce17862ae999a4df537a76f866af2a6e0e9ccabc2a3acd528",
+   "krUrl": "33c7e58d63d331cffe4ce0bec1f5599276a70e28070f383f9a1ff7eba058e82d"
   },
   {
    "id": 72,
    "title": "Battle Won",
    "text": "Do not concern yourself with the outcome.",
    "unlockRequirement": "",
-   "cnUrl": "9d594be4d5ed0f4e8754a23a17084573f220d5b4da44cf3ef34e6a914044890b",
-   "jpUrl": "35038b6740947f019fb223e9633c95090b58277d41a32db8b14fd701cfdda566",
-   "enUrl": "023c8b9d54a7ab4e9b9b2eeeb468a761c302bceb463ad89926b751c7266d0c1b",
-   "krUrl": "db44b766970a951179e8c37d11e982f4b91733fbdc3db419e099c356f2cda26f"
+   "cnUrl": "2dda998ea363a145c07bc885f94694415078d662819e79fd726307d3ef0653bd",
+   "jpUrl": "d709d93f6eaa9c1efbdcd515d4d4adb2be4a2144bc3dafbb545f3eab65b2297b",
+   "enUrl": "040230217b10c1bafc7a3357be71d436d9fcb2f80fbfcc0dde824bb868d61e28",
+   "krUrl": "0c8c47cef9a31f452f03e63fd6e902c9e0acfd3e58ae3287845876194a22377f"
   },
   {
    "id": 73,
    "title": "Treasure Opening 1",
    "text": "Mere worldly possessions.",
    "unlockRequirement": "",
-   "cnUrl": "705e23ce9d21b228d6d8c18c64b15b0c0b8c77ebed28a4185f6f829bdc9a3f6f",
-   "jpUrl": "315d8f4f13b884204decdce29a99091a50adfb978b7a9cd8ebda1a5e38cd38f5",
-   "enUrl": "898478e1ff103590ebf3d702558a68582daa620584a0d0f75a97a004f0264545",
-   "krUrl": "e30bc7bc914fd410589360228a911e395bb3cad9a409254d5257c704de92a9b9"
+   "cnUrl": "b89237b610ca82a3bf87e166aebf18d019155d1afac05c982b42171a6468b118",
+   "jpUrl": "200f68248b85530bb3b9d44ec8ee4449f9fad1e0e205689fc9b90bf8700fb1fe",
+   "enUrl": "23cfbf427b20cf0cc77dfe01469a6f6b92b954f4a9f86b50a853eba859e70cb3",
+   "krUrl": "55686a067419e10ec71106b3bd3beed56960f5e48a8cc40d92cb05bb647d728b"
   },
   {
    "id": 74,
    "title": "Treasure Opening 2",
    "text": "These trifles are of no use to me.",
    "unlockRequirement": "",
-   "cnUrl": "4bdcb98058433a21a833c60802344392f8d7382e2525821d5faa876e93ec0a87",
-   "jpUrl": "b5e9921e28fb8cea7bd23db6d5759ded0a11577525d8af43a565d3a298c2fbd0",
-   "enUrl": "85cb205f8d66b431325546f07eb7afbd8e30c7942a21edc8e71a797e4ff715da",
-   "krUrl": "3a7eb022f1c0be3cc795d8c0aa231b3b904dc2626b04ec86246f3f931ee3230a"
+   "cnUrl": "4d5fe6ea3dd0ae7da3abdbc6898523051fd9bd01b3366b3c9a36cffacd047557",
+   "jpUrl": "a16d52f626e30d20ec6be62a3ac6410691f51a2b28603186c0c8a646558b7b67",
+   "enUrl": "437ed4718c05a221e9eae2d54c56ba730a45cd99f9e02bfa945ae573448abf07",
+   "krUrl": "f6e12bb73654a75129d1c92987018b8a00afe33d85fbfafc2fd9125710ef8900"
   },
   {
    "id": 75,
    "title": "Precious Treasure Opening",
    "text": "These are nice trinkets — but nothing more.",
    "unlockRequirement": "",
-   "cnUrl": "4586e81a930b30fbf29ecceb73a38892a96f07d13408cef71dc606b5fa3da288",
-   "jpUrl": "bc8289b20692a79053d71ae543938d35fd53dfce0e0a100032fb9bd4a4429396",
-   "enUrl": "5a51a56439fbb0ac234eb4c42fdf1923e43c39bd05e5b98e9153f14f00c6de26",
-   "krUrl": "eef29569f2950e91636f952470abf4d6404585c3e5647b826421d2052859a30d"
+   "cnUrl": "2cb8e2ee1350282032ff11491dbdb2de31200ffe597fa55799eb09ebfaca9fc0",
+   "jpUrl": "b8db31a629a3a79cc6d3ea99e7fa37bdb51d3003c134b814ec4496c4d3a7c1c1",
+   "enUrl": "300138f91460999c98fd693754eb92c8b3742690d5d2d356ee783f67b3abd8ac",
+   "krUrl": "6efeb59f98ed7595eb996308bb99ac168ef9f55995189adc3d27ba58554c9711"
   },
   {
    "id": 76,
    "title": "Successful Puzzle-Solving 1",
    "text": "It worked.",
    "unlockRequirement": "",
-   "cnUrl": "fc002ded4efd409f176a745d94ae47add92a5e4f6ad46e92bfe8572a8889a03b",
-   "jpUrl": "6d37cfa656acbc3d1a22ca19232383fd993fbc4db506433436152c9df4dc16e6",
-   "enUrl": "7d7395a7c25f0ecc44ad29ab0228dddaae97b4b30d4bd2e55ceb572ab6c69941",
-   "krUrl": "8a403cd3c4dc429d7f300e6aa70ff4c49a3d2915b8ffc3372823972c29aaad2a"
+   "cnUrl": "7e74c8360053c3d727b66897e5482c6085b2eb6e264e8da9c810a1606d75b156",
+   "jpUrl": "cd18e299d902c0c52d25965d98d3d0dda8c2edea1b3a5237fd023ce4a48a9d91",
+   "enUrl": "4ab4fa7523d74b294461a7005a0fd727b30bcdd534618a22f19270a2f7ba7e65",
+   "krUrl": "84a8962119da4c980685054c1cf7d9f7b5a78c164bc37277718d017087d3b42e"
   },
   {
    "id": 77,
    "title": "Successful Puzzle-Solving 2",
    "text": "Same old tricks.",
    "unlockRequirement": "",
-   "cnUrl": "f8ab99fdacc1d037b45975b9728ccc16b8382c694ff11ae7b8a8e684fd79a453",
-   "jpUrl": "fec8e460d99ba20065006e4a7d6ffc563e47ca81d6cb0e5e49dc0c6b1ddc806d",
-   "enUrl": "2ea74e11d004b4278ba70080f828955163de4ae9382ffb96566cb420219f10cc",
-   "krUrl": "0e31eb1a6aae5056086adcbf511e8bd591f69d2fdb00ce1afcd3e4cfa690e4ce"
+   "cnUrl": "92a20cbd878a9c6b9b66488b70f9a479f4ededbc71eb95945796d264800aa46e",
+   "jpUrl": "b99d4a7b669ef130aacb06593d4c87d592b293f6635ffb81bbe3cd49458fdb78",
+   "enUrl": "f0e8eaa21a420f2bd4203353defc541cfa4b1cb34d51aeb901e616cb73d28ae4",
+   "krUrl": "65d952fbfc7e2dd7656f981af7099e488e2a12736e49f9776fbcd74a13252b23"
   },
   {
    "id": 78,
    "title": "Enemy Target Found",
    "text": "I taste malice in the air...",
    "unlockRequirement": "",
-   "cnUrl": "05ef385750058934884b9de204021632f091b299d3db66e949aeba0cb345bfe1",
-   "jpUrl": "b69a93f104c07e09bbb1b9a57ba026ca44584f75f7f46823fb047ea47786950b",
-   "enUrl": "e4c9b2e1772f1c088db8f19c9806b073678122b16c86ca0eb7709f20f379abca",
-   "krUrl": "1c55b140030709b7d41a9b65ea7ef34b9b3d33466c8de5e0a81a81fd01dad369"
+   "cnUrl": "44adffd438a6571c457a0b9ade387e7dc4c591065d6c7e2d8a93356afeefa8d6",
+   "jpUrl": "e7e232020c3ed4a778a13cbc40dd4a1d6290123b77b918d5e09818637c349046",
+   "enUrl": "7acf733081bfb3c3a246fd6dd227948dac7b79af3997bf031d38a15ebb65f6f1",
+   "krUrl": "e25fb002ec66428537917f7d29f790a2cd7e60c2f11350b365a8da5f14a7d957"
   },
   {
    "id": 79,
    "title": "Returning to Town",
    "text": "Where there are people, there is noise.",
    "unlockRequirement": "",
-   "cnUrl": "88f5046b5bf93ed5fe16394b23e3f02c05633ae47e6aef51e76ff47d0f57b2f2",
-   "jpUrl": "7266caaa9df7eca61c93402d201da51f96bc708abae933f1db8f9d4df4f25578",
-   "enUrl": "61a461ebed23c9ef45b4de2b5df2074f87f198a50d1764933789c819e69fdbe1",
-   "krUrl": "0b6f9d3baf052e18eca09836d8b47eb454c3889245f9f803fb3d61b637554f8e"
+   "cnUrl": "8e0fb20de7adf69f6670e198091d4368c8ed2e47755d1c4a49ffbd38bf133e9a",
+   "jpUrl": "a8a1f2198340b43d37d7741f97bbcdca7a1f1d06bd68eae98be07a13dfd0aa96",
+   "enUrl": "d233b614a857b5107590e849200f5098a2f71abd6fb25c24551496d5d00e364f",
+   "krUrl": "b3597bd9eab37f30ab933baa6ced5819599d7ad7c42741c48fe0a9e8a5f0ba89"
   }
  ],
  "storyItems": [
@@ -3173,6 +3663,1635 @@
   }
  },
  "hasServant": false,
+ "skins": [],
+ "hasEnhanced": true,
+ "enhanced": {
+  "spRequirement": 140,
+  "splashPlaceholder": {
+   "w": 0,
+   "h": 0
+  },
+  "damageTypeId": 0,
+  "baseTypeId": 0,
+  "itemReferences": {},
+  "levelData": [],
+  "ranks": [
+   {
+    "id": 1,
+    "iconPath": "77d8015d9b8e08109deb9aea5bf4564c3a5426829ce080cfbe5458c51de895b4",
+    "artPath": "045e7eb3126f7b8d3645a11352d376542ca440abe6ea208e5db18c7b343c746a",
+    "name": "Moon Crashes Tianguan Gate",
+    "descHash": "When using Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by <nobr>#1[i]%</nobr> for <nobr>#3[i]</nobr> turn(s). Moreover, additionally deals 1 instance of Ice DMG equal to <nobr>#2[i]%</nobr> of Jingliu's Max HP to the primary target.",
+    "params": [
+     0.36,
+     0.8,
+     1
+    ]
+   },
+   {
+    "id": 2,
+    "iconPath": "67c00d280906f30553b98dc448b9d3523e9ef74717ed158025496f0367ce760e",
+    "artPath": "9fce4a5ea1c42c3569d6ed25720010e686f7d00fc29f9dfd8af26f177febb41f",
+    "name": "Crescent Shadows Qixing Dipper",
+    "descHash": "After using Ultimate, increases the DMG of the next Enhanced Skill by <nobr>#1[i]%</nobr>.",
+    "params": [
+     0.8
+    ]
+   },
+   {
+    "id": 3,
+    "iconPath": "f142dffa157d2b9946d35f9ed5a12dd404bd0327c66117b41f90865ab9568683",
+    "artPath": "1ec7e6d38e5b3ddb8715a1b8740fd977210ca55b9374fff0e5ea226431e52684",
+    "name": "Halfmoon Gapes Mercurial Haze",
+    "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+    "params": []
+   },
+   {
+    "id": 4,
+    "iconPath": "2eab4648e955e1a90213400acb2eb293be89463f59acb77f475c7e88769b388b",
+    "artPath": "701a24f86090a9f2d5f143950c5077db9e103900ee0508a7479c86b5a2a4a5a8",
+    "name": "Lunarlance Shines Skyward Dome",
+    "descHash": "During the \"Spectral Transmigration\" state, each \"Moonlight\" stack additionally increases CRIT DMG by <nobr>#1[i]%</nobr>.",
+    "params": [
+     0.2
+    ]
+   },
+   {
+    "id": 5,
+    "iconPath": "2dddf4e30ac510196b4b05f7730092129956d21704d541a5ae8119d6f02eb31c",
+    "artPath": "75b1b401012ff9ea9afb55d8822082f6de4ae7fd86f25a136e134eb9758f4de0",
+    "name": "Night Shades Astral Radiance",
+    "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+    "params": []
+   },
+   {
+    "id": 6,
+    "iconPath": "a730ac7b94fc6483b4c0a871e51dc0a45db03af4a7e43d1c37bf99b7f7063c25",
+    "artPath": "5be07ef1ea79ad5518014e3b9d6f05e3bef352c37947785a1e6c5701d30d96ca",
+    "name": "Eclipse Hollows Corporeal Husk",
+    "descHash": "When Jingliu enters the \"Spectral Transmigration\" state, the \"Syzygy\" stack limit increases by 1, and Jingliu additionally gains <nobr>#1[i]</nobr> stack(s) of \"Syzygy.\" During the \"Spectral Transmigration\" state, her Ice <u>RES PEN</u> increases by <nobr>#2[i]%</nobr>.",
+    "params": [
+     2,
+     0.3
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    21005859
+   ],
+   [
+    21287957,
+    21042589
+   ],
+   [
+    21029382
+   ],
+   [
+    21246062
+   ],
+   [
+    21084597
+   ]
+  ],
+  "skills": [
+   {
+    "tagHash": "Single Target",
+    "descHash": "Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jingliu's Max HP to one designated enemy.",
+    "ultimateCost": 0,
+    "break": "30",
+    "energy": "20",
+    "id": 21005859,
+    "name": "Lucent Moonglow",
+    "iconPath": "46becb0fb040bd4ac3e73d905e3ac3ae1b9ea222e2870abf3f52f8cac2be6ffd",
+    "typeDescHash": "Basic ATK",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.25
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.35
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.45
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.55
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.6
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.65
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.7
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "Single Target",
+    "descHash": "Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jingliu's Max HP to one designated enemy and gains <nobr>#2[i]</nobr> stack(s) of \"Syzygy.\"",
+    "ultimateCost": 0,
+    "break": "60",
+    "energy": "20",
+    "id": 21287957,
+    "name": "Transcendent Flash",
+    "iconPath": "2dddf4e30ac510196b4b05f7730092129956d21704d541a5ae8119d6f02eb31c",
+    "typeDescHash": "Skill",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.75,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.825,
+       1
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 1,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 2500
+       },
+       {
+        "id": 549504,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.9,
+       1
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.975,
+       1
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.05,
+       1
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.125,
+       1
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 30000
+       },
+       {
+        "id": 920200,
+        "count": 7
+       },
+       {
+        "id": 633445,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       1.21875,
+       1
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.3125,
+       1
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 80000
+       },
+       {
+        "id": 836259,
+        "count": 5
+       },
+       {
+        "id": 186254,
+        "count": 1
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.40625,
+       1
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.5,
+       1
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 300000
+       },
+       {
+        "id": 836259,
+        "count": 14
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.575,
+       1
+      ],
+      "level": 11,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.65,
+       1
+      ],
+      "level": 12,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.725,
+       1
+      ],
+      "level": 13,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.8,
+       1
+      ],
+      "level": 14,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.875,
+       1
+      ],
+      "level": 15,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "Blast",
+    "descHash": "Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jingliu's Max HP to one designated enemy, and deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Jingliu's Max HP to adjacent targets. Gains <nobr>#2[i]</nobr> stack(s) of \"Syzygy\" after the attack ends.",
+    "ultimateCost": 140,
+    "break": "60/hit",
+    "energy": "5",
+    "id": 21029382,
+    "name": "Florephemeral Dreamflux",
+    "iconPath": "7751d3d3ce42ba8a508abed50fae8ad3299b9780276e4cfa402d9b46377b4b92",
+    "typeDescHash": "Ultimate",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.9,
+       1,
+       0.45,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.99,
+       1,
+       0.495,
+       1
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 1,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 2500
+       },
+       {
+        "id": 549504,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.08,
+       1,
+       0.54,
+       1
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       1.17,
+       1,
+       0.585,
+       1
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.26,
+       1,
+       0.63,
+       1
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.35,
+       1,
+       0.675,
+       1
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 30000
+       },
+       {
+        "id": 920200,
+        "count": 7
+       },
+       {
+        "id": 633445,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       1.4625,
+       1,
+       0.73125,
+       1
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.575,
+       1,
+       0.7875,
+       1
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 80000
+       },
+       {
+        "id": 836259,
+        "count": 5
+       },
+       {
+        "id": 186254,
+        "count": 1
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.6875,
+       1,
+       0.84375,
+       1
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.8,
+       1,
+       0.9,
+       1
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 300000
+       },
+       {
+        "id": 836259,
+        "count": 14
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.89,
+       1,
+       0.945,
+       1
+      ],
+      "level": 11,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.98,
+       1,
+       0.99,
+       1
+      ],
+      "level": 12,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       2.07,
+       1,
+       1.035,
+       1
+      ],
+      "level": 13,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       2.16,
+       1,
+       1.08,
+       1
+      ],
+      "level": 14,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       2.25,
+       1,
+       1.125,
+       1
+      ],
+      "level": 15,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "Enhance",
+    "descHash": "When Jingliu has <nobr>#5[i]</nobr> stacks of \"Syzygy,\" she enters the \"Spectral Transmigration\" state with 1 extra stack of \"Syzygy\" gained, her action advanced by <nobr>#6[i]%</nobr>, and her CRIT Rate increased by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#7[i]%</nobr></span>. Then, Jingliu's Skill \"Transcendent Flash\" is enhanced to \"Moon On Glacial River,\" and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to <nobr>#2[i]%</nobr> of their respective Max HP (this cannot reduce teammates' HP to lower than 1). During the \"Spectral Transmigration\" state, when ally targets receive DMG or consume HP, Jingliu gains 1 stack of \"Moonlight.\" Each \"Moonlight\" stack increases Jingliu's CRIT DMG by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>, stacking up to <nobr>#4[i]</nobr> time(s). Jingliu cannot enter the \"Spectral Transmigration\" state again until the current \"Spectral Transmigration\" state ends. \"Syzygy\" can stack up to 4 times. When \"Syzygy\" stacks become 0, Jingliu will exit the \"Spectral Transmigration\" state and remove all \"Moonlight.\" After ally targets receive DMG or consume HP for a total of <nobr>#8[i]</nobr> times, Jingliu gains 1 stack of \"Syzygy.\" Each attack received by each target is only counted once.",
+    "ultimateCost": 0,
+    "break": "0",
+    "energy": "0",
+    "id": 21246062,
+    "name": "Crescent Transmigration",
+    "iconPath": "3813c762cf26f2e2817c41fa62070710e70d31e8b951e4061732174ee83a143f",
+    "typeDescHash": "Talent",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.22,
+       5,
+       2,
+       1,
+       0.4,
+       20
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.242,
+       5,
+       2,
+       1,
+       0.41,
+       20
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 1,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 2500
+       },
+       {
+        "id": 549504,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.264,
+       5,
+       2,
+       1,
+       0.42,
+       20
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.286,
+       5,
+       2,
+       1,
+       0.43,
+       20
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.308,
+       5,
+       2,
+       1,
+       0.44,
+       20
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.33,
+       5,
+       2,
+       1,
+       0.45,
+       20
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 30000
+       },
+       {
+        "id": 920200,
+        "count": 7
+       },
+       {
+        "id": 633445,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.3575,
+       5,
+       2,
+       1,
+       0.4625,
+       20
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.385,
+       5,
+       2,
+       1,
+       0.475,
+       20
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 80000
+       },
+       {
+        "id": 836259,
+        "count": 5
+       },
+       {
+        "id": 186254,
+        "count": 1
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.4125,
+       5,
+       2,
+       1,
+       0.4875,
+       20
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.44,
+       5,
+       2,
+       1,
+       0.5,
+       20
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 300000
+       },
+       {
+        "id": 836259,
+        "count": 14
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.462,
+       5,
+       2,
+       1,
+       0.51,
+       20
+      ],
+      "level": 11,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.484,
+       5,
+       2,
+       1,
+       0.52,
+       20
+      ],
+      "level": 12,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.506,
+       5,
+       2,
+       1,
+       0.53,
+       20
+      ],
+      "level": 13,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.528,
+       5,
+       2,
+       1,
+       0.54,
+       20
+      ],
+      "level": 14,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       0.05,
+       0.55,
+       5,
+       2,
+       1,
+       0.55,
+       20
+      ],
+      "level": 15,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "",
+    "descHash": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+    "ultimateCost": 0,
+    "break": "30",
+    "energy": "0",
+    "id": 21261386,
+    "name": "Attack",
+    "iconPath": "46becb0fb040bd4ac3e73d905e3ac3ae1b9ea222e2870abf3f52f8cac2be6ffd",
+    "typeDescHash": "",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "Impair",
+    "descHash": "After using Technique, creates a Special Dimension around this unit that lasts for <nobr>#3[i]</nobr> seconds. All enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates <nobr>#6[i]</nobr> Energy and obtains <nobr>#1[i]</nobr> stack(s) of \"Syzygy,\" with a <nobr>#2[i]%</nobr> <u>base chance</u> of Freezing enemy targets for <nobr>#4[i]</nobr> turn(s). While Frozen, enemy targets cannot take action, and take <span style=\"color:#47C7FD;\">Ice </span><u>Additional DMG</u> equal to <nobr>#5[i]%</nobr> of Jingliu's Max HP at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.",
+    "ultimateCost": 0,
+    "break": "0",
+    "energy": "0",
+    "id": 21084597,
+    "name": "Shine of Truth",
+    "iconPath": "aa053b9fb3ca12ec1668c36570b8d5fc9b5120dc9e878d6ef5177144e7669b3d",
+    "typeDescHash": "Technique",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       1,
+       1,
+       20,
+       1,
+       0.8,
+       15
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "tagHash": "Blast",
+    "descHash": "Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jingliu's Max HP to one designated enemy, and deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Jingliu's Max HP to adjacent targets. Consumes <nobr>#2[i]</nobr> stack(s) of \"Syzygy.\" Using this ability does not consume Skill Points.",
+    "ultimateCost": 0,
+    "break": "60/hit",
+    "energy": "30",
+    "id": 21042589,
+    "name": "Moon On Glacial River",
+    "iconPath": "9d9aa43f3dfc527100013f8ddefbd3977891985a3713d5ba4365e8a6e1e74a0e",
+    "typeDescHash": "Skill",
+    "levelReq": 0,
+    "promotionReq": 0,
+    "levelData": [
+     {
+      "params": [
+       0.75,
+       1,
+       0.375
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.825,
+       1,
+       0.4125
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 1,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 2500
+       },
+       {
+        "id": 549504,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.9,
+       1,
+       0.45
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635673,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       0.975,
+       1,
+       0.4875
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920200,
+        "count": 3
+       },
+       {
+        "id": 633445,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.05,
+       1,
+       0.525
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920200,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.125,
+       1,
+       0.5625
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 30000
+       },
+       {
+        "id": 920200,
+        "count": 7
+       },
+       {
+        "id": 633445,
+        "count": 6
+       }
+      ]
+     },
+     {
+      "params": [
+       1.21875,
+       1,
+       0.609375
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836259,
+        "count": 3
+       },
+       {
+        "id": 717386,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.3125,
+       1,
+       0.65625
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 80000
+       },
+       {
+        "id": 836259,
+        "count": 5
+       },
+       {
+        "id": 186254,
+        "count": 1
+       },
+       {
+        "id": 717386,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.40625,
+       1,
+       0.703125
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836259,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.5,
+       1,
+       0.75
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 300000
+       },
+       {
+        "id": 836259,
+        "count": 14
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 186254,
+        "count": 1
+       }
+      ]
+     },
+     {
+      "params": [
+       1.575,
+       1,
+       0.7875
+      ],
+      "level": 11,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.65,
+       1,
+       0.825
+      ],
+      "level": 12,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.725,
+       1,
+       0.8625
+      ],
+      "level": 13,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.8,
+       1,
+       0.9
+      ],
+      "level": 14,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.875,
+       1,
+       0.9375
+      ],
+      "level": 15,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillTreePoints": [],
+  "relicRecommend": {
+   "twoPcSets": [],
+   "fourPcSets": [],
+   "props": []
+  },
+  "voiceItems": [],
+  "storyItems": [],
+  "archive": {},
+  "calculator": {
+   "expCost": {},
+   "expItemConfig": {},
+   "sCoinId": 0,
+   "rankConfig": {}
+  },
+  "hasServant": false,
+  "skins": [],
+  "hasEnhanced": false,
+  "rarity": 0
+ },
  "name": "Jingliu",
  "rarity": 5,
  "descHash": "Former Sword Champion of the Luofu, and the creator of the Cloud Knights' legends of undefeated might. Now, her name has been wiped from the records, and she is a traitor of the Xianzhou walking on the fine line between sanity and mara-struck.",
