@@ -1,0 +1,2946 @@
+{
+ "spRequirement": 110,
+ "iconPath": "6745ebc2f6475c499a7f66eebfd926695500304b405a3d94b428f20e120fbd01",
+ "bgPath": "4301d44214d7a8861db59b4c256f38510b30577172829dc7b1be63f610076e5e",
+ "figPath": "c4f1476d56c798b47bd6fb680f72b5a447ef5b19e886cb7f52dd758935356ce3",
+ "fgPath": "c20ed41bcc28e95025c3e76c8f444776808859b898eae26b1b1dec0c4de121aa",
+ "splashIconPath": "f17b7d6cf08672cecc3dfcd2b7dc0ddc193aa2da5096fedd7576d0d68a4b33e8",
+ "splashPlaceholder": {
+  "w": 0,
+  "h": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "dd7360026f025513baae7d6891bfd20d8a74c89d99e8b74c45a4092c07f2f2bc",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "신용 포인트",
+   "desc": "스타피스 컴퍼니가 고객과 결산을 위해 사용하던 화폐. 오늘날 우주여행에 널리 쓰이는 경화가 되었다",
+   "lore": "「사람들이 그저 단말 장치에 표시된 숫자를 위해 분주히 뛰고, 싸우고, 거래한다. 하지만 정작 정말로 소중한 것은 컴퍼니의 숫자로 살 수 없다」",
+   "purpose": "통용 화폐",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "모조 꽃받침 [큰 광산구역]",
+    "모조 꽃받침 [공조사]",
+    "모조 꽃받침 [「레버리」 호텔-꿈세계]",
+    "모조 꽃받침 [「잠꼬대의 밀림」 깨달음의 나무 정원]",
+    "임무 보상",
+    "의뢰 보상",
+    "잔화 교환"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "운명의 발자취",
+   "desc": "행적 레벨업의 고급 소재",
+   "lore": "거듭되는 패배가 당신에게 승리를 가져다주었고, 한 걸음 한 걸음의 전진이 당신을 운명의 전환점으로 이끌었다",
+   "purpose": "행적 재료",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "시뮬레이션 우주 점수 보상",
+    "무명의 공훈",
+    "잔화 교환",
+    "스타라이트 교환",
+    "한정 이벤트 보상"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "여행 가이드",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>20,000</nobr>pt 획득한다",
+   "lore": "세계를 횡단할 때 반드시 구비해야 하는 모험 총서. 읽기 버튼을 누르면 매력적인 목소리가 독자의 언어로 유명 모험가들의 다양한 세계에서의 모험 전기와 각 행성에서 획득한 값진 지혜에 대해 들려준다.<br /><br />「여행 가이드의 신규 시리즈 ≪우주 요리 가이드≫가 곧 출판됩니다. 많은 기대 바랍니다」<br />「투고는 지식학회 공감각 비콘 <nobr>23</nobr>θ 연락원에게 연락 바랍니다. 원고료는 원하시는 방식으로 지급합니다」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "모조 꽃받침 [「신탁의 성지」 야누소폴리스]",
+    "「망각의 정원」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "모험 기록",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>5,000</nobr>pt 획득한다",
+   "lore": "정갈하게 제본된 모험 일지. 딱 봐도 교육적인 취지의 책이다. 모험의 시작과 끝, 가치 있는 정보와 생존 기술을 삽화와 글로 묘사했다.<br /><br />「왜 데이터화해서 디스크에 넣지 않는 거야? 그게 더 편리한데」<br />「항성 폭풍과 중성자 흐름 분출을 마주할 때, 첨단 기술은 네가 생각하는 것보다 많이 연약하지. 더군다나 이 책을 만든 사람은 이 책이 가장 간단한 방법으로 읽히길 원했을 거야」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "모조 꽃받침 [「신탁의 성지」 야누소폴리스]",
+    "일일 훈련",
+    "잔화 교환"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "여행 견문",
+   "desc": "캐릭터 경험치 재료. 캐릭터 경험치를 <nobr>1,000</nobr>pt 획득한다",
+   "lore": "여행 견문을 기록한 일지. 알아보기 힘들 정도로 휘갈긴 글씨로 멋대로 적은 내용은 별 도움이 되지 않는다.<br /><br />「단항, 다 읽었으면 이 폐지 더미는 빨리 버리자」",
+   "purpose": "캐릭터 경험치 재료",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "모조 꽃받침 [외곽 설원]",
+    "모조 꽃받침 [구름나루]",
+    "모조 꽃받침 [꿈 건축 경계]",
+    "모조 꽃받침 [「신탁의 성지」 야누소폴리스]",
+    "의뢰 보상"
+   ]
+  },
+  "554722": {
+   "id": 554722,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "c73f7c95477c413116ae2315f55567473f4fd49d28ed37983d40adad50141294",
+   "name": "태양과 번개의 회상",
+   "desc": "행적 레벨업의 고급 소재",
+   "lore": "사람의 아이가 수정 코어를 마시자 사람의 마음을 감지하는 기능을 잃었다. 그 후 긴 세월이 흘러 세상을 굽어보는 것이 그의 유일한 천직이 되었다.<br />그는 여전히 생명을 사랑했지만, 이웃을 더 이상 생명체로 여기지 않았다.<br /><br />「대지에 엎드려 푸른빛에 닿으려 하는구나. 하늘에 있을 때는 풀 향기가 아주 귀했는데…」",
+   "purpose": "행적 재료",
+   "rarity": 4,
+   "rewardPath": "/material/554722",
+   "comeFrom": [
+    "전쟁의 여운 [「천궁 요새」 조석의 눈]"
+   ]
+  },
+  "589818": {
+   "id": 589818,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "1b78b52bd4fa8125682facdef27eee8dde23738508c8751d7c4a085363fae9df",
+   "name": "불꽃의 정령",
+   "desc": "「화겁대전」 후 도망 다니는 세차게 타오르는 세양. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">공허</span> 캐릭터의 운명의 길 행적이 중폭 상승한다",
+   "lore": "화염덩이 형상을 한 교활하고 짓궂은 세양 불씨.<br />「화염」의 크기로 세양의 강함을 판별할 수 있다. 이 화염덩이 세양은 처음으로 지혜를 갖게 되고 나서 숙주의 모든 욕망과 감정을 집어삼키려 했다.<br /><br />「기쁨과 슬픔을 흡수하고, 의지를 조종한다…」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/589818",
+   "comeFrom": [
+    "모조 꽃받침 [단정사]",
+    "「만능 합성기」- 재료 합성",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "673759": {
+   "id": 673759,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "b5032641c3abb7d952d56b9bfb0a4c71f4db0edd3a2c48c10d9b4d0eec94d25c",
+   "name": "천공을 불태우는 마귀",
+   "desc": "「화겁대전」 후 모인 짐승 형상의 세양. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">공허</span> 캐릭터의 운명의 길 행적이 대폭 상승한다",
+   "lore": "지략과 사고력이 뛰어난, 처음으로 짐승 형태를 띠게 된 강력한 세양.<br />「화염」의 크기로 세양의 강함을 판별할 수 있다. 대세양은 융합 후 서서히 형태를 갖추고 불사불멸의 상태가 되어 위험 수준이 가히 재앙급이라고 할 수 있다.<br /><br />「물과 불이 온 땅을 뒤덮으며, 산이 갈라지고 천둥이 친다…」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/673759",
+   "comeFrom": [
+    "모조 꽃받침 [단정사]",
+    "「만능 합성기」- 재료 합성",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "874345": {
+   "id": 874345,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "c58150f0bd3d62041c9a94a5f8cb513146f940ddbc73caa9bdf69ee5eeb007fb",
+   "name": "열렬의 영혼",
+   "desc": "「화겁대전」 후 흩어진 연약한 세양. <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">공허</span> 캐릭터의 운명의 길 행적이 소폭 상승한다",
+   "lore": "천진난만하고 고정된 형체가 없는 세양 불꽃.<br />「화염」의 크기로 세양의 강함을 판별할 수 있다. 이 조그만 세양은 생각이 단순해서 더 강한 세양에게 잡아먹히기 쉽다.<br /><br />「뿌리도 형태도 없이 천외를 떠돈다…」",
+   "purpose": "행적 재료<br />광추 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/874345",
+   "comeFrom": [
+    "모조 꽃받침 [단정사]",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "용기에 찢긴 가슴",
+   "desc": "분쟁의 권속이 전사한 후 남은 조각. 강화에 필요한 일반 재료",
+   "lore": "게으른 장군은 훈련을 시작하고, 세상을 등진 현자는 생각을 시작했다. 인간들이 신의 창조물을 파괴할 수 있다는 것을 깨닫자, 학살은 전쟁이 되었다.<br /><br />「공포는 용기를 조각하는 칼이다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "균형 레벨 Lv.2까지 돌파 후 티탄 권속 드랍",
+    "균형 레벨 Lv.2까지 돌파 후 조석의 환수 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「차분화 우주」 적 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "영광의 세례를 받은 육신",
+   "desc": "분쟁의 권속의 신력으로 가득 찬 심장. 강화에 필요한 고급 재료",
+   "lore": "태초에 사람들은 살기 위해 싸웠지만, 오늘날 어떤 사람은 죽기 위해 싸우며, 분쟁의 권속처럼 두려움이 없다. 크렘노스인들은 육신과 돌의 용사는 모두 같은 심장을 가졌을지도 모른다고 말한다——<br /><br />「안에서 흐르는 건 용기고, 이 심장의 이름은 영광이다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "균형 레벨 Lv.4까지 돌파 후 티탄 권속 드랍",
+    "균형 레벨 Lv.4까지 돌파 후 조석의 환수 드랍",
+    "「만능 합성기」- 재료 합성",
+    "「차분화 우주」 적 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "「만능 합성기」- 재료 치환"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "공포에 짓밟힌 육신",
+   "desc": "분쟁의 권속을 구성하는 먼지. 강화에 필요한 기본 재료",
+   "lore": "죽음의 물결이 천지를 뒤덮고, 증오와 분노의 거인이 저승의 강에 발을 딛는다. 견고한 돌로 조각된 군단 앞에 누구나 두려움에 휩싸이고, 누구나 굴복한다.<br /><br />「살육은 공포의 석재다」",
+   "purpose": "행적 재료<br />캐릭터 승급 재료",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "티탄 권속 드랍",
+    "조석의 환수 드랍",
+    "「차분화 우주」 적 드랍",
+    "「시뮬레이션 우주」 적 드랍",
+    "의뢰 보상",
+    "잔화 교환",
+    "「만능 합성기」- 재료 치환",
+    "모조 꽃받침(금)"
+   ]
+  },
+  "29937571": {
+   "id": 29937571,
+   "type": 652,
+   "purposeId": 2,
+   "iconPath": "e914aa6c1c3cceed1fe5912f35f1d439d662aec5699654e8ff682bf2010c1c74",
+   "name": "침략 응괴",
+   "desc": "검은 물결 창조물의 코어 결정체. 물리 속성 캐릭터의 승급 소재",
+   "lore": "검은 물결의 추종자들은 수없이 다양한 외관으로 나타나며 결정체로 식별할 수 있다. 하지만 그 코어처럼 보이는 것이 실은 진정한 「껍데기」임을 아는 사람은 아무도 없다.<br /><br />「결정체의 바다를 보았고, 이어서 의사의 안도하는 미소가 스쳤다」",
+   "purpose": "캐릭터 승급 재료",
+   "rarity": 4,
+   "rewardPath": "/material/29937571",
+   "comeFrom": [
+    "정체된 허영 [「용해 고성」 스틱시아]",
+    "「만능 합성기」- 재료 치환"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 81.84,
+   "attackAdd": 4.092,
+   "hpBase": 163.68,
+   "hpAdd": 8.184,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 114.576,
+   "attackAdd": 4.092,
+   "hpBase": 229.152,
+   "hpAdd": 8.184,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 147.312,
+   "attackAdd": 4.092,
+   "hpBase": 294.624,
+   "hpAdd": 8.184,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 180.048,
+   "attackAdd": 4.092,
+   "hpBase": 360.096,
+   "hpAdd": 8.184,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 212.784,
+   "attackAdd": 4.092,
+   "hpBase": 425.568,
+   "hpAdd": 8.184,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 245.52,
+   "attackAdd": 4.092,
+   "hpBase": 491.04,
+   "hpAdd": 8.184,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 278.256,
+   "attackAdd": 4.092,
+   "hpBase": 556.512,
+   "hpAdd": 8.184,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "60bafad8c7ebf27fbc6eb8c9df1ab7c3248e5c56ee3b236b06180525b32e344a",
+   "artPath": "e9a3a2913619b077eda8f6a1c644d8d58423dc824dae9d0e7ba18925800cd393",
+   "name": "그대는 내 마음이 슬픈 이유를 물었지",
+   "descHash": "히실렌스가 필드에 있을 시 아군이 가하는 지속 피해는 기존 피해의 <nobr>#1[i]%</nobr>이며, 히실렌스가 특성으로 적을 풍화/열상/연소/감전 상태에 빠트릴 시 <nobr>#2[i]%</nobr>의 <u>기본 확률</u>로 추가로 대상을 기존 특성 효과와 동일하며, 동시에 존재할 수 있는 풍화/열상/연소/감전 상태에 1회 빠트린다",
+   "params": [
+    1.16,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "3789d0c5d7b41abf945ad1a581ab43f3d59a282af7bf6cad9ddf4b44686b555a",
+   "artPath": "8968deb3b4c05dcdf0c46c0e1c71d41dcbe38b24041f02c7b72c69fe4bdbb96a",
+   "name": "그대는 파도가 울부짖는 이유를 말했지",
+   "descHash": "결계 지속 시간 동안 행적 [진주의 현]의 가하는 피해 증가 효과가 모든 아군에게 적용된다",
+   "params": []
+  },
+  {
+   "id": 3,
+   "iconPath": "37963709deea8752858fa827434088e59477852cb6baaec39b5251e6ec2bd185",
+   "artPath": "51aa4a4ed4cf1a5a4c369b6131af464556564cfb6e1ddd1b974cb492883a5a24",
+   "name": "등불이 잊힌 이유를 아는가",
+   "descHash": "필살기 레벨+2, 최대 Lv.<nobr>15</nobr>. 일반 공격 레벨+1, 최대 Lv.<nobr>10</nobr>",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "d0c64b48285bd0006489bc005ea7736f239d0625fb799ff86005ed49341ae0bc",
+   "artPath": "f6157a60f3b31f1535348f05cec45ea625bb7e1f0d539b4b4bb884791e3a4179",
+   "name": "보라, 시간은 왜 흐르는가",
+   "descHash": "결계가 지속되는 동안 모든 적의 모든 속성 저항이 <nobr>#1[i]%</nobr> 감소한다",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "8d64d4e4f55b1d065dc79b114681260e1c723b2e20de14a901577d9550918435",
+   "artPath": "670b5f30772b3d43ad267e2ae6fccde88b9b2138fc3749466e92d6db16ad184f",
+   "name": "씻으며 나는 흥얼거리네",
+   "descHash": "전투 스킬 레벨+2, 최대 Lv.<nobr>15</nobr>. 특성 레벨+2, 최대 Lv.<nobr>15</nobr>",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "64bbf71bf839ad49c600f998e67be5b042d271c3c8fa14be61a5781f899398ac",
+   "artPath": "573d14f9d4a20d30030302e9a26fe3afca2507b415c674209b913f83302d295a",
+   "name": "침몰한 그대는 언제 돌아올까",
+   "descHash": "결계 지속 시간 동안 턴이 시작될 때마다 또는 아군의 단일 공격 후에 히실렌스 물리 지속 피해의 효과 발동 횟수 상한이 <nobr>#1[i]</nobr>회로 증가하고, 가하는 피해 배율이 <nobr>#2[i]%</nobr> 증가한다",
+   "params": [
+    12,
+    0.2
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   22370072
+  ],
+  [
+   22086958
+  ],
+  [
+   22475581
+  ],
+  [
+   22192469
+  ],
+  [
+   22427790
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "단일 공격",
+   "descHash": "지정된 단일 적에게 히실렌스 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 가한다",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 22370072,
+   "name": "고요한 물에서 메아리치는 단조",
+   "iconPath": "1ba60e292e65a7134e7b3861e20e8ca1c833df31f7e85531a4b97cf86a914c3e",
+   "typeDescHash": "일반 공격",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6,
+      1,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7,
+      1,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8,
+      1,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      1,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      1,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1,
+      1,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2,
+      1,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3,
+      1,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4,
+      1,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "범위 공격",
+   "descHash": "<nobr>#2[i]%</nobr>의 <u>기본 확률</u>로 모든 적이 받는 피해를 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> 증가시킨다, 지속 시간: <nobr>#4[i]</nobr>턴. 동시에 모든 적에게 히실렌스 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 가한다",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "30",
+   "id": 22086958,
+   "name": "암류 뒤에서 울려 퍼지는 배음",
+   "iconPath": "8d64d4e4f55b1d065dc79b114681260e1c723b2e20de14a901577d9550918435",
+   "typeDescHash": "전투 스킬",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.7,
+      1,
+      0.1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.77,
+      1,
+      0.11,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      1,
+      0.12,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.91,
+      1,
+      0.13,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.98,
+      1,
+      0.14,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      1,
+      0.15,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589818,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1375,
+      1,
+      0.1625,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.225,
+      1,
+      0.175,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673759,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3125,
+      1,
+      0.1875,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.4,
+      1,
+      0.2,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673759,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.47,
+      1,
+      0.21,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.54,
+      1,
+      0.22,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.61,
+      1,
+      0.23,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.68,
+      1,
+      0.24,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.75,
+      1,
+      0.25,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "범위 공격",
+   "descHash": "히실렌스가 결계를 펼친다. 적의 공격력을 <nobr>#6[f1]%</nobr> 감소시키고 방어력을 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> 감소시키며, 모든 적에게 히실렌스 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 피해를 가한다.<br />결계 안에 있는 적이 지속 피해를 1회 받을 때마다 히실렌스는 대상에게 자신의 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 지속 피해를 가한다. 해당 피해는 턴이 시작될 때마다 또는 아군의 단일 공격 후 발동하며, 최대 <nobr>#5[i]</nobr>회 발동한다. 해당 피해는 이 효과를 중복 발동할 수 없다.<br />결계는 <nobr>#2[i]</nobr>턴 동안 지속되며, 자신의 턴이 시작될 때마다 결계의 지속 턴 수가 1 감소한다. 히실렌스가 <u>전투 불능 상태</u>에 빠질 시 결계도 해제된다",
+   "ultimateCost": 110,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 22475581,
+   "name": "절해의 파도, <nobr>영혼을 삼키는 무곡</nobr>",
+   "iconPath": "2fe3d01998331b2ff0ce6646fd1e235b143ae03200c829895f5ef65d2d4341c9",
+   "typeDescHash": "필살기",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.2,
+      3,
+      0.15,
+      0.32,
+      8,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.28,
+      3,
+      0.16,
+      0.3728,
+      8,
+      0.15
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36,
+      3,
+      0.17,
+      0.4256,
+      8,
+      0.15
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      3,
+      0.18,
+      0.4784,
+      8,
+      0.15
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52,
+      3,
+      0.19,
+      0.5312,
+      8,
+      0.15
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6,
+      3,
+      0.2,
+      0.584,
+      8,
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589818,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.7,
+      3,
+      0.2125,
+      0.632,
+      8,
+      0.15
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.8,
+      3,
+      0.225,
+      0.68,
+      8,
+      0.15
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673759,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.9,
+      3,
+      0.2375,
+      0.74,
+      8,
+      0.15
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      3,
+      0.25,
+      0.8,
+      8,
+      0.15
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673759,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.08,
+      3,
+      0.26,
+      0.84,
+      8,
+      0.15
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.16,
+      3,
+      0.27,
+      0.88,
+      8,
+      0.15
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.24,
+      3,
+      0.28,
+      0.92,
+      8,
+      0.15
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.32,
+      3,
+      0.29,
+      0.96,
+      8,
+      0.15
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.4,
+      3,
+      0.3,
+      1,
+      8,
+      0.15
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "방해",
+   "descHash": "아군이 공격 시 히실렌스가 <nobr>#1[i]%</nobr>의 <u>기본 확률</u>로 명중한 적을 풍화/열상/연소/감전 중 1가지 상태에 빠트리며, 다른 상태에 우선으로 빠트린다.<br />풍화/연소/감전 상태일 때 적은 턴이 시작될 때마다 히실렌스 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>만큼 <span style=\"color:#00FF9C;\">바람</span>/<span style=\"color:#F84F36;\">화염</span>/<span style=\"color:#c75de2;\">번개</span> 속성 지속 피해를 받는다, 지속 시간: <nobr>#5[i]</nobr>턴<br />열상 상태일 때 적은 턴이 시작될 때마다 자신의 HP 최대치의 <nobr>#3[f1]%</nobr>만큼 <span style=\"color:#FFFFFF;\">물리</span> 속성 지속 피해를 받으며, 최대 히실렌스 공격력의 <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>를 넘지 않는다, 지속 시간: <nobr>#5[i]</nobr>턴",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 22192469,
+   "name": "노래하는 세이렌",
+   "iconPath": "91baff35b27a9b0413693eee3fb3c07e9c85b90e50c1e10aa035ce4e0fb414d4",
+   "typeDescHash": "특성",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.1,
+      0.2,
+      0.1,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.1165,
+      0.2,
+      0.1165,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.133,
+      0.2,
+      0.133,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1495,
+      0.2,
+      0.1495,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.166,
+      0.2,
+      0.166,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1825,
+      0.2,
+      0.1825,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589818,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1975,
+      0.2,
+      0.1975,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.2125,
+      0.2,
+      0.2125,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673759,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.23125,
+      0.2,
+      0.23125,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.25,
+      0.2,
+      0.25,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673759,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.2625,
+      0.2,
+      0.2625,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.275,
+      0.2,
+      0.275,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.2875,
+      0.2,
+      0.2875,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.3,
+      0.2,
+      0.3,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.3125,
+      0.2,
+      0.3125,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 22170992,
+   "name": "공격",
+   "iconPath": "1ba60e292e65a7134e7b3861e20e8ca1c833df31f7e85531a4b97cf86a914c3e",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "방해",
+   "descHash": "비술 사용 후 <nobr>#1[i]</nobr>초 동안 지속되고 자동으로 전방을 향해 이동하는 특수 영역을 만들며, 특수 영역 내의 적은 [취심] 상태에 빠진다. [취심] 상태인 적은 아군에게 공격을 발동하지 않으며, 영역 지속 시간 동안 영역을 따라다닌다.<br />[취심] 상태의 적과 전투에 진입하면 <nobr>#2[i]%</nobr>의 <u>기본 확률</u>로 각 단일 적을 히실렌스의 특성 효과와 동일한 풍화/열상/연소/감전 중 <nobr>#3[i]</nobr>가지 상태에 빠트린다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 22427790,
+   "name": "바닷속 거처",
+   "iconPath": "766ba9864e9845f142e534e4e3c0b0e3bb9ae8e961f021cd5ca1c90839df822d",
+   "typeDescHash": "비술",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      20,
+      1,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1410101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1410202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1410203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1410204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 27788054,
+          "name": "효과 명중 강화",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "16e46edec660d897581a1ee77b95e61bafbc7a669f7e88ab6d27b9f23fa4bd49",
+          "statusList": [
+           {
+            "key": "효과 명중",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 589818,
+            "count": 3
+           },
+           {
+            "id": 20170864,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 28063100,
+        "name": "속도 강화",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "속도",
+          "value": 2,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589818,
+          "count": 3
+         },
+         {
+          "id": 20170864,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 27813711,
+      "name": "공격 강화",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "공격력",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874345,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "전투 시작 시 히실렌스가 필살기 효과와 동일한 결계를 펼친다, 결계 지속 시간: <nobr>#1[i]</nobr>턴. 히실렌스가 결계를 펼칠 때마다 전투 스킬 포인트를 <nobr>#2[i]</nobr>pt 회복한다",
+    "ultimateCost": 0,
+    "id": 27916308,
+    "name": "정복의 검",
+    "iconPath": "0f46c1bec6964945ae5c210d6b91b6bb4cd1917bc4ee3f7a9bb0c20b0cfe08f1",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       3,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874345,
+        "count": 3
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1410102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1410205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1410206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1410207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 28020013,
+          "name": "속도 강화",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+          "statusList": [
+           {
+            "key": "속도",
+            "value": 3,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 673759,
+            "count": 3
+           },
+           {
+            "id": 20389475,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 28294961,
+        "name": "공격 강화",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "공격력",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673759,
+          "count": 3
+         },
+         {
+          "id": 20389475,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 28037376,
+      "name": "속도 강화",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "속도",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589818,
+        "count": 5
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "히실렌스가 필살기 발동 시 적이 지속 피해 상태일 경우, 대상이 현재 받는 모든 지속 피해가 즉시 기존 피해의 <nobr>#1[i]%</nobr>만큼 피해를 생성한다",
+    "ultimateCost": 0,
+    "id": 28124792,
+    "name": "연회의 거품",
+    "iconPath": "887d483764152340ba266e155f5a630d0b1de10e808a55db878fafd98e35fbe3",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589818,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1410103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1410208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 28269525,
+      "name": "효과 명중 강화",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "16e46edec660d897581a1ee77b95e61bafbc7a669f7e88ab6d27b9f23fa4bd49",
+      "statusList": [
+       {
+        "key": "효과 명중",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1410209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 27994566,
+      "name": "공격 강화",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "공격력",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "히실렌스의 효과 명중이 <nobr>#1[i]%</nobr>를 초과할 시 <nobr>#2[i]%</nobr> 초과할 때마다 자신이 가하는 피해가 <nobr>#3[i]%</nobr> 증가하며, 최대 <nobr>#4[i]%</nobr> 증가한다",
+    "ultimateCost": 0,
+    "id": 27874380,
+    "name": "진주의 현",
+    "iconPath": "d82291ae06c5205757f1d0cfed3b4cd70fc10766a5bda8d9177898d2883ede4d",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.6,
+       0.1,
+       0.15,
+       0.9
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1410201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1410210,
+     "anchor": 18,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 11462769,
+      "name": "속도 강화",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "속도",
+        "value": 4,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 28088667,
+    "name": "속도 강화",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+    "statusList": [
+     {
+      "key": "속도",
+      "value": 2,
+      "int": true
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "첫 만남",
+   "text": "헬렉트라? 그 이름은 과거와 함께 심해로 가라앉았어…. 너였구나, 작은 회색 물고기…! 날 그냥 히실렌스라고 불러줘. 거룩한 도시의 기사단장으로서 난 이곳을 지키지. 운명의 난류가 네 시선을 방해하는 건 절대 용납하지 않겠어",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "인사",
+   "text": "성대한 연회가 코앞인데, 같이 한 곡 할래?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "작별",
+   "text": "세상은 바다와 같아. 사람을 물어뜯는 파도에 쫓기거나 방향을 잃지 않도록 조심해야 하지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "자신에 대해•과거",
+   "text": "검은 물결에 삼켜진 극장에서 수백 년 동안 이어진 독주… 막이 내렸을 무렵엔 여기저기 흩어져있는 유골과 탄식하는 파도만이 남았어",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "자신에 대해•현재",
+   "text": "난 가장 밝고 거세게 타오르는 등불을 따라 거룩한 도시까지 헤엄쳐왔어. 불을 쫓는 여정의 왕은 날 검으로 삼으려 했고, 나도 검을 휘두를 방향을 찾고 있었지——그 흐릿한 거품을 향해서든, 우리의 연회를 방해하는 잡음을 향해서든",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "잡담•검과 바이올린",
+   "text": "아주 오래전, 난 소라와 조개껍데기로 정성스럽게 바이올린을 만들었어. 수차례 피를 뒤집어 쓴 끝에 이렇게 예리한 모습으로 변했지. 지금은 현이 없지만, 피가 흩뿌려지는 비명과 넘실대는 조수는 기분 좋은 악장을 엮어내기에 충분해",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "잡담•고래의 노래",
+   "text": "어떤 고래들의 노랫소리는 평생 동족에게 들리지 않아…. 하지만 그들의 심장 박동은 일반 고래들보다 훨씬 더 뜨겁지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "잡담•침묵",
+   "text": "입만 산 새우와 게들은 가끔 내 침묵에 불만을 표했어. 하지만 난 음악으로 「호소」하는 걸 더 좋아했지…. 두려워하지 마, 난 생명 끝의 비명 말고 개선가를 더 연주하고 싶거든",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "취미•물방울",
+   "text": "햇살이 해수면을 통과하면 빛기둥을 둘러싼 알록달록한 물방울을 쫓아가곤 했어——이건 바다가 맑고 깨끗했던 시절, 우리가 가장 좋아했던 놀이였지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "취미",
+   "text": "깊은 바다 골짜기의 천 년 묵은 꿀 음료는 한 모금만 마셔도 해류에 녹아들 것처럼 취해버려…. 지상의 과즙은 확실히 부족한 느낌이지. 천 잔 정도 마시면 비슷한 느낌을 약간이라도 경험할 수 있달까?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "고민",
+   "text": "생명은 거품과도 같아. 연회를 만끽하고 흠뻑 취하지 않을 이유가 있을까?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "공유",
+   "text": "파구사께서 유일하게 두려워했던 건 텅빈 외로움이었어. 그래서 파구사께선 모든 강의 어머니, 모든 꿀 음료의 제조자, 모든 연회의 주인이 되셨지. 마치 고독한 파도가 바닷물과 함께하기를 영원히 거부할 수 없는 것처럼…. 인간도 마찬가지겠지?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "견문",
+   "text": "수면 아래 숨겨진 국가는 과거 세계를 위해 최초의 검은 물결을 짊어졌지만 세이렌들이 받은 약속은 파도와 함께 사라졌어. 내일이 거짓이라해도 그 매력에 도취되고 말지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "개척자에 대해",
+   "text": "회색 물고기, 네 곁에는 함께하고 싶어하는 사람이 분명 아주 많겠지? 네가 헤엄칠 때 뒤에 흐르는 물살은 정말 독특해서 항구로 돌아온 듯한 따듯함과 섬에 닿은 듯한 편안함을 줘",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "케리드라에 대해",
+   "text": "내가 봐왔던 군주들은 대부분 술에 독을 탔지만, 카이사르님께서는 왕의 깃발에 기름을 붓는 걸 택하셨어. 활활 타오르던 그 깃발의 열기와 빛은 심해에서도 느낄 수 있었지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "아글라이아에 대해",
+   "text": "신의 권능을 이어받은 뒤로 그녀는 인간의 본성을 잃는 고통을 겪었어. 하지만 그 모든 고통을 정신 바짝차리고 견디며, 술에 취해 무감각해지는 건 원치 않았지…. 나라면 할 수 없었을 거야……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "트리비•트리앤•트리논에 대해",
+   "text": "내가 심해의 음산한 견문을 이야기할 때도 그녀들은 돌고래처럼 귀여운 소리를 냈어. 이렇게 순수한 마음만이 세상의 오염을 완전히 씻어낼 수 있겠지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "사이퍼에 대해",
+   "text": "우아하면서도 민첩한 야옹 물고기는 아직 신선한 미끼에 낚이지 않았어…. 어쩌면 언젠가는 대단한 대어로 성장할지도 몰라",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "키레네에 대해",
+   "text": "그녀는 마치… 모든 빙하와 진흙이 녹아든 아름답고 따뜻한 물결의 협주곡 같아. 이 작은 바다 토끼와 함께라면 심해조차 조금의 한기도 더하고 싶지 않을걸",
+   "unlockRequirement": "개척 임무 「죄수여, 그림자를 딛고 푸른 바다를 봐다오」 완료 후 개방",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "성혼 활성화",
+   "text": "모든 외딴섬을 바닷물이 안아 줄 거야",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "캐릭터 승급",
+   "text": "다음 바다를 향해 헤엄칠 시간이야",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "캐릭터 최고 레벨",
+   "text": "들어봐, 저 폭풍 소리가 부르짖고 있어",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "행적 활성화",
+   "text": "잔물결은 금새 사라져버리지만, 파도가 될 수 있지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "파티 편성•개척자",
+   "text": "회색 물고기, 합주 준비됐어?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "파티 편성•아글라이아",
+   "text": "계속해. 금실로 튕기는 선율은 특히나 심금을 울리거든",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "파티 편성•트리비",
+   "text": "이번 신탁은 귀를 즐겁게 할까, 아님 괴롭게 할까?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "파티 편성•케리드라",
+   "text": "카이사르님, 이번 판은 몇 수에 끝날까요?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "파티 편성•사이퍼",
+   "text": "야옹 물고기, 이왕 파도에 뛰어든 거 놀라 도망치지는 마",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "전투 시작•약점 격파",
+   "text": "공격적인 새우와 게 따위, 두렵지 않아",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "전투 시작•위험 경보",
+   "text": "지금이야말로 흥을 돋우기 좋은 때지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "턴 시작•1",
+   "text": "저 소리 없는 파도에 목이 베이지 않도록 조심해",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "턴 시작•2",
+   "text": "날카로운 만가를 바치리",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "턴 대기",
+   "text": "쉼의 침묵이 조금 긴 것 같군",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "일반 공격",
+   "text": "취해라",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "전투 스킬•1",
+   "text": "바닷물이여, 나와 함께 가라앉으라",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "전투 스킬•2",
+   "text": "성대한 연회, 흠뻑 취해라",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "약공격 피격",
+   "text": "좀 시끄럽네",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "강공격 피격",
+   "text": "들어줄 수가 없군",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "필살기•활성화",
+   "text": "걸음을 멈추고 들어봐",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "필살기•발동",
+   "text": "초대받은 자들이 심해의 연회에서 통곡하리",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "전투 불능",
+   "text": "막을 내렸어……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "전투 복귀",
+   "text": "해류가 날 이곳으로 흘려보냈어",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "HP 회복",
+   "text": "난류처럼 따뜻하네, 고마워",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "비술",
+   "text": "물고기가 잡히는지 볼까?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "전투 승리",
+   "text": "즐거운 포식은 여기까지",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "전리품 오픈•1",
+   "text": "이걸 꿀 음료와 맞바꾸는 건 어때?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "전리품 오픈•2",
+   "text": "몇 년 후에는 해저의 냄새가 배어있으려나…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "진귀한 전리품 오픈",
+   "text": "진주의 광택에 견줄 만하네",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "수수께끼 풀이 성공•1",
+   "text": "어렵진 않네… 설마 봐준 건가?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "수수께끼 풀이 성공•2",
+   "text": "축축한 공기가 내게 수수께끼의 답을 알려줬어",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "적 발견",
+   "text": "걱정 마, 놈이 이리로 더 헤엄쳐오게 두자",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "도시로 복귀",
+   "text": "가끔은 항구에 정박했던 순간들이… 사라지는 거품처럼 그리워",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "캐릭터 상세",
+   "text": "스틱시아, 취기와 꿈의 해안 도시. 과거의 노랫소리가 여전히 파도 사이에 울려 퍼진다.<br />바다의 딸 헬렉트라, 「바다」의 불씨를 정화하는 황금의 후예여, 더러운 암류를 몰아내고 천외의 영웅을 위해 흠뻑 취할 성대한 향연을 연주하라.<br />막이 내리지 않은 지금, 희망은 거품처럼 부서지기 쉬울지라도 파도는 앞으로 나아갈 것이다.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "캐릭터 스토리•1",
+   "text": "햇살이 스며드는 순간, 바다의 숨결은 형형색색으로 빛난다. 이때가 바로 세이렌들이 하루 중 가장 즐거워하는 시간이었다.<br />「♫톡톡♫」 「♫뽁뽁♫」 「♫뽀글♫」<br />세이렌의 공주는 신나게 거품을 쫓았다. 그녀는 물방울들이 코끝에 잠시 머물다 터질 때, 수면이 넘실대며 다채로운 빛을 내뿜는 순간을 가장 좋아했다.<br /><br />끝없이 펼쳐진 산호 군락 속에서 세이렌들은 노래했다. 그곳의 진주조개는 밝은 빛을 뿜어 활을 장식하기에 알맞았다.<br />음율은 헬렉트라의 손끝에서 흘러나와, 기쁨을 만끽하며 꿀 음료를 즐기는 동료들 사이를 부드러운 물살처럼 스쳐 지나갔다.<br /><br />「♫봐, 저 찬란하고 북적이는 배 위에서 인간들이 얼마나 즐거운지♫」<br />「♫넌 네가 구한 그 사람을 그리워하지. 그의 목소리가 마음속에 메아리칠 거야♫」<br />「♫존귀한 공주님, 근심 걱정 없는 헬렉트라, 넌 어디로 향할 거야? 북쪽의 차가운 얼음 바다, 아니면 드넓은 인간 세계?♫」<br /><br />취기가 어린 세이렌들이 그녀 곁에 모여들었고, 그들의 호기심은 바닷속 해초가 일렁이듯 그녀를 휘감았다.<br />「♫속세는 소란스럽고, 극지는 차디차지……♫」<br />그녀는 거품을 어루만지고는, 미소와 함께 고개를 저으며 대답했다.<br />「♫내가 머물고 싶은 곳은, 즐겁게 노래할 수 있는 그곳이야……♫」<br /><br />그러나 곧 심해로부터 경고의 나팔이 울려 퍼지고 연회는 중단됐다.<br />세이렌들은 헬렉트라와 함께 깊은 곳으로 헤엄쳐 갔고, 바다의 여왕은 백성들에게 선포했다——<br /><br />「♫검은 물결이 맑은 해류를 오염시킬 것이니, 우리는 신성한 물의 파도를 일으켜, 『분쟁』이 검은 물결의 빛을 막을 때까지 오염된 물을 거대한 잔으로 인도해야 한다……♫」<br />「♫바다의 총아들이여, 너희들의 마음은 어디로 향하는가? 검은 물결이 사라지면 스틱시아로 가거라. 육지의 인간들이 너희를 위해 연회를 열고 노래할 것이다!♫」<br /><br />헬렉트라는 날마다 세이렌들을 이끌고, 점점 어두워지는 바닷속을 누비며 더러운 암류를 정화했다.<br /><br />「♫얘들아, 포기하지 마. 한껏 취기 어렸던 그 찬란함을 위해♫」<br />「♫얘들아, 잊지 마. 우리는 먼 곳을 향해 헤엄쳐 갈 거야♫」<br />「♫얘들아, 앞으로 나아가자. 눈부신 희망이 물결치고 있어♫」<br /><br />헬렉트라는 날마다 노래를 불렀다. 그녀는 권속으로서의 사명이 이 바다를 수호하는 것임을 잘 알고 있었다——<br /><br />헬렉트라는 심연으로 헤엄쳐 갔고, 그 노랫소리는 점차 칠흑같이 어두운 심해 속, 유일한 한 줄기 빛이 되었다",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>20</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•2",
+   "text": "넓디넓은 산호초는 이미 죽음의 땅이 되어 있었다.<br /><br />처음으로 검은 물결 창조물의 몸속에 검을 찔러 넣었을 때, 그녀의 양손은 여전히 가늘게 떨리고 있었다.<br />부패해 버린 옛 동료와 마주한 지 백 번째가 되었을 때, 그 탁해진 현은 아무렇지 않게 목을 가를 수 있었다.<br />천 번째, 만 번째… 바이올린의 진줏빛이 수면 위에 흩어지고, 심해는 핏빛으로 물들었다——<br /><br />적막이 감도는 궁전의 폐허에는 헬렉트라와 그녀, 단둘만의 연회가 남아있을 뿐이었다.<br /><br />「♫지상의 사람들은 영원히 끝나지 않는 연회를 열어 우리의 희생에 보답할 거야……♫」<br />슬픈 노랫소리가 울려 퍼지고 「분쟁」의 티탄이 검은 물결을 저지하는 사명을 계승했을 때, 처음으로 헬렉트라는 기쁨과 함께 어두운 바닷물 밖으로 발을 내디뎠다.<br /><br />그녀는 진주조개로 얼굴을 장식했고, 그녀의 지느러미는 두 다리가 되었으며, 몸에 있던 거품은 예복이 되었다. 파도는 더 이상 그녀 머리 위에서 분노로 울부짖지 않고, 그저 발밑에서 신음할 뿐이었다.<br />바닷새는 바다를 맴돌며 처절함이 가득한 울음소리를 내질렀다. 잠시 멈췄던 파도는 다시금 세차게 굽이쳐 사라졌다.<br />마치 거품이 터진 후 아무것도 존재하지 않았던 것처럼.<br />그녀는 한 걸음 한 걸음, 뼛속까지 깊이 파고드는 고통을 견디며, 약속된 스틱시아로 향했다——<br /><br />그곳은 코를 찌르는 공기와 산처럼 쌓인 시체 더미, 분쟁과 전쟁의 불길만이 존재할 뿐… 신이 약속했던 연회의 땅은 어디에도 없었다.<br /><br />「난…… 히…… 실……」<br />더럽혀진 공기 속에서 그녀의 목소리는 쉬어 있었다.<br />그녀는 인간의 말을 배웠지만, 그 시끄러운 말들은 더 이상 노래할 수 없게 만들었다. 그녀는 점점 침묵으로 말을 대신하는 법을 익혔다.<br />「녹슬지 않는 검」, 「냉혹한 바이올린 소리」…. 늘 그녀와 함께했던 건, 몸을 관통하는 선율, 생명의 피가 흩뿌려지는 비명뿐이었다——<br /><br />사람들은 바다에서 온 그 검객은 분명 연주에 능통하지만, 침묵하고 거리를 두며 결코 속마음을 드러내지 않는다고 말했다.<br />그녀는 자신을 향해 뻗어 오는 수많은 손을 보았다. 어떤 손은 그녀를 없애려 했고, 어떤 손은 도움을 주겠노라 떠들었다. 그 손들은 하나둘 등불을 밝혔다가, 다시 하나둘 등불을 꺼뜨렸다.<br /><br />「히실렌스, 넌 어디로 향하는 거지?」<br /><br />그녀는 대답할 수 없었다.<br />과거의 바이올린은 이미 두 자루의 예리한 검이 되어, 날카로운 만가만이 현 위를 흐르고 있었다.<br />언젠가는 누군가가 그 안에 담긴 이상을 알아주길 바랐지만, 그녀는 점차 인간 세상 또한 적막한 심해와 다르지 않다는 걸 깨달았다.<br />모든 이들은 마치 길을 잃은 물고기처럼 빛을 향해 맹목적으로 헤엄치고 있는 것이었다",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>40</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•3",
+   "text": "「히실렌스, 나를 따라와. 그대가 바라는 모든 것을 줄 테니」<br />그녀는 조그만 몸에서 나오는 우렁찬 목소리가 인상 깊으면서도, 여전히 의구심을 품고 있었다.<br />「그녀는… 또 언제 불을 꺼트릴까?」<br /><br />하지만 그 불빛은 심해를 꿰뚫는 하늘의 빛처럼 점점 더 타오르며 꺼질 줄 몰랐다.<br />사람들은 푸른 불꽃이 수많은 전장을 누비며 몇 번이고 승리를 거두는 것을, 불길처럼 퍼지는 거대한 파도를, 풍파를 일으키던 검이 고래상어로 변해 피로 물든 바람과 비를 집어삼키는 것을 보았다.<br />그녀는 뜨거운 심장 박동, 격렬한 전장의 북소리, 빗방울처럼 쏟아지는 발걸음, 밀물처럼 다가오는 슬픔을 들었다…. 황금의 후예의 핏속에 흐르는 순수한 노래와 같은 마음의 소리는 오랫동안 봉인되어 있던 그녀의 마음의 현을 다시 울렸다.<br /><br />카이사르가 약속한 연회가 다가오자, 젊은 방직공과 아이들은 귓속말로 그 차가운 글래디오럼이 참석할지 궁금해하며 조용히 속삭였다.<br />사람들의 탄성 속에, 방직공은 발끝을 세우고 숨을 죽이며 이 순간을 눈에 담으려 했다.<br />그녀의 금빛 치맛자락이 바닥의 돌 위를 스치며, 햇살 아래 파도처럼 투명하게 반짝였다.<br />촛불과 등불 사이에서 사람들은 다시 바다의 빛을 보았다.<br /><br />「그녀는 내 바람을 들어주었고, 우리가 잃어버린 해안의 노래를 불러주었다」<br />군왕의 말이 끝나자 악단이 연주를 시작했고, 빛과 그림자가 그녀의 눈앞에서 바다의 물결처럼 일렁였다.<br />선율은 잔 속에서 흔들리는 거품을 타고 울려 퍼졌고, 인파 속에서 그녀는 그 순간 자신의 목소리가 더 이상 공허한 메아리가 아니라는 걸 깨달았다.<br /><br />라비에누스와 세네카의 결투는 맑은 북소리가 되었고, 베르기니아가 마음속에 감춰왔던 사랑의 시구는 리드미컬한 노랫말이 되었다.<br />트리스비오스가 미소를 짓자, 음악에 경쾌한 선율이 더해졌고, 아글라이아의 춤이 시작되자 아름답고 감미로운 화음을 이루었다……<br /><br />「글래디오럼 경, 이번 전쟁에서 승리한 후 그대가 원하는 것이 있는가?」<br />그 냉철한 군주조차 약간은 취기에 젖어 있었다.<br />그녀는 꿀 음료를 마시며 군주의 귀에 속삭였고, 웃음소리는 연회 구석구석을 떠돌았다.<br />이곳은 얼마나 아름다운 소리가 가득하며, 얼마나 즐거운가.<br />세상이 빙글빙글 돌아가고, 술잔이 부딪치는 소리, 얼음이 굴러다니는 소리가 들려왔다.<br />오랫동안 입을 열지 않던 세이렌, 그녀의 노랫소리가 꿀 음료처럼 흘러넘쳤다——<br /><br />「♫연회의 촛불이 너무나 눈부시네.<br />새로운 바다가,<br />우리가 잔을 부딪치는 사이에 일렁이고 있다네……♫」",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>60</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•4",
+   "text": "그녀는 한때 「불을 쫓는 것」이 자신이 찾아 헤매던, 끝나지 않는 연회라고 생각했었다.<br />하지만 끊임없이 잃어가는 여정 속에서 빛조차도 거품처럼 터져버렸다.<br /><br />그녀는 카이사르의 검날이었고, 그녀의 검 끝에는 언제나 피가 굽이쳐 흘렀다.<br />그러나 카이사르의 뜨거운 황금 피가 그녀의 손끝에 떨어지자, 순간적으로 그녀는 다시 그 고독한 심해로 추락했다.<br />「하, 어째서… 내가 그토록 헤엄쳐 향하던 불꽃을 내 손으로 꺼버린 거지…?」<br />고통스러운 천 년의 심취 속에서 그녀는 흐릿하게 빛나는 거품을 외면했다. 그러나 이미 산산조각 난 과거는 이제 해초처럼 그녀를 끊임없이 휘감았다.<br /><br />「톡……」<br />체스 말이 판 위에 놓였다. 체스를 두는 군왕은 평온한 얼굴이었지만, 왕관 위에서 때로는 잔잔하게, 때로는 강렬하게 타오르는 불꽃은 그녀의 솔직한 감정을 드러내고 있었다.<br />「전 체스를 둘 줄 몰라요」<br />「자, 내가 가르쳐줄게」<br />그녀는 서툰 모습으로 체스 말을 들었다. 그저 또 하나의 전투일 뿐이라 생각하면서.<br /><br />「톡……」<br />갑자기 불타오르는 푸른 불꽃이 그녀의 주변을 온천처럼 따스하게 물들였다. 그녀는 무심히 체스 말을 움직이며 물었다.<br />「결국에는 체스판에서 사라질 텐데, 왜 체스 말들은 멈추지 않고 전진하는 건가요?」<br /><br />「톡……」<br />군주는 잔에 담긴 꿀 음료를 홀짝이더니 만족스러운 듯 두 팔을 쭉 뻗고 기분 좋은 한숨을 내뱉었다.<br />「전진 그 자체로도, 충분히 즐겁지 않은가?」<br />……<br /><br />천 년의 기다림 끝에, 그녀는 불을 쫓기 위한 새로운 세계를 열었지만, 그것이 마지막 귀착점이 아니라는 것 또한 알고 있었다.<br />「물고기에게 필요한 건, 결국 자신이 머물 한 조각의 바다일 뿐……」<br />군주가 남긴 한 페이지의 기억 속에서, 그녀는 맑은 바다를 향해 걸어갔다.<br /><br />♫톡톡♫, ♫뽁뽁♫, ♫뽀글♫… 형형색색의 거품은 지나간 세월을 비추며 응결되었다가 터지고, 터졌다가 응결된다.<br />「바다의 총아여, 이루고 싶은 소원이 있느냐?」<br />「히실렌스, 넌 어디로 향하는 거지?」<br />「글래디오럼 경, 그대가 원하는 것이 있는가?」<br />……<br />고향, 연회, 불 쫓기… 모두 그녀 삶 속에서 빛났지만 금세 거품으로 변해버렸다…. 남은 건 하늘 끝에서 메아리치는 한숨뿐이었다.<br />처음부터 끝까지, 이것이 그녀가 가진 전부였다. 인간 세상에서든, 바다에서든, 전부 거품이 부서진 흔적들이었다.<br /><br />「하지만 그것들이… 얼마나 아름다운지……」<br /><br />「♫……♫」<br />「♫……♫」<br />「♫……♫」<br /><br />앰포리어스의 여명이 밝아오고 있다.<br />마지막 거품이 터지기 전, 그녀는 미소를 짓는다. 마치 말로 표현할 필요가 없는 마음의 소리를, 모든 것을 다 노래하듯이…",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>80</nobr> 개방"
+  }
+ ],
+ "archive": {
+  "cvCn": "浮梦若薇",
+  "cvJp": "石見舞菜香",
+  "cvKr": "오은수",
+  "cvEn": "Rosie Day",
+  "camp": "앰포리어스"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "22370072": 1,
+    "22475581": 2
+   },
+   "5": {
+    "22086958": 2,
+    "22192469": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
+ "name": "히실렌스",
+ "rarity": 5,
+ "descHash": "스틱시아, 취기와 꿈의 해안 도시. 과거의 노랫소리가 여전히 파도 사이에 울려 퍼진다. 바다의 딸 헬렉트라, 「바다」의 불씨를 정화하는 황금의 후예여, 더러운 암류를 몰아내고 천외의 영웅을 위해 흠뻑 취할 성대한 향연을 연주하라. ——막이 내리지 않은 지금, 희망은 거품처럼 부서지기 쉬울지라도 파도는 앞으로 나아갈 것이다",
+ "artPath": "7b32e2922c94484f5c920dfe164938dad570be51982c67f4c9ac67d5e2384f60",
+ "miniIconPath": "4e8065b7522f8cda1716509f92379689ea387e50917a88acd9e20ec4e545b5e4",
+ "damageType": {
+  "id": 1,
+  "iconPath": "fc6c9fc2a7b462613ce59b29974d45a4b4fae29eaf89c36e4370b6d48e640a03",
+  "color": "#FFFFFF",
+  "name": "물리",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "9925f4d7d8ac1ad84319601be2e2127dbb697923a7add4d70bf795c7e9045d29",
+  "altIconPath": "5821b3e8829f16ad30af2613e5330feea1cd8ead70cf58d18c7bc927f50b5943",
+  "color": "#FFFFFF",
+  "name": "공허",
+  "rarity": 0
+ },
+ "pageId": "hysilens"
+}

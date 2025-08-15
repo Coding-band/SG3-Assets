@@ -42,7 +42,7 @@
   },
   "125435": {
    "id": 125435,
-   "type": 601,
+   "type": 654,
    "purposeId": 4,
    "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
    "name": "命运的足迹",
@@ -61,7 +61,7 @@
   },
   "270195": {
    "id": 270195,
-   "type": 601,
+   "type": 654,
    "purposeId": 4,
    "iconPath": "657d5a5697de38e93439c9ddeac1d277448989d226b6a9c803cc2c4c222ab35b",
    "name": "守护者的悲愿",
@@ -76,7 +76,7 @@
   },
   "409960": {
    "id": 409960,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
    "name": "漫游指南",
@@ -95,7 +95,7 @@
   },
   "409961": {
    "id": 409961,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
    "name": "冒险记录",
@@ -115,7 +115,7 @@
   },
   "409962": {
    "id": 409962,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
    "name": "旅情见闻",
@@ -134,7 +134,7 @@
   },
   "549438": {
    "id": 549438,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "4b2b853e6383eb95efb20f47ba690610939fa5d0e9e76d7e836b34ebb24cccfb",
    "name": "熄灭原核",
@@ -155,7 +155,7 @@
   },
   "633379": {
    "id": 633379,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "36ff25fe21d5d2c8739ae2ea8fa632957456c6c05598727a426fc0edb0932992",
    "name": "微光原核",
@@ -174,7 +174,7 @@
   },
   "635681": {
    "id": 635681,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "34ff25f0d7aec3e211042af53b5ecf82f2320beb5164052b2bee26cedb2e6198",
    "name": "陨铁弹丸",
@@ -191,7 +191,7 @@
   },
   "717320": {
    "id": 717320,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "5692b78d0c25d7b551dd8977d3194c6550ac9271200e47ec5cc088ccec9d12d5",
    "name": "蠢动原核",
@@ -210,7 +210,7 @@
   },
   "836267": {
    "id": 836267,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "e33a9c34ab89b9315339791c792f2a07174330390c95c5c8a44b6b46d3c46158",
    "name": "逆时一击",
@@ -227,7 +227,7 @@
   },
   "920208": {
    "id": 920208,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "635d4a30e82aaec978a5957e89c85bd611d2d58fa2bad72d2c175c430d9b3521",
    "name": "命定死因",
@@ -245,7 +245,7 @@
   },
   "6103825": {
    "id": 6103825,
-   "type": 601,
+   "type": 652,
    "purposeId": 2,
    "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
    "name": "暗帷月华",
@@ -2148,8 +2148,575 @@
   "fourPcSets": [],
   "props": []
  },
- "voiceItems": [],
- "storyItems": [],
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次见面",
+   "text": "初次见面，叫我Archer就好。幸好你我并不是需要相互厮杀的关系，那就尽可能友好相处吧。",
+   "unlockRequirement": "",
+   "cnUrl": "0e4ee98f326383bcc83e091037986e7225b555974502023fee41566728c5f867",
+   "jpUrl": "9322f4038b829e13a5b5ada1e60ba0c142c6d5fdf0e48794324309258ee18883",
+   "enUrl": "",
+   "krUrl": "a4407f2ae7e18f335f26b4d44e5e47f1964f8fde1383aaf82db7da6434e6b204"
+  },
+  {
+   "id": 2,
+   "title": "问候",
+   "text": "喔，又见面了。好在你是个聪明人，交流起来比较省力。",
+   "unlockRequirement": "",
+   "cnUrl": "0d5acc63285ec27001e3c246217f1582e2fde81f1fc8ab58a2d9582639696775",
+   "jpUrl": "2c7fd1276d2681ccd837037e810c5408a8cad729ea864ac225ffbe0f29c247fa",
+   "enUrl": "",
+   "krUrl": "723af1be8019c3a65fca082b2213e95c6fcf629d8f714115cf23e5424df3132d"
+  },
+  {
+   "id": 3,
+   "title": "道别",
+   "text": "哦对了，分别之前，给你个忠告吧——珍惜你年轻时的朋友。就算时移势迁，友情依旧是如宝石般珍贵的存在。",
+   "unlockRequirement": "",
+   "cnUrl": "3d623084b731a7adba6ddb5c23b3f3997070f97d3b32a830754788072f14d167",
+   "jpUrl": "d1eaf0a1b45fc6d6517349ee67ac92c463171a47528bb27d7ed63886994d9174",
+   "enUrl": "",
+   "krUrl": "074253239d1b8a7040b2a04fb11cc3762b7133296c8c1c41e176c9cb7f29e78b"
+  },
+  {
+   "id": 4,
+   "title": "关于自己•真名",
+   "text": "作为从者，本该把自己的名字藏起来。但鉴于这个世界根本没人认识我，我还是开诚布公吧——我叫「卫宫士郎」，请多指教。",
+   "unlockRequirement": "",
+   "cnUrl": "ec19543f9237038c2778fb6c2c1c2b8e1898ef37191d30edfcb0122dc31d7236",
+   "jpUrl": "412b6756cf1f9dec00a7523aaf0e6b7312b381f523646d5fa0585710abd47d81",
+   "enUrl": "",
+   "krUrl": "301936ca346d4856d8f8eea4ed0f2061674d770fd04b455f5ddb4d938667952c"
+  },
+  {
+   "id": 5,
+   "title": "闲谈•投影魔术",
+   "text": "没想到，我只是在匹诺康尼尝试投影了一瓶苏乐达，就碰上了工厂的员工向我索要版权费。",
+   "unlockRequirement": "",
+   "cnUrl": "37045493352bc31fa9b3d2fd10d63c03ae028f4b362340760714707c07ec00d3",
+   "jpUrl": "7c740cdc06a7c044bd22248a6b77e337c011b993a2806b2949de035edde66591",
+   "enUrl": "",
+   "krUrl": "9e85a578d6b5eaa765a36c0593e2ed9f39ec5d23017ffd33ac6a48fadbf1e6fc"
+  },
+  {
+   "id": 6,
+   "title": "闲谈•家政",
+   "text": "匹诺康尼的街道与房间明明一尘不染，但不知为何我却因无从打扫而有些郁闷…也得改改这毛病了。",
+   "unlockRequirement": "",
+   "cnUrl": "b6c57151a41ae2f0f167b50c1423727077782e1267c5cecf9c4af18d34eab150",
+   "jpUrl": "e8c73cbc8440a69bd113bb8c8a55708bfa859ffbe635179831e74063e48de7d7",
+   "enUrl": "",
+   "krUrl": "c12118830836968fafac9c8c17499a68f40ebeded37586d8d42642d7091f805c"
+  },
+  {
+   "id": 7,
+   "title": "闲谈•英灵",
+   "text": "我们这些异界英灵，都是自名唤「英灵座」的存在中拷贝出的副本。但匹诺康尼的英灵又是从何而来呢？莫非在这个世界，也有什么东西一刻不停记录着历史？",
+   "unlockRequirement": "",
+   "cnUrl": "1fbd0a6f49ac89ed8b35a23f86622f254d33e5b0a2029b10dd2a47ed5d82d87d",
+   "jpUrl": "bd6618ec96f3ea86cc2a6dc3c89a139150f5a52325eee30b946d436fa1077c90",
+   "enUrl": "",
+   "krUrl": "c7a3e5c24f639aa7f421a90b78d077e7a6e44769fa159369c6b73b86c331e829"
+  },
+  {
+   "id": 8,
+   "title": "爱好",
+   "text": "我还挺喜欢做饭的。但在匹诺康尼，烹饪的方式似乎与其他地方不同…呵，看来我没机会展示完整的手艺咯。",
+   "unlockRequirement": "",
+   "cnUrl": "cb3f653da8172f93bb1fb6a18bea21604c7385b5b790669aa626b648d07baa4e",
+   "jpUrl": "0e23d83ef72cfa2f711375fcae73836ba4f642d3394802dc4b62f904dc10416f",
+   "enUrl": "",
+   "krUrl": "a521fd6aabacb0aca243e1b121b7fecce91bb597675f02ee152d80cba52a8afc"
+  },
+  {
+   "id": 9,
+   "title": "烦恼",
+   "text": "人总会成长，一个心智健康的正常人会不断否定过去的自己。你应该庆幸，你不必和过去那个不成熟的自己打交道…不，不如说这才是常态。就算赢了自己，伤痕也不会消失。",
+   "unlockRequirement": "",
+   "cnUrl": "ae66f71e889ab793597c6b9e1e06f1f0c0192ba900884024cf57a8f3351f06ac",
+   "jpUrl": "43ce0e8a0272f70fc351232b74bb8f5cf63b227f1ae6b17e2b5b52fec9daf374",
+   "enUrl": "",
+   "krUrl": "415c22fb626c16c66e399b23acfec8bc55c24912cdebcb6453f9f78c5c180645"
+  },
+  {
+   "id": 10,
+   "title": "分享",
+   "text": "「做正确的事」和「把事做正确」，是截然不同的两件事。在我看来，后者比前者更加重要。",
+   "unlockRequirement": "",
+   "cnUrl": "6365d3053af65c670942363b87f536e172d47c97d06544a8b914075747ae995c",
+   "jpUrl": "02f2cfb56f1405f2d435b148e1ed540e2fb7087bc3c0f2c842a8ae55cd5d0ed0",
+   "enUrl": "",
+   "krUrl": "2a86973193d4982861bd4413bde3f1353bca0c7cdc0c3780b4ae2ff94d4f2a5b"
+  },
+  {
+   "id": 11,
+   "title": "见闻",
+   "text": "在梦境中做饭不必清理厨余和餐具，方便是方便，但也少了一种仪式感。",
+   "unlockRequirement": "",
+   "cnUrl": "47818460c03d7b5e2aede8ee26860abc3fb7d7b2defcf113f0915ac7bbd3d118",
+   "jpUrl": "a6ddf3964908e72aef22c0d616c7a9ffe4f1e058fe26603545ca668affe12426",
+   "enUrl": "",
+   "krUrl": "19565cdcf8ef6f5738e1042bab11ae05410216900eaf9050ae834d041962f537"
+  },
+  {
+   "id": 12,
+   "title": "关于Saber",
+   "text": "她是我的旧识。既然能召唤她做你的从者，说明你也是个正直的人。不必迷茫，保持这样继续前进吧。",
+   "unlockRequirement": "",
+   "cnUrl": "b9ae2eafe3e2fd78142d786800c8c1f1830ef161679e072084c685491349d08a",
+   "jpUrl": "05eee609eb60f27040021cfe166876be4e9229adca82c1b69c5cabac615f08c7",
+   "enUrl": "",
+   "krUrl": "253be219dd20c41343b616b7e153370c7cd85a99d8c5cc214811b6b7eed94051"
+  },
+  {
+   "id": 13,
+   "title": "关于Lancer",
+   "text": "Lancer这个职阶似乎总会涌现出一些不幸的从者…不，不是说每个Lancer都是这样…只有那位英灵，不止他本人，连召唤他的人往往也运气不怎么好。",
+   "unlockRequirement": "",
+   "cnUrl": "0d868cb0df6e75fc9e2fe952d1c52c7f2fa94442d7510d7f57e5c3330d4c070f",
+   "jpUrl": "889505e356d5d5fc034ea767fd0eed211cfa9273c1a0a234a86ef48cc2460630",
+   "enUrl": "",
+   "krUrl": "bd961acc04bc5788446d58dfbb976ffff168bf4f1c0ca9f0bacb4f01bd093c09"
+  },
+  {
+   "id": 14,
+   "title": "关于砂金",
+   "text": "御主与从者往往有着相似性，至于我们，大概是心底都存有某种执念吧…不知道在他看来，这是一种幸或是不幸呢？",
+   "unlockRequirement": "",
+   "cnUrl": "eb7cd98063d5a414347cd57bf112ee75f9957ae1ceb4e09349f60d501ed15116",
+   "jpUrl": "854de05cedade9f39aae94ebcc607273f06ba94830c69d2998cc0901e12e01d0",
+   "enUrl": "",
+   "krUrl": "26d885db018b71297cfc8dea2db5416d4a667e70d54737abeff66de692cfb166"
+  },
+  {
+   "id": 15,
+   "title": "关于波提欧",
+   "text": "看起来很冲动，但处事条理却意外清晰…哼，算是个跟我投脾气的家伙吧。",
+   "unlockRequirement": "",
+   "cnUrl": "ab662e668f34d5d4c8368f1ca84012e9a90489f6df8eba18981ad0cb6bf44b12",
+   "jpUrl": "31de5eb0aeaf5bf63017041bd4e989329aab8efff45e344cefd23a0ddc9d0f98",
+   "enUrl": "",
+   "krUrl": "8e6e6a107ff270a4d1d44aa901e355206d819cd0269255438bd9b4006d5a10d7"
+  },
+  {
+   "id": 16,
+   "title": "关于帕姆",
+   "text": "它的手脚那么短，竟然还能将家务操持得井井有条？！真是不可貌相，不，应该说不愧是和外表一样完美的列车长啊。看来你们的旅途还真不错呀。",
+   "unlockRequirement": "",
+   "cnUrl": "622b4112ae47b291e76820262ab909552a36c17a5d56b3ea7fd6e294142ef612",
+   "jpUrl": "54e2520905d2568fd9405f6e549b70c96d4e2aeca3cad52eac9f509f5715648c",
+   "enUrl": "",
+   "krUrl": "7a359eb77b51d258936b5723ae1c983a236a49a28f8188e64864d5aa0277b71c"
+  },
+  {
+   "id": 17,
+   "title": "关于「音符小姐」",
+   "text": "能够成为英灵，本身已经是对她能力和资质的承认，她不用妄自菲薄。",
+   "unlockRequirement": "完成开拓续闻「命运/归还星之海洋」后解锁",
+   "cnUrl": "a0bdc84b6e279caa37f78f952323769e64ef606012cf08d5d502ed39a115be8f",
+   "jpUrl": "85c72d03ced1494c3939275b4c1c1595247db4962b360b7ebe037abb187d71c6",
+   "enUrl": "",
+   "krUrl": "b0b5d1b54745ddd81d5b8cba6fe929c7dc8f2010522715f992047e4c7449909b"
+  },
+  {
+   "id": 18,
+   "title": "关于斯科特",
+   "text": "如果他遇到的每个对手都像你一样，那他会成为一个好人的。",
+   "unlockRequirement": "完成开拓续闻「命运/归还星之海洋」后解锁",
+   "cnUrl": "c8aecf1045571bac05e15be0c68699754b6fc886c5b5a53133a7f21a573c9756",
+   "jpUrl": "21edf50d28f6a772e58d77fbb086b86e2edf4a37d729d7122c7793292644d0d6",
+   "enUrl": "",
+   "krUrl": "a780a0fea98b9b3598575d16c23b3f36404f7e5ecfd101b1be2d607627b7d3bd"
+  },
+  {
+   "id": 19,
+   "title": "关于葛瑞迪先生",
+   "text": "在这儿，像他这样理解「电影」的人不多吧？否则我必须要指出，你们世界的品味还有待提高。",
+   "unlockRequirement": "完成开拓续闻「命运/归还星之海洋」后解锁",
+   "cnUrl": "7025d02f87140a5772bc4a144d02b7a79e332aa22c6bca5782a3f4549266d989",
+   "jpUrl": "4902aa51ded75558cd094ee4ff27f17af58be3276f05aecfec49ac67ddf837dd",
+   "enUrl": "",
+   "krUrl": "7b26f40dbc38338180ebd3123a08838c226ba77a59018cb0258313ad1585af4c"
+  },
+  {
+   "id": 20,
+   "title": "关于老奥帝",
+   "text": "人类嘛，到什么年纪就该做什么事。该乖乖入土的年纪，就不要总惦记着兴风作浪了。",
+   "unlockRequirement": "完成开拓续闻「命运/归还星之海洋」后解锁",
+   "cnUrl": "175dd543a0360b6c9caba7a74895983bf558955366498faa451f95c3cabde0c1",
+   "jpUrl": "3d19392dd0ba63f33709181872c519a0220a09eb065386ca7361e8f515880f30",
+   "enUrl": "",
+   "krUrl": "db85e1a1cd7540acfba4a6ce176ad0ce8ea3cd252c9a5e1623db3ab66763720d"
+  },
+  {
+   "id": 21,
+   "title": "星魂激活",
+   "text": "守护者的未来，在此注定。",
+   "unlockRequirement": "",
+   "cnUrl": "5faf0addd4cf9dd2267317048fe197f83a57e07c130ee48af481fe143b453e90",
+   "jpUrl": "f771ccb52d8db8fd6637f31a5563163d683a4d34b111a90495890f6a10d89637",
+   "enUrl": "d933f30cea6ebf7891ebb9fbd9879ae7f58b28b4b99940039777c8c83e0ff631",
+   "krUrl": "d15b7cd13db78e91db2a3e6ebd7aee69a8019672947ad9c0353a28dfea5f3a13"
+  },
+  {
+   "id": 22,
+   "title": "角色晋阶",
+   "text": "任务还没结束，不能松懈啊。",
+   "unlockRequirement": "",
+   "cnUrl": "d113e2f7daf479f4b5df587839d0993cb60544a928b50d8b8791d96ac5089918",
+   "jpUrl": "5ba3231fab7de8a6e326bac138cac7001ef1d405bab2e44472303c235c76a51e",
+   "enUrl": "9fe58a83a856813044c9a624b543e5f20bc3d91292c375041673628da354b67d",
+   "krUrl": "43276cb640acaeefb27d450e1bb7350f0a21192e435fa57e349581e0fd61b56a"
+  },
+  {
+   "id": 23,
+   "title": "角色满级",
+   "text": "准备万无一失。以现在的状态，随时都能应对战斗。",
+   "unlockRequirement": "",
+   "cnUrl": "97c3a3a9f6eb3bc9a9d67fede1aa7a78437bf8a252b34ae9964daf0695cffd73",
+   "jpUrl": "9a2ac23021b30cba6c1fc192bff16546cfed55224f7c272d6d6e02815e3fbc3c",
+   "enUrl": "f64c73809adc17f41d3df0de0b2103c47af54fa9996f104f3b5fbc6d0a562aa3",
+   "krUrl": "bf2706685d19c92c38d585b8975255917c230be41c6821221479edc22a73e87f"
+  },
+  {
+   "id": 24,
+   "title": "行迹激活",
+   "text": "这感觉真不错，像找回了失去的东西。",
+   "unlockRequirement": "",
+   "cnUrl": "038eb7754c6b9ff3c73e120802abef663d8a7c81f56f09cd1b4ae9705e3cb993",
+   "jpUrl": "24fb4e6efd80293d96b5269da38c4ec439a6766ac2bd15851fa9c8251f82bbc0",
+   "enUrl": "6e296284a5dbb528532886be6259be0788a1e8ea771490fd45980419587c2db5",
+   "krUrl": "0989e7b51135dfe4953dcbd0f83834fb88d4c3e51fc99921c348d6b8d10a042c"
+  },
+  {
+   "id": 25,
+   "title": "队伍编成•开拓者",
+   "text": "强敌么…我会暗中支援的。",
+   "unlockRequirement": "",
+   "cnUrl": "50bbce22920bfa46edb8ff5c7d9d34f7bdeddb8af7e5e53d4ea83d26dc682924",
+   "jpUrl": "8e76749a7a35190a46047312cb3a6be905d1ef0dcf9048bab5d50d7b99b159e4",
+   "enUrl": "4763631286f9050e929aad3267fb805b7af6390c4e2e0bf5d7b6d6e60337ba44",
+   "krUrl": "352c9f63dde82dfe22cef97b54160302ad8cca93500c3bf1d2e7c76c23316f3d"
+  },
+  {
+   "id": 26,
+   "title": "队伍编成•Saber",
+   "text": "呵，即使在星海之中，圣剑的光辉还是一如既往。",
+   "unlockRequirement": "",
+   "cnUrl": "d3ee44f7b788d1de2fe11b6d17a12215e56e8e2855101a36a4785bb961bc46b6",
+   "jpUrl": "4d9a1220a68af60abe1fc94691823c8abb5979b83ff08566ebd412597a75c50b",
+   "enUrl": "d0317cf7b3e94c52e377e918d5857a693f853aa10b04047cce372a5ffa67e76e",
+   "krUrl": "53755c99480885599099655f6ca4ecb17a9d7e89cc5969b7d78cdf0540b8a95d"
+  },
+  {
+   "id": 51,
+   "title": "战斗开始•弱点击破",
+   "text": "好机会，该斩除祸患了！",
+   "unlockRequirement": "",
+   "cnUrl": "dec276946834ef4deba7aaf496c67c1161f1a55f094d4d969abbf06efe3dddce",
+   "jpUrl": "edf1c247c5dbec14fefb043d5391f6e1f779f5bf6effb1ecc689123eda6c5c99",
+   "enUrl": "95ba776e1cd19f561f11c448b2358cf33eb70a81461cbb28951cf2ab8741c361",
+   "krUrl": "b31dfb5bb63d6cac67f75bae3bfc5e07b70bba110676630b9b71b3e8543ea09a"
+  },
+  {
+   "id": 52,
+   "title": "战斗开始•危险预警",
+   "text": "嗯…，接下来准备怎么做？",
+   "unlockRequirement": "",
+   "cnUrl": "d3d3d898432bc6d31128a91a80359ef6d4732e1d0e5725954fb824bdc0d0396b",
+   "jpUrl": "26f517f6a8e515f447d34add5212d4160ddced69205abb2d61b7891185d51797",
+   "enUrl": "49c6fb4047c79b48496d7f2f11df123413cb7308fcb9679eb907bad25aee89c9",
+   "krUrl": "b888c20591860aeac20db5dd8f5f0c83cc868c208c77ef307a6cf52b827d32c7"
+  },
+  {
+   "id": 53,
+   "title": "回合开始•一",
+   "text": "到我了？真是够忙的。",
+   "unlockRequirement": "",
+   "cnUrl": "d3120314f46c652cd72e87ca38ff9bc04052f5994bf3d8e4fe15704a29d200c7",
+   "jpUrl": "cab391ae0aad88f58c707efccaf06c3783e166875bbc70fe0bf0581b2804f2d7",
+   "enUrl": "dc8ef71c15767f883baf3b4bbda5002d89dc31053844e51038f253add94a2717",
+   "krUrl": "4f8e043e896fbb4660c85ea5dee9dc42007814dda66ad99d0c1b4fe059c26654"
+  },
+  {
+   "id": 54,
+   "title": "回合开始•二",
+   "text": "真是不长记性。",
+   "unlockRequirement": "",
+   "cnUrl": "0c0ab127a7d45dcd65b4673bb7226085e4a7288ff14736d15d7924c42145a064",
+   "jpUrl": "537880398bb18a39be62d6858ac9a2473a4269359428e6a613ed9e687b8cd3bc",
+   "enUrl": "014971223cdf72dfcc7683cca3a8fcca933a53ada2a172c538f547360ccf90b2",
+   "krUrl": "2da1585d9d7caab35e6ae28d9a4c80670a78d522d6ce318cf78f8aacad555505"
+  },
+  {
+   "id": 55,
+   "title": "回合待机",
+   "text": "不急于动手吗？嗯，再观望一下也好。",
+   "unlockRequirement": "",
+   "cnUrl": "7eb6a5091bb6f98d744a0ae60f50bd702e60c34212abacf0d4ec1e47cfcd9083",
+   "jpUrl": "5468e3f954ed12baa3c8fa68afa2ce506bc0ae269945147d683589c5e1c5e648",
+   "enUrl": "d1949d434b6515f06f66fe4232022ba2f2f8bf8d5ffe6c793053a9d05158de87",
+   "krUrl": "aa36ad5fca192e8b902c354af1f62353ccfe15d5e1b5acba1051faed03cbb363"
+  },
+  {
+   "id": 56,
+   "title": "普攻",
+   "text": "干将，莫邪！",
+   "unlockRequirement": "",
+   "cnUrl": "4d5934908b05417a923452533169ff9d345577fad81fe4c141821b5596711ccb",
+   "jpUrl": "4192a9a7e1f0ca4e43eccaf14cbdddb142fea777f08f7c5f82cf83ef86f8b7cf",
+   "enUrl": "7cad9eab27dfad6bb5681732c0a63a7c4a9ddefebe848ebb9bf9edb44d5d7d46",
+   "krUrl": "cb6b4a65cf89d4863a3cd43b5aa0e1789fd591ec9e547707e06727eef5e42a6d"
+  },
+  {
+   "id": 57,
+   "title": "追加攻击•一",
+   "text": "鹤翼三连！",
+   "unlockRequirement": "",
+   "cnUrl": "d8ad2a5f445b90347db91d4a333474520371330805fae37a67bdf0ee430994a5",
+   "jpUrl": "b1baa624706a0cf9180da4d31c8364bc817bcad67f31e78784ae8ebe0a1ea76d",
+   "enUrl": "ac3180f056abb6aa4698bb787d7eace38414ead40ec8e6e1298f5a35a72152bd",
+   "krUrl": "6b2601d4ca43e9a47db8d4d492e08738de08b5f648b562b1bb3cf76a7c0d4548"
+  },
+  {
+   "id": 58,
+   "title": "追加攻击•二",
+   "text": "穿山断水！",
+   "unlockRequirement": "",
+   "cnUrl": "672e95f20af3343771a5f56e49c21fc687714b09633d3ad44bf18339fa1e2093",
+   "jpUrl": "f962084f31e2ae43c0c873070f26b73e8efd431ca73fd06a535e0470633cfc6f",
+   "enUrl": "6fa4b6f0840d7066f4f6f5fa97b91502889bb8f822073faccfb9903dd8aa288d",
+   "krUrl": "0bdff95df530f9ea9e30e57a0080e1b748d55fc27593531cd630f1959be4834e"
+  },
+  {
+   "id": 59,
+   "title": "战技•一",
+   "text": "Trace on！",
+   "unlockRequirement": "",
+   "cnUrl": "7c2dac2801727086ae565a1e79cd8a770a9142d91e888a4d350694e8c23d8393",
+   "jpUrl": "3d721b385174da378dd4b16b770000d6eb8d423aab719e54d96d8a70c02bcf25",
+   "enUrl": "9a83911d4d638bd210c28c8049fc9c45ba156f25c908c979a6eaff5a7eda44fc",
+   "krUrl": "aad35237fb0e8dd7405b43533e394c411e5fcc15f22cc0ed1680147398ea2411"
+  },
+  {
+   "id": 60,
+   "title": "战技•二",
+   "text": "Caladbolg II！",
+   "unlockRequirement": "",
+   "cnUrl": "6fd55dd302c8f183df6f6ccc22da22fd3d7ac6d44cd7fcefd3475cd8059a8674",
+   "jpUrl": "89e54cff144bdc688643d03a875955ac63862aa644642b5dd0734609bb46ecc0",
+   "enUrl": "2067c422df45e0f5ee127b4d81749411131f8dffdc5b3404dc590b646deb91d8",
+   "krUrl": "b609f54b93f281145f8a88ccf3c87d6be5acca8711a5211464171828e48e129c"
+  },
+  {
+   "id": 61,
+   "title": "【回路连接】战技•一",
+   "text": "别想跑。",
+   "unlockRequirement": "",
+   "cnUrl": "c5d729d85bf98e84ab23c55e9e51516ff15056d1bae766280f23fae39eeb9799",
+   "jpUrl": "ba5380344a0ce890593703488705ab83778f43db18bec935201098a5608eae69",
+   "enUrl": "e6989efae033ddd73094ac9e03717b1990db7b81620c0c46eed914b52e083027",
+   "krUrl": "ae037443769b2fb9ff28cd238c09ab26b0b5ba1a555c7a6b896734fce1a5f988"
+  },
+  {
+   "id": 62,
+   "title": "【回路连接】战技•二",
+   "text": "你无处可躲！",
+   "unlockRequirement": "",
+   "cnUrl": "74ac4211677e6a8e0bf8b7963ddc2b18cbc33a26995c8e22d1438d7aceee9c60",
+   "jpUrl": "0ce3a1c6042368ee145d8387242c5b0bd0c4bf32cfff0fbdc33ce1571b273510",
+   "enUrl": "e50bda1ce821e8808bf2b1276ceaed8c2b410f9bb7530eed3fbe8abcd80ccb03",
+   "krUrl": "95562185ce061440e893767e7bdc59f8446ea0dfabf2a8701a5f7a333dc083a4"
+  },
+  {
+   "id": 63,
+   "title": "轻受击",
+   "text": "多用点力吧…",
+   "unlockRequirement": "",
+   "cnUrl": "d1e04a998fb09ad9a26662fb2f58740244cf4481b550cab189501a83e44cb562",
+   "jpUrl": "c093e1e66276cb4332a727751983e25257a0bc72e0a29137ff73241ba351b139",
+   "enUrl": "2d8b824cb433ef93b950893cb97e99ae662c9101d8c4bd3edc621f5d992c8476",
+   "krUrl": "824fa65c5c7093c9a8e6c88a5b5c993f2ec4f1eb5bff9e9abec9573273424e50"
+  },
+  {
+   "id": 64,
+   "title": "重受击",
+   "text": "又正面迎敌……",
+   "unlockRequirement": "",
+   "cnUrl": "0f2656a372844911066bcfd1323cd0ce8bb00920c92a0bf571f53f5c2ac94be1",
+   "jpUrl": "b86fddc10b0598e6a5e7a29091b77e32780888716ee063001124d9d1bfd7b0d4",
+   "enUrl": "f5b26f0d2b921c435ea77b6ab1cf410ee594240b20683ee6d29a1074f8eae81c",
+   "krUrl": "e7857b2ba57d084b730d372e9e7ad8c37ce5d6e16bc39d5cb4764f431c967835"
+  },
+  {
+   "id": 65,
+   "title": "终结技•激活",
+   "text": "I am the bone of my sword. Steel is my body, and fire is my blood. I have created over a thousand blades. Unknown to Death. Nor known to Life. Have withstood pain to create many weapons. Yet, those hands will never hold anything. So as I pray—",
+   "unlockRequirement": "",
+   "cnUrl": "bb4af7573a2f350e62c5628b0e4f853b54553765271111d7902f091974a3c0d3",
+   "jpUrl": "1572128622916ed289f046cc6e693ef41aebee599278c043d699f711ca93a428",
+   "enUrl": "57f1e10ded85ed6aaa18faebf96f439d0d7fa07a4ec7598f8302031c96d1e892",
+   "krUrl": "7e1f549273cea45441644be578c85a3ffaf50a3b42397ac6b2f4d5f3b7c6be6e"
+  },
+  {
+   "id": 66,
+   "title": "终结技•施放",
+   "text": "Unlimited Blade Works.",
+   "unlockRequirement": "",
+   "cnUrl": "70f46583622d1948842c828c4faecd9a922c9c00b4fb93834a640070101ab084",
+   "jpUrl": "1e1b86a34b2e8628c1ca8af839edc3056d7837520d63d2ed59452b87511c0589",
+   "enUrl": "fc3bb41290fc3ed64b21b534a2f70008b5927a1d041cfdf14ef4bff7eb3785ce",
+   "krUrl": "cee4112ccdd5b6b9c4741b4e115626fcc6ee1e6165ba6d2973b65775ea9fbc58"
+  },
+  {
+   "id": 67,
+   "title": "无法战斗",
+   "text": "是我…败了…",
+   "unlockRequirement": "",
+   "cnUrl": "9da7f42ffe3807171129f4b88adeb0f0d2efe7b6e8ebf9334be05e399d98fe8a",
+   "jpUrl": "5f054910d2eba4f4a5a434808e59afa542366fe3cdc88881d1705960b22a46b2",
+   "enUrl": "2241c845c1bc57385d037c708836df81bb31e02021ffbb7c6599fff62823474e",
+   "krUrl": "cb62a7c44861cce69bfdc834f20db2c1354f2766e277b6f8e0211c4cb4e84eee"
+  },
+  {
+   "id": 68,
+   "title": "重回战斗",
+   "text": "看我一雪前耻！",
+   "unlockRequirement": "",
+   "cnUrl": "425b703c543c0e55f3d0739f1e17da260d2aeddff61b66c48a6b3d73642535bb",
+   "jpUrl": "f654acb7cd58349b7a69bed6ba19af1af2147cb67fd12f7a316154395ef84ed3",
+   "enUrl": "1de5805ba4bfee666f2c410f9dfb597a985946144c0386dec6024b4a215d176e",
+   "krUrl": "47a1a6c171c923ec569a71f59641d8a1ffe5dafcd5f52574955501381e4426ad"
+  },
+  {
+   "id": 69,
+   "title": "回复生命",
+   "text": "可靠的同伴！正确的判断。",
+   "unlockRequirement": "",
+   "cnUrl": "c57d1383294e180f0d16f540a174e99bfb28e62ab64def5dabda5aa396441981",
+   "jpUrl": "ae324957a7d92870d3a20ccfe1bc4331c6226d3268fe59f14e21f1abc35491a7",
+   "enUrl": "7b484dffe543c622f32b7a7c6ee0469981c516bbe8edfd847ea2788078882e9d",
+   "krUrl": "5bd319028236b0cba77d691c040bb518f1222698066b4287c52d08e6f01a1a9a"
+  },
+  {
+   "id": 70,
+   "title": "秘技",
+   "text": "Broken Phantasm！",
+   "unlockRequirement": "",
+   "cnUrl": "207f9b78a2dbcef7e5a06d30f4e4b95e82ecbf8c479f886d2dd63360e6047a96",
+   "jpUrl": "23cd71e1741728357c5c8973506d0af106b610e26a0b4d26776e764b9342c049",
+   "enUrl": "6557087a32a8c9af9cd85851892dda1dfece303573fee7422a1760a9def3e584",
+   "krUrl": "9a0e61aad8db502616d74ee372544d7d944afe247dc1ae0d15b5b937d18a41a7"
+  },
+  {
+   "id": 71,
+   "title": "战斗胜利",
+   "text": "我还以为要苦战一场呢。",
+   "unlockRequirement": "",
+   "cnUrl": "73104b9a9800a9f58f9e79eab8bc590e01813f73dccbd4490720fe8557e8ebbb",
+   "jpUrl": "ee2249ab4e3ba9846c4ce39c88ec02cd4eea51de22c40a8ed1c208489ed91ea3",
+   "enUrl": "75869f2c6833a8a9f8007b8ea66a4fdbed87545613382033b21ed576b4265417",
+   "krUrl": "0b21aba5a6cd369daa1320e9f65a751b583e4063b44157b33cb5e26775875dc8"
+  },
+  {
+   "id": 72,
+   "title": "开启战利品•一",
+   "text": "…算了，人要知足。",
+   "unlockRequirement": "",
+   "cnUrl": "ec9a4b61ea6f0a5f4364d52a1657484425542b1540c16899c416e8579d60bff7",
+   "jpUrl": "e30aab886f9fab2437098000dd4726c57718be6973dce06fd67f8de82dfc2e9c",
+   "enUrl": "d49d1bf31557f2f53d4e647ab5ba9d4b6ecb88ae87f0dc42ab4f5c854f53d581",
+   "krUrl": "c64719d0782f5c9a4b133bc98d2cd8a5fcbd89d219506ff74df32c79d8af20e7"
+  },
+  {
+   "id": 73,
+   "title": "开启战利品•二",
+   "text": "可别大手大脚，省着点花。",
+   "unlockRequirement": "",
+   "cnUrl": "552167a0466974b90cd983ea54e634c77b057cfeff464b2b4336cc25f69a8958",
+   "jpUrl": "eff2a3c0e8e853e2fbbf3b7919d6c018e9472ba5736082291f6b6cc55b456b94",
+   "enUrl": "003eddf8f9264ae879428b0f135a1337ff9a44e21aa33725ec6dce5aacc492fc",
+   "krUrl": "9df87c51ac31534e24b03ee43ff540d1897e16a947db1f764dee550d962f67dd"
+  },
+  {
+   "id": 74,
+   "title": "开启贵重战利品",
+   "text": "颇有收获嘛…",
+   "unlockRequirement": "",
+   "cnUrl": "c407792cc291743bd6b9ac0bdc93a69f9d1824372016879234e73571a73f6da9",
+   "jpUrl": "ad85640d55fcd77b60180182523e71faec58a9e76aaaecac977b1dd2e6b6d418",
+   "enUrl": "812b85f24cff552ec46914c1cb8caa41baef964ec8e37cdf1f25ec0e274e7435",
+   "krUrl": "06b499629a0e4cfc1645f98512996bc478f9b31244d41d772add404cdf174fa3"
+  },
+  {
+   "id": 75,
+   "title": "解谜成功•一",
+   "text": "值得大费周章吗？",
+   "unlockRequirement": "",
+   "cnUrl": "8ad391d35bdb4b6ef4a849ddc5ce3d684fd82129eed9c5c23cf50e1194dbb163",
+   "jpUrl": "1177928c70eec5140b8aacc5f0eadad3f14f1db3e98683cdcf824dd17faacef9",
+   "enUrl": "2186971735fe500d4fb4e56736c669cfed89f5ea675d2e759c1e4b84cd4cb40d",
+   "krUrl": "c2bb658b0c74332dc3c1d9ed9ef41e3a9ae43bb4efd9b7da9b644f9b1e6ed242"
+  },
+  {
+   "id": 76,
+   "title": "解谜成功•二",
+   "text": "不算什么难题。",
+   "unlockRequirement": "",
+   "cnUrl": "980e1327d8e2acdccecc15967eabb11365586dc11f39dc8b3a4c4c8966678d00",
+   "jpUrl": "2e47bac16f0289e61120a2cd60c48698e52cdb282a67e6044b34dacfe650bb9f",
+   "enUrl": "f2446409e9d09a2e44f7660aa28fee31374a78db7f5c29935543d0d7de0cadc1",
+   "krUrl": "e267fb71bfb4499142c4e95d61d924283ac2b7b4203e35e847d488e1536c3c9c"
+  },
+  {
+   "id": 77,
+   "title": "发现敌方目标",
+   "text": "是个麻烦的对手，该警惕起来了！",
+   "unlockRequirement": "",
+   "cnUrl": "9d75bca7be6a5dc5d4b4b7f7c22615a7243b27a3daed628db5aed6ce5a0075c5",
+   "jpUrl": "5c4b21304ed82044394a0645e340ae6cb94232620c5f326165963c6c05df8744",
+   "enUrl": "d194514b68ee53f1af21a227dd07d01d7674c1f7256b8064ca96af7c58b7f669",
+   "krUrl": "e7bbdf3e1eb54054618002277c65f8c14485fcd14d1076e96ae13cff09e81468"
+  },
+  {
+   "id": 78,
+   "title": "返回城镇",
+   "text": "该是休息时间了吧？随便一点。",
+   "unlockRequirement": "",
+   "cnUrl": "e49e8d7a00ca312e488021096a62c82927b8e1674b21195ab0db03a74a682858",
+   "jpUrl": "c058082778904b9d430c83ede11784e898da37e1587a594570f386dc729c4b67",
+   "enUrl": "2e7687f88cb0302b8effc363e7290a6821d20b19f0c275d954f2d1e89cfc1e86",
+   "krUrl": "c6a440d1e3b65e9bcf51155d864b724f33533c91205a41a2077c497ecee32931"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色详情",
+   "text": "绝望轮番上演于过去与未来之间，无数理想曾在红色衣衫之间燃尽。但，请别被这一抹灰烬欺骗——<br />若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。<br />无论身在何处，他始终是正义的伙伴。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": "通常来说，男子是一个会冷静完成工作的现实主义者。<br />可就像某些到了年纪的上班族一样，他有时也难免暴露出因阅历而带来的悲观，又因这种悲观产生自我的厌恶，时常有意无意说出辛辣的话语。<br /><br />「不，这是一种误解。<br />「大多数人无法消解伴随着年龄而增长的自我厌恶，是因为他们没法和过去的自己真正打一架。<br />「不对，打一架也不是什么好事。<br />「…还是忘记这个话题吧。」<br /><br />总之，只要没有正面对上过去那个不成熟的自己，或是那些与此有几分相似的人，男子绝对称得上是一名成熟稳重的从者。尽管时不时要对手头的工作抱怨一番，他仍尽心尽力完成自己的使命，兢兢业业毫不马虎。<br />——但不得不说，那些抱怨往往犀利又毒辣，甚至会让人觉得他以前是不是当过作家。<br /><br />「没办法，得理不饶人可是我的本性。说实话，但凡被那种蛮不讲理的大小姐闯入过生活，任谁都会变成这样吧？」",
+   "unlockRequirement": "角色等级<nobr>20</nobr>解锁"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "男子的故事起始于一个混乱的时代。<br />就像一只无法安静下来的牛虻，以凡人之躯经历了圣杯战争的他离开了故乡，前往世界最为动荡的角落，擎举起替天行道的大旗——为了成为正义的伙伴。<br /><br />这条道路并非一帆风顺。在世界各地，男子发动过不计其数的武装暴动，竟无一成功。他逃过了十余次暗杀、百余次伏击甚至几次枪决，却在返回故乡稍作停留时，被曾经的朋友推上了绞刑架。<br /><br />但这并非他讨厌过去的自己的原因…至少失败的部分不是。<br />他所厌恶的，是那位梦想成为正义伙伴的少年，彼时还对这种人生的代价一无所知。<br /><br />执行一人的正义，就要剥夺另一人的自由。执行万人的正义，更难免头颅滚滚、血流成河。正义的确是美丽的字眼——但它的重量，却足以让任何渴望拥抱它的少年溺死在理想的海洋。<br /><br />「我的确说过类似的话，但那不过是发牢骚罢了。<br />「环境和情感会让人发生巨大的变化。哪怕是完全相同的存在，也会在命运的十字路口做出某些不一样的选择。<br />「像我的人未必是我，是我的人也未必像我。说到底，人可没法在自己的视野之外寻求救赎。」<br /><br />理想会践踏理想，命运会谋杀命运——年轻人并非意识不到这些。<br />只是正义的伙伴，理应无所畏惧——男子学会了赞赏这一点。",
+   "unlockRequirement": "角色等级<nobr>40</nobr>解锁"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "「干将•莫邪」——这双剑是男子最趁手的武器，可以反复使用投影魔术制作，无论用坏多少把都毫不心疼。理论上，只要是男子充分理解的武装，都可以被他「无数次投影出赝品」；可出于某些渊源，唯有当投影对象属于「剑」的分类时，男子的投影魔术才能臻于完美。<br /><br />「听起来很像卖盗版货的商人？啊，差不多就是那样。<br />「不是什么充满荣誉的手段，但用来对付那些自以为是、用自造的规则骑在别人头上作威作福的家伙，刚好合适。」<br /><br />传说中，干将与莫邪是一对传奇的铸剑师，夫妇俩穷尽各种方法，试图改变这样的现状：铸剑师无法掌控所铸宝剑的品质，每次锻冶只能听天由命。<br />故事从这里分裂出许多个版本，其中一种说法是——莫邪以身殉炉，与金属熔液融为一体，让干将得以铸造出前无古人、后无来者的绝世好剑。<br />而在更负盛名的另一个版本中，暴君因为厌恶铸剑效率的低下而在干将造出宝剑后处死了他，莫邪带着他们的孩子隐匿在乡间；多年以后，这个长大成人的孩子与他在路上偶遇的侠士策划了对暴君的复仇，三人最终同归于尽。<br /><br />男子的命运是否也与以上的故事有相似之处？如果有，他牺牲的是自己，伙伴，还是某种理想？<br />人们不得而知。<br />人们只知道，为心中之剑，他甘做其骨：以躯为钢，以血为火。<br />他打造过万千利刃，可最终仍是两手空空，一无所有。<br />正如他的<ruby>心象风景<rt>无限剑制</rt></ruby>。<br /><br />「但这不就是人生吗？<br />「剑可无法停留在一个人手上。你要么把它束之高阁，要么把它转交他人，要么…就将它用至最后一刻。<br />「然后，你才能重新开始。」",
+   "unlockRequirement": "角色等级<nobr>60</nobr>解锁"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "在圣杯战争的系统中，男子被定性为<ruby>弓兵<rt>Archer</rt></ruby>。这对于一个以「剑」为本源的人来说似乎是某种嘲讽，但男子不以为意。<br /><br />「拜托，比起正面搏斗，从远处狙杀敌人才是更有效率的作战方式吧？<br />「还是说你指望我像那些<ruby>剑士<rt>Saber</rt></ruby>一样用光炮轰平一切？别闹了，我只是个普通人，可没有他们那么强的魔力。」<br /><br />话虽如此，只要情势需要，男子也从不拒绝近身格斗。得益于可谓无限量的「干将•莫邪」，他可以使出令人眼花缭乱的剑技，让对手难以招架。<br /><br />「如果用普通的子弹就能杀死敌人，我才不想多费这些力气。<br />「不过，你要是真想学会这招——平常可以多下下厨房，从切菜的刀工练起。<br />「我可没开玩笑。只要认真思考，你可以从做饭里学到很多。就拿最基础的备菜来说吧——想要尽快吃到美味的一餐，你需要把制作每一种食物的工序都加以拆解，重新编排它们的顺序，尽可能多的同时完成一些事…一旦你熟练于这种思考方式，就可以把它应用在身边的各种事情上，为自己节省出大把的时间。<br />「再比如说炒菜的火候。初学者往往会陷入一个误区，认为炒菜就是把不同的食材按次序加进锅里，直到所有的食物都熟透为止。<br />「这对于那些耐炸耐煮的食材倒不成问题，但除此以外的却不能如此处理。它们都有自己最优的烹饪时间和烹饪温度，彼此之间出现矛盾是很正常的情况。<br />因此，大多数情况下，我们都要将食材分门别类，用不同的火候加以处理，关火出锅也得够果断——最后再把它们全部组合在一起，完成一道色香味俱全的佳肴。」<br /><br />是的，只要打开了关于厨房的话匣子，男子就会一改平常言简意赅的作风，发表出许多饱含心得的长篇大论。这个终其一生都在战斗的男人，其生命的本质，似乎并不是正义或苦难，而是某种带着生活气息的烟火滋味。<br /><br />「就像我之前说的，如果能在远处就用狙击的方式杀死敌人，那么没人愿意冒着生命危险去和他们近身搏斗。面对命运也是一样。<br />「我的存在只不过说明了一件事：在某个遥远的角落，有那样一个世界，那里的人们每天只能和命运进行你死我活的白刃格斗，否则就毫无活下去的希望。<br />「虽然我曾在那里为他们战斗过，但世界得以改变，还是因为人们始终在与命运毫不停歇地搏斗。<br />「而我…不过是一个一无所有，还远未<ruby>赢过命运<rt>抵达理想乡</rt></ruby>的男人罢了。」<br /><br />毫无疑问，他仍会沿着这条「拯救人类」的道路走下去。<br />就像他总是乐意为朋友们下厨一样。",
+   "unlockRequirement": "角色等级<nobr>80</nobr>解锁"
+  }
+ ],
  "archive": {
   "cvCn": "吴磊",
   "cvJp": "諏訪部 順一",
@@ -2271,7 +2838,7 @@
  "hasEnhanced": false,
  "name": "Archer",
  "rarity": 5,
- "descHash": "",
+ "descHash": "绝望轮番上演于过去与未来之间，无数理想曾在红色衣衫之间燃尽。但，请别被这一抹灰烬欺骗—— 若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。 无论身在何处，他始终是正义的伙伴。",
  "artPath": "6abf1c186bfb334db58b5681cb47c793b12d98ae4b9755449d685a1abd118e31",
  "miniIconPath": "40e37e1064bd50b12118a423004630ee4f6081dd7e84fde26b77c66068810a1a",
  "damageType": {

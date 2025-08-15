@@ -1,0 +1,529 @@
+{
+ "name": "Món Ăn Vĩnh Hằng",
+ "rarity": 4,
+ "descHash": "Ầm ầm...<br />Bên ngoài Khu Rừng Lạc Lối, mưa gió không dứt.<br />Ục ục...<br />Nồi nấu thần kỳ của các yêu tinh, ngọn lửa vẫn cháy mãi không tắt.<br /><br />\"Rắc gia vị đặc biệt...\"<br />\"Cho rau tươi vào!\"<br />\"Lần này, nhất định sẽ nghiên cứu thành công!\"<br /><br />Nồi nấu lại sôi sùng sục, các yêu tinh háo hức nhìn chằm chằm.<br />\"Sắp xong rồi, sắp xong rồi!\"<br />Một tia sáng mạnh phát ra từ đáy nồi...<br /><br />Nhìn kìa, mọi người đều vây lại!<br /><br />...<br /><br />Trong bữa tiệc tràn ngập hương thơm, thực khách nâng ly chúc mừng thời gian diệu kỳ...<br /><br />Mong cho vùng đất trong mơ này luôn ấm áp và mãi vui vẻ!",
+ "iconPath": "c774ff1e5f7814fa26def14b84e41dc38c9fb35f90317002199b0dd905cf990f",
+ "artPath": "1167b95954c9299b7b1e567757b2802843f7e5a36bb30737540f6965442f46cd",
+ "artPlaceholder": {
+  "w": 0,
+  "h": 0
+ },
+ "mediumIconPath": "47d935c2aaf9dfc0a2b528a112b268b0a9c6096b60578f59108d958975b573bd",
+ "baseType": {
+  "id": 0,
+  "iconPath": "759bef0a8809f95c4e5facbd82dc0acb1d80d016113f6a214b06b7f1c648bd11",
+  "color": "#FFFFFF",
+  "name": "Hòa Hợp",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Điểm Tín Dụng",
+   "desc": "Tiền mà Công ty Hành Tinh Hòa Bình (IPC) dùng để giao dịch với khách, nay đã trở thành đồng tiền chính khi đi lại trong vũ trụ.",
+   "lore": "\"Người ta bôn ba, tranh đấu, mua bán, cũng chỉ vì những con số xuất hiện trên thiết bị đầu cuối. Nhưng thứ quý giá thật sự, thì con số của công ty lại không thể mua được.\"",
+   "purpose": "Tiền Tệ Thường",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Khu Mỏ Khổng Lồ",
+    "Đài Hoa Nhân Tạo: Sở Công Nghiệp",
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Đài Hoa Nhân Tạo: \"Rừng Cây Thầm Thì\" Điện Cây Giác Ngộ",
+    "Phần thưởng nhiệm vụ",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "589819": {
+   "id": 589819,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "69bf4aa00e5ddbe021a76886ed32c9df4e3862e4d247698a30c5adc118b54bbd",
+   "name": "Ô Nhịp Thiên Không",
+   "desc": "Những đoạn nhạc từ trên trời rơi xuống. Có thể tăng tương đối Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Hòa Hợp</span>.",
+   "lore": "Một đoạn giai điệu tách khỏi trật tự. Nó lặng lẽ từ phía chân trời rơi xuống, rơi vào sự ồn ào, giống như một nắm cát vàng nằm rải rác trên hoang mạc.<br /><br />\"Không ai chú ý đến nó, cho đến lúc cảm hứng bắt được nó...\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/589819",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "673760": {
+   "id": 673760,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "f01e77293741da7aec911b1200d50580dab0b21b79b8f83880dc1a336c313a3d",
+   "name": "Chương Nhạc Ngoài Bầu Trời",
+   "desc": "Chương nhạc giao hưởng đến từ vũ trụ. Có thể tăng mạnh Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Hòa Hợp</span>.",
+   "lore": "Một đoạn nhạc rơi khỏi trật tự. Nó lặng lẽ vang vọng bên ngoài bầu trời, bị nhấn chìm trong sự im lặng bao la, giống như một ngôi sao đơn độc lấp lánh trong dải ngân hà.<br /><br />\"Không ai cảm nhận được nó, cho đến khi bị mọi người lãng quên ♬...\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/673760",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Aether Tinh Luyện",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>6000</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một lọ Aether được tinh chế bằng kỹ thuật đặc biệt.<br /><br />\"Sảnh Đường Hồi Ức hy vọng lấy lại sự huy hoàng của ngày xưa, nhưng đó là \"huy hoàng của ngày xưa\" mà họ đã chọn, hiểu không?\"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Sảnh Đường Lãng Quên"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Aether Cô Đặc",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>2000</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một lọ Aether được tinh chế bằng kỹ thuật đặc biệt.<br /><br />\"Phải cẩn thận, không được đè hay làm đổ. Nếu nó bị hỏng hoặc bị rò rỉ, vui lòng tham khảo Chương 2 của \"Sổ tay hướng dẫn xử lý tai nạn tràn ra\" để xử lý sau tai nạn. \"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Aether Loãng",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>500</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một chất môi giới tưởng tượng không nên tồn tại trong thực tế, nguyên liệu cơ bản để tạo ra nón ánh sáng.<br />Đưa vào trong nón ánh sáng, có thể khiến những thứ được gói trong đó trở nên rõ ràng hơn.<br /><br />\"Hóa ra là như vậy, \"ý nghĩa\" của Sảnh Đường Hồi Ức chính là thứ này, chẳng trách Người Lưu Giữ Ký Ức có thể mang theo ký ức đi xuyên qua các hành tinh.\"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Thưởng Ủy Thác"
+   ]
+  },
+  "874346": {
+   "id": 874346,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "85a0321db47414204147c699efe14b3e37c9cbad9213179aa8d5c2ed1dcfe2d3",
+   "name": "Nốt Nhạc Đám Mây",
+   "desc": "Nốt nhạc lẻ từ đám mây rơi xuống. Có thể tăng lượng nhỏ Vết Tích Vận Mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Hòa Hợp</span>.",
+   "lore": "Một nốt nhạc tách khỏi trật tự. Lặng lẽ rơi vào rìa mây, rơi vào những âm thanh bình thường, giống như giọt nước mắt rơi xuống biển cả.<br /><br />\"Không ai nghe thấy nó cho đến lúc nó rơi vào một bản nhạc...\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/874346",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "Dũng Khí Xé Toạc Lồng Ngực",
+   "desc": "Mảnh vỡ khi Thân Quyến Phân Tranh tử vong, nguyên liệu thường dùng trong cường hóa.",
+   "lore": "Tướng lĩnh lười biếng bắt đầu luyện tập, hiền giả ẩn cư bắt đầu suy nghĩ. Cho đến khi có người phát hiện ra có thể phá vỡ tạo vật của thần, thì đồ sát trở thành chiến tranh.<br /><br />\"Sợ hãi là con dao chạm trổ của dũng khí.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "Thân quyến Titan khi đạt Cân Bằng cấp 2",
+    "Quái Thú Ngày Và Đêm rơi sau khi đạt Cân Bằng cấp 2",
+    "Máy Ghép Vạn Năng-Nguyên Liệu Ghép",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng-Đổi Nguyên Liệu"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "Vinh Quang Gột Rửa Thân Xác",
+   "desc": "Trái tim chứa đầy thần lực của Thân Quyến Phân Tranh, nguyên liệu cao cấp dùng trong cường hóa.",
+   "lore": "Ban đầu, con người chiến đấu để giành sự sống. Giờ đây, có người chiến đấu vì cái chết, không sợ hãi như những thân quyến của phân tranh. Người Kremnos nói, có lẽ dũng sĩ bằng thịt và đá đều có cùng một trái tim...<br /><br />\"Dũng khí chảy trong đó, trái tim này được gọi là vinh quang.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "Thân quyến Titan khi đạt Cân Bằng cấp 4",
+    "Quái Thú Ngày Và Đêm rơi sau khi đạt Cân Bằng cấp 4",
+    "Máy Ghép Vạn Năng-Nguyên Liệu Ghép",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng-Đổi Nguyên Liệu"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "Sợ Hãi Giẫm Nát Máu Thịt",
+   "desc": "Bụi tạo nên Thân Quyến Phân Tranh, nguyên liệu đơn giản dùng trong cường hóa.",
+   "lore": "Thủy triều tử vong quét qua trời đất và gã khổng lồ của thù hận và oán giận bước ra từ Sông Styx. Trước mặt quân đoàn khắc bằng đá đó, không ai không sợ hãi, không ai không cúi đầu. <br /><br />\"Giết chóc là vật liệu của sự sợ hãi.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "Thân Quyến Titan rơi",
+    "Quái Thú Ngày Và Đêm rơi",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng-Đổi Nguyên Liệu",
+    "Đài Hoa Nhân Tạo (Vàng)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ],
+   "attackBase": 21.6,
+   "attackAdd": 3.24,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 15,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 874346,
+     "count": 3
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ],
+   "attackBase": 47.52,
+   "attackAdd": 3.24,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 33,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 589819,
+     "count": 3
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    }
+   ],
+   "attackBase": 82.08,
+   "attackAdd": 3.24,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 57,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 589819,
+     "count": 6
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    }
+   ],
+   "attackBase": 116.64,
+   "attackAdd": 3.24,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 81,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 673760,
+     "count": 4
+    },
+    {
+     "id": 20389475,
+     "count": 5
+    }
+   ],
+   "attackBase": 151.2,
+   "attackAdd": 3.24,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 105,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 673760,
+     "count": 8
+    },
+    {
+     "id": 20389475,
+     "count": 7
+    }
+   ],
+   "attackBase": 185.76,
+   "attackAdd": 3.24,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 129,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 220.32,
+   "attackAdd": 3.24,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 153,
+   "defenseAdd": 2.25
+  }
+ ],
+ "skill": {
+  "id": 22005,
+  "name": "Thơm Quá!",
+  "descHash": "Tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> Tấn Công của người trang bị. Sau khi người trang bị thi triển Chiến Kỹ, Tấn Công tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>, hiệu ứng này tối đa cộng dồn <nobr>#3[i]</nobr> tầng.",
+  "levelData": [
+   {
+    "params": [
+     0.16,
+     0.08,
+     3
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.2,
+     0.1,
+     3
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.24,
+     0.12,
+     3
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.28,
+     0.14,
+     3
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.32,
+     0.16,
+     3
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "22005"
+}

@@ -1,0 +1,536 @@
+{
+ "name": "Epoch Etched in Golden Blood",
+ "rarity": 5,
+ "descHash": "\"Seribu tahun dari sekarang, bagaimana sejarah akan mengenang Cerydra?\"<br />Pernah ada yang menanyakan padanya.<br /><br />Bagi sebagian orang, dia adalah \"Kaisar\" yang termasyhur.<br />Seorang tiran yang dingin dan kejam, \"Pemangku Mahkota Api\" yang ambisius, ratu yang membakar habis era lama dengan darah dan api ....<br /><br />Ada yang membantah, mengatakan bahwa dia hanyalah \"bidak\" yang malang.<br />Penguasa yang dikhianati semua ini tidak lain hanyalah tawanan dari ambisinya sendiri. Dalam permainan catur melawan para dewa, dia ditakdirkan untuk kalah telak.<br /><br />Ada pula yang berkata, jauh di lubuk hatinya yang lebih kelam dari samudra, dia hanyalah seorang manusia biasa bernama \"Cerydra\" ....<br />Dia juga meratapi kematian rekan-rekannya, dia juga pernah ragu dan gentar menghadapi misi berat yang diembannya, hingga langkahnya terhenti ....<br /><br />\"Heh, sejarah tidak perlu mengingatku ....\"<br /><br />Dia menelan kepedihan di hatinya, dan terus melangkah di jalan Pengejaran Api yang terbentang oleh pengorbanan ....<br /><br />\"Darah emas kami yang membara telah mengukirnya!\"",
+ "iconPath": "bc06f5734d76f4ff1f371f35e18c4c04a4ebcab955f3cca199972147c5c8579c",
+ "artPath": "7c6271308305a7d0bdca48f07a29f9a6a75022847d0c4d3e178504657a64ca70",
+ "artPlaceholder": {
+  "w": 0,
+  "h": 0
+ },
+ "mediumIconPath": "46601402d2fc6757fd905b4c0e860522ed03a8987a2da4f52a5aa24e3bf6c946",
+ "baseType": {
+  "id": 0,
+  "iconPath": "759bef0a8809f95c4e5facbd82dc0acb1d80d016113f6a214b06b7f1c648bd11",
+  "color": "#FFFFFF",
+  "name": "Harmony",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Credit",
+   "desc": "Mata uang yang digunakan saat Interastral Peace Corporation bertransaksi dengan pelanggannya. Kini mata uang ini sudah menjadi mata uang yang umum di perjalanan ruang angkasa.",
+   "lore": "\"Orang-orang berlarian, berkelahi, bertransaksi ... tujuannya cuma untuk angka-angka yang muncul di terminal. Namun benda yang benar-benar berharga tidak dapat dibeli oleh angka-angka perusahaan.\"",
+   "purpose": "Mata uang umum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx \"Great Mine\"",
+    "Calyx \"Artisanship Commission\"",
+    "Calyx \"Reverie Hotel - Dunia Mimpi\"",
+    "Calyx \"Hutan Bisikan\" Grove of Epiphany",
+    "Hadiah Misi",
+    "Hadiah Tugas",
+    "Penukaran Ember"
+   ]
+  },
+  "589819": {
+   "id": 589819,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "69bf4aa00e5ddbe021a76886ed32c9df4e3862e4d247698a30c5adc118b54bbd",
+   "name": "Celestial Section",
+   "desc": "Birama musik yang terjatuh dari langit. Dapat meningkatkan level Trace Path milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmony</span> dalam jumlah sedang.",
+   "lore": "Sepenggal melodi yang terpisah dari tatanan. Diam-diam terjatuh dari tepian langit dan masuk ke dalam suatu kebisingan, seperti segenggam pasir kuning yang tersebar di padang pasir.<br /><br />\"Tidak ada yang memperhatikannya, sampai dia tertangkap oleh inspirasi ....\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/589819",
+   "comeFrom": [
+    "Calyx \"Reverie Hotel - Dunia Mimpi\"",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "673760": {
+   "id": 673760,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "f01e77293741da7aec911b1200d50580dab0b21b79b8f83880dc1a336c313a3d",
+   "name": "Heavenly Melody",
+   "desc": "Simfoni yang terdengar dari alam semesta. Dapat meningkatkan banyak level Trace Path milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmony</span>.",
+   "lore": "Karya musik yang terpisah dari tatanan. Bergema di luar angkasa dan ditelan oleh keheningan semesta, seperti sebuah bintang yang bersinar di tengah lautan bintang.<br /><br />\"Tidak ada yang dapat merasakannya sampai dia terlupakan oleh semua orang ♬ ....\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/673760",
+   "comeFrom": [
+    "Calyx \"Reverie Hotel - Dunia Mimpi\"",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Refined Aether",
+   "desc": "Material penguatan Light Cone. Dapat memperoleh <nobr>6.000</nobr> Light Cone EXP.",
+   "lore": "Tabung Aether yang sudah diekstrak serta melalui proses distilasi khusus.<br /><br />\"Garden of Recollection ingin mengembalikan kejayaan masa lalu, tapi yang dimaksud adalah \"kejayaan masa lalu\" yang dipilih oleh mereka. Apa kamu mengerti?\"",
+   "purpose": "Material EXP Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx \"Backwater Pass\"",
+    "Calyx \"Divination Commission\"",
+    "Calyx \"A Child's Dream\"",
+    "Calyx \"Reruntuhan Pertikaian\" Castrum Kremnos",
+    "\"Forgotten Hall\""
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Condensed Aether",
+   "desc": "Material penguatan Light Cone. Dapat memperoleh <nobr>2.000</nobr> Light Cone EXP.",
+   "lore": "Sekaleng Aether yang disempurnakan melalui teknologi khusus.<br /><br />\"Letakkan dengan hati-hati, jangan sampai tertimpa dan terjatuh. Kalau rusak dan bocor, silakan ikuti Bab 2 \"Manual Penanganan Luapan Bencana\" untuk melakukan penanganan darurat.\"",
+   "purpose": "Material EXP Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx \"Backwater Pass\"",
+    "Calyx \"Divination Commission\"",
+    "Calyx \"A Child's Dream\"",
+    "Calyx \"Reruntuhan Pertikaian\" Castrum Kremnos",
+    "Penukaran Ember"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Sparse Aether",
+   "desc": "Material penguatan Light Cone. Dapat memperoleh <nobr>500</nobr> Light Cone EXP.",
+   "lore": "Medium imajiner yang tidak seharusnya berada di dunia nyata. Merupakan bahan dasar untuk membuat Light Cone.<br />Masukkan benda ini ke Light Cone agar gambar-gambar yang tersegel di dalam dapat menjadi lebih jelas.<br /><br />\"Oh begitu. Jadi ini yang namanya 'Memoria' di Garden of Recollection. Pantas saja para Memokeeper bisa melakukan perjalanan antarbintang sambil membawa kenangan.\"",
+   "purpose": "Material EXP Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx \"Backwater Pass\"",
+    "Calyx \"Divination Commission\"",
+    "Calyx \"A Child's Dream\"",
+    "Calyx \"Reruntuhan Pertikaian\" Castrum Kremnos",
+    "Hadiah Tugas"
+   ]
+  },
+  "874346": {
+   "id": 874346,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "85a0321db47414204147c699efe14b3e37c9cbad9213179aa8d5c2ed1dcfe2d3",
+   "name": "Firmament Note",
+   "desc": "Not musik yang terjatuh dari awan. Dapat meningkatkan sedikit level Trace Path milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmony</span>.",
+   "lore": "Sebuah not musik yang terpisah dari tatanan. Diam-diam terjatuh dari tepian awan dan masuk ke dalam nada-nada biasa, seperti air mata yang menetes ke dalam lautan.<br /><br />\"Tidak ada yang dapat mendengarnya, sampai dia terjatuh ke dalam sebuah lagu ....\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/874346",
+   "comeFrom": [
+    "Calyx \"Reverie Hotel - Dunia Mimpi\"",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Echoing Wail",
+   "desc": "Bagian tubuh dari ciptaan-ciptaan gelombang hitam. Material biasa yang digunakan untuk peningkatan.",
+   "lore": "Kepala aneh meraung, pedang rusak cukup tajam untuk memotong segalanya, sementara asal-usul kekacauan masih terkubur dalam kegelapan, diselimuti awan kematian.<br /><br />\"Kenapa kamu meratap seorang diri di depan makam?\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "Dijatuhkan ciptaan gelombang hitam pada Level Equilibrium Lv. 2 atau lebih",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Dijatuhkan musuh di \"Divergent Universe\"",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Ethereal Omen",
+   "desc": "Fragmen yang dijatuhkan ciptaan-ciptaan gelombang hitam. Material sederhana yang digunakan untuk peningkatan.",
+   "lore": "Nasib buruk selalu datang tanpa peringatan. Saat kita menyadarinya, ia sudah menjadi bencana yang melanda seluruh dunia.<br /><br />\"Lonceng kematian berbunyi di ujung takdir.\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "Dijatuhkan ciptaan gelombang hitam",
+    "Dijatuhkan musuh di \"Divergent Universe\"",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "Hadiah Tugas",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material",
+    "Calyx (Golden)"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Eternal Lament",
+   "desc": "Kristal yang terbentuk setelah kematian ciptaan gelombang hitam. Material kualitas tinggi yang digunakan untuk peningkatan.",
+   "lore": "Terlahir dari kekosongan, dan akan kembali ke kekosongan. Kehidupan yang terdistorsi akibat korosi, ditakdirkan untuk terus mengembara selamanya di tanah yang tandus.<br /><br />\"Hidupnya penuh dengan kehancuran dan kesedihan.\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "Dijatuhkan ciptaan gelombang hitam pada Level Equilibrium Lv. 4 atau lebih",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Dijatuhkan musuh di \"Divergent Universe\"",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 3517880,
+     "count": 8
+    }
+   ],
+   "attackBase": 28.8,
+   "attackAdd": 4.32,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 21,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 874346,
+     "count": 4
+    },
+    {
+     "id": 3517880,
+     "count": 12
+    }
+   ],
+   "attackBase": 63.36,
+   "attackAdd": 4.32,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 46.2,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 589819,
+     "count": 4
+    },
+    {
+     "id": 3276614,
+     "count": 8
+    }
+   ],
+   "attackBase": 109.44,
+   "attackAdd": 4.32,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 79.8,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 589819,
+     "count": 8
+    },
+    {
+     "id": 3276614,
+     "count": 12
+    }
+   ],
+   "attackBase": 155.52,
+   "attackAdd": 4.32,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 113.4,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 673760,
+     "count": 5
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    }
+   ],
+   "attackBase": 201.6,
+   "attackAdd": 4.32,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 147,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 673760,
+     "count": 10
+    },
+    {
+     "id": 3526997,
+     "count": 8
+    }
+   ],
+   "attackBase": 247.68,
+   "attackAdd": 4.32,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 180.6,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 293.76,
+   "attackAdd": 4.32,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 214.2,
+   "defenseAdd": 3.15
+  }
+ ],
+ "skill": {
+  "id": 23048,
+  "name": "Conquer",
+  "descHash": "Meningkatkan <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> ATK pengguna. Memulihkan <nobr>#3[i]</nobr> Poin Skill setelah melancarkan serangan Ultimate. Setelah pengguna melancarkan Skill pada 1 karakter tim, akan meningkatkan <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> Skill DMG yang diakibatkan target selama <nobr>#5[i]</nobr> giliran.",
+  "levelData": [
+   {
+    "params": [
+     0.64,
+     1,
+     1,
+     0.54,
+     3
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.8,
+     1,
+     1,
+     0.675,
+     3
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.96,
+     1,
+     1,
+     0.81,
+     3
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     1.12,
+     1,
+     1,
+     0.945,
+     3
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     1.28,
+     1,
+     1,
+     1.08,
+     3
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23048"
+}
