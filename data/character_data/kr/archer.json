@@ -42,7 +42,7 @@
   },
   "125435": {
    "id": 125435,
-   "type": 601,
+   "type": 654,
    "purposeId": 4,
    "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
    "name": "운명의 발자취",
@@ -61,7 +61,7 @@
   },
   "270195": {
    "id": 270195,
-   "type": 601,
+   "type": 654,
    "purposeId": 4,
    "iconPath": "657d5a5697de38e93439c9ddeac1d277448989d226b6a9c803cc2c4c222ab35b",
    "name": "수호자의 비원(悲願)",
@@ -76,7 +76,7 @@
   },
   "409960": {
    "id": 409960,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
    "name": "여행 가이드",
@@ -95,7 +95,7 @@
   },
   "409961": {
    "id": 409961,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
    "name": "모험 기록",
@@ -115,7 +115,7 @@
   },
   "409962": {
    "id": 409962,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
    "name": "여행 견문",
@@ -134,7 +134,7 @@
   },
   "549438": {
    "id": 549438,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "4b2b853e6383eb95efb20f47ba690610939fa5d0e9e76d7e836b34ebb24cccfb",
    "name": "소멸된 코어",
@@ -155,7 +155,7 @@
   },
   "633379": {
    "id": 633379,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "36ff25fe21d5d2c8739ae2ea8fa632957456c6c05598727a426fc0edb0932992",
    "name": "희미한 빛의 코어",
@@ -174,7 +174,7 @@
   },
   "635681": {
    "id": 635681,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "34ff25f0d7aec3e211042af53b5ecf82f2320beb5164052b2bee26cedb2e6198",
    "name": "운철 탄환",
@@ -191,7 +191,7 @@
   },
   "717320": {
    "id": 717320,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "5692b78d0c25d7b551dd8977d3194c6550ac9271200e47ec5cc088ccec9d12d5",
    "name": "꿈틀대는 코어",
@@ -210,7 +210,7 @@
   },
   "836267": {
    "id": 836267,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "e33a9c34ab89b9315339791c792f2a07174330390c95c5c8a44b6b46d3c46158",
    "name": "시간을 역행하는 일격",
@@ -227,7 +227,7 @@
   },
   "920208": {
    "id": 920208,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "635d4a30e82aaec978a5957e89c85bd611d2d58fa2bad72d2c175c430d9b3521",
    "name": "숙명적인 사인",
@@ -245,7 +245,7 @@
   },
   "6103825": {
    "id": 6103825,
-   "type": 601,
+   "type": 652,
    "purposeId": 2,
    "iconPath": "ff5a65b90efec3159a84287a8dc7f258aad832aefd167e6fe797b27498986ac5",
    "name": "어두운 장막의 달빛",
@@ -2148,8 +2148,575 @@
   "fourPcSets": [],
   "props": []
  },
- "voiceItems": [],
- "storyItems": [],
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "첫 만남",
+   "text": "초면이군, 아처라고 불러. 다행히 서로 죽고 죽이는 사이는 아닌 것 같으니 사이좋게 지내보자고",
+   "unlockRequirement": "",
+   "cnUrl": "0e4ee98f326383bcc83e091037986e7225b555974502023fee41566728c5f867",
+   "jpUrl": "9322f4038b829e13a5b5ada1e60ba0c142c6d5fdf0e48794324309258ee18883",
+   "enUrl": "",
+   "krUrl": "a4407f2ae7e18f335f26b4d44e5e47f1964f8fde1383aaf82db7da6434e6b204"
+  },
+  {
+   "id": 2,
+   "title": "인사",
+   "text": "오, 또 만났군. 네가 똑똑한 사람이라 다행이야. 이야기가 잘 통하니까",
+   "unlockRequirement": "",
+   "cnUrl": "0d5acc63285ec27001e3c246217f1582e2fde81f1fc8ab58a2d9582639696775",
+   "jpUrl": "2c7fd1276d2681ccd837037e810c5408a8cad729ea864ac225ffbe0f29c247fa",
+   "enUrl": "",
+   "krUrl": "723af1be8019c3a65fca082b2213e95c6fcf629d8f714115cf23e5424df3132d"
+  },
+  {
+   "id": 3,
+   "title": "작별",
+   "text": "음. 가기 전에 충고 하나 하지. 젊은 시절에 사귄 친구들을 소중히 여기도록 해. 시간이 아무리 흘러도 우정은 여전히 보석처럼 귀중하거든",
+   "unlockRequirement": "",
+   "cnUrl": "3d623084b731a7adba6ddb5c23b3f3997070f97d3b32a830754788072f14d167",
+   "jpUrl": "d1eaf0a1b45fc6d6517349ee67ac92c463171a47528bb27d7ed63886994d9174",
+   "enUrl": "",
+   "krUrl": "074253239d1b8a7040b2a04fb11cc3762b7133296c8c1c41e176c9cb7f29e78b"
+  },
+  {
+   "id": 4,
+   "title": "자신에 대해•진명",
+   "text": "서번트로서 진명을 숨겨야 하지만, 이 세계에는 나를 아는 자가 없을 테지. 내 이름은 「에미야 시로」, 잘 부탁한다",
+   "unlockRequirement": "",
+   "cnUrl": "ec19543f9237038c2778fb6c2c1c2b8e1898ef37191d30edfcb0122dc31d7236",
+   "jpUrl": "412b6756cf1f9dec00a7523aaf0e6b7312b381f523646d5fa0585710abd47d81",
+   "enUrl": "",
+   "krUrl": "301936ca346d4856d8f8eea4ed0f2061674d770fd04b455f5ddb4d938667952c"
+  },
+  {
+   "id": 5,
+   "title": "잡담•투영 마술",
+   "text": "페나코니에서 솔글래드의 투영을 시도했을 뿐인데, 공장 직원이 저작권료를 요구할 줄이야",
+   "unlockRequirement": "",
+   "cnUrl": "37045493352bc31fa9b3d2fd10d63c03ae028f4b362340760714707c07ec00d3",
+   "jpUrl": "7c740cdc06a7c044bd22248a6b77e337c011b993a2806b2949de035edde66591",
+   "enUrl": "",
+   "krUrl": "9e85a578d6b5eaa765a36c0593e2ed9f39ec5d23017ffd33ac6a48fadbf1e6fc"
+  },
+  {
+   "id": 6,
+   "title": "잡담•가사",
+   "text": "페나코니의 거리나 실내에 먼지 하나 없는 건 꽤 좋은 일이지만, 청소할 필요가 없다고 하니 그건 그것대로 답답한 일이군…. 이제 이 습관을 고쳐야겠어",
+   "unlockRequirement": "",
+   "cnUrl": "b6c57151a41ae2f0f167b50c1423727077782e1267c5cecf9c4af18d34eab150",
+   "jpUrl": "e8c73cbc8440a69bd113bb8c8a55708bfa859ffbe635179831e74063e48de7d7",
+   "enUrl": "",
+   "krUrl": "c12118830836968fafac9c8c17499a68f40ebeded37586d8d42642d7091f805c"
+  },
+  {
+   "id": 7,
+   "title": "잡담•영령",
+   "text": "우리처럼 다른 세계에서 온 서번트는 「영령의 좌」라고 불리는 곳에서 복제된 존재다. 하지만 페나코니의 영령은 어디서 온 걸까? 어쩌면 이 세계에도 끊임없이 역사를 새겨나가는 무언가가 있을지도 모르겠군",
+   "unlockRequirement": "",
+   "cnUrl": "1fbd0a6f49ac89ed8b35a23f86622f254d33e5b0a2029b10dd2a47ed5d82d87d",
+   "jpUrl": "bd6618ec96f3ea86cc2a6dc3c89a139150f5a52325eee30b946d436fa1077c90",
+   "enUrl": "",
+   "krUrl": "c7a3e5c24f639aa7f421a90b78d077e7a6e44769fa159369c6b73b86c331e829"
+  },
+  {
+   "id": 8,
+   "title": "취미",
+   "text": "난 요리하는 걸 좋아하지만 페나코니의 요리 방식은 다른 곳과 전혀 달라…. 유감스럽게도 내 솜씨를 선보일 기회가 없을 것 같군",
+   "unlockRequirement": "",
+   "cnUrl": "cb3f653da8172f93bb1fb6a18bea21604c7385b5b790669aa626b648d07baa4e",
+   "jpUrl": "0e23d83ef72cfa2f711375fcae73836ba4f642d3394802dc4b62f904dc10416f",
+   "enUrl": "",
+   "krUrl": "a521fd6aabacb0aca243e1b121b7fecce91bb597675f02ee152d80cba52a8afc"
+  },
+  {
+   "id": 9,
+   "title": "고민",
+   "text": "사람은 성장해 나가기 때문에, 건강한 마음을 가진 사람이라면 과거의 자신을 계속 부정하게 되지. 한때 미숙했던 자신과 관계를 끊을 수 있다는 건 행운… 아니, 그게 일반적이라 할 수 있지. 자신을 이겼다고 해서 상처가 사라지는 것은 아니야",
+   "unlockRequirement": "",
+   "cnUrl": "ae66f71e889ab793597c6b9e1e06f1f0c0192ba900884024cf57a8f3351f06ac",
+   "jpUrl": "43ce0e8a0272f70fc351232b74bb8f5cf63b227f1ae6b17e2b5b52fec9daf374",
+   "enUrl": "",
+   "krUrl": "415c22fb626c16c66e399b23acfec8bc55c24912cdebcb6453f9f78c5c180645"
+  },
+  {
+   "id": 10,
+   "title": "공유",
+   "text": "「옳은 일을 하는 것」과 「일을 올바르게 하는 것」은 의미가 전혀 다르지. 나에겐 후자가 전자보다 더 중요해",
+   "unlockRequirement": "",
+   "cnUrl": "6365d3053af65c670942363b87f536e172d47c97d06544a8b914075747ae995c",
+   "jpUrl": "02f2cfb56f1405f2d435b148e1ed540e2fb7087bc3c0f2c842a8ae55cd5d0ed0",
+   "enUrl": "",
+   "krUrl": "2a86973193d4982861bd4413bde3f1353bca0c7cdc0c3780b4ae2ff94d4f2a5b"
+  },
+  {
+   "id": 11,
+   "title": "견문",
+   "text": "꿈속에서는 요리를 해도 음식물 쓰레기가 나오지 않고, 설거지를 할 필요도 없어. 편리한 건 확실하지만, 요리의 특별함도 왠지 줄어든 기분이야",
+   "unlockRequirement": "",
+   "cnUrl": "47818460c03d7b5e2aede8ee26860abc3fb7d7b2defcf113f0915ac7bbd3d118",
+   "jpUrl": "a6ddf3964908e72aef22c0d616c7a9ffe4f1e058fe26603545ca668affe12426",
+   "enUrl": "",
+   "krUrl": "19565cdcf8ef6f5738e1042bab11ae05410216900eaf9050ae834d041962f537"
+  },
+  {
+   "id": 12,
+   "title": "세이버에 대해",
+   "text": "오래된 지인이야. 그녀를 서번트로 소환해 냈다는 건, 네가 올바른 사람이라는 뜻이겠지. 그대로 망설임 없이 나아가면 돼",
+   "unlockRequirement": "",
+   "cnUrl": "b9ae2eafe3e2fd78142d786800c8c1f1830ef161679e072084c685491349d08a",
+   "jpUrl": "05eee609eb60f27040021cfe166876be4e9229adca82c1b69c5cabac615f08c7",
+   "enUrl": "",
+   "krUrl": "253be219dd20c41343b616b7e153370c7cd85a99d8c5cc214811b6b7eed94051"
+  },
+  {
+   "id": 13,
+   "title": "랜서에 대해",
+   "text": "랜서 클래스의 서번트는 운이 따르지 않는 자가 많은 것 같군. 아, 아니, 모든 랜서가 그렇다는 건 아니지만… 저 영령에 한해서라면, 본인도 운이 없고 소환한 자도 운이 없지",
+   "unlockRequirement": "",
+   "cnUrl": "0d868cb0df6e75fc9e2fe952d1c52c7f2fa94442d7510d7f57e5c3330d4c070f",
+   "jpUrl": "889505e356d5d5fc034ea767fd0eed211cfa9273c1a0a234a86ef48cc2460630",
+   "enUrl": "",
+   "krUrl": "bd961acc04bc5788446d58dfbb976ffff168bf4f1c0ca9f0bacb4f01bd093c09"
+  },
+  {
+   "id": 14,
+   "title": "어벤츄린에 대해",
+   "text": "마스터와 서번트는 서로 닮은 경우가 많아. 그 남자와 나의 경우는… 아마 둘 다 마음속 깊은 곳에 어떤 집념이 있다는 것이겠지… 그의 집념은 행복과 불행 중 어느 쪽일까?",
+   "unlockRequirement": "",
+   "cnUrl": "eb7cd98063d5a414347cd57bf112ee75f9957ae1ceb4e09349f60d501ed15116",
+   "jpUrl": "854de05cedade9f39aae94ebcc607273f06ba94830c69d2998cc0901e12e01d0",
+   "enUrl": "",
+   "krUrl": "26d885db018b71297cfc8dea2db5416d4a667e70d54737abeff66de692cfb166"
+  },
+  {
+   "id": 15,
+   "title": "부트힐에 대해",
+   "text": "언뜻 보면 감정적인 것처럼 보이지만, 의외로 계획적이야…. 흥, 나와 잘 맞을 것 같군",
+   "unlockRequirement": "",
+   "cnUrl": "ab662e668f34d5d4c8368f1ca84012e9a90489f6df8eba18981ad0cb6bf44b12",
+   "jpUrl": "31de5eb0aeaf5bf63017041bd4e989329aab8efff45e344cefd23a0ddc9d0f98",
+   "enUrl": "",
+   "krUrl": "8e6e6a107ff270a4d1d44aa901e355206d819cd0269255438bd9b4006d5a10d7"
+  },
+  {
+   "id": 16,
+   "title": "폼폼에 대해",
+   "text": "그 짧은 팔다리로 가사를 잘 해내고 있다고…? 겉모습과는 달리… 아니, 겉모습 그대로 완벽한 차장이라는 건가. 좋은 여행을 하고 있는 모양이군",
+   "unlockRequirement": "",
+   "cnUrl": "622b4112ae47b291e76820262ab909552a36c17a5d56b3ea7fd6e294142ef612",
+   "jpUrl": "54e2520905d2568fd9405f6e549b70c96d4e2aeca3cad52eac9f509f5715648c",
+   "enUrl": "",
+   "krUrl": "7a359eb77b51d258936b5723ae1c983a236a49a28f8188e64864d5aa0277b71c"
+  },
+  {
+   "id": 17,
+   "title": "「음표 아가씨」에 대해",
+   "text": "영령이 되었다는 것은, 그녀에게 비범한 능력과 자질이 있다는 증거지. 그녀가 너무 비관하지 말았으면 좋겠군",
+   "unlockRequirement": "개척 후문 「Fate/별바다로의 회귀」 완료 후 개방",
+   "cnUrl": "a0bdc84b6e279caa37f78f952323769e64ef606012cf08d5d502ed39a115be8f",
+   "jpUrl": "85c72d03ced1494c3939275b4c1c1595247db4962b360b7ebe037abb187d71c6",
+   "enUrl": "",
+   "krUrl": "b0b5d1b54745ddd81d5b8cba6fe929c7dc8f2010522715f992047e4c7449909b"
+  },
+  {
+   "id": 18,
+   "title": "스코트에 대해",
+   "text": "그가 만났던 모든 사람들이 너와 같았다면, 분명 좋은 사람이 되었겠지",
+   "unlockRequirement": "개척 후문 「Fate/별바다로의 회귀」 완료 후 개방",
+   "cnUrl": "c8aecf1045571bac05e15be0c68699754b6fc886c5b5a53133a7f21a573c9756",
+   "jpUrl": "21edf50d28f6a772e58d77fbb086b86e2edf4a37d729d7122c7793292644d0d6",
+   "enUrl": "",
+   "krUrl": "a780a0fea98b9b3598575d16c23b3f36404f7e5ecfd101b1be2d607627b7d3bd"
+  },
+  {
+   "id": 19,
+   "title": "Mr. 그레디에 대해",
+   "text": "그자처럼 「영화」를 해석하는 사람은 이 세상에 그리 많지 않겠지? 그게 아니라면 너희 세계의 센스는 아직 멀었다고 말할 수밖에 없을 것 같군",
+   "unlockRequirement": "개척 후문 「Fate/별바다로의 회귀」 완료 후 개방",
+   "cnUrl": "7025d02f87140a5772bc4a144d02b7a79e332aa22c6bca5782a3f4549266d989",
+   "jpUrl": "4902aa51ded75558cd094ee4ff27f17af58be3276f05aecfec49ac67ddf837dd",
+   "enUrl": "",
+   "krUrl": "7b26f40dbc38338180ebd3123a08838c226ba77a59018cb0258313ad1585af4c"
+  },
+  {
+   "id": 20,
+   "title": "오티 어르신에 대해",
+   "text": "인간은 나이에 맞게 행동해야 해. 저승으로 떠날 나이가 되었다면, 파란을 일으킬 생각만 해서는 안 되지",
+   "unlockRequirement": "개척 후문 「Fate/별바다로의 회귀」 완료 후 개방",
+   "cnUrl": "175dd543a0360b6c9caba7a74895983bf558955366498faa451f95c3cabde0c1",
+   "jpUrl": "3d19392dd0ba63f33709181872c519a0220a09eb065386ca7361e8f515880f30",
+   "enUrl": "",
+   "krUrl": "db85e1a1cd7540acfba4a6ce176ad0ce8ea3cd252c9a5e1623db3ab66763720d"
+  },
+  {
+   "id": 21,
+   "title": "성혼 활성화",
+   "text": "수호자의 미래는 여기서 정해진다",
+   "unlockRequirement": "",
+   "cnUrl": "5faf0addd4cf9dd2267317048fe197f83a57e07c130ee48af481fe143b453e90",
+   "jpUrl": "f771ccb52d8db8fd6637f31a5563163d683a4d34b111a90495890f6a10d89637",
+   "enUrl": "d933f30cea6ebf7891ebb9fbd9879ae7f58b28b4b99940039777c8c83e0ff631",
+   "krUrl": "d15b7cd13db78e91db2a3e6ebd7aee69a8019672947ad9c0353a28dfea5f3a13"
+  },
+  {
+   "id": 22,
+   "title": "캐릭터 승급",
+   "text": "임무는 아직 끝나지 않았다. 방심하지 마라",
+   "unlockRequirement": "",
+   "cnUrl": "d113e2f7daf479f4b5df587839d0993cb60544a928b50d8b8791d96ac5089918",
+   "jpUrl": "5ba3231fab7de8a6e326bac138cac7001ef1d405bab2e44472303c235c76a51e",
+   "enUrl": "9fe58a83a856813044c9a624b543e5f20bc3d91292c375041673628da354b67d",
+   "krUrl": "43276cb640acaeefb27d450e1bb7350f0a21192e435fa57e349581e0fd61b56a"
+  },
+  {
+   "id": 23,
+   "title": "캐릭터 최고 레벨",
+   "text": "만반의 준비가 되었다. 흠잡을 데가 없군. 이 상태라면 언제든지 전투에 임할 수 있다",
+   "unlockRequirement": "",
+   "cnUrl": "97c3a3a9f6eb3bc9a9d67fede1aa7a78437bf8a252b34ae9964daf0695cffd73",
+   "jpUrl": "9a2ac23021b30cba6c1fc192bff16546cfed55224f7c272d6d6e02815e3fbc3c",
+   "enUrl": "f64c73809adc17f41d3df0de0b2103c47af54fa9996f104f3b5fbc6d0a562aa3",
+   "krUrl": "bf2706685d19c92c38d585b8975255917c230be41c6821221479edc22a73e87f"
+  },
+  {
+   "id": 24,
+   "title": "행적 활성화",
+   "text": "나쁘지 않군. 잃어버렸던 것이 다시 돌아오는 것 같아",
+   "unlockRequirement": "",
+   "cnUrl": "038eb7754c6b9ff3c73e120802abef663d8a7c81f56f09cd1b4ae9705e3cb993",
+   "jpUrl": "24fb4e6efd80293d96b5269da38c4ec439a6766ac2bd15851fa9c8251f82bbc0",
+   "enUrl": "6e296284a5dbb528532886be6259be0788a1e8ea771490fd45980419587c2db5",
+   "krUrl": "0989e7b51135dfe4953dcbd0f83834fb88d4c3e51fc99921c348d6b8d10a042c"
+  },
+  {
+   "id": 25,
+   "title": "파티 편성•개척자",
+   "text": "강적인가? 그렇다면 뒤에서 은밀히 도와주마",
+   "unlockRequirement": "",
+   "cnUrl": "50bbce22920bfa46edb8ff5c7d9d34f7bdeddb8af7e5e53d4ea83d26dc682924",
+   "jpUrl": "8e76749a7a35190a46047312cb3a6be905d1ef0dcf9048bab5d50d7b99b159e4",
+   "enUrl": "4763631286f9050e929aad3267fb805b7af6390c4e2e0bf5d7b6d6e60337ba44",
+   "krUrl": "352c9f63dde82dfe22cef97b54160302ad8cca93500c3bf1d2e7c76c23316f3d"
+  },
+  {
+   "id": 26,
+   "title": "파티 편성•세이버",
+   "text": "훗, 별바다에서도 성검의 빛은 여전하군",
+   "unlockRequirement": "",
+   "cnUrl": "d3ee44f7b788d1de2fe11b6d17a12215e56e8e2855101a36a4785bb961bc46b6",
+   "jpUrl": "4d9a1220a68af60abe1fc94691823c8abb5979b83ff08566ebd412597a75c50b",
+   "enUrl": "d0317cf7b3e94c52e377e918d5857a693f853aa10b04047cce372a5ffa67e76e",
+   "krUrl": "53755c99480885599099655f6ca4ecb17a9d7e89cc5969b7d78cdf0540b8a95d"
+  },
+  {
+   "id": 51,
+   "title": "전투 시작•약점 격파",
+   "text": "때는 무르익었다. 화근을 끊어주마!",
+   "unlockRequirement": "",
+   "cnUrl": "dec276946834ef4deba7aaf496c67c1161f1a55f094d4d969abbf06efe3dddce",
+   "jpUrl": "edf1c247c5dbec14fefb043d5391f6e1f779f5bf6effb1ecc689123eda6c5c99",
+   "enUrl": "95ba776e1cd19f561f11c448b2358cf33eb70a81461cbb28951cf2ab8741c361",
+   "krUrl": "b31dfb5bb63d6cac67f75bae3bfc5e07b70bba110676630b9b71b3e8543ea09a"
+  },
+  {
+   "id": 52,
+   "title": "전투 시작•위험 경보",
+   "text": "…자, 이제 어떻게 할 거지?",
+   "unlockRequirement": "",
+   "cnUrl": "d3d3d898432bc6d31128a91a80359ef6d4732e1d0e5725954fb824bdc0d0396b",
+   "jpUrl": "26f517f6a8e515f447d34add5212d4160ddced69205abb2d61b7891185d51797",
+   "enUrl": "49c6fb4047c79b48496d7f2f11df123413cb7308fcb9679eb907bad25aee89c9",
+   "krUrl": "b888c20591860aeac20db5dd8f5f0c83cc868c208c77ef307a6cf52b827d32c7"
+  },
+  {
+   "id": 53,
+   "title": "턴 시작•1",
+   "text": "내 차롄가? 참, 정신없군",
+   "unlockRequirement": "",
+   "cnUrl": "d3120314f46c652cd72e87ca38ff9bc04052f5994bf3d8e4fe15704a29d200c7",
+   "jpUrl": "cab391ae0aad88f58c707efccaf06c3783e166875bbc70fe0bf0581b2804f2d7",
+   "enUrl": "dc8ef71c15767f883baf3b4bbda5002d89dc31053844e51038f253add94a2717",
+   "krUrl": "4f8e043e896fbb4660c85ea5dee9dc42007814dda66ad99d0c1b4fe059c26654"
+  },
+  {
+   "id": 54,
+   "title": "턴 시작•2",
+   "text": "지겹지도 않은 모양이군",
+   "unlockRequirement": "",
+   "cnUrl": "0c0ab127a7d45dcd65b4673bb7226085e4a7288ff14736d15d7924c42145a064",
+   "jpUrl": "537880398bb18a39be62d6858ac9a2473a4269359428e6a613ed9e687b8cd3bc",
+   "enUrl": "014971223cdf72dfcc7683cca3a8fcca933a53ada2a172c538f547360ccf90b2",
+   "krUrl": "2da1585d9d7caab35e6ae28d9a4c80670a78d522d6ce318cf78f8aacad555505"
+  },
+  {
+   "id": 55,
+   "title": "턴 대기",
+   "text": "아직 움직일 생각이 없는 건가? 뭐, 좋다…. 잠시 상황을 지켜보도록 하지",
+   "unlockRequirement": "",
+   "cnUrl": "7eb6a5091bb6f98d744a0ae60f50bd702e60c34212abacf0d4ec1e47cfcd9083",
+   "jpUrl": "5468e3f954ed12baa3c8fa68afa2ce506bc0ae269945147d683589c5e1c5e648",
+   "enUrl": "d1949d434b6515f06f66fe4232022ba2f2f8bf8d5ffe6c793053a9d05158de87",
+   "krUrl": "aa36ad5fca192e8b902c354af1f62353ccfe15d5e1b5acba1051faed03cbb363"
+  },
+  {
+   "id": 56,
+   "title": "일반 공격",
+   "text": "간장, 막야!",
+   "unlockRequirement": "",
+   "cnUrl": "4d5934908b05417a923452533169ff9d345577fad81fe4c141821b5596711ccb",
+   "jpUrl": "4192a9a7e1f0ca4e43eccaf14cbdddb142fea777f08f7c5f82cf83ef86f8b7cf",
+   "enUrl": "7cad9eab27dfad6bb5681732c0a63a7c4a9ddefebe848ebb9bf9edb44d5d7d46",
+   "krUrl": "cb6b4a65cf89d4863a3cd43b5aa0e1789fd591ec9e547707e06727eef5e42a6d"
+  },
+  {
+   "id": 57,
+   "title": "추가 공격•1",
+   "text": "학익삼련!",
+   "unlockRequirement": "",
+   "cnUrl": "d8ad2a5f445b90347db91d4a333474520371330805fae37a67bdf0ee430994a5",
+   "jpUrl": "b1baa624706a0cf9180da4d31c8364bc817bcad67f31e78784ae8ebe0a1ea76d",
+   "enUrl": "ac3180f056abb6aa4698bb787d7eace38414ead40ec8e6e1298f5a35a72152bd",
+   "krUrl": "6b2601d4ca43e9a47db8d4d492e08738de08b5f648b562b1bb3cf76a7c0d4548"
+  },
+  {
+   "id": 58,
+   "title": "추가 공격•2",
+   "text": "천산단수!",
+   "unlockRequirement": "",
+   "cnUrl": "672e95f20af3343771a5f56e49c21fc687714b09633d3ad44bf18339fa1e2093",
+   "jpUrl": "f962084f31e2ae43c0c873070f26b73e8efd431ca73fd06a535e0470633cfc6f",
+   "enUrl": "6fa4b6f0840d7066f4f6f5fa97b91502889bb8f822073faccfb9903dd8aa288d",
+   "krUrl": "0bdff95df530f9ea9e30e57a0080e1b748d55fc27593531cd630f1959be4834e"
+  },
+  {
+   "id": 59,
+   "title": "전투 스킬•1",
+   "text": "트레이스 온!",
+   "unlockRequirement": "",
+   "cnUrl": "7c2dac2801727086ae565a1e79cd8a770a9142d91e888a4d350694e8c23d8393",
+   "jpUrl": "3d721b385174da378dd4b16b770000d6eb8d423aab719e54d96d8a70c02bcf25",
+   "enUrl": "9a83911d4d638bd210c28c8049fc9c45ba156f25c908c979a6eaff5a7eda44fc",
+   "krUrl": "aad35237fb0e8dd7405b43533e394c411e5fcc15f22cc0ed1680147398ea2411"
+  },
+  {
+   "id": 60,
+   "title": "전투 스킬•2",
+   "text": "칼라드볼그 II!",
+   "unlockRequirement": "",
+   "cnUrl": "6fd55dd302c8f183df6f6ccc22da22fd3d7ac6d44cd7fcefd3475cd8059a8674",
+   "jpUrl": "89e54cff144bdc688643d03a875955ac63862aa644642b5dd0734609bb46ecc0",
+   "enUrl": "2067c422df45e0f5ee127b4d81749411131f8dffdc5b3404dc590b646deb91d8",
+   "krUrl": "b609f54b93f281145f8a88ccf3c87d6be5acca8711a5211464171828e48e129c"
+  },
+  {
+   "id": 61,
+   "title": "[회로접속] 전투 스킬•1",
+   "text": "어딜 가는 거냐",
+   "unlockRequirement": "",
+   "cnUrl": "c5d729d85bf98e84ab23c55e9e51516ff15056d1bae766280f23fae39eeb9799",
+   "jpUrl": "ba5380344a0ce890593703488705ab83778f43db18bec935201098a5608eae69",
+   "enUrl": "e6989efae033ddd73094ac9e03717b1990db7b81620c0c46eed914b52e083027",
+   "krUrl": "ae037443769b2fb9ff28cd238c09ab26b0b5ba1a555c7a6b896734fce1a5f988"
+  },
+  {
+   "id": 62,
+   "title": "[회로접속] 전투 스킬•2",
+   "text": "도망칠 곳은 없다!",
+   "unlockRequirement": "",
+   "cnUrl": "74ac4211677e6a8e0bf8b7963ddc2b18cbc33a26995c8e22d1438d7aceee9c60",
+   "jpUrl": "0ce3a1c6042368ee145d8387242c5b0bd0c4bf32cfff0fbdc33ce1571b273510",
+   "enUrl": "e50bda1ce821e8808bf2b1276ceaed8c2b410f9bb7530eed3fbe8abcd80ccb03",
+   "krUrl": "95562185ce061440e893767e7bdc59f8446ea0dfabf2a8701a5f7a333dc083a4"
+  },
+  {
+   "id": 63,
+   "title": "약공격 피격",
+   "text": "겨우 이 정도인가…",
+   "unlockRequirement": "",
+   "cnUrl": "d1e04a998fb09ad9a26662fb2f58740244cf4481b550cab189501a83e44cb562",
+   "jpUrl": "c093e1e66276cb4332a727751983e25257a0bc72e0a29137ff73241ba351b139",
+   "enUrl": "2d8b824cb433ef93b950893cb97e99ae662c9101d8c4bd3edc621f5d992c8476",
+   "krUrl": "824fa65c5c7093c9a8e6c88a5b5c993f2ec4f1eb5bff9e9abec9573273424e50"
+  },
+  {
+   "id": 64,
+   "title": "강공격 피격",
+   "text": "또 정면에서인가……",
+   "unlockRequirement": "",
+   "cnUrl": "0f2656a372844911066bcfd1323cd0ce8bb00920c92a0bf571f53f5c2ac94be1",
+   "jpUrl": "b86fddc10b0598e6a5e7a29091b77e32780888716ee063001124d9d1bfd7b0d4",
+   "enUrl": "f5b26f0d2b921c435ea77b6ab1cf410ee594240b20683ee6d29a1074f8eae81c",
+   "krUrl": "e7857b2ba57d084b730d372e9e7ad8c37ce5d6e16bc39d5cb4764f431c967835"
+  },
+  {
+   "id": 65,
+   "title": "필살기•활성화",
+   "text": "I am the bone of my sword. Steel is my body, and fire is my blood. I have created over a thousand blades. Unknown to Death. Nor known to Life. Have withstood pain to create many weapons. Yet, those hands will never hold anything. So as I pray—",
+   "unlockRequirement": "",
+   "cnUrl": "bb4af7573a2f350e62c5628b0e4f853b54553765271111d7902f091974a3c0d3",
+   "jpUrl": "1572128622916ed289f046cc6e693ef41aebee599278c043d699f711ca93a428",
+   "enUrl": "57f1e10ded85ed6aaa18faebf96f439d0d7fa07a4ec7598f8302031c96d1e892",
+   "krUrl": "7e1f549273cea45441644be578c85a3ffaf50a3b42397ac6b2f4d5f3b7c6be6e"
+  },
+  {
+   "id": 66,
+   "title": "필살기•발동",
+   "text": "UNLIMITED BLADE WORKS",
+   "unlockRequirement": "",
+   "cnUrl": "70f46583622d1948842c828c4faecd9a922c9c00b4fb93834a640070101ab084",
+   "jpUrl": "1e1b86a34b2e8628c1ca8af839edc3056d7837520d63d2ed59452b87511c0589",
+   "enUrl": "fc3bb41290fc3ed64b21b534a2f70008b5927a1d041cfdf14ef4bff7eb3785ce",
+   "krUrl": "cee4112ccdd5b6b9c4741b4e115626fcc6ee1e6165ba6d2973b65775ea9fbc58"
+  },
+  {
+   "id": 67,
+   "title": "전투 불능",
+   "text": "나의… 패배다…",
+   "unlockRequirement": "",
+   "cnUrl": "9da7f42ffe3807171129f4b88adeb0f0d2efe7b6e8ebf9334be05e399d98fe8a",
+   "jpUrl": "5f054910d2eba4f4a5a434808e59afa542366fe3cdc88881d1705960b22a46b2",
+   "enUrl": "2241c845c1bc57385d037c708836df81bb31e02021ffbb7c6599fff62823474e",
+   "krUrl": "cb62a7c44861cce69bfdc834f20db2c1354f2766e277b6f8e0211c4cb4e84eee"
+  },
+  {
+   "id": 68,
+   "title": "전투 복귀",
+   "text": "꼴사나운 모습을 보였군. 되갚아주마!",
+   "unlockRequirement": "",
+   "cnUrl": "425b703c543c0e55f3d0739f1e17da260d2aeddff61b66c48a6b3d73642535bb",
+   "jpUrl": "f654acb7cd58349b7a69bed6ba19af1af2147cb67fd12f7a316154395ef84ed3",
+   "enUrl": "1de5805ba4bfee666f2c410f9dfb597a985946144c0386dec6024b4a215d176e",
+   "krUrl": "47a1a6c171c923ec569a71f59641d8a1ffe5dafcd5f52574955501381e4426ad"
+  },
+  {
+   "id": 69,
+   "title": "HP 회복",
+   "text": "믿음직하군! 좋은 판단이다",
+   "unlockRequirement": "",
+   "cnUrl": "c57d1383294e180f0d16f540a174e99bfb28e62ab64def5dabda5aa396441981",
+   "jpUrl": "ae324957a7d92870d3a20ccfe1bc4331c6226d3268fe59f14e21f1abc35491a7",
+   "enUrl": "7b484dffe543c622f32b7a7c6ee0469981c516bbe8edfd847ea2788078882e9d",
+   "krUrl": "5bd319028236b0cba77d691c040bb518f1222698066b4287c52d08e6f01a1a9a"
+  },
+  {
+   "id": 70,
+   "title": "비술",
+   "text": "브로큰 판타즘!",
+   "unlockRequirement": "",
+   "cnUrl": "207f9b78a2dbcef7e5a06d30f4e4b95e82ecbf8c479f886d2dd63360e6047a96",
+   "jpUrl": "23cd71e1741728357c5c8973506d0af106b610e26a0b4d26776e764b9342c049",
+   "enUrl": "6557087a32a8c9af9cd85851892dda1dfece303573fee7422a1760a9def3e584",
+   "krUrl": "9a0e61aad8db502616d74ee372544d7d944afe247dc1ae0d15b5b937d18a41a7"
+  },
+  {
+   "id": 71,
+   "title": "전투 승리",
+   "text": "힘든 싸움이 될 줄 알았건만",
+   "unlockRequirement": "",
+   "cnUrl": "73104b9a9800a9f58f9e79eab8bc590e01813f73dccbd4490720fe8557e8ebbb",
+   "jpUrl": "ee2249ab4e3ba9846c4ce39c88ec02cd4eea51de22c40a8ed1c208489ed91ea3",
+   "enUrl": "75869f2c6833a8a9f8007b8ea66a4fdbed87545613382033b21ed576b4265417",
+   "krUrl": "0b21aba5a6cd369daa1320e9f65a751b583e4063b44157b33cb5e26775875dc8"
+  },
+  {
+   "id": 72,
+   "title": "전리품 오픈•1",
+   "text": "…흥, 만족할 줄 알아야 된다는 말도 있으니",
+   "unlockRequirement": "",
+   "cnUrl": "ec9a4b61ea6f0a5f4364d52a1657484425542b1540c16899c416e8579d60bff7",
+   "jpUrl": "e30aab886f9fab2437098000dd4726c57718be6973dce06fd67f8de82dfc2e9c",
+   "enUrl": "d49d1bf31557f2f53d4e647ab5ba9d4b6ecb88ae87f0dc42ab4f5c854f53d581",
+   "krUrl": "c64719d0782f5c9a4b133bc98d2cd8a5fcbd89d219506ff74df32c79d8af20e7"
+  },
+  {
+   "id": 73,
+   "title": "전리품 오픈•2",
+   "text": "절약은 미덕이다. 잘 간수해 두라고",
+   "unlockRequirement": "",
+   "cnUrl": "552167a0466974b90cd983ea54e634c77b057cfeff464b2b4336cc25f69a8958",
+   "jpUrl": "eff2a3c0e8e853e2fbbf3b7919d6c018e9472ba5736082291f6b6cc55b456b94",
+   "enUrl": "003eddf8f9264ae879428b0f135a1337ff9a44e21aa33725ec6dce5aacc492fc",
+   "krUrl": "9df87c51ac31534e24b03ee43ff540d1897e16a947db1f764dee550d962f67dd"
+  },
+  {
+   "id": 74,
+   "title": "진귀한 전리품 오픈",
+   "text": "수확이 꽤 괜찮군…",
+   "unlockRequirement": "",
+   "cnUrl": "c407792cc291743bd6b9ac0bdc93a69f9d1824372016879234e73571a73f6da9",
+   "jpUrl": "ad85640d55fcd77b60180182523e71faec58a9e76aaaecac977b1dd2e6b6d418",
+   "enUrl": "812b85f24cff552ec46914c1cb8caa41baef964ec8e37cdf1f25ec0e274e7435",
+   "krUrl": "06b499629a0e4cfc1645f98512996bc478f9b31244d41d772add404cdf174fa3"
+  },
+  {
+   "id": 75,
+   "title": "수수께끼 풀이 성공•1",
+   "text": "그렇게 번거로운 것도 아니었을 텐데",
+   "unlockRequirement": "",
+   "cnUrl": "8ad391d35bdb4b6ef4a849ddc5ce3d684fd82129eed9c5c23cf50e1194dbb163",
+   "jpUrl": "1177928c70eec5140b8aacc5f0eadad3f14f1db3e98683cdcf824dd17faacef9",
+   "enUrl": "2186971735fe500d4fb4e56736c669cfed89f5ea675d2e759c1e4b84cd4cb40d",
+   "krUrl": "c2bb658b0c74332dc3c1d9ed9ef41e3a9ae43bb4efd9b7da9b644f9b1e6ed242"
+  },
+  {
+   "id": 76,
+   "title": "수수께끼 풀이 성공•2",
+   "text": "별거 아니군",
+   "unlockRequirement": "",
+   "cnUrl": "980e1327d8e2acdccecc15967eabb11365586dc11f39dc8b3a4c4c8966678d00",
+   "jpUrl": "2e47bac16f0289e61120a2cd60c48698e52cdb282a67e6044b34dacfe650bb9f",
+   "enUrl": "f2446409e9d09a2e44f7660aa28fee31374a78db7f5c29935543d0d7de0cadc1",
+   "krUrl": "e267fb71bfb4499142c4e95d61d924283ac2b7b4203e35e847d488e1536c3c9c"
+  },
+  {
+   "id": 77,
+   "title": "적 발견",
+   "text": "까다로운 상대야. 방심하지 말라고!",
+   "unlockRequirement": "",
+   "cnUrl": "9d75bca7be6a5dc5d4b4b7f7c22615a7243b27a3daed628db5aed6ce5a0075c5",
+   "jpUrl": "5c4b21304ed82044394a0645e340ae6cb94232620c5f326165963c6c05df8744",
+   "enUrl": "d194514b68ee53f1af21a227dd07d01d7674c1f7256b8064ca96af7c58b7f669",
+   "krUrl": "e7bbdf3e1eb54054618002277c65f8c14485fcd14d1076e96ae13cff09e81468"
+  },
+  {
+   "id": 78,
+   "title": "도시로 복귀",
+   "text": "지금부터는 쉬어도 되는 거지? 그럼 편하게 쉬어",
+   "unlockRequirement": "",
+   "cnUrl": "e49e8d7a00ca312e488021096a62c82927b8e1674b21195ab0db03a74a682858",
+   "jpUrl": "c058082778904b9d430c83ede11784e898da37e1587a594570f386dc729c4b67",
+   "enUrl": "2e7687f88cb0302b8effc363e7290a6821d20b19f0c275d954f2d1e89cfc1e86",
+   "krUrl": "c6a440d1e3b65e9bcf51155d864b724f33533c91205a41a2077c497ecee32931"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "캐릭터 상세",
+   "text": "절망이 과거와 미래 사이에서 번갈아 펼쳐지고, 무수한 이상이 붉은색 의복 사이에서 불타버렸다. 하지만, 그 잿더미에 속지 말라——<br />만약 누군가 이상의 이름을 핑계로 허황된 좋은꿈을 만들어 낸다면, 그는 반드시 다시 불타올라 세상의 위선과 끝까지 싸울 것이니.<br />어디에 있든 그는 언제나 정의의 사자다",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "캐릭터 스토리•1",
+   "text": "일반적으로 남자는 냉정하게 일을 끝내는 현실주의자이다.<br />하지만 나이를 먹은 직장인들처럼, 그는 가끔 경험으로 인한 비관적인 모습을 보인다. 그리고 이런 비관이 자기혐오로 이어지면서 고의든 아니든 신랄한 말을 내뱉곤 한다.<br /><br />「아니, 그건 오해야.<br />나이가 들면서 자기혐오를 떨칠 수 없는 사람들이 대부분이야. 그건 과거의 자신과 진정으로 싸울 수 없기 때문이지.<br />아니, 싸움이 좋은 일은 아니야.<br />…이 주제는 잊도록 하지」<br /><br />어쨌든 과거의 미숙했던 자신이나 그와 비슷한 사람들을 정면으로 마주하지 않는 한, 남자는 성숙하고 듬직한 서번트라고 할 수 있다. 가끔 업무에 대해 불평하곤 하지만, 그는 여전히 최선을 다해 꼼꼼하게 자신의 사명을 완수한다.<br />——하지만 그의 불평은 날카롭고 신랄해서 그가 예전에 작가가 아니었나 하는 생각이 들 정도다.<br /><br />「어쩔 수 없어. 신랄하게 까발리는 게 내 본성이거든. 솔직히 그런 막무가내인 아가씨가 삶을 휘저어 놓은 적이 있다면, 누구라도 이렇게 되지 않을까?」",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>20</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•2",
+   "text": "남자의 이야기는 혼란스러운 시대에서 시작되었다.<br />마치 가만히 있지 못하는 등에처럼, 평범한 인간의 몸으로 성배전쟁을 겪은 그는 고향을 떠나 세계에서 가장 혼란스러운 곳으로 향했다. 그곳에서 정의의 사자가 되기 위하여 그는 하늘을 대신해 대의를 행하는 깃발을 들었다.<br /><br />평탄한 여정은 아니었다. 남자는 세계 각지에서 무장 폭동을 수없이 일으켰지만, 단 한번도 성공하지 못했다. 그는 십여 차례의 암살, 백여 차례의 매복, 심지어 여러 차례의 총살도 피했지만, 고향에 돌아와 잠시 머무르던 중 옛 친구의 배신으로 교수대에 오르게 되었다.<br /><br />그러나 그는 적어도 실패 때문에 자신의 과거를 혐오하는 게 아니다….<br />그는 정의의 사자가 되기를 꿈꾸던 그 소년을 혐오하는 것이다. 그때의 소년은 이런 인생을 사는 대가가 뭔지 전혀 몰랐다.<br /><br />한 사람의 정의를 행하려면 다른 사람의 자유를 박탈해야 한다. 만인의 정의를 행하려면 수많은 사람들이 피를 흘려야 한다. 정의는 아름다운 단어지만, 그 무게는 정의를 품고자 갈망하는 소년을 이상의 바다에 빠트려 죽게 할 만큼 무겁다.<br /><br />「비슷한 말을 한 적이 있어. 하지만 그건 그저 푸념일 뿐이야.<br />환경과 감정은 사람을 크게 바꾸지. 완전히 같은 존재라도 운명의 갈림길에 서면 다른 선택을 내릴 수 있어.<br />나를 닮은 자가 반드시 나는 아니고, 나인 자도 반드시 나를 닮은 것은 아니야. 결국 인간은 자신의 시야 밖에서 구원을 찾을 수 없어」<br /><br />이상은 이상을 짓밟고, 운명은 운명을 죽인다——소년은 이런 사실을 모르는 게 아니다.<br />다만 정의의 사자는 두려움을 버려야 한다——남자는 비로소 그 점을 인정했다",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>40</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•3",
+   "text": "「간장•막야」——이 쌍검은 남자가 가장 잘 다루는 무기로, 투영 마술로 거듭 만들어낼 수 있어서 아무리 많이 망가져도 상관없다. 이론적으로 남자가 충분히 이해한 무기라면 「모조품을 무한히 투영해 낼 수 있다」 하지만 어떤 인연으로 투영 대상이 「검」의 분류에 속할 때만 남자의 투영 마술이 완벽에 이른다.<br /><br />「가품을 파는 상인처럼 들리나? 아, 대충 맞아.<br />명예로운 수단은 아니지만, 오만방자하고 자신이 만든 규칙으로 남을 괴롭히는 놈들에게 딱이지」<br /><br />전설에 따르면, 간장과 막야는 전설적인 주검사 부부였다. 부부는 검을 주조할 때마다 품질을 주조사가 아닌 하늘에 맡겨야 하는 현실을 바꾸려고 갖은 노력을 다했다.<br />이야기는 여기서 여러 가지 버전으로 나뉜다. 그중 하나는——막야가 용광로에 몸을 던져 쇳물과 하나가 되어 간장이 전무후무한 절세의 보검을 주조할 수 있게 되었다는 것이다.<br />보다 널리 알려진 다른 버전은 이렇다. 폭군이 주조가 느리다는 이유로 간장이 보검을 만들자마자 그를 죽였고, 막야는 자식을 데리고 시골로 숨었다. 몇 년 후, 어른이 된 아이는 길에서 우연히 만난 협객과 함께 폭군에게 복수할 계획을 세우고, 세 사람은 결국 동귀어진한다.<br /><br />남자의 운명도 이 이야기와 일맥상통하는 점이 있지 않을까? 만약 그렇다면 그가 희생한 것은 자신일까, 동료일까, 아니면 어떤 이상이었을까?<br />누구도 알 수 없다.<br />그저 마음속의 검을 위해 그가 기꺼이 검의 뼈대가 되어 육신을 강철로, 피를 화염으로 바꾸었다는 것만 알 뿐이다.<br />그는 수많은 칼을 만들었지만, 결국 아무것도 없는 빈손이 되었다.<br />마치 그의 <ruby>마음속 풍경<rt>무한의 검제</rt></ruby>처럼 말이다.<br /><br />「근데 그게 인생 아닌가?<br />검은 한 사람의 손에 머물지 않아. 검을 방치하거나, 다른 사람에게 넘기거나… 마지막 순간까지 사용해야 해.<br />그래야 다시 시작할 수 있지」",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>60</nobr> 개방"
+  },
+  {
+   "title": "캐릭터 스토리•4",
+   "text": "성배전쟁 시스템에서 남자는 <ruby>궁수<rt>아처</rt></ruby>로 분류된다. 「검」을 근본으로 삼는 사람에게는 일종의 조롱처럼 느껴졌을 것이다. 하지만 남자는 개의치 않는다.<br /><br />「적당히 해. 정면 승부보다 먼 곳에서 적을 저격하는 게 더 효율적인 전투 방식이잖아.<br />아니면 <ruby>검객<rt>세이버</rt></ruby>들처럼 광선으로 모든 걸 평지로 밀어버리길 바라는 건가? 장난치지 마. 난 평범한 사람이야. 그들처럼 강한 마력은 없어」<br /><br />말은 그렇게 했지만, 필요하다면 남자는 근접전을 마다하지 않는다. 무한하게 만들 수 있는 「간장•막야」 덕분에 그는 현란한 검기로 상대가 당해낼 수 없게 한다.<br /><br />「평범한 총알로 적을 죽일 수 있다면야 나도 굳이 애쓰고 싶지 않지.<br />하지만 정말로 이 기술을 배우고 싶다면——평소 주방에 자주 들러 칼질 연습부터 시작해.<br />농담 아니야. 진지하게 생각하면 요리에서 많은 걸 배울 수 있다고. 가장 기초적인 재료 손질부터 얘기해 줄게——맛있는 요리를 최대한 빨리 먹고 싶다면, 요리를 만드는 과정을 분해해 동시에 많은 일을 완료할 수 있도록 순서를 다시 정해야 해…. 이런 사고방식에 숙련되면 주변의 다양한 일에 응용해 시간을 많이 절약할 수 있어.<br />볶음요리의 불 조절도 마찬가지야. 초보자는 종종 다양한 재료를 순서대로 냄비에 넣고 모든 식자재가 완전히 익히는 게 볶음이라고 오해하지.<br />이런 방식은 불에 강한 식자재에는 문제가 없지만, 그 외에는 적용할 수 없어. 모든 재료는 저마다 최적의 조리 시간과 온도가 있어서 재료끼리 어긋나는 게 정상이야.<br />그래서 대부분의 경우 우리는 식자재를 유형별로 분류하고 그에 맞게 불을 조절해서 과감히 냄비에서 꺼내야 해——마지막으로 다시 조합해 색과 향과 맛을 겸비한 요리로 완성하는 거지」<br /><br />그렇다. 요리가 주제에 오르기만 하면 남자는 평소의 간결한 말투와 달리 깨달음이 담긴 이야기를 길게 늘어놓는다. 평생을 전투 속에서 살아온 이 남자에게 삶의 본질은 정의나 고난이 아니라 삶의 온기가 담긴 집밥 같은 것일지도 모른다.<br /><br />「아까도 말했지만, 멀리서 저격으로 적을 죽일 수 있다면, 목숨을 걸고 근접전을 치르려는 사람은 없을 거야. 운명을 상대하는 것도 마찬가지지.<br />내 존재는 이런 사실 하나만 설명할 수 있을 뿐이야. 머나먼 곳에 어떤 세계가 있는데, 그곳 사람들은 매일 운명과 목숨을 걸고 싸워야 해. 그렇지 않으면 살아갈 희망조차 없거든.<br />예전에 난 그곳에서 그들을 위해 싸웠지만, 세계가 바뀐 건 사람들이 운명과 끊임없이 싸워 왔기 때문이지.<br />그리고 난… 빈털터리에 <ruby>운명을 이기지<rt>이상향에 도달하지</rt></ruby> 못한 사내일 뿐이야」<br /><br />분명 그는 앞으로도 「인류를 구원하는 길」을 걸어갈 것이다.<br />친구들을 위해 언제나 즐겁게 요리하는 것처럼",
+   "unlockRequirement": "캐릭터 레벨 Lv.<nobr>80</nobr> 개방"
+  }
+ ],
  "archive": {
   "cvCn": "吴磊",
   "cvJp": "諏訪部 順一",
@@ -2271,7 +2838,7 @@
  "hasEnhanced": false,
  "name": "아처",
  "rarity": 5,
- "descHash": "",
+ "descHash": "절망이 과거와 미래 사이에서 번갈아 펼쳐지고, 무수한 이상이 붉은색 의복 사이에서 불타버렸다. 하지만, 그 잿더미에 속지 말라—— 만약 누군가 이상의 이름을 핑계로 허황된 좋은꿈을 만들어 낸다면, 그는 반드시 다시 불타올라 세상의 위선과 끝까지 싸울 것이니. 어디에 있든 그는 언제나 정의의 사자다",
  "artPath": "6abf1c186bfb334db58b5681cb47c793b12d98ae4b9755449d685a1abd118e31",
  "miniIconPath": "40e37e1064bd50b12118a423004630ee4f6081dd7e84fde26b77c66068810a1a",
  "damageType": {

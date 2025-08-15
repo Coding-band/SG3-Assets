@@ -42,7 +42,7 @@
   },
   "125435": {
    "id": 125435,
-   "type": 601,
+   "type": 654,
    "purposeId": 4,
    "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
    "name": "Spuren des Schicksals",
@@ -61,7 +61,7 @@
   },
   "186254": {
    "id": 186254,
-   "type": 601,
+   "type": 654,
    "purposeId": 4,
    "iconPath": "68bc5d5330c237c831ce0dda0256590ae9d8d78b5b16af1031f6489a8217568e",
    "name": "Bedauern des unendlichen Pseudokörpers",
@@ -76,7 +76,7 @@
   },
   "267806": {
    "id": 267806,
-   "type": 601,
+   "type": 652,
    "purposeId": 2,
    "iconPath": "10ef9d7b942b21c8e3b3283266539b94e28bd558a94b9733feea1754187adbef",
    "name": "Aufsteigende Trümmer",
@@ -92,7 +92,7 @@
   },
   "409960": {
    "id": 409960,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
    "name": "Reiseführer",
@@ -111,7 +111,7 @@
   },
   "409961": {
    "id": 409961,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
    "name": "Abenteuer-Log",
@@ -131,7 +131,7 @@
   },
   "409962": {
    "id": 409962,
-   "type": 601,
+   "type": 651,
    "purposeId": 1,
    "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
    "name": "Reisebegegnungen",
@@ -150,7 +150,7 @@
   },
   "549504": {
    "id": 549504,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "2d7d2fa9645ee6abd7bf84d990b3a32c8851e1226c92e466f63bd77b7265260d",
    "name": "Unsterbliche junge Knospe",
@@ -171,7 +171,7 @@
   },
   "633445": {
    "id": 633445,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "fe5878a8a3e4fef155daad6bd3eaad5831ded2f83f338608f5911a77289f18fc",
    "name": "Unsterbliche ätherische Blume",
@@ -190,7 +190,7 @@
   },
   "635673": {
    "id": 635673,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "6fa130f3854238953251457ea099cef941f42ca00bebe828906735b12ceb6f8c",
    "name": "Zerbrochene Klinge",
@@ -207,7 +207,7 @@
   },
   "717386": {
    "id": 717386,
-   "type": 601,
+   "type": 657,
    "purposeId": 7,
    "iconPath": "ba66c445076beb6607457af5bd5f273c55a210a8c60621e6c90a4d00361df629",
    "name": "Unsterblicher glorreicher Zweig",
@@ -226,7 +226,7 @@
   },
   "836259": {
    "id": 836259,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "ab7bf14cb62430861fe5bad0468d8b1ba9cbba03eca768488cd4a57743809e43",
    "name": "Zerstörerische Klinge",
@@ -243,7 +243,7 @@
   },
   "920200": {
    "id": 920200,
-   "type": 601,
+   "type": 653,
    "purposeId": 3,
    "iconPath": "867ca4572198206377393f43d5d6f019a977fd32fd2c6a4c34db57b00d901690",
    "name": "Leblose Klinge",
@@ -450,7 +450,7 @@
    "iconPath": "271025fb61ef5f6ab71601d26719eb831962170f85cee1f95e05e60c12e68359",
    "artPath": "7586c20a07f51a7094642277283ffe16486eb76156312459891b2df5df62879a",
    "name": "Eine Schwertlänge, tausend Höllentiefen",
-   "descHash": "Blades Ultimate verursacht bei einem anvisierten Gegner zusätzlich erhöhten SCH, wobei der erhöhte Betrag <nobr>#1[i]%</nobr> seiner gesamten im aktuellen Kampf verlorenen LP beträgt.<br />Die berechneten LP, die Blade im aktuellen Kampf insgesamt verloren hat, werden auf <nobr>#2[i]%</nobr> seiner max. LP begrenzt. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
+   "descHash": "Blades Ultimate verursacht bei einem anvisierten Gegner zusätzlich erhöhten SCH, wobei der erhöhte Betrag <nobr>#1[i]%</nobr> seiner gesamten im aktuellen Kampf verlorenen LP beträgt.<br />Der im aktuellen Kampf angesammelte LP-Verlust wird auf <nobr>#2[i]%</nobr> seiner max. LP begrenzt. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
    "params": [
     1.5,
     0.9
@@ -1015,7 +1015,7 @@
   },
   {
    "tagHash": "Ausdehnung",
-   "descHash": "Setzt Blades aktuelle LP auf <nobr>50</nobr> % seiner max. LP und verursacht <span style=\"color:#00FF9C;\">Wind</span>-SCH. Dieser entspricht der Summe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> seines ANG, <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> seiner max. LP und <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> der LP, die er im Laufe des aktuellen Kampfs insgesamt verloren hat. Fügt außerdem angrenzenden Einheiten <span style=\"color:#00FF9C;\">Wind</span>-SCH zu. Dieser entspricht der Summe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> seines ANG, <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> seiner max. LP und <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[i]%</nobr></span> der LP, die er im Laufe des aktuellen Kampfs insgesamt verloren hat.<br />Die berechneten LP, die Blade im aktuellen Kampf insgesamt verloren hat, sind begrenzt auf <nobr>#7[i]%</nobr> seiner max. LP. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
+   "descHash": "Setzt Blades aktuelle LP auf <nobr>50</nobr> % seiner max. LP und fügt einem Gegner <span style=\"color:#00FF9C;\">Wind</span>-SCH zu. Dieser entspricht der Summe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> seines ANG, <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> seiner max. LP sowie <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span> seines im aktuellen Kampf angesammelten LP-Verlusts. Fügt außerdem angrenzenden Einheiten <span style=\"color:#00FF9C;\">Wind</span>-SCH zu. Dieser entspricht der Summe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> seines ANG, <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> seiner max. LP sowie <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[i]%</nobr></span> seines im aktuellen Kampf angesammelten LP-Verlusts.<br />Der im aktuellen Kampf angesammelte LP-Verlust wird auf <nobr>#7[i]%</nobr> seiner max. LP begrenzt. Nachdem er seinen Ultimate eingesetzt hat, wird dieser Wert zurückgesetzt und neu berechnet.",
    "ultimateCost": 130,
    "break": "60/hit",
    "energy": "5",
@@ -1380,7 +1380,7 @@
   },
   {
    "tagHash": "Flächenangriff",
-   "descHash": "Wenn Blade SCH erleidet oder LP verbraucht, erhält er 1 Aufladung, bis zu 5-fach stapelbar. Pro erlittenem Angriff erhält Blade max. 1 Aufladung.<br />Wenn die max. Aufladungsanzahl erreicht wird, führt er sofort einen <u>Folgeangriff</u> gegen alle Gegner aus. Dieser verursacht <span style=\"color:#00FF9C;\">Wind</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> von Blades ANG plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> seiner max. LP und stellt gleichzeitig LP in Höhe von <nobr>#3[i]%</nobr> von Blades max. LP wieder her. Alle Aufladungen werden beim Auslösen des Folgeangriffs verbraucht.",
+   "descHash": "Wenn Blade SCH erleidet oder LP verbraucht, erhält er 1 Stapelung Aufladung, bis zu 5-fach stapelbar. Dieser Effekt ist für jeden erlittenen Angriff bis zu 1-fach stapelbar.<br />Wenn die maximale Aufladung erreicht wird, führt er sofort einen <u>Folgeangriff</u> gegen alle Gegner aus, wobei <span style=\"color:#00FF9C;\">Wind</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> seines ANG plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> seiner max. LP verursacht und gleichzeitig LP in Höhe von <nobr>#3[i]%</nobr> von Blades max. LP wiederherstellt. Alle Aufladungen werden nach dem Auslösen des Folgeangriffs verbraucht.",
    "ultimateCost": 0,
    "break": "30/hit",
    "energy": "10",
@@ -2069,7 +2069,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Wenn der aktuelle LP-Prozentsatz von Blade gleich oder niedriger als <nobr>50</nobr> % seiner max. LP ist, wird erhaltene Heilung um <nobr>#1[i]%</nobr> erhöht.",
+    "descHash": "Liegt Blades aktueller LP-Prozentsatz bei <nobr>50</nobr> % oder weniger seiner max. LP, wird die durch Heilung erhaltene LP-Wiederherstellung um <nobr>#1[i]%</nobr> erhöht.",
     "ultimateCost": 0,
     "id": 18110,
     "name": "Endloses Leben",
@@ -2546,7 +2546,7 @@
     "ultimateCost": 0,
     "id": 20191676,
     "name": "Endloses Leben",
-    "iconPath": "a4157917a12dd4097d2b7687842c8f7a2456fe80e1759eb85cb57ddd88f40a78",
+    "iconPath": "c7fdc54d7b54d2091cb6ca71f2d4437f40c538612e319afc8d242adc73846f79",
     "levelReq": 0,
     "promotionReq": 2,
     "levelData": [
@@ -2691,7 +2691,7 @@
     "ultimateCost": 0,
     "id": 19942290,
     "name": "Nie endender Tod",
-    "iconPath": "8733972c86f22f8255529ddb90a3dc5c2e4086eaba6c5bbce5b7029121f19274",
+    "iconPath": "c9bf2b0735ae33729a3de6a8a37c0d7937b587b0aa25b150c5a027b10a34f428",
     "levelReq": 0,
     "promotionReq": 4,
     "levelData": [
@@ -2840,7 +2840,7 @@
     "ultimateCost": 0,
     "id": 20217221,
     "name": "Zyklon der Zerstörung",
-    "iconPath": "1c0ec11562b207bb9eb7007748a441fe044e3a6847693f2b41fa9f3810343fb7",
+    "iconPath": "06ab30ae9a770e9e968865c2842957928df085367d673bbf3a4e9e7ac7955b04",
     "levelReq": 0,
     "promotionReq": 6,
     "levelData": [
@@ -3622,7 +3622,7 @@
   "ranks": [
    {
     "id": 1,
-    "iconPath": "271025fb61ef5f6ab71601d26719eb831962170f85cee1f95e05e60c12e68359",
+    "iconPath": "a45617eeada46307058ba1274fc2edb1df8af41e9dadc02895c46ebdccfd2a89",
     "artPath": "7586c20a07f51a7094642277283ffe16486eb76156312459891b2df5df62879a",
     "name": "Eine Schwertlänge, tausend Höllentiefen",
     "descHash": "Blades verstärkter Standardangriff und Ultimate verursachen bei einem anvisierten Gegner zusätzlich erhöhten SCH, wobei der erhöhte Betrag <nobr>#1[i]%</nobr> des angesammelten LP-Verlusts durch Ultimate entspricht.",

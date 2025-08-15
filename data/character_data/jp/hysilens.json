@@ -1,0 +1,2946 @@
+{
+ "spRequirement": 110,
+ "iconPath": "6745ebc2f6475c499a7f66eebfd926695500304b405a3d94b428f20e120fbd01",
+ "bgPath": "4301d44214d7a8861db59b4c256f38510b30577172829dc7b1be63f610076e5e",
+ "figPath": "c4f1476d56c798b47bd6fb680f72b5a447ef5b19e886cb7f52dd758935356ce3",
+ "fgPath": "c20ed41bcc28e95025c3e76c8f444776808859b898eae26b1b1dec0c4de121aa",
+ "splashIconPath": "f17b7d6cf08672cecc3dfcd2b7dc0ddc193aa2da5096fedd7576d0d68a4b33e8",
+ "splashPlaceholder": {
+  "w": 0,
+  "h": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "dd7360026f025513baae7d6891bfd20d8a74c89d99e8b74c45a4092c07f2f2bc",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用ポイント",
+   "desc": "スターピースカンパニーが顧客との決済に使用している貨幣。現在は宇宙旅行をする時の決済通貨となっている。",
+   "lore": "「人々は、端末に表示される数字のためだけに奔走し、戦い、取引をする。しかし、本当に大切なものは、カンパニーの数字で買えるものではない」",
+   "purpose": "星間通貨",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "疑似花萼「大鉱区」",
+    "疑似花萼「工造司」",
+    "疑似花萼「ホテル・『レバリー』-夢境」",
+    "疑似花萼「『囁きの密林』神悟の樹庭」",
+    "クエスト報酬",
+    "依頼報酬",
+    "エンバー交換"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "運命の足跡",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "幾度の敗北があなたに勝利をもたらし、一歩一歩の前進があなたを運命の転換点へと導いた。",
+   "purpose": "軌跡素材",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模擬宇宙」ポイント報酬",
+    "ナナシの勲功",
+    "エンバー交換",
+    "星芒交換",
+    "期間限定イベント報酬"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫遊指南",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>20000</nobr>獲得できる。",
+   "lore": "世界を渡り歩くためには欠かせない、冒険手引き集。閲覧キーを押すと、電子音声が理解可能な言語で、有名な冒険者たちが様々な世界で体験したことや、彼らが色々な星で得た貴重な知識を語り聞かせてくれる。<br /><br />「漫遊指南最新シリーズ『スペースグルメガイド』が現在発売中。ぜひお買い求めください」<br />「投稿の際は、博識学会共感覚ビーコンのオペレーター<nobr>23</nobr>θにお繋ぎください。原稿料はあなたが普段から利用している方法でお振込みいたします」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "「忘却の庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒険記録",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>5000</nobr>獲得できる。",
+   "lore": "綺麗に装丁された、一目でためになるとわかる冒険日誌。冒険に関する細かい描写、価値のある情報、サバイバル術が書かれている。<br /><br />「なんで数字化してデバイスに保存しないの？持ち歩きやすくなるでしょ」<br />「お前が思っているより、先進技術は恒星嵐や中性子噴出に弱いんだ。なにより、この本の制作者は、最も簡単な方法で人々に読んでもらいたかったんだろう」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "デイリー訓練",
+    "エンバー交換"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅の見聞",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>1000</nobr>獲得できる。",
+   "lore": "旅の出来事を記した日記。字はかすれており、不鮮明。思うままに内容が書かれてあるので、あまり助けにはならないだろう。<br /><br />「読み終わったら早くその紙切れを捨てるのよ、丹恒？」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "依頼報酬"
+   ]
+  },
+  "554722": {
+   "id": 554722,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "c73f7c95477c413116ae2315f55567473f4fd49d28ed37983d40adad50141294",
+   "name": "遥かなる陽雷の想い",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "人の子が晶核を飲んだ時、彼らは心を感じる能力を失ってしまった。それ以来、星と月の循環と大地を見守ることが、彼らの唯一の使命となった。<br />彼らは生命を大切にし続けていたが、もはや隣人を命として認識することもできなくなった。<br /><br />「大地を這い、蒼に触れようとするも、空に浮かんだ時に気づくのだ。草の香りは何ものにも代えがたいと…」",
+   "purpose": "軌跡素材",
+   "rarity": 4,
+   "rewardPath": "/material/554722",
+   "comeFrom": [
+    "歴戦余韻「『天穹要塞』晨昏の目」"
+   ]
+  },
+  "589818": {
+   "id": 589818,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "1b78b52bd4fa8125682facdef27eee8dde23738508c8751d7c4a085363fae9df",
+   "name": "星火の精",
+   "desc": "「火劫大戦」後に逃げ回る旺盛な歳陽。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">虚無</span>の運命を歩むキャラクターの軌跡を中アップできる。",
+   "lore": "ずる賢く、イタズラ好きな、炎のような形をした歳陽。<br />姿を現した時の「炎」の大きさで歳陽の個体の強弱を区別できる。この歳陽は初めて意識の味を知り、宿主の感情をすべて貪ろうとしている。<br /><br />「悲喜を吸い取り、意志を左右する…」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/589818",
+   "comeFrom": [
+    "疑似花萼「丹鼎司」",
+    "「万能合成マシン」- 素材合成",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "673759": {
+   "id": 673759,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "b5032641c3abb7d952d56b9bfb0a4c71f4db0edd3a2c48c10d9b4d0eec94d25c",
+   "name": "焼天の魔",
+   "desc": "「火劫大戦」後に融合した獣の形をした歳陽。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">虚無</span>の運命を歩むキャラクターの軌跡を大アップできる。",
+   "lore": "思慮深く、それなりに獣の形を持つようになった強力な歳陽。<br />姿を現した時の「炎」の大きさで歳陽の個体の強弱を区別できる。大歳陽は融合した後に段々と形を成す。不死不滅のそれは災害とも言える程に危険。<br /><br />「水を押し寄せ炎で燃やし、山を砕き雷落とす…」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/673759",
+   "comeFrom": [
+    "疑似花萼「丹鼎司」",
+    "「万能合成マシン」- 素材合成",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "874345": {
+   "id": 874345,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "c58150f0bd3d62041c9a94a5f8cb513146f940ddbc73caa9bdf69ee5eeb007fb",
+   "name": "熾烈の霊",
+   "desc": "「火劫大戦」後に散逸した微弱な歳陽。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">虚無</span>の運命を歩むキャラクターの軌跡を小アップできる。",
+   "lore": "天真爛漫で固定の形を持たない歳陽の星火。<br />姿を現した時の「炎」の大きさで歳陽の個体の強弱を区別できる。この小さな歳陽は思考が単純で、より強大な歳陽に呑まれやすい。<br /><br />「形なく、根もなく、天外を漫遊する…」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/874345",
+   "comeFrom": [
+    "疑似花萼「丹鼎司」",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "勇気は胸を切り裂く",
+   "desc": "紛争の眷属が戦死した後の塊、強化に必要な普通素材。",
+   "lore": "怠惰な指揮官が稽古を始め、隠遁生活を送る賢者は思考を巡らせた。神の創造物を砕けることに人々が気付いた時、殺戮は戦争となった。<br /><br />「恐怖は勇気の彫刻刀である」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "均衡Lv.2に達した後、タイタンの眷属からドロップ",
+    "均衡Lv.2に達した後、晨昏の奇獣からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "栄光は身体を洗礼する",
+   "desc": "神力が宿る紛争の眷属の心臓、強化に必要な高級素材。",
+   "lore": "人々は最初、生のために戦った。やがて、死のために戦い、紛争の眷属のように恐れを知らぬ者が現れた。石の身を持つ戦士はみな、同じ心臓を共有しているのかもしれない——そうクレムノス人は語る。<br /><br />「この心臓の中を流れているのは勇気であり、その名は栄光である」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "均衡Lv.4に達した後、タイタンの眷属からドロップ",
+    "均衡Lv.4に達した後、晨昏の奇獣からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "恐怖は血肉を踏み潰す",
+   "desc": "紛争の眷属を構成する塵、強化に必要な簡易素材。",
+   "lore": "死の潮が天地を席巻し、憎しみと怨恨の巨人がステュクスを越えて歩み出る。堅い石に彫られた軍勢の前では誰もが恐れてひれ伏した。<br /><br />「殺戮は恐怖の石材である」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "タイタンの眷属からドロップ",
+    "晨昏の奇獣からドロップ",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "依頼報酬",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換",
+    "疑似花萼（金）"
+   ]
+  },
+  "29937571": {
+   "id": 29937571,
+   "type": 652,
+   "purposeId": 2,
+   "iconPath": "e914aa6c1c3cceed1fe5912f35f1d439d662aec5699654e8ff682bf2010c1c74",
+   "name": "侵略の結晶",
+   "desc": "「暗黒の潮の造物」のコア結晶。物理属性キャラクターの昇格素材。",
+   "lore": "暗黒の潮の信奉者たちは無数の姿を持つが、結晶によってそれを見分けることができる。しかし、このコアのような物がただの「外殻」であることを知る者はいない。<br /><br />「私は結晶の海を見ていた。けど次に目を開けた時、そこには医師のほっとした笑顔があった」",
+   "purpose": "キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/29937571",
+   "comeFrom": [
+    "凝結虚影「『竜骸の古城』スティコシア」",
+    "「万能合成マシン」- 素材交換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 81.84,
+   "attackAdd": 4.092,
+   "hpBase": 163.68,
+   "hpAdd": 8.184,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 114.576,
+   "attackAdd": 4.092,
+   "hpBase": 229.152,
+   "hpAdd": 8.184,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 147.312,
+   "attackAdd": 4.092,
+   "hpBase": 294.624,
+   "hpAdd": 8.184,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 180.048,
+   "attackAdd": 4.092,
+   "hpBase": 360.096,
+   "hpAdd": 8.184,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 212.784,
+   "attackAdd": 4.092,
+   "hpBase": 425.568,
+   "hpAdd": 8.184,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 245.52,
+   "attackAdd": 4.092,
+   "hpBase": 491.04,
+   "hpAdd": 8.184,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 278.256,
+   "attackAdd": 4.092,
+   "hpBase": 556.512,
+   "hpAdd": 8.184,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "60bafad8c7ebf27fbc6eb8c9df1ab7c3248e5c56ee3b236b06180525b32e344a",
+   "artPath": "e9a3a2913619b077eda8f6a1c644d8d58423dc824dae9d0e7ba18925800cd393",
+   "name": "何故、<br />心は悲しむか",
+   "descHash": "セイレンスがフィールド上にいる時、味方が与える持続ダメージは本来の<nobr>#1[i]%</nobr>になる。セイレンスが天賦で敵に風化/裂創/燃焼/感電状態を付与する時、<nobr>#2[i]%</nobr>の<u>基礎確率</u>で、元の天賦効果と同じ、かつ同時に存在可能な風化/裂創/燃焼/感電状態を追加で1つ付与する。",
+   "params": [
+    1.16,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "3789d0c5d7b41abf945ad1a581ab43f3d59a282af7bf6cad9ddf4b44686b555a",
+   "artPath": "8968deb3b4c05dcdf0c46c0e1c71d41dcbe38b24041f02c7b72c69fe4bdbb96a",
+   "name": "何故、<br />潮はさんざめく",
+   "descHash": "結界が展開されている間、軌跡「真珠の琴線」による与ダメージアップ効果が味方全体に適用される。",
+   "params": []
+  },
+  {
+   "id": 3,
+   "iconPath": "37963709deea8752858fa827434088e59477852cb6baaec39b5251e6ec2bd185",
+   "artPath": "51aa4a4ed4cf1a5a4c369b6131af464556564cfb6e1ddd1b974cb492883a5a24",
+   "name": "何故、<br />灯は忘らるる",
+   "descHash": "必殺技のLv.+2、最大Lv.<nobr>15</nobr>まで。通常攻撃のLv.+1、最大Lv.<nobr>10</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "d0c64b48285bd0006489bc005ea7736f239d0625fb799ff86005ed49341ae0bc",
+   "artPath": "f6157a60f3b31f1535348f05cec45ea625bb7e1f0d539b4b4bb884791e3a4179",
+   "name": "何故、<br />時は流れるか",
+   "descHash": "結界が展開されている間、敵全体の全属性耐性-<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "8d64d4e4f55b1d065dc79b114681260e1c723b2e20de14a901577d9550918435",
+   "artPath": "670b5f30772b3d43ad267e2ae6fccde88b9b2138fc3749466e92d6db16ad184f",
+   "name": "髪を梳き、<br />口ずさむ",
+   "descHash": "戦闘スキルのLv.+2、最大Lv.<nobr>15</nobr>まで。天賦のLv.+2、最大Lv.<nobr>15</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "64bbf71bf839ad49c600f998e67be5b042d271c3c8fa14be61a5781f899398ac",
+   "artPath": "573d14f9d4a20d30030302e9a26fe3afca2507b415c674209b913f83302d295a",
+   "name": "沈みし君、<br />いずれ帰郷せん",
+   "descHash": "結界が展開されている間、敵のターンが回ってきた時に、または味方が攻撃を1回行った後に発動する、セイレンスの物理属性持続ダメージの発動可能回数の上限が<nobr>#1[i]</nobr>回になる。またそのダメージ倍率+<nobr>#2[i]%</nobr>。",
+   "params": [
+    12,
+    0.2
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   22370072
+  ],
+  [
+   22086958
+  ],
+  [
+   22475581
+  ],
+  [
+   22192469
+  ],
+  [
+   22427790
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "単体攻撃",
+   "descHash": "指定した敵単体にセイレンスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#FFFFFF;\">物理</span>属性ダメージを与える。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 22370072,
+   "name": "短調、止水に響く",
+   "iconPath": "1ba60e292e65a7134e7b3861e20e8ca1c833df31f7e85531a4b97cf86a914c3e",
+   "typeDescHash": "通常攻撃",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6,
+      1,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7,
+      1,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8,
+      1,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      1,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      1,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1,
+      1,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2,
+      1,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3,
+      1,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4,
+      1,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "全体攻撃",
+   "descHash": "<nobr>#2[i]%</nobr>の<u>基礎確率</u>で敵全体の受けるダメージ+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>、<nobr>#4[i]</nobr>ターン継続。同時に敵全体にセイレンスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#FFFFFF;\">物理</span>属性ダメージを与える。",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "30",
+   "id": 22086958,
+   "name": "倍音、暗流の先の斉唱",
+   "iconPath": "8d64d4e4f55b1d065dc79b114681260e1c723b2e20de14a901577d9550918435",
+   "typeDescHash": "戦闘スキル",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.7,
+      1,
+      0.1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.77,
+      1,
+      0.11,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.84,
+      1,
+      0.12,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.91,
+      1,
+      0.13,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.98,
+      1,
+      0.14,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.05,
+      1,
+      0.15,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589818,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1375,
+      1,
+      0.1625,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.225,
+      1,
+      0.175,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673759,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3125,
+      1,
+      0.1875,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.4,
+      1,
+      0.2,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673759,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1.47,
+      1,
+      0.21,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.54,
+      1,
+      0.22,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.61,
+      1,
+      0.23,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.68,
+      1,
+      0.24,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.75,
+      1,
+      0.25,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "全体攻撃",
+   "descHash": "セイレンスが結界を展開し、敵の攻撃力-<nobr>#6[f1]%</nobr>、防御力-<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span>、敵全体にセイレンスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#FFFFFF;\">物理</span>属性ダメージを与える。<br />結界の中にいる敵が持続ダメージを1回受けるたびに、セイレンスはその敵に自身の攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>分の<span style=\"color:#FFFFFF;\">物理</span>属性持続ダメージを与える。このダメージは、敵のターンが回ってきた時に、または味方が攻撃を1回行った後に、最大<nobr>#5[i]</nobr>回発動できる。なお、この効果で発動したセイレンスの<span style=\"color:#FFFFFF;\">物理</span>属性持続ダメージが、さらにこの効果を発動させることはない。<br />結界は<nobr>#2[i]</nobr>ターン継続する。セイレンスのターンが回ってくるたび、結界の継続時間-1ターン。セイレンスが<u>戦闘不能状態</u>になった時、結界は解除される。",
+   "ultimateCost": 110,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 22475581,
+   "name": "絶海の渦潮、呑魂の舞曲",
+   "iconPath": "2fe3d01998331b2ff0ce6646fd1e235b143ae03200c829895f5ef65d2d4341c9",
+   "typeDescHash": "必殺技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1.2,
+      3,
+      0.15,
+      0.32,
+      8,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.28,
+      3,
+      0.16,
+      0.3728,
+      8,
+      0.15
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.36,
+      3,
+      0.17,
+      0.4256,
+      8,
+      0.15
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.44,
+      3,
+      0.18,
+      0.4784,
+      8,
+      0.15
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.52,
+      3,
+      0.19,
+      0.5312,
+      8,
+      0.15
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.6,
+      3,
+      0.2,
+      0.584,
+      8,
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589818,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.7,
+      3,
+      0.2125,
+      0.632,
+      8,
+      0.15
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.8,
+      3,
+      0.225,
+      0.68,
+      8,
+      0.15
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673759,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.9,
+      3,
+      0.2375,
+      0.74,
+      8,
+      0.15
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      3,
+      0.25,
+      0.8,
+      8,
+      0.15
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673759,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.08,
+      3,
+      0.26,
+      0.84,
+      8,
+      0.15
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.16,
+      3,
+      0.27,
+      0.88,
+      8,
+      0.15
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.24,
+      3,
+      0.28,
+      0.92,
+      8,
+      0.15
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.32,
+      3,
+      0.29,
+      0.96,
+      8,
+      0.15
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.4,
+      3,
+      0.3,
+      1,
+      8,
+      0.15
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "妨害",
+   "descHash": "味方が攻撃する時、セイレンスは<nobr>#1[i]%</nobr>の<u>基礎確率</u>でその攻撃を受けた敵に<span style=\"color:#00FF9C;\">風</span>化/裂創/燃焼/感電状態のいずれか1種類を付与する。なお、まだ付与されていない状態を優先する。<br /><span style=\"color:#00FF9C;\">風</span>化/燃焼/感電状態の敵は、ターンが回ってくるたびに、セイレンスの攻撃力<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>分の<span style=\"color:#00FF9C;\">風</span>/<span style=\"color:#F84F36;\">炎</span>/<span style=\"color:#c75de2;\">雷</span>属性持続ダメージを受ける。<nobr>#5[i]</nobr>ターン継続。<br />裂創状態の敵は、ターンが回ってくるたびに自身の最大HP<nobr>#3[f1]%</nobr>分の<span style=\"color:#FFFFFF;\">物理</span>属性持続ダメージを受ける。このダメージの最大値はセイレンスの攻撃力の<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>を超えない。<nobr>#5[i]</nobr>ターン継続。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 22192469,
+   "name": "セイレーンの歓歌",
+   "iconPath": "91baff35b27a9b0413693eee3fb3c07e9c85b90e50c1e10aa035ce4e0fb414d4",
+   "typeDescHash": "天賦",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.1,
+      0.2,
+      0.1,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.1165,
+      0.2,
+      0.1165,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.133,
+      0.2,
+      0.133,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 874345,
+       "count": 3
+      },
+      {
+       "id": 20445700,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1495,
+      0.2,
+      0.1495,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 589818,
+       "count": 3
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.166,
+      0.2,
+      0.166,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 589818,
+       "count": 5
+      },
+      {
+       "id": 20170864,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1825,
+      0.2,
+      0.1825,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 589818,
+       "count": 7
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1975,
+      0.2,
+      0.1975,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 673759,
+       "count": 3
+      },
+      {
+       "id": 20389475,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.2125,
+      0.2,
+      0.2125,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 673759,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.23125,
+      0.2,
+      0.23125,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 673759,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.25,
+      0.2,
+      0.25,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 673759,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.2625,
+      0.2,
+      0.2625,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.275,
+      0.2,
+      0.275,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.2875,
+      0.2,
+      0.2875,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.3,
+      0.2,
+      0.3,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.3125,
+      0.2,
+      0.3125,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 22170992,
+   "name": "攻撃",
+   "iconPath": "1ba60e292e65a7134e7b3861e20e8ca1c833df31f7e85531a4b97cf86a914c3e",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "妨害",
+   "descHash": "秘技を使用した後、前方へ移動する特殊領域を<nobr>#1[i]</nobr>秒間作り出す。特殊領域内に入った敵は「酔心」状態を付与される。「酔心」状態の敵は味方を攻撃せず、領域継続中は領域に追随する。<br />「酔心」状態の敵と戦闘に入った後、<nobr>#2[i]%</nobr>の<u>基礎確率</u>で、敵単体それぞれにセイレンスの天賦と同じ効果を持つ<span style=\"color:#00FF9C;\">風</span>化/裂創/燃焼/感電状態の中から、<nobr>#3[i]</nobr>種類の状態を付与する。味方が作り出した領域は1つまで存在できる。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 22427790,
+   "name": "棲まう海にて",
+   "iconPath": "766ba9864e9845f142e534e4e3c0b0e3bb9ae8e961f021cd5ca1c90839df822d",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      20,
+      1,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1410101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1410202,
+     "anchor": 10,
+     "type": 2,
+     "children": [
+      {
+       "id": 1410203,
+       "anchor": 11,
+       "type": 2,
+       "children": [
+        {
+         "id": 1410204,
+         "anchor": 12,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 27788054,
+          "name": "効果命中強化",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "16e46edec660d897581a1ee77b95e61bafbc7a669f7e88ab6d27b9f23fa4bd49",
+          "statusList": [
+           {
+            "key": "効果命中",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 589818,
+            "count": 3
+           },
+           {
+            "id": 20170864,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 28063100,
+        "name": "速度強化",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "速度",
+          "value": 2,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 589818,
+          "count": 3
+         },
+         {
+          "id": 20170864,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 27813711,
+      "name": "攻撃強化",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "攻撃力",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874345,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "戦闘開始時、セイレンスは必殺技の結界と同じ効果を持つ結界を展開する。結界は<nobr>#1[i]</nobr>ターン継続する。セイレンスが結界を展開するたびに、SPを<nobr>#2[i]</nobr>回復する。",
+    "ultimateCost": 0,
+    "id": 27916308,
+    "name": "征服の剣旗",
+    "iconPath": "0f46c1bec6964945ae5c210d6b91b6bb4cd1917bc4ee3f7a9bb0c20b0cfe08f1",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       3,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 874345,
+        "count": 3
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1410102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1410205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1410206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1410207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 28020013,
+          "name": "速度強化",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+          "statusList": [
+           {
+            "key": "速度",
+            "value": 3,
+            "int": true
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 673759,
+            "count": 3
+           },
+           {
+            "id": 20389475,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 28294961,
+        "name": "攻撃強化",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "攻撃力",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 673759,
+          "count": 3
+         },
+         {
+          "id": 20389475,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 28037376,
+      "name": "速度強化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "速度",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589818,
+        "count": 5
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "セイレンスが必殺技を発動した時、敵に持続ダメージ系デバフがある場合、付与されている全持続ダメージ系デバフが、本来のダメージ<nobr>#1[i]%</nobr>分のダメージを発生させる。",
+    "ultimateCost": 0,
+    "id": 28124792,
+    "name": "盛宴の泡沫",
+    "iconPath": "887d483764152340ba266e155f5a630d0b1de10e808a55db878fafd98e35fbe3",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 589818,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1410103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1410208,
+     "anchor": 16,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 28269525,
+      "name": "効果命中強化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "16e46edec660d897581a1ee77b95e61bafbc7a669f7e88ab6d27b9f23fa4bd49",
+      "statusList": [
+       {
+        "key": "効果命中",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1410209,
+     "anchor": 17,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 27994566,
+      "name": "攻撃強化",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "攻撃力",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "セイレンスの効果命中が<nobr>#1[i]%</nobr>を超えた時、超過した効果命中<nobr>#2[i]%</nobr>につき、自身の与ダメージ+<nobr>#3[i]%</nobr>、最大で+<nobr>#4[i]%</nobr>。",
+    "ultimateCost": 0,
+    "id": 27874380,
+    "name": "真珠の琴線",
+    "iconPath": "d82291ae06c5205757f1d0cfed3b4cd70fc10766a5bda8d9177898d2883ede4d",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.6,
+       0.1,
+       0.15,
+       0.9
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1410201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1410210,
+     "anchor": 18,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 11462769,
+      "name": "速度強化",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "速度",
+        "value": 4,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 673759,
+        "count": 8
+       },
+       {
+        "id": 20389475,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 28088667,
+    "name": "速度強化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+    "statusList": [
+     {
+      "key": "速度",
+      "value": 2,
+      "int": true
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初対面",
+   "text": "ヘレクトラ？それは過去と共に海底に沈んでいった…そうか、キミだったのか、灰色の小魚…やはりセイレンスと呼んでくれ。聖都の騎士を率いる者として、ワタシはここを守り抜く。キミの視線が、運命の乱流に惑わされないようにな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "挨拶",
+   "text": "もうすぐ宴が始まる。せっかくだ、共に1曲奏でてくれないか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "お別れ",
+   "text": "この世は海に似ている…牙を剥く波に呑まれぬよう、そして進むべき道を見失わないよう、くれぐれも気をつけることだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "自分について・過去",
+   "text": "暗黒の潮に呑まれた劇場では、数百年にわたって独奏が響き続けていた…そして幕が下りた時、そこに残されていたのは、散らばる骸と嘆き続ける波だけだった。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "自分について・現在",
+   "text": "最も明るく、最も熱い灯火を頼りに泳ぎ続け、ワタシは聖都に辿り着いた。火追いの王はワタシに剣旗になることを求め、この身もまた、剣を振るう先を探していたんだ——果たして、この刃を向けるべきは彷徨う泡か、それとも宴の邪魔をする雑音か。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "世間話・剣とバイオリン",
+   "text": "これは昔ホラガイと真珠で作ったバイオリンだ。何度も血を浴びるうちに、このように鋭くなった。今となっては、たとえ弦がなくとも、流れる血の慟哭と渦巻く潮の音だけで、心地よい旋律を奏でてくれるだろう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "世間話・クジラの歌",
+   "text": "一部のクジラの歌声は、生涯を通じて仲間に届くことはない…だが、そんな彼らの鼓動は、普通のそれよりもずっと熱いものなんだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "世間話・沈黙",
+   "text": "口うるさいエビとカニたちは、時折ワタシの沈黙に不満を抱く。ただ口よりもバイオリンで「語る」ほうが得意なだけなのだが…ふふ、恐れることはない。死の断末魔よりも、凱旋の楽章を奏でるほうが好きだからな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "趣味・泡",
+   "text": "海面から差し込む光の柱の間を縫うように泳ぎながら、虹色の泡を追いかける——まだ海が澄んでいた頃、一番好きだった遊びだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "趣味",
+   "text": "海底谷で千年以上熟成されたメーレは、ひと口飲めばたちまち酔いしれ、海流に溶け込んだような気分になれる…が、地上のものはダメだ。せいぜい千杯飲んで、ようやくそれらしい感覚を味わえる程度だろう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "悩み事",
+   "text": "人生は泡のように儚い。今のうちに、宴で杯を交わそうじゃないか。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "シェア",
+   "text": "ファジェイナが唯一恐れていたのは孤独だ。だからこそ、彼女はあらゆる川の母となり、あらゆるメーレの製造者となり、あらゆる宴の主となった。孤独な波が海から決して離れられないように…人間もまた、同じなのではないだろうか。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "見聞",
+   "text": "水の下に隠れた国は、かつて世界のために最初の暗黒の潮に抗った。だが、セイレーンたちに約束された未来は、すでに波と共に消え去ってしまった。たとえ明日が偽りであろうと、その魅力は依然としてワタシを酔わせるものだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "開拓者について",
+   "text": "灰色の小魚、キミの周りには、きっと多くの人が集まってくるだろう。その尾が紡ぐ軌跡は、まるで港に戻った時のような温もりと、島に辿り着いた時のような安心感を与えてくれるからな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "ケリュドラについて",
+   "text": "これまでに見てきた君主の大半は、杯に毒を盛ることに長けていたが…カイザーは王の旗に油を注ぐ道を選んだ。その燃え上がる旗の熱と光が、深海にいるワタシのもとまで届いたんだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "アグライアについて",
+   "text": "神権を継いだ時から、彼女は人間性の喪失という苦しみに苛まれてきた。それでも酒に逃げて自分を麻痺させるのではなく、ただ静かに耐え抜くことを選んだのだ…ワタシには到底真似できそうにない。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "トリビー・トリアン・トリノンについて",
+   "text": "深海の恐ろしい話をする時も、彼女たちはイルカのように可愛らしい声を上げる。その純粋無垢な心こそが、この世の汚れを洗い清められるのだろう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "サフェルについて",
+   "text": "どんなに魅力的なエサにも決して釣られない、器用に泳ぐネコザメだ…このままいけば、いつか立派な大魚に成長するかもしれないな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "キュレネについて",
+   "text": "彼女は…あらゆる氷河と泥を包み込む、美しい暖流の協奏曲のようだ。あのウミウシが傍にいてくれれば、たとえ深海だろうと暖かく感じられるだろう。",
+   "unlockRequirement": "開拓クエスト「囚人よ、影を踏み越え蒼海を仰げ」をクリアした後に解放",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "星魂覚醒",
+   "text": "すべての孤島は、いずれ潮汐に抱かれる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "キャラクター昇格",
+   "text": "次の海域へと泳ぎ始める時がきた。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "レベルMax",
+   "text": "聞こえるか？嵐が呼んでいる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "軌跡覚醒",
+   "text": "刹那に消える水飛沫でも、集まれば波となる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "パーティ編成・開拓者",
+   "text": "灰色の小魚、合奏の準備はできたか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "パーティ編成・アグライア",
+   "text": "続けてくれ。その金糸の調べは、ひときわ心を揺さぶる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "パーティ編成・トリビー",
+   "text": "今回の神託は心地のいい旋律か、それとも雑音か…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "パーティ編成・ケリュドラ",
+   "text": "カイザー、この勝負は何手で終わる？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "パーティ編成・サフェル",
+   "text": "ネコザメ、波に飛び込んだからには、最後まで立ち向かえ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 51,
+   "title": "戦闘開始・弱点撃破",
+   "text": "雑魚がいくら威嚇しようと、恐るるに足りない。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 52,
+   "title": "戦闘開始・危険予知",
+   "text": "いい余興になりそうだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 53,
+   "title": "ターン・1",
+   "text": "波飛沫に喉を切り裂かれないように…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 54,
+   "title": "ターン・2",
+   "text": "鋭い挽歌を捧げよう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 55,
+   "title": "戦闘中待機",
+   "text": "曲間の沈黙にしては、少々長すぎるな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 56,
+   "title": "通常攻撃",
+   "text": "酔いしれるがいい。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 57,
+   "title": "戦闘スキル・1",
+   "text": "潮よ、共に沈め。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 58,
+   "title": "戦闘スキル・2",
+   "text": "この宴、酔いしれるまで…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 59,
+   "title": "攻撃を受ける",
+   "text": "騒々しい…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 60,
+   "title": "重撃を受ける",
+   "text": "耳障りだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 61,
+   "title": "必殺技・アクティブ",
+   "text": "シーッ…心して聴け。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 62,
+   "title": "必殺技・発動",
+   "text": "満たされぬ深海の宴に響く、皆の悲鳴を。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 63,
+   "title": "戦闘不能",
+   "text": "幕が下りた…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 64,
+   "title": "戦闘に戻る",
+   "text": "海流が運んでくれたようだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 65,
+   "title": "HP回復",
+   "text": "暖流のようだな…感謝する。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 66,
+   "title": "秘技",
+   "text": "掛かった魚はいるか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 67,
+   "title": "戦闘勝利",
+   "text": "楽しい狩りも、ここまでか。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 68,
+   "title": "戦利品を開ける・1",
+   "text": "これとメーレを交換しないか？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 69,
+   "title": "戦利品を開ける・2",
+   "text": "いつか、これにも海底のにおいがつくのだろうか…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 70,
+   "title": "貴重な戦利品を開ける",
+   "text": "真珠にも劣らない艶だな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 71,
+   "title": "謎解きに成功・1",
+   "text": "まるでぬるま湯のようだったな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 72,
+   "title": "謎解きに成功・2",
+   "text": "湿った空気が答えを教えてくれた。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 73,
+   "title": "敵ターゲット発見",
+   "text": "大丈夫だ、こちらに泳いでくるのを待とう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 74,
+   "title": "町に戻る",
+   "text": "港に停泊する一時は…泡のように儚く、どこか懐かしい。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "キャラクター詳細",
+   "text": "スティコシア――酔いと夢が溢れる海辺の街。古き歌声は今も波間に響いている。<br />海の娘ヘレクトラ、「海洋」の火種を清める黄金裔。濁りし暗流を払い、天外より来たる英雄のために、盛大な酒宴の旋律を奏でる者である。<br />――まだ閉幕の時ではない。たとえ希望が泡のように儚いものだとしても、波は前へと進み続けるのだ。",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "ストーリー・1",
+   "text": "太陽の光が差し込むと、海の呼吸は色とりどりに輝き出す。一日の中でセイレーンたちが最も嬉々とする時だ。<br />「♫パチン♫」「♫ピチャ♫」「♫プクッ♫」<br />セイレーンの姫は楽しそうに泡を追いかけている。鼻先にしばらく留まったそれがはじける瞬間が大好きなのだ。それは、その瞬間、波が七色の光を描き出すから。<br /><br />果てしなく広がる珊瑚礁の中で、セイレーンたちが歌っている。そこの真珠は内側から光るかのように輝き、バイオリンの弦を飾るのにぴったりだった。<br />ヘレクトラの指先から流れる音楽が、穏やかな水流のように、メーレを堪能する仲間のもとへと流れていく。<br /><br />「♫見てください、華麗で賑やかな船の上、人間たちはさぞかし楽しんでいるのでしょう♫」<br />「♫あなたが救った想い人、彼の声はきっとあなたの心の中で響き続けていることでしょう♫」<br />「♫高貴なる姫君、憂いを知らぬヘレクトラ様、あなたはどこへ向かうのでしょう？北の冷たい氷の海？それとも広い人間の世界？♫」<br /><br />酩酊したセイレーンたちが彼女の周りを取り囲む。好奇心が揺れ動く海藻のように絡みついていった。<br />「♫俗世は騒がしく、極地は冷たい……♫」<br />彼女は優しく泡に触れながら、微笑んで首を横に振った。<br />「♫ワタシが望むのは、歌声を響かせられるあの場所――♫」<br /><br />それを言い終える前に、深海から警戒の角笛が鳴り響き、宴は突如として終わりを告げた。<br />セイレーンたちはヘレクトラと共に深海へと泳ぎ戻る。海の女王が民にこう告げた――<br /><br />「♫暗黒の潮が澄んだ海流を穢してしまう。霊水の波を動かし、穢れた水を大きな盃へと導きましょう。『紛争』の光が暗黒の潮に抗うその時まで……♫」<br />「♫海の寵児、あなたは何を願っているの？暗黒の潮が引いたら、スティコシアへ向かうといいわ。陸の民があなたのために宴を開き、歌を捧げるでしょう♫」<br /><br />1日、また1日とヘレクトラはセイレーンたちを率いて、だんだんと暗くなっていく海を行き来し、濁った海流を清めていった。<br /><br />「♫みんな、諦めないで。酔いしれる輝きのために♫」<br />「♫みんな、忘れないで。遥か彼方へ泳ぎ進むことを」♫<br />「♫みんな、前を向いて。絢爛な希望が揺らめいている♫」<br /><br />来る日も来る日も、ヘレクトラは歌い続けた。眷属である彼女は、この海を守ることこそ持って生まれた使命だと、深く理解していた――<br /><br />ヘレクトラは深淵へと泳いでいく。その歌声は漆黒の深海に輝く唯一の光となった。",
+   "unlockRequirement": "キャラLv.<nobr>20</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・2",
+   "text": "いまや果てなき珊瑚礁は死の海と化していた。<br /><br />暗黒の潮の造物に初めて剣を突き立てた時、彼女の両手は小刻みに震えていた。<br />百回目、朽ち果てたかつての仲間と向かい合った時、輝きの失った弦はいとも容易く敵の喉を切り裂いていった。<br />千回、1万回…バイオリンを飾っていた真珠が零れ落ち、海面に散らばった。深海は血の赤に染まっていた――<br /><br />静寂に包まれた宮殿の廃墟には、ヘレクトラと彼女1人きりの宴だけが残されていた。<br /><br />「♫陸に住む人々は、永遠に終わらない宴を開き、我々の犠牲に報いてくれるだろう……♫」<br />物悲しい歌声が響いていく。「紛争」のタイタンが暗黒の潮に立ち向かう使命を引き継いだ時、歓喜するヘレクトラは初めて薄暗い海から1歩を踏み出した。<br /><br />真珠や貝で身を飾り、尾びれを2本の足に、泡を身を包む華麗な衣装へと変えた。荒波はもはや頭上で怒り狂うものではなく、彼女の足元でうめくものとなった。<br />海鳥が海の上を旋回し、悲しげな鳴き声を上げる。押し寄せた怒涛は一瞬で静まり、また引いていった。<br />まるで泡がはじけた後のように。そこには何も無かったと言うかのように。<br />歩くたびに心を刺す痛みに耐えつつ、彼女は約束の地スティコシアへと向かった――<br /><br />その大地には鼻がもげそうになる空気、山と積み上がる骸骨、そして争いと戦火が満ちていた…けれど、神が約束した宴だけは、どこにも無かった。<br /><br />「ワタシは…セイ…レン……」<br />淀んだ空気の中で響く彼女の声は、かすれてしまっていた。<br />人間の言葉を学びはしたが、やけに喧しいその言葉では歌を紡ぐことができなかった。そして次第に、言葉の代わりに沈黙を選ぶようになった。<br />「錆びることのない剣」、「冷酷なバイオリンの音」…彼女と共にあるのはいつも、肉体を貫く旋律と、血を流す命の悲鳴だった――<br /><br />海から訪れた剣士は、音楽の才に恵まれているが寡黙で人と距離を置き、決して心の内を明かさないと言われていた。<br />こちらに差し出そうとする手を彼女はいくつも見た。その手の中には、彼女を消し去ろうとするものもあれば、助けを差し伸べようというものもあった。それらは1つひとつ、明かりを灯していったが、その火はまた1つ、また1つ、と消えていってしまった。<br /><br />「セイレンス、いったいどこへ向かっているんだ…？」<br /><br />その問いに彼女は答えられなかった。<br />いつしかバイオリンは2振りの剣となり、弦には鋭い挽歌だけが流れるようになっていた。<br />いつの日か自分の憧れを理解してくれる誰かが現れることを願っていたが、彼女は俗世も物寂しい深海とたいして変わらないことに気づき始めた。<br />誰もが迷子の魚と同じ、そして誰もが盲目的に光へと泳いでいた。",
+   "unlockRequirement": "キャラLv.<nobr>40</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・3",
+   "text": "「セイレンス、僕に従うなら、お前が望むものをすべて与えてやろう」<br />彼女の小さな体から発せられる力強い声が印象的だった。だが、それでもなおセイレンスは心に懸念を抱いていた――<br />「彼女の火も…いつか消えるのだろうか。」<br /><br />その懸念に反して、その火は深海に差し込む天の光のように燃え盛り、消えることはなかった。<br />人々は見た――青い烈火が無数の戦場を駆け、幾度となく凱旋した光景を。巨大な波が炎の如く野原を焼き尽くし、波と風を呼ぶ剣旗が鯨となって血の雨を呑み込む様を。<br />彼女は熱き鼓動を、激しい戦鼓の音を、雨のような足音を、潮の如き悲しみを耳にした…歌のように純粋な心の声は黄金の血と共に流れ、かたく閉ざしていた彼女の心を揺さぶる。<br /><br />カイザーが約束した宴の時が近づいた。まだ若い織る者は、子供たちと耳元で囁きあい、果たしてあの淡白な剣旗が宴に参列するかどうかに興味をひかれていた。<br />人々の歓声の中、織る者はつま先立ちをして、息をのんでこの瞬間を目に焼き付けようとした。<br />剣旗が纏う、わずかに裾を引く金色のスカートは、まるで陽光に輝く透き通る波のように美しかった。<br />数々の明かりに照らされた夜、人々は再び海の輝きを目にしたのだった。<br /><br />「彼女はこの世で失われた入り江のために歌ってほしいという、僕の願いを聞き入れた」<br />君主の言葉が終わると、オーケストラに照明が当たり、光と人の影が彼女の目の前でさざ波のように揺らめいた。<br />杯には泡が揺れ、音楽が流れる。群衆の中で彼女は、自分の声が空しい反響でなくなったことに気が付いた。<br /><br />ラビエヌスとセネカが打ち合う剣の音が拍子を刻み、ヴァージニアの想いを秘めた詩が拍子にのる詞となった。<br />トリスビアスが微笑めば、軽やかなコーラスとなり、アグライアが舞えば、それは最も美しく、人の心をうつハーモニーとなる……<br /><br />「剣旗卿、この戦に勝利したら、お前は何がほしい？」<br />いつも冷静な君主も今はほろ酔いになっているようだ。<br />セイレンスはメーレを飲み、君主に囁きかける。宴の会場の片隅に笑い声が響いた。<br />なんと心地よく、なんと明るい場所だろう。<br />世界が回っている。グラスがぶつかり合う音、氷がグラスの中を転がる音……<br />ずっと沈黙を貫いていたセイレーンの歌声が、メーレのように零れ落ちた——<br /><br />「♫宴の灯りのなんと眩しいことか<br />盃を交わすたび…<br />新しい海がワタシたちの間に広がっていく……♫」",
+   "unlockRequirement": "キャラLv.<nobr>60</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・4",
+   "text": "「火追い」こそが、求めていた永遠の宴だと彼女は思っていた。<br />しかし、それは喪失の道のりで、光もまた泡沫のようにはじけて消えてしまった。<br /><br />カイザーの剣である彼女の剣が、先から血を滴らせない時は無かった。<br />だが、カイザーの熱い黄金の血が彼女の指先に落ちたあの時、セイレンスは再びかつての孤独な深海へ落ちたような気がした。<br />「ふっ、なぜ…追い求めていた灯を、この手で消さなければならないのだ……」<br />千年にも及ぶ苦しみに酔いながらも、七色の淡い輝きを放つ泡沫から逃れようとしたが、砕け散った過去の欠片はまるで海藻のように絡みついて離れることはなかった。<br /><br />「コトン……」<br />駒が、落ちた。駒を手にする君主は平然としているように見えるが、王冠からのぞく不安定な炎の揺らめきが、心の内を映し出している。<br />「チェスのやり方などわからない」<br />「僕が教えてやろう」<br />慣れない手つきで駒を進める。これもまた1種の殺し合いに過ぎないのだろうと、彼女は思った。<br /><br />「コトン……」<br />突如として勢いを増した青い炎は、暖かな海流のように彼女を包み込んだ。思うままに駒を進めながら、こう尋ねた――<br />「いずれ盤上から消えてしまうのに、なぜ駒たちは前へ進み続けるのだろうか？」<br /><br />「コトン……」<br />君主は杯のメーレを一口飲むと、満足げに両の腕を伸ばして、感慨深げにこう言った――<br />「前に進むこと、それ自体が十分に痛快なことではないか？」<br />……<br /><br />彼女は千年も待ち続けた。そうして火追いのために新たな世界を切り開いた。けれど彼女にはわかっていた、そこも自分の帰る場所ではない、と。<br />「魚が求めるのは、やはり棲み処となる海だけだ……」<br />君主が残した記憶の1ページの中、彼女は美しく澄んだ海へと歩んでいく。<br /><br />♫パチン♫、♫ピチャ♫、♫プクッ♫…色とりどりの泡が過去の歳月を映し出し、寄り集まっては砕け、砕けてはまた固まるを繰り返す。<br />「海の寵児、あなたの願いは？」<br />「セイレンス、いったいどこへ向かっているんだ…？」<br />「剣旗卿、お前は何がほしい？」<br />……<br />故郷も宴も火追いも…彼女の人生で輝き、そしてすぐに泡となって消えていった…ただ空に響くため息1つきりを残して。<br />これが彼女の持っていたすべてだった——俗世にも海にも、泡がはじけた跡しか残っていなかったのだから。<br /><br />「あんなに…美しかったのに……」<br /><br />「♫……♫」<br />「♫……♫」<br />「♫……♫」<br /><br />オンパロスの夜明けが訪れようとしている。<br />最後の泡がはじける前、彼女は微笑んだ。言い尽くせない想いを…すべて歌い切ったかのように。",
+   "unlockRequirement": "キャラLv.<nobr>80</nobr>で解放"
+  }
+ ],
+ "archive": {
+  "cvCn": "浮梦若薇",
+  "cvJp": "石見舞菜香",
+  "cvKr": "오은수",
+  "cvEn": "Rosie Day",
+  "camp": "オンパロス"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "22370072": 1,
+    "22475581": 2
+   },
+   "5": {
+    "22086958": 2,
+    "22192469": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
+ "name": "セイレンス",
+ "rarity": 5,
+ "descHash": "スティコシア――酔いと夢が溢れる海辺の街。古き歌声は今も波間に響いている。 海の娘ヘレクトラ、「海洋」の火種を清める黄金裔。濁りし暗流を払い、天外より来たる英雄のために、盛大な酒宴の旋律を奏でる者である。 ――まだ閉幕の時ではない。たとえ希望が泡のように儚いものだとしても、波は前へと進み続けるのだ。",
+ "artPath": "7b32e2922c94484f5c920dfe164938dad570be51982c67f4c9ac67d5e2384f60",
+ "miniIconPath": "4e8065b7522f8cda1716509f92379689ea387e50917a88acd9e20ec4e545b5e4",
+ "damageType": {
+  "id": 1,
+  "iconPath": "fc6c9fc2a7b462613ce59b29974d45a4b4fae29eaf89c36e4370b6d48e640a03",
+  "color": "#FFFFFF",
+  "name": "物理",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "9925f4d7d8ac1ad84319601be2e2127dbb697923a7add4d70bf795c7e9045d29",
+  "altIconPath": "5821b3e8829f16ad30af2613e5330feea1cd8ead70cf58d18c7bc927f50b5943",
+  "color": "#FFFFFF",
+  "name": "虚無",
+  "rarity": 0
+ },
+ "pageId": "hysilens"
+}

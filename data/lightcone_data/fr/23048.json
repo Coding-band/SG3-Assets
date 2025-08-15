@@ -1,0 +1,536 @@
+{
+ "name": "Une ère gravée dans le sang doré",
+ "rarity": 5,
+ "descHash": "« Comment l'histoire se souviendra-t-elle de Cérydra dans mille ans ? »<br />On lui posa un jour cette question.<br /><br />Pour certains, elle était l'éminente « Imperator ».<br />Cette dictatrice froide et cruelle, cette ambitieuse Porte-Flamme, cette impératrice qui brûla l'ancienne ère dans le sang et le feu...<br /><br />D'autres affirmaient qu'elle n'était qu'un pitoyable pion.<br />Que cette souveraine abandonnée n'était qu'une prisonnière de l'ambition, destinée à tout perdre dans cette partie d'échecs contre les dieux.<br /><br />Et certains disaient que dans les profondeurs de son cœur, plus sombres que les abysses des océans, elle n'était qu'une mortelle du nom de Cérydra...<br />Quelqu'un qui pleurait ses camarades déchus, qui hésitait et tremblait face à son lourd destin, incapable d'avancer...<br /><br />« Hé, l'histoire n'a pas besoin de se souvenir de moi... »<br /><br />Ravalant l'amertume dans son cœur, elle poursuivit le chemin de la Chasse aux flammes pavé de sacrifices.<br /><br />« Cette ère sera gravée dans les flammes de notre sang doré ! »",
+ "iconPath": "bc06f5734d76f4ff1f371f35e18c4c04a4ebcab955f3cca199972147c5c8579c",
+ "artPath": "7c6271308305a7d0bdca48f07a29f9a6a75022847d0c4d3e178504657a64ca70",
+ "artPlaceholder": {
+  "w": 0,
+  "h": 0
+ },
+ "mediumIconPath": "46601402d2fc6757fd905b4c0e860522ed03a8987a2da4f52a5aa24e3bf6c946",
+ "baseType": {
+  "id": 0,
+  "iconPath": "759bef0a8809f95c4e5facbd82dc0acb1d80d016113f6a214b06b7f1c648bd11",
+  "color": "#FFFFFF",
+  "name": "L'Harmonie",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Calice du Bosquet de l'épiphanie, le Bois des murmures",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Échange de braises immortelles"
+   ]
+  },
+  "589819": {
+   "id": 589819,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "69bf4aa00e5ddbe021a76886ed32c9df4e3862e4d247698a30c5adc118b54bbd",
+   "name": "Séquence céleste",
+   "desc": "Séquence mélodique tout droit venue des cieux. Permet d'améliorer modérément les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmonie</span>.",
+   "lore": "Séquence musicale issue de l'ordre. Tombe silencieusement des cieux et se mêle à la cacophonie, tels des grains de sable éparpillés dans le désert.<br /><br />« Personne ne la remarque avant qu'elle allume l'étincelle de l'inspiration... »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/589819",
+   "comeFrom": [
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "673760": {
+   "id": 673760,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "f01e77293741da7aec911b1200d50580dab0b21b79b8f83880dc1a336c313a3d",
+   "name": "Mélodie céleste",
+   "desc": "Mouvement symphonique provenant de l'univers. Permet d'améliorer considérablement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmonie</span>.",
+   "lore": "Musique issue de l'ordre. Résonne discrètement depuis les cieux, noyée dans le silence, telle une étoile solitaire brillant dans une rivière stellaire.<br /><br />« Personne ne la ressent avant qu'elle tombe dans l'oubli... »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/673760",
+   "comeFrom": [
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éther purifié",
+   "desc": "Matériau de renforcement de cône de lumière. Confère 6 <nobr>000</nobr> points d'EXP de cône de lumière.",
+   "lore": "Une bouteille d'éther raffiné par des procédés spéciaux.<br /><br />« Le Jardin se félicite de recréer une gloire passée, mais c'est une \"gloire passée\" qu'ils ont choisie. Tu comprends ? »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Calice d'Acrokopis, les Ruines du Conflit",
+    "Salle oubliée"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éther condensé",
+   "desc": "Matériau de renforcement de cône de lumière. Confère 2 <nobr>000</nobr> points d'EXP de cône de lumière.",
+   "lore": "Une bouteille d'éther raffiné par des procédés spéciaux.<br /><br />« À manier avec précaution, ne pas faire tomber, ne pas appliquer de pression. En cas de dommage ou de fuite, se référer au chapitre II du \"Manuel de prise en charge des désastres\" pour une solution d'urgence. »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Calice d'Acrokopis, les Ruines du Conflit",
+    "Échange de braises immortelles"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éther dilué",
+   "desc": "Matériau de renforcement de cône de lumière. Confère <nobr>500</nobr> points d'EXP de cône de lumière.",
+   "lore": "Substance imaginaire qui ne devrait pas exister dans le monde réel. Il s'agit du matériau de base pour fabriquer les cônes de lumière.<br />Les images des cônes de lumière sont plus nettes avec cette substance.<br /><br />« Je vois... Alors c'est ça la « mémorine » du Jardin de la mémoire. Pas étonnant que les protecteurs de la mémoire puissent embarquer pour des voyages galactiques avec des souvenirs. »",
+   "purpose": "Matériau d'EXP de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calice du Col de Backwater",
+    "Calice de la Commission de divination",
+    "Calice du Rêve d'enfant",
+    "Calice d'Acrokopis, les Ruines du Conflit",
+    "Récompense d'affectation"
+   ]
+  },
+  "874346": {
+   "id": 874346,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "85a0321db47414204147c699efe14b3e37c9cbad9213179aa8d5c2ed1dcfe2d3",
+   "name": "Note du firmament",
+   "desc": "Note éparpillée du firmament. Permet d'améliorer légèrement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Harmonie</span>.",
+   "lore": "Note musicale issue de l'ordre. Tombe silencieusement des nuages et se mêle à la symphonie des sons mortels, telle une goutte fusionnant avec la mer.<br /><br />« Personne ne l'entend avant qu'elle fusionne avec une chanson... »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/874346",
+   "comeFrom": [
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Gémissement retentissant",
+   "desc": "Carapace brisée des Créatures de la Marée noire. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "Des têtes étranges rugissent, des lames brisées continuent de couper, pendant que la source du chaos se dissimule toujours dans l'ombre, enveloppée dans les brumes de la mort.<br /><br />« Pourquoi pleures-tu seul devant la pierre tombale ? »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "Créatures de la Marée noire au niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Présage éthéré",
+   "desc": "Fragment de Créature de la Marée noire. Matériau commun utilisé pour le renforcement.",
+   "lore": "Les désastres arrivent sans crier gare, et quand vous vous en rendez compte, ils sont déjà devenus des désastres qui engloutissent le monde.<br /><br />« Les cloches sonnent pour la fin du destin. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "Créatures de la Marée noire",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Récompenses d'affectation",
+    "Échange de braises",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Lamentation éternelle",
+   "desc": "Cristal formé après la mort de Créatures de la Marée Noire. Matériau avancé utilisé pour le renforcement.",
+   "lore": "Née du néant et destinée à y retourner, cette vie distordue par l'érosion erre sans fin sur des terres désolées.<br /><br />« Son existence n'est que ruine et souffrance. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "Créature de la Marée noire au niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 3517880,
+     "count": 8
+    }
+   ],
+   "attackBase": 28.8,
+   "attackAdd": 4.32,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 21,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 874346,
+     "count": 4
+    },
+    {
+     "id": 3517880,
+     "count": 12
+    }
+   ],
+   "attackBase": 63.36,
+   "attackAdd": 4.32,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 46.2,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 589819,
+     "count": 4
+    },
+    {
+     "id": 3276614,
+     "count": 8
+    }
+   ],
+   "attackBase": 109.44,
+   "attackAdd": 4.32,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 79.8,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 589819,
+     "count": 8
+    },
+    {
+     "id": 3276614,
+     "count": 12
+    }
+   ],
+   "attackBase": 155.52,
+   "attackAdd": 4.32,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 113.4,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 673760,
+     "count": 5
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    }
+   ],
+   "attackBase": 201.6,
+   "attackAdd": 4.32,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 147,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 673760,
+     "count": 10
+    },
+    {
+     "id": 3526997,
+     "count": 8
+    }
+   ],
+   "attackBase": 247.68,
+   "attackAdd": 4.32,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 180.6,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 293.76,
+   "attackAdd": 4.32,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 214.2,
+   "defenseAdd": 3.15
+  }
+ ],
+ "skill": {
+  "id": 23048,
+  "name": "Conquête",
+  "descHash": "Augmente l'ATQ du porteur de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Après avoir utilisé un ultime pour attaquer, récupère <nobr>#3[i]</nobr> point de compétence. Après que le porteur a utilisé une compétence sur un personnage allié, augmente les DGT de compétence infligés par la cible de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> pendant <nobr>#5[i]</nobr> tours.",
+  "levelData": [
+   {
+    "params": [
+     0.64,
+     1,
+     1,
+     0.54,
+     3
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.8,
+     1,
+     1,
+     0.675,
+     3
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.96,
+     1,
+     1,
+     0.81,
+     3
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     1.12,
+     1,
+     1,
+     0.945,
+     3
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     1.28,
+     1,
+     1,
+     1.08,
+     3
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23048"
+}
