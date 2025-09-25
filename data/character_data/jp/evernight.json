@@ -1,0 +1,4675 @@
+{
+ "spRequirement": 240,
+ "iconPath": "2e593e194a7d7b0b015118ab88d955c4dcf87447b2c9f066744457462fd091f5",
+ "bgPath": "b8600b5a2b1969aebb7a82ad8baac4a1e3fd42f78fff6a935214fd05146785d6",
+ "figPath": "d9fc07f44b702ad02abee4da67ab8c7486cdab6237aa40b8f67b6cbbc60c76c5",
+ "fgPath": "fc983dd3a23e569b9f902f162f51ec978759bb056c98aa07472ca37319484b2a",
+ "splashIconPath": "f4f690026403305bc99a3dae3a36dad1cf9c993aea65dbfb5061975cfc09f18f",
+ "splashPlaceholder": {
+  "w": 0,
+  "h": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用ポイント",
+   "desc": "スターピースカンパニーが顧客との決済に使用している貨幣。現在は宇宙旅行をする時の決済通貨となっている。",
+   "lore": "「人々は、端末に表示される数字のためだけに奔走し、戦い、取引をする。しかし、本当に大切なものは、カンパニーの数字で買えるものではない」",
+   "purpose": "星間通貨",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "疑似花萼「大鉱区」",
+    "疑似花萼「工造司」",
+    "疑似花萼「ホテル・『レバリー』-夢境」",
+    "疑似花萼「『囁きの密林』神悟の樹庭」",
+    "クエスト報酬",
+    "依頼報酬",
+    "エンバー交換"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "運命の足跡",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "幾度の敗北があなたに勝利をもたらし、一歩一歩の前進があなたを運命の転換点へと導いた。",
+   "purpose": "軌跡素材",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「模擬宇宙」ポイント報酬",
+    "ナナシの勲功",
+    "エンバー交換",
+    "星芒交換",
+    "期間限定イベント報酬"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫遊指南",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>20000</nobr>獲得できる。",
+   "lore": "世界を渡り歩くためには欠かせない、冒険手引き集。閲覧キーを押すと、電子音声が理解可能な言語で、有名な冒険者たちが様々な世界で体験したことや、彼らが色々な星で得た貴重な知識を語り聞かせてくれる。<br /><br />「漫遊指南最新シリーズ『スペースグルメガイド』が現在発売中。ぜひお買い求めください」<br />「投稿の際は、博識学会共感覚ビーコンのオペレーター<nobr>23</nobr>θにお繋ぎください。原稿料はあなたが普段から利用している方法でお振込みいたします」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "「忘却の庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒険記録",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>5000</nobr>獲得できる。",
+   "lore": "綺麗に装丁された、一目でためになるとわかる冒険日誌。冒険に関する細かい描写、価値のある情報、サバイバル術が書かれている。<br /><br />「なんで数字化してデバイスに保存しないの？持ち歩きやすくなるでしょ」<br />「お前が思っているより、先進技術は恒星嵐や中性子噴出に弱いんだ。なにより、この本の制作者は、最も簡単な方法で人々に読んでもらいたかったんだろう」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "デイリー訓練",
+    "エンバー交換"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅の見聞",
+   "desc": "キャラクターの経験値素材、キャラクター経験値を<nobr>1000</nobr>獲得できる。",
+   "lore": "旅の出来事を記した日記。字はかすれており、不鮮明。思うままに内容が書かれてあるので、あまり助けにはならないだろう。<br /><br />「読み終わったら早くその紙切れを捨てるのよ、丹恒？」",
+   "purpose": "キャラクター経験値素材",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "疑似花萼「郊外雪原」",
+    "疑似花萼「流雲渡し」",
+    "疑似花萼「ドリームボーダー」",
+    "疑似花萼「『神託の聖地』ヤヌサポリス」",
+    "依頼報酬"
+   ]
+  },
+  "554722": {
+   "id": 554722,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "c73f7c95477c413116ae2315f55567473f4fd49d28ed37983d40adad50141294",
+   "name": "遥かなる陽雷の想い",
+   "desc": "軌跡レベルアップ用の高級素材。",
+   "lore": "人の子が晶核を飲んだ時、彼らは心を感じる能力を失ってしまった。それ以来、星と月の循環と大地を見守ることが、彼らの唯一の使命となった。<br />彼らは生命を大切にし続けていたが、もはや隣人を命として認識することもできなくなった。<br /><br />「大地を這い、蒼に触れようとするも、空に浮かんだ時に気づくのだ。草の香りは何ものにも代えがたいと…」",
+   "purpose": "軌跡素材",
+   "rarity": 4,
+   "rewardPath": "/material/554722",
+   "comeFrom": [
+    "歴戦余韻「『天穹要塞』晨昏の目」"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "遠くから近づく悲鳴",
+   "desc": "暗黒の潮の造物の肉体を構成する部分。強化に必要な普通素材。",
+   "lore": "不気味な頭部が雄叫びをあげ、折れた刃はすべてを断ち切る。しかし、それでも災いの源は暗闇に埋もれ続け、死の陰影に覆われている。<br /><br />「なぜ墓前で1人涙を流しているのか？」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "均衡Lv.2に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "あるようでない予兆",
+   "desc": "暗黒の潮の造物の体から落ちた欠片。強化に必要な簡易素材。",
+   "lore": "不運の訪れは常に予兆がないものだ。気づいた時には、それはすでに世界を席巻する災いとなっている。<br /><br />「弔鐘は運命の終わりで鳴り響く」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "暗黒の潮の造物からドロップ",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "依頼報酬",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換",
+    "疑似花萼（金）"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "果てしなく続く悲嘆",
+   "desc": "暗黒の潮の造物の死後に凝縮した結晶体。強化に必要な高級素材。",
+   "lore": "無より生まれ、再び無へと帰る。侵蝕によって創られた歪んだ生命は、不毛の大地を彷徨い続ける宿命にあるのだ。<br /><br />「その生命は破滅と悲哀に満ちていた」",
+   "purpose": "軌跡素材 <br />キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "均衡Lv.4に達した後、暗黒の潮の造物からドロップ",
+    "「万能合成マシン」- 素材合成",
+    "「階差宇宙」で敵からドロップ",
+    "「模擬宇宙」で敵からドロップ",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "マナの苗",
+   "desc": "記憶の細胞は思惟を抽出し、銘を刻む者の心の奥深くに根付く。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を中アップできる。",
+   "lore": "種子は発芽すると枝芽が交錯してシナプスのように信号を伝達する。時の流れの中で枝葉の一部は枯れていき、一部は生命を育んで魂の器となる。<br /><br />「我々は肉体を捨てたのではない…より長く生きる何かになっただけである」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "「万能合成マシン」- 素材合成",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "アラヤの花",
+   "desc": "生命のもう1つの存在方法、宇宙が忘れえぬ物質。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を大アップできる。",
+   "lore": "成熟すると歴史を搦めとる網となり、過ぎ去りし時間の花となる。生命は種にとって畑であり花芯でもある。もしあなたが花芯なら、あなたは宇宙を記憶し、宇宙はあなたを記憶するだろう。あなたが記憶そのものなのだ。<br /><br />「記憶は万物の実体である。煩悩なき浄土に生も死もあらず」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "「万能合成マシン」- 素材合成",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "イの種",
+   "desc": "意識と物質が交わり、記憶の卵を生み出す。<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">記憶</span>の運命を歩むキャラクターの軌跡を小アップできる。",
+   "lore": "あなたが何かを見聞きして何かを感じるまでは存在しないもの。感じ取ることで生まれたそれはやがて沈黙して思考の苗床に埋もれていく。いつか芽を出すかもしれないし、芽を出さないかもしれない。<br /><br />「それは私たちの身体を構成し、あなたが記憶するからこそ存在できる」",
+   "purpose": "軌跡素材 <br />光円錐昇格素材",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "疑似花萼「『紛争の爪痕』クレムノス」",
+    "エンバー交換",
+    "「万能合成マシン」- 素材交換"
+   ]
+  },
+  "29909894": {
+   "id": 29909894,
+   "type": 652,
+   "purposeId": 2,
+   "iconPath": "eb62bd7c1f6c4aec2d60ec38db9d09847728f3b675f5c0de0534073d925b0fdc",
+   "name": "セイレーンのひれ",
+   "desc": "波濤の夫人の遺したトゲ状の尾びれ。氷属性キャラクターの昇格素材。",
+   "lore": "海の娘たちは丸みを帯びた長い尾を持つ。それは暗夜の海に微かな光を放ち、灯台のように迷える漁師たちを岸へ導いた。だが今では、その肉は朽ち、鋭い骨が名残としてあるばかり。その鋭利な切っ先は、かつて守り導いた人々の胸を刺し貫いている。<br /><br />「スキアナ海の狂犬波は時に千メートルにも達する——海の本質が、慈母などであろうはずもない」",
+   "purpose": "キャラクター昇格素材",
+   "rarity": 4,
+   "rewardPath": "/material/29909894",
+   "comeFrom": [
+    "凝結虚影「{TextID#FloorName_20451001}」",
+    "「万能合成マシン」- 素材交換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 73.92,
+   "attackAdd": 3.696,
+   "hpBase": 179.52,
+   "hpAdd": 8.976,
+   "defenseBase": 79.2,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 3517880,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 103.488,
+   "attackAdd": 3.696,
+   "hpBase": 251.328,
+   "hpAdd": 8.976,
+   "defenseBase": 110.88,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 3517880,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 133.056,
+   "attackAdd": 3.696,
+   "hpBase": 323.136,
+   "hpAdd": 8.976,
+   "defenseBase": 142.56,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 3276614,
+     "count": 6
+    },
+    {
+     "id": 29909894,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 162.624,
+   "attackAdd": 3.696,
+   "hpBase": 394.944,
+   "hpAdd": 8.976,
+   "defenseBase": 174.24,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 3276614,
+     "count": 9
+    },
+    {
+     "id": 29909894,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 192.192,
+   "attackAdd": 3.696,
+   "hpBase": 466.752,
+   "hpAdd": 8.976,
+   "defenseBase": 205.92,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    },
+    {
+     "id": 29909894,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 221.76,
+   "attackAdd": 3.696,
+   "hpBase": 538.56,
+   "hpAdd": 8.976,
+   "defenseBase": 237.6,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 3526997,
+     "count": 9
+    },
+    {
+     "id": 29909894,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 251.328,
+   "attackAdd": 3.696,
+   "hpBase": 610.368,
+   "hpAdd": 8.976,
+   "defenseBase": 269.28,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "c37dbedcf2838f008525f2917b6ff99ff9ca7b15268f6b46d9c9bb046431ea48",
+   "artPath": "5bf94896c4cc8bac4f756e0829083803090e2870c25a4c092a57341cac0cabb7",
+   "name": "眠って、<br />長い夜にはいい夢を",
+   "descHash": "長夜月がフィールド上にいる時、フィールド上にいる敵の数が4体以上/3/2/1の場合、味方の記憶の精霊が与えるダメージは本来のダメージの<nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>/<nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr>分になる。",
+   "params": [
+    1.2,
+    1.25,
+    1.3,
+    1.5
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "f184bbdd43c8bf736fb177bd1f78a7ce8b3398324b23589fc342593756a30b76",
+   "artPath": "ba1c7c9e42d46d6987663fcb117257885139356c924473d818e6661cdd10672d",
+   "name": "耳を澄まして、<br />眠りの中のささやきに",
+   "descHash": "長夜月と記憶の精霊「長夜」の会心ダメージ+<nobr>#3[i]%</nobr>。長夜月が「憶質」を獲得するたびに、獲得する「憶質」の数+<nobr>#1[i]</nobr>。必殺技を発動する時、追加で「至暗の謎」のチャージを<nobr>#2[i]</nobr>獲得する。",
+   "params": [
+    2,
+    2,
+    0.4
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "869696324b4fd8639d33ec927d79e6ab25b67376e04d7876fb89172c2fc6e521",
+   "artPath": "36a7dc350a7eaddf08d48d3919bcee84e9681739e6fdcc71eed357212afcbdaf",
+   "name": "大丈夫、<br />悪夢はもう過ぎ去った",
+   "descHash": "戦闘スキルのLv.+2、最大Lv.<nobr>15</nobr>まで。通常攻撃のLv.+1、最大Lv.<nobr>10</nobr>まで。精霊天賦のLv.+1、最大Lv.<nobr>10</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "7006a03202489a29c2f420926860a9305b03dab9629f741be5e07355487af8f3",
+   "artPath": "e960a47c2c23941e4abefd297a1b16c517ac0a89a0a243d424abec994f0a1c80",
+   "name": "起きて、<br />アンタの明日が訪れる",
+   "descHash": "長夜月がフィールド上にいる時、味方の記憶の精霊の弱点撃破効率+<nobr>#1[i]%</nobr>、記憶の精霊「長夜」の弱点撃破効率はさらに+<nobr>#2[i]%</nobr>。",
+   "params": [
+    0.25,
+    0.25
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "3b6e41839b96a7a68896788c280a31d6ad5ce1a2326f88733bb7ad7a02d39e9f",
+   "artPath": "597afc8efac402263c92b2c01982a64399cc347ee026a4327cd16f039f387194",
+   "name": "忘れて、<br />記憶の中のアタシを",
+   "descHash": "必殺技のLv.+2、最大Lv.<nobr>15</nobr>まで。天賦のLv.+2、最大Lv.<nobr>15</nobr>まで。精霊スキルのLv.+1、最大Lv.<nobr>10</nobr>まで。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "323855fdd164a2a120c02e25c8fd1e678f6f978795fefb867a82eb8e0f8f65bb",
+   "artPath": "c345847313872d94fcc3e054e2a5753a7388a5634188ccd38d57fb781e565777",
+   "name": "このまま、ずっと",
+   "descHash": "長夜月がフィールド上にいる時、味方全体の全属性<u>耐性貫通</u>+<nobr>#2[i]%</nobr>。記憶の精霊「長夜」が「露のように儚い夢」を発動した後、長夜月はその回の攻撃で消費された「憶質」の<nobr>#1[i]%</nobr>分を獲得する。",
+   "params": [
+    0.3,
+    0.2
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   21686950
+  ],
+  [
+   21939286,
+   21857731
+  ],
+  [
+   21665401
+  ],
+  [
+   21586027
+  ],
+  [
+   21880368
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "単体攻撃",
+   "descHash": "指定した敵単体に長夜月の最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与える。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 21686950,
+   "name": "歳月はここより霞む",
+   "iconPath": "472d22198eab3822464e41261c4b88b87bf988543f62beac59e32e365f5a9344",
+   "typeDescHash": "通常攻撃",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "召喚",
+   "descHash": "長夜月の残りHP<nobr>#6[i]%</nobr>分のHPを消費して、<u>記憶の精霊</u>「長夜」を<u>召喚</u>する。味方の記憶の精霊全体の会心ダメージが長夜月の会心ダメージ<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分アップする、<nobr>#2[i]</nobr>ターン継続、長夜月のターンが回ってくるたびに継続時間-1ターン。長夜がすでにフィールド上にいる場合、長夜のHPをその最大HP<nobr>#4[i]%</nobr>分回復する。<br />このスキルを発動する時、「憶質」を<nobr>#3[i]</nobr>獲得する。「至暗の謎」状態の場合、追加で「憶質」を<nobr>#5[i]</nobr>獲得する。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 21939286,
+   "name": "白昼は静かに去る",
+   "iconPath": "869696324b4fd8639d33ec927d79e6ab25b67376e04d7876fb89172c2fc6e521",
+   "typeDescHash": "戦闘スキル",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.12,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.132,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.144,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.156,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.168,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.195,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.252,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.264,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.276,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.288,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "全体攻撃",
+   "descHash": "<u>記憶の精霊</u>「長夜」を<u>召喚</u>する。その後、長夜は敵全体に自身の最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与え、長夜月は「至暗の謎」状態に入る。「至暗の謎」状態中、敵全体の受けるダメージ+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>、長夜月と長夜の与ダメージ+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>、<u>行動制限系デバフ</u>に抵抗できるようになる。また、「至暗の謎」のチャージを<nobr>#2[i]</nobr>獲得する。長夜が「露のように儚い夢」を発動した後、チャージを1消費する。長夜月のターンが回ってきた時、チャージがない場合、「至暗の謎」状態が解除される。",
+   "ultimateCost": 240,
+   "break": "90/hit",
+   "energy": "5",
+   "id": 21665401,
+   "name": "眠れぬ世界に永き眠りを",
+   "iconPath": "5ab01c30e46738f773e5eb77cc088b8fe2b8f71023b2159956ed45d7ed165869",
+   "typeDescHash": "必殺技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      2,
+      0.3,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.1,
+      2,
+      0.33,
+      0.165
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.2,
+      2,
+      0.36,
+      0.18
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.3,
+      2,
+      0.39,
+      0.195
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.4,
+      2,
+      0.42,
+      0.21
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1.5,
+      2,
+      0.45,
+      0.225
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1.625,
+      2,
+      0.4875,
+      0.24375
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.75,
+      2,
+      0.525,
+      0.2625
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1.875,
+      2,
+      0.5625,
+      0.28125
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      2,
+      0.6,
+      0.3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2.1,
+      2,
+      0.63,
+      0.315
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.2,
+      2,
+      0.66,
+      0.33
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.3,
+      2,
+      0.69,
+      0.345
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.4,
+      2,
+      0.72,
+      0.36
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2.5,
+      2,
+      0.75,
+      0.375
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "強化",
+   "descHash": "戦闘に入る時、<u>記憶の精霊</u>「長夜」を<u>召喚</u>する。長夜の初期速度は<nobr>#4[i]</nobr>、初期最大HPは長夜月の最大HP<nobr>#5[i]%</nobr>分となる。長夜月または長夜のHPが減少するたびに、長夜月と長夜の会心ダメージ+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>、<nobr>#3[i]</nobr>ターン継続。同時に、「憶質」を<nobr>#1[i]</nobr>獲得する。この効果はそれぞれが攻撃を受けるたびに最大で1回発動できる。<br />長夜月の「憶質」が<nobr>#6[i]</nobr>以上になった時、<u>行動制限系デバフ</u>を解除し、抵抗できるようになる。その時、長夜がフィールド上にいる場合、長夜を即座に行動させる。なお、即座に行動させる効果は長夜が再び「露のように儚い夢」を発動するまで発動できない。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 21586027,
+   "name": "今夜、アタシと共に",
+   "iconPath": "25c7a84339600a576c372e13d2946ffc3450560cde5eda18d4377b03f67672fa",
+   "typeDescHash": "天賦",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      0.3,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.33,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.36,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.39,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.42,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.45,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.4875,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.525,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.5625,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.6,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.63,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.66,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.69,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.72,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.75,
+      2,
+      160,
+      0.5,
+      16,
+      0.05
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 21564420,
+   "name": "攻撃",
+   "iconPath": "472d22198eab3822464e41261c4b88b87bf988543f62beac59e32e365f5a9344",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "サポート",
+   "descHash": "秘技を使用した後、次の戦闘開始時に戦闘スキルと同様の、味方の記憶の精霊全体の会心ダメージをアップする効果を獲得し、「憶質」を<nobr>#1[i]</nobr>獲得する。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 21880368,
+   "name": "冷たい雨を願って",
+   "iconPath": "8643cb1cbca56f5cc6a694f7c5a9721f5b54c2f08b5e37a375c13b488060024e",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "サポート",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 21857731,
+   "name": "白昼は静かに去る",
+   "iconPath": "869696324b4fd8639d33ec927d79e6ab25b67376e04d7876fb89172c2fc6e521",
+   "typeDescHash": "戦闘スキル",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.2,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.22,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 3517880,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 3517880,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.26,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 3276614,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.28,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 3276614,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 3276614,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.325,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 3526997,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 3526997,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.375,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.42,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.44,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.46,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.48,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.5,
+      2,
+      2,
+      0.5,
+      12,
+      0.1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1413101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1413204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 16383573,
+      "name": "会心ダメージ強化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "会心ダメージ",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1413205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 16613447,
+      "name": "会心率強化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "長夜月と記憶の精霊「長夜」の会心率+<nobr>#1[i]%</nobr>。スキルを発動する時、自身の残りHPを<nobr>#2[i]%</nobr>分消費し、長夜月と長夜の会心ダメージ+<nobr>#3[i]%</nobr>、<nobr>#4[i]</nobr>ターン継続。長夜が「露のように儚い夢」を発動した後、味方のSPを1回復する。",
+    "ultimateCost": 0,
+    "id": 16392422,
+    "name": "暗い夜の孤独な月",
+    "iconPath": "bbaa4d4f33432fa269d83087c01949a4062c20cd5a829bcdad2d60aa54c0587e",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       0.35,
+       0.05,
+       0.15,
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1413102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1413206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 16339505,
+      "name": "HP強化",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1413207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 16606255,
+      "name": "会心率強化",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 3526997,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "戦闘開始時、長夜月はEPを<nobr>#2[i]</nobr>回復し、「憶質」を<nobr>#3[i]</nobr>獲得する。長夜月または味方の記憶の精霊がスキルを発動する時、長夜月はEPを<nobr>#4[i]</nobr>回復し、「憶質」を<nobr>#1[i]</nobr>獲得する。",
+    "ultimateCost": 0,
+    "id": 16667351,
+    "name": "蝋燭は灯り、そして消える",
+    "iconPath": "103aca8ccdc949b0eb4471cb27e221ef2e794c68b7555bef70a8ca47bfefba82",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1,
+       70,
+       1,
+       5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1413103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1413208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1413209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1413210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 33088527,
+          "name": "会心率強化",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "会心率",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 3526997,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 16570374,
+        "name": "HP強化",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 3526997,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 16332306,
+      "name": "会心ダメージ強化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "会心ダメージ",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 3526997,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "パーティに「記憶」の運命を歩むキャラが1/2/3/4名またはそれ以上いる場合、長夜月の戦闘スキルの継続期間中、味方の記憶の精霊全体の会心ダメージをさらに<nobr>#1[i]%</nobr>/<nobr>#2[i]%</nobr>/<nobr>#3[i]%</nobr>/<nobr>#4[i]%</nobr>アップさせる。",
+    "ultimateCost": 0,
+    "id": 16614587,
+    "name": "夜明けに降り出す雨",
+    "iconPath": "e694c39920a9b452f65844b3a20b3b0f45bac265137037fc4411e259d32eeafd",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.05,
+       0.15,
+       0.5,
+       0.65
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1413201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1413202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 16391048,
+      "name": "HP強化",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 3517880,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1413203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 16657532,
+      "name": "会心率強化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "会心率",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 16664984,
+    "name": "会心率強化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "会心率",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 3517880,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初対面",
+   "text": "オンパロスの3月は「永夜の帳」の時間で、「長夜の月」って呼ばれてる…だからそれにちなんで、アタシのことは「長夜月」って呼んで。歳月の隙間に隠れれば時間はたっぷりあるから、しっかり記憶に刻んでおいてね♭",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "挨拶",
+   "text": "運命的な出会いだよね。そう思わない？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "お別れ",
+   "text": "またね。ふふ…緊張しないで、その時が来たらまた会えるかもしれないって意味だよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "自分について・「長夜月」",
+   "text": "アタシは忘れられた過去であり、「あの子」に寄り添う長夜でもある。残酷な過去を引き受け、あの子の未来を守るの…たとえどんな代償を払ってでもね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "自分について・「三月なのか」",
+   "text": "「三月なのか」って、本当にいい名前だね。可愛くて、明るくて、面白くて…ちょっと誕生日っぽいところもいい。だから、なのかもきっと「長夜月」って呼び名を気に入ってくれるよね……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "自分について・経験したこと",
+   "text": "なのかはアンタたちよりもずっと早くオンパロスに来て、アンタたちが来るまでの間に、蝋燭の炎みたいに自分自身を燃やし尽くした。アタシはその炎が落とした影みたいな存在で、「歳月」の隙間に身を潜めながらアンタたちが来るのを待ってたの。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "世間話・「霞空のメイデン」",
+   "text": "「霞空のメイデン」って知ってるよね？ふふ…うん、すっごく気に入ってる。あれの魅力に逆らえる人なんていないんじゃない？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "世間話・オロニクス",
+   "text": "オロニクスはかつて何度もアタシたちを呼び、寄り添おうとしていた。けど、何度も歳月の夢に落ちていくうち、繰り返す輪廻の中で自分を見失ってしまった。はあ…本当に同情するよ。記憶の影という存在も、記憶の移ろいや忘却に耐え続けるだけで、本当の記憶を生み出すことはできないからね。それがどれだけ怖いことか…アタシはよく知ってる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "世間話・写真",
+   "text": "露出オーバーの写真は腐った果物みたいなものだよ。それがどんなに素敵でも、結局は捨てるしかない。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "趣味・傘",
+   "text": "どうしていつも傘を持ってるのかって？ふふ…美しい記憶が止まない雨みたいなものだからかな。たとえ傘に触れても、なんの痕跡も残さずに流れていくから…あ、もちろん写真映えするからっていう理由もあるよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "悩み事",
+   "text": "ふふ…いいよね、アンタたちはいつもあの子とお喋りできるんだから。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "シェア",
+   "text": "オンパロス——それは神々と輝きを競い合う、悲劇の宝石。その煌めきはあまりにも見事で、記憶を貪る盗人たちを惹きつけてしまった。でも、アタシにはわかる。「歳月」たちはもう傷だらけで、心から「忘却」を望んでるんだって。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "見聞",
+   "text": "アタシは「三月なのか」のいろんな未来を想像してきた。「純美」のミラーホルダーになってたり、「巡狩」のレンジャーになってたり…あと、「壊滅」の大君になった未来まで想像してみたり。でも、それらはみんな既にある記憶でしかなくて、あの子はいつだって想像を超えた驚きを届けてくれた。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "開拓者について",
+   "text": "もし「星核」の力が解き放たれたら、一体どんなことが起こるんだろう…アンタが時を遡る？それとも自分の「記憶」を取り戻す？…ふふ、気になるね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "丹恒について",
+   "text": "アンタたちと一緒に旅をした日々は、もうとっくに彼の心に消えない痕を刻んでるよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "三月なのかについて",
+   "text": "あの子にとって最高の未来は、アタシが完全に消える日が来ることなの。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "キュレネについて・1",
+   "text": "永遠に変わらない真理を教えるから、よく覚えておいて——ピンク髪の女の子は、みんなただ者じゃないの。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "ブラックスワンについて",
+   "text": "アタシを見ても取り乱さないメモキーパーなんて、片手で数えるほどしかいない。もしかしたら彼女…もっと恐ろしい何かを見たことがあるのかもね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "アグライアについて",
+   "text": "彼女は優秀なラプティスだった。オンパロスのためにもっとたくさんの思い出を紡ぐべきだったのに…結局はその未来を見届けることも叶わなかった。アタシだったら悔やんでも悔やみきれないと思う。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "トリビーについて",
+   "text": "「また明日」——それは誰にとってもささやかで、贅沢な願いなんだよね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "モーディスについて",
+   "text": "王位継承者としても戦士としても、彼は背負いきれないほど多くの憎しみの記憶を抱えてる。でも自分の責務を果たす時、彼が過去と未来を混同したことは一度もない。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "キャストリスについて",
+   "text": "彼女が育てたあの花の海は、感覚の雨に耐えられるのかな？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 23,
+   "title": "アナイクスについて",
+   "text": "「大地獣と世界の真実が同時に海に落ちたら、どっちを先に助けるの？」って、前から聞いてみたかったんだよね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 24,
+   "title": "ヒアンシーについて",
+   "text": "晴れの日はイライラするけど、彼女の優しい光なら、アタシでも心地よく感じられる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 25,
+   "title": "サフェルについて",
+   "text": "1つの美しい嘘は、たしかに幾千万の残酷な真実よりも価値があると思う。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 26,
+   "title": "ファイノンについて",
+   "text": "無数の輪廻の中で、彼はいつも何もないところから始まり、同じ結末へと向かっていった。…アタシとなのかの運命は、いつか違う道を辿れるのかな？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 27,
+   "title": "ケリュドラについて",
+   "text": "あの「天才」を打ち負かしちゃうなんて、やっぱり戦略ゲームの達人は侮れないね…機会があったら一度勝負してみたいな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 28,
+   "title": "セイレンスについて",
+   "text": "彼女は美しい泡みたいな存在だね。弾けるその瞬間でさえ、琴線の上に落ちる震音のように、人の心を揺さぶるんだ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 29,
+   "title": "ヴェルトについて",
+   "text": "アタシには見える——かつて英雄だった頃に灯していた炎は、今も胸の内で静かに燃えてる。彼のような経験豊富な先輩がいてくれて、アタシも安心だよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 30,
+   "title": "姫子について",
+   "text": "大人っぽくて、優雅で、濃い香りを放つバラのような人…なのかはいつも彼女をお手本にしてる。列車が星空の奥へと進んだ時…彼女は未来でどんな花を咲かせてるんだろう？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 31,
+   "title": "パムについて",
+   "text": "一度でいいからパムに触ってみたいな。でも、あの謎めいた「車掌」さんはきっと、大人しく触らせてはくれないんだろうね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 32,
+   "title": "荒笛について",
+   "text": "生命を永続させるものは、少なくとも記憶じゃない。記憶が残せるのは結局のところ、朽ち果てた過去だけだからね。荒笛は自ら進んで後世の礎になって、この世界に絶え間なく受け継がれていく贈り物を残してくれた。",
+   "unlockRequirement": "開拓クエスト「神々よ、再創紀の凱歌を奏でよ」をクリアした後に解放",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 33,
+   "title": "キュレネについて・2",
+   "text": "アタシがもたらした予想外の「雨」が、彼女の望み通り…荒れ果てた歳月にいろんな花を咲かせますように♭",
+   "unlockRequirement": "開拓クエスト「神々よ、再創紀の凱歌を奏でよ」をクリアした後に解放",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 34,
+   "title": "星魂覚醒",
+   "text": "過去を覗いてる時は、過去もまたこっちを覗いてるんだよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 35,
+   "title": "キャラクター昇格",
+   "text": "記憶の種は、雨の中で芽吹く。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 36,
+   "title": "レベルMax",
+   "text": "キラキラした花は、生まれたばかりの夢。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 37,
+   "title": "軌跡覚醒",
+   "text": "せっかく長い道を歩いてきたんだし、何かの記念を残しておきたくない？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 38,
+   "title": "パーティ編成・開拓者",
+   "text": "アタシたちに出くわした敵は、ツイてないね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 39,
+   "title": "パーティ編成・三月なのか（存護）",
+   "text": "また会えてよかった。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 40,
+   "title": "パーティ編成・三月なのか（巡狩）",
+   "text": "おお…仙舟の衣装だ。アタシも着てみたいな♭",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 41,
+   "title": "パーティ編成・丹恒",
+   "text": "信じて。お仲間はちゃんと守るから。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 42,
+   "title": "パーティ編成・丹恒・騰荒",
+   "text": "あれ、もしかして今回の敵ってやばいの？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 43,
+   "title": "パーティ編成・姫子",
+   "text": "おお…なのかが一番尊敬してる姫子だ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 44,
+   "title": "パーティ編成・ヴェルト",
+   "text": "あっ、来てくれたんだ。やっぱりヨウおじちゃんは頼りになるね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 45,
+   "title": "パーティ編成・サンデー",
+   "text": "「調和」の旋律もたまにはいいよね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 46,
+   "title": "パーティ編成・ブラックスワン",
+   "text": "これからの記憶は…ちょっと刺激的になるかも♭",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 101,
+   "title": "戦闘開始・弱点撃破",
+   "text": "逃げられないよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 102,
+   "title": "戦闘開始・危険予知",
+   "text": "すぐおとなしくさせてあげる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 103,
+   "title": "ターン・1",
+   "text": "さてと、おふざけはおしまい。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 104,
+   "title": "ターン・2",
+   "text": "長夜っていい夢を見るのにぴったりなの♭",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 105,
+   "title": "戦闘中待機",
+   "text": "はあ…考えすぎ。アタシがいるでしょ？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 106,
+   "title": "通常攻撃",
+   "text": "ふふ…覚えといて。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 107,
+   "title": "戦闘スキル・1",
+   "text": "みんなをしっかりもてなして。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 108,
+   "title": "戦闘スキル・2",
+   "text": "ほら、出番だよ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 109,
+   "title": "攻撃を受ける",
+   "text": "いった……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 110,
+   "title": "重撃を受ける",
+   "text": "やるじゃん……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 111,
+   "title": "必殺技・アクティブ",
+   "text": "大丈夫、目を閉じて……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 112,
+   "title": "必殺技・発動",
+   "text": "もうすぐ夜が来る…ふふ、しーっ、おやすみ。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 113,
+   "title": "天賦・1",
+   "text": "夜が明ける、起きて。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 114,
+   "title": "天賦・2",
+   "text": "みんな、さよなら。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 115,
+   "title": "戦闘不能",
+   "text": "守れ…なかった……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 116,
+   "title": "戦闘に戻る",
+   "text": "まだ手放したくない。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 117,
+   "title": "HP回復",
+   "text": "今度お返ししてあげる。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 118,
+   "title": "秘技",
+   "text": "いい子にしてね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 119,
+   "title": "戦闘勝利",
+   "text": "ま、悪くない思い出にはなったかな。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 120,
+   "title": "戦利品を開ける・1",
+   "text": "これまでのやつと比べてどう？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 121,
+   "title": "戦利品を開ける・2",
+   "text": "写真撮る？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 122,
+   "title": "貴重な戦利品を開ける",
+   "text": "キラキラしてる。あの子なら好きそう。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 123,
+   "title": "謎解きに成功・1",
+   "text": "やっぱりアタシのほうが上手だったでしょ？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 124,
+   "title": "謎解きに成功・2",
+   "text": "あいかわらずワンパターンだね。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 125,
+   "title": "敵ターゲット発見",
+   "text": "せっかくのいい雰囲気が台無し。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 126,
+   "title": "町に戻る",
+   "text": "ここであったこと、帰ったらちゃんとなのかに言ってね？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "キャラクター詳細",
+   "text": "世界から隔離された記憶域で、蝋燭の炎は過去を照らし、霧の中で静かに消えていく。<br />その影より生まれし記憶の子——長夜月、「歳月」の火種を隠す黄金裔。「忘却」の波を巻き起こし、鏡に映る人の願いを守る者である。<br />——「安心して。アンタの『開拓』の道はアタシが守ってあげる…どんな代償を払ってでも♭」",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "ストーリー・1",
+   "text": "「親愛なるなのかへ<br /><br />アンタと会うって考えると、朝露に濡れた光を見るみたいに胸が高鳴るの。<br />だからってそのままアンタの前に現れちゃったのは、ちょっと焦り過ぎだったかな。フェロモンのおかげで幻覚だと思ってくれて助かったよ。<br /><br />こんなふうに近づけたのは、アンタが自分の過去を探ろうとしてた時以来かな。あの頃と比べて、また少し成長したみたい。<br />アンタと仲間たち——開拓者、丹恒、姫子、ヴェルト、それからあの騎士さんで力を合わせて戦ってたっけ…あんなに強大な敵が相手じゃ、さすがのアタシでも少しは手こずったかもね♭<br /><br />記憶って不思議だよね。気づいたら、アンタの旅はこんなに長く続いてた。<br /><br />今でも脳裏に焼き付いてる。数えきれないほどの貪欲な瞳が、瞬く星痕の向こうからこの身を覗き込み、秘密を狙っていたこと。<br />追手の網を逃れても、ガーデンからは逃れられない。その鏡が反射する光はいつもすぐ後ろを追ってきて、雨も、霧も、涙さえ、その光に触れればたちまちのうちに消えてしまう。<br /><br />だけど、だったらどこまで逃げたら『過去』を…『アタシ』を振り払えるの？<br />感情を失くした標本、どこにあるとも知れない『純美』まで？<br />永遠に漂い、帰ることを知らぬ『巡狩』まで？<br />それとも、血と涙が混じり、憎しみで満ちた『壊滅』まで？<br />……<br /><br />そんな中で、はるか遠くから差し込んだ眩い光で視界が真っ白になった。<br />あの瞬間、アタシは閃いた。<br />——アンタに必要だったのは、空白の『始まり』だってね。だから、アタシは目を閉じたんだよ。<br /><br />ようやくこれを伝えられるね——あの時見たのは流星のように眩い、列車のライトだったんだ。<br /><align=\"right\">アンタの『長夜月』より♭」</align><br /><br /><align=\"right\">——心奥に秘められた声</align>",
+   "unlockRequirement": "キャラLv.<nobr>20</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・2",
+   "text": "「親愛なるなのかへ<br /><br />永夜の帳は下りた。だから安心して眠りなよ。<br /><br />アンタの大事な人たちの軌跡は、アタシが代わりに記録しておいてあげる。<br />いつか目覚めた時に、どれを覚えて、どれを忘れてしまうか、アンタ自身で決めるといいよ。<br /><br />千々に砕けた少女は、アンタの助けがあってようやく旅に出られた。<br />でも、その先にあるのはやっぱり同じような運命。彼女たちは人々に火を追う神託を告げたけど、そのほとんどは血と炎の紛争に命を散らしてしまった。<br />……<br />美しき歌声の剣旗は、炎冠の女皇と共に神殺しの幕を開く。<br />けれど勝利の宴も、助け合った絆も、結局は神々に踏みにじられ、泡のように消えてしまった。<br />……<br />もしもこの日々を火を追う旅の記録として綴ったのなら、そこにあるのは徒労の言葉と枯れた花ばかりなんだろうね。<br /><br />もしもアンタがそれを見てたら、きっと命をかけて仲間のために『開拓』を繰り返して、未知に向かって何度だって突き進んだんじゃないかな。<br />あの時、アタシに助けを求めたみたいに、ね？<br /><br />『記憶』の力で悲しみの歳月を癒すよ。<br />まだ辿り着いてない仲間たちのことも任せて。アタシがメモスナッチャーから守ってあげる。<br /><br />アンタの心にはずっと揺るぎない信頼がある。仲間たちが英雄たちと手を携えて、徒労に終わるはずだった悲劇の結末を書き換えてくれる。<br />そして「開拓」は、訪れたすべての世界に変化をもたらすっていう信頼がね。<br /><br />おやすみ、なのか。<br />アンタの目覚めに…美しい結末の「未来」をプレゼントできたらいいって思ってるよ♭<br /><align=\"right\">アンタの『長夜月』より♭」</align><br /><br /><align=\"right\">——心奥に秘められた声</align>",
+   "unlockRequirement": "キャラLv.<nobr>40</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・3",
+   "text": "「親愛なるなのかへ<br /><br />なんだか夜が長く感じるよ…これもアンタの声が聞こえないからかな？<br /><br />眠ってて正解かもね。おかげでアンタはこの暗くてうすら寒いオンパロスを見なくて済むんだもの。アンタが最初に足を踏み入れたこの遺跡は、なかでも一番容赦ない忘却の気配に埋もれてる。<br /><br />この場所から際限のない悪夢が湧き出て、銀河を呑み込もうとしてる…そんなの、アンタはきっと見たくないよね。<br />いつかの戸惑いみたいに——記憶に支配された「過去」からじゃ、新しい「未来」なんて生まれっこない。<br /><br />3千万もの輪廻の間、あの少女は徒労ばかりの記憶を集め、記憶を司る天外の神に祈りを捧げ続けた。<br />でも、あの傷だらけの記憶や、『英雄譚』を騙る記憶のさざ波、そのどれもが壊滅を燃え上がらせるための薪にされるだけ…その努力が報われる日なんて、本当に来るのかな？<br /><br />けど、あの娘の振る舞いを見て、その口が語る物語を聞いてると、不思議とアンタを思い出すんだ。アンタも1つの旅が終わるたび、その旅で得た思い出を嬉々として語り、その先の未来に思いを馳せてたっけ。<br /><br />カメラのフラッシュでみんなの冒険の道行きを照らすんだって、よく言ってたっけ。<br />それから、『斬星破宙・大瑠璃剣』を振るって、列車組のみんなを絶対に守って見せるとかなんとか。<br />あとは優雅で強い大人になって、みんなを引っ張るんだって、そんなことも言ってたよね。<br /><br />アンタのそんな空想たちが…眠りの中のアタシにも一筆一筆、書きつけられていった。<br /><br />もし…アンタが未来に辿り着けない物語なんてものを聞いたら、どこをどんなふうに変えようとするんだろうね？<br />あの娘の『物語』を、繰り返すだけの歳月の中から救い出す方法をアタシも考えてはみたんだけど…アンタだったら、最初から迷わずその方法を考えはじめるでしょ。<br />けど、歳月の隙間からこの世界における『記憶』の経緯を覗いた時、アタシは知っちゃった。あの偽善の天父はとうの昔にオンパロスに背を向けていて、その視線は『壊滅』ばかりに注がれてる。そして其の熱狂的な信者たちは記憶の残滓を手掛かりに、いつかアンタを見つけてしまう……<br /><br />アンタの仲間たち——開拓の行人たちでも、『壊滅』の進行をほんの少し遅らせるのがせいぜい。<br />アタシたちに残された道は、『感覚の雨』を降らせて、この世界の徒労と悲劇の痕跡を洗い流すことだけ。仲間たちにはしばらく眠っててもらうだけでいい。目を覚ませば、また旅に出られるはずだから。<br /><br />『雨』はそう長くは続かない。苦しみの記憶を、きっとすべて洗い流してくれる——もしかしたら、『忘却』だけが唯一の出口なのかもしれない。<br />その後でなら、この『オンパロス』という手帳の上に、アンタの望む未来を貼り付けることもできる。<br /><br />頼むから眠ったままでいてよ、なのか。<br />残酷な役目は、アタシが全部やってあげるから♭<br /><br /><align=\"right\">アンタの『長夜月』より♭」</align><br /><br /><align=\"right\">——心奥に秘められた声</align>",
+   "unlockRequirement": "キャラLv.<nobr>60</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・4",
+   "text": "「親愛なるなのかへ<br /><br />もうすぐ夜明けだよ。<br />暗闇に最も近づいた瞬間、またあの光を見れて本当によかった。<br /><br />長い眠りの中でその光を見るたび、それはまるで綺麗な幻みたいにアタシの夢を彩ってくれた。<br />ピノコニーの奇想天外な記憶の中にも、鱗淵境にだってそれはあった。あまりの眩しさにびっくりしたのを覚えてるよ。ヤリーロ-VIの風雪の中にあっても、その温もりが弱まることはなかった。<br /><br />もうすぐ、慣れ親しんだ夜が来る。だけど今も、背後からの視線をはっきりと感じてるよ。<br />彼らは『アンタ』を待ってるんだ。<br /><br /><s>説得されたフリとかしなきゃよかったかな。心配してないなんてもちろん嘘に決まってる。アンタたちで本当に『壊滅』の濁流を止められるの？自分自身をちゃんと守れる？みんなはアンタを守り通せる？アンタはどんな人になる？アンタには答えがあるの？アンタは後悔しない？</s><br /><s>アタシは後悔する？</s><br /><s>後悔する？</s><br /><s>後悔する？</s><br /><br />アンタはもうその記憶のすべてをアタシにさらけ出した。知ってるよ、アンタたちの『開拓』は、過去を受け継ぎ、今を繋いで進む、果敢なる未来への旅。机上の空論とか蜃気楼とか、そんなんじゃないんだって。<br />アンタがうまくやれるのか、アタシにはわからない。でも、結末はどうあれ、今のアタシに選べるのは今のアンタだけ。そして、これからアタシが目を向けられるのは、これからのアンタだけなんだ。<br /><br />いつかアタシが消えてなくなったとしたら、その時アンタに何を残せるんだろう？<br /><s>力。否定。自己。助言。習慣。祝福。</s><br />だけど、これはアンタの人生だから。アタシから贈れる一番のプレゼントは…未来という真っ白なキャンバス、だよね。<br />『三月なのか』って名前と同じくらい特別で、アンタにぴったり。<br />何より大事なのは、それがアンタだけのものだってこと。<br /><br />行って、なのか。<br />思いがけないこの出会いは、アナタを潤す慈雨だと思っておけばいい。<br />真っ白な未来を、アンタだけの色に染めて見せてよね♭<br /><br /><align=\"right\">アンタの『長夜月』より♭」</align><br /><br /><align=\"right\">——心奥に秘められた声</align>",
+   "unlockRequirement": "キャラLv.<nobr>80</nobr>で解放"
+  },
+  {
+   "title": "ストーリー・1",
+   "text": "「親愛なるなのかへ<br /><br />もうすぐ夜明けだよ。<br />暗闇に最も近づいた瞬間、またあの光を見れて本当によかった。<br /><br />長い眠りの中でその光を見るたび、それはまるで綺麗な幻みたいにアタシの夢を彩ってくれた。<br />ピノコニーの奇想天外な記憶の中にも、鱗淵境にだってそれはあった。あまりの眩しさにびっくりしたのを覚えてるよ。ヤリーロ-VIの風雪の中にあっても、その温もりが弱まることはなかった。<br /><br />もうすぐ、慣れ親しんだ夜が来る。だけど今も、背後からの視線をはっきりと感じてるよ。<br />彼らは『アンタ』を待ってるんだ。<br /><br /><s>説得されたフリとかしなきゃよかったかな。心配してないなんてもちろん嘘に決まってる。アンタたちで本当に『壊滅』の濁流を止められるの？自分自身をちゃんと守れる？みんなはアンタを守り通せる？アンタはどんな人になる？アンタには答えがあるの？アンタは後悔しない？</s><br /><s>アタシは後悔する？</s><br /><s>後悔する？</s><br /><s>後悔する？</s><br /><br />アンタはもうその記憶のすべてをアタシにさらけ出した。知ってるよ、アンタたちの『開拓』は、過去を受け継ぎ、今を繋いで進む、果敢なる未来への旅。机上の空論とか蜃気楼とか、そんなんじゃないんだって。<br />アンタがうまくやれるのか、アタシにはわからない。でも、結末はどうあれ、今のアタシに選べるのは今のアンタだけ。そして、これからアタシが目を向けられるのは、これからのアンタだけなんだ。<br /><br />いつかアタシが消えてなくなったとしたら、その時アンタに何を残せるんだろう？<br /><s>力。否定。自己。助言。習慣。祝福。</s><br />だけど、これはアンタの人生だから。アタシから贈れる一番のプレゼントは…未来という真っ白なキャンバス、だよね。<br />『三月なのか』って名前と同じくらい特別で、アンタにぴったり。<br />何より大事なのは、それがアンタだけのものだってこと。<br /><br />行って、なのか。<br />思いがけないこの出会いは、アナタを潤す慈雨だと思っておけばいい。<br />真っ白な未来を、アンタだけの色に染めて見せてよね♭<br /><br /><align=\"right\">アンタの『長夜月』より♭」</align><br /><br /><align=\"right\">——心奥に秘められた声</align><br /><br />「親愛なる長夜月へ<br /><br />聞こえるかどうかわかんないけど、心の声を送ってみるよ～<br /><br />実はね、時々アンタの声が聞こえてくるんだ。アンタは謎めいててすっごく強いけど、ウチらってホントは一緒なんだよね！全部の記憶を焼き払う！なんて言ってたけど、ウチよりいろんなことをしっかり覚えてるじゃん。でしょ？<br />ここだけの話、ウチはきっとアンタみたいになりたかったんだ。なんていうのかな…とにかく強くて、とっても優雅な人になりたいなって！<br /><br />みんなを守ってくれて、ピンチを救ってくれてありがとう！<br />だけど、ウチもそろそろ大人にならなきゃね。もう未来への大きな一歩を踏み出しちゃったわけだし！<br />この歩みは止めないよ。だからいつか、『ウチ』の過去と未来を一緒に見届けてよね！<br /><br /><align=\"right\">アンタの『三月なのか』より」</align><br /><br /><align=\"right\">——心奥に秘められた声</align>",
+   "unlockRequirement": "開拓クエスト「神々よ、再創紀の凱歌を奏でよ」をクリアした後に解放"
+  }
+ ],
+ "archive": {
+  "cvCn": "诺亚",
+  "cvJp": "小倉唯",
+  "cvKr": "정혜원",
+  "cvEn": "Skyler Davenport",
+  "camp": "オンパロス"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "12733642": 1,
+    "13008636": 1,
+    "13032071": 1,
+    "21686950": 1,
+    "21857731": 2,
+    "21939286": 2
+   },
+   "5": {
+    "13018799": 1,
+    "13079257": 1,
+    "21586027": 2,
+    "21665401": 2
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "長夜",
+  "iconPath": "36f6934a8f015d06c93af5edb941eacea95790c09f17995924e818cae3e67d45",
+  "teamIconPath": "fa3afdf11e4a8705a122f47fee96413a0bd2f9b8fc5b43a9a2764fbffa640ff8",
+  "skills": [
+   {
+    "id": 13018799,
+    "name": "雨のように降る記憶",
+    "icon": "fa3afdf11e4a8705a122f47fee96413a0bd2f9b8fc5b43a9a2764fbffa640ff8",
+    "tag": "単体攻撃",
+    "typeDesc": "精霊スキル",
+    "skillDesc": "このスキルは自動でターゲットを選択して発動する。なお、長夜月が前回攻撃した敵を優先的にターゲットとして選択する。敵単体に「長夜」の最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>分の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与える。長夜月が所持している「憶質」<nobr>#3[i]</nobr>につき、さらに長夜の最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>分の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与える。発動後、長夜月は「憶質」を<nobr>#4[i]</nobr>獲得する。",
+    "simpleSkillDesc": "敵単体に少量の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与え、「憶質」の数に応じて追加で少量の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与える。",
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       0.05,
+       4,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       0.06,
+       4,
+       1
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.35,
+       0.07,
+       4,
+       1
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       0.08,
+       4,
+       1
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.45,
+       0.09,
+       4,
+       1
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.5,
+       0.1,
+       4,
+       1
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.55,
+       0.11,
+       4,
+       1
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.6,
+       0.12,
+       4,
+       1
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.65,
+       0.13,
+       4,
+       1
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.7,
+       0.14,
+       4,
+       1
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 13032071,
+    "name": "暗闇に浮かぶ孤独",
+    "icon": "b35cde54e3b97eb3cebb529244a4da5c062618dd34a5451fa2a5878e8a2a8096",
+    "tag": "サポート",
+    "typeDesc": "精霊天賦",
+    "skillDesc": "「長夜」は<u>行動制限系デバフ</u>に抵抗でき、攻撃される確率がアップする。長夜がフィールド上にいる時、長夜月と長夜の与ダメージ+<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>。",
+    "simpleSkillDesc": "記憶の精霊「長夜」は<u>行動制限系デバフ</u>に抵抗でき、攻撃される確率がアップする。フィールド上にいる時、自身と長夜月の与ダメージがアップする。",
+    "levelData": [
+     {
+      "params": [
+       0.25,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.3,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.35,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.4,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.45,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.5,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.55,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.6,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.65,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.7,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 13008636,
+    "name": "影のように夜に寄りそう",
+    "icon": "b35cde54e3b97eb3cebb529244a4da5c062618dd34a5451fa2a5878e8a2a8096",
+    "tag": "強化",
+    "typeDesc": "精霊天賦",
+    "skillDesc": "召喚された時に即座に行動する。",
+    "simpleSkillDesc": "召喚された時に即座に行動する。",
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 12733642,
+    "name": "さようなら、永遠に",
+    "icon": "b35cde54e3b97eb3cebb529244a4da5c062618dd34a5451fa2a5878e8a2a8096",
+    "tag": "強化",
+    "typeDesc": "精霊天賦",
+    "skillDesc": "退場する時、長夜月の速度+<nobr>#1[i]%</nobr>。「露のように儚い夢」の発動で退場した場合、その回の攻撃で「憶質」を1消費するごとに、さらに長夜月の速度+<nobr>#2[i]%</nobr>、カウントされる「憶質」は最大<nobr>#3[i]</nobr>まで。速度アップの効果は累積できない。効果は長夜月の次のターンが回ってきた時に解除される。",
+    "simpleSkillDesc": "退場すると、長夜月の速度がアップする。",
+    "levelData": [
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.1,
+       0.01,
+       40
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 13079257,
+    "name": "露のように儚い夢",
+    "icon": "f260fbabc4774fbb471dceddb6380f36c47172e8bfaf05098723544412f1a632",
+    "tag": "全体攻撃",
+    "typeDesc": "精霊スキル",
+    "skillDesc": "長夜月の「憶質」が<nobr>#3[i]</nobr>以上であり、かつ長夜月が行動制限状態でない時に発動できる。所持している「憶質」1につき、メインターゲットに「長夜」の最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>分の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与え、その他のターゲットに長夜の最大HP<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>分の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与える。発動後、「憶質」とHPをすべて消費し、長夜は退場する。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">「憶質」の数に応じて</span>、メインターゲットに大量の<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与え、その他のターゲットに<span style=\"color:#47C7FD;\">氷</span>属性ダメージを与える。発動後、<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">「憶質」とHPをすべて消費し、「長夜」は退場する</span>。",
+    "levelData": [
+     {
+      "params": [
+       0.06,
+       0.03,
+       16
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.072,
+       0.036,
+       16
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 3517880,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.084,
+       0.042,
+       16
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 3276614,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.096,
+       0.048,
+       16
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 3276614,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.108,
+       0.054,
+       16
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.12,
+       0.06,
+       16
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 3526997,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.132,
+       0.066,
+       16
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.144,
+       0.072,
+       16
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.156,
+       0.078,
+       16
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.168,
+       0.084,
+       16
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    13018799,
+    13079257
+   ],
+   [
+    13032071,
+    13008636,
+    12733642
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 16345021,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "enhanceId": 0,
+    "embedServantSkill": {
+     "id": 16345021,
+     "name": "雨のように降る記憶",
+     "iconPath": "4480cbf4f9005ef432ff7b4764fcc5a7717d6802b303dcf9869abacb83d1867b",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 16602573,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "enhanceId": 0,
+    "embedServantSkill": {
+     "id": 16602573,
+     "name": "暗闇に浮かぶ孤独",
+     "iconPath": "b35cde54e3b97eb3cebb529244a4da5c062618dd34a5451fa2a5878e8a2a8096",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 3517880,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 3276614,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 3276614,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 3526997,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "skins": [],
+ "hasEnhanced": false,
+ "name": "長夜月",
+ "rarity": 5,
+ "descHash": "世界から隔離された記憶域で、蝋燭の炎は過去を照らし、霧の中で静かに消えていく。 その影より生まれし記憶の子——長夜月、「歳月」の火種を隠す黄金裔。「忘却」の波を巻き起こし、鏡に映る人の願いを守る者である。 ——「安心して。アンタの『開拓』の道はアタシが守ってあげる…どんな代償を払ってでも♭」",
+ "artPath": "07c7f055edcda59cc705498ecd073244d7f101f601b7c27857015a7b3e64ef5f",
+ "miniIconPath": "5c0100b27287637fc47492e675d2ed601ab5a2ce4e4c2331674f4bbdc4c01a47",
+ "damageType": {
+  "id": 4,
+  "iconPath": "e3c62659d0117eeea60613c3ea88205f79912c9eae17d2006b845aef427de7f8",
+  "color": "#47C7FD",
+  "name": "氷",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "記憶",
+  "rarity": 0
+ },
+ "pageId": "evernight"
+}

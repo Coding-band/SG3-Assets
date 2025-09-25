@@ -1,0 +1,531 @@
+{
+ "name": "A la estrella de la larga noche",
+ "rarity": 5,
+ "descHash": "En los resquicios del tiempo solo resuena el latido de su corazón.<br />Igual que tantas noches anteriores, observa la escena nocturna mientras descansa en ella.<br /><br />Atesora los recuerdos que le fueron confiados.<br />Desde un punto de partida en blanco, la joven pinta con vívidos colores cada lugar donde se ha detenido. El acogedor tren, los compañeros de distintas personalidades, los planetas resplandecientes y hermosos... Es como un sueño hermoso del que no se quiere despertar.<br /><br />\"¡Mi verdadero viaje va a comenzar ahora!\".<br />Oye la declaración de la chica como si la tuviera al lado.<br /><br />Mira hacia el lejano cielo estrellado, por donde se acerca un rayo de luz.<br />Es el faro del tren, como si fuera una estrella fugaz.<br /><br />♭ \"Buenas noches, Marzo... El día que despiertes, continúa tu viaje trazando caminos\". ♭<br /><br />Mientras sube la marea de recuerdos, ella guarda su deseo en lo más profundo de su corazón. Esos susurros y esa luz...<br />Nunca los ha olvidado.",
+ "iconPath": "f8cf76621fd24d122621898517f12f7a799359124f7334165a5356cf88b745bf",
+ "artPath": "856805135c487b9ca4439f7fa9be5df21ea4bba5766f4e3f011517eca3a3067e",
+ "artPlaceholder": {
+  "w": 0,
+  "h": 0
+ },
+ "mediumIconPath": "a12e10f045c89b43fdc64ac8c3cf3be18080b8078c10931cd60347f0ba4a997b",
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "color": "#FFFFFF",
+  "name": "Reminiscencia",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Divisa que utiliza la Corporación para la Paz Interastral para sus cuentas con los clientes y que se acepta en todas partes como moneda de los viajes espaciales.",
+   "lore": "\"La gente corre, se pelea y comercia por algo que no son más que números en una terminal, pero lo que es verdaderamente valioso no se puede comprar\".",
+   "purpose": "Moneda común",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cáliz de la mina principal",
+    "Cáliz de la Comisión de Artesanía",
+    "Cáliz del Hotel Fantasía (paisaje onírico)",
+    "Cáliz del Soto de las Musas, Bosque Susurrante",
+    "Recompensa de misión",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éter refinado",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>6000</nobr> pts. de EXP de cono de luz.",
+   "lore": "Un bote de éter extraído y destilado usando un proceso especial.<br /><br />\"El Jardín desea recrear una gloria pasada, pero una que elijan ellos, ¿lo entiendes?\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Salón olvidado"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éter condensado",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>2000</nobr> pts. de EXP de cono de luz.",
+   "lore": "Recipiente con éter procesado mediante una técnica especial.<br /><br />\"Transpórtese con cuidado. No debe caerse al suelo ni recibir presión. Si se produce un daño o una fuga, consulte el capítulo II del «Manual de respuesta a los accidentes de fuga»\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Canjeo de Ascuas"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éter disperso",
+   "desc": "Material de mejora para los conos de luz. Otorga <nobr>500</nobr> pts. de EXP de cono de luz.",
+   "lore": "Sustancia imaginaria que no debería existir en la realidad. Es el material básico para crear conos de luz.<br />Al inyectar esta sustancia en el cono de luz, las imágenes que contienen se vuelven más nítidas.<br /><br />\"Oh, así que esto es la materia consciente del Jardín de los Recuerdos. No me extraña que los Guardamemorias se lleven recuerdos en sus viajes galácticos\".",
+   "purpose": "Material de EXP de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Cáliz del Paso del Remanso",
+    "Cáliz de la Comisión de Adivinación",
+    "Cáliz de Sueño infantil",
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Recompensa de encargo"
+   ]
+  },
+  "3276614": {
+   "id": 3276614,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "8ce2ef59cb91393bfba8aaa3a79fb0cf179299005160b8ee415f10c9e8cdb330",
+   "name": "Gemido resonante",
+   "desc": "Parte del caparazón de una criatura de la marea oscura. Material corriente que se usa en la potenciación.",
+   "lore": "Las extrañas cabezas rugen, las espadas rotas lo cortan todo y el origen de la calamidad se oculta en la oscuridad, cubierto por la neblina de la muerte.<br /><br />\"¿Por qué lloras en soledad frente a la tumba?\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 3,
+   "rewardPath": "/material/3276614",
+   "comeFrom": [
+    "De criaturas de la marea oscura (nivel de Equilibrio 2 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "3517880": {
+   "id": 3517880,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "164749ad9f07207041ed0f8a02a2bf5548df47f34995e12895af58ca28dbf440",
+   "name": "Augurio etéreo",
+   "desc": "Fragmento del cuerpo de las criaturas de la marea oscura. Material simple que se usa en la potenciación.",
+   "lore": "La desgracia siempre llega sin previo aviso. Para cuando te das cuenta, ya se ha convertido en una catástrofe que barre el mundo.<br /><br />\"Las campanas tocan al final del destino\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 2,
+   "rewardPath": "/material/3517880",
+   "comeFrom": [
+    "De criaturas de la marea oscura",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Recompensa de encargo",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material",
+    "Cáliz (oro)"
+   ]
+  },
+  "3526997": {
+   "id": 3526997,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "278f5ba023a7f264653b08f9e224bda4b5437598f96bf3fa0554a65fe07bbf87",
+   "name": "Lamento eterno",
+   "desc": "Cristal creado a la muerte de una criatura de la marea oscura. Material avanzado que se usa en la potenciación.",
+   "lore": "Lo que nace de la nada, también regresará a ella. La vida retorcida engendrada por la corrosión está destinada a deambular sin rumbo en medio de la desolación.<br /><br />\"Su vida está llena de destrucción y pesar\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de personajes",
+   "rarity": 4,
+   "rewardPath": "/material/3526997",
+   "comeFrom": [
+    "De criaturas de la marea oscura (nivel de Equilibrio 4 o superior)",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "De enemigos en el Universo Diferenciado",
+    "De enemigos en el Universo Simulado",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "Brote de manas",
+   "desc": "Las células de memoria extraen pensamientos que crecen y se propagan en el corazón de quien inscribe. Sirve para mejorar de forma moderada los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Reminiscencia</span>.",
+   "lore": "Las semillas echan raíces y brotan. Las raíces se entrelazan, transmitiendo señales como una red viva de sinapsis. Con el paso de los años, algunas se marchitan y mueren, mientras que otras florecen y se fortalecen lo suficiente como para dar vida y convertirse en el recipiente de un alma.<br /><br />\"No abandonamos el cuerpo. Lo transformamos en algo... más duradero\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "Alayawah",
+   "desc": "Otra forma de existencia. Una faceta permanente de la vida que el propio universo no puede olvidar. Sirve para mejorar en gran medida los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Reminiscencia</span>.",
+   "lore": "Al madurar, se convierte en una red que reúne historias, una flor del pasado. La vida misma puede ser su lecho de flores o su corazón. Si te conviertes en el corazón de la flor, recordarás el universo, y el universo se acordará de ti. Tú eres la memoria.<br /><br />\"La memoria es la manifestación de todos los dharmas. Por lo tanto, en esta tierra pura sin escapatoria, no existe el nacimiento ni la muerte\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Máquina sintetizadora multiusos - Síntesis de materiales",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "Semilla de la reflexión",
+   "desc": "Cuando la consciencia se cruza con la materia, brota un embrión de recuerdos. Sirve para mejorar ligeramente los Rastros de los personajes de la <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Reminiscencia</span>.",
+   "lore": "Este objeto no existe realmente hasta que ves, oyes o sientes algo. Nacido de las sensaciones, su presencia se desvanece rápidamente y se entierra en la tierra de la mente, de la que puede brotar algún día, o puede que no.<br /><br />\"Es la sustancia que compone nuestros cuerpos y que existe gracias a tus recuerdos\".",
+   "purpose": "Material de Rastros<br />Material de ascensión de conos de luz",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "Cáliz de Castrum Kremnos, Ruinas del Conflicto",
+    "Canjeo de Ascuas",
+    "Máquina sintetizadora multiusos - Intercambio de material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 3517880,
+     "count": 8
+    }
+   ],
+   "attackBase": 24,
+   "attackAdd": 3.6,
+   "hpBase": 52.8,
+   "hpAdd": 7.92,
+   "defenseBase": 21,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 6744567,
+     "count": 4
+    },
+    {
+     "id": 3517880,
+     "count": 12
+    }
+   ],
+   "attackBase": 52.8,
+   "attackAdd": 3.6,
+   "hpBase": 116.16,
+   "hpAdd": 7.92,
+   "defenseBase": 46.2,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 6471577,
+     "count": 4
+    },
+    {
+     "id": 3276614,
+     "count": 8
+    }
+   ],
+   "attackBase": 91.2,
+   "attackAdd": 3.6,
+   "hpBase": 200.64,
+   "hpAdd": 7.92,
+   "defenseBase": 79.8,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 6471577,
+     "count": 8
+    },
+    {
+     "id": 3276614,
+     "count": 12
+    }
+   ],
+   "attackBase": 129.6,
+   "attackAdd": 3.6,
+   "hpBase": 285.12,
+   "hpAdd": 7.92,
+   "defenseBase": 113.4,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 6720910,
+     "count": 5
+    },
+    {
+     "id": 3526997,
+     "count": 6
+    }
+   ],
+   "attackBase": 168,
+   "attackAdd": 3.6,
+   "hpBase": 369.6,
+   "hpAdd": 7.92,
+   "defenseBase": 147,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 6720910,
+     "count": 10
+    },
+    {
+     "id": 3526997,
+     "count": 8
+    }
+   ],
+   "attackBase": 206.4,
+   "attackAdd": 3.6,
+   "hpBase": 454.08,
+   "hpAdd": 7.92,
+   "defenseBase": 180.6,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 244.8,
+   "attackAdd": 3.6,
+   "hpBase": 538.56,
+   "hpAdd": 7.92,
+   "defenseBase": 214.2,
+   "defenseAdd": 3.15
+  }
+ ],
+ "skill": {
+  "id": 23049,
+  "name": "Insomnio",
+  "descHash": "Los PV máx. del portador aumentan en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Cuando el mnemoduende del portador lanza una habilidad, el portador obtiene Escena nocturna. Cuando el portador tiene Escena nocturna, el daño que infligen todos los mnemoduendes aliados ignora el <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de la DEF de los objetivos y el daño que infligen el portador y su mnemoduende aumenta en un <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>. Cuando el mnemoduende del portador desaparece, el portador recupera <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> pts. de energía. Los efectos del mismo tipo no se pueden acumular.",
+  "levelData": [
+   {
+    "params": [
+     0.3,
+     0.2,
+     0.3,
+     8
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.375,
+     0.225,
+     0.375,
+     10
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.45,
+     0.25,
+     0.45,
+     12
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.525,
+     0.275,
+     0.525,
+     14
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.6,
+     0.3,
+     0.6,
+     16
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23049"
+}

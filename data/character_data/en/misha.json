@@ -526,7 +526,7 @@
  "skills": [
   {
    "tagHash": "Single Target",
-   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Misha's ATK to a single target enemy.",
+   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Misha's ATK to one designated enemy target.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "20",
@@ -696,7 +696,7 @@
   },
   {
    "tagHash": "Blast",
-   "descHash": "Increases the Hits Per Action for Misha's next Ultimate by <nobr>#3[i]</nobr> hit(s). Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Misha's ATK to a single target enemy, and <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Misha's ATK to adjacent targets.",
+   "descHash": "Increases the Hits Per Action for Misha's next Ultimate by <nobr>#3[i]</nobr> hit(s). Deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Misha's ATK to one designated enemy target, and <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Misha's ATK to adjacent targets.",
    "ultimateCost": 0,
    "break": "60 + 30/adjacent",
    "energy": "30",
@@ -997,7 +997,7 @@
   },
   {
    "tagHash": "Bounce",
-   "descHash": "Has <nobr>#1[i]</nobr> Hits Per Action by default. First, uses 1 hit to deal <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Misha's ATK to a single target enemy. Then, the rest of the hits each deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Misha's ATK to a single random enemy. Just before each hit lands, there is a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> <u>base chance</u> to Freeze the target, lasting for 1 turn.<br />While Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive <span style=\"color:#47C7FD;\">Ice </span><u>Additional DMG</u> equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Misha's ATK.<br />This Ultimate can possess up to <nobr>#5[i]</nobr> Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.",
+   "descHash": "Has <nobr>#1[i]</nobr> Hits Per Action by default. First, uses 1 hit to deal <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals <span style=\"color:#47C7FD;\">Ice </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Misha's ATK to a single random enemy. Just before each hit lands, there is a <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> <u>base chance</u> to Freeze the target, lasting for 1 turn.<br />While Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive <span style=\"color:#47C7FD;\">Ice </span><u>Additional DMG</u> equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Misha's ATK.<br />This Ultimate can possess up to <nobr>#5[i]</nobr> Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.",
    "ultimateCost": 100,
    "break": "30 + 15/subsequent",
    "energy": "5/hit",
@@ -1614,7 +1614,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and when the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -2145,470 +2145,470 @@
    "title": "First Meeting",
    "text": "Hi there, I'm Misha, a bellboy at The Reverie Hotel. Welcome to Penacony. This way. Oh, here, let me grab those bags for you!",
    "unlockRequirement": "",
-   "cnUrl": "49aeee770d56e8ace34754b5eded934a870a1fb21af5ffe7f0e550998799235e",
-   "jpUrl": "2f5bd06f05090615c05f3fdecbde01f81e70f99723b6f26e860f18f04987f8f5",
-   "enUrl": "c2b7c4edfd818f7a266fb8b6ba40817db79a86707917fd67659698194569269a",
-   "krUrl": "e671a3a1c0a93e9c9125edd61a645202c5cc365bc4ea712bc72bb9a317ead60a"
+   "cnUrl": "9af72e7beb7338dee4dcc83086f57ab66e543327afb80fa89f1f06980cdec06c",
+   "jpUrl": "2287383d0e7ed5b18e37fd8fe5e828289a3353ddc0e454f97a6656c1fcc30ca5",
+   "enUrl": "876240f6e8e18eea509e2dc26075d1b4c4b351d37466ac61ed68a089aee1acbf",
+   "krUrl": "7d1371c73a7cd464c7ab6d715c5f9e89f4eda8af59d561d9be8ba083fd601322"
   },
   {
    "id": 2,
    "title": "Greeting",
    "text": "Trailblazer, did you rest well? If there's anywhere you want to go, please, don't hesitate to come find me!",
    "unlockRequirement": "",
-   "cnUrl": "760baf2b64bb50681e67526917d01370e35229614179995eada43a6d0c6f2655",
-   "jpUrl": "04e3ef10c207856a8a31aab99d4eb9c6d0ff84ba47c93d82e98aeac7c6a5196f",
-   "enUrl": "de5a48ecbe13eedce51fb49b3c77a057425022e60bf8bcc74cf75f7dcf407c8c",
-   "krUrl": "41cc904b2754cce0b3318c78bf2f002891dc3d696c10edf6072416107a289f04"
+   "cnUrl": "06731a855dc1063ea0f0767a81ce37ae24a11d131339e80394efc64457b73381",
+   "jpUrl": "73331cd465527aee3213b87de1043f22e3503587a9ef4505b650d60d00017bae",
+   "enUrl": "42c163b11f339f4aa32183f1ea7858b2dae6315fa18c85ccfbd202f83d66056f",
+   "krUrl": "ee21f13b5ab10fb7c83c6214774af56a68b978f37dd017f14730090d1ca641f6"
   },
   {
    "id": 3,
    "title": "Parting",
    "text": "I should get back to work. We... we'll have another chance to meet, won't we?",
    "unlockRequirement": "",
-   "cnUrl": "2ac1bd71b02077b3dae7e52ef240ee4cc17b47a187170c10ebe286fa8817da1b",
-   "jpUrl": "ca620f7b62bb3b6fae01af248e5f42e66d9750b1765eaea1829598c53fdc740d",
-   "enUrl": "94a9f3e846e93a1800b5324d92d10db2b3150d78dce7357afe2b642bf6bb6bcc",
-   "krUrl": "b1b01317d967d8075195fb04373c5cd234fe15f292d728a9f6461e3019c62e1f"
+   "cnUrl": "3a422a563c267c1fe9ac2b3b936882c11b20662923f15d27e190f59becb5774f",
+   "jpUrl": "25b6c0a28f6c444f7daaabc1992db03df0e252c8d71154f13c1ee5d008f66da0",
+   "enUrl": "5081ba222b2c0fe986b6527c0d442ec37e224b876b3ef4068a4139e7f3d9b6e9",
+   "krUrl": "3c6664b25f6aae03737bde94f38d59e23ae80ea1e1918879072161aa619fa7a6"
   },
   {
    "id": 4,
    "title": "About Self: Work",
    "text": "Working at The Reverie is awesome! I get to meet a bunch of people from really far away, and hearing about their adventures is fascinating!",
    "unlockRequirement": "",
-   "cnUrl": "169958b98e190badac06812eb4dc06e59512548f31b1a999ff5fa68f42429a08",
-   "jpUrl": "33eed33d72be0d2c3d3f8f812d45df6022655318efd2658c83a117d1b1ce4d61",
-   "enUrl": "1d144b2136930a6e3de69d956377426148e4d84df25c119fd1fbb5aa7e734153",
-   "krUrl": "204b5ded7cabcfee4489649c21d60c47b1801457ceaaa734757ced78b83e3b97"
+   "cnUrl": "2c9a5815ad47c8745799ef70ce292a6ce0828547d89a143db14b160da3a71dbb",
+   "jpUrl": "72aa7eaa3d2630f3f03c62f3ae63634217e086bf2aa3a8d6c1949149de8edb89",
+   "enUrl": "5d6d6ac73985ff82026d294bf8e673219e2307798e03008691c334828a13ecdf",
+   "krUrl": "74f80802fed2bd06fa6093dd8ff4b14e82144cd9eab3ed7f592fa7eac5a9a35d"
   },
   {
    "id": 5,
    "title": "About Self: Future",
    "text": "I'm going to work really hard, so I can save up and explore the stars just like grown-ups do!",
    "unlockRequirement": "",
-   "cnUrl": "9a721b67547832cf940c79c8e60f71ed6183b9d34d126a691e0204ba0611617f",
-   "jpUrl": "f15f6213949ba31967ff6503543653bd9145a93332b82bca2a6d9d0c934ffe2a",
-   "enUrl": "2f08803301e17aa4429dcf2e6a099327d7b07f2539d99bc3c10c98b0776ce516",
-   "krUrl": "4e7c31f6d6f3f7c1e5d238bc70653054ce525508e8f9be195269fd064ab26aa4"
+   "cnUrl": "5b6c217c40296e2c68248e224c8ff566e459cef841337001ef54ded9d37cc0b6",
+   "jpUrl": "01039a1e07499b8d41c3da23db4b8aaaf09047f63302b3c01644b623ea086b46",
+   "enUrl": "02ef63e600a84f9076637aef54238627dc46432b4c737c530f3a0765304777be",
+   "krUrl": "424f9cba7f16db72c71da9a63ee3e56a562cba274c185a3350a2692c0a57dcdc"
   },
   {
    "id": 6,
    "title": "Chat: Repairs",
    "text": "After a while, the machinery tucked away in the corners of the hotel tends to break down... But if I can fix them, I will. I don't like to swap out old parts for new...",
    "unlockRequirement": "",
-   "cnUrl": "431d96c9b1114f94f45de2a385701b5975d5238f6906898a08042bfb947fa94c",
-   "jpUrl": "b106809a8003e22986e363365b7ae0b54d0b1a36e8837a8883f6840b0d1f5278",
-   "enUrl": "613f6c506e2ac2c3b8e3833151ecb2fef02971071b25e721549d11c0531af39c",
-   "krUrl": "c77b1858bee42e3f7b15bb99d7a614f66777a8d7e18adbf87c7d92337386e7ed"
+   "cnUrl": "13d006f666c266c1afe423bbe787202528aaeb7334812e8e57f88fe0716c7827",
+   "jpUrl": "5cb16a34c89bd1f5e0c3c438edac73a3bd3e7ff8877684fee2415def7ecf3647",
+   "enUrl": "bd02a3f82ce422eaacb8b6c9f723d0ed62cc93e3a0c7e11f456cb6e24f1244d2",
+   "krUrl": "f44601fa0d09035ff8a915c2c4a51c158754eb2e45dfc361ce46689b270697b1"
   },
   {
    "id": 7,
    "title": "Hobbies",
    "text": "I make sure to read every issue of Stellar Cartography Magazine... in the most recent one there's a huge whale that can actually eat entire planets, it's incredible! I'm not sure when I'll get to read the next issue...",
    "unlockRequirement": "",
-   "cnUrl": "9abfec8cf9b11d731c0d152481a42e78441f273d484038ad5560fd25d465de8b",
-   "jpUrl": "6af49328355737f472734b5cebcd043292920647f03fcdbf3a216f8e2bbbb461",
-   "enUrl": "23f309f333b996c229aec5dc09a70b3a05b9b83ebd124e711fe2bbea7336205e",
-   "krUrl": "99c9c4320ff8b69c2929b73c3ec75e69029e647e921990d0d00f255a75f90d1a"
+   "cnUrl": "af3a17901a5054e21aace69743524cef92c7946951b5789d71ef6dbcfcd44a6a",
+   "jpUrl": "bff7317a0741f3d2a2a8f221beb1ea9f045970a9f939d07b19d3c4390a1decaa",
+   "enUrl": "2e488a10faba3801a1584cc60da608722484a4704e8951993fef625c0a5ab8f1",
+   "krUrl": "3e95e339f35ce242841a39f79a15370df0c6d92495b8c61525cd66c355d7c752"
   },
   {
    "id": 8,
    "title": "Annoyances",
    "text": "He's already late... I wonder where Grandpa has gotten to...",
    "unlockRequirement": "",
-   "cnUrl": "5d0a3e3960fdc1c2775898998472be30ebbd3f623e2affd4560fecdd61d31e2e",
-   "jpUrl": "2d14bbb27a9162b247b68a7925a68f4665953633178af59366eebe3f7a3435a8",
-   "enUrl": "c50ef764be68b0cffb277fe08e6ea3473983d762f5d067cc9b1b4ce5fa19b569",
-   "krUrl": "a97617b090b32bef97d7d00181d1a5fc66c5a329acfcec2b92ed66e82e333074"
+   "cnUrl": "e2da4bf82412bec8d826cd1a371cdbd4f942ec90ffcb07a364e21f44bdb0af6b",
+   "jpUrl": "ef9c94b67c65ae811f095c38211e15f9463a57ca884ca0c02840c3d73d895585",
+   "enUrl": "a781270a0ad96430f3dfe758d534ee5ecbcdb624223edf4ee1d161c48d183964",
+   "krUrl": "723a4fa76be2a040fb3502cdc95b26f12fc15d38eb1aa164d9b349f2a9c15c56"
   },
   {
    "id": 9,
    "title": "Something to Share",
    "text": "When I was little, I used to sneak sips of SoulGlad, and by the time Grandpa found out, I already had cavities... So, we definitely shouldn't drink too much... Wait, actually it's okay for adults, but little kids shouldn't drink it!",
    "unlockRequirement": "",
-   "cnUrl": "256ad808189bd8674c153d807415a9fcf9dc2114c343543506fe4976c9681239",
-   "jpUrl": "d8d2f2eb1c86fb5a9ff144de6e4ae0e5d4752a9cbce3b03c48d9ddc8988cb2d5",
-   "enUrl": "3288ccfdfdc3c9790cc6d452feb7d19d30a42b0f872bd9984a3b741995e101e5",
-   "krUrl": "4c47b1d697090b3b7720f21391710a75fb481d9839bc133000351b445bd0a8b1"
+   "cnUrl": "13a95cf2ef834b3821e0bd09339c66e9f092106037d7b7bb4fb4586ce9856db9",
+   "jpUrl": "0cfc9b144fd79b82d5d15709ed645202a5071a9658f21e84eaac0c45f5406b1a",
+   "enUrl": "573dd33d61e51e14f8722416bc9480c6f149afffa063d1a38a459e8ce368d852",
+   "krUrl": "01fb219fc5a3085dfcccb55e7b92034df917c9abf0ef9e0fcb9db129a99050b3"
   },
   {
    "id": 10,
    "title": "Knowledge",
    "text": "I often hear people talking about \"Trailblazing,\" like it's finding new places no one's been before. Penacony's had its share of finding new cool stuff too, like how tasty SoulGlad is, and the awesome shows by the Sweet Dreams Troupe! All of that was figured out by some serious \"Trailblazing.\" It sure wasn't a walk in the park...",
    "unlockRequirement": "",
-   "cnUrl": "0464a5039adcca52bb150afae59d4b75a93c4b0fb5c69664437ace1562955232",
-   "jpUrl": "b51ba9a7448ead47d039380842a26e2b6ee2d12d930c7b513caa2e8861466b81",
-   "enUrl": "dd059656b3414ffff1fc23bc73ec18242b7f703a484c8ac11daf39b15ed2b647",
-   "krUrl": "15a2df4651ce3ac1ea023412cea9465b1df446d4eb4c571709758795308a7375"
+   "cnUrl": "e6388aac2cfaaa0faa7273651529fb66d414cade1d7c2c33743dc7d6d754cbea",
+   "jpUrl": "c9ee687065860979d6de5d1ed739ac7103ac6b059fd5c9f126aec97491fba0e7",
+   "enUrl": "ae7b113672e23ed1d0f855117163b744e9c4c5ea476504a9dba42ee298ddf5a4",
+   "krUrl": "c6056601a2977b5d3eeb6c895e1c6c0b173d02f2ad458346823f77a6977a7c3f"
   },
   {
    "id": 11,
    "title": "About Trailblazer",
    "text": "The job at The Reverie can get pretty hectic, but it's also how I get to meet interesting new friends like you, Trailblazer!",
    "unlockRequirement": "",
-   "cnUrl": "1ec28d3d7a8d96a6bea6afad40170e57dcfc36b48b0b8cac95693191f4226b3d",
-   "jpUrl": "4a2b20062e6bf1156f77d361bd8ff7fd714194d6289d29fdb238698f853001f2",
-   "enUrl": "a87050ad3bdc8cef1a91945fd44cff31c543a687847ad2b54eeb9878ce7a4d5a",
-   "krUrl": "72ef344c4d046313e17460315d31e305072a59ab63658856c715e14d80461ac4"
+   "cnUrl": "e3e27ab18e52b59b6f62ec60b18fb38558d66de2aa4c6d687e8ddd57313c42ac",
+   "jpUrl": "1c4478bf133275a5cc9bcfc77a0c661aa2e28e7b85f34fa515c23a75dfd2f735",
+   "enUrl": "5a46c370f971e8acdc6553b045b27732200f660226a57ccf5a527fdff16afa36",
+   "krUrl": "ac057b98ebb28f4ca03b44f7014aeb6b0553d09a843259da212a25176a07d678"
   },
   {
    "id": 12,
    "title": "About Robin",
    "text": "The songs of Miss Robin have the power to carry people to faraway places, beyond even the most beautiful dreams. I... I'll always be a fan of Miss Robin!",
    "unlockRequirement": "",
-   "cnUrl": "f1298d24ec410ab6198bf99b17a4b4dd82e3851694ec26255a2717c074349784",
-   "jpUrl": "9f04c31bb699682959877e25c33b434d22c9a0b2ecf3f7ef17fdbddddb138a36",
-   "enUrl": "d2fef417719cde4772f8bdd3a5bd8a48368b59573ab7e7fa51e84cdddcb90b6d",
-   "krUrl": "7897eced8b16cfb57c4758401deeb2043e38a72d67133c448dab6aa3dff7c233"
+   "cnUrl": "3aadc720aa0f8699b02fe93f6dab791ceb50bcc6e4edc5ae5d466fa978aacdd3",
+   "jpUrl": "eda65be1a8e2e838d17b03e70c8f51dc43c1473c5b226f84974598518a726fbf",
+   "enUrl": "a3c3e2ccb5e78b867823b3511ef67222a770024b4d86569170ed40451f6ec605",
+   "krUrl": "9738b49d28f5a47d3905f0d15080aab04807628b6efa67539cb9bf8a57f5d16b"
   },
   {
    "id": 13,
    "title": "About Sunday",
    "text": "Well, despite his young age, Mr. Sunday is already a big deal in Penacony. Just watching him from afar can make you feel overwhelmed...",
    "unlockRequirement": "",
-   "cnUrl": "0f311c79de481b4f647244f333e013aba85eb86602b4af87409c6dbed478fc9d",
-   "jpUrl": "1280cd65204080681e46912a748150b6295529316f9e80631ee025526d24e772",
-   "enUrl": "23bb3e90ac9ea111defb214450db51ad071b40b6e6847aa31a4973b11b46454f",
-   "krUrl": "432ad59243d44040041c3049dfd3a16549c03424cbe9a5f561c2e2cc042e85eb"
+   "cnUrl": "f5a1b7550ed475070ac694740c8f211b9170fa051f993ea1e77e5cc4faaa9042",
+   "jpUrl": "9cf542b27596bbedd249b76f5999fa56fce893f7cf286c8990a2c7eee7dcc313",
+   "enUrl": "43f77b479c0c6bf142eb173fab4fcb74076be74388d0c0668b26b151689bfd8d",
+   "krUrl": "d0e512ca02a1043a4c48b9d1a69ee6556c3829db8a20199f35036fd8cf688f0f"
   },
   {
    "id": 14,
    "title": "About Gallagher",
    "text": "It's typical to see Gallagher immersed in his work on the streets of Penacony. He's always been so responsible and committed.",
    "unlockRequirement": "",
-   "cnUrl": "60647a093854686fd5065d7a2eb1195cb1b534e4fb94b3f40babdb228dc5ce1b",
-   "jpUrl": "c4c734f73ed3a351f101d47c78b4d7fa481f9d9ae417ba6fd24299d0bcb0159c",
-   "enUrl": "655e5e083db4c890c293e40bc90d9b9711603950396a4a7d399b18d09f960c9c",
-   "krUrl": "d139eb9af84fda74cc577bb8e5b0c0fe114f288cf42da4a41e3dad351a489811"
+   "cnUrl": "1a98a4277518840cc9dd985a956e75a2ab25f587282173708fb11d7a3b9146a0",
+   "jpUrl": "37d54e93b4d5c57464809a421fd8b59410b8917fab6fd70f5e9798c88e5f0539",
+   "enUrl": "b7c83c1992990f9c02557796539bd8302ba9ec584c825900b9c7b20412bb3762",
+   "krUrl": "e31d1200cf348dcc3e79be8e73efe3feef05fb3631f534d361938887874dc5ed"
   },
   {
    "id": 15,
    "title": "About the Nameless",
    "text": "Grandpa told me, it's never too late to have a dream, he said what matters is how much you aspire to make it come true. I'll never forget this — there will come a day when I'll make both my and Grandpa's dreams a reality!",
    "unlockRequirement": "",
-   "cnUrl": "880f62e23eb5a4742bfc53d0f08e8e1df245c9e0a3f1cda2295dbeaa4f89f3fc",
-   "jpUrl": "a84fac04ebbd4458315cbc078895911cd341d36f092b93b4c59b780550f665f0",
-   "enUrl": "7658ac1b34c81d0815296ca877a9693358c33abfc4fddb6f28545e15704ef802",
-   "krUrl": "952f4aceca76722c6adb99d082673da9f82f5f5cf93dee61bce3bb24777651e3"
+   "cnUrl": "bf7214e6d04f6a84a37364edcb8dd055e44f8397d6ae8d127748f1a24a270da3",
+   "jpUrl": "ee9225fcf6c1c5d937c96ae333f7864380e45bfebc4b98aa39635d197116061c",
+   "enUrl": "bf3e67d047783c8a8cfc737c0c380deb03e61e2ffd3435987966d6b9ad2a5dfe",
+   "krUrl": "0e274f0d8f4eafd4c5256596dd76e9aaa0c40e65c527294dbfeed92ec8b2c6bf"
   },
   {
    "id": 16,
    "title": "About Clockie",
    "text": "Let me tell you a secret, Clockie is actually real, he isn't just an imaginary friend I made up!",
    "unlockRequirement": "",
-   "cnUrl": "1f2ceff83828631bfbe11012fa8a8d81f52388c2fc7ab95e57a23f8887cbb5ad",
-   "jpUrl": "762180d69e67bfb34736a1d4306b2429e29c4e007c01786b6e4b07b36d5417e3",
-   "enUrl": "749b2583e18990fb1206fefd64da9e588451b1aa744d2fe81622da9074cd5542",
-   "krUrl": "6cadf613a14c5555769dd7d1b2863e364adf1d58ac6ee30dbb06ec6ba232c187"
+   "cnUrl": "e6d34d498647ac993a642623b03606783c14f46bde6ce702daf8689d2d7cd230",
+   "jpUrl": "8dd06452b079cabe70a3fe2a0d72c6775b95e2ad387da87d45eac0e407111387",
+   "enUrl": "40bcca4863689f8cdd551a01571480be3d08459e9713819b051d507f7c3fa44f",
+   "krUrl": "448b5bea4e27cb4467d93242d792a6bb82b27d6f649406ba0abdb58165b85f2b"
   },
   {
    "id": 17,
    "title": "Eidolon Activation",
    "text": "The one thing I look forward to? Growing up, of course!",
    "unlockRequirement": "",
-   "cnUrl": "977da01a76ce757d349ee03805dd22aef0336df9344c18258bd3f94600c3e4ff",
-   "jpUrl": "062edd97f09c9aed66c1a84173e59c52667819d4db9eb47eebcbd0a5558f203b",
-   "enUrl": "d2d7077c76192b6c152d8723e9e765ba768f49be8c2b017b9bd62551227e4512",
-   "krUrl": "6d7c08572c437d529603ca12a49fe1b5a9eadd6a533c9ecb90c81b366d8f42b4"
+   "cnUrl": "6ede3aed92f77c33d284f9342f670542f145de22606a4ea7c21b912384849a84",
+   "jpUrl": "6f8bd7d12902c7374da84b064e8e190d1b87258c5625a9e66e1dcdffdaaee35f",
+   "enUrl": "2e07a08da68cd8560af549700f96e948e11d3cbbe3e183299c89d0775e0bc77a",
+   "krUrl": "d681d82ede1c356f85556f9aeeedbc02fa5b80624c6f9904fc88a0609e2331ef"
   },
   {
    "id": 18,
    "title": "Character Ascension",
    "text": "Yes! I feel like I'm getting closer to my dreams!",
    "unlockRequirement": "",
-   "cnUrl": "07de9457147e30fa2f7c83cca437295f13609ae94e5fea12427882397710f778",
-   "jpUrl": "0cf5457c9a7dbbcebc3c1361ef34b80634418a7a74082681d0eea49f4c7c9cf3",
-   "enUrl": "8f8dced65cc00c866bdd25ece77bd9009f486f4f41f197b5868731337b39c4c7",
-   "krUrl": "cda75cd82dfe8780314358ce8e4371b9b2d8bce3f54c2cef97faddc638899ba0"
+   "cnUrl": "35337b91b08bc693c3b329a64e5d7e3877e2af44658c60dfdb847032d6441e46",
+   "jpUrl": "d23add6443b3f08c0ffaa50d71b55a46eb9723affe97a311e2bbf8557ad59799",
+   "enUrl": "bff63c3ae8720c23a4dd61920961a9be6db1dc68891a28dbba18718aa4af92fb",
+   "krUrl": "9e200f7ce9c8070e8023bdbc112459a4478dcce458262c792de01a82badbdc7d"
   },
   {
    "id": 19,
    "title": "Max Level Reached",
    "text": "Wait, am I really that impressive? This has to be a dream!",
    "unlockRequirement": "",
-   "cnUrl": "b5cedf2b2b51cbfd6e3d27476e323f20698bfdd54cf580893291bcb90493e201",
-   "jpUrl": "fe5760d42b78af4cf243d0efcdb20b19564e32075ff36114a1e8b7924c28696c",
-   "enUrl": "14a6b727888e160defc72ded71880c96420ef0a0aabad5d9a3ab0333480626a0",
-   "krUrl": "847406d4ffc51398e8e04a5ad085c78ab209231cba62d39454dc58d4ad166ae9"
+   "cnUrl": "e5eaef7e3426fedcd930e37305853ad031dd59214f7b8da02e56cef68508de99",
+   "jpUrl": "378142e7b14713a359fe7be9940b7d1218606bd3027a70faa6f4eda52dfa1ff9",
+   "enUrl": "a37f0763dc5a9269b43d1c6f874852e910d7200881ab50bbb088a2ba15755d50",
+   "krUrl": "0e4a458664a98c4aef01d52c7cce1f98b975f5eaed59e197d9e24687b44844c6"
   },
   {
    "id": 20,
    "title": "Trace Activation",
    "text": "Yes! Another chance to learn something new!",
    "unlockRequirement": "",
-   "cnUrl": "3a16caa3409955dd4e03419905c63c9efd4b60247741721e8ae95a4286afd678",
-   "jpUrl": "ca689fdd89fe825776dee4aa36d5979e65ef9e70329636d64caa3e5d1109f588",
-   "enUrl": "c8471f32a770b868109bda64c4ff809cc1de48cead4875ed9987ed944b714531",
-   "krUrl": "881c5df993c9a6caa9e5fc0725304f91e4c087aab9946ef478b1fd016fc68ed0"
+   "cnUrl": "a87f28b1d0d427856df6c88d93f0b74556d87bae6436ee2858e69517b6cb8e3f",
+   "jpUrl": "dd8ed3e42eda90f3fc17d39c1890ef116d693331f11e2e5b2a4633ee30120e64",
+   "enUrl": "b505e05a459849f567bdf9818c2be42cfd57134c66315e041cb757ddd4a29977",
+   "krUrl": "da7635cbdcb1de3a44b66f09987461f6df26d3333cf414cbbfd2d229e0524bc5"
   },
   {
    "id": 21,
    "title": "Added to Team With Trailblazer",
    "text": "Is that Trailblazer? Yes! Finally, we get to fight side by side!",
    "unlockRequirement": "",
-   "cnUrl": "7cf0f67ba81102cfb83eea131f614236b03801ce26c54ad9242a9862eeba2fa5",
-   "jpUrl": "7512d6c71dc2bf1521899d4bea17f95fa42e191b83f94a81325b22e2b4c73d0a",
-   "enUrl": "5e8c35d072c5acf4827fa05d8b785792e53a5831ae689d176c7ce95d237fbc69",
-   "krUrl": "872aef02a4cced47547200bcf47ce6967f25aa50e0f147f8283efe5c77d851c6"
+   "cnUrl": "f345c6aa4e27e45a136185a1b9b9a783eb116fc2ab61c73a2e3e808ac38c5414",
+   "jpUrl": "56d964748f380034568f644b9d82ab161741765bdeaaea222ccba1f617de276c",
+   "enUrl": "062f47999d8b9b653188b162d3050394d5b7e9c4f6479b862390760692c4e5a3",
+   "krUrl": "31c799c98db48bf075ab788f2c98d07c1401cac528ca025c503cae2368042e21"
   },
   {
    "id": 22,
    "title": "Added to Team With Gallagher",
    "text": "Gallagher? You're here! Check it out, I can protect everyone, too!",
    "unlockRequirement": "",
-   "cnUrl": "f7118067f966a9f67c61d08f89ed666e7e62b7fd8bf8ac1d1757299167c3fb15",
-   "jpUrl": "5186cfd5606888667ddeee56753446c0e12a84e09cc807b36435a94c550f2456",
-   "enUrl": "267ef31466f3782236d7329d66bc625f0e4d57dfacb628fc3b242b77eb084bc6",
-   "krUrl": "ae73f5301f2fe2585670d32e14da99e7e7d552fee94d880fd62811dab83dd6d3"
+   "cnUrl": "3f84c1a12b56c739c8747b0536d46b56d781f2683524d56f821219dc65192c84",
+   "jpUrl": "7a139809754eb279df159aacd1ad3248ef27d39a6f926df645958f61f116a7c4",
+   "enUrl": "d33e4deb8cd86f4d9e5efc904eb65c58e4bb8adb0815b39e63cccdd6f9e0a664",
+   "krUrl": "4b2c851476163ffe5509aa1a71270d390a6264f68204a9e76228ea5901ad406e"
   },
   {
    "id": 23,
    "title": "Added to Team With Robin",
    "text": "Oh my gosh, Miss Robin is right in front of me... I... I'll do my best!",
    "unlockRequirement": "",
-   "cnUrl": "2868a6363052fff2eda737b546f2bd8d0228625b3260b5a45739e1072d72ab53",
-   "jpUrl": "5e883f46e82e25b2d5942ced539680ab65f80d9cfc01623d4ff60521c4222aaa",
-   "enUrl": "f6d9ecb861e6ebcd29fa53e03cac0f236387369cedfebd85f29928d673c90853",
-   "krUrl": "0d6fe931fd9fbf45ed0e4daa85809f2ebc92f235db1684072edde752619748de"
+   "cnUrl": "904a2f1a7659b855478be814538919215a8be57b56d7980b26be7d7229470f84",
+   "jpUrl": "df4aec35ba331efba8b082deeb6de640ae6c4b8d7942b203583f0964393e794b",
+   "enUrl": "b1d28109ec1e151a434ed52697bd32fda20e609aae18638f4d195d535cc100b0",
+   "krUrl": "fb09e200af8edb5d538099ca2d3a47fdc4cb2059873ac6ac084dc64d6d91a6be"
   },
   {
    "id": 51,
    "title": "Battle Begins: Weakness Break",
    "text": "Come on, I can do this...!",
    "unlockRequirement": "",
-   "cnUrl": "59195edbd5b22dad195a14787e04910af3e18bdc3f0bb0b09fac81f5e6678771",
-   "jpUrl": "f19e3bed945157786b87c044ce4d5eb46cb3afefb829e453b2a64d0041fb41f8",
-   "enUrl": "af925f6a5edfef1861b23df49a0c9576507ac8d23f1d4ecb6bae1de7693bed49",
-   "krUrl": "ad3825eccfa7fcec2404ecd9c29da81ce7a627276166a09b5580d2288e4574f9"
+   "cnUrl": "df53d1df0149cdb2c5c5911d97fe57f092af383d25eb38c1a238f0805be6a8b9",
+   "jpUrl": "8b04d93324f4dea2ca6ba8feba05c0abac92038a239ddafcd74f9e602f0f4473",
+   "enUrl": "c87a7e488328568e7d3c4d00a74d712aadee0a7033bd696cafe7dbbc839bacb8",
+   "krUrl": "ad3cf7b019471b5888c3ee2a07864d3c5a48a9ee3addaa2a55101112d5adea0d"
   },
   {
    "id": 52,
    "title": "Battle Begins: Danger Alert",
    "text": "S—Sorry! Please don't be angry...",
    "unlockRequirement": "",
-   "cnUrl": "f80eac93ad80010b84eeda395fd5f8a3498f354222cc9b1b30b11f5c042017da",
-   "jpUrl": "a346d6710cd496edb8e80bc8d514d318ff06fb51b6a4a325a5a8a4cadebcfb09",
-   "enUrl": "0d3987257c3d3e73e9d761d8cf4ea94d63027c0cf9a58d79659a13c963ea39d1",
-   "krUrl": "f6056dc3da5aa07e38a2eae96763e77dd34e55b0bfb2ae2ceb602be5574d8f19"
+   "cnUrl": "ea944f2a262c6c2ca9b9c4a1cab3d8c8c4cd4ed43fae702ec3b403a3b34ed5a3",
+   "jpUrl": "56a27eb499ff528c1ffa0ec07d449df028d345fee37af009b5ec25961d208d88",
+   "enUrl": "8692028bb8410c2396873bca81a5450103e1e830a2ce4d5133b6870c8bcd373b",
+   "krUrl": "de0260797ead99237690ffed8d58345c4a0c05af02377ecfd39f05ed99b87a92"
   },
   {
    "id": 53,
    "title": "Turn Begins 1",
    "text": "Let's dive into today's duties!",
    "unlockRequirement": "",
-   "cnUrl": "1a6554678253657555d070ccd0a1b9ce94739175c4e0ddeb28ee9e11d496a614",
-   "jpUrl": "7a86167c7415946808d14ccbdd8ddd7bb6e2b93c9c5a57f62f1b67985f040c75",
-   "enUrl": "18b9dff8057a8294010b0857d6cb37c1bf24ddf877f12c25601b590252cf9fe8",
-   "krUrl": "0a5df805ffed909fa25c94455a01797aabd05238b6923de4e32987fface07ef5"
+   "cnUrl": "e370fff8271c62388207ff36ace4ded6a59971e9fbc66bbd5bd439c221028807",
+   "jpUrl": "a0515bfa2803d31fb1a4cc1317c6bd71ebd1721d6f1c1cf3002a4c936198d7e1",
+   "enUrl": "63e5b52d69285fc4b62136842f624f5a9999927cc965d4df267d3404a9853daa",
+   "krUrl": "9ed977ac2589da7aa7253504ccaadbf892bce06cd769aefc5f98f2bcba1c3e6e"
   },
   {
    "id": 54,
    "title": "Turn Begins 2",
    "text": "I hope I don't mess this up...",
    "unlockRequirement": "",
-   "cnUrl": "c021cbf1b6ff9cdd5048b927cfa2ed6efc8adda82022ccc04334e7d1bf7fd372",
-   "jpUrl": "864bc66af1d0ec185e1a476370a3e706821115f194897488aaddd55d5b3b981b",
-   "enUrl": "5a984a2df96e8c319609f14e05183d2847be84709617927b666f82781fb72bf9",
-   "krUrl": "5e3f223a4e2fd4bd1f8a822291c628cbfcc62708542287f2e926eedfb59486db"
+   "cnUrl": "9e351b3ad90028ae275337174702688c9acfc5534f016f58e881a3aa640025c1",
+   "jpUrl": "243a4288189f5e4c0ed0425fe033f5b444ee2c399302abd9bb946de28520f782",
+   "enUrl": "19e922a54ff1bfbbcdb71077e2b2822e972b3c5e114ea3ed223f686ae6ac0ade",
+   "krUrl": "54fac232dd3d3c4d98efc71885567bd38bb8b0beb5859f002dbfcb2ccd4f1c0c"
   },
   {
    "id": 55,
    "title": "Turn Idling",
    "text": "I'll never get the job done at this rate...",
    "unlockRequirement": "",
-   "cnUrl": "30cc8f7aab8a9296af3298be5183a4ee139c1650ec9aa4749b7b7bd42533b4a9",
-   "jpUrl": "8a88aff3cb66168e883ced2d74f64a69f02e1d98776bbeb147d73635194ac656",
-   "enUrl": "67b839ea5be48daa54a1d295970f459ccd123c32124538c3261507541f8e51d1",
-   "krUrl": "d416bf5d695fc9d17c6e29ab5b6d8477e29d7647f74c5d4a2c8524968253330a"
+   "cnUrl": "a45898bb9efad1eeeb5e8aa81d30c98c5730fedfebbb4d4620977de73f929c26",
+   "jpUrl": "cf7e8c2d33b09ad42646bc451370aa09d4e3c938e8e7e1cb68437b335ec40e58",
+   "enUrl": "414b555893a690828d17eded51478cbb5e95a3c06ee04dd379a51119f71430a6",
+   "krUrl": "b43b27592815a9558ac781683aa8301d9e301f09b5ae2d71a6a616023d89aece"
   },
   {
    "id": 56,
    "title": "Basic ATK",
    "text": "E—Excuse me, please...!",
    "unlockRequirement": "",
-   "cnUrl": "0d8d32e790b26a06b9ff791999c0879f9c5c08df672a8857c6322e3feb96fce8",
-   "jpUrl": "a02bf93770e7b14b69e2c6670d72ad0f7fd6e73c2efa7b17427cc29129acdd53",
-   "enUrl": "3a8a93d37325f7909d28c0ade8b6163914094a635d0ecb0edff5cab4aa4ce83b",
-   "krUrl": "675ccd7d5d06a1f77ddca62a5778520cea81d0636af793d21f38f5cc02fce093"
+   "cnUrl": "46c9be0ca4920ceb4fd06db4c404c0fa488f6110d354494c1cf6d6dd2bf754dd",
+   "jpUrl": "d8e8f4ca600889eb2b9656ff430b8f2bdae724a25d3f81a49fdb0b9b30aaa7f5",
+   "enUrl": "7602f6814bf073efb7c2671695f033092caf2c1f2233960ee2bf413e7ea0a762",
+   "krUrl": "e407481ea9f397eb4857e4f9765c048b0e9c30a04690c9f2a87b8198a4bb91ac"
   },
   {
    "id": 57,
    "title": "Skill 1",
    "text": "Uh, I'm on it — cleaning up now!",
    "unlockRequirement": "",
-   "cnUrl": "41ea85bd2a53b9c72bfcb178908b18eb8d9d37fcee6a0e5103ab54f6c2105b88",
-   "jpUrl": "495ce79c2a01f3ecdbed0b33a838b124178368d469ef55a7a7cd47aae4805d70",
-   "enUrl": "ced1cd4b7272a0f9e6a4f50a29111ebd5fab5bece7b42099d80695e5daaa55c0",
-   "krUrl": "3c26a3296181bbfea64a894e113e3498a07188f8e15e9ec426dffa92027b9ebd"
+   "cnUrl": "711e460f86afd8127ab2e278c5010baa44a3389fff1053406422a5933d7f0771",
+   "jpUrl": "4f9734ac794ba6242efe65277f009aebd7d268a12280149dc257bb011cc33c00",
+   "enUrl": "fff27939c0849d3174ae5686076b687c4c8b7ab3ddc4d0103c8820b3bfb4e640",
+   "krUrl": "f9a72fb58893c59cf9ed8e65a2928a51acccb3c4e67e72b0346ab1e60c6d2e6f"
   },
   {
    "id": 58,
    "title": "Skill 2",
    "text": "Gotta keep things neat and tidy!",
    "unlockRequirement": "",
-   "cnUrl": "d368daf8c943375e442d3318d98ca2cde61cc91bd9dabbf677399b04a18f06e1",
-   "jpUrl": "e54defee6d39e422f14faf432abfdedc1869430bf2c62af090c9906359038523",
-   "enUrl": "dbafa6d24952d4c20d4a917fb93e834e8c07f7fa9fba6fecd50988be2d3650e4",
-   "krUrl": "86caf5de468ad4dfa56290b19eea203a829f76ff031c52f48373ac8a730dbe9a"
+   "cnUrl": "a54af43796761eb629b7f417995e482a070ae51ec30c4b27d24f3ac91de66389",
+   "jpUrl": "f82e42ec67524cb85b5b67fda1c2b2925f0223aee862b92b97f312ccec33f85e",
+   "enUrl": "ab0b8d37334ff9fabf36415047a0161c20acd0dc911c13dc6af96598737aa457",
+   "krUrl": "f729e4fd0c960a0101931b4e0ea293ca51e7711341e676f0c7c637a8625f83ee"
   },
   {
    "id": 59,
    "title": "Hit by Light Attack",
    "text": "P—Please be polite...",
    "unlockRequirement": "",
-   "cnUrl": "40fcca173c061075bf99eb9594c7cbde274442ab331676a99eddbba43c29855c",
-   "jpUrl": "0eb200c91670d0e79e7ca1bc9b0927f887830195bc02f7e4364b14963c3010b2",
-   "enUrl": "1b11e9241801dc7db277f1668ca46fea6db0e7d30335dea398ee665fd7a9fe65",
-   "krUrl": "22fabfb72e3807c2f276522d4e909d039855ea69b73df0bdf2a61c1552a27389"
+   "cnUrl": "020358586a53a2b35318d867c938cede562d6b3eb75de597e0dd781fbe2d3f40",
+   "jpUrl": "1bd849f949a487d6c6f2a697c53510375c366a11c419b5bb4b5b7868ad37afdd",
+   "enUrl": "ae56aa030e68cbac9cbaff5453b7e2723aa372a6b315a08fcea65b40f27d7f1d",
+   "krUrl": "c4e914149bbe5df12cd9c67de8b562cf1c334609a32cf424917e65a1eadb15a2"
   },
   {
    "id": 60,
    "title": "Hit by Heavy Attack",
    "text": "Hey! That wasn't very nice...",
    "unlockRequirement": "",
-   "cnUrl": "71a625015f16129fcbee01c0f40bfc09bd5809163cc1388e3c127b3108388d53",
-   "jpUrl": "d9726b82f367519bb6f9c059c22d62dbc7377ed0fecea91f356b8cf684189e59",
-   "enUrl": "b6e6a21923e354f125bae09b8727d78a931a470e48bc17c92601248dd78ab3a9",
-   "krUrl": "0913cc75a353ee1ecdaf89d204825c91b5474ed049b231964787d99e3b5ac9e9"
+   "cnUrl": "a79a731e2442ffa4d291451bde16d671ae73919415a4a0513c7f796ad616c2d9",
+   "jpUrl": "f56cd0d0fbaf94eaff17bebb36107181714ccd48acafa9494eaf767da72309a9",
+   "enUrl": "177b6175b3c56c3e868f186c422d3b8f90d6a01137d0f28c19d49677a98582a6",
+   "krUrl": "7218d67092256f9bb302bce6c35816164fc7860e7270eb137d7a3a79bfbb477d"
   },
   {
    "id": 61,
    "title": "Ultimate: Activate",
    "text": "How much time do I have...?",
    "unlockRequirement": "",
-   "cnUrl": "d829590070e1b96ca366597d3e8c7dc223ee0d49b0abe07266e9b10d79496ee5",
-   "jpUrl": "f64b4fa254ab401eb45d41fb38d2687f48d9344e635a34544819c786ade6fd5e",
-   "enUrl": "81c9d381a1ea40f4a29f189736f42e7a1984dd9c7b97e7f9dd1a6e9e7623e75b",
-   "krUrl": "c4fed7a02fc406a9787c09a745876f56d3a123900bec2d1aa471e3f02f53c481"
+   "cnUrl": "f2c932f864e1d6054e146f2aa75349f437d3900abf1c0c30aecbaeaea7a74b55",
+   "jpUrl": "2cc3be767d06f5a90745bfaf9dd8ea16902ab5323d27ce935c72ec88811b9204",
+   "enUrl": "073f025b2965694475b932dad8dcd06cc22775fe431003710dca88e6472b493e",
+   "krUrl": "f0dcb1819e10a1801792a724158fa945f1080d023f381a84d2c27ca9f8353068"
   },
   {
    "id": 62,
    "title": "Ultimate: Unleash",
    "text": "Not again! I'm running late, ahhh...! Sorry...",
    "unlockRequirement": "",
-   "cnUrl": "0eea200e4f7999dc3a2fd4b3fe4aa48554ab07b6a96143956add4a6fa5fa5119",
-   "jpUrl": "8cee237ff017088b172e60ee79913c4ad1cddf1a8a7a10e7b3cdd9e05d2f8910",
-   "enUrl": "75db24439baa4c8235425f039e4ad96766931bfdc48cb30a8c71379a7ed6be94",
-   "krUrl": "d6adf462c17042f91b39908770c4cedb87b74660ba0bfc963acf5161cd540513"
+   "cnUrl": "b46a9afe45ec44173406316d0c12365f65fe767b2b227330a7829be0e9ea3995",
+   "jpUrl": "8f8439ce56c37b1f3210c720cbdd7351514854e0962a69c4b5ddb161a19a680a",
+   "enUrl": "7f05bdfb8c8c729a02c05284a8a601ddb90e3a9cbf4534ae5b961635f7f1355c",
+   "krUrl": "286c7d9a11d6ff41ddc8c305558d43eb0a618941af3857771b1602f9a772af40"
   },
   {
    "id": 63,
    "title": "Downed",
    "text": "I tried my best...",
    "unlockRequirement": "",
-   "cnUrl": "2e9016883cff1ad9519990869dfce66dece727c92fc114703d27612b51c204a8",
-   "jpUrl": "d094d503a33b62f6ac3dd6e23d64d635828a5bef868db92a16bc64b37bf1fb55",
-   "enUrl": "991be4046ee6d710f7b37bc2445170128a35aed3d05507e9f75b7f8f55048117",
-   "krUrl": "a9df643623dc38fe1b3d8c0d6aae9c223979418228eb182567f3f8a7b36bd75c"
+   "cnUrl": "064550fdc387782cd1ddabab7b91234c22203f9a4a174af8b2853cb82261c7e2",
+   "jpUrl": "bd83d613290ead1e9bdca48d7c964b7d4cbf38acd090aa5bc2ef71eed7e205a5",
+   "enUrl": "2471f1cd4675b621bd1e887dc76ea960be7b1b2a41c7bc10add74bee5b4dbb53",
+   "krUrl": "453c95493c1a430e6c5281af12793a13dbe8e6ef5281d1237573a5b31b6d390a"
   },
   {
    "id": 64,
    "title": "Return to Battle",
    "text": "You won't be disappointed this time!",
    "unlockRequirement": "",
-   "cnUrl": "9889178ecfb51a3e623040563312fb126b203b4b45f7f7133ee396157e3b8dee",
-   "jpUrl": "3d64adc332376db5e93c7b3e6736f91d9ff08acdcf234fabd68fce092d891722",
-   "enUrl": "4696d021d40c7c739f854533c8e3253b397896914764f9419d738ed912d405d8",
-   "krUrl": "7b88eca4550a0d6d509dca157362b305df0d8a8793a5b6961722c412bfe801dd"
+   "cnUrl": "2102ed0049b06ed7acd176ac49938239ed4751c7f4b8efd0cc3c2c5a6085bb55",
+   "jpUrl": "5715e25d0be089f77fab5f4b82e9cb8123060d0aa5a1e152b3b5575535e48a6f",
+   "enUrl": "ab698546517a31f067b5719bafd207f7f3061d57206bdc9048f4778738c3fbd9",
+   "krUrl": "9781616c500178d90e269bf5c6a149459d5fbfab9f89501597fb0f0f804cc515"
   },
   {
    "id": 65,
    "title": "Health Recovery",
    "text": "Oh, sorry for bothering you...",
    "unlockRequirement": "",
-   "cnUrl": "1ee6b6625dd16c8dfe375835e9e0e0359d744f95bc632a6eabb84f988d3b8bed",
-   "jpUrl": "2cef0b51c8e6e4cdecad7871fcc16c3105d98390507a1135112c42b18237b1c9",
-   "enUrl": "d6360bb858e89e0c43676b08d21fd2057a9fcfe4c8511d3c3545a952cf6db6a7",
-   "krUrl": "2b104989bf5edc1d66df0754a32fef61ac780d4d72c1f10793bace5c70936a7c"
+   "cnUrl": "65b04c4571233a522b874dd45d31a3147a611e8ee38e5b137f48e904af07e45f",
+   "jpUrl": "3882b30b83f88fdf7d1ee0a2ba0303bb58e051b7644fde19a0ffd8470bad078a",
+   "enUrl": "b43ca5f021df20ba739825107377c5c087dc8905d72fe8a985d6f73092d20689",
+   "krUrl": "cf6b7ddbfffc59c52740572ec7fc41be1799b87e9c38c8fc68604501be43bd5b"
   },
   {
    "id": 66,
    "title": "Technique",
    "text": "Please, wait a sec!",
    "unlockRequirement": "",
-   "cnUrl": "d0d27b57f09dbe4d3ae3abe7187cfbd72a6bdd1dd842abf551cffdf77e4558d2",
-   "jpUrl": "61bf93d4cc4ea07905afcd2956bfb629f6ba501484a8af4ae7c0ebbc22c34302",
-   "enUrl": "1ba59892ac02194a27ef2410bb8e900f5b4071bf8f93ee1c0ffbb59dca817641",
-   "krUrl": "0a59ceea7051e6570215d8d21ca4083a7bd84ac27152cb2d1833f10b378ff7dd"
+   "cnUrl": "48f5b2bc9ea1a4660c41e9165eeae6888a5d2d8f9d378a3191ba607e693ecc97",
+   "jpUrl": "cb8e393f06172e67ac552ef0702d189aaebbaf6bb4ecf302de21190bde829aef",
+   "enUrl": "afe5c64c0bcbb748f8d892068dbf1c88dfa6f5c0333aff84f06cf5c1fd58e89d",
+   "krUrl": "2f93c83c192d77f7c3a3fe6734ab6ed7302b9ed683b66c8c14b7dad985928ef8"
   },
   {
    "id": 67,
    "title": "Battle Won",
    "text": "Another job in the bag.",
    "unlockRequirement": "",
-   "cnUrl": "25e988ddbc41e0b0394a81bcb4f4f54697d01598ef9f508430f24fb592f4d878",
-   "jpUrl": "93342c5ce345722dcfea5f61437201ed28075d3e763a8389c722ba6635af1aa6",
-   "enUrl": "31e60658ddebb798525fd82894de8e255b6bc1027deb1c7108a18e95801d30dc",
-   "krUrl": "97b33e65c59f5f2d35fb59511b0cb8c193ca9939b7e01fe6abaca02ae9c4ed71"
+   "cnUrl": "1cc8f18e5789f571f97136b29cd9f1248898190e1c7eb2ac9898bc07829dc95e",
+   "jpUrl": "bc112adc229847ad707aae67cf1dea547b2d60b674b3452d61f44ee1233429a9",
+   "enUrl": "da1df9757e354b0c7d0fb4be076ba4160dfcf13d71941ee9011ee82317ae1e6b",
+   "krUrl": "a699c573cc9d0bdb49775b1af1222ef5addfdb70ab2d51d6d71dddad340a13bd"
   },
   {
    "id": 68,
    "title": "Treasure Opening 1",
    "text": "Did a guest leave this behind...?",
    "unlockRequirement": "",
-   "cnUrl": "6f3cef4b7d0188aeeeba5c04648eb9ab0702e58ba29bfddc7005edfef101e508",
-   "jpUrl": "d52c86fece045aeb2241d87cd02fe32ddeb6f379da289986216922f952b83ae5",
-   "enUrl": "6ff4e425af4e0357b30f5c925da6844cab265da8bf223f59fa2a91d1a2d444f9",
-   "krUrl": "5ec8877fcc426fe2839342d43a5911f5dcd41eeb75b36ac48a5580b5579f503a"
+   "cnUrl": "be5b1b15648fde9862ad72d0942d00c9009b94dd314c2118125bf75bf4cf730b",
+   "jpUrl": "ac435f88d682e9b4685d3e9e8fe6dee3ebce62483bf6ba00b2d8502336f636c1",
+   "enUrl": "0222c6950e49e90fcfebc89f854de4dbba86af417213e165e2fbae621b6f14a1",
+   "krUrl": "1f2767b2348f0ceca4673260c6e2e847bcf8dd49b0771abfe74e5e8b2067bd21"
   },
   {
    "id": 69,
    "title": "Treasure Opening 2",
    "text": "They left such a generous tip...!",
    "unlockRequirement": "",
-   "cnUrl": "42f83a8a0fd462948b448a12ccf06af851b89c428829764a38882f454d500262",
-   "jpUrl": "f577bbcb62992d25a0e016c9774477940d3387f0f482075bd7aa78db413c5796",
-   "enUrl": "121a331b2b145ac4c296150a309edbaf7f3ab34783fad530e984831834a0c8b0",
-   "krUrl": "a6f20a375581f1bda9299b6ba05224f4b1c7ee0f2314f04c4b084bc5170f339b"
+   "cnUrl": "ab2196c24f8da969685d5b507a692118156392b492702a839e7ea6802fd7ef9a",
+   "jpUrl": "5f5d300b8249a0b7e819e34b71b37021ee013d4fea80348f9093ef021544e5df",
+   "enUrl": "5df2ca6ea366d86811f9584d9f194d958697b19781b14157f89e10856c165212",
+   "krUrl": "99cd331bf9ea2c12ec386cbb66d50ba32a6ab2b7e7168d29ee09bd8558a41152"
   },
   {
    "id": 70,
    "title": "Precious Treasure Opening",
    "text": "I can't possibly take something this valuable...",
    "unlockRequirement": "",
-   "cnUrl": "8d85d6bcaf27645e4accae52ff222b9aee6b3602c662f3dc77b01b5591e5e577",
-   "jpUrl": "449caed39661b25ba2604afc02ccf2c3b9136f2d1453bca10b9067e4fd23102a",
-   "enUrl": "e093eba447291b10788f6069f22f59c21682b63357a5617fe512eda9095100d5",
-   "krUrl": "411d3f3e457d0a5f48e5d898e8f5199ef68d0731207cc3003fd956d3c4b354e6"
+   "cnUrl": "7aed7ff83f96019c010916fc299e7577763e23b0f4e74cc62f9bc8091c6c93b7",
+   "jpUrl": "8c9c3ca0e4d6cee1d9b5d6e77f30d9a8e54cefb1e7537c90c5c7e44e53fd3890",
+   "enUrl": "10bbfee61ad581bc451ad99f491d63ffe2ba5d0c5fb40665e9d52ca69a3cb973",
+   "krUrl": "e739ab653ca1217d8071fc4493adb2113b082055312bff6f0c3e1b8983fdb843"
   },
   {
    "id": 71,
    "title": "Successful Puzzle-Solving 1",
    "text": "All done!",
    "unlockRequirement": "",
-   "cnUrl": "4f5107bb497b787832157328f4540f0b3824a1c1d59f6a11f93d41aa9a7f814c",
-   "jpUrl": "e943fe3778d20e6a84a80b0c0b29c2f8e4236029ff84053b90f86a0d1b2b0dda",
-   "enUrl": "b85295c2bc06da1bf81c62e5b1940390baa8dcf53101fdfd68fb77bd62391578",
-   "krUrl": "0ac5b251b5ab100d7a94df0d976941d106b165b8ea79718bb743128654f1992a"
+   "cnUrl": "1bc33f068ddd75471d1de4fd6e9f2aec17e35626dda6b9927f826dcba5f4c369",
+   "jpUrl": "2dfadc3a37abe71f64a176c4e6f9f8936a0b715956537d470d1ae85907d01f0d",
+   "enUrl": "a8f75dc26bd1a33d469d257168759b9d7a958d3c656df0bc331c2466366c2f67",
+   "krUrl": "09ee46bef4f72c83e92d66c6ab7184c001884f5b0340386164b77b6d1799c7b7"
   },
   {
    "id": 72,
    "title": "Successful Puzzle-Solving 2",
    "text": "I might have cracked the code.",
    "unlockRequirement": "",
-   "cnUrl": "f6f33e5fa3e6d525a487a756ebb864cf95a1ff36e65ee70c9bb799df40b1e004",
-   "jpUrl": "ff0afcf0d37f7b06812f8fb5a4161609c08eff0562ce539f444713df7b2899c6",
-   "enUrl": "b2f8cd62a290e557b8b5406df5c20eefca1631b5f89987f565fd19d1d45879db",
-   "krUrl": "0ed1d0be53ffa6548236bfb75bc0aaf7e2e8c014f9d4e5b793299e156d81a220"
+   "cnUrl": "5b704e3f6d76617af1a018e8fe8ea5bb2c30e088eb65ef9db1803e23544d9112",
+   "jpUrl": "db98038ae43e4f65e5761dfc9ed1d2ac9213c4748aadfae281452703ea470785",
+   "enUrl": "791aad525abadeac74582dde1d8488476c074cf0ac619c4cf9ed15629f5a818b",
+   "krUrl": "ff3656e09f52339c1d97889e311a8dea17ea053cb2ebb4c66688b1b166286cdd"
   },
   {
    "id": 73,
    "title": "Enemy Target Found",
    "text": "Looks like a troublesome guest...",
    "unlockRequirement": "",
-   "cnUrl": "0958d7d61c1e9f24c36878bfaefd365c8368878e5e69af9e45905486ea009a41",
-   "jpUrl": "7c911ab7d7f9073f382d97d8310fa2923095f873a9b96a33555dacf24b6bacb6",
-   "enUrl": "5287a397a26b70f89ddc2ddbabc29ec96dd52023bcfde063e525fd4400704af5",
-   "krUrl": "0ce1c80db147c18982557bf5e4bd1eccc79e8391b03e6673f55ab7a5fc62eadf"
+   "cnUrl": "11c6610a1cdfb409614e7e96374570788aa30cb980b2aeee9462ebfce6c7c08a",
+   "jpUrl": "f9edc08981ee2f85ee1f904e719087d9b95a2d504002c5314ece83fd1d9c8de4",
+   "enUrl": "4cfa1027e55d8cac17794114a391f554ab3d6b752b303c67574b158cbd21fcbb",
+   "krUrl": "cfc0408b14726e125378125e53620500c1f69f548137a1d448b28f5008b0c0cd"
   },
   {
    "id": 74,
    "title": "Returning to Town",
    "text": "Time for a well-deserved break.",
    "unlockRequirement": "",
-   "cnUrl": "f1a418af583f49b387cfe91fe1fc603fa9d1d24e336333c1c95f5aac1dab4caf",
-   "jpUrl": "1d7570ad08104f356cb9f15ac956b50922bdc7533433ef8c939433e95839a790",
-   "enUrl": "de5bf087586f224ac1e0ea0654621556c185ae5ae13d57ccccee57119fd3fa55",
-   "krUrl": "b247aecac51b0cdd637294857af50608ab1ebd16b6f85b980a1c1aeb1b5c4341"
+   "cnUrl": "40dd24c5e996e04fade89e27248ff5c48332e237f87222c522dfead15413d0cf",
+   "jpUrl": "de2d385826f3e2d02edc05cc859550d4bbc30304de65c837fe03a7acd6ef952f",
+   "enUrl": "33fff1d234a13868b554653a2116308c237a2f1b0e7bd2e8a9c34ddaeaaad16e",
+   "krUrl": "327c180488512e86142b92ab9615c95add3782a5bedbf2c92afb0d1a407a0f9a"
   }
  ],
  "storyItems": [
