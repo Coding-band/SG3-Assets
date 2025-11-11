@@ -42,7 +42,7 @@
   },
   "67219": {
    "id": 67219,
-   "type": 652,
+   "type": 907,
    "purposeId": 2,
    "iconPath": "9566841bb27832ff17017c9414926111dbcdf6af35efc4e7f3230d53368e4bfe",
    "name": "눈보라의 뿔",
@@ -58,7 +58,7 @@
   },
   "125435": {
    "id": 125435,
-   "type": 654,
+   "type": 905,
    "purposeId": 4,
    "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
    "name": "운명의 발자취",
@@ -68,6 +68,7 @@
    "rarity": 5,
    "rewardPath": "/material/125435",
    "comeFrom": [
+    "「화폐 전쟁」 점수 보상",
     "시뮬레이션 우주 점수 보상",
     "무명의 공훈",
     "잔화 교환",
@@ -77,7 +78,7 @@
   },
   "409960": {
    "id": 409960,
-   "type": 651,
+   "type": 902,
    "purposeId": 1,
    "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
    "name": "여행 가이드",
@@ -96,7 +97,7 @@
   },
   "409961": {
    "id": 409961,
-   "type": 651,
+   "type": 902,
    "purposeId": 1,
    "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
    "name": "모험 기록",
@@ -116,7 +117,7 @@
   },
   "409962": {
    "id": 409962,
-   "type": 651,
+   "type": 902,
    "purposeId": 1,
    "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
    "name": "여행 견문",
@@ -135,7 +136,7 @@
   },
   "549437": {
    "id": 549437,
-   "type": 657,
+   "type": 908,
    "purposeId": 7,
    "iconPath": "bc39615ac6ffe7f4473b53af32d180bd097a559f57224b5862c3bd0aebd3c036",
    "name": "약탈의 본능",
@@ -156,7 +157,7 @@
   },
   "633378": {
    "id": 633378,
-   "type": 657,
+   "type": 908,
    "purposeId": 7,
    "iconPath": "a2665f2c8e8a5078a8d9471998a2ef11fe6f2cefe9fee711c735492b27e5f7b6",
    "name": "변조된 야망",
@@ -175,7 +176,7 @@
   },
   "635668": {
    "id": 635668,
-   "type": 653,
+   "type": 906,
    "purposeId": 3,
    "iconPath": "9f1a4781b283cb84fe8c4cf9fd1e2fd59672d84ac8a4d46e794cf6f69c3d53e3",
    "name": "청동의 집념",
@@ -192,7 +193,7 @@
   },
   "717319": {
    "id": 717319,
-   "type": 657,
+   "type": 908,
    "purposeId": 7,
    "iconPath": "3b8ca37ca25f12c63ead0af06b7788ea1dfe7a0a53f6f8be7303fb95d9157b1a",
    "name": "짓밟힌 의지",
@@ -211,7 +212,7 @@
   },
   "836254": {
    "id": 836254,
-   "type": 653,
+   "type": 906,
    "purposeId": 3,
    "iconPath": "ca7e62f5f5e91cdd872078189ae9ccdcaab477fe9bcc2532cd2d42c99e119987",
    "name": "앰버의 수호",
@@ -228,7 +229,7 @@
   },
   "920195": {
    "id": 920195,
-   "type": 653,
+   "type": 906,
    "purposeId": 3,
    "iconPath": "7b47191cbebb3e9e71fdc8705e994a66e1ec9236504e06d84b2de819a62b6485",
    "name": "한철의 맹세",
@@ -246,7 +247,7 @@
   },
   "985668": {
    "id": 985668,
-   "type": 654,
+   "type": 905,
    "purposeId": 4,
    "iconPath": "e5252fa79119f9036c093b2da07b76c01a8db83f1bb7a346a7c0f5eb7cc7cd5e",
    "name": "파멸자의 말로",
@@ -498,7 +499,7 @@
    "iconPath": "efcf7aaa35fe24e0ae580437741d5aa58e21f8ff8eff27815106a20839b0f3ad",
    "artPath": "3a4fcdf3d6f39fb6d59d3cf248c19573958cb83792b1e3be09e9df6420e9d07e",
    "name": "그냥 이대로 계속…",
-   "descHash": "전투 스킬이 제공하는 실드의 가호 아래 아군은 턴이 시작될 때마다 각자의 HP 최대치 <nobr>#1[i]%</nobr>+<nobr>#2[i]</nobr>만큼의 HP를 회복한다",
+   "descHash": "전투 스킬이 제공하는 실드의 가호 아래 아군은 턴이 시작될 때마다 각자의 HP 최대치 <nobr>#1[i]%</nobr>+<nobr>#2[i]</nobr>만큼 HP를 회복한다",
    "params": [
     0.04,
     106
@@ -2357,20 +2358,130 @@
    "title": "에버나이트에 대해",
    "text": "가끔은 나도 내가 차갑고, 신비롭고, 우아하고 또 대단한 모습을 보여주는 걸 상상하곤 해. 한 방에 적을 쓰러트리는 게… 현실이 되리라곤 생각도 못 했어! 다음엔 이 몸이 직접 모두를 지켜줄 거야!",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "28156cc9c541cd387816739c44f0aebbf2524322ac93a14f483a994c78302be3",
+   "jpUrl": "fc40e74be0206130ad04f9f95d4c38a54ee3a962c0b14ba0a9df9666cfbd28f4",
+   "enUrl": "32ce707ab4905fce68bf4ccef9a49c026df9897f5a7036a6b199de13572fa934",
+   "krUrl": "f0a5532943ef1492424fc7edc25948f0d3ed9d1f873f92b1d18db4bb142e1125"
   },
   {
    "id": 36,
    "title": "단항에 대해•3",
    "text": "이번 앰포리어스 여정에선 우리 다 많이 성장했으니까, 무승부라고 할 수 있겠네! 아, 아니다. 단항이 나보다 먼저 성장했으니까… 근소한 차이로 녀석이 이긴 셈 치자고!",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "be338a53cd106df07823b809a84db4c47b86d96e7c89bb4fb52fddeb63a23532",
+   "jpUrl": "b0c1fb05846b023a6e20b3240621b2cdbf635768208a7421380ac7e68095deae",
+   "enUrl": "b40ca0f92f500c0239e96adbcd6b5998202fe3f68f836a9aa457944471376706",
+   "krUrl": "96ec33cd7871c406c9cb5368069a3aed118c31c6f2dd92103710ff51380a3cf0"
+  },
+  {
+   "id": 38,
+   "title": "아글라이아에 대해",
+   "text": "아글라이아 씨는 역시 우리의 길잡이야. 덕분에 평소 패션 센스도 몇 단계나 업그레이드됐다고!",
+   "unlockRequirement": "",
+   "cnUrl": "a706cd3c81ab0220f9c740c29a6c7d72d895fa9be7596266933b8c2e7af88393",
+   "jpUrl": "9d70906722ee8838cbfc7053cd4f0eccf3901683e6b9645523ec7cc48d034154",
+   "enUrl": "e4e040a198142c0c1729337c9f013d3e785608fb596d7e4de799901dc00e8678",
+   "krUrl": "8b4bb437cac29884db62000824ac8a6f6da1b76af8c59736e4c11f355c3ed01c"
+  },
+  {
+   "id": 39,
+   "title": "트리비•트리앤•트리논에 대해",
+   "text": "트리비 선생님은 작지만, 엄청난 에너지를 갖고 있지! 선생님들을 실망시키지 않으려고 오랫동안 연습한 끝에 드디어 오로닉스의 기도문을 다 외웠어! 못 믿겠다고? 쳇, 내가 외워볼게……",
+   "unlockRequirement": "",
+   "cnUrl": "44f2f04e397990a4c71b8be809ea8e738e2effd042d8fc8216168ba5cb3e1228",
+   "jpUrl": "daeb16e2ccb506d3e9e30706c7235173b49e6b14621c0eb879c023d9eee0675d",
+   "enUrl": "17a7a03049e83687ba5cd94b5b5dd268af74adc7a1fc77f1fce9755be6abe329",
+   "krUrl": "ec4e864a0a7ffeb77cdeb1b9ca3dd5a6637a4c1fad90c2b85701f2702cc7ebf9"
+  },
+  {
+   "id": 40,
+   "title": "마이데이에 대해",
+   "text": "마이데이모스 씨는 차가워 보이고 말을 붙이기가 어려워 보이지만, 사실 엄청 상냥해…. 왜 그런 걸까? 잘 모르겠네. 역시… 난 여자의 마음을 더 잘 아나 봐",
+   "unlockRequirement": "",
+   "cnUrl": "8ab61300ec9abf7fe2273d7306362f5c21b689eeed43e34905a11639205c71d2",
+   "jpUrl": "a7ab955e18ada82112da73a322582704d1b9d79379ec1acbaf27414dc57a99bf",
+   "enUrl": "5b7625c3b4a4a68ae599d716275af1e064b49ea358150bf3d7914acac27b6582",
+   "krUrl": "391db5983cf0501d28361f606a0437d6fb4bafcfbcf59e68e4e5d248dceca48c"
+  },
+  {
+   "id": 41,
+   "title": "카스토리스에 대해",
+   "text": "카스토리스 씨는 향긋하고 포근한 인형도 만들 줄 알고, 감동적인 이야기도 쓸 줄 알아. 심지어 지나갈 때마다 좋은 향기도 난다니깐…. 그녀랑 같이 있으면 항상 많은 걸 배울 수 있지",
+   "unlockRequirement": "",
+   "cnUrl": "032032303482afc0b4cef2d2b3e21a9c530447dad87d48fa100cb2ca06bf314a",
+   "jpUrl": "95fd4312ce440b61cd1d71f99ae0d7162711bbf5c375a48af4c20a00c7c8c7d5",
+   "enUrl": "d4d0a56732c2ba9a9925f78e860d9b73951957d5336bdf028c6c03a6dd9e65d0",
+   "krUrl": "e6446215a8a873bb928249586bfeaf0d3b9496003acde09b496bb857f0a4eade"
+  },
+  {
+   "id": 42,
+   "title": "아낙사에 대해",
+   "text": "사실… 난 본능적으로 선생님을 무서워해. 근데… 그분은 예외야! 이해가 안 되는 개념을 드로마스에 비유하시는데, 단번에 이해가 되더라고!",
+   "unlockRequirement": "",
+   "cnUrl": "879fc5f966ec09c4ae663c6fbffd816482c95b3686b6ca9342b27c21a56dbcd8",
+   "jpUrl": "365bc6d45727f7abad04daed848f75d27d18b8159d0cbc04b6e22ed7ecfe0e20",
+   "enUrl": "9ba3131439625a1cfe65335e656f72bec0977641a76fa84c59dd5606861a8221",
+   "krUrl": "5a575b640fc95fa17396772bd00f25c52aa348fe6fc469ccdca7ebe69ee7ddd1"
+  },
+  {
+   "id": 43,
+   "title": "히아킨에 대해",
+   "text": "왜인지는 모르겠는데, 함께한 시간은 짧아도, 우린 금방 모든 걸 터놓는 절친이 됐어. 한번은 히아킨의 정원에서 타이키얀부터 앰포리어스까지의 이야기를 하다가 꽃차를 한 잔, 또 한 잔 마시고 허니 팬케이크도 하나둘 먹다 보니, 마지막엔 이카도 잠들어 버렸다니까…. 근데 아쉬운 거 있지!?",
+   "unlockRequirement": "",
+   "cnUrl": "bffec56dfe3e3b74b0b83a8058f30804aea8d51f2a4a25d20a14aa51432f7e1c",
+   "jpUrl": "b36a46cb7b2c48a700a46498c42c41fcdae5c8d08ba89c1318f7180088c36da9",
+   "enUrl": "50e13edd41fdcf682f504986c0e10d0e257b2a0a38033660f00908d03b275d68",
+   "krUrl": "a460b3d49d0751ea014ab280d237de49d1af1618f87563571a2be28102b8a400"
+  },
+  {
+   "id": 44,
+   "title": "사이퍼에 대해",
+   "text": "사이퍼 씨의 얘기는 진짜 재밌어! 냥냥교랑 멍멍교의 이야기를 <nobr>80</nobr>가지가 넘는 버전으로 들려줬는데, 내가 지어낸 출생 스토리보다도 훨씬 많더라니까!",
+   "unlockRequirement": "",
+   "cnUrl": "d6629cd040a3623cc228d62d8d5dc81e7945cc781ed197c000eb57ac005e4d54",
+   "jpUrl": "758bcbcedb0faf6d680eaae69b7a628989b36df11cbe98940da62f9d825473bc",
+   "enUrl": "eddb3247d111934abe3ead12b38b8543620e82e1017e96a2b14075b9147f183b",
+   "krUrl": "f7ef708abb8cbe1b14ebf9f2cc8ee55a085eb3e2df1bdc357ac7ed1caec7cba2"
+  },
+  {
+   "id": 45,
+   "title": "히실렌스에 대해",
+   "text": "히실렌스 님의 바이올린 소리는 꿀 음료보다도 더 취하게 만들어. 설마 우아함과 아름다움의 비결이 악기를 배우는 건가? 음, 나도 배워서 날 좀 업그레이드해봐야겠어!",
+   "unlockRequirement": "",
+   "cnUrl": "4294ed7625b436efbe54092e60720e3ce6e26273097eabec73b2eb5bfa1f40d5",
+   "jpUrl": "de33e54e25715afee31f6234702cf172f02bedc623d45be05f38ded62e8827c9",
+   "enUrl": "f2f71722569c16eb930ff664eacb39e4ae8a6b8fd41db73fc221235f26ebce56",
+   "krUrl": "6aaa90edb4e402c33c8f6fa0407207845fc1b49ade98b1336d46285358c5f923"
+  },
+  {
+   "id": 46,
+   "title": "케리드라에 대해",
+   "text": "카이사르님이랑 「플라잉 체스」를 둘 때, 심장이 터지는 줄 알았어. 내가 체스말을 다시 두는 것도 허락해 주시고, 내 의견을 진지하게 검토해 보실 줄은 몰랐다니까…? 헤헤, 결국엔 나도 한 판 이겼다고!",
+   "unlockRequirement": "",
+   "cnUrl": "1a3490c666bc9bc243b30dfa31c29b9ec4c598db3ec63b9569b2a9e353cde7da",
+   "jpUrl": "9deb529ad702d1f882a3c6abff42e829cbe749b2575196d44359b441913fe177",
+   "enUrl": "43363f399a93ea0b0f33b7f5628c8573972fea4bf2fec679f03d79e1d53c5871",
+   "krUrl": "81f943e9893471542b8d7a1f691ce1b684e9afc0fef6c899300faabc5cadda5a"
+  },
+  {
+   "id": 47,
+   "title": "파이논에 대해",
+   "text": "그는 그렇게나 참혹한 희생을 치르고도 자신의 본심을 잃지 않다니…. 음, 이 몸도 반드시 그렇게 하겠어!",
+   "unlockRequirement": "",
+   "cnUrl": "4ed38abb38cdeecd07e6e3a1b0629192b6c53aa39f1ebc535da959c93c42200f",
+   "jpUrl": "1568f942b8566676bcc05b62455a16a3ff3e27cfd0b90534f3abb1eb27940cb4",
+   "enUrl": "b540a7a15caba0c34a67469a26c2f2f9f5276fc8c49596ef873ff054cc174a86",
+   "krUrl": "947e6ae63f26866dfcce36a83a663ef87f28f0106cf609e757350ab7ccaadcf5"
+  },
+  {
+   "id": 48,
+   "title": "키레네에 대해",
+   "text": "키레네가 모든 기억을 소중히 간직한 것, 미래를 수호한 것… 난 이 모든 걸 잊지 않을 거야. 그래야 모든 노력이 의미가 있는 법이잖아!",
+   "unlockRequirement": "",
+   "cnUrl": "df0ccfc76c3b0d3dbdbb6fe6f4e2cd9c50fa0e27b350bf1eedf8fbce3e37c3bc",
+   "jpUrl": "d1a9b785e21e4cbd584bba90e09594d7b86c915215dbe5665254388e1685156f",
+   "enUrl": "1c1c96b137f55f152a63fecefdca3298657af6462cf3d2d08ffe10f245d6b4e8",
+   "krUrl": "eef5f3d24d50ffdefe0ce2de7bd37d481aeac74b1a76e4a61def72dd37e6ecf7"
   },
   {
    "id": 17,
@@ -2517,10 +2628,120 @@
    "title": "파티 편성•단항•등황",
    "text": "우와, 단항은 묵묵히 노력해서 모두를 깜짝 놀라게 하는구나… 나도 해 볼래!",
    "unlockRequirement": "",
-   "cnUrl": "",
-   "jpUrl": "",
-   "enUrl": "",
-   "krUrl": ""
+   "cnUrl": "300d3bed5fcdec2a0bd0b74899608a5a7998ed3c2245cdbb6f11ff623a3cfdc5",
+   "jpUrl": "f92a7c9a8ac8999b25a7b7648853701e548b8482bd3c3a83af41736b8feb1839",
+   "enUrl": "d5d8038f74c1975d8cd13376b9d3c6a2d48279bf54ab143d28dc47b5ee7e7d00",
+   "krUrl": "5277fa48dcb23708ae550783cb0fbb40ecd6dd7ee4668b07e1f4b6791fb050ca"
+  },
+  {
+   "id": 49,
+   "title": "파티 편성•아글라이아",
+   "text": "아글라이아 씨, 이 옷은 어때요?",
+   "unlockRequirement": "",
+   "cnUrl": "6a911058cdfed6d51f6ae7344eb4dd19c839a3175bf287193aef2b2745891e17",
+   "jpUrl": "3a699bee9559915bdd5bc97f4809046f0528408560eca80b076626fb60f27c94",
+   "enUrl": "b1b5f5d9d3452ee5c157606d3d81705841fab5946dce9bf55a8d41e33725002d",
+   "krUrl": "8cf2970651385f2a467a7d60f41063d0d772b89b47b213f283c22291d1cea6fa"
+  },
+  {
+   "id": 50,
+   "title": "파티 편성•트리비",
+   "text": "트리비 선생님, 「세월」의 기도문이라면 똑똑히 기억하고 있어!",
+   "unlockRequirement": "",
+   "cnUrl": "1efb9086cf6b711c7d26f6165cf92ca81f2e22144bbbff0ee6b317e1ef448a8e",
+   "jpUrl": "5088752220ac3323db7c1c03b9fe8899127234914f13ee4652def2e582ea6222",
+   "enUrl": "e3f305798747e092eb02ba4b157e4f869f92c11274c5070b3f62cca33609b560",
+   "krUrl": "98bf93e398361b4dcd72cb8c7a5cc685a089454525df8b247cec4b3b1f808e0b"
+  },
+  {
+   "id": 501,
+   "title": "파티 편성•마이데이",
+   "text": "음, 저도 도울게요!",
+   "unlockRequirement": "",
+   "cnUrl": "4a37c731410c697ca4eacc354c219b61686c0a8a97e8dc127731e2ee253c8cfd",
+   "jpUrl": "f926f1454c2aa510bdf19ab390e1fea12ff63812ca8767a0da2515f1508578cc",
+   "enUrl": "73a99dcb616843fb65ba20054a34330dadc44924a7886c2f0e6f259505272a16",
+   "krUrl": "c94463903c5512cbb184529e35e6064745bb24c6bd178b1da7f07ad6803bffc2"
+  },
+  {
+   "id": 502,
+   "title": "파티 편성•카스토리스",
+   "text": "재촉하러 왔어! 저번 편으로는 간에 기별도 안 간다고~",
+   "unlockRequirement": "",
+   "cnUrl": "5f1521f5f4b48db75cd94af43f1cadab9f840177a6441090e1926cfed3dd2619",
+   "jpUrl": "04a17647c6f28c418ea65cb93344aa462cd20f54e4197d3541d626795fc8b2f8",
+   "enUrl": "ed02a22f5b160c1fa95e74c489011102b68afa90baa9d9e87808bae6481f7e4a",
+   "krUrl": "3c4ff557f69f7154402eb5306985386b5e3fecb7b634bf4992b6882baafca163"
+  },
+  {
+   "id": 503,
+   "title": "파티 편성•아낙사",
+   "text": "나중에 궁금한 거 생기면, 좀 가르쳐 주세요!",
+   "unlockRequirement": "",
+   "cnUrl": "7d819576f72f58c2be65f7a9e45240a0890b88feeff5ae2639e2572655c6968b",
+   "jpUrl": "0ee31672e41657f762f881f425336ba79ac27765aa6282e3d924346f15f37f44",
+   "enUrl": "485c60683bce1ea13c4857575da4c8cda1dc52e28a492535a9693d4ad9a186f7",
+   "krUrl": "76668b3d6ebb8fe92482a9bdcbc1751b046a70b5ecb0faeaaea17a6572e98227"
+  },
+  {
+   "id": 504,
+   "title": "파티 편성•히아킨",
+   "text": "걱정하지 마, 몸 잘 챙길게!",
+   "unlockRequirement": "",
+   "cnUrl": "2b3c9939f8e9379b0d6b9ad3a082cc59ef24356a408d0ef8c84d7a537e0a2f41",
+   "jpUrl": "4ddfca9b2b5fc14d7606764917c9882b70329236c883b02cb097844784ccc76e",
+   "enUrl": "6838b5dc8df1cf6da9eeabe86142b8374f9a0dfd8f8d81e21a3036748303f55c",
+   "krUrl": "572f61e6d55a72589a741e608c12995f167efafbddfdfb02264eb1da4d2afa70"
+  },
+  {
+   "id": 505,
+   "title": "파티 편성•사이퍼",
+   "text": "날아오르는 기분, 나도 한번 느껴보고 싶어!",
+   "unlockRequirement": "",
+   "cnUrl": "1275c7da702880d608279f775d9df0dff92e810baf1a11ff4052d10fc1f02fda",
+   "jpUrl": "de5459ed6bdcd80c33493a83af24e4be7841a6e990a2147080c233f7754f3355",
+   "enUrl": "a69543bdf0b9e6fe89167320ce01f6e981a0c95f461a6cedf99bdaadf10fd607",
+   "krUrl": "4fb1e5ff5bb832030e942f72669401c4eaf653ea77993eb7da59fa63f8ba910d"
+  },
+  {
+   "id": 506,
+   "title": "파티 편성•파이논",
+   "text": "걱정 마세요, 무명객은 영원히 앰포리어스와 함께할 거니까요!",
+   "unlockRequirement": "",
+   "cnUrl": "cf3e42064286424e5d270425ffe5b4955ba438bf5a9e65c1806b15b0cf059778",
+   "jpUrl": "8dc97bce04c838920b78756211b42935e21e37b71080a7e637fcd1e9da402095",
+   "enUrl": "72bab588fd5681dba7bf809657334cd54c65a7f0c1e8598b9b3f538b099de4ec",
+   "krUrl": "b4054887a8c3948aed4084796bba394ee1f4f9c817e7add506cb85c7799a530c"
+  },
+  {
+   "id": 507,
+   "title": "파티 편성•히실렌스",
+   "text": "헤헤, 이번에도 귀 호강하겠네요!",
+   "unlockRequirement": "",
+   "cnUrl": "559da62d849884a69643ad60fac988df035266737f9c62aa808ef59695c8ec0c",
+   "jpUrl": "8c6abf74d995f069da4fd76eaf69a3225a7eb30000802f3f018debf52a51080a",
+   "enUrl": "ddc973a4846b34b3e27dd3409176765c2540a3ecfd153ed0f81c1185ee3ca940",
+   "krUrl": "74df762753c8c8e2668e3adab4bfb445dfd92c1fff6c238250f3babd28acd4b8"
+  },
+  {
+   "id": 508,
+   "title": "파티 편성•케리드라",
+   "text": "카이사르님, 준비됐습니다!",
+   "unlockRequirement": "",
+   "cnUrl": "1c03d6fe5ba6ae65115f58c6a3b57cc594d6a1b13a350b81b0703485df31f5a0",
+   "jpUrl": "218ca67a2e7f1b2dcbe12327cf23c23474359f3151a40aeeba9352e60033484d",
+   "enUrl": "b2fb4e9c2e81ee52e17e487d44b006489fc9255721c1c27accfa1442298a2cd7",
+   "krUrl": "0fa231ef5120fe8f1c1d229ef2f9a1c8bd63ede0749da7d44af2603574a23f9a"
+  },
+  {
+   "id": 509,
+   "title": "파티 편성•키레네",
+   "text": "키레네! 드디어 다시 만났네~ 일단 같이 사진 한 장 찍자!",
+   "unlockRequirement": "",
+   "cnUrl": "a76f233c767fbd06203ae7fd0fe07f8417ab9b2b866c65a0e10861c84f64fee4",
+   "jpUrl": "23a7dedca7958c11d36fc10daa331f6d6a10f7d5b3d93c262577214b03327c86",
+   "enUrl": "73217e558a34e54567874b34ae4303826094c711e8e07637f20e9622f737352b",
+   "krUrl": "8c38bbcbfaa388f9e19496ca7907c3b92b4e2a69ec4b1d9a3e509fbe24ff30ba"
   },
   {
    "id": 51,

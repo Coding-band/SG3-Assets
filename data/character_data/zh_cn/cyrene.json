@@ -1,0 +1,7577 @@
+{
+ "spRequirement": 24,
+ "iconPath": "8a030413e9fd8f887ef2025d05a201523a9c51a8c6b32c35dcae627f196589f0",
+ "bgPath": "21a6ab290065a316e2c854ea9b52df5de6bcf6225ed58777d38a575c1c2f78d1",
+ "figPath": "a1508e252be9fa7e4ff91fa9ae7be19e10db0dc234d08368afcbb3b1e6cfe5f8",
+ "fgPath": "c8934505552cd243ca00a20c3963547766ce1586feea70635188d0e631593a8d",
+ "splashIconPath": "59e17e74d42c945578f4e5732814799a60c5a3cab6b3c334cf780ed037f199a4",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRoACAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSCwBAAABkHPbtrG94td9ns+2jdi2k+77Utm27aSyU1q9jda2bdvP+9wdIyImAHCDMQ5gwOACGJy+oQAulaFVDg7G0P/d6S1texvqTpqz8cYCMDDz2UZ/w6ady9bPOrvYnrm3DkIb7nDLHOhT8kXS4oJLHYs2jmb81uuVInrXfKWA52tYbu301Q+nsPBl907tFr2StV81itL6Fx82peTYsCUVbsiX9XXyyKMF+/tDqf/6Vf99Clhr9XzzF70cXImkuvX0aLv004ObmtygbCKQ9EqPP8paWUk1ADJas12yVla+py1hxoHQCpEpc6w8ydPzyWk4/BwKo6WApw/tIZhfG4fmZ6W7VQl2y4b+Chwilz9eEEt0XlTQ7wzuIm95AX+Z2O7s68mVnb8Ir9WzR5sg/idWUDggLgEAADAHAJ0BKhQAFAA+bTCSRyQioaEoCqiADYlsAJ0yhHtfoHDmuG8xjAbZTn2/QBvIG8zERMEoExJowFsFW+U1k28XgAD++M6x2mvejiSTtkaOOhSJytwj2Rvf/sQr9+/OnxNHoMfEyT4qt0m5q+kJWkZKd4rVcu7k4CUfCQKugsyd3qBnJaNu39IiYMLouhDaLZN3BWOigoTkBL/n4RD6K2/eHL38OrdTtP1pOtfj0kvPXTWOoVpINQ9Il9bqdbxVY39ntmqIwvayo51X9H+7bUVFyPDni1tHPQkolEoZLn2oBIPxf8N6KQYulxYcerUOJssKlbNQIo2UrOsAotO12hiGh2nC9ST4ZFtAf/wgPGv/X4T/Gtn+GST/OfwUo2ICf3AfNoYK6WwGkshgpgAA",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 8,
+  "iconPath": "f09a38c7cd9447f8bf0b54705cf969c3a142b1432ff14d7939eb452cbf3dda5a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用点",
+   "desc": "星际和平公司与客户结算时使用的货币，如今已成为太空旅行的硬通货。",
+   "lore": "「人们奔波、争斗、贸易，为的不过是个终端里显示的数字。但真正珍贵之物，公司的数字是买不到的。」",
+   "purpose": "通用货币",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "拟造花萼【大矿区】",
+    "拟造花萼【工造司】",
+    "拟造花萼【「白日梦」酒店-梦境】",
+    "拟造花萼【「呓语密林」神悟树庭】",
+    "任务奖励",
+    "委托奖励",
+    "余烬兑换"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 905,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "命运的足迹",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "一次又一次的败北成就了你的胜利，一步又一步的前进让你抵达了命运的拐点。",
+   "purpose": "行迹材料",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「货币战争」积分奖励",
+    "「模拟宇宙」积分奖励",
+    "无名勋礼",
+    "余烬兑换",
+    "星芒兑换",
+    "限时活动奖励"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 902,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫游指南",
+   "desc": "角色的经验材料，可以获得<nobr>20000</nobr>点角色经验。",
+   "lore": "跨越诸界必备的冒险丛书。按下阅读键，充满磁性的声音将以你能听懂的语言讲述知名冒险家们在不同世界间的传奇经历，以及他们在各个星球上获得的珍贵智慧。<br /><br />「漫游指南全新书系《星际美食烹饪导览》开售在即，敬请支持。」<br />「投稿请接入博识学会联觉信标<nobr>23</nobr>θ联络员，稿酬可以以您接受的任何形式支付。」",
+   "purpose": "角色经验材料",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "「忘却之庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 902,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒险记录",
+   "desc": "角色的经验材料，可以获得<nobr>5000</nobr>点角色经验。",
+   "lore": "装订严整，一看就颇有教育意义的冒险札记。图文并茂地描述了冒险行动的始末、有价值的信息和生存相关的技巧。<br /><br />「干嘛不数据化放进光刻片里？便携多了。」<br />「面对恒星风暴和中子流喷发时，高科技比你想象的还要脆弱。何况，制作这本书的人一定希望人们用最简单的方式阅读它。」",
+   "purpose": "角色经验材料",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "每日实训",
+    "余烬兑换"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 902,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅情见闻",
+   "desc": "角色的经验材料，可以获得<nobr>1000</nobr>点角色经验。",
+   "lore": "记录旅途见闻的日志，字迹漫漶不清，内容随心所欲，对你并没有太大的帮助。<br /><br />「看完了就赶紧把这堆废纸处理掉吧，丹恒？」",
+   "purpose": "角色经验材料",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "委托奖励"
+   ]
+  },
+  "554722": {
+   "id": 554722,
+   "type": 905,
+   "purposeId": 4,
+   "iconPath": "c73f7c95477c413116ae2315f55567473f4fd49d28ed37983d40adad50141294",
+   "name": "阳雷的遥想",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "当人子饮下晶核，便失却了觉察人心的机能。此后，星月轮转，俯瞰成了它唯一的天职。<br />它仍热爱生命，却再也无法将邻人视作生命。<br /><br />「匍匐于大地，试图触碰那片湛蓝。身处天空时，青草的芬芳却无价…」",
+   "purpose": "行迹材料",
+   "rarity": 4,
+   "rewardPath": "/material/554722",
+   "comeFrom": [
+    "历战余响【「穹顶关塞」晨昏之眼】"
+   ]
+  },
+  "6471577": {
+   "id": 6471577,
+   "type": 906,
+   "purposeId": 3,
+   "iconPath": "33aad7e181bb007b5e56beb56275d4c8e7c1821708236fba6fd9088d76a52610",
+   "name": "末那芽苗",
+   "desc": "记忆的细胞萃取着思绪，于铭刻者的心底滋蔓，可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">记忆</span>角色的命途行迹。",
+   "lore": "种子萌发，枝芽交错，如突触般传递信号。在岁月的流逝中，这些枝芽有的枯萎，有的生长，直到能承载生命，成为某个灵魂的躯壳。<br /><br />「我们没有抛弃肉体，只是让它变成了一种…更长久的东西。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/6471577",
+   "comeFrom": [
+    "拟造花萼【「纷争荒墟」悬锋城】",
+    "「万能合成机」- 材料合成",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "6720910": {
+   "id": 6720910,
+   "type": 906,
+   "purposeId": 3,
+   "iconPath": "817a8530de59eda4145e7b96677d0871bca6ed033eeae018e65b1ecca6c43a77",
+   "name": "阿赖耶华",
+   "desc": "这是生命的另一种存在方式，也是宇宙无法忘却的物质，可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">记忆</span>角色的命途行迹。",
+   "lore": "它成熟了，变作一张收拢历史的网，一朵来自过去的花。生命是它的园圃，也可以是它的花心。若你成为花心，你便记住了宇宙，宇宙便记住了你，你就是记忆。<br /><br />「记忆即为诸法之实体，故而无漏净土中，无有生灭。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/6720910",
+   "comeFrom": [
+    "拟造花萼【「纷争荒墟」悬锋城】",
+    "「万能合成机」- 材料合成",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "6744567": {
+   "id": 6744567,
+   "type": 906,
+   "purposeId": 3,
+   "iconPath": "23cd2fc3a60fd252453515bc737da03bd0ba3d4086c50aa3b7c81d453d7fa54c",
+   "name": "思量的种",
+   "desc": "意识与物质交汇，孕育出了记忆的胚胎，可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">记忆</span>角色的命途行迹。",
+   "lore": "此物本不存在，直到你见到、听到、感受到某物。这因感受诞生的存在很快便会沉寂，埋在思维的苗床里，或许会在某日发芽，或许不会。<br /><br />「那是构成我们身体的质料，因你的铭记而存在。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/6744567",
+   "comeFrom": [
+    "拟造花萼【「纷争荒墟」悬锋城】",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "20170864": {
+   "id": 20170864,
+   "type": 908,
+   "purposeId": 7,
+   "iconPath": "d0c7c7f9f997cb0ede806d12e51f7bbfca2f8efb9ecbd2546aff0ab24a8a90dd",
+   "name": "勇气撕裂胸膛",
+   "desc": "纷争眷属阵亡后的碎块，强化所需的普通材料。",
+   "lore": "懒惰的将领开始操练，避世的贤者开始思谋。直至人发现能将神的造物击碎，屠杀便成了战争。<br /><br />「恐惧是勇气的刻刀。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/20170864",
+   "comeFrom": [
+    "突破至均衡等级2后，泰坦眷属掉落",
+    "突破至均衡等级2后，晨昏奇兽掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "20389475": {
+   "id": 20389475,
+   "type": 908,
+   "purposeId": 7,
+   "iconPath": "4248c4deac64679a25e9190920297cee99e492be38480008c348d5faa425a466",
+   "name": "荣耀洗礼身躯",
+   "desc": "纷争眷属富含神力的心脏，强化所需的高级材料。",
+   "lore": "最初，人们为生而战。如今，有人为死而战，与那些纷争的眷属一样无畏。悬锋人说，或许肉与石的勇士都有着同一颗心脏——<br /><br />「勇气在里面流淌，此心名为荣耀。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/20389475",
+   "comeFrom": [
+    "突破至均衡等级4后，泰坦眷属掉落",
+    "突破至均衡等级4后，晨昏奇兽掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "20445700": {
+   "id": 20445700,
+   "type": 908,
+   "purposeId": 7,
+   "iconPath": "57fb73d5a5481d898d7901a6639f9061749101e2b47ded8580cb2ad476407aed",
+   "name": "恐惧踏碎血肉",
+   "desc": "组成纷争眷属的尘屑，强化所需的简单材料。",
+   "lore": "死亡的潮席卷天地，恨与怨的巨人踏出冥河。在那坚石雕刻的军团面前，无人不畏惧，无人不俯首。<br /><br />「杀戮是恐惧的石料。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/20445700",
+   "comeFrom": [
+    "泰坦眷属掉落",
+    "晨昏奇兽掉落",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "委托奖励",
+    "余烬兑换",
+    "「万能合成机」- 材料置换",
+    "拟造花萼（金）"
+   ]
+  },
+  "29909894": {
+   "id": 29909894,
+   "type": 907,
+   "purposeId": 2,
+   "iconPath": "eb62bd7c1f6c4aec2d60ec38db9d09847728f3b675f5c0de0534073d925b0fdc",
+   "name": "海妖残鳍",
+   "desc": "波涛夫人的刺状尾鳍，冰属性角色的晋升素材。",
+   "lore": "海洋之女们原本有着圆润的长尾，能在夜里发出幽光，如灯塔般指引迷途的渔人归航；而今那尾鳍已化作骨刺，将她们曾经庇护的胸膛洞穿。<br /><br />「斯基亚纳海的疯狗浪能达到一千米高——海洋可不是温柔的母亲。」",
+   "purpose": "角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/29909894",
+   "comeFrom": [
+    "凝滞虚影【{TextID#FloorName_20451001}】",
+    "「万能合成机」- 材料置换"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 60.72,
+   "attackAdd": 3.036,
+   "hpBase": 190.08,
+   "hpAdd": 9.504,
+   "defenseBase": 79.2,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 20445700,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 85.008,
+   "attackAdd": 3.036,
+   "hpBase": 266.112,
+   "hpAdd": 9.504,
+   "defenseBase": 110.88,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 20445700,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 109.296,
+   "attackAdd": 3.036,
+   "hpBase": 342.144,
+   "hpAdd": 9.504,
+   "defenseBase": 142.56,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 20170864,
+     "count": 6
+    },
+    {
+     "id": 29909894,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 133.584,
+   "attackAdd": 3.036,
+   "hpBase": 418.176,
+   "hpAdd": 9.504,
+   "defenseBase": 174.24,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 20170864,
+     "count": 9
+    },
+    {
+     "id": 29909894,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 157.872,
+   "attackAdd": 3.036,
+   "hpBase": 494.208,
+   "hpAdd": 9.504,
+   "defenseBase": 205.92,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 20389475,
+     "count": 6
+    },
+    {
+     "id": 29909894,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 182.16,
+   "attackAdd": 3.036,
+   "hpBase": 570.24,
+   "hpAdd": 9.504,
+   "defenseBase": 237.6,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 20389475,
+     "count": 9
+    },
+    {
+     "id": 29909894,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 206.448,
+   "attackAdd": 3.036,
+   "hpBase": 646.272,
+   "hpAdd": 9.504,
+   "defenseBase": 269.28,
+   "defenseAdd": 3.96,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "50c990b22efa4c0183435a6e50a38b391d5a9de398802ec36397d9498d9f408e",
+   "artPath": "4c0f8c38f0eae70523524ad97cc1f0d01a00c809d42142f7908ec2b0c894dbed",
+   "name": "空白，在诗篇的起点",
+   "descHash": "德谬歌触发忆灵技【献予「真我」之诗】施放【花与箭的舞曲】时获得<nobr>#1[i]</nobr>点【追忆】并使本次攻击的弹射次数额外增加<nobr>#2[i]</nobr>次。",
+   "params": [
+    6,
+    12
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "ed47198eb2b4f4d2f47f30b7595e5e49657b398394fc949e21a8ce3dc7bb9125",
+   "artPath": "86d80d767392215d4d7dd4f47e855184a18e94f9f9727039bc4054eec1d6c350",
+   "name": "十三种光彩，倒映明天",
+   "descHash": "进入战斗时，额外获得<nobr>#1[i]</nobr>点【追忆】。每有1名不同的我方角色获得德谬歌忆灵技的<u>增益效果</u>，我方目标通过战技的结界造成的<u>真实伤害</u>倍率提高<nobr>#3[i]%</nobr>，最多提高<nobr>#4[i]%</nobr>。",
+   "params": [
+    12,
+    0,
+    0.06,
+    0.24
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "e6aa73b83caf52d925561f77b6203d4a6942f846a56d460a49aa406916fa7ac5",
+   "artPath": "4d0c50260fc66b555db8d96960e4902a11f6e04a1e59932d717ff0964fd30e95",
+   "name": "因你而在，如我所书",
+   "descHash": "终结技等级+2，最多不超过<nobr>15</nobr>级；天赋等级+2，最多不超过<nobr>15</nobr>级；忆灵技等级+1，最多不超过<nobr>10</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "701cc42263d8df770373ee2c66254d1b172ee6261c629ea0748386908f5eff29",
+   "artPath": "c90ab10b75eda0126f1e8506d10728c075d36e980bd913025d5990e67b4cf6a8",
+   "name": "请笑着，写就下一页",
+   "descHash": "德谬歌每施放1次【花与箭的舞曲】后，本场战斗中触发忆灵技【献予「真我」之诗】的弹射伤害倍率提高<nobr>#1[i]%</nobr>，最多可叠加<nobr>#2[i]</nobr>层。",
+   "params": [
+    0.06,
+    24
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "af790a5ee96ee912110ae3a39f57033b130eb33df2aa23264f04be9b67547d82",
+   "artPath": "1b651f225db11ef61a8da48abee57a3b6c72c5e62dab62b10d6398412fa08c0b",
+   "name": "目光，流溢昨日的花圃",
+   "descHash": "战技等级+2，最多不超过<nobr>15</nobr>级；普攻等级+1，最多不超过<nobr>10</nobr>级；忆灵天赋等级+1，最多不超过<nobr>10</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "73a5cc988d306f61eab0e1554c0571ad439669219d328d9e811edecc08b5e61b",
+   "artPath": "40c1e6e21216cfe8d14dcfdfd685c95cea7b0628a424fab734fafc3c4ca67464",
+   "name": "记忆，化作涟漪片片♪",
+   "descHash": "昔涟首次施放终结技时，使我方全体<u>行动提前</u><nobr>#1[i]%</nobr>。德谬歌每次触发忆灵技【献予「真我」之诗】施放【花与箭的舞曲】时，根据本场战斗中已触发的次数获得以下效果：<br />1次：德谬歌在场时，敌方全体目标的防御力降低<nobr>#2[i]%</nobr>；<br />至少2次：使我方全体<u>行动提前</u><nobr>#3[i]%</nobr>。",
+   "params": [
+    1,
+    0.2,
+    0.24
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   21732319,
+   21518675
+  ],
+  [
+   21984745
+  ],
+  [
+   21702647,
+   4795736
+  ],
+  [
+   21959042
+  ],
+  [
+   21786441
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "单攻",
+   "descHash": "获得<nobr>#2[i]</nobr>点【追忆】并对指定敌方单体造成等同于昔涟<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>生命上限的<span style=\"color:#47C7FD;\">冰</span>属性伤害。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 21732319,
+   "name": "看，希望的起始！",
+   "iconPath": "8c8fef3d87ef1a2cc989d8f62a0a9dd08893bb3c55fd319f36a1cd5cb138465e",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.25,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.35,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.4,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.45,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.5,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.55,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.65,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "辅助",
+   "descHash": "获得<nobr>#3[i]</nobr>点【追忆】并展开结界，持续<nobr>#2[i]</nobr>回合，昔涟每回合开始时结界持续回合数减1。结界持续期间，我方全体目标每造成1次伤害，都会再额外造成1次等同于原伤害<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>的<u>真实伤害</u>。当昔涟陷入<u>无法战斗状态</u>时，结界也会被解除。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 21984745,
+   "name": "盛放吧，来世的乐土",
+   "iconPath": "af790a5ee96ee912110ae3a39f57033b130eb33df2aa23264f04be9b67547d82",
+   "typeDescHash": "战技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.12,
+      2,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.132,
+      2,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.144,
+      2,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.156,
+      2,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.168,
+      2,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.18,
+      2,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      0.195,
+      2,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      2,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.225,
+      2,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      2,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.252,
+      2,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.264,
+      2,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.276,
+      2,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.288,
+      2,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      2,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "召唤",
+   "descHash": "<u>召唤忆灵</u>德谬歌，使其立即获得1个<u>额外回合</u>并激活全体队友的终结技，随后进入【往昔的涟漪】状态，普攻强化为【向着爱与明天♪】且仅能使用该普攻，昔涟和德谬歌的暴击率提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>，展开战技的结界并使战技的结界没有持续时间。<br />单场战斗中只能施放1次。德谬歌初始拥有等同于昔涟<nobr>#1[i]%</nobr>生命上限的生命上限。",
+   "ultimateCost": 12,
+   "break": "0",
+   "energy": "0",
+   "id": 21702647,
+   "name": "诗的「◦」誓约的「∞」",
+   "iconPath": "50df740a899b6748349612bd050870d224a5585ffe74ecafc62d2713505857ee",
+   "typeDescHash": "终结技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      24,
+      0.25,
+      12
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.275,
+      12
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.3,
+      12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.325,
+      12
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.35,
+      12
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.375,
+      12
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.40625,
+      12
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.4375,
+      12
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.46875,
+      12
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.5,
+      12
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.525,
+      12
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.55,
+      12
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.575,
+      12
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.6,
+      12
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      24,
+      0.625,
+      12
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "强化",
+   "descHash": "战斗开始时或昔涟行动后，我方任意状态的其他角色及其忆灵获得【未来】，持有【未来】的我方目标行动时消耗【未来】使昔涟获得<nobr>#1[i]</nobr>点【追忆】。昔涟在【追忆】达到<nobr>#4[i]</nobr>点时可激活终结技并解除自身所有<u>负面效果</u>，处于【往昔的涟漪】状态时在【追忆】达到<nobr>#5[i]</nobr>点时可激活终结技，达到上限后还可最多溢出至<nobr>#3[i]</nobr>点。昔涟在场时，我方全体目标造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 21959042,
+   "name": "众愿啊，汇流如歌",
+   "iconPath": "c7477737aeb497fe09974748eb500e5a3093dcb65ca1e78ffa59900c64d4c99a",
+   "typeDescHash": "天赋",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.1,
+      27,
+      24,
+      12
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.11,
+      27,
+      24,
+      12
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.12,
+      27,
+      24,
+      12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.13,
+      27,
+      24,
+      12
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.14,
+      27,
+      24,
+      12
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.15,
+      27,
+      24,
+      12
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1625,
+      27,
+      24,
+      12
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.175,
+      27,
+      24,
+      12
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.1875,
+      27,
+      24,
+      12
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.2,
+      27,
+      24,
+      12
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.21,
+      27,
+      24,
+      12
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.22,
+      27,
+      24,
+      12
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.23,
+      27,
+      24,
+      12
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.24,
+      27,
+      24,
+      12
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.25,
+      27,
+      24,
+      12
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "单攻",
+   "descHash": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 21544378,
+   "name": "攻击",
+   "iconPath": "8c8fef3d87ef1a2cc989d8f62a0a9dd08893bb3c55fd319f36a1cd5cb138465e",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "辅助",
+   "descHash": "使用秘技后，在自身周围制造1片持续<nobr>#1[i]</nobr>秒的特殊领域，处于特殊领域内的敌人陷入【此刻永驻】状态，【此刻永驻】状态下的敌人会停止所有行动。处于特殊领域内的我方角色移动速度提高<nobr>#2[i]%</nobr>。持续时间内进入战斗后，展开战技的结界。我方制造的领域效果最多存在1个。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 21786441,
+   "name": "西风尽头，宁谧永恒",
+   "iconPath": "7694d18a28d11ad42d949f332be3518b98edd6e8eaae4c357234f2b7a7e47f0d",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      30,
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "群攻",
+   "descHash": "获得<nobr>#2[i]</nobr>点【追忆】并对指定敌方单体造成等同于昔涟<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>生命上限的<span style=\"color:#47C7FD;\">冰</span>属性伤害，随后对敌方全体造成等同于昔涟<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>生命上限的<span style=\"color:#47C7FD;\">冰</span>属性伤害。<br />【向着爱与明天♪】无法恢复战技点。",
+   "ultimateCost": 0,
+   "break": "15/hit",
+   "energy": "0",
+   "id": 21518675,
+   "name": "向着爱与明天♪",
+   "iconPath": "2c1061fde7f326020f05fc4fc3e49eb1d15bed77cd5241c6d0afc30ae29e857d",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.15,
+      3,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.18,
+      3,
+      0.18
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      3,
+      0.21
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.24,
+      3,
+      0.24
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.27,
+      3,
+      0.27
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.3,
+      3,
+      0.3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.33,
+      3,
+      0.33
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.36,
+      3,
+      0.36
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.39,
+      3,
+      0.39
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.42,
+      3,
+      0.42
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "强化",
+   "descHash": "使德谬歌立即获得1个<u>额外回合</u>。",
+   "ultimateCost": 12,
+   "break": "0",
+   "energy": "0",
+   "id": 4795736,
+   "name": "一如初见的重逢",
+   "iconPath": "c4208151be150b11e823c4793b1e5ff58e942a6e50c2e59f5264c81ad4b7f289",
+   "typeDescHash": "终结技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      12
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 20445700,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 3500
+      },
+      {
+       "id": 6744567,
+       "count": 2
+      },
+      {
+       "id": 20445700,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 7000
+      },
+      {
+       "id": 6471577,
+       "count": 2
+      },
+      {
+       "id": 20170864,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 6471577,
+       "count": 4
+      },
+      {
+       "id": 20170864,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 25000
+      },
+      {
+       "id": 6471577,
+       "count": 6
+      },
+      {
+       "id": 20170864,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 35000
+      },
+      {
+       "id": 6720910,
+       "count": 2
+      },
+      {
+       "id": 20389475,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 70000
+      },
+      {
+       "id": 6720910,
+       "count": 5
+      },
+      {
+       "id": 554722,
+       "count": 1
+      },
+      {
+       "id": 20389475,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 140000
+      },
+      {
+       "id": 6720910,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 6720910,
+       "count": 13
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 554722,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      12
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "单攻",
+   "descHash": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 5130032,
+   "name": "攻击",
+   "iconPath": "8c8fef3d87ef1a2cc989d8f62a0a9dd08893bb3c55fd319f36a1cd5cb138465e",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1415101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1415204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 29586245,
+      "name": "生命强化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "生命值",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1415205,
+     "anchor": 13,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 29794643,
+      "name": "暴击伤害强化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "暴击伤害",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 19000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "队友的忆灵被召唤时获得【未来】，忆灵持有的【未来】不会被消耗。",
+    "ultimateCost": 0,
+    "id": 29919478,
+    "name": "记忆的净子",
+    "iconPath": "70e7d374a381b863d2895a79034173cc0682998fcd4676257eea5d563c5029ed",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1415102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1415206,
+     "anchor": 14,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 29546365,
+      "name": "速度强化",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "速度",
+        "value": 3,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 20389475,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1415207,
+     "anchor": 15,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 29754638,
+      "name": "暴击伤害强化",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "暴击伤害",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 6720910,
+        "count": 3
+       },
+       {
+        "id": 20389475,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "我方队伍中存在1名/2名/3名除昔涟外的<u>黄金裔</u>角色或「记忆」命途角色时，昔涟在战斗开始时获得<nobr>#1[i]</nobr>/<nobr>#2[i]</nobr>/<nobr>#3[i]</nobr>点【追忆】。",
+    "ultimateCost": 0,
+    "id": 30170859,
+    "name": "岁月的旅人",
+    "iconPath": "4d6a72dabf648c444375885a74cec1c03db7eeac74d52caa77a1a24bd21ae99f",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       2,
+       3,
+       6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 6471577,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1415103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1415208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1415209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1415210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 12684706,
+          "name": "暴击伤害强化",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+          "statusList": [
+           {
+            "key": "暴击伤害",
+            "value": 0.107
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 6720910,
+            "count": 8
+           },
+           {
+            "id": 20389475,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 29776170,
+        "name": "速度强化",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "速度",
+          "value": 4,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 6720910,
+          "count": 8
+         },
+         {
+          "id": 20389475,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 29502230,
+      "name": "生命强化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "生命值",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 7
+       },
+       {
+        "id": 20389475,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "昔涟的速度大于等于<nobr>#1[i]</nobr>点时，我方全体造成的伤害提高<nobr>#4[i]%</nobr>，之后每超过1点速度，昔涟与德谬歌的<span style=\"color:#47C7FD;\">冰</span>属性<u>抗性穿透</u>提高<nobr>#2[i]%</nobr>，最多计入<nobr>#3[i]</nobr>点超出的速度。",
+    "ultimateCost": 0,
+    "id": 29895903,
+    "name": "三相的因果",
+    "iconPath": "e9af1cf2f8fa4bcf10b2e33ccf72265d47f72d2e145f2408817288e525f0085b",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       180,
+       0.02,
+       60,
+       0.2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 6720910,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 554722,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1415201,
+   "anchor": 9,
+   "type": 2,
+   "children": [
+    {
+     "id": 1415202,
+     "anchor": 10,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 29564588,
+      "name": "速度强化",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+      "statusList": [
+       {
+        "key": "速度",
+        "value": 2,
+        "int": true
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 6744567,
+        "count": 3
+       },
+       {
+        "id": 20445700,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1415203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 29838512,
+      "name": "暴击伤害强化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "暴击伤害",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 9000
+       },
+       {
+        "id": 6471577,
+        "count": 3
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 29878424,
+    "name": "暴击伤害强化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+    "statusList": [
+     {
+      "key": "暴击伤害",
+      "value": 0.053
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 20445700,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次见面",
+   "text": "这是命运的邂逅吗，还是…久别重逢呢？真让人心跳加速呀，那…就像初遇时那样，再一次呼唤我「昔涟」，好吗？",
+   "unlockRequirement": "",
+   "cnUrl": "519f48c7d35ce1fef466eb1214ec4945fe8648640a748f8b717ec6d52ab0970f",
+   "jpUrl": "2b2460a45b1b0bcce7a9f4fd3717ce8c870c9050c66bbf98573f6b9e1d7521ed",
+   "enUrl": "907ec5e45d7ab0f8e540c2e71083bb5f05857925014581032a43b8dd2f034112",
+   "krUrl": "c440dc2c3769526723cbaadef95ecb74b9f65bafedec6ae60dedb8aaf284be54"
+  },
+  {
+   "id": 2,
+   "title": "问候",
+   "text": "嗨，好久不见！接下来…想如何度过美妙的双人时间呢？",
+   "unlockRequirement": "",
+   "cnUrl": "98ea19dd7523a19029e5b5c871dea06189787af2d3bee4fa44e9bc65957643ac",
+   "jpUrl": "7fe13a79cf7e31db3e854c6447e24713c5ceaddd00b6409f538d6d2cc785731a",
+   "enUrl": "9c626bc0a77577fcedca0c6a8e81a73a44224faa3e5f194f88dd50cb01a2ca1f",
+   "krUrl": "fdc2a7c5613d6b80565ae104b6f3a5c3e930bf127116789cdc27f0e8c73014de"
+  },
+  {
+   "id": 3,
+   "title": "道别",
+   "text": "人家可不喜欢道别。不如…留个悬念如何？如果想我了，就把这段回忆擦亮，我就会悄悄来到你的心里。约好了，不许忘记哦？",
+   "unlockRequirement": "",
+   "cnUrl": "e1ded0fcd244c112d0b7aa61cedc37aca88553278170f153c8f12f25833d4493",
+   "jpUrl": "57a108684b5e8f89ef8f27445d04c58ed9ce8f4920dfea1f92f8318411c38653",
+   "enUrl": "8ebe7290af98f29a756c43a417c62c8fe0e7471d878f0e920f5daf5558bdb351",
+   "krUrl": "fe69ea3cbc3f8b557b0175285ce17c2f1f89419cc1ea70d4874e4a70c5a1316b"
+  },
+  {
+   "id": 4,
+   "title": "关于自己•存在",
+   "text": "从天真无邪的「迷迷」，到青春活泼的「昔涟」，因为有你，人家的故事越来越圆满了呢。无论涟漪如何荡漾，都是我们亲手写下的诗篇呀♪",
+   "unlockRequirement": "",
+   "cnUrl": "13cc43877aadfee14b0407e45b49efb37dc097c804c7e01470c8fe5a5dd7f139",
+   "jpUrl": "5a4cc2bc4dbd4ae10fe6cec0063cd009e07643ea02a0266c6df99e32277571ea",
+   "enUrl": "400de5c53b27860230be3b16ef4064624b0c5ba60b8482dc00bb03c7a8906998",
+   "krUrl": "7567b1a18771639420d5c450fa8696f1eb07fd278203d3d87290f4b6e7b1139e"
+  },
+  {
+   "id": 5,
+   "title": "关于自己•存在",
+   "text": "从天真无邪的「迷迷」，到青春活泼的「昔涟」，再到美丽、优雅又幸福的「德谬歌」，因为有你，人家的故事终于圆满了呢。无论涟漪如何荡漾，都是我们亲手写下的诗篇呀♪",
+   "unlockRequirement": "完成开拓任务「落英啊，残芳纷飞留归躅」后解锁",
+   "cnUrl": "192136206ed8101fa177c355310b8fc9708be12a5bb0bc1a2c08bf3ba051b63e",
+   "jpUrl": "7aeb9f47a5f98ef9268d1a235efcbd33fbb4b3f1c5d875e548f97afb1a2625db",
+   "enUrl": "20424cefba5f5752ba3a5af4b9f9ad44f5e1c11b54a13d5295e45961c3eab4e3",
+   "krUrl": "fae31352a881b6e1cf1dd6dbc3dd7a09c192005ccdf67273839044587b46a235"
+  },
+  {
+   "id": 6,
+   "title": "关于自己•神谕",
+   "text": "能在梦里听见朦胧的神谕，还在它的指引下前行…人家也觉得很神奇呢。",
+   "unlockRequirement": "",
+   "cnUrl": "a91f21180f1bb00f7d4dd5714f354f47a4e93c2f76bd90cce01809e9acec228b",
+   "jpUrl": "a9cd6007cbf8906baee72d2b1b7872f366d34d09fa16d3f167a2045273e09b9b",
+   "enUrl": "d04a020a436928ceb501b256ba17a59abd84c2307eb2b1477319e9d22f5f84ad",
+   "krUrl": "aaa1c66e6e5ff0057b94cce752fc7253ea5afca5c3e6d76fbd77d6954009ce08"
+  },
+  {
+   "id": 7,
+   "title": "关于自己•神谕",
+   "text": "能在梦里听见朦胧的神谕，还在它的指引下前行…人家也觉得很神奇呢。原来，那从来不是他人施予的奇迹，而是内心深处的自我呀♪",
+   "unlockRequirement": "完成开拓任务「落英啊，残芳纷飞留归躅」后解锁",
+   "cnUrl": "b3f905725a1284836b2834f0f2cf41409b69151ab65fdb102acb5c4d86c93ee3",
+   "jpUrl": "d0227297c5ae14c88262e4104f098f9650b59cbfbb5b8b66941671d8d2ff48ef",
+   "enUrl": "cd242f17339b64cb21576976ac1543d4551d484098851b36529592fcfc3a7a2c",
+   "krUrl": "1ca0d02b51cdac714a85943180e169a7817ce80ffbbc78a5f887553a4ef88ed7"
+  },
+  {
+   "id": 8,
+   "title": "闲谈•粉色",
+   "text": "没有人能拒绝粉色！它像心跳一样炙热，像花瓣一样温柔，还像我的眼睛…是属于「爱」的底色♪",
+   "unlockRequirement": "",
+   "cnUrl": "304b695c74428956fcc10ce21fbd2f35c493870e2a308c67db96c6d5e19a1f1c",
+   "jpUrl": "e3553735f1e69ffa58c53e80cd9f12b054ba17052adfc286abb63f8a5ba7ddb7",
+   "enUrl": "296f70850904cc9b7e81ab6deef06f14197962c7beb315a9d700f091ec564b75",
+   "krUrl": "efbc07d7b5e480044de083d8c0021097dea12626f334f92dd26680c8b2f6594f"
+  },
+  {
+   "id": 9,
+   "title": "爱好•秋千",
+   "text": "开拓者喜欢荡秋千吗？随风荡起的时候，心也会飞得好高好高，仿佛能追上远去的思念。来，我们一起。如果害怕，就牵住人家的手吧？",
+   "unlockRequirement": "",
+   "cnUrl": "618ca00d32ee0265fbe493e094f0825f5bf3356df4e710b9ce4a2c84dae4c697",
+   "jpUrl": "7baf10a6f2779742f75ae793557278caac651e75a89af50795e3f3c992c397c1",
+   "enUrl": "4c1aaf110df4a7f1abc7d6206af35c5eac17867ca029b2e04b2975242dcac82d",
+   "krUrl": "6b8562a4457ea7183c9c9dd619086d85b2dfad54d8530617de37b81794ad9ff2"
+  },
+  {
+   "id": 10,
+   "title": "爱好•星星",
+   "text": "睡不着的时候，我会数天上的星星，想象一颗流星划过夜空，闯进人家的梦里。然后我就会笑着醒来，开启美好的一天。因为我知道，那不是梦。",
+   "unlockRequirement": "",
+   "cnUrl": "8a792eb02c366341ac309691c209c77726caf990cd47d7a553b0ef5b3cd46c54",
+   "jpUrl": "9a78356a6a2a061bf979fb5bf6991ff17821dc47eb57a36f4f6ca4f080f1157a",
+   "enUrl": "701843d00f0267dd2e0e7160be814bfd1f3e0be66a262350220c47b1a3381815",
+   "krUrl": "7999d87b0c3b01fe2bf24fdc2f48cc922d45050cf084971c95672d89e2e945f4"
+  },
+  {
+   "id": 11,
+   "title": "烦恼",
+   "text": "名为「昔涟」的少女，怎么会有烦恼呢？就算有——见到你的时候，也都烟消云散啦。",
+   "unlockRequirement": "",
+   "cnUrl": "3bf793145e8167d91991ea654ed84019a9390c2aa8bc1d2c86b149383296e8d3",
+   "jpUrl": "250df0ee9c982830fb86a268ed85448500e8ae3cb9fd8cc7764ba0e000dee5ae",
+   "enUrl": "2aba63f535445cd2af46d03e2dd20e24ed2ec0a5da17e225b47032d4804e3747",
+   "krUrl": "095f0fbfb2e1a214c04fef97bc0bb6f6794e9c496983e95297727d384b9cbe69"
+  },
+  {
+   "id": 12,
+   "title": "分享",
+   "text": "「迷路迷境」的小妖精，是不是很可爱？创造它们的人一定有颗纯真的心吧。哆、徕、咪、发、嗦、啦、嘻，七种音符谱写出数不尽的歌谣，就像一成不变的岁月，也能铭记不同以往的故事♪",
+   "unlockRequirement": "",
+   "cnUrl": "a46ed647b2836e9192b13a4710f26fdc8009dac4bced449b9afff50a03717feb",
+   "jpUrl": "90b3cd44ed86332ed17f2fffb9f210cb668f5b0e771129a91aeab72958092485",
+   "enUrl": "6ae2f5a114f26788f7960598426bf6dd59dee8b3eff84920968b227d8428257b",
+   "krUrl": "b9ef3f411ab4236b6b173766dd4bd1a71ca471fa4de11d7d668b555ba3b07507"
+  },
+  {
+   "id": 13,
+   "title": "分享",
+   "text": "「迷路迷境」的小妖精，是不是很可爱？当然啦，这可是「昔涟」写下的第一个故事。哆、徕、咪、发、嗦、啦、嘻，七种音符谱写出数不尽的歌谣，就像一成不变的岁月，也能创造不同以往的故事♪",
+   "unlockRequirement": "完成开拓任务「落英啊，残芳纷飞留归躅」后解锁",
+   "cnUrl": "d6ad590b3f02b8735949863c46415964b07f0affadcc0b1a672fa007cc669b04",
+   "jpUrl": "05e6e880d4dfdc7e71390a9807e7077e567cb725c0729bb2187b67d6e9475ab1",
+   "enUrl": "baaad3fceb372017f93337a92a18f5c74fe35f6eade529f1c89c72f0f302bce6",
+   "krUrl": "7a86d3e2899ca54325c5913679d1a360977f6ede61c0fb505b71832675b2e4ba"
+  },
+  {
+   "id": 14,
+   "title": "见闻",
+   "text": "三千万篇相似而不相同的故事，听起来是不是很多呢？可我从来没有厌倦过，和开拓者旅行的时候，又感动地重温了一遍呢！但故事的每一页，似乎都有些遗憾，想在这里加一段欢笑，想在那里填补上空白…多亏有开拓者在，终于能为它们续写浪漫的结局了呀♪",
+   "unlockRequirement": "",
+   "cnUrl": "e9b19319163efe9ae97822481701d4827325058a3bf609fd016738b05f943589",
+   "jpUrl": "f4545e86d83457b7ccecf8a138a63df97104ef3febcd6e220bb8f0fe102b4e7b",
+   "enUrl": "94967833ad714497b311e19f95f96130a65ad85bfdfad33cf2ed5dc763d8dff0",
+   "krUrl": "e924b6be16d2e1f418b053fa2cd44db5e6023155034608bbf458536309d87ac3"
+  },
+  {
+   "id": 15,
+   "title": "关于开拓者•一",
+   "text": "悄悄告诉你，第一次见面时，人家就被你的目光吸引了！别动喔，让我再看一次，好漂亮的眼睛，它们倒映出的明天，也同样美丽♪",
+   "unlockRequirement": "",
+   "cnUrl": "17c5ad625f02faa6488e1470f762a03323f2a9c083171167cc048678d375df1c",
+   "jpUrl": "b606da99f2b4fadc46c0e44ed104616fcd4c5f74fff1e595d3146e4d978f09fa",
+   "enUrl": "9f8bf69885b540534ee7c34f4fc45b822882c634984d7acd2a8893469a6b6add",
+   "krUrl": "37b1638d7940fd280a5801012e685e8bdb7dde8a9b0704eb7d32d55422d6835b"
+  },
+  {
+   "id": 16,
+   "title": "关于开拓者•二",
+   "text": "真让人期待呀，未来的旅途中，开拓者的「故事」会怎样发展呢？希望翁法罗斯的「记忆」，会成为其中浪漫的一笔…一定会的，对吧♪",
+   "unlockRequirement": "完成开拓任务「落英啊，残芳纷飞留归躅」后解锁",
+   "cnUrl": "6da3de1c97b18584d95606c01cedcd4e3466b553bcbdd63b023f3951d0436770",
+   "jpUrl": "3ab7fab5b2b5305f78c63740f2cd307c86a1c3dc3ea4493666cb06e140babb67",
+   "enUrl": "72bef4cf6443a6d23d9759e267922db95725b0670ab6faaa459c4f055733485e",
+   "krUrl": "fbd3d769f2c51cbb095943cf59dda1e9f6c444e05090762236cc4dfc0b4e90b8"
+  },
+  {
+   "id": 17,
+   "title": "关于白厄",
+   "text": "那在哀丽秘榭的田野中奔跑的，向着太阳欢笑的孩子…依旧还是他，对吧？命运已经追不上他啦。",
+   "unlockRequirement": "",
+   "cnUrl": "df8c54153e3cf3437b2bffdbe0925ba7ae6cb10e4495fec7e1b25372525cd506",
+   "jpUrl": "514a57b9fb2395a13e6edf842b66980ddd46c6f09b493712b3c4bd1ce0e98134",
+   "enUrl": "06efb0f561ef0de1a54cc7ee6aa19f322ebb460b5351fcf93d6b0b52fdf1701e",
+   "krUrl": "8e17ffe56c9885b4635b5f6acacda8e5853c0838b396e3b5378a546f850f229c"
+  },
+  {
+   "id": 18,
+   "title": "关于三月七",
+   "text": "同为粉色的少女，我们不仅发色相似，连爱好都出奇地一致呢！真想和三月深入交流呀，我们一定能碰撞出许多光彩夺目的回忆♪",
+   "unlockRequirement": "",
+   "cnUrl": "6263c3837f362a0a283950068e655f1fe5ca83af0571d7d8d6782b770d9c6846",
+   "jpUrl": "d106abc4ef80dd8bb3d5906966e889ab352fb35a510574967b030ed0ac5fdb28",
+   "enUrl": "b2ce68a9996de520fff9b09110b0cc53053815a77b6ad7400dfd71069c7f8053",
+   "krUrl": "87c114770c71b60535ce57ecf783f5ca31cbf7f6c943113919f63d7662b8ea47"
+  },
+  {
+   "id": 19,
+   "title": "关于长夜月",
+   "text": "美丽的花儿总是带刺，至于保护欲…偶尔，也会在人家心里熊熊燃烧呢。但我知道，她的心是柔软的，毕竟她和三月是从一颗种子里绽放的花呀。",
+   "unlockRequirement": "",
+   "cnUrl": "921189fff5e8ede20ccd8451c62be6d2f71927403c20a0e781aed173c6827b0c",
+   "jpUrl": "178d3babb3333906e9b1c485c619abff7b60241b052e973fa9cefb57f8dd52b7",
+   "enUrl": "fa97f3ab7361ae4e4864470ea625beeeee6912a34a475e7dab509f45ffe1e5dc",
+   "krUrl": "d6a7d1f44011525f576653709c41f46bbd7d82d64b07fe9d5a9cc52e68d9c0be"
+  },
+  {
+   "id": 20,
+   "title": "关于丹恒•腾荒",
+   "text": "开拓者常把丹恒挂在嘴边呢。也对，有这样可靠的伙伴托举前路，我想，就是「开拓」能勇往直前的理由吧。",
+   "unlockRequirement": "",
+   "cnUrl": "58992fef5eb48527b43bd0b0f66353778eb4129520f5257cf2986b2a5c813de4",
+   "jpUrl": "5c4b074e7eaf1f4d3bc2eb7fa27ed37aedcbe0dc0b373b6c527b624ba43213fc",
+   "enUrl": "70df0ae3450d4d4d17ee1185586c26082475f0705f0d2361c9fb44545b27bce5",
+   "krUrl": "213ebc52b51db239152df29c2c9146203438187cea784ec03c246ffca41752ce"
+  },
+  {
+   "id": 21,
+   "title": "关于荒笛",
+   "text": "他的愿望，关乎翁法罗斯的大地生灵。那是一个珍贵又易碎的梦，所以才要用心呵护，对不对？",
+   "unlockRequirement": "",
+   "cnUrl": "6c40894791957a8f9a2adb15aa61efd8ba7ffcf5e9421deb2e253b01a0208fca",
+   "jpUrl": "b16ea83199c0b03f629479a76645ff9f2b7d13949862ba2758a907691d365477",
+   "enUrl": "17feadd7564c276db941ff10edbcefa410828a63d6b7672e3d821257aabc1f44",
+   "krUrl": "ca8f6ab6769fefe3e8708e9d4739387a2a042d92a68e87499e4d331460381c41"
+  },
+  {
+   "id": 22,
+   "title": "关于阿格莱雅",
+   "text": "拥有一件阿格莱雅的定制，是所有爱美之人的梦想，我也不例外！带着盛妆出席浪漫的宴会…悄悄地，梦已经实现啦。",
+   "unlockRequirement": "",
+   "cnUrl": "8385b8db8b6000f1dc987f4ee716dc6b0ae052de140c530777af78e216db7ca3",
+   "jpUrl": "051771f25fa495a0cef2391cb65590087504ac1a599efc8bed8bd1b689ec4632",
+   "enUrl": "603efeaa4e891e15c0ba3a88bf61879963ef31748721e9998a81f11c7bd46e5e",
+   "krUrl": "fa039c70ff851ed1ebb87d47247263612ea9270e6d15439196fd40d9df96fb6e"
+  },
+  {
+   "id": 23,
+   "title": "关于缇宝•缇安•缇宁",
+   "text": "如果一千个缇宝老师都生活在奥赫玛，嘻…那一定是天堂吧！每每想到这里，就对明天更期待了呢。",
+   "unlockRequirement": "",
+   "cnUrl": "39ff0e93c11b87d86b66bde7b5b218918576eade45e087fc2e17315c9aabdf6f",
+   "jpUrl": "cc5bb8d25da261a81a7cb3d5cf10d9a3b1dcdf6d909c9730b6c927346e27e5c2",
+   "enUrl": "4557c2efc7fb16d6aafc01e265c20d174270235ac4fda5ede15192e7738b51ce",
+   "krUrl": "1ceabcdf9ac94c57d355e267289583d1cdc10e086a902f47c87d4a5ed295814a"
+  },
+  {
+   "id": 24,
+   "title": "关于万敌",
+   "text": "嘘——健康生活的小妙招，我都是从他那里学来的。勤睡早起，多吃苦练，人家现在…学会了一半！",
+   "unlockRequirement": "",
+   "cnUrl": "94ef51251450ea6a0c51cc8041e8eed0653150b011bbfe9e81c3a931b1683efd",
+   "jpUrl": "ab49d1a1567b8ba2ef3c974bb83a647273c873c0e351c9fc148edab3e7996925",
+   "enUrl": "da1ffffdee11cffdc0776042dd43b6fff6c07ceb97499ee2b9fb4fa32abca3d9",
+   "krUrl": "bd365759216a1b806b1a9dd2711dcdcd5b9e183f811c62bbc0d111b167c8cc9f"
+  },
+  {
+   "id": 25,
+   "title": "关于遐蝶",
+   "text": "我也是遐蝶的忠实读者！呀…不小心暴露了什么？是因为…除了那些美好的幻想，我还能从她的故事里收获十二分的感动！",
+   "unlockRequirement": "",
+   "cnUrl": "7050949caf97085af01e2e3318afcd1c4350be5e90a6a301a36d189162ee16ad",
+   "jpUrl": "dabe1417069076a05dfc2d1f3c6c5d0fc510bba9cf7e9a2fcb8fc7c48517e432",
+   "enUrl": "70514618cd122d315981fa70a4693dc167c21076107297a0b7ae8bbd1cdb034a",
+   "krUrl": "37e5226fab0946ff563cb8596a00f2f4f75d13ff55b71f08d1e32d12c73f8a11"
+  },
+  {
+   "id": 26,
+   "title": "关于那刻夏",
+   "text": "举手，我也会「魔术技巧」！看好咯，别眨眼…锵锵——送你一朵盛开的花♪",
+   "unlockRequirement": "",
+   "cnUrl": "21ec8c59b02663ba8ede6c1f3f4f4f3f5f5581aed9b6cd392e4847df86dd8c7a",
+   "jpUrl": "c4942f3ed110edf2b347225a24af01ed589c94982c3342d4aac6ab8924c505e0",
+   "enUrl": "76a8fd23ad4555a2dba0fce78c1a45d95bab7289da88f675e9a42be3ea028b9c",
+   "krUrl": "455a8d82410e77e3e7f6167786311b177c4f3dfd143963ea485ef5c0ab425b33"
+  },
+  {
+   "id": 27,
+   "title": "关于风堇",
+   "text": "伴着和煦的微风，喝着花茶，和风堇一起揉搓白白软软的小伊卡…嘻，幻想着这样的时光，不想醒来也是人之常情吧？",
+   "unlockRequirement": "",
+   "cnUrl": "f75bc22ff9efb7f6bf29e817308120d499b3495f2afeece47b8eb23095b9d94d",
+   "jpUrl": "99d3e80f9af55dc4aca99cabd1423750c3e60ba5be77a5bcf05de60ba01c7402",
+   "enUrl": "fcada4c255df8bc5fd8008ca7d0023c4d3701ba025b9d6fbca657f78aedbf160",
+   "krUrl": "3620dc5e6eadb8ec5915777e22b879a771eb14b12b0961d6aae1375e68ab53ff"
+  },
+  {
+   "id": 28,
+   "title": "关于赛飞儿",
+   "text": "这边这边，要不要听阿格莱雅和海瑟音围绕小赛飞儿的三人往事？竖起耳朵，我只告诉你一个人。",
+   "unlockRequirement": "",
+   "cnUrl": "c2feb1ceb3bad314bdf14932ffb16a68fe6c8c1f07d94bda80ad292deee3a73d",
+   "jpUrl": "14f5e675f6edf5d9fe88a85f44430755bce79bfb4fa96d3cecc9ae15b1e707ca",
+   "enUrl": "22e7f6c1e6ee0de4b26cbba8a841b4a7890d7cefe90fa62b9530006c01161760",
+   "krUrl": "74bc23572685f09d8a9454dc19b2e4dd286f39303fc7a3ee754f388bdfbda430"
+  },
+  {
+   "id": 29,
+   "title": "关于海瑟音",
+   "text": "海瑟音的歌声，听过一次就难以忘怀。托她的福，世界每时每刻都是一场华丽的舞会。现在，一起跳支舞吧？",
+   "unlockRequirement": "",
+   "cnUrl": "97d04f7a52bd3a73ce9387571e068292bdc32065e6c5620883b5e473b85f2d0a",
+   "jpUrl": "79dfeabcfa2280ac37d8ef8bb0443da42d062d26dbc1e16d69c1aca593cdd311",
+   "enUrl": "a3d25193c49f0ffbd33190bc72be0b08ec874681b55a854e11b81b3018791306",
+   "krUrl": "728cf7aafd49af6f7c6146b883193628836611c1c5663cd285109409ed275f55"
+  },
+  {
+   "id": 30,
+   "title": "关于刻律德菈",
+   "text": "凯撒的冠冕，真的很吸睛呀。不如…下次回到哀丽秘榭，开拓者也用麦穗给人家编个头环吧？",
+   "unlockRequirement": "",
+   "cnUrl": "54e4c8e5671ca7f47466bc6884e1d0ab1d8d4496abb07f5a72503b35896b87ef",
+   "jpUrl": "ad13583ffe984b5e1a0d17a807ec1e915fdca65f34d2dfb6e6c4bfe17bb7076d",
+   "enUrl": "917ca438d297edacbdcab610e044a9808300056b6d8148a25f6cfd907659013a",
+   "krUrl": "c19ef53aaeb1fab97256d8f182b22615b2f3277c54443b596a66e2b5ebb0cae9"
+  },
+  {
+   "id": 31,
+   "title": "关于「昔涟」",
+   "text": "就像花儿留下种子，种子又盛开了花。记忆的每一道涟漪都闪烁着相同的色彩，你更喜欢哪个「我」呢？嘻…不用说出来，「爱」就是这样，捉摸不透，却又始终如一♪",
+   "unlockRequirement": "完成开拓任务「落英啊，残芳纷飞留归躅」后解锁",
+   "cnUrl": "57361fc68ee61e2c8e491094d70de7a7fcad802b636c93c1039aec121265fa53",
+   "jpUrl": "02319f7035ca124da4c277e264dd890a7ae1e13868ee677663a87eff8c239bfe",
+   "enUrl": "73cfdf3397911a61053f0e345ebcd8b0081c2ca7a2c092bbd9141287d351dcab",
+   "krUrl": "c3d8916f72ca0349171d1ec688b4bf7f0befeb2ef1eb9fe57ac89d76cab0a23d"
+  },
+  {
+   "id": 32,
+   "title": "星魂激活",
+   "text": "以爱为始的故事，也一定以爱为终♪",
+   "unlockRequirement": "",
+   "cnUrl": "51cf01dd84b66674b09cda4c1747a40982cd334e4c5b945736188f25da612173",
+   "jpUrl": "39d8516afb7484ccb9f1e7fcebff4bdb16395bc58cd9462c380f5857e771e1d6",
+   "enUrl": "ad9063535df7081e058520fa2f3df40a7ea350b72dfe79bd4364b11d8ba78b86",
+   "krUrl": "e105b923996e3291c23b58c8fdad507b51116626fd0f8beaa777ad569b4592f3"
+  },
+  {
+   "id": 33,
+   "title": "角色晋阶",
+   "text": "又是一道优美的诗行。",
+   "unlockRequirement": "",
+   "cnUrl": "595bde5cc3ee02ddb676cb80de26df32d1f76887e381f88866256ef6abe14ec5",
+   "jpUrl": "9d78362a8cd8f7655f9ac3c54f8918e5342ca4a4b31e96a94f3d50c7b4f8ae69",
+   "enUrl": "17416f6af4beae957f19b71da9888e07ce6390cb280a7d8cd1167e18afecb851",
+   "krUrl": "6e2cd220e51d42ffa375c95f6f7a8104b883d8f30efbcbdf901d96207486a909"
+  },
+  {
+   "id": 34,
+   "title": "角色满级",
+   "text": "下一页是空白呢，那我们一起写下吧？",
+   "unlockRequirement": "",
+   "cnUrl": "0bc80699dc31a8752a9d1f5a10c2037e35fe32c12ae0901e89d1f1f3548046b7",
+   "jpUrl": "e641dfa72ed2021167ee6eb22d4c91fddfd1809b77851ebb7a36cfcee2dc340f",
+   "enUrl": "0207158175279b65a4055f439cf8b64fe290731cde8bad6d490736bf486b20a7",
+   "krUrl": "f6ffc115d91b89d75dcbfad4607e1bfa028a46d24adec4cfbef306097d3eefbf"
+  },
+  {
+   "id": 35,
+   "title": "行迹激活",
+   "text": "一步、一步，踩下我们的脚印吧？",
+   "unlockRequirement": "",
+   "cnUrl": "08ede87ed41f6b108161ddbe498baee0e344339a4057c1b6b499609bfd827e2d",
+   "jpUrl": "7fd37e0a1db91a955c8efead72e50a4279547a130a2cbc861ca043a89e04000b",
+   "enUrl": "f178b7d7042fe8c46161670b5884cb08ecb35e0dbc3b14656a5aa5b633fc3a10",
+   "krUrl": "73bd189bee0ebcc417a73dfecffd60cef6201f1054972ce33b6fe1c0f823f56b"
+  },
+  {
+   "id": 36,
+   "title": "队伍编成•开拓者",
+   "text": "愿开拓之旅，永远有涟漪相伴♪",
+   "unlockRequirement": "",
+   "cnUrl": "91af37165fe9bbe60d7a62a71af7183ccd80d039928ad6a42e0fede65234e14e",
+   "jpUrl": "90e89412f62700ef719f26d3f6d93f24bbb77843a4801a54d6d2e5e84f6e078a",
+   "enUrl": "1d5a5bc658df45b0522b143a0c7ddf8840b7b2945e8e0a7a19004e3869e8b24e",
+   "krUrl": "b6c4c26c4c607f16ecb9e53ba5819ebfb46eb33f7afe570dde1d408ba16902f3"
+  },
+  {
+   "id": 37,
+   "title": "队伍编成•白厄",
+   "text": "看，你追逐的黎明，终于升起了呀。",
+   "unlockRequirement": "",
+   "cnUrl": "a6a7d5e09cde9a818c8c858fb5ffef5606a0211722c32dc9b654474707bdf130",
+   "jpUrl": "03f01be87a66db66809f16b31045528fb82f76ce22c8f32f2e41e25d4a5bebc5",
+   "enUrl": "085061d1fddfc92bbb2e94bb06fea88505715cc028daf7c303a02252fddc0c3d",
+   "krUrl": "b0a92f97a20b98c9a21db46eeef6b86c23270ecd3589b04e9b045a45b3e3211a"
+  },
+  {
+   "id": 38,
+   "title": "队伍编成•阿格莱雅",
+   "text": "说到「浪漫」，可是我们的专长呢♪",
+   "unlockRequirement": "",
+   "cnUrl": "3ddfe143bc074c0fc305e4ec83832a78bc9568465fa26be6a0a67a95c1f1e4a2",
+   "jpUrl": "98c10f901af84233598ad81d8ad815396c78de0caf71c6965de1d02f4d5bd688",
+   "enUrl": "f13bcad66bf33f0855b73ba4e7f879c218e45d89bce8f5000dd916afa0cb8706",
+   "krUrl": "e871ddc4efd922bb4f30c4617d0561f465b5bed3600ba72a0f9d8a7c45d7290c"
+  },
+  {
+   "id": 39,
+   "title": "队伍编成•缇宝",
+   "text": "如果我也变成一千个，就能和缇宝老师一一配对啦。",
+   "unlockRequirement": "",
+   "cnUrl": "18b5544e4dc0a0d91ce05348a97b0d36240e793b00ab3d3849dd64f2f8ffd5a4",
+   "jpUrl": "bada94f8046566d8b9976b443d556e9294b277168e34b53fb21b9bc4fe9c641a",
+   "enUrl": "73dd9995c9fda228fb4797ccf90ef380a538dd89f7e5bb9498408d1fd8093973",
+   "krUrl": "b21eba2fd6c83f9d7de8ae5dceeb9e1cacf57d442a0251ecdea8a186a92d4856"
+  },
+  {
+   "id": 40,
+   "title": "队伍编成•万敌",
+   "text": "保持好身材的秘诀，请教教我！",
+   "unlockRequirement": "",
+   "cnUrl": "5770a2f7791ed86bff17f56e7fc0e5ab01de66c6610c002d70cf0c1824f8beba",
+   "jpUrl": "87aca540d43ae638c9af698c028fd060cd015a749d9a754b1c60dbfee8e458ff",
+   "enUrl": "1e29ada9d2e84b7560ab2e038b16882f834b3f6c8c56c7cc330982547682a2aa",
+   "krUrl": "68865a6baba4578b16403b4f65a7015cd4aa32098774393d5a2f7af39cf7c636"
+  },
+  {
+   "id": 41,
+   "title": "队伍编成•遐蝶",
+   "text": "好想你呀，遐蝶！交流作品前，先来个拥抱吧？",
+   "unlockRequirement": "",
+   "cnUrl": "ed99e1fa38130905d5c1d10f2ace92c0cc674914790b7be529dcab6d71ca1119",
+   "jpUrl": "dc0bc1b5892b207252a94bbd957d6f5c1b7d7cac2a6bf8e87ddf985bab2d1526",
+   "enUrl": "098e8f6f5e3fabdc10ef56151b7a0548f857e7be2f9984cd9374372e5ef97645",
+   "krUrl": "373b2ed13f63be23def24580507adc1f7f7d8b6544b984fceef8d5c0f61d7453"
+  },
+  {
+   "id": 42,
+   "title": "队伍编成•那刻夏",
+   "text": "阿、那、克、萨、戈、拉、斯…一字不差，对不对？",
+   "unlockRequirement": "",
+   "cnUrl": "1b7f064086452c261a8e600f892891bdaa9240c1a4b4cdd85ec7d3fda659b415",
+   "jpUrl": "5a758c0f9ed64c9c3bc802b3617e6399446358299dc803da6a8579aef35b4c89",
+   "enUrl": "5725c84aef44906731dee424531ba4fe983d09a99cf8f903168dc18f029a9b68",
+   "krUrl": "be54cac8e630f4497c5af509569493421ac066add5d538c9a9b772f0923ed380"
+  },
+  {
+   "id": 43,
+   "title": "队伍编成•风堇",
+   "text": "待在风堇身边，整个人都变得暖洋洋的~",
+   "unlockRequirement": "",
+   "cnUrl": "3c0170349cde78a91d408581efca9dcdff85dd8c1baa342dfc7f35cb79faccc3",
+   "jpUrl": "d0888718aad5d00dab6d7bc80612f181442f02c235f01c20c3c61f79eeffe83c",
+   "enUrl": "3fe7086290ce47352541a1c16c52073706257b392df7074de21c2a1bcc003745",
+   "krUrl": "f135937b60f3fc4cc1e7b78307d4e3b631c91511d99507e9a9784e5635d0b133"
+  },
+  {
+   "id": 44,
+   "title": "队伍编成•赛飞儿",
+   "text": "说到诡计，我也很擅长哦？比如…偷走一个人的「心」♪",
+   "unlockRequirement": "",
+   "cnUrl": "496559c2d7720188c87de225fba71bae0071902290a4f616618cd72b3de76f1f",
+   "jpUrl": "2b11595f668383b8000bdaa9a5d7b95cabf40863fd9737ced7efffec07fc092d",
+   "enUrl": "9f845673cf0e35fa01b10af6e365df20283a7fa4827ea7e040179c33f17e53ed",
+   "krUrl": "922bda6eb2945eb441347e32cbe579f2fa55a78bde51c846dc392e8b45d90913"
+  },
+  {
+   "id": 45,
+   "title": "队伍编成•海瑟音",
+   "text": "在大海的歌声中起舞，真令人心潮澎湃呀。",
+   "unlockRequirement": "",
+   "cnUrl": "63864ab48623bbf7bacc80104384f8cbf95a987a9cc61dec9fd2d89544bd4efa",
+   "jpUrl": "f49912be3ca9fba6e3b440916226d6b7938fdffdd4a8aa0a5cf2627847e3dc84",
+   "enUrl": "73e5b2046ed932b330651bf47dbd218befbaabf2f20eb7d08850be51f32d3eb8",
+   "krUrl": "01f33a85d3388b89ed789d1d85d01126c00d88be3223e3959120d6a9193d3bf0"
+  },
+  {
+   "id": 46,
+   "title": "队伍编成•刻律德菈",
+   "text": "「凯撒」，王座为你准备好啦~",
+   "unlockRequirement": "",
+   "cnUrl": "afd51aefecc0754623583e4b7a2a9cfeec4cba1f1350001b148c30942725dbe9",
+   "jpUrl": "d91dd2c9700f7525a506c39e002f0c22f7d837e4a07383c96aa8b596705e266e",
+   "enUrl": "98341d39074cc520b5f8635e13d7392fc3668fad339251d5e29bd5a8d07b2ddb",
+   "krUrl": "2c06ffc65d0384f4b38c59706656382aa16898410fb483c806219061b6614cce"
+  },
+  {
+   "id": 47,
+   "title": "队伍编成•三月七",
+   "text": "三月，来拍张合影吧？三、二、一…嘿♪",
+   "unlockRequirement": "",
+   "cnUrl": "77152efdccb56fcee5cde5d22615f45f1e40fec7be117643c5ca795a0d575c0f",
+   "jpUrl": "c010f801b9b8f5432a7527e4bdb34449d6c6fcd73914377a959bb398b191e9f5",
+   "enUrl": "34510c9df9c34c6c75d308f587b89218e156a1265088e345d24a149c4425f3a4",
+   "krUrl": "0273f6422648e774b3d36b2160b3f0eceba2a456b2c638ba74aaa3195f88e5c1"
+  },
+  {
+   "id": 48,
+   "title": "队伍编成•长夜月",
+   "text": "三月，来拍张合影吧？你坏坏的样子，也很迷人呢！",
+   "unlockRequirement": "",
+   "cnUrl": "e2cde693f7f83f31241f18d0232d1b19da993e29b44536ea87a1f6e950388700",
+   "jpUrl": "1ac7767b2d082f4877579b0dd4f4f1daffd364727fac5cf1d4e44c34ad436664",
+   "enUrl": "97e081b2590d4f1d88071a001c7b31ca8ebce31fa001a8f6be0053eca3875ed3",
+   "krUrl": "60fb250b1cbb0b2e8c9f5c9fc7ee1607f2f82a87ad02a1a2830870cae4e3417b"
+  },
+  {
+   "id": 49,
+   "title": "队伍编成•丹恒•腾荒",
+   "text": "常伴「开拓」左右，也是我的心愿♪",
+   "unlockRequirement": "",
+   "cnUrl": "41b545366afdcc3ec5abc2dd6c7815f4ab742cd08b73024272651016c11af0a6",
+   "jpUrl": "755ea215e842b4249ba93b4a7c7128828c479aae5d193f1ea2eda101a075a1b3",
+   "enUrl": "f75e60c2f366b13014b43a14e92f3da5c4fe89d723007a9355768c5d3b797dd9",
+   "krUrl": "2ba0744df0a4edb944ff7bef441fce1548eb299b9f7975cafdd3c4181969f84b"
+  },
+  {
+   "id": 101,
+   "title": "战斗开始•弱点击破",
+   "text": "开始第二乐章吧。",
+   "unlockRequirement": "",
+   "cnUrl": "0d18dd01c4424bbe01b7a7f0c355265656b81561c15120752c5c96ac9aa85529",
+   "jpUrl": "5a5098960d3ce1125f3588db32e427737fe66599a7f1d7b07edb01c34d88de75",
+   "enUrl": "b85cdc733c1fa59ee5f35d1c411247bd2e31917cf2f3b264bb327655a4268982",
+   "krUrl": "a30a1fa951e0e0c9005dc05ddb05289faa3f2481411bdfbf598e0e1836bf60b7"
+  },
+  {
+   "id": 102,
+   "title": "战斗开始•危险预警",
+   "text": "小小的前奏呢。",
+   "unlockRequirement": "",
+   "cnUrl": "ca7c4d43e9cb7ebde9f10384a6535180383e479312b8d4828bada2284e70b4d4",
+   "jpUrl": "d99aca82580f4841e629041a9d6ef100f0680085dbfa2b98e58dc5db2d9990a8",
+   "enUrl": "2b6c1115c89611bbddcedd9088b7ee5cbefc2dd1c1d505bd06660ddcde55c5b4",
+   "krUrl": "f0a40bffa83686349bf65991f5599ad5175a92a2332edd9d9ee33cba6617dc87"
+  },
+  {
+   "id": 103,
+   "title": "回合开始•一",
+   "text": "嘻，到人家表现啦♪",
+   "unlockRequirement": "",
+   "cnUrl": "c853f88288ea7891da026f8f85ae6889c0d25f90cee04623728cd44162789ef1",
+   "jpUrl": "4c2a20a2cd63dccc15d63f6d4bea739d161e5ebf6d061631e3d7ded197ae3f66",
+   "enUrl": "9e56b5995233570cb131e0cb50f1fdb88eda7d92181685185c776ac1658b1015",
+   "krUrl": "588692158bb27ae85b1c1caa8ca383a97d7f7f87b70e693944b0078905fece77"
+  },
+  {
+   "id": 104,
+   "title": "回合开始•二",
+   "text": "与你一起，我们无所不能。",
+   "unlockRequirement": "",
+   "cnUrl": "1c96aa79a497af5159b55534e32309126305ba7e0ef4fc599739963d64825918",
+   "jpUrl": "b41200caa8234a784078910dbffc9813e00495fa6d235efe2a99cabd4ac426ec",
+   "enUrl": "00e9830c5755bac62fb98b990ee805cb34e547056c3fe88835cd2825a99b9196",
+   "krUrl": "f6c7e3f2a1f55cbb7cbb1424831b33fd4849db1898f178c9a6a6122e15801a3d"
+  },
+  {
+   "id": 105,
+   "title": "【往昔的涟漪】回合开始•一",
+   "text": "快看快看，飞起来咯？",
+   "unlockRequirement": "",
+   "cnUrl": "870ef6665b393046811fa284bf1ce48982237bfc95cdfa2887207a6767b7e9e1",
+   "jpUrl": "690b3817e21a798a89222910ad9de6b9f195e33e662af5e0cb052666a665fab8",
+   "enUrl": "703a6fad901867b34aedaefcebf984ca710901184ab83450827def75350f62d5",
+   "krUrl": "39589184ac146f314063b0a17afe5169889a45c8496cab55661bcb0fd8f3fcde"
+  },
+  {
+   "id": 106,
+   "title": "【往昔的涟漪】回合开始•二",
+   "text": "准备好唤醒涟漪了吗？",
+   "unlockRequirement": "",
+   "cnUrl": "2ad812e743db6f5806958bed26ac817159ca582be19d2e6903030e4980c0f9bf",
+   "jpUrl": "7a1d37c3a9e2dbe72fbeb750f6b04f50aa52c34281b606488235f77f1ab4fd7c",
+   "enUrl": "79e2c091954900aa77918808b46d5b40533d07cebcf509b61baee617f6e37230",
+   "krUrl": "3179614ccd922ad797542c528cb590546dc17af6c0429fefe1a55a9dbfdb0721"
+  },
+  {
+   "id": 107,
+   "title": "回合待机",
+   "text": "嗯…想荡秋千了呢。",
+   "unlockRequirement": "",
+   "cnUrl": "ee6cd1003a93952b08cfe81a249ff367654b3fb7df58ea8d2035947d158784bd",
+   "jpUrl": "f202cda0b2896e28054af8cb7f38a700100f1800e25fbc693409cf47e2cad11e",
+   "enUrl": "1fd4cff8ae6011b6b75c9b3f1edfab67bd1e6f1246b77217dba2f9e494fe1c10",
+   "krUrl": "75aa7b21eeabfedee3cdf0f1233b99cf63e2fe0201453cfe6b438008fc72041c"
+  },
+  {
+   "id": 108,
+   "title": "普攻",
+   "text": "逃不掉哦~",
+   "unlockRequirement": "",
+   "cnUrl": "62895645f75cfb8819656a8996ce4bd483dd7c8dce617e43d329cead6b940234",
+   "jpUrl": "bdad3fc2e421ec253600cb43cb5e15d80d4149d8b39a6a9c910b9807a313f390",
+   "enUrl": "9ca928c5e7f0ef460ae77afe8d67f405259a3740126b7fe9affeecd067bdf912",
+   "krUrl": "f4b382056d4e100061304a0c2acd9065a9e9e48dec2a0311a06d1316d2bc251b"
+  },
+  {
+   "id": 109,
+   "title": "战技•一",
+   "text": "百花啊，请为明天绽放。",
+   "unlockRequirement": "",
+   "cnUrl": "a1f743218c73170e89374d380538f9797d0586a3dfec49942ca5fc5dfcd6a6bb",
+   "jpUrl": "11eb6e8e70c379bd9a7768ab73bd064e10a1129650b2b974893bdc5d3475a4e1",
+   "enUrl": "ba7c17cdb7e1ca32fdd512cddaa39647261256fb7a7d495e9d651bb0382dcda1",
+   "krUrl": "cdd020a0c0e1e6abee8397343c957a9777d8271aa2e1f52e3b0b10376ec0355f"
+  },
+  {
+   "id": 110,
+   "title": "战技•二",
+   "text": "群星啊，请为英雄闪耀。",
+   "unlockRequirement": "",
+   "cnUrl": "c55e26012d06b87a628c52165a78da3ffee73cd5814f265e68dc48f402c00ca1",
+   "jpUrl": "ce83c96b5107948bbfd36b4ebdca6d291fb1c81cf950c99a2243cfceaa2a60c9",
+   "enUrl": "ef9a8b78a0484dfc4b23c3ca5a58af2cb71c0c7d3a176e5eefb8883d7395dcbb",
+   "krUrl": "4feffec38bef1a06b81501476248e6c9bf9e790db05a51d0ff46786ed30c8293"
+  },
+  {
+   "id": 111,
+   "title": "【往昔的涟漪】普攻•一",
+   "text": "收下吧，我们的答案~",
+   "unlockRequirement": "",
+   "cnUrl": "ceebabc2f6a54e0f287fcebebe0bc924114288e46ccb92f8d257e109240e3eba",
+   "jpUrl": "72f459c83db5fda79f5357a00131253a75595460ffc82dcf26ddf988ec65a293",
+   "enUrl": "04c14cbd8d69034adb3415a24f390c2f98d813094590c9038e30bca016872f93",
+   "krUrl": "bef61edd617e56a928aad2a84f693a9ec1f1068c643ea5569af4bf468a6aef04"
+  },
+  {
+   "id": 112,
+   "title": "【往昔的涟漪】普攻•二",
+   "text": "让刹那，成为永恒~",
+   "unlockRequirement": "",
+   "cnUrl": "5c630e2d7bc15c4eeca9b3ee07eb5e97ea2202204511c0542b1d8bce3572c180",
+   "jpUrl": "9e79d96f3c141ae75160bc5b8dce9f10c7998ea21c183aa006e3b4fcea7e3539",
+   "enUrl": "ecf2c7d266f1e96073748218da8e7858919f05259b512826f57944e5a6037ecd",
+   "krUrl": "17c63ee2090fad0b31b6cca6d4c2328aaa0e3b07589ea0da7c5d31d1234a0abf"
+  },
+  {
+   "id": 113,
+   "title": "轻受击",
+   "text": "有点疼。",
+   "unlockRequirement": "",
+   "cnUrl": "38920c7839b8f9d30f3523d4e666addded3a6461865ac97b973da723943309be",
+   "jpUrl": "c0b677e712cf5eabfc4c968971609521ed660775017a0b2457747cb9b4478fc8",
+   "enUrl": "3b96cd398cec8ca2d0be8f047e56359bef463cef6226cd0ef420901a8f3745c0",
+   "krUrl": "c9356933fcf907dac8902e56367bc7614ef9cd1dacb13d0e24335c6dedb59315"
+  },
+  {
+   "id": 114,
+   "title": "【往昔的涟漪】轻受击",
+   "text": "没用的哟？",
+   "unlockRequirement": "",
+   "cnUrl": "d605093e19d2990c6aa697f69ecf4ab2e59a7253b17be65f3c0e41c5d7252e70",
+   "jpUrl": "78e7f14063d9f5636457cd8fb6515fa4addd0e8c86174545a800cabc8fc2a9a5",
+   "enUrl": "4e04970ca34e80b01a2213e8e090d91efdb379fdc8ce43dedf01076dfabb5d8e",
+   "krUrl": "e5a3b67cb29fbb5a269586b802f15259ee8cd66b84a99c49008b022f963b7c71"
+  },
+  {
+   "id": 115,
+   "title": "重受击",
+   "text": "我会哭的～",
+   "unlockRequirement": "",
+   "cnUrl": "af8f5592229da45a0a5e9859576e9193b51e8de8ec39ec76d003bbc430d0f6d0",
+   "jpUrl": "e302a14e5e8af6e0fdea89a05c4db997ce9380039c2ecece63d5b8cfecbbbf69",
+   "enUrl": "3f62695aec76069fb18a70963814fe7a182e1b5f6c14c7abd03006382e279b1a",
+   "krUrl": "c30a5d08d9cd5b07472e97bd622372eeb3f54c3b889a71b258f068f1000fa7ea"
+  },
+  {
+   "id": 116,
+   "title": "终结技•激活",
+   "text": "记忆的涟漪，等待被流星的亲吻唤醒——要用「爱」铭记我，在那美丽的明天。",
+   "unlockRequirement": "",
+   "cnUrl": "b037f95f425039e61407c97bcfe71b5e06b21ea8afc9aa255348d05fc6fc7423",
+   "jpUrl": "cf6baea6314030499e19f4cbeaf8b99899b1a4bb9a96d0655d9cdaae64b1bac0",
+   "enUrl": "0f4a15d6566fa345c0fdec8dbc394c2fdbde7c35ed29c51d33142384661f644e",
+   "krUrl": "c06f3885742bc42eaccd80f33541e2396d9ccef5b2e1091d2beb1a45748aea24"
+  },
+  {
+   "id": 117,
+   "title": "终结技•激活•待机•一",
+   "text": "在发呆吗？还是…在看我？",
+   "unlockRequirement": "",
+   "cnUrl": "7ebb11e974845875f56e1aca32d7a69f1564d5992624282f929c9552bea7f557",
+   "jpUrl": "a2d284551fe921cbd3cbf3e3df9144b3ee523c3bd2efab6f707756ac9b8c0ecb",
+   "enUrl": "855d6f8e9efce7e3b8a81485275b93848f7f510580a8934834a5a8703d00ed7d",
+   "krUrl": "120376e8a294b32fb06977d5826d1e39a95ac24a0e82e78cc6ed4d3a1395a477"
+  },
+  {
+   "id": 118,
+   "title": "终结技•激活•待机•二",
+   "text": "别担心，我们还有好多好多时间。",
+   "unlockRequirement": "",
+   "cnUrl": "fe9dea547533a35f8b555f44b2e7467781a91a284bb53b74f4b922eea7ba88d5",
+   "jpUrl": "8084e9951627617548ae81d84776a56d58f6e3553c9bfecffcf9a3ec9849a06c",
+   "enUrl": "b59a9bd76d0eb2f268fde4de0f51b71e438e2e1c87ba56667c9f9e7dea69c47e",
+   "krUrl": "54e1d6ac282943741410c0f20838c6f1be70607cda1b8cb0830114a79375501f"
+  },
+  {
+   "id": 119,
+   "title": "终结技•激活•待机•三",
+   "text": "是想好好准备一下，还是…想听我多说说话？",
+   "unlockRequirement": "",
+   "cnUrl": "db1a73680e700663c56c9d0c7f6b866d9e506f66fbc35bd4454effd0ccd25462",
+   "jpUrl": "6a381ca97ee967a925dde680ae0d931c2598ab8dc132e8502b5fb6ba247560ab",
+   "enUrl": "e7037533e9a4ce9665afedab0f79d0ce0624a9e17350e71fda7b166b30ca54b5",
+   "krUrl": "b4cab2f2a370068f940cc3ac5077affc63261b8a2c24fa1f0f91b1b988c910cc"
+  },
+  {
+   "id": 120,
+   "title": "终结技•激活•待机•四",
+   "text": "无论过去多久，我都会等你♪",
+   "unlockRequirement": "",
+   "cnUrl": "669c7ffeb973d8abf60bd79910fed00a94d3311f4f2326d931d9e97a94c3d786",
+   "jpUrl": "f15d5f19401d338151a55404525fa4f935a88837108cfc1cb5fd48f182463823",
+   "enUrl": "bae3be93eb42fcd1da1ca478f0397bed0d3b632ffc63345c3d8e2633d8018e38",
+   "krUrl": "7bd6ad7b6cdeb357c8a75014ed79f5221ec3d9f2a34f0dc8fef6e81b79f2f397"
+  },
+  {
+   "id": 121,
+   "title": "【往昔的涟漪】终结技•激活•待机",
+   "text": "别眨眼哦，有惊喜～",
+   "unlockRequirement": "",
+   "cnUrl": "b3f3dcd7994e6e93b134a46208484e06725bd4d5b589dd11be41299caade0d59",
+   "jpUrl": "5b0b50ca7f22650ab355ba679de82fdd9bebd2dd308ca6e4190062f87c02a109",
+   "enUrl": "c1613f4284378a23a70c7c08beda8e55475dc3d88311e071755f6fd091037066",
+   "krUrl": "3351e9624cc252fd98fa826df4fba7ffadf8eaa148fc89738f331da77e656848"
+  },
+  {
+   "id": 122,
+   "title": "【忆灵技】",
+   "text": "愿世界，如你我所愿。",
+   "unlockRequirement": "",
+   "cnUrl": "8cee3257a60315d505755a0b1602fcc821125720d0e593c41e1b33a2acd39614",
+   "jpUrl": "61b75aecca5cf317035bc7f74c317c318f35fcb2ff10bd2fb09ec069637fc721",
+   "enUrl": "0f983cdb8d8eaf3d309aae5b1802673bcf3aa540112e4283edd09206e576723a",
+   "krUrl": "38e3d59fd99747b82ef709017cc1b9b25ebbd126ad71a14e90a667d334aa07ed"
+  },
+  {
+   "id": 123,
+   "title": "【忆灵技】•阿格莱雅",
+   "text": "愿「浪漫」永不离席。",
+   "unlockRequirement": "",
+   "cnUrl": "70ab0b448b109ed82bffa9e229a96e6468483e52a509977d72ebf5d0b47eb3cc",
+   "jpUrl": "0126e3e6e218c24c8c6462c13f664c4ad418e348a414d0e803bdc56e14433b2a",
+   "enUrl": "56479ecf42694048c4d1d14e49e1873ee26817efb52aa857893b77b080fbe844",
+   "krUrl": "1d0ea52a87bf41fc9a103607d27b823c9c557b6542802b6bdb49d6b2b29b6a4f"
+  },
+  {
+   "id": 124,
+   "title": "【忆灵技】•缇宝",
+   "text": "愿「门径」再无别离。",
+   "unlockRequirement": "",
+   "cnUrl": "71c5ef3885b7aa6a23aa2ddc15cd2460ed6683df3aad817ea5f2505009824887",
+   "jpUrl": "f33c1dfde83a97739a9e225b2bd25fb64328c2d345ec42cb417973074e5027b8",
+   "enUrl": "229e5dbc51e65c5378d13a0f1ad6dff9a89edeec53fdcf549c928e4c9ea00b5c",
+   "krUrl": "de62437827aded18117a892dc155fda29256ee088f81b60cf28172471f180c60"
+  },
+  {
+   "id": 125,
+   "title": "【忆灵技】•万敌",
+   "text": "愿「纷争」加冕成王。",
+   "unlockRequirement": "",
+   "cnUrl": "b1c1e3d181440b0712f23f8cc79213ef38a88db181b4ba11597ed93f25919ccb",
+   "jpUrl": "a56e0235e8fa97f247e39bfd441ffc525d96b5b9f824adcc77014c382acf6133",
+   "enUrl": "e25d356c7551df22dba1f91c5f17b1300e5b75d2fb964da53fc5107174ddf0a3",
+   "krUrl": "dba234a219eca6b106cc26c7cc08ca778243c43e49dbbb9ca1ed6d27d8a299c4"
+  },
+  {
+   "id": 126,
+   "title": "【忆灵技】•风堇",
+   "text": "愿「天空」治愈晨昏。",
+   "unlockRequirement": "",
+   "cnUrl": "6e4b844b7b28bd0a51205097a259776ccb0896cec4ed15f195209e26c881e99e",
+   "jpUrl": "f34ee70bbf21e467f632206e51fd0dff7b27a618ccca9f2c08a9238fe4ff7a96",
+   "enUrl": "277227b8edf1901d317bc21f24c674df0b7484ed9edafc524e5a1e418b318f44",
+   "krUrl": "b712222b72b9721b16b51b02e6da0648cdef5ca2178955994173c48615fd8f51"
+  },
+  {
+   "id": 127,
+   "title": "【忆灵技】•赛飞儿",
+   "text": "愿「诡计」皆为游戏。",
+   "unlockRequirement": "",
+   "cnUrl": "b2416ee73266c9cf4a3dba21cbcf4e7285032125223e5957fb435e6fd4cac51b",
+   "jpUrl": "d5d4f3438b64449ec343b32ba5bcb76bed2ec7a6e9fe24ad63e26134367a03ba",
+   "enUrl": "8651bb7975924668b1ccfe4caab6cac6778b01e1bc6134f859f49f0e329351c7",
+   "krUrl": "9ff24abf877520c549166512181a027703b07e7d1dc3afe33b6a251447a08895"
+  },
+  {
+   "id": 128,
+   "title": "【忆灵技】•海瑟音",
+   "text": "愿「海洋」奏响欢宴。",
+   "unlockRequirement": "",
+   "cnUrl": "21ae1d47240b4a3ca4bd3b8b62dfd9ace45d7107756ae6e1ba14d99a6e59d488",
+   "jpUrl": "bd6bb9a765f7400983e31d1a8df12d798e2314ebeb021412b09292fa7f37da17",
+   "enUrl": "11294b6a95a69109a5e72a7622e86909f13843d7d76bf3d7ed89f0921b9ab34d",
+   "krUrl": "4f260f27b86ae55dccb526c3ddeea697169221b88470d6e57cb4125fe3a49dee"
+  },
+  {
+   "id": 129,
+   "title": "【忆灵技】•刻律德菈",
+   "text": "愿「律法」遍入群星。",
+   "unlockRequirement": "",
+   "cnUrl": "3917ef7dd7c45503429a0f99419a1779b67faf086bd57b1640cd2c3aae318dcc",
+   "jpUrl": "d0d6be86a5276514a5708c7f48475a319540e1a2093d22ffc55d0801b9f71475",
+   "enUrl": "5e3a45f0cbc1b4decf00c3aeb6d6a2c734d5b01afc6cbf1c3db38f491ae30829",
+   "krUrl": "1fdad7a0b3f968716d77c6a4f1e5cec02a6e40a9f56020f275b540dce58dc88b"
+  },
+  {
+   "id": 130,
+   "title": "【忆灵技】•长夜月",
+   "text": "愿「岁月」守望长夜。",
+   "unlockRequirement": "",
+   "cnUrl": "960ef19ffbc50354b8e724b3496ad86571545a14dae0a3a1b9397b5b08960b57",
+   "jpUrl": "6ca6310f2f1b3e133793ca254732defb34f66679c6498480606da88f209c40c3",
+   "enUrl": "427a966d4a852675ea648d6d5ad286c2e39cdce2a64091a088915ed6244a181e",
+   "krUrl": "381eba69d31b0041771db8a2cc9303e40018af6b596a9e99aa7ce56f30c2f49f"
+  },
+  {
+   "id": 131,
+   "title": "【忆灵技】•丹恒•腾荒",
+   "text": "愿「大地」捍卫前路。",
+   "unlockRequirement": "",
+   "cnUrl": "897380e9f078d3a11c7141afb3cfc7031d3bd90a12d01d2647e8dfe4eb86bff5",
+   "jpUrl": "e7232275bd951d651268a2411ab3b0f2f1983b5a8ba1e4cc91fdc0bd9a312d71",
+   "enUrl": "0f2182fa31f93c9b67fad3a06a8748bc6af31d89cc44c21655fca62b9cf7a226",
+   "krUrl": "2ca2a6c7f91b3a47cd60fbe497d767b8f92219c80bfcdfbbbfa975ad4ac546be"
+  },
+  {
+   "id": 132,
+   "title": "【忆灵技】•遐蝶",
+   "text": "愿「生死」萌发新蕊。",
+   "unlockRequirement": "",
+   "cnUrl": "e43261630eab8536824099b11ef013dcbebd1790494b595fcc555559e378719b",
+   "jpUrl": "7e88897aca6874ccd013f305c528df07b6d4d90e0cb6be3e50c41c0eba3e309c",
+   "enUrl": "6351e5acf5c0d4704217dbc61539950fad520c6b9260bb61d6614bd85878b108",
+   "krUrl": "61a17e59fda02742fb332dc3663096753ff64c51e1ea8d543b6f9c45ce9e5601"
+  },
+  {
+   "id": 133,
+   "title": "【忆灵技】•那刻夏",
+   "text": "愿「理性」启蒙真理。",
+   "unlockRequirement": "",
+   "cnUrl": "637ba43542f3f44aeaa865102175fe7181a9f00827fc9043c231e813133b7103",
+   "jpUrl": "c6e9a83b557d898ec0c583a83b18c058ac99ded9a898e632c4b837dfc3894be0",
+   "enUrl": "9b6d8664ee70d4ae3a765fd92a3805b76310c8d5367e79570401c0c753f57113",
+   "krUrl": "d02a9369aa8a092d0a31e2fcf48c0ff404224d42a4863dea56d8f43aa17f1f1f"
+  },
+  {
+   "id": 134,
+   "title": "【忆灵技】•白厄",
+   "text": "愿「负世」照拂黎明。",
+   "unlockRequirement": "",
+   "cnUrl": "48c520570ace6a408406297310dfc0a24c039a8f4ef8a65b5cb9802d2287e8c9",
+   "jpUrl": "b8bdec5332fe0d86f8d153178797799ec8a453ab4b1624da5849838748b72249",
+   "enUrl": "dcfc30e276b7422a1617e092447f8e8816100fe0b1e8b02c74231570b04d0cd6",
+   "krUrl": "2246a829b1e475a468498eb38c3ea10592f623c4b2b2c5adb17c651a4ebe6d62"
+  },
+  {
+   "id": 135,
+   "title": "【忆灵技】•「记忆」开拓者",
+   "text": "愿「开拓」，共赴「爱」的约定♪",
+   "unlockRequirement": "",
+   "cnUrl": "f4ce71d57dbcaabe0b22012898681f802874009a6bcd2edc3a1d65fc2f405ab7",
+   "jpUrl": "4b85368e4da4d48396959ac7daf2049e275aea06de08d750daa27dc293b79efd",
+   "enUrl": "4d00e062a5779db93e73ec2fd2fb8ebb9e4c36302c8e65bf4ff6e12fd3bf90a6",
+   "krUrl": "c5b69fafb10141ff22a5c512c451da2fbaee1d5cd983f6af048259fdf06f72d3"
+  },
+  {
+   "id": 136,
+   "title": "【忆灵技】•对敌•一",
+   "text": "以爱为因，涤荡憎恨。",
+   "unlockRequirement": "",
+   "cnUrl": "7bebe57f421d9923f19eb3e30108bc860a30dc14f6628edbca5b5fbf5b5bd502",
+   "jpUrl": "70e39802f4b4c3beca6ad986fe48431203d2e6578144c6751b0de7eb09d50e8d",
+   "enUrl": "94f22410972b27dd2c518dc9ca13ab22064d4f1a6d81ff1f7863d9bb6491fce8",
+   "krUrl": "874d22c807aaabd0dacb642d9f64e967228b72d0e7d5abfd1c4d57c14016ca1d"
+  },
+  {
+   "id": 137,
+   "title": "【忆灵技】•对敌•二",
+   "text": "以我为因，改写毁灭。",
+   "unlockRequirement": "",
+   "cnUrl": "63b8b5501df1b8b8f91dff7a9248d27a29a4506a22e60576eb0caf6a0956a63d",
+   "jpUrl": "017c92732ac959ea3799c063bdb48af14ed84925961f7339b669edcab42d1345",
+   "enUrl": "b570960fa37d12056c084107874de55a428401c1d47b57b79e9c2a7168468aef",
+   "krUrl": "9e3d046c59b62b5253861e53dddc619f7d691004755a5b0c797fbdd05ea65dcb"
+  },
+  {
+   "id": 138,
+   "title": "无法战斗",
+   "text": "对不起呀……",
+   "unlockRequirement": "",
+   "cnUrl": "a50713f18f5307698221fa0ac8a67834ab08a499a6407d40c410362b0ea70c6f",
+   "jpUrl": "58425b3eb50e7312183b6e82bfc364f964fda11cb17d29862c461d55e266d43d",
+   "enUrl": "89f8e9181757d58cf7782c780879f82acdf02959b86ffd3c119b0bee2f1a4173",
+   "krUrl": "46d0c5ff767b969c41f3cbfb1c7467e77fbb8a5160610c6fe98a5040abc0820b"
+  },
+  {
+   "id": 139,
+   "title": "【往昔的涟漪】无法战斗",
+   "text": "我会…等你……",
+   "unlockRequirement": "",
+   "cnUrl": "4fb433fa4938b2f0673ac2e12e9e06dd49e202b674f8c697d855040e89dac666",
+   "jpUrl": "971805e1324fde323539c8371bd209d7c5458c05cdb0de115e71de1e9062a655",
+   "enUrl": "15196fda49df0a64eb5528dea301f8c4b38374d4bf3d483840a854752a177b84",
+   "krUrl": "2644a055561bb0b9622abb2db5fe55554a260c856ab2b6487768446eedd254cb"
+  },
+  {
+   "id": 140,
+   "title": "重回战斗",
+   "text": "嗨，有没有想我？",
+   "unlockRequirement": "",
+   "cnUrl": "f340c70c59e0af08767f640b6c17cb746e3f5d9414f38637495204367636b727",
+   "jpUrl": "a37b46c7e95957217abe9c9bcc6cb08aa48357acbff1e40c5a482f39c78e7693",
+   "enUrl": "bdb58db6f756efb26df36df06056adac881d49923588dfbd01e3576df95148e3",
+   "krUrl": "36a31496cb3b8b31e75e4aac6e249aa031e5ef397340d25236ce6e9f9c4c9a56"
+  },
+  {
+   "id": 141,
+   "title": "【往昔的涟漪】重回战斗",
+   "text": "呀，不小心睡着啦。",
+   "unlockRequirement": "",
+   "cnUrl": "5fc829dc121a9c47b9242d0e24cb470532ed02484ca09fb044598dc31e5ca04c",
+   "jpUrl": "002c28baf9223584662de7fd859822da356cb98f8147e5f88a69c414ecf10003",
+   "enUrl": "217efedbd8257951cc15a1ec080e31892b61a7ba618d4db13fb18a8b0be4a445",
+   "krUrl": "436b6626c9332a6a71f3dc46384ea12aa13702faef12d3fba17653d2a7cedd86"
+  },
+  {
+   "id": 142,
+   "title": "回复生命",
+   "text": "谢谢！活力满满呢。",
+   "unlockRequirement": "",
+   "cnUrl": "dc18a4f2e8fb351d03c1871c8fe0d9b6d796f05cda121336c3da7c55dc62b270",
+   "jpUrl": "54b76c65ccd9dbc4fd7f615b5a0e6bf3fa9822d1908b626e6ef9f7006b4d58a4",
+   "enUrl": "ec001c4203c5e3d9d1226384fccf0f67e282508299c621770a463a85e376f9fd",
+   "krUrl": "3a5c0b422084c14b6986f28ac926e881e7b7752c9971fd978580c79ba1fb3043"
+  },
+  {
+   "id": 143,
+   "title": "迷宫普攻•一",
+   "text": "嗯哼♪",
+   "unlockRequirement": "",
+   "cnUrl": "5fcf8a24e34d6c5426f67688d313bf62861fe33d1e1cb5e6c377befcecfe8448",
+   "jpUrl": "e0343fd3312ca06c6a033e56665b75a9492cbf62cc83c5734eb68a4d47ffc991",
+   "enUrl": "ab2a9f9df8263dac12d2f7671342b2f00d60caf8bfe3cbc28350e631783499cf",
+   "krUrl": "3022a6472eb55c8569839d27128f8f3a64b0fd591659e347d9041ee3a6766554"
+  },
+  {
+   "id": 144,
+   "title": "迷宫普攻•二",
+   "text": "收下吧~",
+   "unlockRequirement": "",
+   "cnUrl": "0bda616ae96e3045437370a7060a0d3e511c4afb1c11cf02c177f65b4103e28f",
+   "jpUrl": "3d088bb75c46efb471172b056f8edcc21272661c693f66b0e447b52d58695b5a",
+   "enUrl": "5c6e15912b6bed2df5eead84de7f904d6d15b446c9cc88d4e5ab6a34a527f7c0",
+   "krUrl": "c3f1928a1a718e131632316696a5c7c9291cc16b87611af4182219426d7b5d63"
+  },
+  {
+   "id": 145,
+   "title": "秘技",
+   "text": "翻开吧，永恒的一页。",
+   "unlockRequirement": "",
+   "cnUrl": "e693101dc46f8db5cdfdbe964f2ea16bedfb9f636839f545712d2ec8a2484a15",
+   "jpUrl": "375aaa164a059c0f18c604a31afed27deff6905fd4a758c5c02b0e82c4242760",
+   "enUrl": "a6a510ecf3891d76aa52881982118f27bf9553457f6dea02badd894feaa1879e",
+   "krUrl": "c6acbbd9313658861b059cc267c37a885590d90316b925cb1f36a7fae2977d41"
+  },
+  {
+   "id": 146,
+   "title": "战斗胜利",
+   "text": "每一段回忆，都化作涟漪。",
+   "unlockRequirement": "",
+   "cnUrl": "67a98589dee3fcb0c72f29c6e291732ac89cb2b8f483f820e5298e9c7707e945",
+   "jpUrl": "02d96eac115e47d1eabbdd77d609d168faac18de3d50da63cc092a3c29d46893",
+   "enUrl": "f47b040e2f969639be98dab01413d8fe0a54c87f0118cb1ef4fbeebba8ed8b8e",
+   "krUrl": "7ee51f8698ef266cee665090c411688987dd83bfec9c1e82c37e76bbe21f7b32"
+  },
+  {
+   "id": 147,
+   "title": "开启战利品•一",
+   "text": "可爱的星琼，会藏在哪里呢？",
+   "unlockRequirement": "",
+   "cnUrl": "7f9c3c87f87c97db408f64eac70833e59b6aef018f4a06663d422b2875c0736a",
+   "jpUrl": "341841f92c0dc5989477102dc95b7074b1cbb282f21e97d572ce28fda7aa0ae3",
+   "enUrl": "28eedf0bb6a4e86225a4c85a77a318f7d19eb964512d5e73037503718d41af8e",
+   "krUrl": "d24e40aa5c487559c847246b52bf139ba328d5697c6efa662a45d0e468e729d2"
+  },
+  {
+   "id": 148,
+   "title": "开启战利品•二",
+   "text": "锵锵——有什么宝贝，也和我分享吧？",
+   "unlockRequirement": "",
+   "cnUrl": "9d4f3721bac4509169adf0db2ce81649b3d6b7c3d8d6a95c44b735706f404f0e",
+   "jpUrl": "6b2dbbc050d56e573a1e23f9342a3ed2cbe346aada01625a15aa4bd8ed155810",
+   "enUrl": "13f12a1bc37ca0e0f7edb5fde63f03219ade729271f756a7176b20ddb2f87faf",
+   "krUrl": "8e04b533811c57529d6b3a0480d56e6f4c087c0553138a2e9c7b710baf1fa6bd"
+  },
+  {
+   "id": 149,
+   "title": "开启贵重战利品",
+   "text": "好多好多！当作我们的宝藏，收下吧。",
+   "unlockRequirement": "",
+   "cnUrl": "e87a94535f6e83ab59acc9e6a2ef737bff73cf5a768d9c881a5d3d76c771b74a",
+   "jpUrl": "1ba54313c25e1b8b802eb22809a28a2188b4b3e98b0224bb9d32c2ac734c3702",
+   "enUrl": "3e95958c40678d93fda271456d35ab90e4be3c65098023b879993e9c96d83623",
+   "krUrl": "3b883dff1c7c960f307c7bb2da8d55f0b2a93bad61059ec0135921ac94052afa"
+  },
+  {
+   "id": 150,
+   "title": "解谜成功•一",
+   "text": "人家是不是很聪明？快夸夸我。",
+   "unlockRequirement": "",
+   "cnUrl": "04e712f673aa6e39c50bc39007233da4b2d5ed4f58aaf26d309ac5c2957c54a4",
+   "jpUrl": "1389c79abc3f81a7bb5ce8b3100e2e47566c62483c6df73d080a47136855b2aa",
+   "enUrl": "c15b0102a1809356cf3ae10e6b43566e144148aa0e4e9a25896bf0ebae45d2b9",
+   "krUrl": "4019708eed68a19ec5351fbbbe8253b1543142f8eaf7bb535ba59a4aea8613d6"
+  },
+  {
+   "id": 151,
+   "title": "解谜成功•二",
+   "text": "这点程度，果然难不倒你呀！",
+   "unlockRequirement": "",
+   "cnUrl": "f73040094f8f2acff8039895c4747f7021ab5b59e8544d534ad4dca0dfd0133d",
+   "jpUrl": "1060ceeae5a793f079b43b15af90e47150718c9adcd0d5394ceabbe49551653b",
+   "enUrl": "1e57a76526e696c64a690f92ea8b4720342f6e72ae04d2a62ac263b38a486df2",
+   "krUrl": "a74d292d2eaea8acc2fa7bb080915a310c8f888efb46c6ba34e9a887f8cca0ac"
+  },
+  {
+   "id": 152,
+   "title": "发现敌方目标",
+   "text": "放心。只要我们在一起，什么都能做到。",
+   "unlockRequirement": "",
+   "cnUrl": "13b840e96eea76312a95065442dff52d7cc5e0957a1675ce6ecc8210a40ffcdc",
+   "jpUrl": "e79f9778fefed4ad31d318858bdd63e6e7f31fd190b18e7130a8eb5750041567",
+   "enUrl": "91beabe8de9df297b031cd8accd7eea4bb15e557b327643edfaeb68501de8c7a",
+   "krUrl": "abaaf2c3e037ba059b6c70c0427d584b7063d3260aade07ca27c57a9ac6d6101"
+  },
+  {
+   "id": 153,
+   "title": "返回城镇",
+   "text": "就这样一直继续下去，好吗？",
+   "unlockRequirement": "",
+   "cnUrl": "bfcdb124f7e1117e78e3a556d46e4d9552022e5cc1322e5459216fc2bb67ff2d",
+   "jpUrl": "22bb3236405ee0658051eaa6e7db83400d042d2eb066adef3299dd01ac0d0167",
+   "enUrl": "a9197019d6a108dd3ac2b5f534a1acdb3430b5d6cfc457277892ce0d880b5408",
+   "krUrl": "63a0644d46884cf244c0667d945c4d68e2c5e48642f0e51484bcbf75ee0d5c18"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色详情",
+   "text": "流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。<br />哀丽秘榭的女儿，哺育「██」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放——<br />「然后，一起写下不同以往的诗篇吧♪」",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": ">>>……<br />>>>0、9、3<br />>>>PhiLia<nobr>093</nobr>……<br />……<br />>>>PhiLia<nobr>093</nobr> = 桃子<br />……<br />光。<br />暖的。亮的。白的。<br />……<br />天空。<br />云朵，柔软。<br />碰碰，吹散，拨弄，再舔一舔，下雨啦。<br />……<br />花。<br />甜丝丝。软。像桃子。<br />时间的风儿，故事来了，阳光，香香的。<br />……<br />小妖精。<br />毛绒绒。七种声音，组合。<br />陪伴迷路的孩子。聪明。<br />……<br />世界。<br />世界是光，天空，大海，星辰，种子，花，飞鸟，希望。<br />世界很美好。<br />世界是一个故事。<br />桃子来了，走了。故事，还有下一个故事。<br />……<br />我，你。<br />你是…桃子。<br />我是…桃子。<br />你，是一个人。<br />你，为了很多、很多人。<br />我，是一个人。<br />我，为了很多、很多人<br />……<br /><br />后来，你又变成了「空白」……<br />你不在的时候，我一直在认真思考哦！但怎么想，我也不明白——<br />金发的织者明明能够做出最美的衣服，为什么不让她看得见？<br />狮子一样的王子不会死亡，所以就必须一遍遍地受伤？<br />那些好多好多的红发小女孩们，为什么她们总是变得越来越少？<br />还有，桃子，你每次离开之后，都去哪里啦？<br />……<br />下次，请你替我解答吧？<br />等你♪<br />第<nobr>496000</nobr>次。<br /><align=\"right\">——███的记录</align>",
+   "unlockRequirement": "角色等级<nobr>20</nobr>解锁"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "第<nobr>33550335</nobr>个故事，我还在找寻那个答案。<br /><br />其中一个故事里，金发的织者放弃了制衣师的工作，和猫儿一起成为了自由的侠盗。<br />在另一个故事里，狮子般的王子健康地长大，他战无不胜，从来没人能增添他的伤痕。<br />也有几次，红发的女孩们会被好心的王者保护，奥赫玛满是她们的欢声笑语。<br />我还见过，海洋的歌者与那位凯撒一同回到了无人居住的海滨，阿那克萨戈拉斯担任逐火的首领，带领众人向前……<br /><br />可每一个故事的结尾，都像徒劳燃烧的书页，化作一个漆黑的怪物。<br />你说，它有很多个名字——<br />「铁墓」，「毁灭」，或者…「命运」。<br /><br />桃子，你总是微笑着，但你讲述时的每一次颤抖，我都能感受到呀。<br />那就是「逐火」的结局吗？<br />每一个故事里，都写着「逐火是不断失却的旅途」。<br />你说，那也是「爱」。<br />所以，「爱」是一次次的失却，也是一次次的等待吗？<br /><br />桃子，我不懂。<br />但我感受到了，你说的那颗「流星」。<br />我的「心」在和它一同跳动。<br /><br />奔向它，可能会跌落，碎成万千个碎片。<br />嘻，反过来想，碎片就像水晶花一样，会倒映出更多美丽的眼眸吧？<br /><br />在这一次的故事里，涟漪将为流星而荡开…三千万世浇灌的花朵，也终于要飘向远方。<br />我知道的，接下来，我会失去好多的记忆，就像花瓣片片落下。但只有这样，我才能更加轻盈地、乘着风儿去追逐流星呀♪<br /><br />那么，就让人家成为桃子故事中的小妖精吧，人家会用粉色的绒毛打扮自己，以最可爱的样子，接过每一个「昔涟」的嘱托，去人们心中栽种「爱」的水晶花——<br /><br />然后，以「昔涟」的名字，和流星一起，写下不同以往的浪漫故事♪<br /><align=\"right\">——「昔涟」的回忆</align>",
+   "unlockRequirement": "角色等级<nobr>40</nobr>解锁"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "很久，很久，之前——<br /><br />「迷……」<br />「？」<br />嘻，故事的开始，还真是个充满悬念的相遇呀。<br />……<br /><br />「旅行，喜欢。和你，一起？<br />「记忆…收集。拼凑，完整。」<br />我们踏上旅途，与所有黄金裔一同写下那些逐火的岁月——<br /><br />和织者一道，将光阴织成黄金。<br />在纷争的长枪下，悬锋的战士用血与火，燃烧出璀璨的前路。<br />如果将时间比作一朵花，圣女便创造了一千个芬芳的明日。<br />为了真理，智者将生命付之一炬。一个温柔的拥抱，至少能让告别更美一些。<br />当永夜降临奥赫玛，医师与猫儿抬头仰望时，或许只有一个小小的愿望——愿虹光永驻天空，谎言在风中飘扬。<br /><br />于那终点，我们告别哀丽秘榭氤氲麦香的梦。空白的英雄恰如黎明的燃烧，在灰白的天际，曙光从你的肩头升起。<br /><br />千千万万的记忆，在再创世的时分，唤醒了人家。<br />一如过往三千万世，它依然充满牺牲与悲伤，但这一次，因为有你，就像蒙上了一层温暖的光。<br />你接过「负世」的神权，我住进「岁月」半神的心里——<br />从过去，到现在，我们终于能迈步前往未来。<br /><br />在金血铭刻的时代，那个自居神明的存在第一次得到应有的惩罚。<br />探索、了解、建立、连结——呼，当那位记忆的孩子要将世界淹没，人家又一次见证了开拓的决心。<br />翁法罗斯的命运不再是徒劳的回环，它已经与前进的信念紧密相连。<br /><br />故事的最后，所有逐火的英雄携起手，直面那毁灭的无首巨人——<br />以三千万世的爱，被毁灭的一切化作一页净土，自我们的记忆中重生……<br /><br />嘻，真是好长、好长的路呀，好想就这样，为故事画上圆满的句点。<br />可人家的「爱」并非完美无缺，也并非一切的答案——但我们一起，就无所不能，对吧♪<br /><br />如果…令「爱」为拥抱而破碎，它是不是就会变成世界的「光」？<br />或许那是怅然若失的一笔，但那无数道光，一定能为我们深爱的世界，写下不同以往的结局♪<br /><br /><align=\"right\">——昔涟，开拓者写下的故事</align>",
+   "unlockRequirement": "角色等级<nobr>60</nobr>解锁"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "很久，很久以后——<br /><br />阿那克萨戈拉斯，天才俱乐部#100，听说他正在向「虚数之树」理论发起挑战…如果是他，肯定能做到吧？<br />……<br />揽镜人阿格莱雅，嘻，她的设计一定能在庇尔波因特掀起万人空巷的盛况。<br />……<br />探险家刻律德菈，成为了近距离征服黑洞的第一人，在一睹黑洞的壮美时，她宣称是一位歌者的唱片，让她得以抵抗虚无的诱惑。<br />……<br />每四个琥珀纪一届的银河运动会上，赛飞儿将代表翁法罗斯出战短跑，白厄与万敌将带领逐火梦之队出征，他们与仙舟狐人队的对决，是本次比赛的一大看点！<br />……<br />遐蝶的长篇连载近日迎来完结，我们等待了整整十个琥珀纪的结局，究竟会是什么样子？<br />……<br />缇里西庇俄丝女士发布了她的宇宙穿梭载具，搭乘着飞船，由风堇女士研发的「伊卡」疫苗将飞往许多被病毒侵蚀的世界……<br />……<br />为了银河的明天，星穹列车再度启程，无名客留下的事迹，仍在星空中传唱。<br />……<br /><br />当落叶停在枝头，雨水落回天空，呀，人家还是忍不住写下这些美好的幻想。<br /><br />翁法罗斯是一颗沉睡的种子，如果它在未来能够长成一棵大树，那么树梢上垂挂的果实，一定会远远超过我的想象。<br /><br />如果没有空白，这些故事又该如何生长？<br />所以，开拓者，不要悲伤，好吗？<br />当种子落回土壤，我的故事会被风吹散，但它将为银河荡起美丽的涟漪，就像破碎的水晶花，为人们带来更多的光——那就是「爱」，对吧？<br /><br />未来会从这里绽放，就像这个故事的开篇，我讲，你听——<br /><br />我，和你。<br />……<br />涟漪，世界。<br />……<br />小妖精，毛绒绒。<br />……<br />希望。<br />……<br />花。<br />……<br />天空。<br />……<br />光。<br />……<br /><align=\"right\">——留待未来的空白诗篇</align>",
+   "unlockRequirement": "角色等级<nobr>80</nobr>解锁"
+  },
+  {
+   "title": "角色故事·一",
+   "text": ">>>……<br />>>>0、9、3<br />>>>PhiLia<nobr>093</nobr>……<br />……<br />>>>PhiLia<nobr>093</nobr> = 桃子<br />……<br />光。<br />暖的。亮的。白的。<br />……<br />天空。<br />云朵，柔软。<br />碰碰，吹散，拨弄，再舔一舔，下雨啦。<br />……<br />花。<br />甜丝丝。软。像桃子。<br />时间的风儿，故事来了，阳光，香香的。<br />……<br />小妖精。<br />毛绒绒。七种声音，组合。<br />陪伴迷路的孩子。聪明。<br />……<br />世界。<br />世界是光，天空，大海，星辰，种子，花，飞鸟，希望。<br />世界很美好。<br />世界是一个故事。<br />桃子来了，走了。故事，还有下一个故事。<br />……<br />我，你。<br />你是…桃子。<br />我是…桃子。<br />你，是一个人。<br />你，为了很多、很多人。<br />我，是一个人。<br />我，为了很多、很多人<br />……<br /><br />后来，你又变成了「空白」……<br />你不在的时候，我一直在认真思考哦！但怎么想，我也不明白——<br />金发的织者明明能够做出最美的衣服，为什么不让她看得见？<br />狮子一样的王子不会死亡，所以就必须一遍遍地受伤？<br />那些好多好多的红发小女孩们，为什么她们总是变得越来越少？<br />还有，桃子，你每次离开之后，都去哪里啦？<br />……<br />下次，请你替我解答吧？<br />等你♪<br />第<nobr>496000</nobr>次。<br /><align=\"right\">——德谬歌的记录</align>",
+   "unlockRequirement": "完成开拓任务「落英啊，残芳纷飞留归躅」后解锁"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。<br />哀丽秘榭的女儿，哺育「真我」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放——<br />「然后，一起写下不同以往的诗篇吧♪」",
+   "unlockRequirement": "完成开拓任务「落英啊，残芳纷飞留归躅」后解锁"
+  }
+ ],
+ "archive": {
+  "cvCn": "宴宁",
+  "cvJp": "井上麻里奈",
+  "cvKr": "조경이",
+  "cvEn": "Aiden Dawn",
+  "camp": "翁法罗斯"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "4795736": 2,
+    "11540608": 1,
+    "11555265": 1,
+    "11599013": 1,
+    "11777259": 1,
+    "11784403": 1,
+    "11807414": 1,
+    "11814558": 1,
+    "12027884": 1,
+    "12051199": 1,
+    "21702647": 2,
+    "21959042": 2,
+    "28352738": 1,
+    "28378241": 1,
+    "28436645": 1,
+    "28611286": 1,
+    "28669695": 1,
+    "28687948": 1,
+    "28695191": 1
+   },
+   "5": {
+    "11733427": 1,
+    "11793822": 1,
+    "21518675": 1,
+    "21732319": 1,
+    "21984745": 2
+   }
+  }
+ },
+ "hasServant": true,
+ "servant": {
+  "name": "德谬歌",
+  "iconPath": "0570fa51416da9448a247a178ac703411a8c48a23dfa33da921989dfce825942",
+  "teamIconPath": "09dd9940cc1a335181d77ee8a9ee270d5da048788218242493ec051051c72dcb",
+  "skills": [
+   {
+    "id": 11555265,
+    "name": "花与箭的舞曲",
+    "icon": "bc6cd8fed49491ac75eb57d336a1ede10ac5fda81329aa86479c67397f5c84e9",
+    "tag": "群攻",
+    "typeDesc": "忆灵技",
+    "skillDesc": "对敌方全体造成等同于德谬歌<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>生命上限的<span style=\"color:#47C7FD;\">冰</span>属性伤害。",
+    "simpleSkillDesc": "对敌方全体造成<span style=\"color:#47C7FD;\">冰</span>属性伤害。",
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.36,
+       12
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.42,
+       12
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.48,
+       12
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.54,
+       12
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.6,
+       12
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.66,
+       12
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.72,
+       12
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.78,
+       12
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.84,
+       12
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 12027884,
+    "name": "此诗，献予一切生命",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "对指定我方单体角色施加<u>增益效果</u>。当该角色为<u>黄金裔</u>时，使其获得<span style=\"display: inline-block; color: #f9b0f0; font-weight:bold;\"><u><nobr><icon SpriteName=AvatarCyrene id=0 width=1 height=1>特</nobr>殊效果</u></span>。当该角色不是<u>黄金裔</u>时，使其造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，持续<nobr>#3[i]</nobr>回合，该效果对其忆灵也生效。",
+    "simpleSkillDesc": "对我方单体角色施加<u>增益效果</u>。当该角色为<u>黄金裔</u>时，使其获得<span style=\"display: inline-block; color: #f9b0f0; font-weight:bold;\"><u><nobr><icon SpriteName=AvatarCyrene id=0 width=1 height=1>特</nobr>殊效果</u></span>。当该角色不是<u>黄金裔</u>时，使其造成的伤害提高，该效果对其忆灵也生效。",
+    "levelData": [
+     {
+      "params": [
+       12,
+       0.2,
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       12,
+       0.24,
+       2
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       12,
+       0.28,
+       2
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       12,
+       0.32,
+       2
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       12,
+       0.36,
+       2
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       12,
+       0.4,
+       2
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       12,
+       0.44,
+       2
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       12,
+       0.48,
+       2
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       12,
+       0.52,
+       2
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       12,
+       0.56,
+       2
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11793822,
+    "name": "等待，在所有的过去",
+    "icon": "3b9130ae520d365470c7f95f2087d1e552aada01e5366f2153c877a865794aed",
+    "tag": "强化",
+    "typeDesc": "忆灵天赋",
+    "skillDesc": "德谬歌的速度保持为0，并且不会出现在行动序列上，在场时为<u>界外</u>。昔涟的生命值百分比变化时，德谬歌的生命值百分比也会相应变化。德谬歌在场时，昔涟与德谬歌的生命上限提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>。德谬歌施放技能后使自身所有<u>持续效果</u>持续回合数减1。",
+    "simpleSkillDesc": "昔涟的生命值变化时，德谬歌的生命值也会相应变化。德谬歌在场时，昔涟的生命上限提高。",
+    "levelData": [
+     {
+      "params": [
+       0.12,
+       0
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.144,
+       0
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.168,
+       0
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.192,
+       0
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.216,
+       0
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.24,
+       0
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.264,
+       0
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.288,
+       0
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.312,
+       0
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.336,
+       0
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11733427,
+    "name": "「你好，世界♪」",
+    "icon": "3b9130ae520d365470c7f95f2087d1e552aada01e5366f2153c877a865794aed",
+    "tag": "强化",
+    "typeDesc": "忆灵天赋",
+    "skillDesc": "德谬歌被召唤时，解除我方全体<u>控制类负面状态</u>。",
+    "simpleSkillDesc": "被召唤时，解除我方全体<u>控制类负面状态</u>。",
+    "levelData": [
+     {
+      "params": [],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 28687948,
+    "name": "献予「创世」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对开拓者•记忆施放时，使开拓者•记忆的攻击力提高，提高数值等同于德谬歌生命上限的<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，同时使开拓者•记忆的暴击率提高，提高数值等同于德谬歌暴击率的<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>。该效果对迷迷也生效。本场战斗中，开拓者•记忆施放强化普攻后，德谬歌立即获得1个<u>额外回合</u>并自动施放【花与箭的舞曲】，若施放前目标被消灭则对新入场的敌方目标施放。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对开拓者•记忆施放时，使开拓者•记忆的攻击力与暴击率提高。该效果对迷迷也生效。开拓者•记忆施放强化普攻后，德谬歌立即获得1个<u>额外回合</u>并自动施放【花与箭的舞曲】。",
+    "levelData": [
+     {
+      "params": [
+       0.08,
+       0.36,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.096,
+       0.432,
+       1
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.112,
+       0.504,
+       1
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.128,
+       0.576,
+       1
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.144,
+       0.648,
+       1
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.16,
+       0.72,
+       1
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.176,
+       0.792,
+       1
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.192,
+       0.864,
+       1
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.208,
+       0.936,
+       1
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.224,
+       1.008,
+       1
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 28436645,
+    "name": "献予「浪漫」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对阿格莱雅施放时，使阿格莱雅获得【浪漫】并使衣匠忆灵天赋的速度提高效果层数立即叠加至上限。阿格莱雅或衣匠攻击后，消耗【浪漫】为自身恢复<nobr>#1[i]</nobr>点能量。阿格莱雅与衣匠造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>并无视目标<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>的防御，持续至阿格莱雅退出【至高之姿】状态。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对阿格莱雅施放时，使阿格莱雅的忆灵天赋的速度提高效果层数立即叠加至上限，阿格莱雅或衣匠攻击后恢复能量。阿格莱雅与衣匠造成的伤害提高并无视目标的防御。",
+    "levelData": [
+     {
+      "params": [
+       70,
+       0.36,
+       0.18
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       70,
+       0.432,
+       0.216
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       70,
+       0.504,
+       0.252
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       70,
+       0.576,
+       0.288
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       70,
+       0.648,
+       0.324
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       70,
+       0.72,
+       0.36
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       70,
+       0.792,
+       0.396
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       70,
+       0.864,
+       0.432
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       70,
+       0.936,
+       0.468
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       70,
+       1.008,
+       0.504
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 28695191,
+    "name": "献予「门径」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对缇宝施放时，使缇宝造成的伤害无视敌方目标<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>的防御力。缇宝施放追加攻击触发缇宝的结界的<u>附加伤害</u>时，会额外造成<nobr>#1[i]</nobr>次附加伤害。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对缇宝施放时，使缇宝造成的伤害无视敌方目标的防御力。缇宝施放追加攻击触发缇宝的结界的<u>附加伤害</u>时，会额外造成<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]</nobr></span>次附加伤害。",
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.06,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1,
+       0.072,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1,
+       0.084,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       1,
+       0.096,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1,
+       0.108,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       1,
+       0.12,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       1,
+       0.132,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1,
+       0.144,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1,
+       0.156,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1,
+       0.168,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 28378241,
+    "name": "献予「纷争」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对万敌施放时解除万敌陷入的所有<u>控制类负面状态</u>，若万敌处于【血仇】状态，则使其自动施放1次不消耗充能的【弑神登神】，本次攻击中万敌的暴击伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，若施放前目标被消灭则对新入场的敌方目标施放。若万敌不处于【血仇】状态，则使万敌<u>行动提前</u><nobr>#2[i]%</nobr>。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对万敌施放时解除<u>控制类负面状态</u>，若万敌处于【血仇】状态，则使其自动施放【弑神登神】并使暴击伤害提高。若万敌不处于【血仇】状态，使万敌<u>行动提前</u>。",
+    "levelData": [
+     {
+      "params": [
+       1,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.2,
+       1
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       1.4,
+       1
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       1.6,
+       1
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.8,
+       1
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       2,
+       1
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       2.2,
+       1
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       2.4,
+       1
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       2.6,
+       1
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       2.8,
+       1
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 28669695,
+    "name": "献予「生死」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对遐蝶施放时，【新蕊】可以溢出至<nobr>#3[i]%</nobr>。召唤死龙时会消耗所有溢出【新蕊】，每消耗1%溢出值，使本次召唤的死龙触发天赋【灼掠幽墟的晦翼】的技能效果时，造成的伤害倍率提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f2]%</nobr></span>，召唤时若场上敌方目标小于等于<nobr>#6[i]</nobr>名，伤害倍率额外提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[f2]%</nobr></span>。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对遐蝶施放时，【新蕊】可以溢出，召唤死龙时会消耗所有溢出【新蕊】，基于溢出值使本次召唤的死龙触发天赋【灼掠幽墟的晦翼】的技能效果时造成的伤害倍率提高，若敌方目标低于一定数量，伤害倍率额外提高。",
+    "levelData": [
+     {
+      "params": [
+       0,
+       0.0012,
+       2,
+       0,
+       0.0024,
+       2
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0,
+       0.0014400005,
+       2,
+       0,
+       0.002880001,
+       2
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0,
+       0.0016800009,
+       2,
+       0,
+       0.0033600004,
+       2
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0,
+       0.0019200006,
+       2,
+       0,
+       0.0038400006,
+       2
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0,
+       0.0021600004,
+       2,
+       0,
+       0.0043200003,
+       2
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0,
+       0.0024,
+       2,
+       0,
+       0.0048,
+       2
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0,
+       0.0026400005,
+       2,
+       0,
+       0.00528,
+       2
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0,
+       0.002880001,
+       2,
+       0,
+       0.0057600006,
+       2
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0,
+       0.00312,
+       2,
+       0,
+       0.00624,
+       2
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0,
+       0.0033600004,
+       2,
+       0,
+       0.00672,
+       2
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 28352738,
+    "name": "献予「理性」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对那刻夏施放时，为我方恢复<nobr>#4[i]</nobr>个战技点并使那刻夏立即行动，使其战技的伤害次数增加<nobr>#1[i]</nobr>次，持续1回合。那刻夏在下一次施放普攻、战技时获得【真知】：所有「智识」命途角色攻击力提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>、造成的战技伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，持续至下一个那刻夏回合开始时。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对那刻夏施放时，为我方恢复战技点并使那刻夏立即行动且战技的伤害次数增加。并使所有「智识」命途角色攻击力提高、造成的战技伤害提高。",
+    "levelData": [
+     {
+      "params": [
+       3,
+       0.2,
+       0.3,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       0.24,
+       0.36,
+       1
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.28,
+       0.42,
+       1
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.32,
+       0.48,
+       1
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.36,
+       0.54,
+       1
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.4,
+       0.6,
+       1
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       3,
+       0.44,
+       0.66,
+       1
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       0.48,
+       0.72,
+       1
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       0.52,
+       0.78,
+       1
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       3,
+       0.56,
+       0.84,
+       1
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 28611286,
+    "name": "献予「天空」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "德谬歌施放忆灵技时，使<span style=\"color:#00FF9C;\">风</span>堇获得2层【献予「天空」之诗】。对<span style=\"color:#00FF9C;\">风</span>堇施放时，为<span style=\"color:#00FF9C;\">风</span>堇恢复<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]</nobr></span>点能量。当<span style=\"color:#00FF9C;\">风</span>堇持有【献予「天空」之诗】并提供治疗时，计入小伊卡忆灵技的治疗数值额外提高，提高数值等同于本次治疗数值的<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>。<span style=\"color:#00FF9C;\">风</span>堇施放战技/终结技后，消耗1层【献予「天空」之诗】。",
+    "simpleSkillDesc": "德谬歌施放忆灵技时，使<span style=\"color:#00FF9C;\">风</span>堇获得2层【献予「天空」之诗】。对<span style=\"color:#00FF9C;\">风</span>堇施放时，为<span style=\"color:#00FF9C;\">风</span>堇恢复能量。<span style=\"color:#00FF9C;\">风</span>堇持有【献予「天空」之诗】并提供治疗时，计入小伊卡忆灵技的累计治疗数值额外提高。",
+    "levelData": [
+     {
+      "params": [
+       0.36,
+       12
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.432,
+       14.4
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.504,
+       16.8
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.576,
+       19.2
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.648,
+       21.6
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.72,
+       24
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.792,
+       26.4
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.864,
+       28.8
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.936,
+       31.2
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.008,
+       33.6
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11599013,
+    "name": "献予「诡计」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对赛飞儿施放时，使赛飞儿造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，并使【老主顾】的防御力降低<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，【老主顾】以外的敌方目标的防御力降低<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对赛飞儿施放时，使赛飞儿造成的伤害提高并使敌方目标的防御力降低，【老主顾】的防御力将额外降低。",
+    "levelData": [
+     {
+      "params": [
+       0.18,
+       0.1,
+       0.06
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.216,
+       0.12,
+       0.072
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.252,
+       0.14,
+       0.084
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.288,
+       0.16,
+       0.096
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.324,
+       0.18,
+       0.108
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.36,
+       0.2,
+       0.12
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.396,
+       0.22,
+       0.132
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.432,
+       0.24,
+       0.144
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.468,
+       0.26,
+       0.156
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.504,
+       0.28,
+       0.168
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11807414,
+    "name": "献予「负世」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对白厄施放后，使白厄获得<nobr>#8[i]</nobr>点【<span style=\"color:#F84F36;\">火</span>种】，且在变身时获得【永续的燃烧】，变身时若【<span style=\"color:#F84F36;\">火</span>种】大于<nobr>#5[i]</nobr>点，每超出1点，卡厄斯兰那的暴击伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[i]%</nobr></span>，最多可提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#7[i]%</nobr></span>。持有【永续的燃烧】时，卡厄斯兰那的暴击率提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>，在<u>卡厄斯兰那的额外回合</u>耗尽后不会结束变身、刷新全部<u>卡厄斯兰那的额外回合</u>并获得<nobr>#9[i]</nobr>点<u>【毁伤】</u>。<u>额外回合</u>开始时，卡厄斯兰那消耗等同于当前生命值<nobr>#2[i]%</nobr>的生命值。施放攻击后，造成<nobr>#3[i]</nobr>次<u>附加伤害</u>，每次伤害对敌方随机单体造成等同于卡厄斯兰那<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>攻击力的<span style=\"color:#F84F36;\">火</span>属性<u>附加伤害</u>。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对白厄施放后，使白厄立即获得【<span style=\"color:#F84F36;\">火</span>种】，使卡厄斯兰那的暴击率与暴击伤害提高，在<u>卡厄斯兰那的额外回合</u>耗尽后不会结束变身，获得<u>【毁伤】</u>并刷新全部<u>卡厄斯兰那的额外回合</u>。<u>额外回合</u>开始时损失当前生命值，施放攻击后，对敌方随机单体造成<span style=\"color:#F84F36;\">火</span>属性<u>附加伤害</u>。",
+    "levelData": [
+     {
+      "params": [
+       0.08,
+       0.15,
+       5,
+       0.05,
+       12,
+       0.06,
+       0.36,
+       6,
+       4
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.096,
+       0.15,
+       5,
+       0.06,
+       12,
+       0.072,
+       0.432,
+       6,
+       4
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.112,
+       0.15,
+       5,
+       0.07,
+       12,
+       0.084,
+       0.504,
+       6,
+       4
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.128,
+       0.15,
+       5,
+       0.08,
+       12,
+       0.096,
+       0.576,
+       6,
+       4
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.144,
+       0.15,
+       5,
+       0.09,
+       12,
+       0.108,
+       0.648,
+       6,
+       4
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.16,
+       0.15,
+       5,
+       0.1,
+       12,
+       0.12,
+       0.72,
+       6,
+       4
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.176,
+       0.15,
+       5,
+       0.11,
+       12,
+       0.132,
+       0.792,
+       6,
+       4
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.192,
+       0.15,
+       5,
+       0.12,
+       12,
+       0.144,
+       0.864,
+       6,
+       4
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.208,
+       0.15,
+       5,
+       0.13,
+       12,
+       0.156,
+       0.936,
+       6,
+       4
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.224,
+       0.15,
+       5,
+       0.14,
+       12,
+       0.168,
+       1.008,
+       6,
+       4
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11540608,
+    "name": "献予「海洋」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对海瑟音施放时，使海瑟音获得【暖流】。海瑟音施放攻击后消耗【暖流】为自身恢复<nobr>#4[i]</nobr>点能量。本场战斗中，海瑟音造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，施放普攻/战技攻击敌方目标后，使受到攻击的敌方目标当前承受的所有持续伤害立即产生相当于原伤害<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>/<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>的伤害。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">单次生效</span>，对海瑟音施放时，使海瑟音获得【暖流】。海瑟音施放攻击后消耗【暖流】为自身恢复能量。海瑟音造成的伤害提高，施放普攻/战技攻击敌人后，使受到攻击的敌方目标当前承受的所有持续伤害立即产生一次伤害。",
+    "levelData": [
+     {
+      "params": [
+       0.6,
+       0.3,
+       0.4,
+       60
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.72,
+       0.36,
+       0.48,
+       60
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.84,
+       0.42,
+       0.56,
+       60
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.96,
+       0.48,
+       0.64,
+       60
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       1.08,
+       0.54,
+       0.72,
+       60
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       1.2,
+       0.6,
+       0.8,
+       60
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       1.32,
+       0.66,
+       0.88,
+       60
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.44,
+       0.72,
+       0.96,
+       60
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.56,
+       0.78,
+       1.04,
+       60
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       1.68,
+       0.84,
+       1.12,
+       60
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11814558,
+    "name": "献予「律法」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对刻律德菈施放后，持有【军功】的角色暴击伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，<u>奇袭</u>结束后，使刻律德菈获得<nobr>#2[i]</nobr>点充能。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对刻律德菈施放后，持有【军功】的角色暴击伤害提高，<u>奇袭</u>结束后，使刻律德菈获得充能。",
+    "levelData": [
+     {
+      "params": [
+       0.15,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.18,
+       1
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.21,
+       1
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.24,
+       1
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.27,
+       1
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.3,
+       1
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.33,
+       1
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.36,
+       1
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.39,
+       1
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.42,
+       1
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11777259,
+    "name": "献予「岁月」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对长夜月施放后，「长夜」施放忆灵技【迷梦，流失，如露】时造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>，长夜月施放战技/终结技后，额外获得<nobr>#2[i]</nobr>点【忆质】。长夜月战技的暴击伤害提高效果额外提高，提高数值等同于长夜月暴击伤害的<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span>。",
+    "simpleSkillDesc": "<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">整场生效</span>，对长夜月施放后，「长夜」施放忆灵技【迷梦，流失，如露】时造成的伤害提高，长夜月施放战技/终结技后，额外获得【忆质】。战技的暴击伤害提高效果额外提高。",
+    "levelData": [
+     {
+      "params": [
+       0.09,
+       1,
+       0.06
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.108,
+       1,
+       0.072
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.126,
+       1,
+       0.084
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.144,
+       1,
+       0.096
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.162,
+       1,
+       0.108
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.18,
+       1,
+       0.12
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.198,
+       1,
+       0.132
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.216,
+       1,
+       0.144
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.234,
+       1,
+       0.156
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.252,
+       1,
+       0.168
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 12051199,
+    "name": "献予「大地」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "德谬歌施放忆灵技时，使丹恒•腾荒获得【献予「大地」之诗】，并使【龙灵】的下<nobr>#3[i]</nobr>次攻击造成等同于【同袍】护盾量<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span>的相应属性附加伤害。当丹恒•腾荒持有【献予「大地」之诗】时，【同袍】造成的伤害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>。对丹恒•腾荒施放时，使龙灵行动提前<nobr>100%</nobr>，并使龙灵下一次行动时获得丹恒•腾荒终结技的强化效果、提供的护盾量为原护盾量的<nobr>#5[i]%</nobr>，不消耗丹恒•腾荒终结技的强化次数。",
+    "simpleSkillDesc": "德谬歌施放忆灵技时，使【龙灵】攻击后造成附加伤害，并使丹恒•腾荒获得【献予「大地」之诗】：【同袍】造成的伤害提高。对丹恒•腾荒施放时，使龙灵行动提前，并使龙灵下一次行动时获得丹恒•腾荒终结技的强化效果、提供护盾的倍率提高。",
+    "levelData": [
+     {
+      "params": [
+       0.12,
+       2,
+       3,
+       0.4,
+       1.5
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.144,
+       2,
+       3,
+       0.48,
+       1.5
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.168,
+       2,
+       3,
+       0.56,
+       1.5
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.192,
+       2,
+       3,
+       0.64,
+       1.5
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.216,
+       2,
+       3,
+       0.72,
+       1.5
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.24,
+       2,
+       3,
+       0.8,
+       1.5
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.264,
+       2,
+       3,
+       0.88,
+       1.5
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.288,
+       2,
+       3,
+       0.96,
+       1.5
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.312,
+       2,
+       3,
+       1.04,
+       1.5
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.336,
+       2,
+       3,
+       1.12,
+       1.5
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   },
+   {
+    "id": 11784403,
+    "name": "献予「真我」之诗",
+    "icon": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+    "tag": "辅助",
+    "typeDesc": "忆灵技",
+    "skillDesc": "昔涟每从1个除德谬歌以外不同的队友处获得【追忆】后，德谬歌施放【花与箭的舞曲】时额外对敌方随机单体造成1次等同于德谬歌<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>生命上限的<span style=\"color:#47C7FD;\">冰</span>属性伤害。昔涟施放终结技后或德谬歌被召唤时，使德谬歌获得1点【故事】，当【故事】达到<nobr>#2[i]</nobr>点时，德谬歌消耗全部【故事】立即获得1个<u>额外回合</u>自动施放【花与箭的舞曲】。",
+    "simpleSkillDesc": "昔涟每从1个除德谬歌以外不同的队友处获得过【追忆】，德谬歌施放【花与箭的舞曲】时就额外对敌方随机单体造成1次伤害。昔涟施放终结技一定次数后，德谬歌立即获得1个<u>额外回合</u>自动施放【花与箭的舞曲】。",
+    "levelData": [
+     {
+      "params": [
+       0.3,
+       3
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.36,
+       3
+      ],
+      "level": 2,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 3500
+       },
+       {
+        "id": 6744567,
+        "count": 2
+       },
+       {
+        "id": 20445700,
+        "count": 4
+       }
+      ]
+     },
+     {
+      "params": [
+       0.42,
+       3
+      ],
+      "level": 3,
+      "levelReq": 0,
+      "promotionReq": 3,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 7000
+       },
+       {
+        "id": 6471577,
+        "count": 2
+       },
+       {
+        "id": 20170864,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.48,
+       3
+      ],
+      "level": 4,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 6471577,
+        "count": 4
+       },
+       {
+        "id": 20170864,
+        "count": 3
+       }
+      ]
+     },
+     {
+      "params": [
+       0.54,
+       3
+      ],
+      "level": 5,
+      "levelReq": 0,
+      "promotionReq": 5,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 35000
+       },
+       {
+        "id": 6720910,
+        "count": 2
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.6,
+       3
+      ],
+      "level": 6,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 6720910,
+        "count": 6
+       },
+       {
+        "id": 20389475,
+        "count": 2
+       }
+      ]
+     },
+     {
+      "params": [
+       0.66,
+       3
+      ],
+      "level": 7,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.72,
+       3
+      ],
+      "level": 8,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.78,
+       3
+      ],
+      "level": 9,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     },
+     {
+      "params": [
+       0.84,
+       3
+      ],
+      "level": 10,
+      "levelReq": 0,
+      "promotionReq": 0,
+      "cost": []
+     }
+    ]
+   }
+  ],
+  "skillGrouping": [
+   [
+    11555265,
+    12027884,
+    28687948,
+    28436645,
+    28695191,
+    28378241,
+    28669695,
+    28352738,
+    28611286,
+    11599013,
+    11807414,
+    11540608,
+    11814558,
+    11777259,
+    12051199,
+    11784403
+   ],
+   [
+    11793822,
+    11733427
+   ]
+  ],
+  "skillTreePoints": [
+   {
+    "id": 29593693,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "enhanceId": 0,
+    "embedServantSkill": {
+     "id": 29593693,
+     "name": "此诗，献予一切生命",
+     "iconPath": "e802671a6ab7bc07d641df699a8b1eba6b1b929d1ae3e5e66cada5c75f23ea88",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 20445700,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 20170864,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 20170864,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": 29836913,
+    "anchor": 0,
+    "type": 3,
+    "children": [],
+    "enhanceId": 0,
+    "embedServantSkill": {
+     "id": 29836913,
+     "name": "等待，在所有的过去",
+     "iconPath": "3b9130ae520d365470c7f95f2087d1e552aada01e5366f2153c877a865794aed",
+     "levelReq": 0,
+     "promotionReq": 0,
+     "levelData": [
+      {
+       "params": [],
+       "level": 1,
+       "levelReq": 0,
+       "promotionReq": 0,
+       "cost": []
+      },
+      {
+       "params": [],
+       "level": 2,
+       "levelReq": 0,
+       "promotionReq": 2,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 3500
+        },
+        {
+         "id": 6744567,
+         "count": 2
+        },
+        {
+         "id": 20445700,
+         "count": 4
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 3,
+       "levelReq": 0,
+       "promotionReq": 3,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 7000
+        },
+        {
+         "id": 6471577,
+         "count": 2
+        },
+        {
+         "id": 20170864,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 4,
+       "levelReq": 0,
+       "promotionReq": 4,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 16000
+        },
+        {
+         "id": 6471577,
+         "count": 4
+        },
+        {
+         "id": 20170864,
+         "count": 3
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 5,
+       "levelReq": 0,
+       "promotionReq": 5,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 35000
+        },
+        {
+         "id": 6720910,
+         "count": 2
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      },
+      {
+       "params": [],
+       "level": 6,
+       "levelReq": 0,
+       "promotionReq": 6,
+       "cost": [
+        {
+         "id": 29328,
+         "count": 140000
+        },
+        {
+         "id": 6720910,
+         "count": 6
+        },
+        {
+         "id": 20389475,
+         "count": 2
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "skins": [
+  {
+   "name": "「∞」的誓约",
+   "desc": "",
+   "iconPath": "0c3faaeca564b95add2054e74ad765a8162dcabe3cc49cf9710613950c50ae2d",
+   "splashPath": "3e63f7009c216bfa7bf3488de4ef5ab0892dcb580af7b93bdf04755d4a50b15b"
+  }
+ ],
+ "hasEnhanced": false,
+ "name": "昔涟",
+ "rarity": 5,
+ "descHash": "流星划过夜空，生命的长河荡起涟漪，闪烁十三种光彩。 哀丽秘榭的女儿，哺育「██」的黄金裔，栽下记忆的种子，让往昔的花朵在明日绽放 ——「然后，一起写下不同以往的诗篇吧♪」",
+ "artPath": "3e63f7009c216bfa7bf3488de4ef5ab0892dcb580af7b93bdf04755d4a50b15b",
+ "miniIconPath": "0c3faaeca564b95add2054e74ad765a8162dcabe3cc49cf9710613950c50ae2d",
+ "damageType": {
+  "id": 4,
+  "iconPath": "e3c62659d0117eeea60613c3ea88205f79912c9eae17d2006b845aef427de7f8",
+  "color": "#47C7FD",
+  "name": "冰",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "e9618e3794a5f07ac79ad4423907c20ac4375fbe3117ff3a7795dce0d677c13d",
+  "altIconPath": "86ccf274abad05b1edab1d7d4aef6d9e90214891ee751354271802b8b77369e2",
+  "color": "#FFFFFF",
+  "name": "记忆",
+  "rarity": 0
+ },
+ "pageId": "cyrene"
+}
