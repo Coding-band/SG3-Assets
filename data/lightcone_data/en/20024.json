@@ -1,0 +1,525 @@
+{
+ "name": "Lingering Tear",
+ "rarity": 3,
+ "descHash": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"The deepest sorrow sheds no tears, just as ultimate joy and pain are one and the same.\"",
+ "iconPath": "b49fbaebd3885b8051587847c1c709497571c3ad80cefc405fe9f466bd5fb8f8",
+ "artPath": "939adade903b103b88e7affbda201316fd4e0a011fbae37ab067bc71958908b4",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRsgBAABXRUJQVlA4ILwBAACwCACdASoUABwAPm0ukkWkIqGYBABABsS2AE6ZcbqD3Rxq/Ez9cDTAN5J8kAwGUyjxxfRvsDCoZA7IZ3ZrkvprTHm43927QQ+zCEXkYeAA/q2b1u687wRjMGBOgLBXEfKH2qzQ2sw5e426beuSU+LtBeNntC63RlG79IX2YNMKCLxrNQZJGX7zGxcyNIJffMsRidns3zALcDwaUCDA8MVky6v2pX6SbPyZr4LUcDpuBdOQeNv7l1C4V2He5mS/Kwyh9wNxvtycD/7jaVrH1LFBoKhxwIgIp98PdRhIEWMst9FFjqmMrBT8NB9B/+LiOmaelcFSAbwvtFH6D0do/aKA3EH48gIW5G8p1gt+yPGupuFUR8VTgdb1eyBmEmqf+flP1/NwtJhfOjKPGdrifXcMTskpdYRYppWhObyzW5V7e35bl1fVpxLOsef0U74XBPseiPN0mNIyjsxziShXDZFJWWyqL/BxxkG09a7IJteHJRKDGDr99Uvw6D3m/X3R6IBRCOod+tFEx92z8ZU6dp0aAFZ9FVT1/OOgyXzbqfh9B97ebOfwySll9gkv7Wvxl8OANqk4nYiHtxgAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "e9b05ca60181bd430a3fa50aa58f050c49644995bfcb62579ae91709ad3548c2",
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "color": "#FFFFFF",
+  "name": "Elation",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx: Great Mine",
+    "Calyx: Artisanship Commission",
+    "Calyx: The Reverie (Dreamscape)",
+    "Calyx: \"Murmuring Woods\" Grove of Epiphany",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Refined Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>6000</nobr> Light Cone EXP.",
+   "lore": "A canister of aether that has been extracted and distilled using special procedures.<br /><br />\"The Garden looks forward to recreating a past glory, but it is a 'past glory' selected by them. Do you understand?\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx: Backwater Pass",
+    "Calyx: Divination Commission",
+    "Calyx: A Child's Dream",
+    "Calyx: \"Strife Ruins\" Castrum Kremnos",
+    "Forgotten Hall"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Condensed Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>2000</nobr> Light Cone EXP.",
+   "lore": "A can of Aether refined through special techniques.<br /><br />\"Handle with care, do not drop or place pressure upon it. If damages and leaks occur, please refer to chapter II of the Leak Disaster Response Manual for emergency response.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx: Backwater Pass",
+    "Calyx: Divination Commission",
+    "Calyx: A Child's Dream",
+    "Calyx: \"Strife Ruins\" Castrum Kremnos",
+    "Embers Exchange"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Sparse Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>500</nobr> Light Cone EXP.",
+   "lore": "An imaginary substance that shouldn't exist in reality. The basic material to create Light Cones.<br />The images contained in the Light Cones become clearer when infused with this substance.<br /><br />\"I see, so this is the supposed 'memoria' of the Garden of Recollection. No wonder the Memokeepers can set off on galactic voyages with memories.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx: Backwater Pass",
+    "Calyx: Divination Commission",
+    "Calyx: A Child's Dream",
+    "Calyx: \"Strife Ruins\" Castrum Kremnos",
+    "Assignment rewards"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "The Fluffy Serialization Memorial Issue",
+   "desc": "Fluffy Across the Blue currently in magazine serialization. Moderately increases the Traces of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> characters.",
+   "lore": "Rumor has it that a Phantasmoon Games winner once accelerated time, leaving every artist in Planarcadia unable to meet their deadlines, except for Blurry. This is clearly just a tabloid story, and knowing them, QR_Colt probably wrote it themselves.<br /><br />\"I was born drawing as well as Graphia, but it took me an entire lifetime to learn how to draw as fast as a Bullet Wyrm.\" — QR_Colt, during an online interview",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "Omni-Synthesizer — Equivalent Exchange",
+    "Calyx: {TextID#FloorName_20502001}",
+    "Omni-Synthesizer — Material Synthesis",
+    "Embers Exchange",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "The Fluffy Collector's Edition",
+   "desc": "Fluffy Across the Blue, now in published standalone volumes. Greatly increases the Traces of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> characters.",
+   "lore": "The book's wrap-around band is packed with glowing reviews from cosmic icons like Pearl, Jade, Aventurine, Topaz, Ratio, Jing Yuan, Feixiao, Huaiyan, Yao Guang, Hua, Kafka, Robin, Arita, Schneider, Duke Inferno, Hoolay, Ryusuke, Sparkle, Sparxie, and Trailblazer. Blurry eventually lost a fortune in lawsuits for \"forging endorsements and false advertising.\"<br /><br />\"Counselor Umbralle, these petty celebrities are all ganging up to sue me. Can I hire you as my defense?\"<br />\"Hahaha, you're funny. But I'd quite like to stay alive, thank you.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "Omni-Synthesizer — Equivalent Exchange",
+    "Calyx: {TextID#FloorName_20502001}",
+    "Omni-Synthesizer — Material Synthesis",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "The Fluffy Hand-drawn Storyboards",
+   "desc": "Fluffy Across the Blue in its storyboard stage. Slightly increases the Traces of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> characters.",
+   "lore": "Blurry is an incredibly fast artist who can draw a month's worth of work in a single day. But they never do, claiming they need to \"guarantee quality,\" though they're likely just allergic to work.<br /><br />\"It's so weird... how are there so many identical manuscripts of 'The Fluffy' out there, and every single one is clearly an original? Is Blurry selling these to make a quick buck?\"<br />\"No way! Blurry is just a perfectionist who draws every page ten times until it's exactly right.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "Omni-Synthesizer — Equivalent Exchange",
+    "Calyx: {TextID#FloorName_20502001}",
+    "Embers Exchange",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "Lucid Awl",
+   "desc": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+   "lore": "Every story worth taking seriously shares the same theme: \"How to live the one life we're given.\"<br />Life is so short that even the greatest sages are suddenly tossed into this world, forced to experience a lifetime without any preparation. That is why no one ever lives a perfect life. There are always regrets, always moments wasted.<br />But luckily, we have stories. In stories, creators and readers share a different life. In stories, the human experience is continuously extended. And in stories, we can reach immortality from within our finite cages.<br /><br />\"With stories, we are able to live a thousand lifetimes.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "Drops from imagenated creatures at Equilibrium Level 4",
+    "Omni-Synthesizer — Material Synthesis",
+    "Divergent Universe enemies",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "Whimsy Wax",
+   "desc": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+   "lore": "In the primal wilds, a mother asked her child, \"Did you break your father's bow?\" The child answered, \"No, it must have been someone else.\"<br />\"No one else has ever stepped foot in this cave,\" the mother said. \"If it wasn't you, then it must have been me.\" The child continued, \"A gremlin did it. I saw it with my own eyes, but only kids can see them, so that's why you didn't.\"<br />The mother laughed. \"Fine then, why would a gremlin break your father's bow?\" The child said calmly, \"Father probably stepped on its nest. You adults can't see gremlins, so you're always breaking their homes.\"<br />Whether this talk actually happened is irrelevant. The truth it holds is undeniable — the first stories were born from the imagination of a child.<br />For billions of years since, those same fantasies have continued to change the world.<br /><br />\"With stories, we are able to escape from reality.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "Drops from imagenated creatures",
+    "Divergent Universe enemies",
+    "Simulated Universe enemies",
+    "Assignment Rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer — Material Exchange",
+    "Calyx (Golden)"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "Dreamweave Steel",
+   "desc": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+   "lore": "Remember the old story? An officer pointed at a painting that exposed his atrocities and asked, \"Did you paint this?\"<br />The artist smiled and replied, \"No, you did.\"<br />Art that tries to represent reality cannot simply copy it. The shallow surface of reality can never capture its profound, intangible essence.<br />Consider a fallen soldier. If you only paint their likeness, they are just one more face among the nameless dead. But if you look past the surface to find the invisible honor, courage, rage, and regret, that is when you truly reach their reality.<br />Only then will people know that this soldier was not just another statistic. This was someone who once brought the pulse of life to the mountains, the waters, and the homes they left behind.<br /><br />\"With stories, we are able to fight back against evil.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "Drops from imagenated creatures at Equilibrium Level 2",
+    "Omni-Synthesizer — Material Synthesis",
+    "Divergent Universe enemies",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3000
+    },
+    {
+     "id": 19623238,
+     "count": 4
+    }
+   ],
+   "attackBase": 14.4,
+   "attackAdd": 2.16,
+   "hpBase": 38.4,
+   "hpAdd": 5.76,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6000
+    },
+    {
+     "id": 13618289,
+     "count": 2
+    },
+    {
+     "id": 19623238,
+     "count": 8
+    }
+   ],
+   "attackBase": 31.68,
+   "attackAdd": 2.16,
+   "hpBase": 84.48,
+   "hpAdd": 5.76,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12000
+    },
+    {
+     "id": 13251172,
+     "count": 2
+    },
+    {
+     "id": 19865384,
+     "count": 4
+    }
+   ],
+   "attackBase": 54.72,
+   "attackAdd": 2.16,
+   "hpBase": 145.92,
+   "hpAdd": 5.76,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 30000
+    },
+    {
+     "id": 13251172,
+     "count": 4
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    }
+   ],
+   "attackBase": 77.76,
+   "attackAdd": 2.16,
+   "hpBase": 207.36,
+   "hpAdd": 5.76,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 60000
+    },
+    {
+     "id": 13525398,
+     "count": 3
+    },
+    {
+     "id": 19581247,
+     "count": 3
+    }
+   ],
+   "attackBase": 100.8,
+   "attackAdd": 2.16,
+   "hpBase": 268.8,
+   "hpAdd": 5.76,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 120000
+    },
+    {
+     "id": 13525398,
+     "count": 6
+    },
+    {
+     "id": 19581247,
+     "count": 5
+    }
+   ],
+   "attackBase": 123.84,
+   "attackAdd": 2.16,
+   "hpBase": 330.24,
+   "hpAdd": 5.76,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 146.88,
+   "attackAdd": 2.16,
+   "hpBase": 391.68,
+   "hpAdd": 5.76,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 20024,
+  "name": "Mourning",
+  "descHash": "When the Punchline held is <nobr>#1[i]</nobr> or more, the wearer's CRIT DMG increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>.",
+  "levelData": [
+   {
+    "params": [
+     10,
+     0.2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.25
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.3
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.35
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.4
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 40,
+   "2": 60,
+   "3": 100,
+   "4": 160,
+   "5": 220,
+   "6": 300,
+   "7": 380,
+   "8": 480,
+   "9": 580,
+   "10": 700,
+   "11": 820,
+   "12": 950,
+   "13": 1090,
+   "14": 1240,
+   "15": 1390,
+   "16": 1560,
+   "17": 1730,
+   "18": 1910,
+   "19": 2090,
+   "20": 2170,
+   "21": 2260,
+   "22": 2350,
+   "23": 2430,
+   "24": 2520,
+   "25": 2620,
+   "26": 2710,
+   "27": 2800,
+   "28": 2900,
+   "29": 2990,
+   "30": 3100,
+   "31": 3200,
+   "32": 3300,
+   "33": 3400,
+   "34": 3510,
+   "35": 3620,
+   "36": 3730,
+   "37": 3830,
+   "38": 3950,
+   "39": 4060,
+   "40": 4170,
+   "41": 4580,
+   "42": 4840,
+   "43": 5110,
+   "44": 5380,
+   "45": 5660,
+   "46": 5950,
+   "47": 6230,
+   "48": 6530,
+   "49": 6830,
+   "50": 7140,
+   "51": 7450,
+   "52": 7760,
+   "53": 8090,
+   "54": 8410,
+   "55": 8750,
+   "56": 9080,
+   "57": 9430,
+   "58": 9770,
+   "59": 10130,
+   "60": 10480,
+   "61": 10970,
+   "62": 11560,
+   "63": 12160,
+   "64": 12760,
+   "65": 13370,
+   "66": 13990,
+   "67": 14620,
+   "68": 15260,
+   "69": 15910,
+   "70": 16570,
+   "71": 18490,
+   "72": 20230,
+   "73": 22000,
+   "74": 23790,
+   "75": 25610,
+   "76": 27450,
+   "77": 29320,
+   "78": 31220,
+   "79": 33140,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "20024"
+}

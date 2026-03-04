@@ -1,0 +1,3898 @@
+{
+ "spRequirement": 160,
+ "iconPath": "d74f270fb08170c3c08d778fa68d9c9e1b0e380565297da5019abc4e29292ed9",
+ "bgPath": "78bce077e769d79ed79386a8acdcc5f5ba5f325a9607ce2fbe49b45c0236fc81",
+ "figPath": "188d96419bc6fd981cee9b8dc2c1ed9cb7e97d17a0392b6db4ed39871936b1fe",
+ "fgPath": "",
+ "splashIconPath": "ebab8fd3fd3f23537ce25a5ab877c06d2e3e2a645797ab58576a68dfa527ef65",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRuICAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSBEBAAABkGNb27E914vftjkA27Zto4vtZAJJZaOzU6b626Czbft53/sK3u8bQ0RMAABoCNygQ4fbGlDIMwY0dzSkXvn0m5cDYfxnOiXco614dwV0INP3P+gIuE/7Nx+WdqGzAdp/8Dz2k0LFr3vqt8JRQycpFCreeLUSOgAdhS9oUURoK56Dc/Ad2kKK8OvVdQEmgIh89LoQ692CvAAAlUcGtzuQYvEI/m84SCqKUISKh4o3+AMRd6/P06KQFMWlWDAJDaXbOuZpUYRi8WjbuXbA8MtPn6BSQqHNV88GoAGmf1rfI5Ji/ybtObhuGj/8VchH17kahoNmIuzSF945taVupMSA69BzZDcCk+F2aOxQF3QAOgAAVlA4IKoBAADQCQCdASoUABQAPm0ukkakIqGhKA1QgA2JbACdMoR6eN9ydtgepjbAeI1/OfNm64DqAPQA8qr2If2K9J5PArgItjdc+gAEK4KiqzGqcQg5Z0L9Zw2kBMAA/ewlLubzbNXqeuZ7S3Kq9kkZbINU9/8qyg4BgfYssMu/2WJ5jf3HIbdUQPwjBySz+y63Dr0FPkxPVFPrhKXWvycVv2PmaQCkOfHT3P2ZRuItDjZQNatrY+rMo6DbK6tpzJLd6IuQ38DipySS+e/c2vWVn+j6P+huNTuZwDeHs+9WNYdkl9a/EHxJLy0n5bmMwGIJ4zkf71B2xAAKffINPmGGNNrG2pCxGkctkErhe+OBTb3VeYPSA/e2olT1g/vdY0Hihcfh+P295yB92oDdCd+Gi45wYq92dlh1ODfhmrPRgb0shlenOGTPNg1Hg7H1amvpaDGV5958B1qvt9MjfJv3PjHtOL/bsY1ZOlgZM+3rD2WuH0Nki4S9wz8YbS+rVAth10ZGSnbD1Li2KvRb30khRQMPqidBhnIxw1Cr46yPeDUjDrbcFXmds7phnykgAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 9,
+  "iconPath": "c7e3f58ceb3cbc3471fe4fee296211256a9c2788d1eaeac83b18bce5ebbf0494",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx: Great Mine",
+    "Calyx: Artisanship Commission",
+    "Calyx: The Reverie (Dreamscape)",
+    "Calyx: \"Murmuring Woods\" Grove of Epiphany",
+    "Mission rewards",
+    "Assignment rewards",
+    "Embers Exchange"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Currency Wars Point Rewards",
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Starlight Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>θ to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx: Outlying Snow Plains",
+    "Calyx: Cloudford",
+    "Calyx: Dream's Edge",
+    "Calyx: \"Sanctum of Prophecy\" Janusopolis",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx: Outlying Snow Plains",
+    "Calyx: Cloudford",
+    "Calyx: Dream's Edge",
+    "Calyx: \"Sanctum of Prophecy\" Janusopolis",
+    "Daily Training",
+    "Embers Exchange"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx: Outlying Snow Plains",
+    "Calyx: Cloudford",
+    "Calyx: Dream's Edge",
+    "Calyx: \"Sanctum of Prophecy\" Janusopolis",
+    "Assignment rewards"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "The Fluffy Serialization Memorial Issue",
+   "desc": "Fluffy Across the Blue currently in magazine serialization. Moderately increases the Traces of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> characters.",
+   "lore": "Rumor has it that a Phantasmoon Games winner once accelerated time, leaving every artist in Planarcadia unable to meet their deadlines, except for Blurry. This is clearly just a tabloid story, and knowing them, QR_Colt probably wrote it themselves.<br /><br />\"I was born drawing as well as Graphia, but it took me an entire lifetime to learn how to draw as fast as a Bullet Wyrm.\" — QR_Colt, during an online interview",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "Omni-Synthesizer — Equivalent Exchange",
+    "Calyx: {TextID#FloorName_20502001}",
+    "Omni-Synthesizer — Material Synthesis",
+    "Embers Exchange",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "13392580": {
+   "id": 13392580,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "bc4dd9f8187a79bff189b805d1e109435214b67fc65292d320cdf4dc355b3975",
+   "name": "Vanquished Flow's Reticence",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "None remembered the sudden moment when the universe fell silent. The voice of thoughts dissolved. All shapes were recognized as identical pixels, captured by the anti-memetic web, transformed into a singular extrapolation.<br />Until it ceased to \"speak.\"<br /><br />\"Core▀▄verdict▀▄█loop▄█▀entity▄me▀▄\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/13392580",
+   "comeFrom": [
+    "Echo of War: {TextID#FloorName_20481001}"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "The Fluffy Collector's Edition",
+   "desc": "Fluffy Across the Blue, now in published standalone volumes. Greatly increases the Traces of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> characters.",
+   "lore": "The book's wrap-around band is packed with glowing reviews from cosmic icons like Pearl, Jade, Aventurine, Topaz, Ratio, Jing Yuan, Feixiao, Huaiyan, Yao Guang, Hua, Kafka, Robin, Arita, Schneider, Duke Inferno, Hoolay, Ryusuke, Sparkle, Sparxie, and Trailblazer. Blurry eventually lost a fortune in lawsuits for \"forging endorsements and false advertising.\"<br /><br />\"Counselor Umbralle, these petty celebrities are all ganging up to sue me. Can I hire you as my defense?\"<br />\"Hahaha, you're funny. But I'd quite like to stay alive, thank you.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "Omni-Synthesizer — Equivalent Exchange",
+    "Calyx: {TextID#FloorName_20502001}",
+    "Omni-Synthesizer — Material Synthesis",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "The Fluffy Hand-drawn Storyboards",
+   "desc": "Fluffy Across the Blue in its storyboard stage. Slightly increases the Traces of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> characters.",
+   "lore": "Blurry is an incredibly fast artist who can draw a month's worth of work in a single day. But they never do, claiming they need to \"guarantee quality,\" though they're likely just allergic to work.<br /><br />\"It's so weird... how are there so many identical manuscripts of 'The Fluffy' out there, and every single one is clearly an original? Is Blurry selling these to make a quick buck?\"<br />\"No way! Blurry is just a perfectionist who draws every page ten times until it's exactly right.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "Omni-Synthesizer — Equivalent Exchange",
+    "Calyx: {TextID#FloorName_20502001}",
+    "Embers Exchange",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "Lucid Awl",
+   "desc": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+   "lore": "Every story worth taking seriously shares the same theme: \"How to live the one life we're given.\"<br />Life is so short that even the greatest sages are suddenly tossed into this world, forced to experience a lifetime without any preparation. That is why no one ever lives a perfect life. There are always regrets, always moments wasted.<br />But luckily, we have stories. In stories, creators and readers share a different life. In stories, the human experience is continuously extended. And in stories, we can reach immortality from within our finite cages.<br /><br />\"With stories, we are able to live a thousand lifetimes.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "Drops from imagenated creatures at Equilibrium Level 4",
+    "Omni-Synthesizer — Material Synthesis",
+    "Divergent Universe enemies",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "Whimsy Wax",
+   "desc": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+   "lore": "In the primal wilds, a mother asked her child, \"Did you break your father's bow?\" The child answered, \"No, it must have been someone else.\"<br />\"No one else has ever stepped foot in this cave,\" the mother said. \"If it wasn't you, then it must have been me.\" The child continued, \"A gremlin did it. I saw it with my own eyes, but only kids can see them, so that's why you didn't.\"<br />The mother laughed. \"Fine then, why would a gremlin break your father's bow?\" The child said calmly, \"Father probably stepped on its nest. You adults can't see gremlins, so you're always breaking their homes.\"<br />Whether this talk actually happened is irrelevant. The truth it holds is undeniable — the first stories were born from the imagination of a child.<br />For billions of years since, those same fantasies have continued to change the world.<br /><br />\"With stories, we are able to escape from reality.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "Drops from imagenated creatures",
+    "Divergent Universe enemies",
+    "Simulated Universe enemies",
+    "Assignment Rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer — Material Exchange",
+    "Calyx (Golden)"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "Dreamweave Steel",
+   "desc": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+   "lore": "Remember the old story? An officer pointed at a painting that exposed his atrocities and asked, \"Did you paint this?\"<br />The artist smiled and replied, \"No, you did.\"<br />Art that tries to represent reality cannot simply copy it. The shallow surface of reality can never capture its profound, intangible essence.<br />Consider a fallen soldier. If you only paint their likeness, they are just one more face among the nameless dead. But if you look past the surface to find the invisible honor, courage, rage, and regret, that is when you truly reach their reality.<br />Only then will people know that this soldier was not just another statistic. This was someone who once brought the pulse of life to the mountains, the waters, and the homes they left behind.<br /><br />\"With stories, we are able to fight back against evil.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "Drops from imagenated creatures at Equilibrium Level 2",
+    "Omni-Synthesizer — Material Synthesis",
+    "Divergent Universe enemies",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  },
+  "30159250": {
+   "id": 30159250,
+   "type": 652,
+   "purposeId": 2,
+   "iconPath": "32129e8940b3ee23f4da3c4892b44d697c61e74d4fb0d0cea0181e6b075f0c9d",
+   "name": "Radiant Prominence",
+   "desc": "An alien crown left behind by the Noontide Gryphon. Can be used for Ascension of Fire characters.",
+   "lore": "In a radiant fairy tale, Georios once sought the light of the moon to aid in creation. Aquila refused their rival's request, yet silently watched on, casting a sun-like gaze upon the land.<br /><br />\"The dance of the zenith sun and the night moon brings forth a perfect eclipse.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/30159250",
+   "comeFrom": [
+    "Stagnant Shadow: {TextID#FloorName_20422001}",
+    "Omni-Synthesizer — Material Exchange"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 87.12,
+   "attackAdd": 4.356,
+   "hpBase": 142.56,
+   "hpAdd": 7.128,
+   "defenseBase": 62.7,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 19623238,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 121.968,
+   "attackAdd": 4.356,
+   "hpBase": 199.584,
+   "hpAdd": 7.128,
+   "defenseBase": 87.78,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 19623238,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 156.816,
+   "attackAdd": 4.356,
+   "hpBase": 256.608,
+   "hpAdd": 7.128,
+   "defenseBase": 112.86,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    },
+    {
+     "id": 30159250,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 191.664,
+   "attackAdd": 4.356,
+   "hpBase": 313.632,
+   "hpAdd": 7.128,
+   "defenseBase": 137.94,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 19865384,
+     "count": 9
+    },
+    {
+     "id": 30159250,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 226.512,
+   "attackAdd": 4.356,
+   "hpBase": 370.656,
+   "hpAdd": 7.128,
+   "defenseBase": 163.02,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 19581247,
+     "count": 6
+    },
+    {
+     "id": 30159250,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 261.36,
+   "attackAdd": 4.356,
+   "hpBase": 427.68,
+   "hpAdd": 7.128,
+   "defenseBase": 188.1,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 19581247,
+     "count": 9
+    },
+    {
+     "id": 30159250,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 296.208,
+   "attackAdd": 4.356,
+   "hpBase": 484.704,
+   "hpAdd": 7.128,
+   "defenseBase": 213.18,
+   "defenseAdd": 3.135,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 107,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "20a7c782386816994168ea789479bbe3bf52c0943d7d539927cb387c1c87ec4d",
+   "artPath": "7e3ce89f70c97b063ed1e800e9b73cddf63adb3323ab3c10ddd9bb2fa5c119d5",
+   "name": "#GoingViral #WhoIsShe",
+   "descHash": "When Aha Instant ends, gains <nobr>#1[i]</nobr> <u>Punchline</u>. For every 1 <u>Punchline</u> owned, increases All-Type <u>RES PEN</u> for all allies by <nobr>#2[f1]%</nobr>, up to a max increase of <nobr>#3[i]%</nobr>.",
+   "params": [
+    5,
+    0.015,
+    0.15
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "67c9bd6456f872e7f5b27abdd7512c431f99892931f01b65509401324d066791",
+   "artPath": "33df885d2b4a596b8add661fda91fcd1b71e1d7ebf31ed830f90a84b33cb3d45",
+   "name": "#AudienceKnows",
+   "descHash": "When Aha Instant ends, Sparxie gains 1 <u>extra turn</u> and <nobr>#1[i]</nobr> \"Thrill.\" For every 1 \"Thrill\" consumed, increases this unit's CRIT DMG by <nobr>#2[i]%</nobr>, lasting for <nobr>#3[i]</nobr> turn(s) and stacking up to <nobr>#4[i]</nobr> time(s).",
+   "params": [
+    2,
+    0.1,
+    2,
+    4
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "6251298b291705dfc861742fffc4d8935a6e1fb53cfda84fe7d4af76ac93bcc8",
+   "artPath": "3ac9639d0fcaa8acf75365052deb499982645e93da8b7e88e6c7be22feeb77fc",
+   "name": "#LinkUp #HeartSkip",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.<br />Elation Skill Lv. +1, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "bac59afe0649d545fbf4ffb9852af5c87e1d2baf24209751e1b276877a3aee77",
+   "artPath": "72b1ac40b457e76680ee383ea2f1be4274fb4bec208a36ffc2cc8825e5b86ed8",
+   "name": "#LockedIn #FaceCard",
+   "descHash": "When using Ultimate, additionally gains <nobr>#1[i]</nobr> <u>Punchline</u> and increases this unit's Elation by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
+   "params": [
+    5,
+    0.36,
+    3
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "34e54a1a16d0c1600df3d1b7dc231e045d688f4f59fc8be8650ba6f867afd10b",
+   "artPath": "093287cea7735be54be5139b6ee5636f5af6190433f98a53c20c3fe6d7910c3a",
+   "name": "#HealingTheWorld #GoodVibesOnly",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Elation Skill Lv. +1, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "05724913abd76d1c0d4ac90060d9cb16043cb81f777017b227245531d30d0137",
+   "artPath": "618cf76612e4a0f946c8b7fa34a14e68ba201fdd709803ca84c4c63674ae0912",
+   "name": "#BuiltDifferent #GoingExtinct",
+   "descHash": "Increases All-Type <u>RES PEN</u> by <nobr>#3[i]%</nobr>. For every <nobr>#1[i]</nobr> <u>Punchline</u> taken into account, the number of additional DMG instances dealt by the Elation Skill increases by 1, up to a max of <nobr>#2[i]</nobr>.",
+   "params": [
+    1,
+    40,
+    0.2
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   1237570,
+   1516488
+  ],
+  [
+   1495122,
+   1249756
+  ],
+  [
+   1181286
+  ],
+  [
+   1471615
+  ],
+  [
+   1297972
+  ],
+  [
+   1120286
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Sparxie's ATK to one designated enemy.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "20",
+   "id": 1237570,
+   "name": "Cat Got Your Flametongue?",
+   "iconPath": "0be09935be0b480a9709f6b634f114ca47f2814c9c05d0bc45c8417719a921c4",
+   "typeDescHash": "Basic ATK",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 2
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 13251172,
+       "count": 3
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 3
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 5
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Enhance",
+   "descHash": "Start a livestream to turn Basic ATK into \"Bloom! Winner Takes All\" and trigger \"Engagement Farming\" 1 time. During this ability, \"Engagement Farming\" can be triggered repeatedly, up to <nobr>#1[i]</nobr> time(s). Using this ability is not considered as using a Skill.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 1495122,
+   "name": "Boom! Sparxicle's Poppin'",
+   "iconPath": "6251298b291705dfc861742fffc4d8935a6e1fb53cfda84fe7d4af76ac93bcc8",
+   "typeDescHash": "Skill",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      20,
+      28,
+      3,
+      7,
+      4
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "AoE",
+   "descHash": "Gains <nobr>#1[i]</nobr> <u>Punchline</u> point(s). Deals <span style=\"color:#F84F36;\">Fire </span>DMG equal to (<nobr>#3[f1]</nobr> × Elation + <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>) of Sparxie's ATK to all enemies.",
+   "ultimateCost": 160,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 1181286,
+   "name": "Party's Wildin' and Camera's Rollin'",
+   "iconPath": "69c5aaed54c025095e175ac937442840893fc1831f0df180d0ee79e8c58628a7",
+   "typeDescHash": "Ultimate",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      0.3,
+      0.6
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.32,
+      0.6
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.34,
+      0.6
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.36,
+      0.6
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.38,
+      0.6
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.4,
+      0.6
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.425,
+      0.6
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.45,
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.475,
+      0.6
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.5,
+      0.6
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      0.52,
+      0.6
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.54,
+      0.6
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.56,
+      0.6
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.58,
+      0.6
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      0.6,
+      0.6
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Enhance",
+   "descHash": "While Sparxie holds \"<u>Certified Banger</u>\":<br />Using Enhanced Basic ATK deals <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> <span style=\"color:#F84F36;\">Fire </span><u>Elation DMG</u> to one designated enemy, and <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> <span style=\"color:#F84F36;\">Fire </span><u>Elation DMG</u> to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> <span style=\"color:#F84F36;\">Fire </span><u>Elation DMG</u> to 1 random attacked enemy target.<br />Using Ultimate deals <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> <span style=\"color:#F84F36;\">Fire </span><u>Elation DMG</u> to all enemies.",
+   "ultimateCost": 0,
+   "break": "15",
+   "energy": "0",
+   "id": 1471615,
+   "name": "Sleight of Sparx Hand",
+   "iconPath": "138c14c5d90dbd2a86a65e3abdbc44be5e2f70d72058f36a5ee7f934e6a5a675",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.1,
+      0.24,
+      0.2,
+      0.1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.11,
+      0.264,
+      0.22,
+      0.11
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.12,
+      0.288,
+      0.24,
+      0.12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.13,
+      0.312,
+      0.26,
+      0.13
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.14,
+      0.336,
+      0.28,
+      0.14
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.15,
+      0.36,
+      0.3,
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1625,
+      0.39,
+      0.325,
+      0.1625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175,
+      0.42,
+      0.35,
+      0.175
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1875,
+      0.45,
+      0.375,
+      0.1875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2,
+      0.48,
+      0.4,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21,
+      0.504,
+      0.42,
+      0.21
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.22,
+      0.528,
+      0.44,
+      0.22
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.23,
+      0.552,
+      0.46,
+      0.23
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.24,
+      0.576,
+      0.48,
+      0.24
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.25,
+      0.6,
+      0.5,
+      0.25
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 1546267,
+   "name": "Attack",
+   "iconPath": "0be09935be0b480a9709f6b634f114ca47f2814c9c05d0bc45c8417719a921c4",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Impair",
+   "descHash": "After using the Technique, inflicts enemies within a set area with \"Block\" for <nobr>#3[i]</nobr> second(s). \"Blocked\" enemies cannot detect ally targets.<br />After entering combat via actively attacking a \"Blocked\" enemy, deals <span style=\"color:#F84F36;\">Fire </span>DMG to all enemies equal to <nobr>#2[i]%</nobr> of Sparxie's ATK and recovers <nobr>#1[i]</nobr> Skill Point(s) for allies.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 1297972,
+   "name": "Content Monetization",
+   "iconPath": "dc7cc277e2183865ea56653f6df7cd45c2ae029126bdb1896543974439680e36",
+   "typeDescHash": "Technique",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      0.5,
+      10
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Blast",
+   "descHash": "Finalizes the livestream. Deals <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Sparxie's ATK to one designated enemy, and <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> of Sparxie's ATK to adjacent targets.",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "40",
+   "id": 1516488,
+   "name": "Bloom! Winner Takes All",
+   "iconPath": "c606a247afea6cc748682aa19db597d328ef0f63a501a0aea37e955004d56c00",
+   "typeDescHash": "Basic ATK",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6,
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 2
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.7,
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.8,
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 13251172,
+       "count": 3
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 3
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 5
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1.1,
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2,
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3,
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4,
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Enhance",
+   "descHash": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> and the DMG multiplier against adjacent targets by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[f1]%</nobr></span>. Randomly gains one of the following gifts:<br />\"Straight Fire\": <nobr>#3[i]</nobr> <u>Punchline</u> point(s) and <nobr>#1[i]</nobr> Skill point(s).<br />\"Unreal Banger\": <nobr>#2[i]</nobr> <u>Punchline</u> point(s).<br />Using this ability is not considered as using a Skill.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 1249756,
+   "name": "Engagement Farming",
+   "iconPath": "b66d260cda49638ac85df593271c32611232549064ea1a401bc94e87c919fbb0",
+   "typeDescHash": "Skill",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.1,
+      0.05
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.11,
+      0.055
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.12,
+      0.06
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.13,
+      0.065
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.14,
+      0.07
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.15,
+      0.075
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.1625,
+      0.08125
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.175,
+      0.0875
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.1875,
+      0.09375
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.2,
+      0.1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.21,
+      0.105
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.22,
+      0.11
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.23,
+      0.115
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.24,
+      0.12
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      2,
+      1,
+      2,
+      0.25,
+      0.125
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Blast",
+   "descHash": "",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "40",
+   "id": 18302584,
+   "name": "Bloom! Winner Takes All",
+   "iconPath": "c606a247afea6cc748682aa19db597d328ef0f63a501a0aea37e955004d56c00",
+   "typeDescHash": "Basic ATK",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.5,
+      0.25
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.6,
+      0.3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.7,
+      0.35
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.8,
+      0.4
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.9,
+      0.45
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.5
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.1,
+      0.55
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.2,
+      0.6
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.3,
+      0.65
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.4,
+      0.7
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "AoE",
+   "descHash": "Deals <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> <span style=\"color:#F84F36;\">Fire </span><u>Elation DMG</u> to all enemies and deals <nobr>#3[i]</nobr> additional instance(s) of DMG. Each instance deals <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> <span style=\"color:#F84F36;\">Fire </span><u>Elation DMG</u> to one random enemy. Grants <nobr>#4[i]</nobr> \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points.",
+   "ultimateCost": 0,
+   "break": "20/hit",
+   "energy": "5",
+   "id": 1120286,
+   "name": "Signal Overflow: The Great Encore!",
+   "iconPath": "77ef2f081f36b2927d418b8e91c59e4694772f0f4a1f022259b3b3f7a1763752",
+   "typeDescHash": "Elation Skill",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.125,
+      0.25,
+      20,
+      2
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.1375,
+      0.275,
+      20,
+      2
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.15,
+      0.3,
+      20,
+      2
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1625,
+      0.325,
+      20,
+      2
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175,
+      0.35,
+      20,
+      2
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1875,
+      0.375,
+      20,
+      2
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.203125,
+      0.40625,
+      20,
+      2
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21875,
+      0.4375,
+      20,
+      2
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.234375,
+      0.46875,
+      20,
+      2
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.25,
+      0.5,
+      20,
+      2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2625,
+      0.525,
+      20,
+      2
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.275,
+      0.55,
+      20,
+      2
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.2875,
+      0.575,
+      20,
+      2
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3,
+      0.6,
+      20,
+      2
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.3125,
+      0.625,
+      20,
+      2
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1501101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1501203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 4384465,
+      "name": "Elation Boost",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+      "statusList": [
+       {
+        "key": "Elation",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1501204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 4592800,
+      "name": "CRIT DMG Boost",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "CRIT DMG",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "For every <nobr>#2[i]</nobr> of Sparxie's ATK that exceeds <nobr>#1[i]</nobr>, increases this unit's Elation by <nobr>#3[f1]%</nobr>, up to a maximum increase of <nobr>#4[f1]%</nobr>.",
+    "ultimateCost": 0,
+    "id": 4616313,
+    "name": "Sweet! Punchline Signing",
+    "iconPath": "ce273b48105f783643ddea988596275ebbf6ac7bbdbb90f277058ee2f2ffe96d",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       2000,
+       100,
+       0.05,
+       0.8
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 13618289,
+        "count": 2
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1501102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1501205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1501206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1501207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 4300395,
+          "name": "Elation Boost",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+          "statusList": [
+           {
+            "key": "Elation",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 13525398,
+            "count": 3
+           },
+           {
+            "id": 19581247,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 4616348,
+        "name": "CRIT Rate Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "CRIT Rate",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 13525398,
+          "count": 3
+         },
+         {
+          "id": 19581247,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 4342412,
+      "name": "Elation Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+      "statusList": [
+       {
+        "key": "Elation",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 18000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "When there are 1/2/(3 or more) Elation characters in the team, using Sparxie's Ultimate will additionally gain <nobr>#1[i]</nobr>/<nobr>#2[i]</nobr>/<nobr>#3[i]</nobr> <u>Punchline</u> and <nobr>#4[i]</nobr>/<nobr>#5[i]</nobr>/<nobr>#6[i]</nobr> \"Thrill\".",
+    "ultimateCost": 0,
+    "id": 4334188,
+    "name": "Dazzling! Persona Kaleidoscope",
+    "iconPath": "e9dbc249e9f6e450be9de5ba2a25d8be0f6b3be1c38494583ae750b2ad458f5c",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       2,
+       4,
+       8,
+       1,
+       1,
+       4
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1501103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1501208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1501209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1501210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 21309899,
+          "name": "Elation Boost",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+          "statusList": [
+           {
+            "key": "Elation",
+            "value": 0.08
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 13525398,
+            "count": 8
+           },
+           {
+            "id": 19581247,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 4323915,
+        "name": "CRIT Rate Boost",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+        "statusList": [
+         {
+          "key": "CRIT Rate",
+          "value": 0.053
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 13525398,
+          "count": 8
+         },
+         {
+          "id": 19581247,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 4574329,
+      "name": "CRIT DMG Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "CRIT DMG",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 120000
+       },
+       {
+        "id": 13525398,
+        "count": 5
+       },
+       {
+        "id": 19581247,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "For every 1 <u>Punchline</u> currently owned, increases all allies' CRIT DMG by <nobr>#1[i]%</nobr>, up to a max increase of <nobr>#2[i]%</nobr>.",
+    "ultimateCost": 0,
+    "id": 4594782,
+    "name": "Frenzy! Palette of Truth and Lies",
+    "iconPath": "8785e9de79fa1395a0c6d52f1d8c447549edeb232b2b776ea9b3f69e6aa9cdbc",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       0.08,
+       0.8
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 13525398,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1501201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 4360957,
+    "name": "Elation Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+    "statusList": [
+     {
+      "key": "Elation",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 19623238,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1501202,
+   "anchor": 10,
+   "type": 2,
+   "children": [],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 4634819,
+    "name": "CRIT Rate Boost",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "CRIT Rate",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 5000
+     },
+     {
+      "id": 13618289,
+      "count": 2
+     },
+     {
+      "id": 19623238,
+      "count": 6
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "Hey there, Galactic Baseballer, welcome to the stream! I'm your good friend, Sparxie~ Are you ready for a day overflowing with dopamine? The world is full of sparkle, so don't forget to shine brightly just like Sparxie!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "First Meeting",
+   "text": "Hey there, Galactic Baseballer, welcome to the stream! I'm your good friend, Sparxie~ Are you ready for a day overflowing with dopamine? The world is full of sparkle, so don't forget to shine brightly just like Sparxie! So tell me, Little Gray Hair, did that opener reel you in?",
+   "unlockRequirement": "Unlocked after completing the Trailblaze Mission \"The Indifference of Those Who Yet Live\"",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Greeting",
+   "text": "So, what big stunts have you pulled off lately? You've got the clout. I've got the account. Let's collab and go viral overnight.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Parting",
+   "text": "Aww, don't be sad about goodbyes, Sparxie will always be here with you on the other side of the screen, and in your heart.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Parting",
+   "text": "Aww, don't be sad about goodbyes... you know, in times like these, you, me, Sparkle, Sparxie... we're already inseparable.",
+   "unlockRequirement": "Unlocked after completing the Trailblaze Mission \"The Indifference of Those Who Yet Live\"",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "About Self: \"Sparxie\" 1",
+   "text": "Here in Sparxie's livestream, people hide themselves, discover themselves, evade themselves, or just invent a whole new version of themselves! All it takes is a tiny \"spark\" to ignite everyone's deepest desires. Sure, the old model says I'm only a \"mask,\" but hey, who's getting the views, the likes, the audience's attention? Exactly.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "About Self: \"Sparxie\" 2",
+   "text": "All it takes is a tiny \"spark\" to ignite everyone's deepest desires. Ha! Then doesn't betrayal slide into place so naturally? To cheat the world, you've got to cheat yourself first... Well? Dare to ask me who the \"Sparxie\" before you now really is?",
+   "unlockRequirement": "Unlocked after completing the Trailblaze Mission \"The Indifference of Those Who Yet Live\"",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Chat: Phantasmoon Games",
+   "text": "How can I let the Master of Elation's ceremony turn into some boring, pathetic, dull, tedious, profit-driven... social mixer? Restoring the fun of the Phantasmoon Games, that's a responsibility no Masked Fool can escape.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Chat: Livestream Script",
+   "text": "Sparxie's stream? Totally unscripted~ But if you're so sure fate's story is already written, then... let's throw in a few unexpected bloopers!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Chat: Sparkly Rabbits & Fire Shrooms",
+   "text": "These little ones are electronic pets, born from the laughter of the viewers. Cute, don't you think? In the stream, there are laughs of joy, laughs of sorrow, laughs dripping with malice, and laughs burning with hate... Black and white, or perhaps should I say, there's only black or only white. That's the true nature of the online world.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Hobbies",
+   "text": "In Arcadian Calendar Year <nobr>1998</nobr>, there were exactly <nobr>88,888</nobr> trending memes running through everyone's heads, and <nobr>88%</nobr> of them came straight from Sparxie's stream! Heehee~ Let's make the new year just as fun!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Annoyances",
+   "text": "Telling the same joke twice is no worse than murdering it!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "Something to Share",
+   "text": "Have you figured it out yet? \"Attention\" is Planarcadia's most precious commodity. Only when it surges toward you do you get to keep existing~ Which is why this world keeps churning out spectacles, all clawing for your gaze. That's why Miss Sparxie has to remind you... The line between real and fake has long been erased. Still believe everything you see?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "Knowledge: \"End of the world\"",
+   "text": "Tsk tsk, \"zero negative reviews\" and \"user comfort levels\" are now tavern KPIs? Fools, is this still the Elation's doing? Hello, yes, I'd like to order a special cocktail, it's called \"Brain Sparkles Like Fireworks From Laughing.\" Oh, and make it a round for everyone in the tavern, it's on me!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "About Trailblazer",
+   "text": "Gray Hair, you know I'm totally your top fan, right? So... which show are we acting in together next?",
+   "unlockRequirement": "Unlocked after completing the Trailblaze Mission \"The Indifference of Those Who Yet Live\"",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "About Sparkle",
+   "text": "Those girls in plays... burning bright, dazzling, but gone in a flash... They used to be called \"Sparkles\"... Hehe, Sparkle and Sparxie, just pretty masks to wear~",
+   "unlockRequirement": "Unlocked after completing the Trailblaze Mission \"The Indifference of Those Who Yet Live\"",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "About Yao Guang",
+   "text": "Can you believe it? Lucky as can be and a true captain of a Xianzhou ship! Sounds like the perfect setup for an idol group, right? I'll handle the title song, and she'll twirl like a peacock. I'm thinking we'll go by the name \"The Yao-Spark Hands.\"",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "About Sunday",
+   "text": "Making people happy, and making people smile? Those are two totally different things! Heh, so what's Chicken Wing Boy gonna do, hmm?",
+   "unlockRequirement": "Unlocked after completing the Trailblaze Mission \"The Indifference of Those Who Yet Live\"",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "About Ashveil",
+   "text": "You really think people only wear one mask? Hah, no way... the clever ones play the fool, and the brave ones act like little nobodies... but he's no little nobody, hee-hee. Miss Sparxie's had him figured out since forever~ Awoo~ Do you realize how sad a wolf's unanswered howl really is?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 101,
+   "title": "Eidolon Activation",
+   "text": "Exclusive broadcast subscription successful! Who will the next me be...?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 102,
+   "title": "Character Ascension",
+   "text": "Don't be too cautious⁓ We'll see each other at the top, after all.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 103,
+   "title": "Max Level Reached",
+   "text": "Fun's over⁓ Not! I haven't finished playing yet.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 104,
+   "title": "Trace Activation",
+   "text": "New ability unlocked, let's get 'em⁓",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 105,
+   "title": "Added to Team With Trailblazer",
+   "text": "Welcome to my channel⁓ What shall we play today?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 106,
+   "title": "Added to Team With Sparkle",
+   "text": "NOW I'm Elation!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 107,
+   "title": "Added to Team With Sampo",
+   "text": "Today's show depends on you... Say hi to everyone!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 108,
+   "title": "Added to Team With Yao Guang",
+   "text": "Madam Yao, tell me the Fortune for Today... How's my follower growth looking?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 109,
+   "title": "Added to Team With Sunday",
+   "text": "See? Still as serious as ever. Smile~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 201,
+   "title": "Battle Begins: Weakness Break",
+   "text": "To all of you watching! You reckon I'll win?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 202,
+   "title": "Battle Begins: Danger Alert",
+   "text": "Look at you, big shot! Just wait, I'll pull the plug on your stream~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 203,
+   "title": "Turn Begins 1",
+   "text": "Game is on~ Leave a like~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 204,
+   "title": "Turn Begins 2",
+   "text": "That's all the spark you got?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 205,
+   "title": "Turn Idling",
+   "text": "Big thanks to The Fluffy for the super chat! Thank you to our lucky diviner for the gifts, to the esteemed wolf for the donation, to our sharp-eyed detective, and to the Cosmic Traveler... Keep cheering for Sparxie, okay~?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 206,
+   "title": "Basic ATK",
+   "text": "Here's a downvote~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 207,
+   "title": "Skill: Activate 1",
+   "text": "Wanna battle?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 208,
+   "title": "Skill: Activate 2",
+   "text": "The show begins!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 209,
+   "title": "Skill: Interact 1",
+   "text": "Here's more...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 210,
+   "title": "Skill: Interact 2",
+   "text": "Hold it...!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 211,
+   "title": "Skill: Unleash 1",
+   "text": "Punishment time!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 212,
+   "title": "Skill: Unleash 2",
+   "text": "All stand up!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 213,
+   "title": "Hit by Light Attack",
+   "text": "ToS ban!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 214,
+   "title": "Hit by Heavy Attack",
+   "text": "Stealin' my hype...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 215,
+   "title": "Elation Skill 1",
+   "text": "Incoming tidal wave of fortune! Right. In. The. Face.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 216,
+   "title": "Elation Skill 2",
+   "text": "Don't go anywhere! The next lucky winner... is YOU~!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 217,
+   "title": "Ultimate: Activate",
+   "text": "Dear viewers, I've kept you waiting~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 218,
+   "title": "Ultimate: Unleash",
+   "text": "Come and party with Sparxie till the end of the world!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 219,
+   "title": "Downed",
+   "text": "Heh. Show's over...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 220,
+   "title": "Return to Battle",
+   "text": "Did you miss me?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 221,
+   "title": "Health Recovery",
+   "text": "I like this dream collab!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 222,
+   "title": "Technique",
+   "text": "Comment barrage!",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 223,
+   "title": "Battle Won",
+   "text": "Teehee. See you during my next stream~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 224,
+   "title": "Treasure Opening 1",
+   "text": "Perfect~ That's going in today's content reel~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 225,
+   "title": "Treasure Opening 2",
+   "text": "I take both big and small donations~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 226,
+   "title": "Precious Treasure Opening",
+   "text": "Next time, I'll host a little giveaway to thank you all~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 227,
+   "title": "Successful Puzzle-Solving 1",
+   "text": "Hehe~ Seems like I was born for this.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 228,
+   "title": "Successful Puzzle-Solving 2",
+   "text": "Heh. Who else dares doubt Sparxie?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 229,
+   "title": "Enemy Target Found",
+   "text": "Non-family-friendly content up ahead. Be careful~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 230,
+   "title": "Returning to Town",
+   "text": "Say... This is a pretty good spot to set up a SparxiCon~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "Like! Follow! Stream! Views! Party till the world ends!<br />Sparxie and Sparkle, the Mask and the Fool are fundamentally the same.<br />Whoever is seen, whoever is liked, is the correct answer!",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "An account named \"SparksOnTheGo,\" which focuses on sharing guides for incredible travels.<br /><br />Exploring Planarcadia's Abandoned Dreamcore School — The comment section blew up with complaints from viewers sick of the whole spooky imagenae act. \"Seriously, is every little place considered Dreamcore now?\"<br />I Spent <nobr>100,000</nobr> Credits and Finally Found a Rare Mushroom Strangeling — This video caused many to unfollow. \"Let them eat cake!\"<br /><br />\"Honestly, this crowd is so hard to manage...\" she smiled.<br />...<br /><br />Another account, \"TeardropsOnMyGlitter,\" was dedicated to tearfully telling a miserable past.<br /><br />Sorry to Bother You, But I'm the Sole Survivor of My Home Planet... — The video's only three likes came from genuine Mourning Actors who shared the same fate.<br />I've Been Drifting in This Spaceship for a Whole Century — Still no buzz. A comment explained why: A certain other content creator had been drifting for two thousand years.<br />Do I Have Some Kind of Orphan's Luck?, But Grandma, I'm Not Happy in Duomension City, and Here's to Me, Reborn in Dovebrook District — This trilogy unexpectedly earned a direct message from an inquisitive History Fictionologist.<br /><br />\"You almost have to respect the Mourning Actors... even sorrow needs to be innovative...\" She said, wiping away a pair of phantom tears.<br />...<br /><br />A few more accounts popped up: \"GraySparks,\" \"SparklieNotSparxie,\" and \"Hanami,\" each sharing their daily routines in different ways.<br />The text-only account got zero clicks. Short videos were scrolled away immediately. Long videos were never watched all the way through.<br />But \"Hanami\" accidentally went viral, in a small way. On Tengoku@Livestream, her upbeat storytelling attracted insomniac office workers. Listening to \"Hanami's\" chats and jokes, they could finally drift off to sleep.<br /><br />\"Aha, I'm onto something... It's not about Hanami. You could have a Hanamoo or a Hanama, and it wouldn't make a difference, would it?\" She jumped up, sticking her tongue out playfully.<br />...<br /><br />\"What we have here is a dopamine-fueled carnival, and my job is to give the people the mental sustenance they crave...\"<br />Wishpower trickled in, sculpting her a body. \"Because when you're the center of attention, that's the only way you can survive!\"<br /><br />For the ▇th time, \"Sparxie\" broke the surface like a leaping fish, landing on stage in the glare of the spotlight.<br />\"Alright then... Let's have some fun with this 'party-till-you-drop' era and create some new 'sparks'!❤\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "Post:<br />\"OMG I'm trending! Thanks for all your support, guys! Stay with your streamer, 'kay?\"<br />Link: <u>[Sparxie/VOD] <nobr>100</nobr>k Follower Special Video</u><br />Comments: <nobr>5,685</nobr><br />\"Sparxicle is so CUTE!❤ Mark it: If you follow today, you'll be an OG fan.\"<br />\"Look at all these comments! Sparxie is really making it big :)\"<br />\"NGL, Sparxie's a legend (Get 5 credits per post)\"<br />\"This comment has been removed.\"<br />...<br /><br />Post:<br />\"Our first meetup was a huge success!\"<br />Link: <u>[Synesthesia Beacon Compatible] Direct Feed of the Sparxie Event</u><br />Comments: <nobr>1.003</nobr>M<br />\"I was there, the atmosphere was incredible!\"<br />\"The truth about Sparxie: It's actually a dude named Sampo in disguise, and the streams are full of special effects and filters. Copy and paste this message to warn others before the rabid fans come after us with The Hunt!\"<br />\"I heard Sparxie got attacked by a stalker in a mask. When they caught the guy, he said he saw two Sparxies... Anyway, hope our streamer is okay.\"<br />...<br /><br />Planarcadia Entertainment reports:<br />\"Sparxie is crowned this year's most popular influencer. What's her secret to success?\"<br />Fulwish TV Flash Report:<br />\"Sparxie, the streamer taking Planarcadia by storm, was apparently threatened by an extremist fan during yesterday's livestream...\"<br />FurReal Weekly reports:<br />\"Revealing Sparxie's shameful past. What lies beneath that dazzling appearance is...\"<br />...<br /><br />Mania, adoration, taunts, outrage... a flood of emotions poured into her livestream, sprouting like mushrooms after a rainstorm.<br />\"Hehe, welcome to Sparxie's livestream! Here, you can be your truest self!\"<br /><br />She stroked her Sparkly Rabbit and Fire Shroom as a brand-new game popped into her head.<br />\"Everyone's holding a firework cannon. Instead of making myself the target, I should have them fire every which way. When anyone can be the 'spark' who lights the fuse, just imagine what a spectacular SparxiCon that will be!\"<br /><br />After typing out a ( ✿＞◡•), she clicked \"Post.\"<br />Before the flickering screen, countless comments exploded like a volley of fireworks.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "Post:<br />\"Congrats to @OhMySparxicle and <nobr>23</nobr> others! You've won the prize: control of the Sparxie account for one system hour! Effective tomorrow~\"<br />Once they put on the Sparxie mask, will people become themselves, or will they become Sparxie? She will watch from the darkness behind the screen, waiting in anticipation.<br /><br />At system hour zero, the user \"OhMySparxicle\" became \"Sparxie.\"<br />And \"Sparxie\" made a declaration to her fans, leading them to review-bomb influencers she didn't like, until her fan army drowned out their streams entirely.<br />...<br /><br />At system hours twelve, \"Sparxie\" appeared before her audience again, this time surrounded by piles of Sparxie-branded merchs.<br />The screen was filled with shopping links, with prices ten times that of similar products.<br />Five minutes later, the stream was taken down for one hour due to a massive number of viewer complaints.<br />...<br /><br />At system hour twenty-three, \"Sparxie\" began digging through the account's history. She set all past comments and favorited content to public for everyone to see, trying to uncover some dirt on the real Sparxie.<br />\"Oh, so Sparxie really is just a regular streamer. Fine, I'll just create some scandals for her!\" After a brief letdown, this \"Sparxie\" quickly started posting new things.<br />...<br /><br />One after another, twenty-four \"Sparxies\" had their turn, and the resulting chaos was more popular than ever.<br /><br />\"They're all being led around by the nose by the very masks they're wearing. See that, old-timer? Who says a mask can't steal their thunder?\"<br /><br />When she returned to the stream, the screen was instantly buried under a tidal wave of bullet comments. Her smile was as sweet and charming as ever.<br />\"Congratulations on completing the 'Twenty-Four-System-Hour Game'! Now for the question: Who was the greatest 'Sparxie' impersonator of all?\"<br /><br />Amidst the ocean of bullet comments, Sparxie seemed to shine with a dazzling light...<br /><br />\"Looks like the verdict is unanimous! In that case... let's congratulate our winner, Sparxie!\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "She arrived at the tavern and admired the masks left behind.<br />Sparkle the student, Sparkle the office worker, Sparkle the patient, Sparkle the puppet... they smiled, they cried, they despaired, they rejoiced.<br /><br />\"Do you know why you've all been left behind, hmm?\"<br />She caressed each mask like an old, unfashionable coat.<br />\"Doing everything you can to imitate her, recreate her, and pass yourself off as her... that's not what the Elation is about.\"<br /><br />\"A Fool who doesn't understand the Elation... is doomed to be left behind!\"<br />She took the identity of the Fool and defined herself...<br /><br />Her laughter echoed across Planarcadia, from inside the speeding Express to the cramped, dark rooms, and in the comments of her viewers.<br />The person on screen grabbed the camera and leaned forward, peering into the black hole of the lens. She couldn't see her audience, but she knew she was reflected in their eyes.<br /><br />\"In Planarcadia, being unloved is the same as being dead. And if no one hates you, what's the point?\"<br /><br />The gazes of countless fans became the strings in her hands. She knew Planarcadia had become \"Sparxie's\" stage, and its infinite audience, the actors she controlled.<br /><br />And she was being watched by those same countless fans. The viewers knew that Planarcadia had become everyone's carnival. As long as someone still desired a spark, Sparxie's stage would never go dark.<br /><br />The moon of Elation has risen. How long has it been since Planarcadia has had a good, hearty laugh?<br />\"This captivating paradise... doesn't it exist to grant all of your wishes?\"<br />She put on the Supplicant's mask, preparing to offer pure elation for the coming games...<br /><br />\"Let's all become the 'Sparxie' we're meant to be!\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "赵爽",
+  "cvJp": "上田麗奈",
+  "cvKr": "성예원",
+  "cvEn": "Lizzie Freeman",
+  "camp": "Masked Fools"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "1120286": 1,
+    "1237570": 1,
+    "1249756": 2,
+    "1495122": 2,
+    "1516488": 1
+   },
+   "5": {
+    "1120286": 1,
+    "1181286": 2,
+    "1471615": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
+ "name": "Sparxie",
+ "rarity": 5,
+ "descHash": "Like! Follow! Stream! Views! Party till the world ends! Sparxie and Sparkle, the Mask and the Fool are fundamentally the same. Whoever is seen, whoever is liked, is the correct answer!",
+ "artPath": "8fdd921744f23e50271010c750b54133b5cca965bb75f39afb886388e517175b",
+ "miniIconPath": "348db1201bd8f0a6b57b2d6a091b4ed2c6281dfe05da99104ba92f45d9611cf9",
+ "damageType": {
+  "id": 2,
+  "iconPath": "8d57d9d10f2a4de2de0bf7aeda26d3c800d5148849aeaae7bf91dd1dc8cfabb0",
+  "color": "#F84F36",
+  "name": "Fire",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "altIconPath": "4f597f2987a61bcca46d52084166b29212ceb2f53048c11900968bea64b8a0c3",
+  "color": "#FFFFFF",
+  "name": "Elation",
+  "rarity": 0
+ },
+ "pageId": "sparxie"
+}

@@ -1,0 +1,525 @@
+{
+ "name": "Lingering Tears",
+ "rarity": 3,
+ "descHash": "Setetes kekuatan yang terkondensasi dari waktu. Semua momen yang tampaknya tidak penting bersatu untuk menjalin takdir yang luar biasa.<br /><br />\"Kesedihan terdalam tidak memiliki air mata, seperti halnya kebahagiaan dan penderitaan yang paling ekstrem.\"",
+ "iconPath": "b49fbaebd3885b8051587847c1c709497571c3ad80cefc405fe9f466bd5fb8f8",
+ "artPath": "939adade903b103b88e7affbda201316fd4e0a011fbae37ab067bc71958908b4",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRsgBAABXRUJQVlA4ILwBAACwCACdASoUABwAPm0ukkWkIqGYBABABsS2AE6ZcbqD3Rxq/Ez9cDTAN5J8kAwGUyjxxfRvsDCoZA7IZ3ZrkvprTHm43927QQ+zCEXkYeAA/q2b1u687wRjMGBOgLBXEfKH2qzQ2sw5e426beuSU+LtBeNntC63RlG79IX2YNMKCLxrNQZJGX7zGxcyNIJffMsRidns3zALcDwaUCDA8MVky6v2pX6SbPyZr4LUcDpuBdOQeNv7l1C4V2He5mS/Kwyh9wNxvtycD/7jaVrH1LFBoKhxwIgIp98PdRhIEWMst9FFjqmMrBT8NB9B/+LiOmaelcFSAbwvtFH6D0do/aKA3EH48gIW5G8p1gt+yPGupuFUR8VTgdb1eyBmEmqf+flP1/NwtJhfOjKPGdrifXcMTskpdYRYppWhObyzW5V7e35bl1fVpxLOsef0U74XBPseiPN0mNIyjsxziShXDZFJWWyqL/BxxkG09a7IJteHJRKDGDr99Uvw6D3m/X3R6IBRCOod+tFEx92z8ZU6dp0aAFZ9FVT1/OOgyXzbqfh9B97ebOfwySll9gkv7Wvxl8OANqk4nYiHtxgAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "e9b05ca60181bd430a3fa50aa58f050c49644995bfcb62579ae91709ad3548c2",
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "color": "#FFFFFF",
+  "name": "Elation",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Credit",
+   "desc": "Mata uang yang digunakan saat Interastral Peace Corporation bertransaksi dengan pelanggannya. Kini mata uang ini sudah menjadi mata uang yang umum di perjalanan ruang angkasa.",
+   "lore": "\"Orang-orang berlarian, berkelahi, bertransaksi ... tujuannya cuma untuk angka-angka yang muncul di terminal. Namun benda yang benar-benar berharga tidak dapat dibeli oleh angka-angka perusahaan.\"",
+   "purpose": "Mata uang umum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx \"Great Mine\"",
+    "Calyx \"Artisanship Commission\"",
+    "Calyx \"Reverie Hotel - Dunia Mimpi\"",
+    "Calyx \"Hutan Bisikan\" Grove of Epiphany",
+    "Hadiah Misi",
+    "Hadiah Tugas",
+    "Penukaran Ember"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Refined Aether",
+   "desc": "Material penguatan Light Cone. Dapat memperoleh <nobr>6.000</nobr> Light Cone EXP.",
+   "lore": "Tabung Aether yang sudah diekstrak serta melalui proses distilasi khusus.<br /><br />\"Garden of Recollection ingin mengembalikan kejayaan masa lalu, tapi yang dimaksud adalah \"kejayaan masa lalu\" yang dipilih oleh mereka. Apa kamu mengerti?\"",
+   "purpose": "Material EXP Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx \"Backwater Pass\"",
+    "Calyx \"Divination Commission\"",
+    "Calyx \"A Child's Dream\"",
+    "Calyx \"Reruntuhan Pertikaian\" Castrum Kremnos",
+    "\"Forgotten Hall\""
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Condensed Aether",
+   "desc": "Material penguatan Light Cone. Dapat memperoleh <nobr>2.000</nobr> Light Cone EXP.",
+   "lore": "Sekaleng Aether yang disempurnakan melalui teknologi khusus.<br /><br />\"Letakkan dengan hati-hati, jangan sampai tertimpa dan terjatuh. Kalau rusak dan bocor, silakan ikuti Bab 2 \"Manual Penanganan Luapan Bencana\" untuk melakukan penanganan darurat.\"",
+   "purpose": "Material EXP Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx \"Backwater Pass\"",
+    "Calyx \"Divination Commission\"",
+    "Calyx \"A Child's Dream\"",
+    "Calyx \"Reruntuhan Pertikaian\" Castrum Kremnos",
+    "Penukaran Ember"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Sparse Aether",
+   "desc": "Material penguatan Light Cone. Dapat memperoleh <nobr>500</nobr> Light Cone EXP.",
+   "lore": "Medium imajiner yang tidak seharusnya berada di dunia nyata. Merupakan bahan dasar untuk membuat Light Cone.<br />Masukkan benda ini ke Light Cone agar gambar-gambar yang tersegel di dalam dapat menjadi lebih jelas.<br /><br />\"Oh begitu. Jadi ini yang namanya 'Memoria' di Garden of Recollection. Pantas saja para Memokeeper bisa melakukan perjalanan antarbintang sambil membawa kenangan.\"",
+   "purpose": "Material EXP Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx \"Backwater Pass\"",
+    "Calyx \"Divination Commission\"",
+    "Calyx \"A Child's Dream\"",
+    "Calyx \"Reruntuhan Pertikaian\" Castrum Kremnos",
+    "Hadiah Tugas"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "\"The Fluffy\" Serialization Memorial Issue",
+   "desc": "\"Bululu Melintasi Biru Angkasa\" yang sedang diserialisasikan di majalah. Dapat meningkatkan Path Trace milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> secara moderat.",
+   "lore": "Di luar Planarcadia beredar sebuah cerita kecil, katanya ada pemenang Permainan Bulan Imajinasi yang memilih untuk mempercepat waktu. Alhasil, seluruh komikus di Planarcadia tidak bisa mengejar tenggat waktu, dan hanya Master Blur yang sempat menyerahkan naskah tepat waktu — Tentu saja ini sepenuhnya karangan akun gosip, dan sangat mungkin justru Kuda QR sendiri yang mengarangnya.<br /><br />\"Hasil menggambarku sudah sebagus Graphia sedari lahir, tapi butuh seumur hidup untuk belajar menggambar secepat Bullet Wyrm.\" — Kuda QR, dalam sebuah wawancara online",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "\"Omni-Synthesizer\" - Pertukaran Setara",
+    "Calyx: {TextID#FloorName_20502001}",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "\"The Fluffy\" Collector's Edition",
+   "desc": "\"Bululu Melintasi Biru Angkasa\" yang diterbitkan sebagai edisi tunggal. Dapat meningkatkan Path Trace milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span> secara drastis.",
+   "lore": "Di pita sampul jilid buku edisi tunggal ini tercetak banyak ulasan rekomendasi, termasuk dari Pearl, Jade, Aventurine, Topaz, Ratio, Jing Yuan, Feixiao, Huaiyan, Yao Guang, Hua, Kafka, Robin, Arita, Schneider, Duke Inferno, Hoolay, Ryusuke, Sparkle, Sparxie, Trailblazer, dan tokoh-tokoh terkenal semesta lainnya. Belakangan, Master Blur harus membayar sejumlah besar ganti rugi karena \"memalsukan rekomendasi dan promosi palsu\".<br /><br />\"Pengacara Umbralle, orang-orang terkenal yang picik ini bersekongkol untuk menuntutku. Aku ingin menyewamu untuk membelaku, bisa?\"<br />\"Hahaha, bercandanya bisa saja. Aku masih belum bosan hidup.\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "\"Omni-Synthesizer\" - Pertukaran Setara",
+    "Calyx: {TextID#FloorName_20502001}",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "\"The Fluffy\" Hand-drawn Storyboards",
+   "desc": "\"Bululu Melintasi Biru Angkasa\" yang sedang dalam tahap papan cerita. Dapat meningkatkan sedikit Path Trace milik karakter <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Elation</span>.",
+   "lore": "Kecepatan menggambar Master Blur sangat cepat, dia bisa menyelesaikan konten serial satu bulan dalam waktu satu hari. Tapi Master Blur tidak berlaku demikian dengan alasan demi menjamin kualitas, padahal sebenarnya kemungkinan besar hanya malas bekerja.<br /><br />\"Aneh sekali, kenapa di pasaran selalu muncul banyak naskah asli 'Bululu' yang persis sama, dan setiap lembarnya jelas-jelas asli? Jangan-jangan Master Blur menggunakan cara ini untuk mencari uang?\"<br />\"Mana mungkin? Master Blur pasti mengejar kesempurnaan, setiap halaman harus digambar sepuluh kali sampai merasa puas.\"",
+   "purpose": "Material Trace<br />Material Ascension Light Cone",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "\"Omni-Synthesizer\" - Pertukaran Setara",
+    "Calyx: {TextID#FloorName_20502001}",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "Lucid Awl",
+   "desc": "Serpihan Wishpower dari makhluk imagenen. Material kualitas tinggi yang digunakan untuk peningkatan.",
+   "lore": "Semua cerita yang layak diperlakukan dengan sungguh-sungguh berbagi tema yang sama: \"Bagaimana manusia menjalani hidup yang hanya sekali ini.\"<br />Kehidupan begitu singkat, bahkan orang suci dan bijak pun tak luput dari nasib terlempar begitu saja ke dunia ini, tanpa persiapan, untuk menjalani satu kehidupan. Karena itu pula, manusia hampir tak pernah mampu menjalani hidup dengan sempurna— selalu ada penyesalan, dan waktu yang terbuang sia-sia.<br />Namun untungnya kita memiliki cerita. Dalam cerita, pencipta dan pembaca dapat berbagi kehidupan lain. Dalam cerita, kehidupan manusia dapat diperpanjang secara berkelanjutan. Dalam cerita, kita mencapai keabadian dalam sangkar yang terbatas.<br /><br />\"Dengan cerita, kita bisa hidup ribuan kali.\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "Dijatuhkan makhluk imagenen pada Level Equilibrium Lv. 4 atau lebih",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Dijatuhkan musuh di \"Divergent Universe\"",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "Whimsy Wax",
+   "desc": "Serpihan Wishpower dari makhluk imagenen. Material sederhana yang digunakan untuk peningkatan.",
+   "lore": "Di padang belantara purba yang belum terpisah oleh kekacauan dan keteraturan, seorang ibu bertanya kepada anaknya: \"Apa kamu yang merusak busur dan panah ayah?\" Anak itu menjawab: \"Bukan, pasti orang lain yang merusaknya.\"<br />Ibu itu berkata dengan marah: \"Tidak ada orang lain yang pernah datang ke gua kita. Kalau bukan kamu yang merusaknya, berarti itu ulahku.\" Anak itu lanjut menjawab: \"Itu ulah monster kecil. Aku lihat sendiri ia merusak busur dan panah ayah, tapi cuma anak kecil yang bisa lihat monster kecil, makanya ibu tidak lihat.\"<br />Sang ibu tertawa jengkel: \"Kalau begitu coba jelaskan, kenapa monster kecil ini merusak busur dan panah ayahmu?\" Anak itu berkata dengan tenang: \"Mungkin ayah menginjak sarangnya. Kalian orang dewasa tidak bisa melihat monster kecil, jadi mudah sekali merusak sarang mereka.\"<br />Percakapan ini mungkin pernah terjadi, tapi mungkin juga tidak pernah. Namun bagaimanapun juga, kebenaran yang terkandung di dalamnya tidak diragukan lagi — cerita pertama lahir dari imajinasi anak-anak.<br />Selama miliaran tahun setelahnya, imajinasi-imajinasi ini akan terus mengubah dunia.<br /><br />\"Dengan adanya cerita, kita dapat lari dari kenyataan.\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "Dijatuhkan makhluk imagenen",
+    "Dijatuhkan musuh di \"Divergent Universe\"",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "Hadiah Tugas",
+    "Penukaran Ember",
+    "\"Omni-Synthesizer\" - Pertukaran Material",
+    "Calyx (Golden)"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "Dreamweave Steel",
+   "desc": "Serpihan Wishpower dari makhluk imagenen. Material biasa yang digunakan untuk peningkatan.",
+   "lore": "Masih ingatkah dengan anekdot sejarah itu? Seorang petugas menunjuk ke arah lukisan yang mengungkap kekejaman itu dan bertanya: \"Apakah ini buatanmu?\"<br />Sang Pelukis menjawab sambil tersenyum: \"Bukan, ini buatan kalian.\"<br />Semua seni yang mencoba menampilkan realitas tidak boleh sekadar meniru realitas. Karena penampilan realitas yang dangkal tidak mampu mencakup makna mendalamnya yang bersifat nonmateri.<br />Layaknya seorang prajurit yang telah gugur, jika kamu hanya meniru wajah jenazahnya, maka ia hanyalah satu lagi orang mati biasa di antara tak terhitung banyaknya orang mati di dunia ini. Namun jika kamu menelusuri melampaui realitas, menemukan hal-hal yang tak kasatmata seperti keagungan, keberanian, amarah, dan ketidakrelaan, barulah itu bisa dianggap benar-benar mendekati realitas milik prajurit tersebut.<br />Hanya dengan begitu, orang-orang akan tahu bahwa prajurit ini bukan sekadar satu lagi orang mati biasa di antara tak terhitung banyaknya orang mati di dunia ini. Orang ini pernah membuat tempat-tempat dengan gunung, air, dan rumah ... tetap memiliki kehidupan dan jejak manusia.<br /><br />\"Dengan cerita, kita dapat melawan kejahatan.\"",
+   "purpose": "Material Trace<br />Material Ascension Karakter",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "Dijatuhkan makhluk imagenen pada Level Equilibrium Lv. 2 atau lebih",
+    "\"Omni-Synthesizer\" - Synthesis Material",
+    "Dijatuhkan musuh di \"Divergent Universe\"",
+    "Dijatuhkan musuh di \"Simulated Universe\"",
+    "\"Omni-Synthesizer\" - Pertukaran Material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3000
+    },
+    {
+     "id": 19623238,
+     "count": 4
+    }
+   ],
+   "attackBase": 14.4,
+   "attackAdd": 2.16,
+   "hpBase": 38.4,
+   "hpAdd": 5.76,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6000
+    },
+    {
+     "id": 13618289,
+     "count": 2
+    },
+    {
+     "id": 19623238,
+     "count": 8
+    }
+   ],
+   "attackBase": 31.68,
+   "attackAdd": 2.16,
+   "hpBase": 84.48,
+   "hpAdd": 5.76,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12000
+    },
+    {
+     "id": 13251172,
+     "count": 2
+    },
+    {
+     "id": 19865384,
+     "count": 4
+    }
+   ],
+   "attackBase": 54.72,
+   "attackAdd": 2.16,
+   "hpBase": 145.92,
+   "hpAdd": 5.76,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 30000
+    },
+    {
+     "id": 13251172,
+     "count": 4
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    }
+   ],
+   "attackBase": 77.76,
+   "attackAdd": 2.16,
+   "hpBase": 207.36,
+   "hpAdd": 5.76,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 60000
+    },
+    {
+     "id": 13525398,
+     "count": 3
+    },
+    {
+     "id": 19581247,
+     "count": 3
+    }
+   ],
+   "attackBase": 100.8,
+   "attackAdd": 2.16,
+   "hpBase": 268.8,
+   "hpAdd": 5.76,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 120000
+    },
+    {
+     "id": 13525398,
+     "count": 6
+    },
+    {
+     "id": 19581247,
+     "count": 5
+    }
+   ],
+   "attackBase": 123.84,
+   "attackAdd": 2.16,
+   "hpBase": 330.24,
+   "hpAdd": 5.76,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 146.88,
+   "attackAdd": 2.16,
+   "hpBase": 391.68,
+   "hpAdd": 5.76,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 20024,
+  "name": "Mourning",
+  "descHash": "Saat Punchline yang dimiliki lebih dari atau sama dengan <nobr>#1[i]</nobr>, CRIT DMG pengguna meningkat <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>.",
+  "levelData": [
+   {
+    "params": [
+     10,
+     0.2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.25
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.3
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.35
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.4
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 40,
+   "2": 60,
+   "3": 100,
+   "4": 160,
+   "5": 220,
+   "6": 300,
+   "7": 380,
+   "8": 480,
+   "9": 580,
+   "10": 700,
+   "11": 820,
+   "12": 950,
+   "13": 1090,
+   "14": 1240,
+   "15": 1390,
+   "16": 1560,
+   "17": 1730,
+   "18": 1910,
+   "19": 2090,
+   "20": 2170,
+   "21": 2260,
+   "22": 2350,
+   "23": 2430,
+   "24": 2520,
+   "25": 2620,
+   "26": 2710,
+   "27": 2800,
+   "28": 2900,
+   "29": 2990,
+   "30": 3100,
+   "31": 3200,
+   "32": 3300,
+   "33": 3400,
+   "34": 3510,
+   "35": 3620,
+   "36": 3730,
+   "37": 3830,
+   "38": 3950,
+   "39": 4060,
+   "40": 4170,
+   "41": 4580,
+   "42": 4840,
+   "43": 5110,
+   "44": 5380,
+   "45": 5660,
+   "46": 5950,
+   "47": 6230,
+   "48": 6530,
+   "49": 6830,
+   "50": 7140,
+   "51": 7450,
+   "52": 7760,
+   "53": 8090,
+   "54": 8410,
+   "55": 8750,
+   "56": 9080,
+   "57": 9430,
+   "58": 9770,
+   "59": 10130,
+   "60": 10480,
+   "61": 10970,
+   "62": 11560,
+   "63": 12160,
+   "64": 12760,
+   "65": 13370,
+   "66": 13990,
+   "67": 14620,
+   "68": 15260,
+   "69": 15910,
+   "70": 16570,
+   "71": 18490,
+   "72": 20230,
+   "73": 22000,
+   "74": 23790,
+   "75": 25610,
+   "76": 27450,
+   "77": 29320,
+   "78": 31220,
+   "79": 33140,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "20024"
+}

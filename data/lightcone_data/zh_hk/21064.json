@@ -1,0 +1,530 @@
+{
+ "name": "菇菇嘎嘎歷險記",
+ "rarity": 4,
+ "descHash": "「三菇涼，歡迎來到花花祕境~♥~」<br />「布菇丹，不要板着臉，笑一笑嘛！」<br />「灰寶菇，你已經爲本大王的魅力傾倒了嗎？太棒了！」<br />「至於咕咕菇——就你了，看起來很美味嘛～」<br /><br />快跑，快跑，人心的欲望是個填不滿的兔子洞——<br />來呀，來呀，笑起來，成爲花花世界的一員——<br /><br />「歡迎加入你的專屬節目：每個人都能成爲可愛的火花！」",
+ "iconPath": "457136c03086ca2211e66f67bce548f6bab81523dff47f2e75ac09cdad47a22b",
+ "artPath": "1a4051b76f195ebf6b8568a8f0d9666df1922ada30cd9f5e4efc6440a8f65a60",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRiwCAABXRUJQVlA4ICACAADQCwCdASoUABwAPm0qkUWkIqGYBABABsS2AE6ZQjgb3TikHDeBG3PUBtgPMB+u/+A9qT0AeTN1kvoAdI/+4Po9O/h5DMMGzqfP3oy9WscuCkzzWZS71INMdSbkn4CuNAd8d3WC0WfAAP6E+im32f7xaFTx+fnBc8N01l3EdexHvPH/y5Ozv/+DF8yetC8BDArdJ1i2PG0APhNJ5PK6bYNgH/a7aA71x/HqcdShAFChjyyX6hIfkVgJ/NPuPh71NhvS+m2SLy78M74/kK3SAwJV4ZrD7F+ucv1Pw/5JG1OCgdgEKLnRRyJRn4S+/gS0v4m6l8NLzS5Y7AqvgHUE7jV+GaSW4Eq75j/RbJNUEZ6VPuXCadWkulBdulA7KS3BW59hm1IfGxD0uRzTeZ5kcT5zGJZLKrH9DQSi6vMp7GKtNIC2D/TRp9JBC8xI4Rxl/PCNEF33+bksmdBisfqaavaxTqvC+V5Xwc/2UAWh2B28lxm6DHDsudVhBA7S4IrAGXTi2t59SXw9EHUKXawqlnuXfcWTQ378T/6PQh+1j/e71vZfQztcUlTzkrLATtpqoJTHlogXOZJMxTfbRfKVVV0UgxE4d+iZLQftLYsdzc/oQnKQa0M+pvhXsf9nM3PGvDBp/M4LJ4A9tyRDQTKMaLR7ceiR5v2z/VMVd5xc/O3szPv9DeSiLzTiGD8/u2/U8S6y/nRXoEZ1cjCEtmMSAAAA",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "5be8db53b1217ccd1ab10cac758db340a7435d7354d498027cabc369b9ba9e82",
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "color": "#FFFFFF",
+  "name": "歡愉",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用點",
+   "desc": "星際和平公司與客戶結算時使用的貨幣，如今已成爲太空旅行的硬通貨。",
+   "lore": "「人們奔波、爭鬥、貿易，爲的不過是個終端裏顯示的數字。但真正珍貴之物，公司的數字是買不到的。」",
+   "purpose": "通用貨幣",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "擬造花萼【大礦區】",
+    "擬造花萼【工造司】",
+    "擬造花萼【「白日夢」酒店-夢境】",
+    "擬造花萼【「囈語密林」神悟樹庭】",
+    "任務獎勵",
+    "委託獎勵",
+    "餘燼兌換"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "提純以太",
+   "desc": "光錐的強化材料，可以獲得<nobr>6000</nobr>點光錐經驗。",
+   "lore": "一罐經由特殊技術精煉而成的以太。<br /><br />「憶庭盼望重現往日的輝煌，但那是由他們所選擇的『往日輝煌』，明白嗎？」",
+   "purpose": "光錐經驗材料",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "擬造花萼【太卜司】",
+    "擬造花萼【稚子的夢】",
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "「忘卻之庭」"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "凝縮以太",
+   "desc": "光錐的強化材料，可以獲得<nobr>2000</nobr>點光錐經驗。",
+   "lore": "一罐經由特殊技術精煉而成的以太。<br /><br />「小心輕放，勿壓勿摔。破損泄漏後請參照《流溢災難應對手冊》第二章內容進行災後處置。」",
+   "purpose": "光錐經驗材料",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "擬造花萼【太卜司】",
+    "擬造花萼【稚子的夢】",
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "餘燼兌換"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "稀薄以太",
+   "desc": "光錐的強化材料，可以獲得<nobr>500</nobr>點光錐經驗。",
+   "lore": "本不應存在於現實的假想介質，創造光錐的基本原料。<br />將之注入光錐，能令封裝其中的事象更爲清晰。<br /><br />「原來如此，流光憶庭的『憶質』就是這東西，怪不得憶者能攜帶記憶進行星際旅行。」",
+   "purpose": "光錐經驗材料",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "擬造花萼【邊緣通路】",
+    "擬造花萼【太卜司】",
+    "擬造花萼【稚子的夢】",
+    "擬造花萼【「紛爭荒墟」懸鋒城】",
+    "委託獎勵"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "《絨絨號》連載紀念刊",
+   "desc": "正在雜誌連載中的《蒼天航路絨絨號》。可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">歡愉</span>角色的命途行跡。",
+   "lore": "在二相樂園之外流傳着一個小故事，說有幻月遊戲的勝利者選擇加速了時間，導致全樂園的漫畫家都趕不上截稿日，只有模糊老師能夠按時交稿——這完全是營銷號編的段子，並且搞不好就是二維馬自己編的。<br /><br />「我一降生就畫得像繪世一樣好，但用了一輩子才學會畫得像疾鋒龍一樣快。」——二維馬，於某次網絡專訪",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "「萬能合成機」- 等量置換",
+    "擬造花萼【{TextID#FloorName_20502001}】",
+    "「萬能合成機」- 材料合成",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "《絨絨號》典藏版合集",
+   "desc": "付梓印刷成單行本的《蒼天航路絨絨號》。可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">歡愉</span>角色的命途行跡。",
+   "lore": "在單行本的腰封上印有很多推薦語，其中包括真珠、翡翠、砂金、托帕、拉帝奧、景元、飛霄、懷炎、爻光、華、卡芙卡、知更鳥、在田、施耐德、冥火大公、呼雷、隆介、花火、火花、開拓者等銀河知名人物。後來模糊老師因爲「捏造推薦語、虛假宣傳」賠了不少錢。<br /><br />「暗布雷拉律師，這些小肚雞腸的名人要合起夥來告我，我想聘請你爲我辯護，可以嗎？」<br />「哈哈哈，您真會說笑。我還沒活夠呢。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "「萬能合成機」- 等量置換",
+    "擬造花萼【{TextID#FloorName_20502001}】",
+    "「萬能合成機」- 材料合成",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "《絨絨號》手繪分鏡稿",
+   "desc": "正在分鏡稿階段的《蒼天航路絨絨號》。可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">歡愉</span>角色的命途行跡。",
+   "lore": "模糊老師作畫的速度非常快，可以在一天時間內畫完一個月的連載內容。但模糊老師從不這麼做，對外宣稱是爲了保證質量，實際上很可能是懶得工作。<br /><br />「真奇怪，爲什麼市面上總是會出現很多一模一樣的《絨絨號》原稿，而且每一張都明顯是真跡？不會是模糊老師在用這招賺錢吧？」<br />「怎麼可能？肯定是模糊老師精益求精，每一頁都要畫十遍，直到自己滿意爲止。」",
+   "purpose": "行跡材料 <br />光錐晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "「萬能合成機」- 等量置換",
+    "擬造花萼【{TextID#FloorName_20502001}】",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "夢現管錐",
+   "desc": "幻造生物的願力碎片，強化所需的高級材料。",
+   "lore": "所有值得被嚴肅對待的故事，都共享同一個主題：「人如何渡過只此一次的人生。」<br />生命是如此短暫，縱是聖者賢人也免不了被突兀地拋擲在人世間，毫無準備地經歷一段人生。也因此，人們總也無法很好地渡過一生，難免有遺憾、難免有虛度。<br />但好在我們有故事。在故事中，創作者與閱讀者得以共享另一段人生；在故事中，人的生命得以被持續地延長；在故事中，我們在有限的囚籠中抵達不朽。<br /><br />「有了故事，我們得以活上千次萬次。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "突破至均衡等級4後，幻造生物掉落",
+    "「萬能合成機」- 材料合成",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "童真蠟筆",
+   "desc": "幻造生物的願力碎片，強化所需的簡單材料。",
+   "lore": "在混沌未分的荒原上，一位母親問她的孩子：「是不是你弄壞了你爸的弓箭？」那孩子回答：「不是的，肯定是別人弄壞的。」<br />母親生氣地說：「我們的山洞裡根本就沒來過別人。如果不是你弄壞的，就只能是我了。」孩子繼續回答：「是小魔怪幹的。我親眼看到它弄壞了爸爸的弓箭，但只有小孩子才看得到小魔怪，所以媽媽沒看見。」<br />母親被氣笑了：「那你倒是說說看，這小魔怪爲什麼要弄壞你爸的弓箭？」孩子坦然地說：「父親踩壞了它的巢穴吧。你們大人看不見小魔怪，很容易弄壞他們的巢穴。」<br />這段對話很可能發生過，但也可能從未發生過。但不管怎麼說，它所指涉的真理確鑿無疑——最初的故事誕生於孩童的幻想。<br />此後億萬年間，這些幻想將會持續不斷地改變這個世界。<br /><br />「有了故事，我們得以從現實逃脫。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "幻造生物掉落",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "委託獎勵",
+    "餘燼兌換",
+    "「萬能合成機」- 材料置換",
+    "擬造花萼（金）"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "造夢蘸鋼",
+   "desc": "幻造生物的願力碎片，強化所需的普通材料。",
+   "lore": "還記得那個歷史掌故嗎？軍官指着揭露暴行的畫作質問道：「這是你畫的嗎？」<br />畫家笑着回答：「不，這是你們畫的。」<br />一切試圖表現現實的藝術，都不能臨摹現實。因爲現實粗淺的表象無法涵蓋其非物質的深刻意涵。<br />就像一位死去的戰士，如果你只去臨摹遺容，那便只是世間無數死者中平凡的另一個。但你若在現實之上探索，找到那些肉眼不可見的崇高、勇氣、憤怒、不甘，那才算是真正貼近了屬於這位戰士的現實。<br />唯有那樣，人們才會知道，這位戰士並不只是世間無數死者中平凡的另一個，此人曾使有山、有水、有房屋的地方，也能有人煙。<br /><br />「有了故事，我們得以與邪惡對抗。」",
+   "purpose": "行跡材料 <br />角色晉階材料",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "突破至均衡等級2後，幻造生物掉落",
+    "「萬能合成機」- 材料合成",
+    "「差分宇宙」中敵方掉落",
+    "「模擬宇宙」中敵方掉落",
+    "「萬能合成機」- 材料置換"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 19623238,
+     "count": 5
+    }
+   ],
+   "attackBase": 21.6,
+   "attackAdd": 3.24,
+   "hpBase": 38.4,
+   "hpAdd": 5.76,
+   "defenseBase": 18,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 13618289,
+     "count": 3
+    },
+    {
+     "id": 19623238,
+     "count": 10
+    }
+   ],
+   "attackBase": 47.52,
+   "attackAdd": 3.24,
+   "hpBase": 84.48,
+   "hpAdd": 5.76,
+   "defenseBase": 39.6,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 13251172,
+     "count": 3
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    }
+   ],
+   "attackBase": 82.08,
+   "attackAdd": 3.24,
+   "hpBase": 145.92,
+   "hpAdd": 5.76,
+   "defenseBase": 68.4,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 13251172,
+     "count": 6
+    },
+    {
+     "id": 19865384,
+     "count": 9
+    }
+   ],
+   "attackBase": 116.64,
+   "attackAdd": 3.24,
+   "hpBase": 207.36,
+   "hpAdd": 5.76,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 13525398,
+     "count": 4
+    },
+    {
+     "id": 19581247,
+     "count": 5
+    }
+   ],
+   "attackBase": 151.2,
+   "attackAdd": 3.24,
+   "hpBase": 268.8,
+   "hpAdd": 5.76,
+   "defenseBase": 126,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 13525398,
+     "count": 8
+    },
+    {
+     "id": 19581247,
+     "count": 7
+    }
+   ],
+   "attackBase": 185.76,
+   "attackAdd": 3.24,
+   "hpBase": 330.24,
+   "hpAdd": 5.76,
+   "defenseBase": 154.8,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 220.32,
+   "attackAdd": 3.24,
+   "hpBase": 391.68,
+   "hpAdd": 5.76,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7
+  }
+ ],
+ "skill": {
+  "id": 21064,
+  "name": "亂鬥",
+  "descHash": "使裝備者的歡愉度提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>。裝備者施放歡愉技時，使敵方全體受到的歡愉傷害提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>，持續<nobr>#3[i]</nobr>回合。",
+  "levelData": [
+   {
+    "params": [
+     0.12,
+     0.06,
+     2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.14,
+     0.07,
+     2
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.16,
+     0.08,
+     2
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.18,
+     0.09,
+     2
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     0.2,
+     0.1,
+     2
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21064"
+}

@@ -465,7 +465,7 @@
    "iconPath": "3789d0c5d7b41abf945ad1a581ab43f3d59a282af7bf6cad9ddf4b44686b555a",
    "artPath": "8968deb3b4c05dcdf0c46c0e1c71d41dcbe38b24041f02c7b72c69fe4bdbb96a",
    "name": "Du willst wissen, warum die Wellen so rauschen",
-   "descHash": "Während das Feld aktiv ist, wirkt die SCH-Erhöhung der Spur „Saiten der Perlen“ auf alle Verbündeten.",
+   "descHash": "Während das Kraftfeld aktiv ist, wirkt die SCH-Erhöhung der Spur „Saiten der Perlen“ auf alle Verbündeten.",
    "params": []
   },
   {
@@ -481,7 +481,7 @@
    "iconPath": "d0c64b48285bd0006489bc005ea7736f239d0625fb799ff86005ed49341ae0bc",
    "artPath": "f6157a60f3b31f1535348f05cec45ea625bb7e1f0d539b4b4bb884791e3a4179",
    "name": "Sieh nur, warum die Zeit dahinfließt",
-   "descHash": "Während das Feld aktiv ist, wird der WDS aller Typen aller Gegner um <nobr>#1[i]%</nobr> reduziert.",
+   "descHash": "Während das Kraftfeld aktiv ist, wird der WDS aller Typen aller Gegner um <nobr>#1[i]%</nobr> reduziert.",
    "params": [
     0.2
    ]
@@ -499,7 +499,7 @@
    "iconPath": "64bbf71bf839ad49c600f998e67be5b042d271c3c8fa14be61a5781f899398ac",
    "artPath": "a779acfc700b44bb9eeb14b6afceaf4684bcbf5bb6f6080b28c9580a6b9d4e27",
    "name": "Versunkene, wann kehrst du zurück",
-   "descHash": "Während das Feld aktiv ist, wird zu Beginn jeder Runde oder nach einem Einzelangriff eines Verbündeten die max. Auslösungszahl von Hysilens’ physischem DoT-Effekt auf <nobr>#1[i]</nobr> und der SCH-Multiplikator des verursachten SCH um <nobr>#2[i]%</nobr> erhöht.",
+   "descHash": "Während das Kraftfeld aktiv ist, wird zu Beginn jeder Runde oder nach einem Einzelangriff eines Verbündeten die max. Auslösungszahl von Hysilens’ physischem DoT-Effekt auf <nobr>#1[i]</nobr> und der SCH-Multiplikator des verursachten SCH um <nobr>#2[i]%</nobr> erhöht.",
    "params": [
     12,
     0.2
@@ -1036,7 +1036,7 @@
   },
   {
    "tagHash": "Flächenangriff",
-   "descHash": "Hysilens erzeugt ein Feld, das den ANG der Gegner um <nobr>#6[f1]%</nobr> und die VTD um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> reduziert und allen Gegnern physischen SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Hysilens’ ANG zufügt.<br />Jedes Mal, wenn ein Gegner innerhalb des Feldes DoT erleidet, fügt Hysilens ihm physischen DoT in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> ihres ANG zu. Dieser Schaden wird zu Beginn jeder Runde oder nach einem Einzelangriff eines Verbündeten bis zu <nobr>#5[i]</nobr>-mal ausgelöst. Dieser Schaden kann diesen Effekt nicht wiederholt auslösen. <br />Das Feld hält <nobr>#2[i]</nobr> Rd. an und die verbleibende Dauer wird zu Beginn jeder Runde dieser Einheit um 1 verringert. Wenn Hysilens <u>handlungsunfähig</u> wird, wird das Feld entfernt.",
+   "descHash": "Hysilens erzeugt ein Kraftfeld, das den ANG der Gegner um <nobr>#6[f1]%</nobr> und die VTD um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> reduziert und allen Gegnern physischen SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Hysilens’ ANG zufügt.<br />Jedes Mal, wenn ein Gegner innerhalb des Kraftfelds DoT erleidet, fügt Hysilens ihm physischen DoT in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span> ihres ANG zu. Dieser Schaden wird zu Beginn jeder Runde oder nach einem Einzelangriff eines Verbündeten bis zu <nobr>#5[i]</nobr>-mal ausgelöst. Dieser Schaden kann diesen Effekt nicht wiederholt auslösen. <br />Das Kraftfeld hält <nobr>#2[i]</nobr> Rd. an und die verbleibende Dauer wird zu Beginn jeder Runde dieser Einheit um 1 verringert. Wenn Hysilens <u>handlungsunfähig</u> wird, wird das Kraftfeld entfernt.",
    "ultimateCost": 110,
    "break": "60/hit",
    "energy": "5",
@@ -1882,7 +1882,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Zu Beginn des Kampfes erzeugt Hysilens ein Feld mit dem gleichen Effekt wie ihr Ultimate, das <nobr>#1[i]</nobr> Rd. anhält. Jedes Mal, wenn Hysilens ein Feld erzeugt, stellt sie <nobr>#2[i]</nobr> Fertigkeitspunkt wieder her.",
+    "descHash": "Zu Beginn des Kampfes erzeugt Hysilens ein Kraftfeld mit dem gleichen Effekt wie ihr Ultimate, das <nobr>#1[i]</nobr> Rd. anhält. Jedes Mal, wenn Hysilens ein Kraftfeld erzeugt, stellt sie <nobr>#2[i]</nobr> Fertigkeitspunkt wieder her.",
     "ultimateCost": 0,
     "id": 27916308,
     "name": "Gladius der Eroberung",

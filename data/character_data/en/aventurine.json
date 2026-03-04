@@ -483,7 +483,7 @@
    "iconPath": "ae2775523642db8fb1c1787ea53b5ad4bded509a8c273b0f53b2d929228f7d7c",
    "artPath": "289b6855f6dbdd49bd405b8ac2269bc9ccfc55a6256fa3982929dbef86326dae",
    "name": "Unexpected Hanging Paradox",
-   "descHash": "When triggering his Talent's <u>Follow-up ATK</u>, first increases Aventurine's DEF by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s), and additionally increases the Hits Per Action for his talent's <u>Follow-up ATK</u> by <nobr>#3[i]</nobr>.",
+   "descHash": "When triggering his Talent's <u>Follow-Up ATK</u>, first increases Aventurine's DEF by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s), and additionally increases the Hits Per Action for his talent's <u>Follow-Up ATK</u> by <nobr>#3[i]</nobr>.",
    "params": [
     0.4,
     2,
@@ -1340,7 +1340,7 @@
   },
   {
    "tagHash": "Bounce",
-   "descHash": "For any single ally with \"Fortified Wager,\" their Effect RES increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>, and when they get attacked, Aventurine gains 1 point of \"Blind Bet.\" When Aventurine has \"Fortified Wager,\" he can resist <u>Crowd Control debuffs</u>. This effect can trigger again after <nobr>#5[i]</nobr> turn(s). Aventurine additionally gains <nobr>#1[i]</nobr> point(s) of \"Blind Bet\" after getting attacked. Upon reaching 7 points of \"Blind Bet,\" Aventurine consumes the 7 points to launch a <nobr>#2[i]</nobr>-hit <u>Follow-up ATK</u>, with each hit dealing <span style=\"color:#F4D258;\">Imaginary </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Aventurine's DEF to one random enemy. \"Blind Bet\" is capped at <nobr>10</nobr> points.",
+   "descHash": "For any single ally with \"Fortified Wager,\" their Effect RES increases by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[f1]%</nobr></span>, and when they get attacked, Aventurine gains 1 point of \"Blind Bet.\" When Aventurine has \"Fortified Wager,\" he can resist <u>Crowd Control debuffs</u>. This effect can trigger again after <nobr>#5[i]</nobr> turn(s). Aventurine additionally gains <nobr>#1[i]</nobr> point(s) of \"Blind Bet\" after getting attacked. Upon reaching 7 points of \"Blind Bet,\" Aventurine consumes the 7 points to launch a <nobr>#2[i]</nobr>-hit <u>Follow-Up ATK</u>, with each hit dealing <span style=\"color:#F4D258;\">Imaginary </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Aventurine's DEF to one random enemy. \"Blind Bet\" is capped at <nobr>10</nobr> points.",
    "ultimateCost": 0,
    "break": "10/hit",
    "energy": "1/hit",
@@ -1675,7 +1675,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -1835,7 +1835,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "After a teammate with Fortified Wager launches <u>Follow-up ATK</u>, Aventurine accumulates 1 Blind Bet point. This effect can trigger up to <nobr>#3[i]</nobr> time(s). Its trigger count resets at the start of Aventurine's turn. After Aventurine launches his Talent's <u>Follow-up ATK</u>, provides all ally targets with a Fortified Wager that can block DMG equal to <nobr>#1[i]%</nobr> of Aventurine's DEF plus <nobr>#2[i]</nobr>, and additionally grants a Fortified Wager that can block DMG equal to <nobr>#4[i]%</nobr> of Aventurine's DEF plus <nobr>#5[i]</nobr> to the ally with the lowest Shield Effect, lasting for 3 turns.",
+    "descHash": "After a teammate with \"Fortified Wager\" launches <u>Follow-Up ATK</u>, Aventurine accumulates 1 \"Blind Bet\" point. This effect can trigger up to <nobr>#3[i]</nobr> time(s). Its trigger count resets at the start of Aventurine's turn. After Aventurine launches his Talent's <u>Follow-Up ATK</u>, provides all ally targets with a \"Fortified Wager\" that can offset DMG equal to <nobr>#1[i]%</nobr> of Aventurine's DEF plus <nobr>#2[i]</nobr>, and additionally grants a \"Fortified Wager\" that can block DMG equal to <nobr>#4[i]%</nobr> of Aventurine's DEF plus <nobr>#5[i]</nobr> to the ally with the lowest Shield Effect, lasting for 3 turns.",
     "ultimateCost": 0,
     "id": 126432,
     "name": "Bingo!",

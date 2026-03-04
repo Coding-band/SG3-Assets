@@ -499,7 +499,7 @@
    "iconPath": "403644fec5933768c5ccc261fa099028f53412889b6a7fb1e97b3c327a357010",
    "artPath": "27be3617d91d38a20064e95489990ca7edb3e44f77a0f8048f72f4b5c5de8c15",
    "name": "Reborn Into an Empty Husk",
-   "descHash": "The maximum number of Charge stacks is reduced to 4. The <u>Follow-up ATK</u> triggered by Talent deals additionally increased DMG equal to <nobr>#1[i]%</nobr> of Blade's Max HP.",
+   "descHash": "The maximum number of Charge stacks is reduced to 4. The <u>Follow-Up ATK</u> triggered by Talent deals additionally increased DMG, with the increased amount equal to <nobr>#1[i]%</nobr> of Blade's Max HP.",
    "params": [
     0.5
    ]
@@ -1381,7 +1381,7 @@
   },
   {
    "tagHash": "AoE",
-   "descHash": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.<br />When Charge stack reaches maximum, immediately launches a <u>Follow-up ATK</u> on all enemies, dealing <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Blade's ATK plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of his Max HP. At the same time, restores Blade's HP by <nobr>#3[i]%</nobr> of his Max HP. After the Follow-up ATK, all Charges are consumed.",
+   "descHash": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.<br />When Charge stack reaches maximum, immediately launches a <u>Follow-Up ATK</u> on all enemies, dealing <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Blade's ATK plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of his Max HP. At the same time, restores Blade's HP by <nobr>#3[i]%</nobr> of his Max HP. After the Follow-Up ATK, all Charges are consumed.",
    "ultimateCost": 0,
    "break": "30/hit",
    "energy": "10",
@@ -1701,7 +1701,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -2364,7 +2364,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Increases DMG dealt by the Talent's <u>Follow-up ATK</u> by <nobr>#1[i]%</nobr>.",
+    "descHash": "Increases DMG dealt by the Talent's <u>Follow-Up ATK</u> by <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
     "id": 18112,
     "name": "Cyclone of Destruction",
@@ -2837,7 +2837,7 @@
    ],
    "enhanceId": 1,
    "embedBonusSkill": {
-    "descHash": "Increases <u>Follow-up ATK</u> DMG from Talent by <nobr>#1[i]%</nobr> and additionally regenerates <nobr>#2[i]</nobr> Energy.",
+    "descHash": "Increases <u>Follow-Up ATK</u> DMG from Talent by <nobr>#1[i]%</nobr> and additionally regenerates <nobr>#2[i]</nobr> Energy.",
     "ultimateCost": 0,
     "id": 20217221,
     "name": "Cyclone of Destruction",
@@ -3674,7 +3674,7 @@
     "iconPath": "403644fec5933768c5ccc261fa099028f53412889b6a7fb1e97b3c327a357010",
     "artPath": "27be3617d91d38a20064e95489990ca7edb3e44f77a0f8048f72f4b5c5de8c15",
     "name": "Reborn Into an Empty Husk",
-    "descHash": "The maximum number of Charge stacks is reduced to 4. The <u>Follow-up ATK</u> triggered by Talent deals additionally increased DMG, with the increased amount equal to <nobr>#1[i]%</nobr> of Blade's Max HP.",
+    "descHash": "The maximum number of Charge stacks is reduced to 4. The <u>Follow-Up ATK</u> triggered by Talent deals additionally increased DMG, with the increased amount equal to <nobr>#1[i]%</nobr> of Blade's Max HP.",
     "params": [
      0.5
     ]
@@ -4571,7 +4571,7 @@
    },
    {
     "tagHash": "AoE",
-    "descHash": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.<br />When Charge stack reaches maximum, immediately launches 1 instance of <u>Follow-up ATK</u> on all enemies, dealing <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Blade's Max HP. At the same time, restores Blade's HP by <nobr>#3[i]%</nobr> of his Max HP. After the Follow-up ATK, all Charges are consumed.",
+    "descHash": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.<br />When Charge stack reaches maximum, immediately launches 1 instance of <u>Follow-Up ATK</u> on all enemies, dealing <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Blade's Max HP. At the same time, restores Blade's HP by <nobr>#3[i]%</nobr> of his Max HP. After the Follow-Up ATK, all Charges are consumed.",
     "ultimateCost": 0,
     "break": "30/hit",
     "energy": "10",
@@ -4891,7 +4891,7 @@
    },
    {
     "tagHash": "",
-    "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+    "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
     "ultimateCost": 0,
     "break": "30",
     "energy": "0",

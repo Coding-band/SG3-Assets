@@ -454,7 +454,7 @@
    "iconPath": "0038dfad9d1256a821d073469baaa24a1d26d62db2af874a759d09d6c773b2d1",
    "artPath": "23b62f1e1a53891fd41c35af365c5de881ff499dba425bd8e1cd466643c816b6",
    "name": "Future Market",
-   "descHash": "When enemies afflicted with \"Proof of Debt\" receive <u>Follow-up ATKs</u>, they will enter the \"Debtor\" state. This can take effect only once within a single attack.<br />The \"Debtor\" state increases the CRIT DMG of <u>Follow-up ATKs</u> inflicted on the target enemies by <nobr>#1[i]%</nobr>, stacking up to <nobr>#2[i]</nobr> time(s). When \"Proof of Debt\" is removed, the \"Debtor\" state is also removed.",
+   "descHash": "When enemies afflicted with \"Proof of Debt\" receive <u>Follow-Up ATKs</u>, they will enter the \"Debtor\" state. This can take effect only once within a single attack.<br />The \"Debtor\" state increases the CRIT DMG of <u>Follow-Up ATKs</u> inflicted on the enemy target by <nobr>#1[i]%</nobr>, stacking up to <nobr>#2[i]</nobr> time(s). When \"Proof of Debt\" is removed, the \"Debtor\" state is also removed.",
    "params": [
     0.25,
     2
@@ -698,7 +698,7 @@
   },
   {
    "tagHash": "Single Target",
-   "descHash": "Inflicts one designated enemy target with a \"Proof of Debt\" state, increasing the <u>Follow-up ATK</u> DMG it receives by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. \"Proof of Debt\" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with \"Proof of Debt\" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with \"Proof of Debt.\"<br />Numby deals <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a <u>Follow-up ATK</u>.",
+   "descHash": "Inflicts one designated enemy target with a \"Proof of Debt\" state, increasing the <u>Follow-Up ATK</u> DMG it receives by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. \"Proof of Debt\" only takes effect on the most recent target it is applied to. If there are no enemies inflicted with \"Proof of Debt\" on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with \"Proof of Debt.\"<br />Numby deals <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a <u>Follow-Up ATK</u>.",
    "ultimateCost": 0,
    "break": "60",
    "energy": "30",
@@ -1308,7 +1308,7 @@
   },
   {
    "tagHash": "Single Target",
-   "descHash": "Summons Numby at the start of battle. Numby has <nobr>#1[i]</nobr> SPD by default. When taking action, Numby launches <u>Follow-up ATKs</u> on one enemy target afflicted with \"Proof of Debt,\" dealing <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Topaz's ATK.<br />When enemies afflicted with \"Proof of Debt\" receive an ally's Follow-up ATKs, Numby's action is Advanced Forward by <nobr>#3[i]%</nobr>. The action Advance Forward effect cannot be triggered during Numby's own turn.<br />When Topaz is <u>downed</u>, Numby disappears.",
+   "descHash": "Summons Numby at the start of battle. Numby has <nobr>#1[i]</nobr> SPD by default. When taking action, Numby launches <u>Follow-Up ATKs</u> on one enemy target afflicted with \"Proof of Debt,\" dealing <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Topaz's ATK.<br />When enemies afflicted with \"Proof of Debt\" receive an ally's Follow-Up ATKs, Numby's action is Advanced Forward by <nobr>#3[i]%</nobr>. The action Advance Forward effect cannot be triggered during Numby's own turn.<br />When Topaz is <u>downed</u>, Numby disappears.",
    "ultimateCost": 0,
    "break": "60",
    "energy": "0",
@@ -1613,7 +1613,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -1737,7 +1737,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "When Topaz uses Basic ATK to deal DMG, it is considered as a <u>Follow-up ATK</u>.",
+    "descHash": "When Topaz uses Basic ATK to deal DMG, it is considered as a <u>Follow-Up ATK</u>.",
     "ultimateCost": 0,
     "id": 314099,
     "name": "Overdraft",

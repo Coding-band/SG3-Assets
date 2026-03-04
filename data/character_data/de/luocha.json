@@ -451,7 +451,7 @@
    "iconPath": "489823d8b731d60a7e8f80e6dd5574a19c90e55b8f51ecfbfb0278b5f331d69e",
    "artPath": "fba2c62df54b6bfb7bf5296c56c8fae317b8347ab696e6a5e8a46b1894dfdca1",
    "name": "Taufe der Lebenden",
-   "descHash": "Ist das Feld aktiv, wird der ANG aller Verbündeten um <nobr>#1[i]%</nobr> erhöht.",
+   "descHash": "Ist das Kraftfeld aktiv, wird der ANG aller Verbündeten um <nobr>#1[i]%</nobr> erhöht.",
    "params": [
     0.2
    ]
@@ -482,7 +482,7 @@
    "iconPath": "e847b81e624d4406d34aae5e8ab2d07ecbec5008b4325a61c54e99ceb58820e4",
    "artPath": "bd8381be60346e91169a90e2276d7093cedc563c9dbfe328a905f01f905eadee",
    "name": "Urteil der Dornenkrone",
-   "descHash": "Ist das Feld aktiv, werden Gegner geschwächt und sie verursachen <nobr>#1[i]%</nobr> weniger SCH.",
+   "descHash": "Ist das Kraftfeld aktiv, werden Gegner geschwächt und sie verursachen <nobr>#1[i]%</nobr> weniger SCH.",
    "params": [
     0.12
    ]
@@ -1308,7 +1308,7 @@
   },
   {
    "tagHash": "Wiederherstellung",
-   "descHash": "Wird Abgrundblume <nobr>#1[i]</nobr>-fach gestapelt, verbraucht Luocha alle Abgrundblumen, um ein Feld zu erzeugen.<br />Wird ein Gegner innerhalb des Felds von einem Verbündeten angegriffen, erhält der Verbündete unmittelbar LP in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> von Luochas ANG plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> zurück.<br />Das Feld hält <nobr>#3[i]</nobr> Rd. an. Wenn Luocha <u>handlungsunfähig</u> wird, verschwindet das Feld.",
+   "descHash": "Wird Abgrundblume <nobr>#1[i]</nobr>-fach gestapelt, verbraucht Luocha alle Abgrundblumen, um ein Kraftfeld zu erzeugen.<br />Wird ein Gegner innerhalb des Kraftfelds von einem Verbündeten angegriffen, erhält der Verbündete unmittelbar LP in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> von Luochas ANG plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span> zurück.<br />Das Kraftfeld hält <nobr>#3[i]</nobr> Rd. an. Wenn Luocha <u>handlungsunfähig</u> wird, verschwindet das Kraftfeld.",
    "ultimateCost": 0,
    "break": "0",
    "energy": "0",
@@ -1993,7 +1993,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Wenn ein Gegner innerhalb des Felds von einem Verbündeten angegriffen wird, werden die LP aller Verbündeten außer dem Angreifer um <nobr>#1[f1]%</nobr> von Luochas ANG plus <nobr>#2[i]</nobr> wiederhergestellt.",
+    "descHash": "Wenn ein Gegner innerhalb des Kraftfelds von einem Verbündeten angegriffen wird, werden die LP aller Verbündeten außer dem Angreifer um <nobr>#1[f1]%</nobr> von Luochas ANG plus <nobr>#2[i]</nobr> wiederhergestellt.",
     "ultimateCost": 0,
     "id": 343115,
     "name": "Geheiligt",

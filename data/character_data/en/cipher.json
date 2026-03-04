@@ -451,7 +451,7 @@
    "iconPath": "5fc5dd8fe4bf2217cb7e7b0fa4f4703669525b0ff6b8e05017044045992ee828",
    "artPath": "0a3909c4bab9769672b730901742cec2b848ea98c43c9a436f66280ebd621612",
    "name": "Read the Room, Seek the Glee",
-   "descHash": "Cipher's tally of DMG is <nobr>#3[i]%</nobr> of its original value. When using the Talent's <u>Follow-up ATK</u>, increases Cipher's ATK by <nobr>#1[i]%</nobr>, lasting for <nobr>#2[i]</nobr> turn(s).",
+   "descHash": "Cipher's tally of DMG is <nobr>#3[i]%</nobr> of its original value. When using the Talent's <u>Follow-Up ATK</u>, increases Cipher's ATK by <nobr>#1[i]%</nobr>, lasting for <nobr>#2[i]</nobr> turn(s).",
    "params": [
     0.8,
     2,
@@ -501,7 +501,7 @@
    "iconPath": "6a7074107bb097788144538f7710a9959d6429160f3e4c4ed0b0fafa3bd3fd86",
    "artPath": "4438324fa28a11fd627223769efae563770b5646899fb61b270424deaedf1629",
    "name": "The Thief's Game, Unsung and Free",
-   "descHash": "The DMG dealt by <u>Follow-up ATK</u> from Cipher's Talent increases by <nobr>#2[i]%</nobr>. During the tally, an additional <nobr>#3[i]%</nobr> of non-Overflow DMG dealt by this attack is tallied. After the tally is cleared by using Ultimate, <nobr>#1[i]%</nobr> of the cleared tally is returned.",
+   "descHash": "The DMG dealt by <u>Follow-Up ATK</u> from Cipher's Talent increases by <nobr>#2[i]%</nobr>. During the tally, an additional <nobr>#3[i]%</nobr> of non-Overflow DMG dealt by this attack is tallied. After the tally is cleared by using Ultimate, <nobr>#1[i]%</nobr> of the cleared tally is returned.",
    "params": [
     0.2,
     3.5,
@@ -1369,7 +1369,7 @@
   },
   {
    "tagHash": "Single Target",
-   "descHash": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.<br />After the \"Patron\" gets attacked by other ally targets, Cipher immediately launches <u>Follow-up ATK</u> against the \"Patron,\" dealing <span style=\"color:#7788ff;\">Quantum </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Cipher's ATK. This effect can trigger up to <nobr>#3[i]</nobr> time(s) per turn, and this trigger count resets at the start of Cipher's turn.<br />Cipher will tally <nobr>#2[i]%</nobr> of the non-<u>True DMG</u> dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally.",
+   "descHash": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.<br />After the \"Patron\" gets attacked by other ally targets, Cipher immediately launches <u>Follow-Up ATK</u> against the \"Patron,\" dealing <span style=\"color:#7788ff;\">Quantum </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Cipher's ATK. This effect can trigger up to <nobr>#3[i]</nobr> time(s) per turn, and this trigger count resets at the start of Cipher's turn.<br />Cipher will tally <nobr>#2[i]%</nobr> of the non-<u>True DMG</u> dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally.",
    "ultimateCost": 0,
    "break": "60",
    "energy": "5",
@@ -1689,7 +1689,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -2114,7 +2114,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Increases the CRIT DMG dealt by the Talent's <u>Follow-up ATK</u> by <nobr>#2[i]%</nobr>. When Cipher is on the battlefield, DMG received by all enemy targets increases by <nobr>#1[i]%</nobr>.",
+    "descHash": "Increases the CRIT DMG dealt by the Talent's <u>Follow-Up ATK</u> by <nobr>#2[i]%</nobr>. When Cipher is on the battlefield, DMG received by all enemy targets increases by <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
     "id": 4176691,
     "name": "Sleight of Sky",
@@ -2728,7 +2728,7 @@
   },
   {
    "id": 75,
-   "title": "Follow-up ATK 1",
+   "title": "Follow-Up ATK 1",
    "text": "Found me?",
    "unlockRequirement": "",
    "cnUrl": "437d69114c44199d7a483679c939909868f80a9f653b1bc8c4d20b2bd4b9bf81",
@@ -2738,7 +2738,7 @@
   },
   {
    "id": 76,
-   "title": "Follow-up ATK 2",
+   "title": "Follow-Up ATK 2",
    "text": "You can't run~",
    "unlockRequirement": "",
    "cnUrl": "b430d4a0d77c2d4759c4adbfddd2548ccc5ea8150bcaa1cb37ddcab6da25fffb",

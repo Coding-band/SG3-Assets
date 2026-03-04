@@ -480,7 +480,7 @@
    "iconPath": "98e8d10da76d603b7573f36e3a3cb12266d005859a89ccd3e86323b09287c8e4",
    "artPath": "35743a87c419c905eef44c86a04227fabbba401ff594c0a40bd7b8c906144b42",
    "name": "Innerer Frieden, blühende Lebenskraft",
-   "descHash": "Solange das Feld aktiv ist, wird der ANG der Gegner um <nobr>#1[i]%</nobr> reduziert.",
+   "descHash": "Solange das Kraftfeld aktiv ist, wird der ANG der Gegner um <nobr>#1[i]%</nobr> reduziert.",
    "params": [
     0.15
    ]
@@ -1001,7 +1001,7 @@
   },
   {
    "tagHash": "Flächenangriff",
-   "descHash": "Setzt die Stapelzahl von „Aschenbrennen“ der Gegner einheitlich auf die höchste Stapelzahl von Aschenbrennen auf dem Kampffeld. Aktiviert dann ein Feld und fügt allen Gegnern <span style=\"color:#F84F36;\">Feuer</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Jiaoqius ANG zu.<br />Solange sich ein Gegner in diesem Feld befindet, wird sein erlittener Ultimate-SCH um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> erhöht und es besteht die <u>Grundchance</u> von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>, dass er bei seiner Aktion mit 1 Stapelung Aschenbrennen belegt wird. Ist dieses Feld aktiv, kann dieser Effekt bis zu <nobr>#5[i]</nobr>-mal und für jeden Gegner nur 1-mal pro Runde ausgelöst werden. Die Auslösungsanzahl wird jedes Mal zurückgesetzt, wenn Jiaoqiu seinen Ultimate einsetzt.<br />Das Feld hält <nobr>#4[i]</nobr> Rd. an und seine Dauer wird zu Beginn jeder Runde um 1 verringert. Wenn Jiaoqiu <u>handlungsunfähig</u> wird, wird auch das Feld aufgehoben.",
+   "descHash": "Setzt die Stapelzahl von „Aschenbrennen“ der Gegner einheitlich auf die höchste Stapelzahl von Aschenbrennen auf dem Kampffeld. Aktiviert dann ein Kraftfeld und fügt allen Gegnern <span style=\"color:#F84F36;\">Feuer</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Jiaoqius ANG zu.<br />Solange sich ein Gegner in diesem Kraftfeld befindet, wird sein erlittener Ultimate-SCH um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> erhöht und es besteht die <u>Grundchance</u> von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>, dass er bei seiner Aktion mit 1 Stapelung Aschenbrennen belegt wird. Ist dieses Kraftfeld aktiv, kann dieser Effekt bis zu <nobr>#5[i]</nobr>-mal und für jeden Gegner nur 1-mal pro Runde ausgelöst werden. Die Auslösungsanzahl wird jedes Mal zurückgesetzt, wenn Jiaoqiu seinen Ultimate einsetzt.<br />Das Kraftfeld hält <nobr>#4[i]</nobr> Rd. an und seine Dauer wird zu Beginn jeder Runde um 1 verringert. Wenn Jiaoqiu <u>handlungsunfähig</u> wird, wird auch das Kraftfeld aufgehoben.",
    "ultimateCost": 100,
    "break": "60/hit",
    "energy": "5",
@@ -2109,7 +2109,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Wenn Gegner in den Kampf eintreten, solange das Feld aktiv ist, werden sie mit „Aschenbrennen“ belegt. Die Anzahl der Stapelungen entspricht der höchsten Stapelzahl von Aschenbrennen, die ein Gegner während der Dauer des Felds besitzt, jedoch min. <nobr>#1[i]</nobr> Stapelung.",
+    "descHash": "Wenn Gegner in den Kampf eintreten, solange das Kraftfeld aktiv ist, werden sie mit „Aschenbrennen“ belegt. Die Anzahl der Stapelungen entspricht der höchsten Stapelzahl von Aschenbrennen, die ein Gegner während der Dauer des Kraftfelds besitzt, jedoch min. <nobr>#1[i]</nobr> Stapelung.",
     "ultimateCost": 0,
     "id": 9346,
     "name": "Röste das Aroma",

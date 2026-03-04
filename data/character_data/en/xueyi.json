@@ -451,7 +451,7 @@
    "iconPath": "a90ea2137ae779566ad861e4e96843e3c4b5ca51d04a8417400e03a8117248a3",
    "artPath": "78f9ae9e5f1837840663cdcde5775305985b92b0ecae0da4b4506d0b32424b87",
    "name": "Dvesha, Inhibited",
-   "descHash": "Increases the DMG dealt by the Talent's <u>Follow-up ATK</u> by <nobr>#1[i]%</nobr>.",
+   "descHash": "Increases the DMG dealt by the Talent's <u>Follow-Up ATK</u> by <nobr>#1[i]%</nobr>.",
    "params": [
     0.4
    ]
@@ -461,7 +461,7 @@
    "iconPath": "fdddac46a5ac18105333ffb03236ec4a4c300a7c7c2e3081e14e28b7315f1bc7",
    "artPath": "fd6d36d21339ebebc1f37ce899dc828371e3bf34430d919e63805c49a1b780a7",
    "name": "Klesha, Breached",
-   "descHash": "Talent's <u>Follow-up ATK</u> Reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to <nobr>#1[i]%</nobr> of her Max HP. When breaking Weakness, triggers the Quantum Break Effect.",
+   "descHash": "Talent's <u>Follow-Up ATK</u> Reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to <nobr>#1[i]%</nobr> of her Max HP. When breaking Weakness, triggers the Quantum Break Effect.",
    "params": [
     0.05
    ]
@@ -1281,7 +1281,7 @@
   },
   {
    "tagHash": "Bounce",
-   "descHash": "When Xueyi reduces enemy Toughness with attacks, Karma will be stacked. The more Toughness is reduced, the more stacks of Karma are added, up to <nobr>#1[i]</nobr> stacks.<br />When Xueyi's teammates reduce enemy Toughness with attacks, Xueyi gains <nobr>#3[i]</nobr> stack(s) of Karma.<br />When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches <u>Follow-up ATK</u> against an enemy target, dealing DMG for 3 times, with each time dealing <span style=\"color:#7788ff;\">Quantum </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Xueyi's ATK to a single random enemy. This Follow-up ATK will not add Karma stacks.",
+   "descHash": "When Xueyi reduces enemy Toughness with attacks, \"Karma\" will be stacked. The more Toughness is reduced, the more stacks of \"Karma\" are added, up to <nobr>#1[i]</nobr> stacks.<br />When Xueyi's teammates reduce enemy Toughness with attacks, Xueyi gains <nobr>#3[i]</nobr> stack(s) of \"Karma.\"<br />When \"Karma\" reaches the max number of stacks, consumes all current \"Karma\" stacks and immediately launches <u>Follow-Up ATK</u> against an enemy target, dealing DMG for 3 times, with each time dealing <span style=\"color:#7788ff;\">Quantum </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Xueyi's ATK to a single random enemy. This Follow-Up ATK will not add \"Karma\" stacks.",
    "ultimateCost": 0,
    "break": "15/hit",
    "energy": "2/hit",
@@ -1582,7 +1582,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",

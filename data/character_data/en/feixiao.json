@@ -462,7 +462,7 @@
    "iconPath": "5828fb8661303dda6ed0dce8cee6254e753648d2ccb142692cb8312be96f781c",
    "artPath": "2394ccf846e1daa716ffb1475e1285c0557e954e186a17ac490bdd5c5726d80e",
    "name": "Moonward I Wish",
-   "descHash": "In the Talent's effect, for every 1 instance of <u>Follow-up ATK</u> launched by ally targets, Feixiao gains 1 point of \"Flying Aureus.\" This effect can trigger up to <nobr>#1[i]</nobr> time(s) per turn.",
+   "descHash": "In the Talent's effect, for every 1 instance of <u>Follow-Up ATK</u> launched by ally targets, Feixiao gains 1 point of \"Flying Aureus.\" This effect can trigger up to <nobr>#1[i]</nobr> time(s) per turn.",
    "params": [
     6
    ]
@@ -480,7 +480,7 @@
    "iconPath": "6c80213e3013989782da40f1f7238a59eef2143ff4eaa35cd64d2a21e0a3a6a0",
    "artPath": "0f5e1e9530fe4728f7ec131462d6b37c6abe81c6b162ae86210057e04818e0b9",
    "name": "Stormward I Hear",
-   "descHash": "The Toughness Reduction from the Talent's <u>Follow-up ATK</u> increases by <nobr>#1[i]%</nobr> and, when launched, increases this unit's SPD by <nobr>#2[i]%</nobr>, lasting for <nobr>#3[i]</nobr> turn(s).",
+   "descHash": "The Toughness Reduction from the Talent's <u>Follow-Up ATK</u> increases by <nobr>#1[i]%</nobr> and, when launched, increases this unit's SPD by <nobr>#2[i]%</nobr>, lasting for <nobr>#3[i]</nobr> turn(s).",
    "params": [
     1,
     0.08,
@@ -500,7 +500,7 @@
    "iconPath": "1df58805882affec0d95bedb74f4364867e7496b5613632ed588c38ab93745c2",
    "artPath": "4f57151368551fac4ce1a597df410786811e819403abfbefcc3dac7112d2c49b",
    "name": "Homeward I Near",
-   "descHash": "Increases the All-Type <u>RES PEN</u> of Ultimate DMG dealt by Feixiao by <nobr>#1[i]%</nobr>. Talent's <u>Follow-up ATK</u> DMG is considered as Ultimate DMG at the same time, and its DMG multiplier increases by <nobr>#2[i]%</nobr>.",
+   "descHash": "Increases the All-Type <u>RES PEN</u> of Ultimate DMG dealt by Feixiao by <nobr>#1[i]%</nobr>. Talent's <u>Follow-Up ATK</u> DMG is considered as Ultimate DMG at the same time, and its DMG multiplier increases by <nobr>#2[i]%</nobr>.",
    "params": [
     0.2,
     1.4
@@ -700,7 +700,7 @@
   },
   {
    "tagHash": "Single Target",
-   "descHash": "Deals <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's <u>Follow-up ATK</u> against the target.",
+   "descHash": "Deals <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's <u>Follow-Up ATK</u> against the target.",
    "ultimateCost": 0,
    "break": "60",
    "energy": "0",
@@ -1295,7 +1295,7 @@
   },
   {
    "tagHash": "Single Target",
-   "descHash": "Can activate Ultimate when \"Flying Aureus\" reaches <nobr>#3[i]</nobr> points, accumulating up to <nobr>#4[i]</nobr> points. Feixiao gains 1 point of \"Flying Aureus\" for every <nobr>#2[i]</nobr> attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.<br />After Feixiao's teammates attack an Enemy target, Feixiao immediately launches <u>Follow-up ATK</u> against the primary target, dealing <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>, lasting for <nobr>#6[i]</nobr> turn(s).",
+   "descHash": "Can activate Ultimate when \"Flying Aureus\" reaches <nobr>#3[i]</nobr> points, accumulating up to <nobr>#4[i]</nobr> points. Feixiao gains 1 point of \"Flying Aureus\" for every <nobr>#2[i]</nobr> attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.<br />After Feixiao's teammates attack an Enemy target, Feixiao immediately launches <u>Follow-Up ATK</u> against the primary target, dealing <span style=\"color:#00FF9C;\">Wind </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#5[i]%</nobr></span>, lasting for <nobr>#6[i]</nobr> turn(s).",
    "ultimateCost": 0,
    "break": "15",
    "energy": "0",
@@ -1645,7 +1645,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -2673,7 +2673,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "When the battle starts, gains <nobr>#1[i]</nobr> point(s) of \"Flying Aureus.\"<br />At the start of a turn, if no <u>Follow-up ATK</u> was launched via Talent in the previous turn, then this counts as 1 toward the number of attacks required to gain \"Flying Aureus.\"",
+    "descHash": "When the battle starts, gains <nobr>#1[i]</nobr> point(s) of \"Flying Aureus.\"<br />At the start of a turn, if no <u>Follow-Up ATK</u> was launched via Talent in the previous turn, then this counts as 1 toward the number of attacks required to gain \"Flying Aureus.\"",
     "ultimateCost": 0,
     "id": 708377,
     "name": "Heavenpath",
@@ -2783,7 +2783,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "When using Ultimate to deal DMG to an enemy target, it is considered as a <u>Follow-up ATK</u>. <u>Follow-up ATKs'</u> CRIT DMG increases by <nobr>#1[i]%</nobr>.",
+    "descHash": "When using Ultimate to deal DMG to an enemy target, it is considered as a <u>Follow-Up ATK</u>. <u>Follow-Up ATKs'</u> CRIT DMG increases by <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
     "id": 708376,
     "name": "Formshift",
@@ -3177,7 +3177,7 @@
   {
    "id": 11,
    "title": "Something to Share",
-   "text": "The Yaoqing and the IPC collaborate on many things — there's no denying it. This also means when we fight the abominations, the IPC support us unreservedly. Abominations don't care about who owns this planet and will happily wreck a multi-trillion-credit industry, and our friends at the IPC are not the charitable type.",
+   "text": "The Yaoqing and the IPC collaborate on many things — there's no denying it. This also means when we fight the abominations, the IPC must support us unreservedly. Abominations don't care about who owns this planet and will happily wreck a multi-trillion-credit industry, and our friends at the IPC are not the charitable type.",
    "unlockRequirement": "",
    "cnUrl": "2dd860b44f89bc096af54c56ebdaf21bbf235120be9a83f8a35b41d74c563247",
    "jpUrl": "5b0a55e92b386a8950110af75dd26c89d3fbb46995cfe5cbc48c2cc6fb82b5d3",
@@ -3447,7 +3447,7 @@
   {
    "id": 53,
    "title": "Turn Begins 1",
-   "text": "Show me what you can do. I'll give you five seconds",
+   "text": "Show me what you can do. I'll give you five seconds.",
    "unlockRequirement": "",
    "cnUrl": "73f2581b997cfb97729414efc53baf5a06f7e50163523a8acb3570e937fcccab",
    "jpUrl": "d0eecd8d826adc39643039f5ad93aa0cdef4f7e41d37dc263c7a37b80bc75373",
@@ -3718,7 +3718,7 @@
   },
   {
    "title": "Character Story: Part II",
-   "text": "In the Yaoqing military barracks, she puts on the armor of the Cloud Knights and picks up a weapon.<br />A new language, a new way of life, a new name and new battle tactics. She studies in intense agony, yet learns everything quickly. She would follow Yueyu into battle and bear the general's flag. During their countless conquests, she becomes an elite warrior.<br />The battle cry would still occasionally echo in her ears from time to time, but she initially believed that was just fear.<br /><br />Until one day she closes her eyes as a warm scarlet flows across her vision. She thinks that she sees a sanguineous moon gently calling out to her, stirring up the blood in her veins.<br />Her skin begins to split inch after inch as a wild power pours into her body like roaring waves — She realizes that, with just a gentle tiptoe, she could move in unrivaled speed like a flash of light.<br />She traverses the battlefield, bathed in blood, delivering death to her enemies before they even realize what is happening. A fissure in the enemy's ranks begins to grow wider and wider.<br />As the long battle continues under a rain of blood, her movements seem to grow only faster. No one could hope to match her speed.<br /><br />Fear... That is what she sees in the eyes of her enemies. All that she feels in her body is intimidation and rage.<br />When she regains her senses, she looks back on the path she has covered to see only borisin corpses behind her, piled higher and higher.<br />The Yaoqing soldiers are looking at her from a distance, their eyes filled with surprise, admiration, and also fear.<br />She collapses to the ground.<br /><br />When she wakes up, Yueyu sits alone by her bedside as muffled voices reach her ears from outside the tent.<br />\"Didn't you see that she had no tail? That's a bit too...\"<br />\"Is it natural? That's an awful shame?\"<br />\"She used to be a borisin war slave after all... Explains her raw ferocity\"<br /><br />\"You couldn't tell she was in a 'Moon Rage'? I was about to wet myself at the sight. Thought she couldn't recognize anyone...\"<br />\"But if it wasn't for her, we might not have been able to win so easily this time.\"<br />She realizes that these voices will likely follow her for the rest of her life.",
+   "text": "In the Yaoqing military barracks, she puts on the armor of the Cloud Knights and picks up a weapon.<br />A new language, a new way of life, a new name and new battle tactics. She studies in intense agony, yet learns everything quickly. She would follow Yueyu into battle and bear the general's flag. During their countless conquests, she becomes an elite warrior.<br />The battle cry would still occasionally echo in her ears from time to time, but she initially believed that was just fear.<br /><br />Until one day she closes her eyes as a warm scarlet flows across her vision. She thinks that she sees a sanguineous moon gently calling out to her, stirring up the blood in her veins.<br />Her skin begins to split inch after inch as a wild power pours into her body like roaring waves — She realizes that, with just a gentle tiptoe, she could move in unrivaled speed like a flash of light.<br />She traverses the battlefield, bathed in blood, delivering death to her enemies before they even realize what is happening. A fissure in the enemy's ranks begins to grow wider and wider.<br />As the long battle continues under a rain of blood, her movements seem to grow only faster. No one could hope to match her speed.<br /><br />Fear... That is what she sees in the eyes of her enemies. All that she feels in her body is intimidation and rage.<br />When she regains her senses, she looks back on the path she has covered to see only borisin corpses behind her, piled higher and higher.<br />The Yaoqing soldiers are looking at her from a distance, their eyes filled with surprise, admiration, and also fear.<br />She collapses to the ground.<br /><br />When she wakes up, Yueyu sits alone by her bedside as muffled voices reach her ears from outside the tent.<br />\"Didn't you see that she had no tail? That's a bit too...\"<br />\"Is it natural? That's an awful shame.\"<br />\"She used to be a borisin war slave after all... Explains her raw ferocity.\"<br />\"You couldn't tell she was in 'Moon Rage'? I was about to wet myself at the sight. Thought she couldn't recognize anyone...\"<br />\"But if it wasn't for her, we might not have been able to win so easily this time.\"<br />She realizes that these voices will likely follow her for the rest of her life.",
    "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
   },
   {
@@ -3728,7 +3728,7 @@
   },
   {
    "title": "Character Story: Part IV",
-   "text": "Today is a rare day of rest.<br />By the time that dawn started to break, she had already set off from her home, but her destination is a little different today.<br />Today is the day of her periodical health inspection.<br /><br />\"Do you get dizzy?\"<br />\"No.\"<br />\"Spells of fatigue?\"<br />\"No.\"<br />\"Any irregularities with your heart?\"<br />\"No.\"<br />The foxian doctor furrows his brows.<br />\"General, with all due respect, if everything were as normal, these reports of yours would be sheer nonsense. You and I both know that the consequences of Moon Rage are becoming more frequent and pronounced. All I can do is try my best to slow it down.\"<br />\"So?\"<br />\"But it is all just a matter of time. I fear that, in the future, you will completely lose yourself, never to...\"<br />She smiles.<br />\"You are responsible for 'curing' me, and I am responsible for 'curing' war. We promised that we would both give our all to these roles.\"<br /><br />After receiving her medication, she deliberately takes a long route home across a quiet and secluded path. On the other side of the wall, she can hear the bustling and excited sounds of people in a packed market street. The calls of vendors and the laughter of children rise and fall.<br />\"What a wonderful time this is.\" She murmurs to herself.<br /><br />Suddenly, a Yellowbell Resonance System notification begins to ring in her ears:<br />\"We have secured a resounding victory against Toste-VIII abominations.\"<br />\"We have secured a resounding victory against Sakin Chadu abomination thanks to IPC's assistance after initial setbacks.\"<br />\"We have secured a resounding victory in the battle of Gordo.\"<br />\"...\"<br /><br />Before her life ends, she will hunt down every one of her nemeses.<br />Until the day that Moon Rage turns her into a truly feral beast that cannot tell friends from foe.<br />Until the day... when the arrow of The Hunt will pierce her own heart.",
+   "text": "Today is a rare day of rest.<br />By the time that dawn started to break, she had already set off from her home, but her destination is a little different today.<br />Today is the day of her periodical health inspection.<br /><br />\"Do you get dizzy?\"<br />\"No.\"<br />\"Spells of fatigue?\"<br />\"No.\"<br />\"Any irregularities with your heart?\"<br />\"No.\"<br />The foxian doctor furrows his brows.<br />\"General, with all due respect, if everything were as normal, these reports of yours would be sheer nonsense. You and I both know that the consequences of Moon Rage are becoming more frequent and pronounced. All I can do is try my best to slow it down.\"<br />\"So?\"<br />\"But it is all just a matter of time. I fear that, in the future, you will completely lose yourself, never to...\"<br />She smiles.<br />\"You are responsible for 'curing' me, and I am responsible for 'curing' war. We promised that we would both give our all to these roles.\"<br /><br />After receiving her medication, she deliberately takes a long route home across a quiet and secluded path. On the other side of the wall, she can hear the bustling and excited sounds of people in a packed market street. The calls of vendors and the laughter of children rise and fall.<br />\"What a wonderful time this is.\" She murmurs to herself.<br /><br />Suddenly, a Yellowbell Resonance System notification begins to ring in her ears:<br />\"We have secured a resounding victory against Toste-VIII abominations.\"<br />\"We have secured a resounding victory against the Sakin Chadu abominations thanks to the IPC's assistance after initial setbacks.\"<br />\"We have secured a resounding victory in the battle of Gordo.\"<br />\"...\"<br /><br />Before her life ends, she will hunt down every one of her nemeses.<br />Until the day that Moon Rage turns her into a truly feral beast that cannot tell friends from foe.<br />Until the day... when the arrow of The Hunt will pierce her own heart.",
    "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
   }
  ],

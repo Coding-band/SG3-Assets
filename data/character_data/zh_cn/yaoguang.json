@@ -1,0 +1,3293 @@
+{
+ "spRequirement": 180,
+ "iconPath": "aaa237a701ba36db5ff2756cff062e75dc26d560e93da208c14c92914c4dd4d1",
+ "bgPath": "690a3c988520569687fd88f76812d8ee4089282d975e401eb8b2480c825f6a0a",
+ "figPath": "b4191152ec7ff9d62aaf9e94e5e63ebbd78af2e5064e66135714c56c55767410",
+ "fgPath": "",
+ "splashIconPath": "5afbef6687a3feb0368caeb95e412068abc307c8d01b1624b3f8ea05c579444b",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRugCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSCkBAAABkHNb27G50s8ztm0rtl1nTRfbtiqbXUrbRjf9dLFt22+e+ypGETEBNAwJAQfg8mgYQqOx0GvRoM5jceCgtm1JLUOWLP8gHY9tQMHgut8bkuP2KPCBNDMMaFf/U8/396rTH5kFOgaQ/k732/S/837FU3nTjS8LCYHzWtb7x98/H03mdau6DOCQlp3Vf0km89o6b0UBmaf1/L68mclMXtLHTpTvlLxMZqZ38+tf/zzcKpRp+mUyycw0cdi47eUQv1uSSWby/v6SqIh4IHbm6dcyMwX6O2LlMAAHCxWYycvO9pjRmxAgeWzVF0n/9HBWxy6ROAih+5tRT/Tzt97HxG/oQCgNI+9JV6br8sRRO/rgaOhou3phq7YbUzoPjKLFDghphgvB4QgJoUkAVlA4IJgBAAAQCgCdASoUABQAPm0ylUekIqIhKAgAgA2JbACdMoR155zxQbhvYQ1f4d3gHPAaY76AHlb+xJ+4/pAFMf8Xf0hqLv6kh4zTzMHFCW5X671Wpa0bAsEjIJyZAAD9UvM8YGlQAC+jn9avswzxwnBOlG18knkvgaK6qGl3cM1ZZLmbh3X0hVCyGWZk+BC9oELU0vT6f39r8eH9f5Ah3Xzn7x+oRs8QaNc63x2t1chjfDO1Vum8H8ljbuu2FkeVO/RFmwfkIejWYqJ4BN2rjG+AJ1v/Xa6SQPuDit6WDZb7PT8krVjxNVn1VunKtkbUfcqHj8NtWQALS4HFub52FrQc6WD35t/VC1JR0h6aJn+3Up+YGOXSUxqoc7QB8G7mPLJ0OQHaGMWp2BcM90FrWUAhyv/hAXe102VeZYOmPJ7m2g6B/FcW6VFS0a62Obgxbqs31JRQuTDzJsvz9wlIyvtnv3/0pcJ1CkB+/+hv/mKppD89jS4Q9ELRr8MUVb01JiiG2PVdZ8x8OU4IfrawAve+kgmpVKs7+ZQYAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 9,
+  "iconPath": "c7e3f58ceb3cbc3471fe4fee296211256a9c2788d1eaeac83b18bce5ebbf0494",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "信用点",
+   "desc": "星际和平公司与客户结算时使用的货币，如今已成为太空旅行的硬通货。",
+   "lore": "「人们奔波、争斗、贸易，为的不过是个终端里显示的数字。但真正珍贵之物，公司的数字是买不到的。」",
+   "purpose": "通用货币",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "拟造花萼【大矿区】",
+    "拟造花萼【工造司】",
+    "拟造花萼【「白日梦」酒店-梦境】",
+    "拟造花萼【「呓语密林」神悟树庭】",
+    "任务奖励",
+    "委托奖励",
+    "余烬兑换"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "命运的足迹",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "一次又一次的败北成就了你的胜利，一步又一步的前进让你抵达了命运的拐点。",
+   "purpose": "行迹材料",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "「货币战争」积分奖励",
+    "「模拟宇宙」积分奖励",
+    "无名勋礼",
+    "余烬兑换",
+    "星芒兑换",
+    "限时活动奖励"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "漫游指南",
+   "desc": "角色的经验材料，可以获得<nobr>20000</nobr>点角色经验。",
+   "lore": "跨越诸界必备的冒险丛书。按下阅读键，充满磁性的声音将以你能听懂的语言讲述知名冒险家们在不同世界间的传奇经历，以及他们在各个星球上获得的珍贵智慧。<br /><br />「漫游指南全新书系《星际美食烹饪导览》开售在即，敬请支持。」<br />「投稿请接入博识学会联觉信标<nobr>23</nobr>θ联络员，稿酬可以以您接受的任何形式支付。」",
+   "purpose": "角色经验材料",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "「忘却之庭」"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "冒险记录",
+   "desc": "角色的经验材料，可以获得<nobr>5000</nobr>点角色经验。",
+   "lore": "装订严整，一看就颇有教育意义的冒险札记。图文并茂地描述了冒险行动的始末、有价值的信息和生存相关的技巧。<br /><br />「干嘛不数据化放进光刻片里？便携多了。」<br />「面对恒星风暴和中子流喷发时，高科技比你想象的还要脆弱。何况，制作这本书的人一定希望人们用最简单的方式阅读它。」",
+   "purpose": "角色经验材料",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "每日实训",
+    "余烬兑换"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "旅情见闻",
+   "desc": "角色的经验材料，可以获得<nobr>1000</nobr>点角色经验。",
+   "lore": "记录旅途见闻的日志，字迹漫漶不清，内容随心所欲，对你并没有太大的帮助。<br /><br />「看完了就赶紧把这堆废纸处理掉吧，丹恒？」",
+   "purpose": "角色经验材料",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "拟造花萼【城郊雪原】",
+    "拟造花萼【流云渡】",
+    "拟造花萼【筑梦边境】",
+    "拟造花萼【「神谕圣地」雅努萨波利斯】",
+    "委托奖励"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "《绒绒号》连载纪念刊",
+   "desc": "正在杂志连载中的《苍天航路绒绒号》。可中幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">欢愉</span>角色的命途行迹。",
+   "lore": "在二相乐园之外流传着一个小故事，说有幻月游戏的胜利者选择加速了时间，导致全乐园的漫画家都赶不上截稿日，只有模糊老师能够按时交稿——这完全是营销号编的段子，并且搞不好就是二维马自己编的。<br /><br />「我一降生就画得像绘世一样好，但用了一辈子才学会画得像疾锋龙一样快。」——二维马，于某次网络专访",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "「万能合成机」- 等量置换",
+    "拟造花萼【{TextID#FloorName_20502001}】",
+    "「万能合成机」- 材料合成",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "13392580": {
+   "id": 13392580,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "bc4dd9f8187a79bff189b805d1e109435214b67fc65292d320cdf4dc355b3975",
+   "name": "灭流绝溢的缄默",
+   "desc": "行迹升级的高阶素材。",
+   "lore": "无人曾忆起，寰宇刹那间的寂静。思绪之声消融，一切形状被识认为相通的图素，被逆模因的织网捕获，化作唯一解答的推演。<br />直至它不再「言语」。<br /><br />「核心▀▄决断▀▄█循环▄█▀个体▄我▀▄」",
+   "purpose": "行迹材料",
+   "rarity": 4,
+   "rewardPath": "/material/13392580",
+   "comeFrom": [
+    "历战余响【{TextID#FloorName_20481001}】"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "《绒绒号》典藏版合集",
+   "desc": "付梓印刷成单行本的《苍天航路绒绒号》。可大幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">欢愉</span>角色的命途行迹。",
+   "lore": "在单行本的腰封上印有很多推荐语，其中包括真珠、翡翠、砂金、托帕、拉帝奥、景元、飞霄、怀炎、爻光、华、卡芙卡、知更鸟、在田、施耐德、冥火大公、呼雷、隆介、花火、火花、开拓者等银河知名人物。后来模糊老师因为「捏造推荐语、虚假宣传」赔了不少钱。<br /><br />「暗布雷拉律师，这些小肚鸡肠的名人要合起伙来告我，我想聘请你为我辩护，可以吗？」<br />「哈哈哈，您真会说笑。我还没活够呢。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "「万能合成机」- 等量置换",
+    "拟造花萼【{TextID#FloorName_20502001}】",
+    "「万能合成机」- 材料合成",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "《绒绒号》手绘分镜稿",
+   "desc": "正在分镜稿阶段的《苍天航路绒绒号》。可小幅提升<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">欢愉</span>角色的命途行迹。",
+   "lore": "模糊老师作画的速度非常快，可以在一天时间内画完一个月的连载内容。但模糊老师从不这么做，对外宣称是为了保证质量，实际上很可能是懒得工作。<br /><br />「真奇怪，为什么市面上总是会出现很多一模一样的《绒绒号》原稿，而且每一张都明显是真迹？不会是模糊老师在用这招赚钱吧？」<br />「怎么可能？肯定是模糊老师精益求精，每一页都要画十遍，直到自己满意为止。」",
+   "purpose": "行迹材料 <br />光锥晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "「万能合成机」- 等量置换",
+    "拟造花萼【{TextID#FloorName_20502001}】",
+    "余烬兑换",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "梦现管锥",
+   "desc": "幻造生物的愿力碎片，强化所需的高级材料。",
+   "lore": "所有值得被严肃对待的故事，都共享同一个主题：「人如何渡过只此一次的人生。」<br />生命是如此短暂，纵是圣者贤人也免不了被突兀地抛掷在人世间，毫无准备地经历一段人生。也因此，人们总也无法很好地渡过一生，难免有遗憾、难免有虚度。<br />但好在我们有故事。在故事中，创作者与阅读者得以共享另一段人生；在故事中，人的生命得以被持续地延长；在故事中，我们在有限的囚笼中抵达不朽。<br /><br />「有了故事，我们得以活上千次万次。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "突破至均衡等级4后，幻造生物掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "童真蜡笔",
+   "desc": "幻造生物的愿力碎片，强化所需的简单材料。",
+   "lore": "在混沌未分的荒原上，一位母亲问她的孩子：「是不是你弄坏了你爸的弓箭？」那孩子回答：「不是的，肯定是别人弄坏的。」<br />母亲生气地说：「我们的山洞里根本就没来过别人。如果不是你弄坏的，就只能是我了。」孩子继续回答：「是小魔怪干的。我亲眼看到它弄坏了爸爸的弓箭，但只有小孩子才看得到小魔怪，所以妈妈没看见。」<br />母亲被气笑了：「那你倒是说说看，这小魔怪为什么要弄坏你爸的弓箭？」孩子坦然地说：「父亲踩坏了它的巢穴吧。你们大人看不见小魔怪，很容易弄坏他们的巢穴。」<br />这段对话很可能发生过，但也可能从未发生过。但不管怎么说，它所指涉的真理确凿无疑——最初的故事诞生于孩童的幻想。<br />此后亿万年间，这些幻想将会持续不断地改变这个世界。<br /><br />「有了故事，我们得以从现实逃脱。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "幻造生物掉落",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "委托奖励",
+    "余烬兑换",
+    "「万能合成机」- 材料置换",
+    "拟造花萼（金）"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "造梦蘸钢",
+   "desc": "幻造生物的愿力碎片，强化所需的普通材料。",
+   "lore": "还记得那个历史掌故吗？军官指着揭露暴行的画作质问道：「这是你画的吗？」<br />画家笑着回答：「不，这是你们画的。」<br />一切试图表现现实的艺术，都不能临摹现实。因为现实粗浅的表象无法涵盖其非物质的深刻意涵。<br />就像一位死去的战士，如果你只去临摹遗容，那便只是世间无数死者中平凡的另一个。但你若在现实之上探索，找到那些肉眼不可见的崇高、勇气、愤怒、不甘，那才算是真正贴近了属于这位战士的现实。<br />唯有那样，人们才会知道，这位战士并不只是世间无数死者中平凡的另一个，此人曾使有山、有水、有房屋的地方，也能有人烟。<br /><br />「有了故事，我们得以与邪恶对抗。」",
+   "purpose": "行迹材料 <br />角色晋阶材料",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "突破至均衡等级2后，幻造生物掉落",
+    "「万能合成机」- 材料合成",
+    "「差分宇宙」中敌方掉落",
+    "「模拟宇宙」中敌方掉落",
+    "「万能合成机」- 材料置换"
+   ]
+  },
+  "29937571": {
+   "id": 29937571,
+   "type": 652,
+   "purposeId": 2,
+   "iconPath": "e914aa6c1c3cceed1fe5912f35f1d439d662aec5699654e8ff682bf2010c1c74",
+   "name": "侵略凝块",
+   "desc": "黑潮造物的核心结晶，物理属性角色的晋升素材。",
+   "lore": "诚然，黑潮的拥护者们以千百种外观示人，也定能靠晶体鉴认。但无人可知，状似核心之物，实为真正的「外壳」。<br /><br />「我看到了一片晶体的海洋，随后便是医师的欣慰笑容。」",
+   "purpose": "角色晋阶材料",
+   "rarity": 4,
+   "rewardPath": "/material/29937571",
+   "comeFrom": [
+    "凝滞虚影【「龙骸古城」斯缇科西亚】",
+    "「万能合成机」- 材料置换"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 63.36,
+   "attackAdd": 3.168,
+   "hpBase": 168.96,
+   "hpAdd": 8.448,
+   "defenseBase": 89.1,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 19623238,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 88.704,
+   "attackAdd": 3.168,
+   "hpBase": 236.544,
+   "hpAdd": 8.448,
+   "defenseBase": 124.74,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 19623238,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 114.048,
+   "attackAdd": 3.168,
+   "hpBase": 304.128,
+   "hpAdd": 8.448,
+   "defenseBase": 160.38,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 139.392,
+   "attackAdd": 3.168,
+   "hpBase": 371.712,
+   "hpAdd": 8.448,
+   "defenseBase": 196.02,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 19865384,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 164.736,
+   "attackAdd": 3.168,
+   "hpBase": 439.296,
+   "hpAdd": 8.448,
+   "defenseBase": 231.66,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 19581247,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 190.08,
+   "attackAdd": 3.168,
+   "hpBase": 506.88,
+   "hpAdd": 8.448,
+   "defenseBase": 267.3,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 19581247,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 215.424,
+   "attackAdd": 3.168,
+   "hpBase": 574.464,
+   "hpAdd": 8.448,
+   "defenseBase": 302.94,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "a15ec6f8e7f80b7b6c6c2757677bc4ad60081d15f634bc157aa33ee9fb15c287",
+   "artPath": "cb24322530496f2cf945d0907e5e000e4ff34977dea7199f6d9615309fd92654",
+   "name": "何处落玉，盈盈笑语",
+   "descHash": "终结技触发的<u>阿哈</u>的<u>额外回合</u>固定计入<u>笑点</u>数提高至<nobr>#2[i]</nobr>个。我方全体目标造成<u>欢愉伤害</u>时无视目标<nobr>#1[i]%</nobr>防御力。",
+   "params": [
+    0.2,
+    40
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "b1760d4a47d25845f9f8577106420ca8059f610b53995683f8d80a6973d5b91a",
+   "artPath": "5708c5b35de0f15514b406ff175d47f8006893ef6371fb174f56731270d0c8be",
+   "name": "飞箭无目，青翎为瞳",
+   "descHash": "结界持续期间，我方全体目标速度提高<nobr>#2[i]%</nobr>，欢愉度额外提高<nobr>#1[i]%</nobr>。",
+   "params": [
+    0.16,
+    0.12
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "47033200bb143b520dc5a9d6a7743a7f7c2604caa8c8a1ddc9a03902cae6de21",
+   "artPath": "9bcd35d4e9a6a670b7095a2930ebfc05799a38529293e448043de45f45431d41",
+   "name": "十方世界，光映符中",
+   "descHash": "战技等级+2，最多不超过<nobr>15</nobr>级；普攻等级+1，最多不超过<nobr>10</nobr>级；欢愉技等级+1，最多不超过<nobr>15</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "4af04a18a0439a2454502b36d2a0650740570198ae0ee72ab60fc5617b41d10a",
+   "artPath": "adbe1b34200c12a871a62ff3ed069fcdd1f91cd285ff6853563806353aab85c9",
+   "name": "命若素绡，拈羽点彩",
+   "descHash": "爻光终结技触发的<u>阿哈</u>的<u>额外回合</u>中，我方全体角色欢愉技造成的伤害为原伤害的<nobr>#1[i]%</nobr>。",
+   "params": [
+    1.5
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "a72b6e24293c457fef1025a923830a0b72b2cfe064bdf62c8d897d2015f5ab3e",
+   "artPath": "cc6fe10ec6bd604f342839dc36dc10eb2cc872b2853fe75694d144413c1a3857",
+   "name": "璎珞严饰，身如琉璃",
+   "descHash": "终结技等级+2，最多不超过<nobr>15</nobr>级；天赋等级+2，最多不超过<nobr>15</nobr>级；欢愉技等级+1，最多不超过<nobr>15</nobr>级。",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "8eb07e8743df7468037e06c1521188fe35d8a21a2516cf74b93e631873017c20",
+   "artPath": "7b9819b470aa674e6797a7b54ee9a5b0d764030acd72ed56aaaf7bfc5d2e71b8",
+   "name": "牵丝渡引，天星垂虹",
+   "descHash": "我方全体目标的<u>欢愉伤害</u><u>增笑</u><nobr>#1[i]%</nobr>。爻光欢愉技的伤害倍率提高原倍率的<nobr>#2[i]%</nobr>。",
+   "params": [
+    0.25,
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   1864357
+  ],
+  [
+   1581237
+  ],
+  [
+   1889946
+  ],
+  [
+   1607016
+  ],
+  [
+   1908563
+  ],
+  [
+   1832749
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "扩散",
+   "descHash": "对指定敌方单体造成等同于爻光<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span>攻击力的<span style=\"color:#FFFFFF;\">物理</span>属性伤害，同时对其相邻目标造成等同于爻光<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>攻击力的<span style=\"color:#FFFFFF;\">物理</span>属性伤害。普攻恢复的能量提高至<nobr>30</nobr>点。",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "30",
+   "id": 1864357,
+   "name": "雀翎鸣镝，过招有喜",
+   "iconPath": "61ee7c4d363d456af072c90f8486d790c75a1e8780f976560974789b816153bf",
+   "typeDescHash": "普攻",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.45,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.54,
+      0.18
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 2
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.63,
+      0.21
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72,
+      0.24
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 13251172,
+       "count": 3
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.81,
+      0.27
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 3
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 5
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.99,
+      0.33
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.08,
+      0.36
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.17,
+      0.39
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.26,
+      0.42
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "辅助",
+   "descHash": "展开结界，持续<nobr>#1[i]</nobr>回合，自身每回合开始时结界持续回合数减1。结界持续期间，我方全体目标欢愉度提高，提高数值等同于爻光欢愉度的<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>，且爻光施放普攻、战技后获得<nobr>#3[i]</nobr>个<u>笑点</u>。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 1581237,
+   "name": "十方光映，万法皆明",
+   "iconPath": "47033200bb143b520dc5a9d6a7743a7f7c2604caa8c8a1ddc9a03902cae6de21",
+   "typeDescHash": "战技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      3,
+      0.1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.11,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.12,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.13,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.14,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.15,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.1625,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.175,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.1875,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.2,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.21,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.22,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.23,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.24,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.25,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "辅助",
+   "descHash": "获得<nobr>#1[i]</nobr>个<u>笑点</u>。使<u>阿哈</u>立即获得1个固定计入<nobr>#4[i]</nobr><u>笑点</u>的<u>额外回合</u>，该回合不消耗<u>笑点</u>，并使我方全体目标全属性<u>抗性穿透</u>提高<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>，持续<nobr>#3[i]</nobr>回合。",
+   "ultimateCost": 180,
+   "break": "0",
+   "energy": "5",
+   "id": 1889946,
+   "name": "霓裳铁羽，六爻皆吉",
+   "iconPath": "4697b8f14ed488e48d63135d44efa0503483268cee926e28a9f8ccf9455065c2",
+   "typeDescHash": "终结技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      5,
+      0.1,
+      3,
+      20,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.11,
+      3,
+      20,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.12,
+      3,
+      20,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.13,
+      3,
+      20,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.14,
+      3,
+      20,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.15,
+      3,
+      20,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.1625,
+      3,
+      20,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.175,
+      3,
+      20,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.1875,
+      3,
+      20,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.2,
+      3,
+      20,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.21,
+      3,
+      20,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.22,
+      3,
+      20,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.23,
+      3,
+      20,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.24,
+      3,
+      20,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.25,
+      3,
+      20,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "辅助",
+   "descHash": "爻光持有【<u>好活当赏</u>】时：<br />使我方目标施放攻击后触发【大吉大利】效果，对随机1个击中的目标额外造成1次<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span>的对应属性<u>欢愉伤害</u>，本次攻击若消耗战技点，则额外触发1次【大吉大利】效果。<br />触发【大吉大利】效果时若攻击者欢愉度低于爻光，则该次<u>欢愉伤害</u>使用爻光欢愉度来计算。<br />触发【大吉大利】效果不视为1次攻击。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 1607016,
+   "name": "屏开千光，遍观自在",
+   "iconPath": "f9c65deca932b49414b7217a6d5f92968c2a216a68a6a5ab89de135ec2787bf9",
+   "typeDescHash": "天赋",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.11
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.13
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.14
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.22
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.23
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.24
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.25
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 1665351,
+   "name": "雀翎鸣镝，过招有喜",
+   "iconPath": "61ee7c4d363d456af072c90f8486d790c75a1e8780f976560974789b816153bf",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "辅助",
+   "descHash": "使用秘技后，使下一次战斗开始时自动触发1次战技，此次触发不消耗战技点。爻光在队伍中时，击碎可破坏物时立刻获得「红包」，每个地球周内最多获得<nobr>#1[i]</nobr>个。",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 1908563,
+   "name": "浮光过隙，百无禁忌",
+   "iconPath": "2ab68afc4320c021fd5fab2ee68cea552896d7d8183cdd9cf60c431e64bd4b9d",
+   "typeDescHash": "秘技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      8
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "群攻",
+   "descHash": "使敌方全体陷入【凶星低语】状态，持续<nobr>#4[i]</nobr>回合。【凶星低语】状态下的敌方目标受到的伤害提高<nobr>#3[f1]%</nobr>。对敌方全体造成<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>的<span style=\"color:#FFFFFF;\">物理</span>属性<u>欢愉伤害</u>，随后对敌方随机单体造成<nobr>#5[i]</nobr>次<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[i]%</nobr></span>的<span style=\"color:#FFFFFF;\">物理</span>属性<u>欢愉伤害</u>。",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 1832749,
+   "name": "赠君一卦，火树银花",
+   "iconPath": "632061f94336179ef2e9a62578d640092af4d5010c3e7065a574eebf42c866e0",
+   "typeDescHash": "欢愉技",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.5,
+      0.16,
+      3,
+      5,
+      0.1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.55,
+      0.16,
+      3,
+      5,
+      0.11
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.6,
+      0.16,
+      3,
+      5,
+      0.12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.65,
+      0.16,
+      3,
+      5,
+      0.13
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.7,
+      0.16,
+      3,
+      5,
+      0.14
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.75,
+      0.16,
+      3,
+      5,
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.8125,
+      0.16,
+      3,
+      5,
+      0.1625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.875,
+      0.16,
+      3,
+      5,
+      0.175
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.9375,
+      0.16,
+      3,
+      5,
+      0.1875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      1,
+      0.16,
+      3,
+      5,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      1.05,
+      0.16,
+      3,
+      5,
+      0.21
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.1,
+      0.16,
+      3,
+      5,
+      0.22
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.15,
+      0.16,
+      3,
+      5,
+      0.23
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.2,
+      0.16,
+      3,
+      5,
+      0.24
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.25,
+      0.16,
+      3,
+      5,
+      0.25
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1502101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1502203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21214139,
+      "name": "暴击率强化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴击率",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1502204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21464526,
+      "name": "欢愉度强化",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+      "statusList": [
+       {
+        "key": "欢愉度",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "爻光的速度大于等于<nobr>#1[i]</nobr>时，使自身欢愉度提高<nobr>#2[i]%</nobr>，之后每超过<nobr>#3[i]</nobr>点速度使自身欢愉度提高<nobr>#4[i]%</nobr>，最多计入<nobr>#5[i]</nobr>点超出的速度。",
+    "ultimateCost": 0,
+    "id": 20798941,
+    "name": "开屏有礼",
+    "iconPath": "0b6dfa0c0c11bcf9a90b382f153fdcdd5f83a79faa654d734eca5fba2765cefa",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       120,
+       0.3,
+       1,
+       0.01,
+       200
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 13618289,
+        "count": 2
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1502205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1502206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1502207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 21167093,
+          "name": "暴击率强化",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "暴击率",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 13525398,
+            "count": 3
+           },
+           {
+            "id": 19581247,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 21375462,
+        "name": "速度强化",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "速度",
+          "value": 3,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 13525398,
+          "count": 3
+         },
+         {
+          "id": 19581247,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21125080,
+      "name": "暴击率强化",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "暴击率",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 18000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "自身暴击伤害提高<nobr>#4[i]%</nobr>，施放欢愉技后，为我方恢复<nobr>#1[i]</nobr>个战技点。",
+    "ultimateCost": 0,
+    "id": 20542384,
+    "name": "神闲意满",
+    "iconPath": "a3dedfbadb44aa519bcd84e8c2253592a7c51f9db3be14670fb30945290fb187",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.25,
+       0.4,
+       0.6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1502208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1502209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1502210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 4551625,
+          "name": "暴击率强化",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "暴击率",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 13525398,
+            "count": 8
+           },
+           {
+            "id": 19581247,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 21143329,
+        "name": "速度强化",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "速度",
+          "value": 4,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 13525398,
+          "count": 8
+         },
+         {
+          "id": 19581247,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21417229,
+      "name": "欢愉度强化",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+      "statusList": [
+       {
+        "key": "欢愉度",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 120000
+       },
+       {
+        "id": 13525398,
+        "count": 5
+       },
+       {
+        "id": 19581247,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "爻光获得【<u>好活当赏</u>】时，使其持续时间增加<nobr>#2[i]</nobr>回合。",
+    "ultimateCost": 0,
+    "id": 20775300,
+    "name": "鸿运鳞集",
+    "iconPath": "1dbfdc7278059eac7eb74c94b460f7dbec82bd450f322e83ed03b036ce720ffc",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       20,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 13525398,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 21172099,
+    "name": "暴击率强化",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "暴击率",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 19623238,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502202,
+   "anchor": 10,
+   "type": 2,
+   "children": [],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 21488023,
+    "name": "速度强化",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+    "statusList": [
+     {
+      "key": "速度",
+      "value": 2,
+      "int": true
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 5000
+     },
+     {
+      "id": 13618289,
+      "count": 2
+     },
+     {
+      "id": 19623238,
+      "count": 6
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "初次见面",
+   "text": "我是爻光，仙舟「玉阙」的戎韬将军，你就同他人一样，叫我「爻老板」吧。此次会面，诸般细节本可用卜算预见，但本座还是更想亲身经历一番——果然，有许多意外之喜。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "问候",
+   "text": "就今日的天气来说，我料想你会遇见仙舟联盟第一智者…我可没说那人就是我呀。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "道别",
+   "text": "天高地迥，放手施为——下次再见，就讲讲你干了哪些会令本座也瞠目结舌的大事吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "关于自己•称呼",
+   "text": "「将军」二字，天然带了许多重负与拘束，倒不如「老板」来得爽利自在——当然，我从不在乎这些繁文缛节，你若是想喊「姐姐」，也未尝不可。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "关于自己•「观自在眼」",
+   "text": "以这一双遍观万千之眼 ，本座曾不止一次看到银河的命运如同一艘航船，随时可能在恐怖的巨浪中颠覆，可我从不相信「眼见为实」——所谓可能，不就是为了被改变才存在的么？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "关于自己•观念",
+   "text": "一般卜者总说「人算不如天算」，而佼佼者呢，喜欢摆出一副「天算不如我算」的模样。要我说，有那算来算去，瞻前顾后的工夫，还不如遇事立即亲自出手，来得方便爽利咯。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "闲谈·护手",
+   "text": "小到每日养玉，大到拨弄星辰，都需一双巧手运作。如今，哪怕公务再繁忙，我也必定会抽出时间来亲自调制护手药膏。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "闲谈·酸物",
+   "text": "玉阙人嗜酸，譬如罗浮人爱茶。柠檬，话梅，山楂…皆是神思枯竭之时，刺激灵感的好东西，来一颗？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "爱好",
+   "text": "在太卜司学艺时，本座略施小计，便一连拿下数届玉阙杯牌艺大赛的魁首。若是别人说我占卜还需精进，我认了。若是说我牌打得不好，我可绝不认账——下次与怀炎、飞霄他们聚会时，我请你一同观战可好？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "烦恼",
+   "text": "联盟的某些人哦，一看到法阵计算的结果就犹犹豫豫、举棋不定。若有一次占卜的结果是「本次占卜不可靠」，那不得把他们的朽木脑袋给烧坏了？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "分享",
+   "text": "以「遍智天君」的演算为灵感，玉阙仙舟营建了用以占卜未来的「十方光映法界」。那以琳琅珠宝织就的密网，倒映着大千世界的影像，重光叠照，渐至无穷——拜一次事故所赐，我得以遍观不同可能。喏，所谓「变数」，不就是「转机」的代名词么？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "见闻",
+   "text": "帝弓所赐威灵，名为「时轮天雉明王」——那是属于巡猎的猎手之「眼」，本座喜欢唤它「小时」。总感觉它在盯着你？谁让你是银河的大英雄呢？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "关于开拓者",
+   "text": "你的未来不在我的眼中，而在你的脚下。至于那个小秘密嘛…只能天知，地知，你知，我不知。",
+   "unlockRequirement": "完成开拓任务「生者对死者无动于衷」后解锁",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "关于景元",
+   "text": "别人都说我与这位「神策将军」处处竞争，岂不知我们只是各自说些实话罢了。表面和气无益于仙舟发展，想搅动这平静的潭水，掀起百舸争流的盛况，也只得本座来演个红脸。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "关于符玄",
+   "text": "我这师妹啊…来「玉阙」述职时，只是叫她多留几日都不肯，偏生要准时回去。师妹小时候还总爱和我争胜，如今较劲的对象却换成了那位罗浮将军…明明是我先认识她的。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "关于忘归人",
+   "text": "都说商会的狐人善于见风使舵，我看她的舵倒是稳得很——为生民请命，斥星神之不公，这番气魄确是难得，我喜欢。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "关于火花",
+   "text": "小妮子就像一颗炮仗，总能炸得人措手不及。若她愿意跟我一起玩点什么…啧啧，我们一定能干出些前无古人的新鲜事。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "关于姬子",
+   "text": "锋芒内隐，行事低调…即便是你，对她的过去也知之甚少吧？然而人终其一生总要回到出发的地方，然后，从那里再度启程。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "关于星期日",
+   "text": "仙舟将军引匹诺康尼前话事人入局，是不是听上去就很不可思议？本座要的便是这般「不可测度」的转折，至于前路的惊喜，拭目以待吧。",
+   "unlockRequirement": "完成开拓任务「生者对死者无动于衷」后解锁",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "关于青雀",
+   "text": "很多人终其一生都心比天高，唯有她知道「难得糊涂」的妙处——哎，你别不信，这可是成为将军的必备素质。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "关于飞霄",
+   "text": "天击将军就如「巡猎」之爪，「眼」无「爪」则弱，「爪」无「眼」则盲。她爱听我的点子，我也信任她的指挥，只是她每次给我的健身建议——要弃了孔雀舞，改练雀形拳，不免太高看了我些。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "关于镜流",
+   "text": "不论是利用「繁育」的残骸，燃烧「毁灭」的金血，甚至借用「丰饶」本身的力量，我都不介意。但可惜，她所描摹的图景，还未让我心服口服。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 101,
+   "title": "星魂激活",
+   "text": "盈虚有数，宇宙无穷，都不过事在人为。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 102,
+   "title": "角色晋阶",
+   "text": "起伏涨落，不必介怀。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 103,
+   "title": "角色满级",
+   "text": "若当真「法眼无遗」，岂非太无意趣？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 104,
+   "title": "行迹激活",
+   "text": "此番道路，还会有更多的变数么？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 105,
+   "title": "队伍编成•开拓者",
+   "text": "不出意料，你的命数依旧难以看清。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 106,
+   "title": "队伍编成•景元",
+   "text": "「智光昭昭，不逊戎韬」，神策将军，我们来验验这句话的成色？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 107,
+   "title": "队伍编成•镜流",
+   "text": "你的剑，还如从前般锋利么？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 108,
+   "title": "队伍编成•忘归人",
+   "text": "沟通交际之事，还得麻烦你掌控咯~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 109,
+   "title": "队伍编成•符玄",
+   "text": "师妹，还是像从前那般配合可好？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 110,
+   "title": "队伍编成•火花",
+   "text": "小妮子，这次的乐子，可不能比上次的逊色呐。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 111,
+   "title": "队伍编成•姬子",
+   "text": "领航员，愿我们合作愉快。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 112,
+   "title": "队伍编成•星期日",
+   "text": "不必紧张，本座从不强人所难。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 113,
+   "title": "队伍编成•青雀",
+   "text": "小雀儿，祝你有好手气~",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 114,
+   "title": "队伍编成•飞霄",
+   "text": "不见天击将军的这些日子里…我又想到了些妙点子，想听听么？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 201,
+   "title": "战斗开始•弱点击破",
+   "text": "有此一劫…怪我咯？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 202,
+   "title": "战斗开始•危险预警",
+   "text": "机遇险中求，大胆来吧。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 203,
+   "title": "回合开始•一",
+   "text": "卜签告诉我，你会受些皮肉之苦。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 204,
+   "title": "回合开始•二",
+   "text": "来搅局？本座也恰有此意。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 205,
+   "title": "回合待机",
+   "text": "今日宜强攻，信我的。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 206,
+   "title": "普攻",
+   "text": "手到擒来。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 207,
+   "title": "战技•一",
+   "text": "景星，高照。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 208,
+   "title": "战技•二",
+   "text": "劫云，散尽。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 209,
+   "title": "轻受击",
+   "text": "焉知非福？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 210,
+   "title": "重受击",
+   "text": "险兆啊……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 211,
+   "title": "欢愉技•一",
+   "text": "祝你大运正当头，开门红！",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 212,
+   "title": "欢愉技•二",
+   "text": "赠你一支下下签，请笑纳。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 213,
+   "title": "终结技•激活",
+   "text": "世人总道天意难违……",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 214,
+   "title": "终结技•施放",
+   "text": "本座偏要，执此一签，观照诸天。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 215,
+   "title": "无法战斗",
+   "text": "我不信…命定如此…",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 216,
+   "title": "重回战斗",
+   "text": "吉人自有天相。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 217,
+   "title": "回复生命",
+   "text": "多谢你的美意。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 218,
+   "title": "秘技",
+   "text": "光映十方，百无禁忌。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 219,
+   "title": "战斗胜利",
+   "text": "法眼之中，仍有无限可能。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 220,
+   "title": "开启战利品•一",
+   "text": "和你一起，果真惊喜连连。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 221,
+   "title": "开启战利品•二",
+   "text": "这儿风水不错，记下了。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 222,
+   "title": "开启贵重战利品",
+   "text": "看看，这就是爻老板的手气。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 223,
+   "title": "解谜成功•一",
+   "text": "就拿这个来考验本座？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 224,
+   "title": "解谜成功•二",
+   "text": "哎呀，这都不用掐指一算呐。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 225,
+   "title": "发现敌方目标",
+   "text": "今天是什么好日子？",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 226,
+   "title": "返回城镇",
+   "text": "闲暇易得…可惜，本座的目光总难为现在停留。",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "角色详情",
+   "text": "神秘，大胆，激进，求变之举令人瞠目结舌。<br />以巡猎之「眼」遍观吉凶，明知天意难违，「戎韬将军」仍旧孤身涉险。<br />这一支下下签，如何能够改运换天？",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "角色故事·一",
+   "text": "一日，玉阙太卜司晨会之后，庄严静谧的空气中飘散着闲聊的碎语。<br /> <br />「缺席晨修也就罢了，她居然还跑去参加玉阙杯牌赛！」<br />「上次说了她几句，她却说什么能得『牌圣』之名的都是深谙爻象之士，不信的话与她比试比试…」<br />「然后，你真与她比了不成？赢了没？」<br />「……」<br /> <br />几袭长袍在风中扬起，仿佛积压了满肚子的不满。<br /> <br />「你还记得上回吗？她在子夜时分召集了几个青年卜者勾画法阵，说是要试验外邦的卜算秘术，学习百家之长，倒把巡夜的长老吓了个魂飞魄散。」<br />「怎么不记得？她在课堂上公然用自创的卜算方法挑战老师，把先生气得向太卜告状，得亏太卜心慈手软，不然纵然她有万般天才，也免不了一顿重罚……」<br />「不过嘛…任她有百般不是，『十方光映法界』的布成有她几分功劳，司内上上下下，谁能像她一样，眼睛过一遍就能算准。」<br />「哼，你知道现在同辈都叫她什么吗？『爻总』，说什么人算不如天算，天算不如她干——这哪还有玉阙朴素严谨的学风！」<br /> <br />不约而同的一声嗟叹，涤走了不少怨气，二人的言辞终是趋于和缓。<br />「说起来，这丫头又跑到哪里去了？」<br /> <br />忽地传来一阵歌声，只见一位少女跨坐在房顶候风仪上，仰观天象，她冁然一笑：<br />「师叔们，小心了。师傅今日给我算了一卦，说是什么『震惊百里，不丧匕鬯』。你们离我太近，恐怕也要被雷劈了！」<br /> <br />是时，玉阙穹顶之上忽然雷声大作，声势骇人；更有斑斓雷光飞绽，触目惊心。<br />「如果躲不开的话，不妨安心享受这难得一见的奇景吧！」<br /> <br />她知道，这声势不过是玉阙掠过星云时，星尘划过船体产生的震动，自己会安然无恙——<br /> <br />但仍有一丝疑惑掠过她的心头，此卦…当真应验了么？<br /><align=\"right\">——卦曰 ：震惊百里，不丧匕鬯。</align>",
+   "unlockRequirement": "角色等级<nobr>20</nobr>解锁"
+  },
+  {
+   "title": "角色故事·二",
+   "text": "鲜有人烟的某处庭院中，她与回乡探望的师妹在夜的静谧中对坐。<br />朴素的木桌上，除却两杯清茶，是一副用来对弈的算牌，似乎已蒙尘许久。<br /> <br />「竟天师傅那里，你去过了么？」<br />「祭拜过了。」<br /> 「你离开玉阙之时，师傅已经看到今日的命数。所以，你还是无意考虑我的提议么？你看，怀炎有孙女，景元有徒弟，若是有朝一日我走上师傅的老路，你接了我的位，两全其美不是~」<br /> <br />茶盏滞在半空，粉发的卜者双眉微蹙。<br />「师姐，继任将军不过是职位变动，怎么把你的脾气也改了？」<br /> <br />「你还记得吗？师傅以前常念叨——『命运的道路自始至终只有一条』。」<br />她捻牌凝神，却有一幕幕过往浮现眼前。<br />在将瞰云镜送往方壶前，竟天派她驻守玉阙，确保帝弓光矢消灭丰饶孽物的计划成功。<br />十方光映法界内，她曾占算不休，却从未能够抓住一缕扭转方壶之战的可能。<br />当帝弓的光矢落下，那不可思议的星神伟力摧毁沿途的一切，却也铸就了如今的希望。<br /> <br />但她知道，在银河愈发凶猛的激流之中，掌舵仙舟只会难上加难。<br /> <br />玩笑之下，太卜看到了将军的真意，或许茫茫仙舟联盟中，只有她看到了…但她没有透露半分，只是轻啜了一口茶水。<br />「那师姐你呢？你会给玉阙仙舟留下什么？」<br /> <br />她并未立刻作答，而是出了手中的牌。<br />「瞧，这一招你算到了吗？」<br />「师傅证明了自己没有错，但那是他的传承。而我嘛…我要千百年后的仙舟如此回忆我将所为——」<br /> <br />她笑着，思考着，神情愈发笃定。<br /> <br />「『原来命运还有这样的道路。』」<br /> <br /><align=\"right\">——卦曰 ：萃有位，志未光也。</align>",
+   "unlockRequirement": "角色等级<nobr>40</nobr>解锁"
+  },
+  {
+   "title": "角色故事·三",
+   "text": "<b>卷名：</b>玉阙政行敕令纪要星历████年戊字██号其二<br /><b>纲要：</b>关于玉兆的超微缩技术的申请<br /><b>咨请内容：</b>对息壤特性的研究取得阶段性成果，我院认为应当注重研究玉兆的进一步微缩化。<br /><b>工造司意见：</b>关于遍智格物院申请微型化玉兆研究经费一事，一来其研究方向与工造司相左，其次未经工造司审批直接报予将军亦不符合流程。<br /><b>审批人：爻光</b><br /><b>意见：</b>工造司的方案我看了，靠把玉兆做大来提升性能是哪个天才一拍脑袋决定的？玉兆直接关系到仙舟的命脉，但不能畏首畏尾，固步自封。看看星际和平公司的效率，我们还能等吗？<br />……<br /> <br /><b>卷名：</b>玉阙政行敕令纪要星历████年未字██号其三<br /><b>纲要：</b>玉阙航路<br /><b>咨请内容：</b>太卜司卜算，巡游既往之路线，危险系数低，收益稳定。沿古代航路持续勘探，不可控因素较多，正逢银河激变之时，或引动灾殃……<br /><b>审批人：爻光</b><br /><b>意见：</b>沿古代航路勘探。玉兆技术不是白发展的，如今演算精度提高，足以预见灾祸。以星际贸易来看，足以使玉阙岁入再创新高，以宇宙形势来看，银河千古之变局将至，不能再走老路。如有可能的话，注意寻找和「开拓」、「智识」交汇的机会。<br />……<br /> <br /><b>卷名：</b>仙舟联盟政行敕令纪要星历████年卯字██号其七<br /><b>纲要：</b>关于罗浮「建木之乱」疑犯的处置<br /><b>咨请人：爻光</b><br /><b>咨请内容：</b>…罗刹、镜流在罗浮引动大乱，恐怕并非只为将星核送入仙舟。经十方光映法界卜算，二人身上仍有足以牵引仙舟命运之秘，望将此二人送往玉阙审问。若能抓住此重大变数，也许能够成为制胜的重要一棋。此事并非万无一失，但我愿以将军之位担保……<br /><b>审批人：华</b><br /><b>意见：</b>准。<br />……<br /> <br />当走到命运的十字路口，她总会回头看看那些关键的决策——是它们铸就了玉阙如今的繁荣，也是它们将玉阙带往了另一种命运。<br />难道她的手不曾颤抖么？她无数次扪心自问。每一次在外人看来随心而巧妙的拨弄，另一端都是无数仙舟民众的未来。<br />一直以来，她走在随时可能倾倒的钢丝之上，但她不能回头，亦不能停下——<br /> <br />一如那个九死一生的开始。<br /> <br /><align=\"right\">——卦曰 ：君子终日乾乾，夕惕若厉。</align>",
+   "unlockRequirement": "角色等级<nobr>60</nobr>解锁"
+  },
+  {
+   "title": "角色故事·四",
+   "text": "「天威煌煌，化而为矢；天雷九重，涤筋荡骨。」<br />极尽威严，仿佛震动全身骨骼的声音，在意识的最深处响彻。历经「天虹封典」，她仍需跨越最后的试炼，方能真正执掌符节，以「将军」为号。<br /> <br />「第一箭，穰灾破秽！」<br />即便是在唯有意识的法界内，她仍觉汗毛倒竖，一股前所未有的警兆如电流般刺痛神经。她凝神观测方位，口中呢喃爻辞——<br />「天雷」猛然落下，法界如濒临毁灭的星球，发出可怕的震颤。她堪堪躲过了这一箭，只差毫厘，她便将化为乌有。<br /> <br />「第二箭，诛战无盖！」<br />劫难仍在继续，丝毫不给喘息之机。她竭尽生平所学，推演方位——这一次，她仍是妙入毫颠地避开了一箭。<br /> <br />「第三箭！」<br />「第四箭！」<br />…………<br />「第七箭！」<br />她如同翻腾大江中的孤舟，亦如荆棘海中的蝴蝶，唯一能仰仗着不让自己跌倒的，只有她洞察未来的眼睛。<br />但精神渐趋涣散，脚下愈发迟缓……她逐渐力不从心。<br /> <br />「第八箭，逆吾者凶！」<br /> <br />「我躲不开了……」<br />她听见自己的绝望。为山九仞，功亏一篑…死亡和失败的阴影蒙上双眸，而帝弓无情的雷霆已然高悬。<br /> <br />她仰头望着那即将降临的天雷，忽然想起了遥远的过去，师傅为她卜算的一卦，与那个雷声大作的晴天。<br />「如果躲不开的话，不妨安心享受这难得一见的奇景吧！」<br />她听见年少的自己如此说着。<br />第八道天雷于此时落在她身边，冲击抚动了她的发丝，但她岿然不动。<br /> <br />第九箭没有落下，威严的声音告诉她，她已然通过了试炼。<br /> <br />时至今日，她仍不知道——那最后的天雷，是否将在未至的某刻，倏然降下。<br />但在她启程向二相乐园之际，她已不再在乎。<br /><align=\"right\">——卦曰 ：或跃在渊，无咎。</align>",
+   "unlockRequirement": "角色等级<nobr>80</nobr>解锁"
+  }
+ ],
+ "archive": {
+  "cvCn": "秦紫翼",
+  "cvJp": "花澤香菜",
+  "cvKr": "이슬",
+  "cvEn": "Ari Thrash",
+  "camp": "仙舟「玉阙」"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "1581237": 2,
+    "1832749": 1,
+    "1864357": 1
+   },
+   "5": {
+    "1607016": 2,
+    "1832749": 1,
+    "1889946": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
+ "name": "爻光",
+ "rarity": 5,
+ "descHash": "神秘，大胆，激进，求变之举令人瞠目结舌。 以巡猎之「眼」遍观吉凶，明知天意难违，「戎韬将军」仍旧孤身涉险。 这一支下下签，如何能够改运换天？",
+ "artPath": "dfb73012737ee8823b1619956c70972443dffaf525a003d23cf9a35f6415a137",
+ "miniIconPath": "d83baad6bc00b0a4d9a97db0f66f8c72ce98d182e2342ca5dbfd20fef9c55cfe",
+ "damageType": {
+  "id": 1,
+  "iconPath": "fc6c9fc2a7b462613ce59b29974d45a4b4fae29eaf89c36e4370b6d48e640a03",
+  "color": "#FFFFFF",
+  "name": "物理",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "altIconPath": "4f597f2987a61bcca46d52084166b29212ceb2f53048c11900968bea64b8a0c3",
+  "color": "#FFFFFF",
+  "name": "欢愉",
+  "rarity": 0
+ },
+ "pageId": "yaoguang"
+}

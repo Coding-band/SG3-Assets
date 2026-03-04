@@ -1368,7 +1368,7 @@
   },
   {
    "tagHash": "AoE",
-   "descHash": "When using Skill, summons \"Fuyuan,\" with an initial SPD of <nobr>#1[i]</nobr> and an initial action count of <nobr>#7[i]</nobr>.<br />When taking action, \"Fuyuan\" launches <u>Follow-up ATK</u>, dealing <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Lingsha's ATK to all enemies. Additionally deals <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#8[i]%</nobr></span> of Lingsha's ATK to one random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and <span style=\"color:#F84F36;\">Fire </span>Weakness. Dispels <nobr>#6[i]</nobr> <u>debuff(s)</u> from all allies and restores HP equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> of Lingsha's ATK plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>.<br />\"Fuyuan's\" action count can accumulate up to <nobr>#5[i]</nobr>. When the action count reaches 0 or when Lingsha is <u>knocked down</u>, \"Fuyuan\" disappears.<br />While \"Fuyuan\" is on the field, using Skill can increase \"Fuyuan's\" action count by <nobr>#7[i]</nobr>.",
+   "descHash": "When using Skill, summons \"Fuyuan,\" with an initial SPD of <nobr>#1[i]</nobr> and an initial action count of <nobr>#7[i]</nobr>.<br />When taking action, \"Fuyuan\" launches <u>Follow-Up ATK</u>, dealing <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Lingsha's ATK to all enemies. Additionally deals <span style=\"color:#F84F36;\">Fire </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#8[i]%</nobr></span> of Lingsha's ATK to one random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and <span style=\"color:#F84F36;\">Fire </span>Weakness. Dispels <nobr>#6[i]</nobr> <u>debuff(s)</u> from all allies and restores HP equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> of Lingsha's ATK plus <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#4[i]</nobr></span>.<br />\"Fuyuan's\" action count can accumulate up to <nobr>#5[i]</nobr>. When the action count reaches 0 or when Lingsha is <u>knocked down</u>, \"Fuyuan\" disappears.<br />While \"Fuyuan\" is on the field, using Skill can increase \"Fuyuan's\" action count by <nobr>#7[i]</nobr>.",
    "ultimateCost": 0,
    "break": "30/hit",
    "energy": "0",
@@ -1748,7 +1748,7 @@
   },
   {
    "tagHash": "Single Target",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -2167,7 +2167,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "While \"Fuyuan\" is on the field and any ally character takes DMG or consumes HP, if a character in the team has their current HP percentage lower than or equal to <nobr>#1[i]%</nobr>, \"Fuyuan\" will immediately launch the Talent's <u>Follow-up ATK</u> against enemies. This does not consume Fuyuan's action count. This effect can trigger again after <nobr>#2[i]</nobr> turn(s).",
+    "descHash": "While \"Fuyuan\" is on the field and any ally character takes DMG or consumes HP, if a character in the team has their current HP percentage lower than or equal to <nobr>#1[i]%</nobr>, \"Fuyuan\" will immediately launch the Talent's <u>Follow-Up ATK</u> against enemies. This does not consume Fuyuan's action count. This effect can trigger again after <nobr>#2[i]</nobr> turn(s).",
     "ultimateCost": 0,
     "id": 383373,
     "name": "Ember's Echo",

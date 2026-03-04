@@ -1,0 +1,525 @@
+{
+ "name": "Lágrima Persistente",
+ "rarity": 3,
+ "descHash": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino.<br /><br />\"O mais profundo sofrimento não derrama lágrimas, assim como a alegria e a dor supremas são uma só.\"",
+ "iconPath": "b49fbaebd3885b8051587847c1c709497571c3ad80cefc405fe9f466bd5fb8f8",
+ "artPath": "939adade903b103b88e7affbda201316fd4e0a011fbae37ab067bc71958908b4",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRsgBAABXRUJQVlA4ILwBAACwCACdASoUABwAPm0ukkWkIqGYBABABsS2AE6ZcbqD3Rxq/Ez9cDTAN5J8kAwGUyjxxfRvsDCoZA7IZ3ZrkvprTHm43927QQ+zCEXkYeAA/q2b1u687wRjMGBOgLBXEfKH2qzQ2sw5e426beuSU+LtBeNntC63RlG79IX2YNMKCLxrNQZJGX7zGxcyNIJffMsRidns3zALcDwaUCDA8MVky6v2pX6SbPyZr4LUcDpuBdOQeNv7l1C4V2He5mS/Kwyh9wNxvtycD/7jaVrH1LFBoKhxwIgIp98PdRhIEWMst9FFjqmMrBT8NB9B/+LiOmaelcFSAbwvtFH6D0do/aKA3EH48gIW5G8p1gt+yPGupuFUR8VTgdb1eyBmEmqf+flP1/NwtJhfOjKPGdrifXcMTskpdYRYppWhObyzW5V7e35bl1fVpxLOsef0U74XBPseiPN0mNIyjsxziShXDZFJWWyqL/BxxkG09a7IJteHJRKDGDr99Uvw6D3m/X3R6IBRCOod+tFEx92z8ZU6dp0aAFZ9FVT1/OOgyXzbqfh9B97ebOfwySll9gkv7Wvxl8OANqk4nYiHtxgAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "e9b05ca60181bd430a3fa50aa58f050c49644995bfcb62579ae91709ad3548c2",
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "color": "#FFFFFF",
+  "name": "A Euforia",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédito",
+   "desc": "Esta moeda, usada pela Corporação da Paz Interastral para acertar contas com seus clientes, agora é amplamente aceita como moeda para viagens espaciais.",
+   "lore": "\"As pessoas lutam e negociam tanto apenas por números em um terminal, mas o que é precioso de verdade não pode ser comprado.\"",
+   "purpose": "Moeda Comum",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Cálice: Grande Mina",
+    "Cálice: Comissão de Artesanato",
+    "Cálice: Devaneio (Mundonírico)",
+    "Cálice: \"Floresta dos Murmúrios\" do Bosque da Epifania",
+    "Recompensas de Missão",
+    "Recompensas de Atribuição",
+    "Troca de Brasas"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Éter Refinado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>6000</nobr> de EXP de Cone de Luz.",
+   "lore": "Uma lata de éter que foi extraída e destilada usando procedimentos especiais.<br /><br />\"O Jardim espera poder recriar uma glória do passado, mas é uma 'glória do passado' selecionada por eles. Você entende?\"",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Cálice: \"Ruínas do Conflito\" de Castrum Kremnos",
+    "Salão Esquecido"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Éter Condensado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>2.000</nobr> de EXP de Cone de Luz.",
+   "lore": "Lata de éter refinado com técnicas especiais.<br /><br />\"Manuseie com cuidado, não deixe cair nem faça pressão sobre ela. Caso ocorra algum vazamento, consulte o capítulo II do \"Manual de Respostas a Desastres de Vazamentos\" para respostas de emergência.\"",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Cálice: \"Ruínas do Conflito\" de Castrum Kremnos",
+    "Troca de Brasas"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Éter Espalhado",
+   "desc": "Material de aprimoramento para Cones de Luz. É possível obter <nobr>500</nobr> de EXP de Cone de Luz.",
+   "lore": "Substância imaginária que não deveria existir. O material básico usado para criar Cones de Luz.<br />As imagens dos Cones de Luz se tornam ainda mais claras quando imbuídas dessa substância.<br /><br />\"Entendi, então essa é a suposta 'memória' do Jardim da Recordação. É por isso que os Memoriadores conseguem fazer viagens galácticas com lembranças\".",
+   "purpose": "Material de EXP de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Cálice: Passagem do Remanso",
+    "Cálice: Comissão de Divinação",
+    "Cálice: Sonho de Uma Criança",
+    "Cálice: \"Ruínas do Conflito\" de Castrum Kremnos",
+    "Recompensas de Atribuição"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "Edição Comemorativa de Serialização de \"Fofurinha\"",
+   "desc": "\"Fofurinha Através do Azul\" atualmente em lançamento de revista. Aumenta moderadamente os Rastros de personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Euforia</span>.",
+   "lore": "Dizem os rumores que um vencedor dos Jogos da Lua Fantasma uma vez acelerou o tempo, deixando todos os artistas em Planarcadia incapazes de cumprir seus prazos, exceto QRoz. Isso é claramente só uma história sensacionalista, e é muito capaz que ela tenha sido escrita por QRoz pessoalmente.<br /><br />\"Eu nasci desenhando tão bem quanto a Graphia, mas eu demorei uma vida inteira para aprender como desenhar tão rápido quanto um Dragomotivo.\" - QRoz durante uma entrevista online.",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "Sintetizador - Troca Equivalente",
+    "Cálice: {TextID#FloorName_20502001}",
+    "Sintetizador Omni — Síntese de Material",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "Edição de Colecionador de \"Fofurinha\"",
+   "desc": "\"Fofurinha Através do Azul\", agora em volumes autônomos publicados. Aumenta muito os Rastros de personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Euforia</span>.",
+   "lore": "A faixa ao redor do livro está lotada de avaliações brilhantes de ícones cósmicos como Pearl, Jade, Aventurine, Topaz, Ratio, Jing Yuan, Feixiao, Huaiyan, Yao Guang, Hua, Kafka, Robin, Arita, Schneider, Duque Inferno, Hoolay, Ryusuke, Sparkle, Sparxie e Desbravador/Desbravadora. Elsa eventualmente perdeu uma fortuna em processos por \"forjar recomendações e propaganda falsa\".<br /><br />\"Conselheiro Sombrinho, essas celebridades insignificantes estão todas se juntando para me processar. Eu posso te contratar como minha defesa?\"<br />\"Hahaha, você é engraçada. Mas eu gostaria bastante de continuar vivo, obrigado.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "Sintetizador - Troca Equivalente",
+    "Cálice: {TextID#FloorName_20502001}",
+    "Sintetizador Omni — Síntese de Material",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "Storyboards de \"Fofurinha\" Desenhados à Mão",
+   "desc": "\"Fofurinha Através do Azul\" em seu estágio de storyboard. Aumenta levemente os Rastros de personagens da <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Euforia</span>.",
+   "lore": "Elsa é uma artista incrivelmente rápida e é capaz de desenhar o trabalho de um mês inteiro em um único dia. Mas nunca o faz, alegando que precisa \"garantir a qualidade\", apesar de que provavelmente só tem alergia a trabalho.<br /><br />\"É tão estranho... como é que podem existir tantos manuscritos idênticos de 'Fofurinha' no mundo, e cada um deles ainda ser claramente um original? Será que a Elsa está vendendo essas coisas para fazer uma graninha rápida?\"<br />\"De jeito nenhum! A Elsa só é extremamente perfeccionista e desenha todas as páginas dez vezes até ela ficar perfeita.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Cone de Luz",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "Sintetizador - Troca Equivalente",
+    "Cálice: {TextID#FloorName_20502001}",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "Punção Lúcida",
+   "desc": "Um fragmento de Imaginouro de uma criatura imaginada. Um Material Avançado usado para Aprimoramento.",
+   "lore": "Todas as histórias que são dignas de serem levadas em consideração compartilham o mesmo tema: \"Como viver a vida que nos foi dada.\"<br />A vida é tão curta que até mesmo os maiores sábios são subitamente jogados nesse mundo, forçados a vivenciar uma vida inteira sem preparação alguma. É por isso que ninguém vive uma vida perfeita. Sempre existem arrependimentos, momentos sempre são desperdiçados.<br />Mas por sorte, nós temos histórias. Nas histórias, os criadores e leitores compartilham uma vida diferente. Nas histórias, a experiência é continuamente estendida. E nas histórias, nós conseguimos alcançar a imortalidade de dentro de nossas jaulas finitas.<br /><br />\"Com as histórias, nós somos capazes de viver mil vidas.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "Obtido de criaturas Imagenae no Nível de Equilíbrio 4",
+    "Sintetizador Omni — Síntese de Material",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "Cera Caprichosa",
+   "desc": "Um fragmento de Imaginouro de uma criatura imagenada. Um material bruto usado para Aprimoramento.",
+   "lore": "Na natureza primordial, uma mãe perguntou ao seu filho \"Você quebrou a cumbuca do seu pai?\" A criança respondeu, \"Não, deve ter sido outra pessoa.\"<br />\"Ninguém mais jamais entrou nessa caverna\", disse a mãe. \"Se não foi você, então deve ter sido eu.\" A criança continuou, \"Um gremlin, foi um gremlin. Eu vi com meus próprios olhos, mas só crianças conseguem ver eles, por isso que você não viu.\"<br />A mãe riu. \"Tudo bem, mas por que um gremlin quebraria a cumbuca do seu pai?\" A criança disse calmamente, \"O pai provavelmente pisou no ninho dele. Adultos não conseguem ver os gremlins, então vocês tão sempre quebrando as casas deles.\"<br />Se essa conversa realmente aconteceu é irrelevante. A verdade que ela contém é inegável: as primeiras histórias nasceram da imaginação de uma criança.<br />Por bilhões de anos desde então, aquelas mesmas fantasias continuaram a mudar o mundo.<br /><br />\"Com histórias, nós fomos capazes de escapar da realidade.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "Obtido de criaturas Imagenae",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Recompensas de Atribuição",
+    "Troca de Brasas",
+    "Sintetizador Omni — Troca de Material",
+    "Cálice (Dourado)"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "Aço Tece-Sonhos",
+   "desc": "Um fragmento de Imaginouro de uma criatura imaginada. Um material normal usado para Aprimoramento.",
+   "lore": "Você se lembra da velha história? Um oficial apontou para uma pintura que expunha suas atrocidades e perguntou: \"Você pintou isso?\"<br />O artista sorriu e respondeu: \"Não, você pintou.\"<br />Arte que tenta representar a realidade não pode simplesmente copiá-la. A superfície rasa da realidade nunca pode capturar sua essência profunda e intangível.<br />Considere um soldado caído. Se você pintar apenas sua aparência, ele é só mais um rosto entre os mortos. Mas se você olhar além da superfície para encontrar a honra invisível, coragem, raiva e arrependimento, é aí que você realmente alcança a realidade dele.<br />Apenas então as pessoas saberão que este soldado não era apenas mais uma estatística. Esse era alguém que no passado trouxe o pulso da vida para as montanhas, para as águas e para os lares que ele deixou para trás.<br /><br />\"Com histórias, nós somos capazes de lutar contra o mal.\"",
+   "purpose": "Material de Rastros<br />Material de Ascensão de Personagem",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "Obtido de criaturas Imagenae no Nível de Equilíbrio 2",
+    "Sintetizador Omni — Síntese de Material",
+    "Inimigos do Universo Divergente",
+    "Inimigos do Universo Simulado",
+    "Sintetizador Omni — Troca de Material"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3000
+    },
+    {
+     "id": 19623238,
+     "count": 4
+    }
+   ],
+   "attackBase": 14.4,
+   "attackAdd": 2.16,
+   "hpBase": 38.4,
+   "hpAdd": 5.76,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6000
+    },
+    {
+     "id": 13618289,
+     "count": 2
+    },
+    {
+     "id": 19623238,
+     "count": 8
+    }
+   ],
+   "attackBase": 31.68,
+   "attackAdd": 2.16,
+   "hpBase": 84.48,
+   "hpAdd": 5.76,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12000
+    },
+    {
+     "id": 13251172,
+     "count": 2
+    },
+    {
+     "id": 19865384,
+     "count": 4
+    }
+   ],
+   "attackBase": 54.72,
+   "attackAdd": 2.16,
+   "hpBase": 145.92,
+   "hpAdd": 5.76,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 30000
+    },
+    {
+     "id": 13251172,
+     "count": 4
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    }
+   ],
+   "attackBase": 77.76,
+   "attackAdd": 2.16,
+   "hpBase": 207.36,
+   "hpAdd": 5.76,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 60000
+    },
+    {
+     "id": 13525398,
+     "count": 3
+    },
+    {
+     "id": 19581247,
+     "count": 3
+    }
+   ],
+   "attackBase": 100.8,
+   "attackAdd": 2.16,
+   "hpBase": 268.8,
+   "hpAdd": 5.76,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 120000
+    },
+    {
+     "id": 13525398,
+     "count": 6
+    },
+    {
+     "id": 19581247,
+     "count": 5
+    }
+   ],
+   "attackBase": 123.84,
+   "attackAdd": 2.16,
+   "hpBase": 330.24,
+   "hpAdd": 5.76,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 146.88,
+   "attackAdd": 2.16,
+   "hpBase": 391.68,
+   "hpAdd": 5.76,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 20024,
+  "name": "Luto",
+  "descHash": "Quando possuir <nobr>#1[i]</nobr> ponto(s) de \"Piada\" ou mais, o Dano CRIT do usuário aumenta em <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>.",
+  "levelData": [
+   {
+    "params": [
+     10,
+     0.2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.25
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.3
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.35
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.4
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 40,
+   "2": 60,
+   "3": 100,
+   "4": 160,
+   "5": 220,
+   "6": 300,
+   "7": 380,
+   "8": 480,
+   "9": 580,
+   "10": 700,
+   "11": 820,
+   "12": 950,
+   "13": 1090,
+   "14": 1240,
+   "15": 1390,
+   "16": 1560,
+   "17": 1730,
+   "18": 1910,
+   "19": 2090,
+   "20": 2170,
+   "21": 2260,
+   "22": 2350,
+   "23": 2430,
+   "24": 2520,
+   "25": 2620,
+   "26": 2710,
+   "27": 2800,
+   "28": 2900,
+   "29": 2990,
+   "30": 3100,
+   "31": 3200,
+   "32": 3300,
+   "33": 3400,
+   "34": 3510,
+   "35": 3620,
+   "36": 3730,
+   "37": 3830,
+   "38": 3950,
+   "39": 4060,
+   "40": 4170,
+   "41": 4580,
+   "42": 4840,
+   "43": 5110,
+   "44": 5380,
+   "45": 5660,
+   "46": 5950,
+   "47": 6230,
+   "48": 6530,
+   "49": 6830,
+   "50": 7140,
+   "51": 7450,
+   "52": 7760,
+   "53": 8090,
+   "54": 8410,
+   "55": 8750,
+   "56": 9080,
+   "57": 9430,
+   "58": 9770,
+   "59": 10130,
+   "60": 10480,
+   "61": 10970,
+   "62": 11560,
+   "63": 12160,
+   "64": 12760,
+   "65": 13370,
+   "66": 13990,
+   "67": 14620,
+   "68": 15260,
+   "69": 15910,
+   "70": 16570,
+   "71": 18490,
+   "72": 20230,
+   "73": 22000,
+   "74": 23790,
+   "75": 25610,
+   "76": 27450,
+   "77": 29320,
+   "78": 31220,
+   "79": 33140,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "20024"
+}

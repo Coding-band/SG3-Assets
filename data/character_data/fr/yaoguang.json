@@ -1,0 +1,3293 @@
+{
+ "spRequirement": 180,
+ "iconPath": "aaa237a701ba36db5ff2756cff062e75dc26d560e93da208c14c92914c4dd4d1",
+ "bgPath": "690a3c988520569687fd88f76812d8ee4089282d975e401eb8b2480c825f6a0a",
+ "figPath": "b4191152ec7ff9d62aaf9e94e5e63ebbd78af2e5064e66135714c56c55767410",
+ "fgPath": "",
+ "splashIconPath": "5afbef6687a3feb0368caeb95e412068abc307c8d01b1624b3f8ea05c579444b",
+ "splashPlaceholder": {
+  "data": "data:image/webp;base64,UklGRugCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSCkBAAABkHNb27G50s8ztm0rtl1nTRfbtiqbXUrbRjf9dLFt22+e+ypGETEBNAwJAQfg8mgYQqOx0GvRoM5jceCgtm1JLUOWLP8gHY9tQMHgut8bkuP2KPCBNDMMaFf/U8/396rTH5kFOgaQ/k732/S/837FU3nTjS8LCYHzWtb7x98/H03mdau6DOCQlp3Vf0km89o6b0UBmaf1/L68mclMXtLHTpTvlLxMZqZ38+tf/zzcKpRp+mUyycw0cdi47eUQv1uSSWby/v6SqIh4IHbm6dcyMwX6O2LlMAAHCxWYycvO9pjRmxAgeWzVF0n/9HBWxy6ROAih+5tRT/Tzt97HxG/oQCgNI+9JV6br8sRRO/rgaOhou3phq7YbUzoPjKLFDghphgvB4QgJoUkAVlA4IJgBAAAQCgCdASoUABQAPm0ylUekIqIhKAgAgA2JbACdMoR155zxQbhvYQ1f4d3gHPAaY76AHlb+xJ+4/pAFMf8Xf0hqLv6kh4zTzMHFCW5X671Wpa0bAsEjIJyZAAD9UvM8YGlQAC+jn9avswzxwnBOlG18knkvgaK6qGl3cM1ZZLmbh3X0hVCyGWZk+BC9oELU0vT6f39r8eH9f5Ah3Xzn7x+oRs8QaNc63x2t1chjfDO1Vum8H8ljbuu2FkeVO/RFmwfkIejWYqJ4BN2rjG+AJ1v/Xa6SQPuDit6WDZb7PT8krVjxNVn1VunKtkbUfcqHj8NtWQALS4HFub52FrQc6WD35t/VC1JR0h6aJn+3Up+YGOXSUxqoc7QB8G7mPLJ0OQHaGMWp2BcM90FrWUAhyv/hAXe102VeZYOmPJ7m2g6B/FcW6VFS0a62Obgxbqs31JRQuTDzJsvz9wlIyvtnv3/0pcJ1CkB+/+hv/mKppD89jS4Q9ELRr8MUVb01JiiG2PVdZ8x8OU4IfrawAve+kgmpVKs7+ZQYAAA=",
+  "w": 2048,
+  "h": 2048
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 9,
+  "iconPath": "c7e3f58ceb3cbc3471fe4fee296211256a9c2788d1eaeac83b18bce5ebbf0494",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Crédits",
+   "desc": "Cette monnaie, utilisée par la Corporation pour la Paix Interastrale pour les échanges commerciaux avec ses clients, est désormais largement acceptée comme devise lors des voyages spatiaux.",
+   "lore": "« Les gens se battent et négocient pour des numéros à un terminal, mais les choses les plus précieuses ne s'achètent pas. »",
+   "purpose": "Monnaie ordinaire",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calice de la Grande mine",
+    "Calice de la Commission de l'artisanat",
+    "Calice de l'Hôtel Rêverie du Pays des rêves",
+    "Calice du Bosquet de l'épiphanie, le Bois des murmures",
+    "Récompense de mission",
+    "Récompense d'affectation",
+    "Échange de braises immortelles"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "1faeac3cd0e3235dd5c4d7f88c0348be236c9db3d6f01c54cf1af28636a02a00",
+   "name": "Voies de la destinée",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "La victoire s'acquiert au terme de nombreux échecs, et chaque pas conduit à l'instant décisif.",
+   "purpose": "Matériau de Trace",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Récompenses de points de Guerres des monnaies",
+    "Récompenses de points de l'Univers simulé",
+    "Honneur des Sans Noms",
+    "Échange de braises immortelles",
+    "Lumières d'étoile",
+    "Récompense d'événement à durée limitée"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "64e60a11d852e9486527315fd5dbd93e76f510b6bd0538b927b16bfb188bda62",
+   "name": "Guide du voyageur",
+   "desc": "Matériau d'EXP de personnage. Confère <nobr>20</nobr> <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Lecture indispensable à l'exploration des mondes. Appuyez sur le bouton de lecture pour activer une voix agréable, dans une langue de votre choix qui vous racontera les rencontres légendaires d'aventuriers de renom à travers différents mondes, ainsi que la sagesse précieuse et les connaissances qui en découlent.<br /><br />« La nouvelle série du Guide du voyageur, \"Le manuel du chef de la cuisine galactique\" est désormais disponible en magasin. »<br />« Pour toute question, connectez-vous à la balise de synesthésie ERD<nobr>-23</nobr>θ et contactez un représentant de la Guilde de l'intelligentsia. Facilités de paiement disponibles. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Salle oubliée"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "bace343f74527b604cf5037157a01121ca2075f0d381673d58825aa8871d23b2",
+   "name": "Journal d'aventure",
+   "desc": "Matériau d'EXP de personnage. Confère 5 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un ensemble bien classé de notes d'aventure édifiantes, avec d'innombrables illustrations et commentaires exhaustifs, sans oublier de précieuses informations relatives à des techniques de survie.<br /><br />« Pourquoi ne pas les numériser et les sauvegarder sur un disque photolithique ? Ce serait tellement plus pratique. »<br />« La technologie de pointe est bien plus fragile qu'on ne le pense face aux tempêtes stellaires et aux éruptions de flux neuronaux. Et puis, l'auteur voulait sûrement que la lecture soit la plus simple possible. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Entraînement quotidien",
+    "Échange de braises immortelles"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 651,
+   "purposeId": 1,
+   "iconPath": "5b6df114010e87eb36fe9583af069826960af2730455a03b5379093a4a9e5aca",
+   "name": "Rencontres de voyage",
+   "desc": "Matériau d'EXP de personnage. Confère 1 <nobr>000</nobr> points d'EXP de personnage.",
+   "lore": "Un carnet de voyage parsemé de commentaires et de contenus divers griffonnés. Il ne vous sera pas très utile.<br /><br />« Dan Heng, dépêche-toi de lire ça pour t'en débarrasser. »",
+   "purpose": "Matériau d'EXP de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calice des Plaines des neiges périphériques",
+    "Calice de Passenuage",
+    "Calice de la Frontière des rêves",
+    "Calice de Janusopolis, le Sanctuaire de la prophétie",
+    "Récompense d'affectation"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "Toudoux : Numéro anniversaire",
+   "desc": "Toudoux à travers les cieux, actuellement publié au format épisodique dans un magazine. Permet d'améliorer modérément les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Allégresse</span>.",
+   "lore": "La rumeur veut qu'un gagnant des Jeux Fabulunaires aurait un jour accéléré le temps, empêchant tous les artistes de Planarcadia de respecter leurs délais... à l'exception de Scanasson. Clairement, il ne s'agit que d'un article sensationnel. Et connaissant Scanasson, elle l'a probablement écrit elle-même.<br /><br />« Je suis née en dessinant aussi bien que Graphia, mais il m'a fallu toute une vie pour apprendre à dessiner aussi vite qu'un Serpentes Express. » — Scanasson, lors d'une interview en ligne",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "Échange équivalent de l'Omni-synthétiseur",
+    "Calice de la {TextID#FloorName_20502001}",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "13392580": {
+   "id": 13392580,
+   "type": 654,
+   "purposeId": 4,
+   "iconPath": "bc4dd9f8187a79bff189b805d1e109435214b67fc65292d320cdf4dc355b3975",
+   "name": "Mutisme de l'unicité",
+   "desc": "Matériau avancé d'amélioration de Traces.",
+   "lore": "Nul ne se souvenait du moment soudain où l'univers se tut. La voix des pensées se dissout. Toutes les formes furent reconnues comme des pixels identiques, capturées par la toile anti-mémorielle pour se transformer en une extrapolation singulière.<br />Jusqu'à ce qu'il ne cesse de « parler ».<br /><br />« Noyau▀▄verdict▀▄█boucle▄█▀entité▄moi▀▄ »",
+   "purpose": "Matériau de Trace",
+   "rarity": 4,
+   "rewardPath": "/material/13392580",
+   "comeFrom": [
+    "Écho de la guerre : {TextID#FloorName_20481001}"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "Toudoux : Édition collector",
+   "desc": "Toudoux à travers les cieux, désormais disponible en relié dans une édition spéciale. Permet d'améliorer considérablement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Allégresse</span>.",
+   "lore": "Le bandeau du livre regorge de critiques élogieuses d'icônes cosmiques telles que Perle, Jade, Aventurine, Topaz, Dr Ratio, Jing Yuan, Feixiao, Huaiyan, Yao Guang, Hua, Kafka, Robin, Arita, Schneider, le Duc infernal, Hoolay, Ryusuke, Sparkle, Sparxie et Pionnier/Pionnière. Scanasson a finalement perdu une fortune dans des procès pour « usurpation d'identité et publicité mensongère ».<br /><br />« Monsieur Pluipara, toutes ces petites célébrités se liguent contre moi pour me poursuivre en justice. Puis-je vous engager comme avocat pour me défendre ?<br />— Hahaha. Vous êtes une marrante, vous. Mais j'aimerais bien rester en vie, merci. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "Échange équivalent de l'Omni-synthétiseur",
+    "Calice de la {TextID#FloorName_20502001}",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "Planches Toudoux dessinées à la main",
+   "desc": "Premières esquisses de l'histoire Toudoux à travers les cieux. Permet d'améliorer légèrement les Traces des personnages de l'<span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Allégresse</span>.",
+   "lore": "Scanasson est une artiste incroyablement rapide, capable de dessiner l'équivalent d'un mois de travail en une seule journée. Mais elle ne le fait jamais, prétextant qu'elle doit « garantir un travail de qualité », alors qu'elle est probablement juste allergique au travail.<br /><br />« C'est super bizarre... pourquoi il y a autant de manuscrits identiques de \"Toudoux\" ? En plus, ce ne sont clairement pas des copies. Est-ce que Scanasson les vend pour se faire un peu d'argent ?<br />— Impossible ! Scanasson est juste une perfectionniste qui dessine <nobr>10</nobr> fois la même page jusqu'à ce qu'elle soit parfaite. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de cône de lumière",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "Échange équivalent de l'Omni-synthétiseur",
+    "Calice de la {TextID#FloorName_20502001}",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "Pinceau lucide",
+   "desc": "Un fragment de Souhaissence provenant d'une créature imagénérée. Matériau avancé utilisé pour le renforcement.",
+   "lore": "Chaque histoire digne d'intérêt partage le même thème : « Comment vivre l'unique vie qui nous est donnée. »<br />La vie est fugace. Même les plus grands sages sont soudainement jetés dans ce monde, contraints de traverser leur existence sans la moindre préparation. C'est pourquoi nul ne mène jamais une vie parfaite. Il restera toujours des regrets, des moments gâchés.<br />Mais heureusement, nous avons les histoires. Dans les histoires, créateurs et lecteurs partagent une autre vie. Dans les histoires, l'expérience humaine s'étend sans cesse. Et dans les histoires, nous pouvons atteindre l'immortalité depuis nos cages étroites.<br /><br />« Avec les histoires, nous pouvons vivre mille vies. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "Créatures imagénérées niveau d'équilibre 4 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "Cire fantaisiste",
+   "desc": "Un fragment de Souhaissence provenant d'une créature imagénérée. Matériau commun utilisé pour le renforcement.",
+   "lore": "Dans les contrées sauvages primitives, une mère demanda à son enfant : « As-tu cassé l'arc de ton père ?<br />— Non, c'est quelqu'un d'autre, répondit l'enfant.<br />— Personne d'autre n'a jamais mis les pieds dans cette grotte, dit la mère. Si ce n'est pas toi, alors c'est moi.<br />— C'était un gremlin, continua l'enfant. Je l'ai vu de mes propres yeux, mais seuls les enfants peuvent les voir. C'est pour ça que tu ne l'as pas vu. »<br />La mère rit.<br />« Très bien, mais pourquoi un gremlin casserait-il l'arc de ton père ? »<br /> L'enfant répondit calmement : « Papa a dû marcher sur son nid. Comme les adultes ne voient pas les gremlins, ils détruisent toujours leurs maisons. »<br />La réalité de cette discussion est sans importance. Mais la vérité qu'elle contient est indéniable : les premières histoires sont nées de l'imagination d'un enfant.<br />Depuis des milliards d'années, ces mêmes fantasmes continuent de changer le monde.<br /><br />« Grâce aux histoires, nous pouvons échapper à la réalité. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "Butin des créatures imagénérées",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Récompenses d'affectation",
+    "Échange de braises immortelles",
+    "Échange de matériaux de l'Omni-synthétiseur",
+    "Calice doré"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "Plume tissée de rêves",
+   "desc": "Un fragment de Souhaissence provenant d'une créature imagénérée. Matériau intermédiaire utilisé pour le renforcement.",
+   "lore": "Vous vous souvenez de cette vieille histoire ? Un officier a pointé du doigt un tableau qui dénonçait ses atrocités et a demandé : « En êtes-vous le peintre ? »<br />L'artiste a souri et a répondu : « Non, c'est vous. »<br />L'art qui tente de représenter la réalité ne peut se contenter de la copier. La surface superficielle de la réalité ne peut jamais en saisir l'essence profonde et intangible.<br />Prenons l'exemple d'un soldat tombé au combat. Si on se contente de peindre son portrait, il n'est qu'un visage de plus parmi les morts anonymes. Mais si on regarde au-delà de la surface pour trouver l'honneur, le courage, la rage et les regrets invisibles, on accède alors à sa réalité profonde.<br />Alors seulement, les gens sauront que ce soldat n'était pas une simple statistique. Sa présence avait apporté un souffle de vie aux montagnes, aux eaux et aux foyers laissés derrière lui.<br /><br />« Grâce aux histoires, nous sommes capables de résister au mal. »",
+   "purpose": "Matériau de Trace<br />Matériau d'élévation de personnage",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "Créatures imagénérées niveau d'équilibre 2 ou supérieur",
+    "Synthèse de matériaux de l'Omni-synthétiseur",
+    "Ennemis de l'Univers parallèle",
+    "Ennemis de l'Univers simulé",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  },
+  "29937571": {
+   "id": 29937571,
+   "type": 652,
+   "purposeId": 2,
+   "iconPath": "e914aa6c1c3cceed1fe5912f35f1d439d662aec5699654e8ff682bf2010c1c74",
+   "name": "Caillot invasif",
+   "desc": "Noyau cristallin des créatures de la Marée noire. Permet l'élévation des personnages de type physique.",
+   "lore": "À vrai dire, les adeptes de la Marée noire se présentent sous bien des formes et se distinguent par leurs cristaux. Mais peu de gens savent que ce noyau n'est en réalité que l'enveloppe extérieure.<br /><br />« J'ai vu un océan de cristaux... puis, le sourire apaisé d'un médecin. »",
+   "purpose": "Matériau d'élévation de personnage",
+   "rarity": 4,
+   "rewardPath": "/material/29937571",
+   "comeFrom": [
+    "Ombre stagnante de la Cité draconique de Styxie",
+    "Échange de matériaux de l'Omni-synthétiseur"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "attackBase": 63.36,
+   "attackAdd": 3.168,
+   "hpBase": 168.96,
+   "hpAdd": 8.448,
+   "defenseBase": 89.1,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 19623238,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "attackBase": 88.704,
+   "attackAdd": 3.168,
+   "hpBase": 236.544,
+   "hpAdd": 8.448,
+   "defenseBase": 124.74,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 19623238,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "attackBase": 114.048,
+   "attackAdd": 3.168,
+   "hpBase": 304.128,
+   "hpAdd": 8.448,
+   "defenseBase": 160.38,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "attackBase": 139.392,
+   "attackAdd": 3.168,
+   "hpBase": 371.712,
+   "hpAdd": 8.448,
+   "defenseBase": 196.02,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 19865384,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "attackBase": 164.736,
+   "attackAdd": 3.168,
+   "hpBase": 439.296,
+   "hpAdd": 8.448,
+   "defenseBase": 231.66,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 19581247,
+     "count": 6
+    },
+    {
+     "id": 29937571,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "attackBase": 190.08,
+   "attackAdd": 3.168,
+   "hpBase": 506.88,
+   "hpAdd": 8.448,
+   "defenseBase": 267.3,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 19581247,
+     "count": 9
+    },
+    {
+     "id": 29937571,
+     "count": 35
+    }
+   ]
+  },
+  {
+   "attackBase": 215.424,
+   "attackAdd": 3.168,
+   "hpBase": 574.464,
+   "hpAdd": 8.448,
+   "defenseBase": 302.94,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 101,
+   "speedAdd": 0,
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": []
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "a15ec6f8e7f80b7b6c6c2757677bc4ad60081d15f634bc157aa33ee9fb15c287",
+   "artPath": "cb24322530496f2cf945d0907e5e000e4ff34977dea7199f6d9615309fd92654",
+   "name": "L'éclat de rire du jade",
+   "descHash": "Augmente à <nobr>#2[i]</nobr> la quantité fixe de points de <u>Panache</u> comptabilisés lors du <u>tour supplémentaire</u> d'<u>Aha</u> déclenché par l'ultime. Les <u>comidégâts</u> infligés par toutes les cibles alliées ignorent <nobr>#1[i]%</nobr> de la DÉF de la cible.",
+   "params": [
+    0.2,
+    40
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "b1760d4a47d25845f9f8577106420ca8059f610b53995683f8d80a6973d5b91a",
+   "artPath": "5708c5b35de0f15514b406ff175d47f8006893ef6371fb174f56731270d0c8be",
+   "name": "Vol d'une flèche aveugle",
+   "descHash": "Lorsque la zone est active, augmente la VIT de toutes les cibles alliées de <nobr>#2[i]%</nobr>, et augmente l'Allégresse de <nobr>#1[i]%</nobr> supplémentaires.",
+   "params": [
+    0.16,
+    0.12
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "47033200bb143b520dc5a9d6a7743a7f7c2604caa8c8a1ddc9a03902cae6de21",
+   "artPath": "9bcd35d4e9a6a670b7095a2930ebfc05799a38529293e448043de45f45431d41",
+   "name": "Le cosmos reflété dans les signes",
+   "descHash": "Niv. de la compétence +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. de l'ATQ normale +1, jusqu'au Niv. <nobr>10</nobr> maximum.<br />Niv. de la comicompétence +1, jusqu'au Niv. <nobr>15</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "4af04a18a0439a2454502b36d2a0650740570198ae0ee72ab60fc5617b41d10a",
+   "artPath": "adbe1b34200c12a871a62ff3ed069fcdd1f91cd285ff6853563806353aab85c9",
+   "name": "Plume de couleurs du destin soyeux",
+   "descHash": "Lors du <u>tour supplémentaire</u> d'<u>Aha</u> déclenché par l'ultime de Yao Guang, les DGT infligés par les comicompétences de tous les personnages alliés sont équivalents à <nobr>#1[i]%</nobr> des DGT initiaux.",
+   "params": [
+    1.5
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "a72b6e24293c457fef1025a923830a0b72b2cfe064bdf62c8d897d2015f5ab3e",
+   "artPath": "cc6fe10ec6bd604f342839dc36dc10eb2cc872b2853fe75694d144413c1a3857",
+   "name": "Parée de grâce",
+   "descHash": "Niv. de l'ultime +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. du talent +2, jusqu'au Niv. <nobr>15</nobr> maximum.<br />Niv. de la comicompétence +1, jusqu'au Niv. <nobr>15</nobr> maximum.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "8eb07e8743df7468037e06c1521188fe35d8a21a2516cf74b93e631873017c20",
+   "artPath": "7b9819b470aa674e6797a7b54ee9a5b0d764030acd72ed56aaaf7bfc5d2e71b8",
+   "name": "Traversée sur l'arc irisé",
+   "descHash": "Les <u>comidégâts</u> de toutes les cibles alliées <u>s'égaient</u> de <nobr>#1[i]%</nobr>. Augmente le multiplicateur de DGT de la comicompétence de Yao Guang de <nobr>#2[i]%</nobr> du multiplicateur initial.",
+   "params": [
+    0.25,
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   1864357
+  ],
+  [
+   1581237
+  ],
+  [
+   1889946
+  ],
+  [
+   1607016
+  ],
+  [
+   1908563
+  ],
+  [
+   1832749
+  ]
+ ],
+ "skills": [
+  {
+   "tagHash": "Propagation",
+   "descHash": "Inflige des DGT physiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> de l'ATQ de Yao Guang à un ennemi désigné et des DGT physiques équivalents à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de son ATQ aux cibles adjacentes. Augmente l'énergie régénérée par l'ATQ normale à <nobr>30</nobr>.",
+   "ultimateCost": 0,
+   "break": "30/hit",
+   "energy": "30",
+   "id": 1864357,
+   "name": "Chant de joie des plumes",
+   "iconPath": "61ee7c4d363d456af072c90f8486d790c75a1e8780f976560974789b816153bf",
+   "typeDescHash": "ATQ normale",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.45,
+      0.15
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.54,
+      0.18
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 2
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.63,
+      0.21
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.72,
+      0.24
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 13251172,
+       "count": 3
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.81,
+      0.27
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 3
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.9,
+      0.3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 5
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.99,
+      0.33
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.08,
+      0.36
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.17,
+      0.39
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1.26,
+      0.42
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Soutien",
+   "descHash": "Déploie une zone pour une durée de <nobr>#1[i]</nobr> tours. Cette durée diminue de 1 au début de chaque tour de Yao Guang. Lorsque la zone est active, augmente l'Allégresse de tous les alliés d'un montant équivalent à <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> de l'Allégresse de Yao Guang. Après que Yao Guang a utilisé une ATQ normale ou une compétence, elle gagne <nobr>#3[i]</nobr> points de <u>Panache</u>.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "30",
+   "id": 1581237,
+   "name": "Rayonnement d'omniscience",
+   "iconPath": "47033200bb143b520dc5a9d6a7743a7f7c2604caa8c8a1ddc9a03902cae6de21",
+   "typeDescHash": "Compétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      3,
+      0.1,
+      3
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.11,
+      3
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.12,
+      3
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.13,
+      3
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.14,
+      3
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.15,
+      3
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.1625,
+      3
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.175,
+      3
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.1875,
+      3
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.2,
+      3
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      3,
+      0.21,
+      3
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.22,
+      3
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.23,
+      3
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.24,
+      3
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      3,
+      0.25,
+      3
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Soutien",
+   "descHash": "Accorde <nobr>#1[i]</nobr> points de <u>Panache</u>. <u>Aha</u> obtient immédiatement 1 <u>tour supplémentaire</u> comptabilisé comme un montant fixe de <nobr>#4[i]</nobr> points de <u>Panache</u>. Ce tour ne consomme aucun point de <u>Panache</u> et augmente la <u>PÉN de RÉS</u> à tous les types de tous les alliés de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> pendant <nobr>#3[i]</nobr> tours.",
+   "ultimateCost": 180,
+   "break": "0",
+   "energy": "5",
+   "id": 1889946,
+   "name": "Plumes auspicieuses",
+   "iconPath": "4697b8f14ed488e48d63135d44efa0503483268cee926e28a9f8ccf9455065c2",
+   "typeDescHash": "Ultime",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      5,
+      0.1,
+      3,
+      20,
+      1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.11,
+      3,
+      20,
+      1
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.12,
+      3,
+      20,
+      1
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.13,
+      3,
+      20,
+      1
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.14,
+      3,
+      20,
+      1
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.15,
+      3,
+      20,
+      1
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.1625,
+      3,
+      20,
+      1
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.175,
+      3,
+      20,
+      1
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.1875,
+      3,
+      20,
+      1
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.2,
+      3,
+      20,
+      1
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      5,
+      0.21,
+      3,
+      20,
+      1
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.22,
+      3,
+      20,
+      1
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.23,
+      3,
+      20,
+      1
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.24,
+      3,
+      20,
+      1
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      5,
+      0.25,
+      3,
+      20,
+      1
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Soutien",
+   "descHash": "Lorsque Yao Guang bénéficie de <u>Banger absolu</u>:<br />Après qu'une cible alliée a utilisé une attaque, active l'effet Belle aubaine, infligeant 1 instance supplémentaire de <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> de <u>comidégâts</u> du type correspondant à une cible aléatoire touchée. Si des points de compétence sont consommés lors de cette attaque, active Belle aubaine 1 fois supplémentaire.<br />Lors de l'activation de l'effet Belle aubaine, si l'Allégresse de l'assaillant est inférieure à celle de Yao Guang, cette instance de <u>comidégâts</u> est calculée en fonction de l'Allégresse de Yao Guang.<br />L'activation de l'effet Belle aubaine n'est pas considérée comme une attaque.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 1607016,
+   "name": "Contemple là où la lumière se déploie",
+   "iconPath": "f9c65deca932b49414b7217a6d5f92968c2a216a68a6a5ab89de135ec2787bf9",
+   "typeDescHash": "Talent",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      0.1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.11
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.13
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.14
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      0.175
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      0.1875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 13392580,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "params": [
+      0.21
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.22
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.23
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.24
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      0.25
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "",
+   "descHash": "Attaque un ennemi et réduit sa robustesse du type correspondant après être entré en combat.",
+   "ultimateCost": 0,
+   "break": "30",
+   "energy": "0",
+   "id": 1665351,
+   "name": "Chant de joie des plumes",
+   "iconPath": "61ee7c4d363d456af072c90f8486d790c75a1e8780f976560974789b816153bf",
+   "typeDescHash": "",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "Soutien",
+   "descHash": "Après utilisation de la technique, déclenche automatiquement la compétence 1 fois au début du prochain combat sans consommer de points de compétence. Lorsque Yao Guang est dans l'équipe, détruire un objet destructible accorde immédiatement une Faveur, jusqu'à <nobr>#1[i]</nobr> fois par semaine de la Terre.",
+   "ultimateCost": 0,
+   "break": "0",
+   "energy": "0",
+   "id": 1908563,
+   "name": "Éclat fédérateur",
+   "iconPath": "2ab68afc4320c021fd5fab2ee68cea552896d7d8183cdd9cf60c431e64bd4b9d",
+   "typeDescHash": "Technique",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      8
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  },
+  {
+   "tagHash": "ZdE",
+   "descHash": "Applique l'état Murmure de l'étoile funeste à tous les ennemis pendant <nobr>#4[i]</nobr> tours. Augmente les DGT subis par les cibles ennemies dans l'état Murmure de l'étoile funeste de <nobr>#3[f1]%</nobr>. Inflige <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span> de <u>comidégâts</u> physiques à tous les ennemis. Inflige ensuite <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#6[i]%</nobr></span> de <u>comidégâts</u> physiques à un ennemi aléatoire <nobr>#5[i]</nobr> fois.",
+   "ultimateCost": 0,
+   "break": "60/hit",
+   "energy": "5",
+   "id": 1832749,
+   "name": "Que ta fortune s'embrase",
+   "iconPath": "632061f94336179ef2e9a62578d640092af4d5010c3e7065a574eebf42c866e0",
+   "typeDescHash": "Comicompétence",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "params": [
+      1,
+      0.5,
+      0.16,
+      3,
+      5,
+      0.1
+     ],
+     "level": 1,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      0.55,
+      0.16,
+      3,
+      5,
+      0.11
+     ],
+     "level": 2,
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 19623238,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.6,
+      0.16,
+      3,
+      5,
+      0.12
+     ],
+     "level": 3,
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 13618289,
+       "count": 3
+      },
+      {
+       "id": 19623238,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.65,
+      0.16,
+      3,
+      5,
+      0.13
+     ],
+     "level": 4,
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 13251172,
+       "count": 2
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.7,
+      0.16,
+      3,
+      5,
+      0.14
+     ],
+     "level": 5,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 15000
+      },
+      {
+       "id": 13251172,
+       "count": 4
+      },
+      {
+       "id": 19865384,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.75,
+      0.16,
+      3,
+      5,
+      0.15
+     ],
+     "level": 6,
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 13251172,
+       "count": 6
+      },
+      {
+       "id": 19865384,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.8125,
+      0.16,
+      3,
+      5,
+      0.1625
+     ],
+     "level": 7,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 32000
+      },
+      {
+       "id": 13525398,
+       "count": 2
+      },
+      {
+       "id": 19581247,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.875,
+      0.16,
+      3,
+      5,
+      0.175
+     ],
+     "level": 8,
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 65000
+      },
+      {
+       "id": 13525398,
+       "count": 4
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      0.9375,
+      0.16,
+      3,
+      5,
+      0.1875
+     ],
+     "level": 9,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 120000
+      },
+      {
+       "id": 13525398,
+       "count": 6
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      1,
+      0.16,
+      3,
+      5,
+      0.2
+     ],
+     "level": 10,
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 250000
+      },
+      {
+       "id": 13525398,
+       "count": 12
+      },
+      {
+       "id": 19581247,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "params": [
+      1,
+      1.05,
+      0.16,
+      3,
+      5,
+      0.21
+     ],
+     "level": 11,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.1,
+      0.16,
+      3,
+      5,
+      0.22
+     ],
+     "level": 12,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.15,
+      0.16,
+      3,
+      5,
+      0.23
+     ],
+     "level": 13,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.2,
+      0.16,
+      3,
+      5,
+      0.24
+     ],
+     "level": 14,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "params": [
+      1,
+      1.25,
+      0.16,
+      3,
+      5,
+      0.25
+     ],
+     "level": 15,
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ]
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1502101,
+   "anchor": 6,
+   "type": 1,
+   "children": [
+    {
+     "id": 1502203,
+     "anchor": 11,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21214139,
+      "name": "Chances de coup critique ↑",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Chances de coup critique",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 2
+       }
+      ]
+     }
+    },
+    {
+     "id": 1502204,
+     "anchor": 12,
+     "type": 2,
+     "children": [],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21464526,
+      "name": "Allégresse ↑",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+      "statusList": [
+       {
+        "key": "Allégresse",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "Lorsque la VIT de Yao Guang est supérieure ou égale à <nobr>#1[i]</nobr>, augmente son Allégresse de <nobr>#2[i]%</nobr>, puis pour chaque <nobr>#3[i]</nobr> point de VIT en excédent, augmente son Allégresse de <nobr>#4[i]%</nobr>. Jusqu'à un maximum de <nobr>#5[i]</nobr> points de VIT excédentaires sont comptabilisés.",
+    "ultimateCost": 0,
+    "id": 20798941,
+    "name": "Salutation de grâce",
+    "iconPath": "0b6dfa0c0c11bcf9a90b382f153fdcdd5f83a79faa654d734eca5fba2765cefa",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "params": [
+       120,
+       0.3,
+       1,
+       0.01,
+       200
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 13618289,
+        "count": 2
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502102,
+   "anchor": 7,
+   "type": 1,
+   "children": [
+    {
+     "id": 1502205,
+     "anchor": 13,
+     "type": 2,
+     "children": [
+      {
+       "id": 1502206,
+       "anchor": 14,
+       "type": 2,
+       "children": [
+        {
+         "id": 1502207,
+         "anchor": 15,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 21167093,
+          "name": "Chances de coup critique ↑",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "Chances de coup critique",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 13525398,
+            "count": 3
+           },
+           {
+            "id": 19581247,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 21375462,
+        "name": "VIT ↑",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "VIT",
+          "value": 3,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 13525398,
+          "count": 3
+         },
+         {
+          "id": 19581247,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21125080,
+      "name": "Chances de coup critique ↑",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+      "statusList": [
+       {
+        "key": "Chances de coup critique",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 18000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 19865384,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "Augmente les DGT critiques de <nobr>#4[i]%</nobr>. Après avoir utilisé une comicompétence, accorde <nobr>#1[i]</nobr> point de compétence à l'équipe.",
+    "ultimateCost": 0,
+    "id": 20542384,
+    "name": "Exaltation paisible",
+    "iconPath": "a3dedfbadb44aa519bcd84e8c2253592a7c51f9db3be14670fb30945290fb187",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "params": [
+       1,
+       0.25,
+       0.4,
+       0.6
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 13251172,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502103,
+   "anchor": 8,
+   "type": 1,
+   "children": [
+    {
+     "id": 1502208,
+     "anchor": 16,
+     "type": 2,
+     "children": [
+      {
+       "id": 1502209,
+       "anchor": 17,
+       "type": 2,
+       "children": [
+        {
+         "id": 1502210,
+         "anchor": 18,
+         "type": 2,
+         "children": [],
+         "enhanceId": 0,
+         "embedBuff": {
+          "id": 4551625,
+          "name": "Chances de coup critique ↑",
+          "levelReq": 80,
+          "promotionReq": 0,
+          "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+          "statusList": [
+           {
+            "key": "Chances de coup critique",
+            "value": 0.053
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 160000
+           },
+           {
+            "id": 13525398,
+            "count": 8
+           },
+           {
+            "id": 19581247,
+            "count": 8
+           }
+          ]
+         }
+        }
+       ],
+       "enhanceId": 0,
+       "embedBuff": {
+        "id": 21143329,
+        "name": "VIT ↑",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+        "statusList": [
+         {
+          "key": "VIT",
+          "value": 4,
+          "int": true
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 13525398,
+          "count": 8
+         },
+         {
+          "id": 19581247,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "enhanceId": 0,
+     "embedBuff": {
+      "id": 21417229,
+      "name": "Allégresse ↑",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "707fe004fe4d7d7e10152907d9ba39c705d741f0a43b60752df59819df6c97f8",
+      "statusList": [
+       {
+        "key": "Allégresse",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 120000
+       },
+       {
+        "id": 13525398,
+        "count": 5
+       },
+       {
+        "id": 19581247,
+        "count": 2
+       }
+      ]
+     }
+    }
+   ],
+   "enhanceId": 0,
+   "embedBonusSkill": {
+    "descHash": "Lorsque Yao Guang obtient <u>Banger absolu</u>, augmente sa durée de <nobr>#2[i]</nobr> tour.",
+    "ultimateCost": 0,
+    "id": 20775300,
+    "name": "Fortune réunie",
+    "iconPath": "1dbfdc7278059eac7eb74c94b460f7dbec82bd450f322e83ed03b036ce720ffc",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "params": [
+       20,
+       1
+      ],
+      "level": 1,
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 140000
+       },
+       {
+        "id": 13525398,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 13392580,
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502201,
+   "anchor": 9,
+   "type": 2,
+   "children": [],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 21172099,
+    "name": "Chances de coup critique ↑",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "649d04ce090ec9e142d024138f54bf2e416362f48f452776826e5a4e8e26c028",
+    "statusList": [
+     {
+      "key": "Chances de coup critique",
+      "value": 0.026999999
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 19623238,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1502202,
+   "anchor": 10,
+   "type": 2,
+   "children": [],
+   "enhanceId": 0,
+   "embedBuff": {
+    "id": 21488023,
+    "name": "VIT ↑",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "iconPath": "959ebc55a284ac83b29de4d97b3422772e372e53ff820bc9af972e0201aabe98",
+    "statusList": [
+     {
+      "key": "VIT",
+      "value": 2,
+      "int": true
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 5000
+     },
+     {
+      "id": 13618289,
+      "count": 2
+     },
+     {
+      "id": 19623238,
+      "count": 6
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": []
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "Première rencontre",
+   "text": "Je suis la générale Yao Guang, la Voyante stratège à bord du Yuque de Xianzhou. Comme tout le monde, tu peux m'appeler madame Yao. Certes, j'aurais pu prédire les moindres détails de cette rencontre, mais j'ai préféré la vivre moi-même. Être venue en personne m'a réservé d'agréables surprises.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 2,
+   "title": "Salutation",
+   "text": "Vu le temps qu'il fait aujourd'hui, je suis sûre que tu vas croiser le plus grand esprit de toute l'Alliance Xianzhou... Je n'ai jamais dit que cette personne était moi, n'est-ce pas ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 3,
+   "title": "Au revoir",
+   "text": "Avec un ciel si vaste et un monde si grand, rien ne peut t'arrêter. La prochaine fois que nous nous croiserons, je m'attends à des récits d'exploits si grandioses qu'ils me laisseront sans voix.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 4,
+   "title": "Anecdote personnelle : Formules d'appel",
+   "text": "Le titre de général est toujours associé à certaines responsabilités et restrictions. Madame semble bien plus facile et léger, non ? Bien sûr, je n'ai jamais été très attachée aux formalités. Si tu préfères m'appeler par mon prénom... Eh bien, ça pourrait être amusant aussi.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 5,
+   "title": "Anecdote personnelle : Œil d'Ishvara",
+   "text": "Mon regard a balayé le cosmos plus d'une fois, et j'ai vu son destin tanguer comme un navire sur le point d'être englouti par des vagues titanesques. Pourtant, je n'ai jamais placé ma foi dans le fait d'avoir besoin de voir pour croire. Après tout, la probabilité n'existe que pour être défiée.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 6,
+   "title": "Anecdote personnelle : Perspectives",
+   "text": "La plupart des divinateurs aiment dire que les calculs humains ne font pas le poids face aux desseins célestes. Et les plus talentueux aiment se comporter comme si les desseins célestes n'étaient pas de taille face à leurs calculs. Mais selon moi, toutes ces histoires et tous ces calculs sont inutiles. Il vaut mieux saisir l'occasion soi-même, rapidement et de manière décisive.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 7,
+   "title": "Bavardage : Baume pour les mains",
+   "text": "Pour polir une pièce de jade ou pour mettre les cieux en mouvement, les deux exigent une main délicate. C'est pourquoi, peu importe à quel point les affaires officielles me tiennent occupée, je prends toujours un moment pour fabriquer mon propre baume pour les mains.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 8,
+   "title": "Bavardage : Choses acides",
+   "text": "Les habitants du Yuque raffolent de l'acidité autant que ceux du Luofu chérissent leur thé. Citrons, prunes marinées, baies d'aubépine... des stimulants parfaits quand l'esprit s'engourdit. Ça te tente ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 9,
+   "title": "Passe-temps",
+   "text": "À l'époque où j'étudiais à la Commission de divination, j'ai dû ruser un peu ici et là. J'ai même fini par remporter la Coupe du Yuque plusieurs années d'affilée. Si certains trouvent que ma technique de divination manque de finesse, soit, j'accepte la critique. Mais dire que je suis mauvaise aux cartes ? C'est de la pure calomnie. Pourquoi ne pas venir voir en personne la prochaine fois que j'affronterai Huaiyan et Feixiao ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 10,
+   "title": "Problèmes",
+   "text": "Certains membres de l'Alliance deviennent hésitants et indécis en voyant les calculs de la matrice. Si le résultat d'une divination était « cette divination n'est pas fiable », j'imagine que leurs esprits en décomposition exploseraient sur-le-champ.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 11,
+   "title": "Fait notable",
+   "text": "Inspiré des extrapolations du Propagateur du Savoir, le Yuque a construit la Barrière de réflexion déca-lumineuse pour prédire l'avenir. Une toile de joyaux reflétant le monde, dont l'éclat se multiplie à l'infini. Et grâce à un petit... incident, j'ai pu y entrevoir toutes les issues possibles. Héhé, ces soi-disant variables sont simplement des opportunités en devenir.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 12,
+   "title": "Connaissances",
+   "text": "L'Archer de la destinée m'a accordé un esprit appelé Plume céleste de Kâlacakra, l'Œil de la Chasse. Moi, je l'appelle simplement « Petit oiseau ». Tu sens son regard sur toi ? Ahah, c'est tout à fait normal. Le héros flamboyant/L'héroïne flamboyante du cosmos mérite bien un public.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 13,
+   "title": "À propos de Pionnier/Pionnière",
+   "text": "Ton avenir ne se trouve pas dans mon regard, mais sous tes pieds. Quant à ce petit secret... Eh bien seuls les cieux, la terre et toi le connaissent. Moi, je l'ignore.",
+   "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « Les vivants ferment les yeux sur les morts ».",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 14,
+   "title": "À propos de Jing Yuan",
+   "text": "On dit que je suis toujours en compétition avec le Clairvoyant, mais ces gens ignorent que nous nous limitons simplement à dire la vérité. Une harmonie superficielle ne fera pas progresser Xianzhou. Si quelqu'un doit jouer les trouble-fête pour remuer ces eaux stagnantes et déclencher une grande compétition entre cent vaisseaux, alors j'endosserai volontiers ce rôle.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 15,
+   "title": "À propos de Fu Xuan",
+   "text": "Ah, ma chère cadette... Même lorsqu'elle vient faire son rapport au Yuque, elle ne reste jamais un jour de plus que nécessaire. Elle insiste pour repartir pile à l'heure prévue. Elle aimait se mesurer à moi quand elle était jeune, mais maintenant son rival est devenu ce général du Luofu... même si je l'ai connue en premier.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 16,
+   "title": "À propos de Pérégrine",
+   "text": "On dit que les Foxiens de la Guilde des commerçants excellent dans l'art de retourner leur veste. Mais elle, elle garde le cap. Prendre la défense des gens ordinaires, dénoncer l'injustice des Aiôns... Ce genre d'audace est rare, et j'aime ça.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 17,
+   "title": "À propos de Sparxie",
+   "text": "Cette fille est comme un pétard, elle prend toujours les gens au dépourvu. Si elle acceptait de faire quelques bêtises avec moi... hmm, on pourrait vraiment accomplir des choses inédites.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 18,
+   "title": "À propos de Himeko",
+   "text": "Elle cache ses armes et évite d'attirer l'attention sur elle... Même toi, tu en sais très peu sur son passé, n'est-ce pas ? Malgré tout, chacun doit retourner à ses origines à un moment de sa vie, et y entamer un nouveau voyage.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 19,
+   "title": "À propos de Sunday",
+   "text": "Une générale de Xianzhou qui recrute l'ancienne élite de Penacony ? Ça semble incroyable, pas vrai ? Mais c'est exactement le genre de rebondissement imprévisible que je recherche. Quant aux surprises qui nous attendent... Eh bien, nous n'avons plus qu'à attendre pour le découvrir.",
+   "unlockRequirement": "Débloqué après avoir terminé la mission pionnière « Les vivants ferment les yeux sur les morts ».",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 20,
+   "title": "À propos de Qingque",
+   "text": "Beaucoup passent leur vie à poursuivre leurs rêves. Mais elle seule sait que l'ignorance est une bénédiction. Hé, ne rie pas. C'est en réalité une qualité essentielle pour devenir Général.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 21,
+   "title": "À propos de Feixiao",
+   "text": "La Serre du griffon agit comme les serres de la Chasse. Des yeux sans serres sont faibles, et des serres sans yeux sont aveugles. Elle adore entendre mes idées, et j'ai confiance en ses ordres. Mais à chaque fois qu'elle me donne des conseils de remise en forme, en me disant d'abandonner la danse du paon pour le poing du moineau, elle me surestime un peu.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 22,
+   "title": "À propos de Jingliu",
+   "text": "Peu m'importe qu'elle utilise les vestiges de la Propagation, qu'elle brûle le sang doré de la Destruction, ou qu'elle emprunte le pouvoir de l'Abondance directement. C'est juste que le tableau qu'elle a dressé ne m'a malheureusement pas encore totalement convaincu.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 101,
+   "title": "Activation d'Eidolon",
+   "text": "Les cycles de la lune sont immuables, l'univers est sans limites. Et pourtant c'est l'effort humain qui décide du succès.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 102,
+   "title": "Élévation de personnage",
+   "text": "Ne te laisse pas troubler par les fluctuations.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 103,
+   "title": "Niveau max atteint",
+   "text": "Ce ne serait pas ennuyeux si l'omniscience n'épargnait vraiment personne ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 104,
+   "title": "Activation de Trace",
+   "text": "Est-ce que cette route comporte d'autres variables à venir ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 105,
+   "title": "Rejoint l'équipe avec Pionnier/Pionnière",
+   "text": "Comme prévu, ton destin reste impénétrable.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 106,
+   "title": "Rejoint l'équipe avec Jing Yuan",
+   "text": "« Un intellect qui n'a d'égal que son génie stratégique... » Et si on mettait ça à l'épreuve, Clairvoyant ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 107,
+   "title": "Rejoint l'équipe avec Jingliu",
+   "text": "Ta lame est-elle toujours aussi affûtée qu'avant ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 108,
+   "title": "Rejoint l'équipe avec Pérégrine",
+   "text": "Je te laisse t'occuper de la communication et des relations sociales...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 109,
+   "title": "Rejoint l'équipe avec Fu Xuan",
+   "text": "Ma cadette, devrions-nous nous en tenir à notre méthode précédente ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 110,
+   "title": "Rejoint l'équipe avec Sparxie",
+   "text": "Cette rencontre doit être tout aussi constructive que la précédente, jeune demoiselle.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 111,
+   "title": "Rejoint l'équipe avec Himeko",
+   "text": "Que notre coopération porte ses fruits, Navigatrice.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 112,
+   "title": "Rejoint l'équipe avec Sunday",
+   "text": "Tout va bien, je ne force jamais personne à faire quoi que ce soit.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 113,
+   "title": "Rejoint l'équipe avec Qingque",
+   "text": "Bonne chance Qingque !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 114,
+   "title": "Rejoint l'équipe avec Feixiao",
+   "text": "Durant ces jours loin de la Serre du griffon... j'ai eu quelques idées intéressantes. Ça t'intéresse ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 201,
+   "title": "Rupture de faiblesse en début de combat",
+   "text": "Il y a des ennuis droit devant... Quoi ? C'est ma faute ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 202,
+   "title": "Avertissement de danger en début de combat",
+   "text": "La chance sourit aux audacieux. À toi de jouer.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 203,
+   "title": "Début du tour 1",
+   "text": "La divination me dit que ça va faire mal.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 204,
+   "title": "Début du tour 2",
+   "text": "Un fauteur de troubles ? J'aimerais bien en être un aussi.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 205,
+   "title": "Tour inactif",
+   "text": "Aujourd'hui est un bon jour pour attaquer. Crois-moi.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 206,
+   "title": "ATQ normale",
+   "text": "C'est aussi facile que ça.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 207,
+   "title": "Compétence 1",
+   "text": "Les étoiles de la fortune nous sourient.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 208,
+   "title": "Compétence 2",
+   "text": "Les nuages menaçants se sont dissipés.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 209,
+   "title": "Attaque légère subie",
+   "text": "Un mal pour un bien.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 210,
+   "title": "Attaque lourde subie",
+   "text": "Un sombre présage...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 211,
+   "title": "Comicompétence 1",
+   "text": "Puisse la chance vous sourire. Pour un début explosif !",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 212,
+   "title": "Comicompétence 2",
+   "text": "Voici un mauvais présage. Inutile de me remercier.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 213,
+   "title": "Activation de l'ultime",
+   "text": "On dit toujours que la volonté des cieux ne peut être renversée...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 214,
+   "title": "Déclenchement de l'ultime",
+   "text": "Mais je souhaite observer les cieux grâce à mes divinations.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 215,
+   "title": "À terre",
+   "text": "Le destin ne peut pas être ainsi...",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 216,
+   "title": "Retour au combat",
+   "text": "Les cieux bénissent les âmes bienveillantes.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 217,
+   "title": "Récupération de santé",
+   "text": "Merci pour le coup de main.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 218,
+   "title": "Technique",
+   "text": "Tout se révèle sous la lumière divinatoire.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 219,
+   "title": "Combat gagné",
+   "text": "Des possibilités infinies existent encore au sein de l'omniscience.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 220,
+   "title": "Ouverture de coffre 1",
+   "text": "Les surprises vont pair chez toi.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 221,
+   "title": "Ouverture de coffre 2",
+   "text": "Le feng shui est plutôt bien ici. J'en ai pris note.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 222,
+   "title": "Ouverture de coffre précieux",
+   "text": "Tu vois ? C'est ça, la chance de madame Yao.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 223,
+   "title": "Énigme réussie 1",
+   "text": "Se servir de ça pour me tester ? MOI, une générale ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 224,
+   "title": "Énigme réussie 2",
+   "text": "Oh ça va. Même pas la peine de faire un calcul.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 225,
+   "title": "Cible ennemie trouvée",
+   "text": "Aujourd'hui est un jour spécial ?",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  },
+  {
+   "id": 226,
+   "title": "Retour en ville",
+   "text": "Le repos vient facilement... Dommage que j'aie du mal à garder mon attention sur le présent.",
+   "unlockRequirement": "",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Détails du personnage",
+   "text": "Mystérieuse, audacieuse, radicale... sa quête de changement était stupéfiante.<br />Dotée de l'Œil de la Chasse, elle scrutait les augures. Elle savait la volonté céleste inéluctable, et pourtant la Voyante stratège s'aventurait seule au cœur du danger.<br />Comment changer son destin face aux obstacles sur sa route ?",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Histoire du personnage : Partie I",
+   "text": "Un jour, après la réunion matinale de la Commission de divination du Yuque, quelques murmures troublaient l'air solennel.<br /><br />« Qu'elle ne soit pas présente pour l'entraînement matinal, soit. Mais elle ose même aller participer au tournoi de la Coupe du Yuque ! »<br />« La dernière fois que je l'ai critiquée, elle m'a rétorqué que tous ceux qui obtiennent le titre de Maître des cartes maîtrisent les hexagrammes. Elle m'a même défié de l'affronter si je ne la croyais pas... »<br />« Et alors ? Tu l'as affrontée ? Tu as gagné ? »<br />« ... »<br /><br />Quelques robes longues se soulevèrent dans la brise, comme gonflées de ressentiment.<br /><br />« Tu te souviens la dernière fois ? Elle avait rassemblé des jeunes divinateurs à minuit pour tracer des matrices, prétendant vouloir tester des techniques de divination étrangères et étudier leurs points forts. Elle a presque fait mourir de peur l'ancien qui faisait sa ronde de nuit ! »<br />« Comment l'oublier ! Elle a ouvertement défié le professeur en plein cours avec sa propre méthode de divination. Il s'en est plaint auprès de la maîtresse de la divination. Heureusement qu'elle avait le cœur tendre, sinon elle n'aurait pas échappé à une sévère punition. Génie ou pas... »<br />« Ceci dit... Quels que soient ses défauts, elle a largement contribué à l'établissement de la Barrière de réflexion déca-lumineuse. Dis-moi, qui d'autre dans toute la division peut réussir une divination d'un seul coup d'œil ? »<br />« Hmpf, tu sais comment ses pairs l'appellent, maintenant ? \"Patronne Yao\". Ils disent que la divination humaine ne fait pas le poids face à la volonté des cieux, et que la volonté des cieux ne fait pas le poids face à elle. Où est passé l'esprit académique sobre et rigoureux du Yuque ? <br /><br />Ils soupirèrent à l'unisson, évacuant ainsi une partie de leur ressentiment.<br />« Au fait, où est-elle encore passée, cette gamine ? »<br /><br />Un chant se fit entendre soudainement. Perchée à califourchon sur la girouette du toit, une jeune fille observait les étoiles. Elle leur adressa un large sourire :<br />« Prenez garde, chers aînés ! Le maître m'a fait une divination aujourd'hui : \"le tonnerre gronde à cent lieues, mais les vases rituels demeurent intacts.\" Vous feriez mieux de garder vos distances, ou vous serez aussi frappés par la foudre ! »<br /><br />À cet instant, dans un bruit assourdissant et féroce, le tonnerre gronda soudainement sous le dôme du Yuque. Des éclairs éblouissants et effrayants jaillirent de toute part.<br />« Puisque nous ne pouvons pas y échapper, prenons le temps d'apprécier cette scène si rare et époustouflante ! »<br /><br />Elle savait que ce fracas n'était que le résultat des vibrations provoquées par la poussière stellaire raclant la coque du Yuque traversant une nébuleuse. Elle ne risquait rien.<br /><br />Pourtant, un léger doute persistait dans son cœur : cette divination... s'était-elle vraiment réalisée ?<br /><align=\"right\">« Le tonnerre gronde sur cent lieues, mais les vases rituels demeurent intacts. »</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>20</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie II",
+   "text": "Dans une cour déserte, elle s'était assise face à sa sœur cadette revenue au pays. La nuit était paisible.<br />Sur la table de bois sobre, deux tasses de thé clair côtoyaient un jeu de cartes divinatoires poussiéreux.<br /><br />« Tu es allée te recueillir auprès de maître Jingtian ? »<br />« Oui. »<br />« Quand tu as quitté le Yuque, le maître avait déjà entrevu le destin d'aujourd'hui. Alors, tu persistes à refuser ma proposition ? Regarde : Huaiyan a sa petite-fille, Jing Yuan a son disciple. Si un jour je suis le même chemin que le maître, tu prends ma succession. Tout le monde y gagne, non ? »<br /><br />La tasse resta suspendue dans les airs. La divinatrice aux cheveux roses fronça légèrement les sourcils.<br />« Grande sœur... Succéder au Général, ce n'est que changer de fonction. Comment cela a-t-il pu changer ton tempérament ? »<br /><br />« Tu te souviens de ce que le maître répétait ? \"Le destin ne suit qu'un seul chemin. Tout est prédéterminé.\" »<br />Elle pinça une carte, l'esprit concentré, mais des fragments du passé lui revinrent.<br />Avant l'envoi du Nimbutélescope au Fanghu, l'ordre de Jingtian était de rester au Yuque pour garantir que l'éradication des Abominations de l'Abondancepar les Flèche de lumière de l'Archer de la destinée soit un succès.<br />Au sein de la Barrière de réflexion déca-lumineuse, elle fit sans cesse des prédictions, sans jamais pouvoir entrevoir la moindre possibilité d'inverser le cours de la bataille du Fanghu.<br />Puis les flèches de lumière de l'Archer de la destinée s'abattirent. L'incroyable puissance de l'Aiôn balaya tout sur son passage, mais c'est également ce qui donna naissance à l'espoir d'aujourd'hui.<br /><br />Cependant, elle était consciente que manœuvrer le Xianzhou au milieu des flots turbulents du cosmos deviendrait de plus en plus ardu.<br /><br />Derrière cette boutade, la maîtresse de la divination avait perçu la pensée profonde du général. Dans l'immensité de l'Alliance Xianzhou, il se pouvait qu'elle fût la seule... Elle n'en souffla mot, se contentant de boire une gorgée de son thé.<br />« Et toi, sœur aînée ? Quel héritage laisseras-tu au Xianzhou du Yuque ? »<br /><br />Elle ne répondit pas immédiatement, préférant jouer la carte qu'elle avait en main.<br />« Tiens. As-tu prévu ce coup ? »<br />« Le maître a prouvé qu'il avait raison ; c'est ça, son héritage. En ce qui me concerne... Je veux que Xianzhou se souvienne de ce que j'ai laissé derrière moi, des siècles durant, de cette manière : »<br /><br />Elle sourit, pensive, la conviction s'installant sur son visage.<br /><br />« Qui aurait cru que le destin puisse emprunter une telle voie. »<br /><br /><align=\"right\">— L'hexagramme révèle : L'union est en place, mais l'ambition ne s'est pas encore manifestée.</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>40</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie III",
+   "text": "<b>Titre du volume :</b> Archives des ordonnances administratives du Yuque, année ████ du Calendrier Stellaire, Dossier N° ██ (II)<br /><b>Résumé :</b> Demande de technologie d'ultra-miniaturisation du boulier de jade<br /><b>Contenu de la consultation :</b> Suite aux progrès par phases dans la recherche sur les caractéristiques de la terre de jachère, notre institut estime qu'il faut se concentrer sur la poursuite des recherches de miniaturisation du boulier de jade.<br /><b>Avis de la Commission de l'artisanat :</b> Concernant la demande de financement de l'Institut des maîtres pour la recherche sur la miniaturisation du boulier de jade : premièrement, leur orientation de recherche est en conflit avec celle de la Commission de l'artisanat. Deuxièmement, contourner l'approbation de la Commission pour faire directement rapport au général constitue une violation des procédures.<br /><b>Examinatrice : Yao Guang</b><br /><b>Avis :</b> J'ai examiné la proposition de la Commission de l'artisanat. À qui est venue cette brillante idée d'améliorer les performances en agrandissant le boulier de jade ? Même si les bouliers de jade sont directement liés à la survie de Xianzhou, nous ne pouvons pas être excessivement prudents et figés dans nos habitudes. Regardez l'efficacité de la CPI. Pouvons-nous vraiment nous permettre d'attendre ?<br />...<br /><br /><b>Titre du volume :</b> Archives des ordonnances administratives du Yuque, année ████ du Calendrier Stellaire, Dossier N° ██ (III)<br /><b>Résumé :</b> Routes de navigation du Yuque<br /><b>Contenu de la consultation :</b> La Commission de divination indique que suivre les routes de patrouille précédentes comporte peu de risques et des rentrées stables. La poursuite de l'exploration le long des routes anciennes présente de nombreuses incertitudes. En cette période de bouleversement cosmique, une telle action pourrait provoquer des calamités...<br /><b>Examinatrice : Yao Guang</b><br /><b>Avis :</b> Poursuivre l'exploration le long des routes anciennes. La technologie du boulier de jade n'a pas été développée en vain, et notre précision d'extrapolation améliorée est suffisante pour prévoir les désastres. Alors qu'une transformation cosmique d'une ampleur sans précédent approche, nous ne pouvons nous cantonner aux sentiers battus. Si possible, chercher des opportunités là où convergent la Voie pionnière et l'Érudition.<br />...<br /><br /><b>Titre du volume :</b> Archives des ordonnances administratives du Yuque, année ████ du Calendrier Stellaire, Dossier N° ██ (VII)<br /><b>Résumé :</b> Au sujet du sort des suspects dans la crise de l'Arbre d'ambroisie du Luofu<br /><b>Pétitionnaire : Yao Guang</b><br /><b>Contenu de la pétition :</b> ... Le chaos semé par Luocha et Jingliu à bord du Luofu n'avait probablement pas pour seul but de livrer le Stellaron au Xianzhou. Selon la divination effectuée à travers la Barrière de réflexion déca-lumineuse, ces deux individus détiennent encore des secrets qui pourraient influencer le destin de Xianzhou. Je demande qu'ils soient envoyés au Yuque pour interrogatoire. Si nous parvenons à maîtriser cette variable majeure, cela pourrait s'avérer crucial pour notre victoire. Bien que cela comporte des risques, je suis prête à mettre ma position de générale en jeu...<br /><b>Examinateur : Hua</b><br /><b>Avis :</b> Approuvé.<br />...<br /><br />À chaque carrefour du destin, ses pensées revenaient vers ces choix décisifs qui avaient façonné la prospérité actuelle du Yuque, tout en traçant sa voie vers un destin alternatif.<br />Ses mains n'avaient-elles jamais tremblé ? Elle se l'était demandé d'innombrables fois. Chaque geste en apparence aisé et astucieux que les autres observaient était, en réalité, lié à l'avenir d'innombrables citoyens de Xianzhou.<br />Depuis le début, elle marchait sur une corde raide qui pouvait céder à tout moment, mais elle ne pouvait ni regarder en arrière, ni s'arrêter...<br /><br />Comme au commencement, lorsqu'elle avait frôlé la mort.<br /><br /><align=\"right\">— Telle l'annonce la divination : Le noble s'efforce sans relâche et avec diligence, vigilant comme si le péril rôdait dans la nuit.</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>60</nobr> de personnage"
+  },
+  {
+   "title": "Histoire du personnage : Partie IV",
+   "text": "« Cieux radieux, transformez-vous en flèches. Tonnerre céleste, purifie la chair et les os. »<br />Une voix d'une autorité absolue, semblant résonner dans chacun de ses os, fit écho dans les recoins les plus profonds de sa conscience. Même après avoir enduré l'Ordination de l'arc-en-ciel, elle devait encore surmonter cette épreuve finale avant de véritablement endosser le rôle et de revendiquer le titre de générale.<br /><br />« Première flèche : anéantissement de la calamité et purification ! »<br />Même dans ce royaume spirituel de pure conscience, elle sentit ses poils se hérisser. Un pressentiment d'une intensité jamais ressentie transperça ses nerfs comme un courant électrique. Elle se concentra, observa les directions, murmura les formules des hexagrammes.<br />Le tonnerre céleste s'abattit brutalement. Le royaume trembla comme une planète au bord de l'anéantissement. Elle esquiva la flèche de justesse. Un rien de plus, et elle aurait été réduite à néant.<br /><br />« Deuxième flèche : châtiment sans limite ! »<br />La calamité se poursuivait, ne lui accordant pas le moindre répit. Elle mobilisa toute la connaissance acquise au cours de sa vie pour déduire la trajectoire. Cette fois encore, elle évita la flèche avec une précision infime.<br /><br />« Troisième flèche ! »<br />« Quatrième flèche ! »<br />...<br />« Septième flèche ! »<br />Elle était pareille à une frêle embarcation sur un fleuve en furie, ou à un papillon au-dessus d'une mer d'épines. La seule chose qui l'empêchait de s'effondrer était son œil capable de percer l'avenir.<br />Mais son esprit s'épuisait peu à peu, ses mouvements ralentissaient... Ses forces la quittaient.<br /><br />« Huitième flèche : malheur à qui me défie ! »<br /><br />« Je ne peux pas esquiver ça... »<br />Elle entendit son propre désespoir. Si proche du sommet, et pourtant, elle allait échouer au dernier moment... La mort et l'échec projetaient leurs ombres sur elle, l'aveuglant tandis que la foudre impitoyable de l'Archer de la destinée planait au-dessus d'elle.<br /><br />Elle leva les yeux vers le tonnerre sur le point de tomber. Soudain, elle se souvint. L'hexagramme que son maître avait tiré pour elle autrefois. Ce jour ensoleillé où le tonnerre avait grondé.<br />« Puisque nous ne pouvons pas y échapper, prenons le temps d'apprécier cette scène si rare et si époustouflante ! »<br />Elle entendit la version adolescente d'elle-même prononcer ses mots.<br />Le huitième éclair du tonnerre céleste frappa à ses côtés, la déflagration faisant danser ses cheveux, mais elle resta impassible.<br /><br />La neuvième flèche ne tomba jamais, et la voix imposante lui annonça qu'elle avait réussi l'épreuve.<br /><br />À ce jour, elle ignore toujours si cet ultime éclair l'attend quelque part dans le destin indeterminé, prêt à frapper sans prévenir.<br />Mais alors qu'elle part pour Planarcadia, elle ne s'en soucie plus.<br /><align=\"right\">— Telle l'annonce la divination : De l'abîme au ciel, nul blâme ne suivra.</align>",
+   "unlockRequirement": "Disponible au niveau <nobr>80</nobr> de personnage"
+  }
+ ],
+ "archive": {
+  "cvCn": "秦紫翼",
+  "cvJp": "花澤香菜",
+  "cvKr": "이슬",
+  "cvEn": "Ari Thrash",
+  "camp": "Le Yuque de Xianzhou"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": {
+    "itemId": 409962,
+    "cost": 0
+   },
+   "5000": {
+    "itemId": 409961,
+    "cost": 0
+   },
+   "20000": {
+    "itemId": 409960,
+    "cost": 0
+   }
+  },
+  "sCoinId": 29328,
+  "rankConfig": {
+   "3": {
+    "1581237": 2,
+    "1832749": 1,
+    "1864357": 1
+   },
+   "5": {
+    "1607016": 2,
+    "1832749": 1,
+    "1889946": 2
+   }
+  }
+ },
+ "hasServant": false,
+ "skins": [],
+ "hasEnhanced": false,
+ "name": "Yao Guang",
+ "rarity": 5,
+ "descHash": "Mystérieuse, audacieuse, radicale... sa quête de changement était stupéfiante. Dotée de l'Œil de la Chasse, elle scrutait les augures. Elle savait la volonté céleste inéluctable, et pourtant la Voyante stratège s'aventurait seule au cœur du danger. Comment changer son destin face aux obstacles sur sa route ?",
+ "artPath": "dfb73012737ee8823b1619956c70972443dffaf525a003d23cf9a35f6415a137",
+ "miniIconPath": "d83baad6bc00b0a4d9a97db0f66f8c72ce98d182e2342ca5dbfd20fef9c55cfe",
+ "damageType": {
+  "id": 1,
+  "iconPath": "fc6c9fc2a7b462613ce59b29974d45a4b4fae29eaf89c36e4370b6d48e640a03",
+  "color": "#FFFFFF",
+  "name": "Physique",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "altIconPath": "4f597f2987a61bcca46d52084166b29212ceb2f53048c11900968bea64b8a0c3",
+  "color": "#FFFFFF",
+  "name": "L'Allégresse",
+  "rarity": 0
+ },
+ "pageId": "yaoguang"
+}

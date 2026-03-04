@@ -451,7 +451,7 @@
    "iconPath": "ef035bb82a818ae78638e079630ca81a364468307e8d03cb9872af57922135ec",
    "artPath": "770a8caca842b6032d5fe2f27d74a146f60ce2172b9442119f7c9553e63d9c24",
    "name": "Da Capo",
-   "descHash": "When the Talent triggers a <u>Follow-up ATK</u>, there is a <nobr>#1[i]%</nobr> <u>base chance</u> to increase the DoT received by the target by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
+   "descHash": "When the Talent triggers a <u>Follow-Up ATK</u>, there is a <nobr>#1[i]%</nobr> <u>base chance</u> to increase the DoT received by the target by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
    "params": [
     1,
     0.3,
@@ -499,7 +499,7 @@
    "iconPath": "ba8fb32316cd0e923c39cdf1bcf1af56d695b0325838204f6e05aaaac4a5c78c",
    "artPath": "f792bad18a9c1e31d1c2eae8ff71b93e370ce7d568decd7017894f8533da9db2",
    "name": "Leggiero",
-   "descHash": "The Shock inflicted on the enemy target by the Ultimate, the Technique, or the Talent-triggered <u>Follow-up ATK</u> has a DMG multiplier increase of <nobr>#1[i]%</nobr> and lasts <nobr>#2[i]</nobr> turn(s) longer.",
+   "descHash": "The Shock state inflicted on the enemy target by the Ultimate, Technique, or the Talent-triggered <u>Follow-Up ATK</u> has a DMG multiplier increase of <nobr>#1[i]%</nobr> and lasts <nobr>#2[i]</nobr> turn(s) longer.",
    "params": [
     1.56,
     1
@@ -1336,7 +1336,7 @@
   },
   {
    "tagHash": "Single Target",
-   "descHash": "After Kafka's teammate uses Basic ATK on an enemy target, Kafka immediately launches <u>Follow-up ATK</u> and deals <span style=\"color:#c75de2;\">Lightning </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of her ATK to that target, with a <nobr>#2[i]%</nobr> <u>base chance</u> to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target, lasting for <nobr>#3[i]</nobr> turns. This effect can only be triggered 1 time per turn.",
+   "descHash": "After Kafka's teammate uses Basic ATK on an enemy target, Kafka immediately launches <u>Follow-Up ATK</u> and deals <span style=\"color:#c75de2;\">Lightning </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of her ATK to that target, with a <nobr>#2[i]%</nobr> <u>base chance</u> to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target, lasting for <nobr>#3[i]</nobr> turns. This effect can only be triggered 1 time per turn.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "10",
@@ -1641,7 +1641,7 @@
   },
   {
    "tagHash": "",
-   "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+   "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
    "ultimateCost": 0,
    "break": "30",
    "energy": "0",
@@ -2057,7 +2057,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "The <u>base chance</u> for target enemies to be Shocked by the Ultimate, the Technique, and the Talent-triggered <u>Follow-up ATK</u> increases by <nobr>#1[i]%</nobr>.",
+    "descHash": "The <u>base chance</u> for target enemies to be Shocked by the Ultimate, the Technique, and the Talent-triggered <u>Follow-Up ATK</u> increases by <nobr>#1[i]%</nobr>.",
     "ultimateCost": 0,
     "id": 227638,
     "name": "Thorns",
@@ -2530,7 +2530,7 @@
    ],
    "enhanceId": 1,
    "embedBonusSkill": {
-    "descHash": "After using Ultimate, restores the triggerable count of Talent's <u>Follow-up ATK</u> by 1. And the Talent's <u>Follow-up ATK</u> can cause all DoTs debuffs currently on the target to immediately produce DMG equal to <nobr>#1[i]%</nobr> of the original DMG.",
+    "descHash": "After using Ultimate, restores the triggerable count of Talent's <u>Follow-Up ATK</u> by 1. And the Talent's <u>Follow-Up ATK</u> can cause all DoTs debuffs currently on the target to immediately produce DMG equal to <nobr>#1[i]%</nobr> of the original DMG.",
     "ultimateCost": 0,
     "id": 15473866,
     "name": "Thorns",
@@ -3320,7 +3320,7 @@
     "iconPath": "ba8fb32316cd0e923c39cdf1bcf1af56d695b0325838204f6e05aaaac4a5c78c",
     "artPath": "f792bad18a9c1e31d1c2eae8ff71b93e370ce7d568decd7017894f8533da9db2",
     "name": "Leggiero",
-    "descHash": "The Shock state inflicted on the enemy target by the Ultimate, Technique, or the Talent-triggered <u>Follow-up ATK</u> has a DMG multiplier increase of <nobr>#1[i]%</nobr> and lasts <nobr>#2[i]</nobr> turn(s) longer.",
+    "descHash": "The Shock state inflicted on the enemy target by the Ultimate, Technique, or the Talent-triggered <u>Follow-Up ATK</u> has a DMG multiplier increase of <nobr>#1[i]%</nobr> and lasts <nobr>#2[i]</nobr> turn(s) longer.",
     "params": [
      1.56,
      1
@@ -4172,7 +4172,7 @@
    },
    {
     "tagHash": "Single Target",
-    "descHash": "After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches <u>Follow-up ATK</u> and deals <span style=\"color:#c75de2;\">Lightning </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Kafka's ATK to the primary target, with a <nobr>#2[i]%</nobr> <u>base chance</u> to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for <nobr>#3[i]</nobr> turns. This effect can trigger up to <nobr>#5[i]</nobr> time(s), <nobr>#4[i]</nobr> of which can be regained at the end of Kafka's turn.",
+    "descHash": "After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches <u>Follow-Up ATK</u> and deals <span style=\"color:#c75de2;\">Lightning </span>DMG equal to <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Kafka's ATK to the primary target, with a <nobr>#2[i]%</nobr> <u>base chance</u> to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for <nobr>#3[i]</nobr> turns. This effect can trigger up to <nobr>#5[i]</nobr> time(s), <nobr>#4[i]</nobr> of which can be regained at the end of Kafka's turn.",
     "ultimateCost": 0,
     "break": "30",
     "energy": "10",
@@ -4507,7 +4507,7 @@
    },
    {
     "tagHash": "",
-    "descHash": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+    "descHash": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
     "ultimateCost": 0,
     "break": "30",
     "energy": "0",

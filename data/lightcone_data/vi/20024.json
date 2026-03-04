@@ -1,0 +1,525 @@
+{
+ "name": "Lệ Tàn",
+ "rarity": 3,
+ "descHash": "Một luồng sức mạnh mỏng manh tích tụ từ thời gian và trong phút chốc bỗng dệt nên vận mệnh vĩ đại.<br /><br />\"Nỗi buồn sâu lắng nhất không có nước mắt, cũng như niềm vui cực độ chẳng khác gì nỗi đau tột cùng.\"",
+ "iconPath": "b49fbaebd3885b8051587847c1c709497571c3ad80cefc405fe9f466bd5fb8f8",
+ "artPath": "939adade903b103b88e7affbda201316fd4e0a011fbae37ab067bc71958908b4",
+ "artPlaceholder": {
+  "data": "data:image/webp;base64,UklGRsgBAABXRUJQVlA4ILwBAACwCACdASoUABwAPm0ukkWkIqGYBABABsS2AE6ZcbqD3Rxq/Ez9cDTAN5J8kAwGUyjxxfRvsDCoZA7IZ3ZrkvprTHm43927QQ+zCEXkYeAA/q2b1u687wRjMGBOgLBXEfKH2qzQ2sw5e426beuSU+LtBeNntC63RlG79IX2YNMKCLxrNQZJGX7zGxcyNIJffMsRidns3zALcDwaUCDA8MVky6v2pX6SbPyZr4LUcDpuBdOQeNv7l1C4V2He5mS/Kwyh9wNxvtycD/7jaVrH1LFBoKhxwIgIp98PdRhIEWMst9FFjqmMrBT8NB9B/+LiOmaelcFSAbwvtFH6D0do/aKA3EH48gIW5G8p1gt+yPGupuFUR8VTgdb1eyBmEmqf+flP1/NwtJhfOjKPGdrifXcMTskpdYRYppWhObyzW5V7e35bl1fVpxLOsef0U74XBPseiPN0mNIyjsxziShXDZFJWWyqL/BxxkG09a7IJteHJRKDGDr99Uvw6D3m/X3R6IBRCOod+tFEx92z8ZU6dp0aAFZ9FVT1/OOgyXzbqfh9B97ebOfwySll9gkv7Wvxl8OANqk4nYiHtxgAAAA=",
+  "w": 867,
+  "h": 1230
+ },
+ "mediumIconPath": "e9b05ca60181bd430a3fa50aa58f050c49644995bfcb62579ae91709ad3548c2",
+ "baseType": {
+  "id": 0,
+  "iconPath": "380221f7c240f74d16ea77b5cc33f4ce65a88c6640dba5dadb1f36aade46c61e",
+  "color": "#FFFFFF",
+  "name": "Vui Vẻ",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "662fc7ab4bcd2e14d5f4185738f92c3d4e5051f6a6af0fbcafcb08310c579372",
+   "name": "Điểm Tín Dụng",
+   "desc": "Tiền mà Công ty Hành Tinh Hòa Bình (IPC) dùng để giao dịch với khách, nay đã trở thành đồng tiền chính khi đi lại trong vũ trụ.",
+   "lore": "\"Người ta bôn ba, tranh đấu, mua bán, cũng chỉ vì những con số xuất hiện trên thiết bị đầu cuối. Nhưng thứ quý giá thật sự, thì con số của công ty lại không thể mua được.\"",
+   "purpose": "Tiền Tệ Thường",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Khu Mỏ Khổng Lồ",
+    "Đài Hoa Nhân Tạo: Sở Công Nghiệp",
+    "Đài Hoa Nhân Tạo: Khách Sạn Mộng Mơ - Cõi Mộng",
+    "Đài Hoa Nhân Tạo: \"Rừng Cây Thầm Thì\" Điện Cây Giác Ngộ",
+    "Phần thưởng nhiệm vụ",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "a1cd1a65d901ad489a28a318391503fe2e70453747f877afe7afda933a39622b",
+   "name": "Aether Tinh Luyện",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>6000</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một lọ Aether được tinh chế bằng kỹ thuật đặc biệt.<br /><br />\"Sảnh Đường Hồi Ức hy vọng lấy lại sự huy hoàng của ngày xưa, nhưng đó là \"huy hoàng của ngày xưa\" mà họ đã chọn, hiểu không?\"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Sảnh Đường Lãng Quên"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "e63056837d7b387f59cbaafc907b941309bc98548ff00c6b483d9d053f0c93cc",
+   "name": "Aether Cô Đặc",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>2000</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một lọ Aether được tinh chế bằng kỹ thuật đặc biệt.<br /><br />\"Phải cẩn thận, không được đè hay làm đổ. Nếu nó bị hỏng hoặc bị rò rỉ, vui lòng tham khảo Chương 2 của \"Sổ tay hướng dẫn xử lý tai nạn tràn ra\" để xử lý sau tai nạn. \"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Đổi Tro Tàn"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 655,
+   "purposeId": 5,
+   "iconPath": "2f6dff811f4597c4f0b13baf74fa022a38c5c2f938e540b2a6b05a31c2973fa7",
+   "name": "Aether Loãng",
+   "desc": "Nguyên liệu cường hóa Nón Ánh Sáng, có thể nhận <nobr>500</nobr> EXP Nón Ánh Sáng.",
+   "lore": "Một chất môi giới tưởng tượng không nên tồn tại trong thực tế, nguyên liệu cơ bản để tạo ra nón ánh sáng.<br />Đưa vào trong nón ánh sáng, có thể khiến những thứ được gói trong đó trở nên rõ ràng hơn.<br /><br />\"Hóa ra là như vậy, \"ý nghĩa\" của Sảnh Đường Hồi Ức chính là thứ này, chẳng trách Người Lưu Giữ Ký Ức có thể mang theo ký ức đi xuyên qua các hành tinh.\"",
+   "purpose": "Nguyên Liệu EXP Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Đài Hoa Nhân Tạo - Lằn Ranh",
+    "Đài Hoa Nhân Tạo: Sở Thiên Tượng",
+    "Đài Hoa Nhân Tạo: Giấc Mơ Trẻ Thơ",
+    "Đài Hoa Nhân Tạo: \"Tàn Tích Phân Tranh\" Thành Kremnos",
+    "Thưởng Ủy Thác"
+   ]
+  },
+  "13251172": {
+   "id": 13251172,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "9e3bf8bd1a22527648a27f822bf9220c281fbd83aa8277922ed00f7c2c936da1",
+   "name": "Ấn Phẩm Kỷ Niệm Series \"Tàu Bông\"",
+   "desc": "\"Tàu Bông Xuyên Trời Xanh\" đang được đăng tải nhiều kỳ trên tạp chí. Có thể tăng tương đối Vết Tích vận mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Vui Vẻ</span>.",
+   "lore": "Bên ngoài Planarcadia lưu truyền một câu chuyện nhỏ, kể rằng có người chiến thắng Trò Chơi Ảo Nguyệt đã chọn tăng tốc thời gian, khiến toàn bộ họa sĩ truyện tranh trong thiên đường vui vẻ đều không kịp deadline, chỉ có cô Blurry mới có thể nộp bản thảo đúng hạn - đây hoàn toàn là mẩu chuyện do các trang tin giật gân bịa ra, mà rất có thể chính QR_Colt tự bịa.<br /><br />\"Tôi sinh ra đã vẽ đẹp như Graphia, nhưng mất cả đời mới học được cách vẽ nhanh như rồng xé gió.\" - QR_Colt, trả lời trong một cuộc phỏng vấn trực tuyến",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 3,
+   "rewardPath": "/material/13251172",
+   "comeFrom": [
+    "Máy Ghép Vạn Năng - Trao Đổi Tương Đương",
+    "Đài Hoa Nhân Tạo: {TextID#FloorName_20502001}",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "13525398": {
+   "id": 13525398,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "0d24a8a42fafed20faf40db390ddc9dc642e36447287e938af35635149e7d3ac",
+   "name": "Tập Hợp Bản Sưu Tập \"Tàu Bông\"",
+   "desc": "Tàu Bông Xuyên Trời Xanh nay đã được xuất bản thành các tập riêng lẻ. Có thể tăng mạnh Vết Tích vận mệnh nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Vui Vẻ</span>.",
+   "lore": "Trên bìa của tập đơn in rất nhiều lời giới thiệu, bao gồm Pearl, Jade, Aventurine, Topaz, Ratio, Jing Yuan, Feixiao, Huaiyan, Yao Guang, Hua, Kafka, Robin, Arita, Schneider, Công Tước Hỏa Ngục, Hoolay, Ryusuke, Sparkle, Sparxie, Nhà Khai Phá và nhiều nhân vật nổi tiếng khác trong vũ trụ. Sau đó cô Blurry đã phải bồi thường không ít tiền vì \"bịa đặt lời giới thiệu, quảng cáo gian dối\".<br /><br />\"Luật sư Umbralle, những người nổi tiếng bụng dạ hẹp hòi này muốn liên kết lại để kiện tôi, tôi muốn thuê luật sư bào chữa cho tôi, được không?\"<br />\"Ha ha ha, thật biết nói đùa. Tôi vẫn còn muốn sống lâu mà.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 4,
+   "rewardPath": "/material/13525398",
+   "comeFrom": [
+    "Máy Ghép Vạn Năng - Trao Đổi Tương Đương",
+    "Đài Hoa Nhân Tạo: {TextID#FloorName_20502001}",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "13618289": {
+   "id": 13618289,
+   "type": 653,
+   "purposeId": 3,
+   "iconPath": "adf3620e4f6d5da3565e25022f24e5eb9ca6fc333031e8a3e5bc88d03d81f98f",
+   "name": "Bảng Phân Cảnh Vẽ Tay \"Tàu Bông\"",
+   "desc": "\"Tàu Bông Xuyên Trời Xanh\" đang trong giai đoạn phân cảnh. Có thể tăng nhẹ Vết Tích vận mệnh của nhân vật <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\">Vui Vẻ</span>.",
+   "lore": "Cô Blurry vẽ tranh với tốc độ cực nhanh, có thể hoàn thành nội dung đăng tải của cả một tháng chỉ trong một ngày. Nhưng cô Blurry không bao giờ làm vậy, với bên ngoài thì tuyên bố là để đảm bảo chất lượng, còn trên thực tế rất có thể là lười làm việc.<br /><br />\"Thật kỳ lạ, tại sao trên thị trường luôn xuất hiện rất nhiều bản thảo gốc giống hệt nhau của Tàu Bông, và mỗi bản rõ ràng đều là tác phẩm chính chủ? Không lẽ cô Blurry đang dùng chiêu này để kiếm tiền sao?\"<br />\"Sao có thể thế được? Chắc chắn là do cô Blurry quá cầu toàn, mỗi trang đều phải vẽ mười lần, cho đến khi bản thân hài lòng mới thôi.\"",
+   "purpose": "Nguyên Liệu Vết Tích<br />Nguyên Liệu Nâng<br />Bậc Nón Ánh Sáng",
+   "rarity": 2,
+   "rewardPath": "/material/13618289",
+   "comeFrom": [
+    "Máy Ghép Vạn Năng - Trao Đổi Tương Đương",
+    "Đài Hoa Nhân Tạo: {TextID#FloorName_20502001}",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "19581247": {
+   "id": 19581247,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "35408b053de7de5269ff31a1ba619585ba820335effdd5706d6ce1c6f3566fb5",
+   "name": "Ống Nhìn Giấc Mộng",
+   "desc": "Mảnh Nguyện Lực của sinh vật Huyễn Tạo, nguyên liệu cao cấp dùng trong cường hóa.",
+   "lore": "Mọi câu chuyện đáng được đối xử nghiêm túc đều chia sẻ cùng một chủ đề: \"Con người vượt qua cuộc đời chỉ có một lần duy nhất như thế nào.\"<br />Sự sống vô cùng ngắn ngủi, dù là thánh hiền cũng không tránh khỏi việc bị ném vào trần thế một cách đột ngột, và trải qua một đoạn nhân sinh chẳng hề chuẩn bị. Cũng chính vì thế, con người luôn không thể vượt qua cuộc đời một cách hoàn hảo, nuối tiếc, phí hoài là điều khó lòng tránh khỏi.<br />Nhưng may mắn thay, chúng ta có những câu chuyện. Trong câu chuyện, người sáng tạo và người đọc được chia sẻ một đoạn nhân sinh khác; trong câu chuyện, sự sống của con người được kéo dài liên tục; trong câu chuyện, chúng ta chạm đến bất diệt giữa cái lồng hữu hạn.<br /><br />\"Nhờ có câu chuyện, chúng ta được sống hàng nghìn hàng vạn lần.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 4,
+   "rewardPath": "/material/19581247",
+   "comeFrom": [
+    "Sinh Vật Huyễn Tạo rớt sau khi đột phá đến Cân Bằng cấp 4",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  },
+  "19623238": {
+   "id": 19623238,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "d3a45deaad60ba483e1d632fe0d77918f540ea7f960114f92db1d30f97c40c6e",
+   "name": "Bút Sáp Chất Phác",
+   "desc": "Mảnh Nguyện Lực của sinh vật Huyễn Tạo, nguyên liệu đơn giản dùng trong cường hóa.",
+   "lore": "Trên vùng hoang vu hỗn mang chưa phân định, một người mẹ hỏi đứa con của mình: \"Con có phải là người làm hỏng cái cung của cha không?\" Đứa trẻ trả lời: \"Không phải con đâu, chắc chắn là người khác làm hỏng.\"<br />Người mẹ nổi giận nói: \"Trong hang động của chúng ta chẳng có ai khác đến. Nếu không phải con làm hỏng thì chỉ có thể là mẹ.\". Đứa trẻ tiếp tục trả lời: \"Là quỷ nhỏ làm đấy. Con tận mắt thấy nó làm hỏng cung của cha, nhưng chỉ có trẻ con mới nhìn thấy quỷ nhỏ thôi, nên mẹ không thấy.\"<br />Người mẹ tức giận đến bật cười: \"Thế con hãy nói xem, tại sao quỷ nhỏ đó lại phải làm hỏng cung của cha con?\" Đứa trẻ thản nhiên đáp: \"Cha đã giẫm hỏng tổ của nó rồi. Người lớn như cha mẹ không nhìn thấy quỷ nhỏ, nên dễ làm hỏng tổ của chúng lắm.\"<br />Đoạn hội thoại này rất có thể đã từng xảy ra, nhưng cũng có thể chưa bao giờ xảy ra. Nhưng dù sao thì chân lý mà nó ám chỉ cũng chắc chắn không sai - câu chuyện ban đầu sinh ra từ trí tưởng tượng của trẻ thơ.<br />Hàng tỉ năm sau đó, những trí tưởng tượng này sẽ không ngừng thay đổi thế giới này.<br /><br />\"Có câu chuyện, chúng ta mới có thể thoát khỏi thực tại.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 2,
+   "rewardPath": "/material/19623238",
+   "comeFrom": [
+    "Sinh Vật Huyễn Tạo rớt",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Thưởng Ủy Thác",
+    "Đổi Tro Tàn",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu",
+    "Đài Hoa Nhân Tạo (Vàng)"
+   ]
+  },
+  "19865384": {
+   "id": 19865384,
+   "type": 657,
+   "purposeId": 7,
+   "iconPath": "4f8fa0f63e51f4c179847911f218248e294d7c0a2514b8ebe819fe2decf6dfbc",
+   "name": "Thép Luyện Xây Mộng",
+   "desc": "Mảnh Nguyện Lực của sinh vật huyễn tạo, nguyên liệu thông thường dùng trong cường hóa.",
+   "lore": "Còn nhớ giai thoại lịch sử đó không? Sĩ quan chỉ vào bức tranh vạch trần bạo hành và chất vấn: \"Đây có phải do cô vẽ không?\"<br />Họa sĩ cười đáp: \"Không, đây là do các người vẽ.\"<br />Mọi nghệ thuật cố gắng thể hiện hiện thực đều không thể sao chép hiện thực. Bởi vì bề ngoài hời hợt của hiện thực không thể bao quát được hàm ý phi vật chất sâu sắc của nó.<br />Giống như một chiến sĩ đã khuất, nếu chỉ mô phỏng dung nhan sau khi chết, thì đó chỉ là một người bình thường khác trong vô số người chết trên đời. Nhưng nếu khám phá vượt ra ngoài hiện thực, tìm thấy những sự cao thượng, dũng cảm, phẫn nộ, bất cam mà mắt thường không thể thấy được, thì mới xem như thực sự tiệm cận với hiện thực thuộc về chiến sĩ đó.<br />Chỉ có như vậy, mọi người mới biết rằng, chiến sĩ này không chỉ là một người bình thường khác trong vô số người chết trên đời, người này đã khiến nơi có núi, có nước, có nhà cửa, cũng có thể có hơi thở con người.<br /><br />\"Có câu chuyện rồi, chúng ta mới có thể chống lại cái ác.\"",
+   "purpose": "Nguyên Liệu Vết Tích <br />Nguyên Liệu Nâng<br />Bậc Nhân Vật",
+   "rarity": 3,
+   "rewardPath": "/material/19865384",
+   "comeFrom": [
+    "Sinh Vật Huyễn Tạo rớt sau khi đột phá đến Cân Bằng cấp 2",
+    "Máy Ghép Vạn Năng - Ghép Nguyên Liệu",
+    "Kẻ địch trong Vũ Trụ Sai Phân",
+    "Kẻ địch trong Vũ Trụ Mô Phỏng",
+    "Máy Ghép Vạn Năng - Đổi Nguyên Liệu"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3000
+    },
+    {
+     "id": 19623238,
+     "count": 4
+    }
+   ],
+   "attackBase": 14.4,
+   "attackAdd": 2.16,
+   "hpBase": 38.4,
+   "hpAdd": 5.76,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6000
+    },
+    {
+     "id": 13618289,
+     "count": 2
+    },
+    {
+     "id": 19623238,
+     "count": 8
+    }
+   ],
+   "attackBase": 31.68,
+   "attackAdd": 2.16,
+   "hpBase": 84.48,
+   "hpAdd": 5.76,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12000
+    },
+    {
+     "id": 13251172,
+     "count": 2
+    },
+    {
+     "id": 19865384,
+     "count": 4
+    }
+   ],
+   "attackBase": 54.72,
+   "attackAdd": 2.16,
+   "hpBase": 145.92,
+   "hpAdd": 5.76,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 30000
+    },
+    {
+     "id": 13251172,
+     "count": 4
+    },
+    {
+     "id": 19865384,
+     "count": 6
+    }
+   ],
+   "attackBase": 77.76,
+   "attackAdd": 2.16,
+   "hpBase": 207.36,
+   "hpAdd": 5.76,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 60000
+    },
+    {
+     "id": 13525398,
+     "count": 3
+    },
+    {
+     "id": 19581247,
+     "count": 3
+    }
+   ],
+   "attackBase": 100.8,
+   "attackAdd": 2.16,
+   "hpBase": 268.8,
+   "hpAdd": 5.76,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 120000
+    },
+    {
+     "id": 13525398,
+     "count": 6
+    },
+    {
+     "id": 19581247,
+     "count": 5
+    }
+   ],
+   "attackBase": 123.84,
+   "attackAdd": 2.16,
+   "hpBase": 330.24,
+   "hpAdd": 5.76,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 146.88,
+   "attackAdd": 2.16,
+   "hpBase": 391.68,
+   "hpAdd": 5.76,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 20024,
+  "name": "Tưởng Niệm",
+  "descHash": "Khi Điểm Hài Hước sở hữu lớn hơn hoặc bằng <nobr>#1[i]</nobr>, Sát Thương Bạo Kích của người trang bị tăng <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[i]%</nobr></span>.",
+  "levelData": [
+   {
+    "params": [
+     10,
+     0.2
+    ],
+    "level": 1,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.25
+    ],
+    "level": 2,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.3
+    ],
+    "level": 3,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.35
+    ],
+    "level": 4,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "params": [
+     10,
+     0.4
+    ],
+    "level": 5,
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 40,
+   "2": 60,
+   "3": 100,
+   "4": 160,
+   "5": 220,
+   "6": 300,
+   "7": 380,
+   "8": 480,
+   "9": 580,
+   "10": 700,
+   "11": 820,
+   "12": 950,
+   "13": 1090,
+   "14": 1240,
+   "15": 1390,
+   "16": 1560,
+   "17": 1730,
+   "18": 1910,
+   "19": 2090,
+   "20": 2170,
+   "21": 2260,
+   "22": 2350,
+   "23": 2430,
+   "24": 2520,
+   "25": 2620,
+   "26": 2710,
+   "27": 2800,
+   "28": 2900,
+   "29": 2990,
+   "30": 3100,
+   "31": 3200,
+   "32": 3300,
+   "33": 3400,
+   "34": 3510,
+   "35": 3620,
+   "36": 3730,
+   "37": 3830,
+   "38": 3950,
+   "39": 4060,
+   "40": 4170,
+   "41": 4580,
+   "42": 4840,
+   "43": 5110,
+   "44": 5380,
+   "45": 5660,
+   "46": 5950,
+   "47": 6230,
+   "48": 6530,
+   "49": 6830,
+   "50": 7140,
+   "51": 7450,
+   "52": 7760,
+   "53": 8090,
+   "54": 8410,
+   "55": 8750,
+   "56": 9080,
+   "57": 9430,
+   "58": 9770,
+   "59": 10130,
+   "60": 10480,
+   "61": 10970,
+   "62": 11560,
+   "63": 12160,
+   "64": 12760,
+   "65": 13370,
+   "66": 13990,
+   "67": 14620,
+   "68": 15260,
+   "69": 15910,
+   "70": 16570,
+   "71": 18490,
+   "72": 20230,
+   "73": 22000,
+   "74": 23790,
+   "75": 25610,
+   "76": 27450,
+   "77": 29320,
+   "78": 31220,
+   "79": 33140,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "20024"
+}

@@ -454,7 +454,7 @@
    "iconPath": "0deae2be67c57b102557cf070114ebbaa708957dbb9cbc2c8e864c8d64c06beb",
    "artPath": "27d6d708185291d8f2893b241b0a88b1f5ef8914f8987d29adf07bee03ad9666",
    "name": "Ritual des Streuzuckers",
-   "descHash": "Nachdem Verbündete während der Dauer des Feldes Gegner angegriffen haben, wird bei dem Ziel, dem das Feld <u>zusätzlichen SCH</u> zufügt, zusätzlich <u>Tatsächlicher SCH</u> in Höhe von <nobr>#1[i]%</nobr> der gesamten Schadenmenge dieses Angriffs verursacht.",
+   "descHash": "Nachdem Verbündete während der Dauer des Kraftfelds Gegner angegriffen haben, wird bei dem Ziel, dem das Kraftfeld <u>zusätzlichen SCH</u> zufügt, zusätzlich <u>Tatsächlicher SCH</u> in Höhe von <nobr>#1[i]%</nobr> der gesamten Schadenmenge dieses Angriffs verursacht.",
    "params": [
     0.24
    ]
@@ -464,7 +464,7 @@
    "iconPath": "01f24d75c76ed114cd91093c873caa76662d2bad9b249aa23ac0bf216e26a1ee",
    "artPath": "81890460ea15d82cc8ef5a2d68a8ad9889923b611c5a61f3b10c165fc581bb7e",
    "name": "Guide zum süßen Traum",
-   "descHash": "Erhöht den durch das Feld verursachten <u>zusätzlichen SCH</u> auf <nobr>#1[i]%</nobr> des ursprünglichen SCH. Wenn das Feld <u>zusätzlichen SCH</u> verursacht, wird noch <nobr>#2[i]</nobr>-mal zusätzlicher SCH verursacht.",
+   "descHash": "Erhöht den durch das Kraftfeld verursachten <u>zusätzlichen SCH</u> auf <nobr>#1[i]%</nobr> des ursprünglichen SCH. Wenn das Kraftfeld <u>zusätzlichen SCH</u> verursacht, wird noch <nobr>#2[i]</nobr>-mal zusätzlicher SCH verursacht.",
    "params": [
     1.2,
     1
@@ -997,7 +997,7 @@
   },
   {
    "tagHash": "Flächenangriff",
-   "descHash": "Erzeugt ein Feld und fügt allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Tribbies max. LP zu.<br />Erhöht während der Dauer des Feldes den erlittenen SCH der Gegner um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>. Nachdem ein Verbündeter angegriffen hat, wird für jedes getroffene Ziel dem Ziel mit den höchsten LP 1-mal <u>zusätzlichen</u> <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> von Tribbies max. LP zugefügt.<br />Das Feld hält <nobr>#4[i]</nobr> Rd. an. Zu Beginn jeder Runde dieser Einheit wird die Dauer des Feldes um 1 verringert.",
+   "descHash": "Erzeugt ein Kraftfeld und fügt allen Gegnern <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#1[i]%</nobr></span> von Tribbies max. LP zu.<br />Erhöht während der Dauer des Kraftfelds den erlittenen SCH der Gegner um <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#2[f1]%</nobr></span>. Nachdem ein Verbündeter angegriffen hat, wird für jedes getroffene Ziel dem Ziel mit den höchsten LP 1-mal <u>zusätzlichen</u> <span style=\"color:#7788ff;\">Quanten</span>-SCH in Höhe von <span style=\"display: inline-block; color: #f29e38ff; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> von Tribbies max. LP zugefügt.<br />Das Kraftfeld hält <nobr>#4[i]</nobr> Rd. an. Zu Beginn jeder Runde dieser Einheit wird die Dauer des Kraftfelds um 1 verringert.",
    "ultimateCost": 120,
    "break": "60/hit",
    "energy": "5",
@@ -1827,7 +1827,7 @@
    ],
    "enhanceId": 0,
    "embedBonusSkill": {
-    "descHash": "Während das Feld aktiv ist, wird Tribbies max. LP um <nobr>#1[i]%</nobr> der Summe der max. LP aller Verbündeten erhöht.",
+    "descHash": "Während das Kraftfeld aktiv ist, wird Tribbies max. LP um <nobr>#1[i]%</nobr> der Summe der max. LP aller Verbündeten erhöht.",
     "ultimateCost": 0,
     "id": 9841376,
     "name": "Glasmurmeln mit Flügeln!",
